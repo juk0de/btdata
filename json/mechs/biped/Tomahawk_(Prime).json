@@ -1,0 +1,292 @@
+{
+    "chassis": "Tomahawk",
+    "model": "(Prime)",
+    "mul_id": 6298,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3063,
+    "source": "TRO: 3145 The Clans",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "mass": 100,
+    "engine": "300 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 18,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 46
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 41
+        },
+        "right_leg": {
+            "pips": 41
+        }
+    },
+    "weapons": {
+        "1": {
+            "Gauss Rifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Gauss Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Streak SRM 4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "Anti-Missile System": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "Streak SRM 4": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "9": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLGaussRifle (OMNIPOD)",
+            "4": "CLGaussRifle (OMNIPOD)",
+            "5": "CLGaussRifle (OMNIPOD)",
+            "6": "CLGaussRifle (OMNIPOD)",
+            "7": "CLGaussRifle (OMNIPOD)",
+            "8": "CLGaussRifle (OMNIPOD)",
+            "9": "CLERLargeLaser (OMNIPOD)",
+            "10": "Clan Gauss Ammo (OMNIPOD)",
+            "11": "Clan Gauss Ammo (OMNIPOD)",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLGaussRifle (OMNIPOD)",
+            "4": "CLGaussRifle (OMNIPOD)",
+            "5": "CLGaussRifle (OMNIPOD)",
+            "6": "CLGaussRifle (OMNIPOD)",
+            "7": "CLGaussRifle (OMNIPOD)",
+            "8": "CLGaussRifle (OMNIPOD)",
+            "9": "CLERLargeLaser (OMNIPOD)",
+            "10": "Clan Gauss Ammo (OMNIPOD)",
+            "11": "Clan Gauss Ammo (OMNIPOD)",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLStreakSRM4 (OMNIPOD)",
+            "6": "CLMediumPulseLaser (OMNIPOD)",
+            "7": "CLAntiMissileSystem (OMNIPOD)",
+            "8": "CLAMS Ammo (OMNIPOD)",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": "CLStreakSRM4 (OMNIPOD)",
+            "8": "CLMediumPulseLaser (OMNIPOD)",
+            "9": "Clan Streak SRM 4 Ammo (OMNIPOD)",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink (OMNIPOD)",
+            "12": "CLDoubleHeatSink (OMNIPOD)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLECMSuite (OMNIPOD)",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Tomahawk is an assault-class OmniMech designed by Clan Wolf in 3063. The 'Mech ultimately failed to enter production and remained a prototype, presumably due at least in part to the Clan's troubles during the Jihad.",
+        "deployment": "The Prime configuration is similar in its weapon layout to the later Tomahawk II. The Tomahawk's main weapons focus on pair of Gauss Rifles and ER Large Lasers, which are mounted in its arms. The close-range weaponry includes pair of Medium Pulse Lasers and Streak 4 launchers found in the side torsos. Other features include three additional Double Heat Sinks, an Anti-Missile System, and an ECM Suite.",
+        "history": "One these prototypes was piloted by Nathan Wolf in a Circle of Equals on Tamar when he attained the rank of Star Colonel. Although he was victorious against a Thor, it was noted that the Tomahawk still suffered from numerous system errors and gremlins and was not yet ready for mass production. Still, Nathan retained the 'Mech for his subsequent assignment to Omega Galaxy and successfully piloted it in combat on Novo Cressidas in the Star's End system on 11 April 3064. After the Jihad, the design was revisited and improved, and became the Tomahawk II which did enter line production.",
+        "manufacturer": [
+            "Clan Wolf"
+        ],
+        "primaryfactory": [
+            "Unknown"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Unspecified",
+            "engine": "Unspecified",
+            "armor": "Unspecified",
+            "jumpjet": "Unspecified",
+            "communications": "Unspecified",
+            "targeting": "Unspecified"
+        }
+    }
+}

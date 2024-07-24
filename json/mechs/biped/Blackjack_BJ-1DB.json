@@ -1,0 +1,259 @@
+{
+    "chassis": "Blackjack",
+    "model": "BJ-1DB",
+    "mul_id": 374,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3023,
+    "source": "TRO: 3039",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "bad_rep_is"
+    ],
+    "mass": 45,
+    "engine": "180 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "Single"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Large Laser",
+            "4": "Large Laser",
+            "5": "Medium Laser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Large Laser",
+            "4": "Large Laser",
+            "5": "Medium Laser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "Heat Sink",
+            "5": "Heat Sink",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "Heat Sink",
+            "5": "Heat Sink",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The original contract between General Motors and the SLDF sought for \"a medium BattleMech with insurrection suppression and fire-support capabilities.\" The outcome was the Blackjack. Despite meeting all of its production requirements, the Blackjack gained an unjust reputation and was rejected by the Star League.",
+        "capabilities": "The Blackjack's original mission was to assist in suppressing insurgent groups (mostly in the Periphery) that defied Star League authority in the decades preceding its demise. The Blackjack is only a minor success in its secondary capacity as a fire support platform. The autocannons lacked the firepower to take on heavily defended targets. At close range, though, the combination of lasers poses a significantly bigger threat. The addition of jump jets came late in the design phase, but the Whitworth Jetlift units have proven to be a vital asset over the decades.\u00a0The Blackjack's sole significant disadvantage was negative press, which stated that the entire project was a shambles because the 'Mech's basic architecture was defective and unstable.\u00a0The 'Mech's tiny footpads were alleged to cause falls and hamper maneuverability, or that the StarGuard II armor was brittle and tended to break off. Despite the fact that none of these accusations were ever proven, the Blackjack went out of favor, and few grieved the loss of GM's production line.",
+        "deployment": "The 1DB Blackjack is a Federated Suns variant intended to increase the 'Mech's lethality. Introduced in 3022 after the BJ-1's success on Xhosa VII, one ton of armor plus the arm-mounted autocannons and torso-mounted lasers were replaced with two large lasers, and six extra single heat sinks added to the design to handle the extra heat load.",
+        "history": "The Blackjack had limited use in the Star League, and manufacture was shortly discontinued. Relegated to service with Hegemony planetary militia or sold to League member nations, it can still be encountered on the battlefield today. The majority of them now fight for the Capellan Confederation and the Federated Suns.\u00a0The Confederation has nothing but disdain for the design. The breakaway St. Ives Compact, on the other hand, could not be as picky, and the Blackjack serves in the St. Ives Lancers.\u00a0The Federated Suns used the Blackjack in the March Militias until the myth of the Blackjack's inferiority was busted on Xhosa VII in 3022. The Crucis Lancers and Deneb Light Cavalry were re-interested in the 'Mech.",
+        "manufacturer": [
+            "General Motors (Refit)"
+        ],
+        "primaryfactory": [
+            "Kathil"
+        ],
+        "systemmanufacturer": {
+            "chassis": "GM BJ-1",
+            "engine": "GM 180",
+            "armor": "StarGuard II",
+            "jumpjet": "Whitworth Jetlift",
+            "communications": "Dalban Micronics",
+            "targeting": "Dalban AQ"
+        }
+    }
+}

@@ -1,0 +1,251 @@
+{
+    "chassis": "Rime Otter",
+    "model": "A",
+    "mul_id": 8310,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3146,
+    "source": "Rec Guide:ilClan #19",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "imp_sensors",
+        "rugged_1",
+        "difficult_maintain"
+    ],
+    "mass": 55,
+    "engine": "275 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Reinforced",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 18
+        },
+        "right_arm": {
+            "pips": 18
+        },
+        "left_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 25
+        },
+        "right_leg": {
+            "pips": 25
+        }
+    },
+    "weapons": {
+        "1": {
+            "Streak SRM 6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 15": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLStreakSRM6 (OMNIPOD)",
+            "6": "CLStreakSRM6 (OMNIPOD)",
+            "7": "CLERLargeLaser (OMNIPOD)",
+            "8": "Clan Streak SRM 6 Ammo (OMNIPOD)",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLLRM15 (OMNIPOD)",
+            "6": "CLLRM15 (OMNIPOD)",
+            "7": "CLArtemisV (OMNIPOD)",
+            "8": "CLArtemisV (OMNIPOD)",
+            "9": "Clan Ammo LRM-15 (Clan) Artemis V-capable (OMNIPOD)",
+            "10": "Clan Ammo LRM-15 (Clan) Artemis V-capable (OMNIPOD)",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (OMNIPOD)",
+            "4": "Jump Jet (OMNIPOD)",
+            "5": "CLMASC",
+            "6": "CLMASC",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "Jump Jet (OMNIPOD)",
+            "6": "Jump Jet (OMNIPOD)",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet (OMNIPOD)",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "manufacturer": [
+            "J\u00f6tunn BattleWorx"
+        ],
+        "primaryfactory": [
+            "Goito"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type 56-55C Modified Reinforced",
+            "engine": "RUFM XL 275",
+            "armor": "IceSheet Ferro-Fibrous",
+            "communications": "Garret T10B",
+            "targeting": "GC Heimdallr System Type 1"
+        }
+    }
+}

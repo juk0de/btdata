@@ -1,0 +1,276 @@
+{
+    "chassis": "Vanquisher",
+    "model": "VQR-2B",
+    "mul_id": 5339,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3067,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "TRO: 3067",
+    "quirks": [
+        "stable",
+        "bad_rep_clan",
+        "bad_rep_is",
+        "no_arms"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISUltraAC5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 120
+            }
+        },
+        "2": {
+            "ISUltraAC5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ISERMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISERMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISImprovedC3CPU": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISERMediumLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISUltraAC5",
+            "4": "ISUltraAC5",
+            "5": "ISUltraAC5",
+            "6": "ISUltraAC5",
+            "7": "ISUltraAC5",
+            "8": "ISUltraAC5",
+            "9": "ISUltraAC5",
+            "10": "ISUltraAC5",
+            "11": "ISUltraAC5",
+            "12": "ISUltraAC5"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISUltraAC5",
+            "4": "ISUltraAC5",
+            "5": "ISUltraAC5",
+            "6": "ISUltraAC5",
+            "7": "ISUltraAC5",
+            "8": "ISUltraAC5",
+            "9": "ISUltraAC5",
+            "10": "ISUltraAC5",
+            "11": "ISUltraAC5",
+            "12": "ISUltraAC5"
+        },
+        "left_torso": {
+            "1": "ISERMediumLaser",
+            "2": "ISUltraAC5 Ammo",
+            "3": "ISUltraAC5 Ammo",
+            "4": "ISUltraAC5 Ammo",
+            "5": "ISCASE",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISERMediumLaser",
+            "2": "ISUltraAC5 Ammo",
+            "3": "ISUltraAC5 Ammo",
+            "4": "ISUltraAC5 Ammo",
+            "5": "ISCASE",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISImprovedC3CPU",
+            "12": "ISImprovedC3CPU"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISERMediumLaser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree.",
+        "capabilities": "In order to allow it to carry as heavy a payload as possible without sacrificing durability, the 'Mech is built on a Hollis Alteration Mark VI Endo Steel that carries a Vlar 300 fusion engine, which propels the 'Mech to a top speed of 54 km/h. The Vanquisher is protected by nineteen and a half tons of armor with CASE in both side torsos to protect the 'Mech from going down in an ammunition explosion.",
+        "deployment": "The 2B variant of the Vanquisher makes up roughly fifteen percent of the current production run. This variant carries four Ultra Autocannon/5s in place of the Light Gauss Rifles and ER Large Lasers. While this variant is much more reliant on ammunition based weapons, the four Ultra Autocannon/5s allow the 'Mech to put more fire downrange at a somewhat shorter range envelope than the 2A variant.",
+        "history": "The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request.",
+        "manufacturer": [
+            "Skobel MechWorks"
+        ],
+        "primaryfactory": [
+            "Russia",
+            "Terra"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hollis Alteration Mark VI",
+            "engine": "Vlar 300",
+            "armor": "Aldis Plate with CASE",
+            "communications": "Skobel Wave VI Comm with C3i Computer",
+            "targeting": "Falcon 12b Watcher"
+        }
+    }
+}

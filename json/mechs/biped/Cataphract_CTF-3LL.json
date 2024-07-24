@@ -1,0 +1,274 @@
+{
+    "chassis": "Cataphract",
+    "model": "CTF-3LL",
+    "mul_id": 471,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3068,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "pro_actuator"
+    ],
+    "mass": 70,
+    "engine": "280 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "IS Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Plasma Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "LB 10-X AC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "ISDoubleHeatSink",
+            "10": "ISDoubleHeatSink",
+            "11": "ISERMediumLaser",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "ISPlasmaRifle",
+            "10": "ISPlasmaRifle",
+            "11": "ISERMediumLaser",
+            "12": "ISPlasmaRifleAmmo"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISMASC",
+            "8": "ISMASC",
+            "9": "ISMASC",
+            "10": "ISMASC",
+            "11": "ISMediumPulseLaser (R)",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISLBXAC10",
+            "5": "ISLBXAC10",
+            "6": "ISLBXAC10",
+            "7": "ISLBXAC10",
+            "8": "ISLBXAC10",
+            "9": "ISLBXAC10",
+            "10": "ISMediumPulseLaser (R)",
+            "11": "IS LB 10-X AC Ammo",
+            "12": "IS LB 10-X AC Ammo"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISPlasmaRifleAmmo",
+            "12": "ISPlasmaRifleAmmo"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Cataphract is a heavy BattleMech and one of the first original designs since the start of the Succession Wars.",
+        "capabilities": "The Cataphract, with its armor layers, can easily absorb damage, but it can also deal it. The CeresArms Smasher PPC (taken from the Vindicator) and the SarLon MaxiCannon combine to deliver a brutal punch at greater ranges. A quartet of CeresArms medium lasers close in to give short-range firepower to both the front and rear.",
+        "deployment": "This basic refit of the 3L replaced the PPC with a plasma rifle. Tonnage was freed up for its three tons of ammunition by swapping out the two forward-facing pulse lasers for ER medium lasers. The reduced heat load gives the 3LL the luxury of not building heat before it is damaged.",
+        "history": "Desperate for a heavy 'Mech design that could be produced and maintained sustainably by their deteriorating infrastructure, the Capellan Confederation built the Cataphract in 3025 to be assembled from pieces they could still manufacture. The Cataphract, dubbed a FrankenMech for its appearance and built with parts from the Marauder, Shadow Hawk, and Phoenix Hawk, was destined to become the Confederation's new standard heavy 'Mech. It entered service just before the Fourth Succession War, when the Tikonov production line was taken over by the Federated Suns. This humiliating defeat was exacerbated when numerous Davion troops, especially the Crucis Lancers, adopted the Cataphract as their own. Tikonov's product quality, on the other hand, left the Federated Suns wanting (at least in part due to deliberate obstruction by workers still loyal to the Confederation). The Confederation finally restored the lost plant with one on Betelgeuse in 3032, building their own Cataphracts in time for the Andurien Crisis. Shortly after seizing Tikonov, the Federated Commonwealth began development of the CTF-3D, which was designed to compete with an attack 'Mech while being as adaptable as feasible. Despite the modifications, the CTF-3D was only used sparingly by the Armed Forces of the Federated Commonwealth before being consigned to the Crucis March Militia as an affront to the Capellans. When the Clan Invasion began, everything that was still in production, including the Cataphract, was rushed to the front lines. The Capellans, for their part, were able to manufacture the CTF-3D from stolen schematics and went on to create their own variant, the CTF-3L, which would go on to account for 25% of all newly acquired heavy 'Mechs during the 3050s. The design's popularity would decrease in the years that followed, while a few new varieties would continue to be created as new technologies and demands arose.",
+        "manufacturer": [
+            "Earthwerks Ltd."
+        ],
+        "primaryfactory": [
+            "Grand Base"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Earthwerks CTF",
+            "engine": "280 GM XL",
+            "armor": "Kallon Royalstar with CASE",
+            "jumpjet": "HildCo Model 12",
+            "communications": "CommuTech Multi-Channel 10",
+            "targeting": "BlazeFire Sightlock"
+        }
+    }
+}

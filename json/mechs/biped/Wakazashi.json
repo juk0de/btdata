@@ -1,0 +1,229 @@
+{
+    "chassis": "Wakazashi",
+    "model": "",
+    "mul_id": 3475,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 2830,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "TRO: Golden Century",
+    "quirks": [
+        "difficult_maintain"
+    ],
+    "mass": 85,
+    "engine": "255 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 28
+        },
+        "right_arm": {
+            "pips": 28
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 36
+            },
+            "rear": {
+                "pips": 18
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 36
+        },
+        "right_leg": {
+            "pips": 36
+        }
+    },
+    "weapons": {
+        "1": {
+            "CLERPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "CLERMediumLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "CLERMediumLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "CLGaussRifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "5": {
+            "CLLBXAC20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 15
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGaussRifle",
+            "8": "CLGaussRifle",
+            "9": "CLGaussRifle",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERPPC",
+            "6": "CLERPPC",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "CLDouble Heat Sink",
+            "2": "CLDouble Heat Sink",
+            "3": "Jump Jet",
+            "4": "CLLBXAC20 CL Ammo",
+            "5": "CLLBXAC20 CL Ammo",
+            "6": "CLLBXAC20 Ammo",
+            "7": "CLGauss Ammo",
+            "8": "CLGauss Ammo",
+            "9": "CLGauss Ammo",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_torso": {
+            "1": "CLDouble Heat Sink",
+            "2": "CLDouble Heat Sink",
+            "3": "Jump Jet",
+            "4": "CLLBXAC20",
+            "5": "CLLBXAC20",
+            "6": "CLLBXAC20",
+            "7": "CLLBXAC20",
+            "8": "CLLBXAC20",
+            "9": "CLLBXAC20",
+            "10": "CLLBXAC20",
+            "11": "CLLBXAC20",
+            "12": "CLLBXAC20"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Jump Jet",
+            "12": "CLERMediumLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLERMediumLaser",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink"
+        }
+    }
+}

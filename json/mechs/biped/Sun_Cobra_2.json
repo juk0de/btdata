@@ -1,0 +1,226 @@
+{
+    "chassis": "Sun Cobra",
+    "model": "2",
+    "mul_id": 6893,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3093,
+    "source": "Record Sheets: 3145 New Tech New Upgrades",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "pro_actuator"
+    ],
+    "mass": 55,
+    "engine": "330 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 18
+        },
+        "right_arm": {
+            "pips": 18
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERPPC",
+            "5": "CLERPPC",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERPPC",
+            "5": "CLERPPC",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLTargeting Computer",
+            "4": "CLTargeting Computer",
+            "5": "CLTargeting Computer",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "Clan Endo Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink",
+            "12": "CLDoubleHeatSink"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

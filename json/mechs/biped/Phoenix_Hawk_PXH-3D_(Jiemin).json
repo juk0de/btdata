@@ -1,0 +1,230 @@
+{
+    "chassis": "Phoenix Hawk",
+    "model": "PXH-3D (Jiemin)",
+    "mul_id": 7699,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3065,
+    "source": "Operational Turning Points: Fronc Reaches",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "command_mech",
+        "imp_com"
+    ],
+    "weaponquirk": "jettison_capable:RA:4:ISLargeXPulseLaser",
+    "mass": 45,
+    "engine": "315 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium X-Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large X-Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumXPulseLaser",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISLargeXPulseLaser",
+            "6": "ISLargeXPulseLaser",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "IS Ferro-Fibrous",
+            "8": "IS Ferro-Fibrous",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Jump Jet",
+            "8": "Jump Jet",
+            "9": "Jump Jet",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "IS Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "imagefile": ".\\data\\images\\fluff\\mech\\Phoenix Hawk Classic.jpg"
+}

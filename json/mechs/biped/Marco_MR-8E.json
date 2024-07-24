@@ -1,0 +1,204 @@
+{
+    "chassis": "Marco",
+    "model": "MR-8E",
+    "mul_id": 2074,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2801,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "source": "Record Sheets: Operation Klondike",
+    "mass": 30,
+    "engine": "120 Fusion Engine",
+    "structure": {
+        "type": "Industrial",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Industrial Cockpit",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Single"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_torso": {
+            "front": {
+                "pips": 6
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 6
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 9
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISMediumPulseLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ISMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumLaser",
+            "6": "ISMediumLaser",
+            "7": "Environmental Sealing",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Environmental Sealing",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "Environmental Sealing",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "ISMediumPulseLaser",
+            "4": "ISMediumPulseLaser",
+            "5": "Environmental Sealing",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Heat Sink",
+            "12": "Environmental Sealing"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Environmental Sealing",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Environmental Sealing"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Environmental Sealing"
+        }
+    }
+}

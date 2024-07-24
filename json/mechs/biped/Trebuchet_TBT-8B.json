@@ -1,0 +1,256 @@
+{
+    "chassis": "Trebuchet",
+    "model": "TBT-8B",
+    "mul_id": 3301,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3071,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "weaponquirk": "fast_reload:RT:9:ISMML5",
+    "mass": 50,
+    "engine": "300 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "IS Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "weapons": {
+        "1": {
+            "MML 5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "3": {
+            "MML 5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMML5",
+            "6": "ISMML5",
+            "7": "ISMML5",
+            "8": "ISMML5",
+            "9": "ISMML5",
+            "10": "ISMML5",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISERMediumLaser",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": "ISERMediumLaser",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "IS Ammo MML-5 LRM",
+            "5": "IS Ammo MML-5 LRM",
+            "6": "IS Ammo MML-5 SRM",
+            "7": "ISCASE",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISMML5",
+            "8": "ISMML5",
+            "9": "ISMML5",
+            "10": "ISMML5",
+            "11": "ISMML5",
+            "12": "ISMML5"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Trebuchet (also jovially referred to as the Trenchbucket) is a mainline medium weight BattleMech considered to be a fine blend of long- and short-range fire support for a unit of its size.",
+        "capabilities": "Unlike many other pre-Clan 'Mechs, the Trebuchet was designed from the beginning to work as part of a lance instead of functioning as a standalone model.",
+        "deployment": "Kali Yama Weapons Industries began production on this variant in 3071 in an attempt to combine the best features of previous models, using the XL engine from the extinct 3C and jump jets from the 5J. The LRMs are replaced with four MML 5s, two mounted in the left arm and right torso, supplemented by four ER Medium Lasers on the right arm. Thirteen double heat sinks keep the 'Mech relatively cool, though some heat management is required. It uses an Endo Steel chassis.",
+        "history": "The Trebuchet first walked off assembly lines in 2780 for the SLDF in the final years of the Star League, between the liberation of Terra from Stefan Amaris and Aleksandr Kerensky's departure. With the onset of the Succession Wars the Trebuchet would become an almost exclusive staple of the Free Worlds League since its manufacturing site on Stewart fell within their territory. However the original TBT-3C models proved to be too difficult to repair and produce with the disappearance of advanced technology, and in 2799 Corean Enterprises went back to the drawing board to create the TBT-5N using older, mass-producible technology. The Free Worlds League Military often partnered the Trebuchet with the Archer, while lances consisting of an Archer, two Trebuchets and a Centurion became a common configuration used for siege operations and by the Regulan Hussars. However the design also found its way into the hands of the other Great Houses and served with distinction during the Succession Wars in nearly every major operation, with a number of variants created to fulfill various needs. The technological renaissance which swept through the Inner Sphere during the 3030s allowed first Kali Yama and then the Irian corporations to begin producing the Trebuchet as well, culminating in upgraded designs debuting several years prior to the Clan Invasion. As late as 3071 advanced Trebuchet variants would continue to be produced and found themselves used by new actors on the galactic stage, most notoriously the Word of Blake.",
+        "manufacturer": [
+            "Kali Yama Weapons Industries Inc",
+            "Field Refit"
+        ],
+        "primaryfactory": [
+            "Kalidasa",
+            "Field Refit"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Corean-II Deluxe Endo Steel",
+            "engine": "Magna 250 XL",
+            "armor": "Starshield with CASE",
+            "jumpjet": "Rawlings 50",
+            "communications": "Corean TransBand-J9",
+            "targeting": "Corean B-Tech"
+        }
+    }
+}

@@ -1,0 +1,269 @@
+{
+    "chassis": "Naga",
+    "model": "C",
+    "mul_id": 2249,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 2869,
+    "source": "TRO: 3055",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "ext_twist",
+        "bad_rep_clan",
+        "no_arms"
+    ],
+    "mass": 80,
+    "engine": "400 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "weapons": {
+        "1": {
+            "Arrow IV": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Arrow IV": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLArrowIV",
+            "4": "CLArrowIV",
+            "5": "CLArrowIV",
+            "6": "CLArrowIV",
+            "7": "CLArrowIV",
+            "8": "CLArrowIV",
+            "9": "CLArrowIV",
+            "10": "CLArrowIV",
+            "11": "CLArrowIV",
+            "12": "CLArrowIV"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLArrowIV",
+            "4": "CLArrowIV",
+            "5": "CLArrowIV",
+            "6": "CLArrowIV",
+            "7": "CLArrowIV",
+            "8": "CLArrowIV",
+            "9": "CLArrowIV",
+            "10": "CLArrowIV",
+            "11": "CLArrowIV",
+            "12": "CLArrowIV"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLArrowIV",
+            "4": "CLArrowIV",
+            "5": "CLSRM6 (omnipod)",
+            "6": "Clan Ammo SRM-6 (omnipod)",
+            "7": "CLArrowIVAmmo (omnipod)",
+            "8": "CLArrowIVAmmo (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLArrowIV",
+            "4": "CLArrowIV",
+            "5": "CLERSmallLaser (omnipod)",
+            "6": "CLArrowIVAmmo (omnipod)",
+            "7": "CLArrowIVAmmo (omnipod)",
+            "8": "Clan Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLERSmallLaser (omnipod)",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Naga BattleMech, named for its resemblance to a mythological cobra, stands as an unusual design in a culture that values personal glory and ritual combat. Originating from Clan Wolf, the Naga was developed from a modified Woodsman chassis, equipped to carry a pair of Arrow IV launchers. Despite initial skepticism due to its focus on indirect fire support rather than direct combat, the Naga quickly demonstrated its strategic value on the battlefield.",
+        "capabilities": "The primary role of the Naga is to provide sustained artillery support while maintaining a degree of mobility. Its standard configuration emphasizes this role, equipped with six tons of missile ammunition but minimal short-range defense,",
+        "deployment": "The Naga C, a variant of the 80-ton Clan OmniMech, maintains its role as an artillery support unit with a focus on mixed-range combat. It features a robust 400 XL (Clan) Engine encased in a Clan Endo Steel structure, granting it notable speed and strength for its class.Equipped with dual Arrow IV missile systems in the torso, the Naga C excels in long-range bombardment, similar to other models in its series. However, it diverges from its counterparts by including an SRM 6 launcher, enhancing its effectiveness in closer combat situations. This addition, along with a pair of ER Small Lasers, gives the Naga C a more balanced approach to battlefield engagements, allowing it to effectively support its allies in both long-range artillery strikes and more direct skirmishes. The inclusion of short-range missiles alongside its long-range arsenal makes the Naga C a versatile asset on the battlefield, capable of adapting to various combat scenarios.",
+        "history": "First deployed in the mid-2900s, the Naga's adoption across various Clans was gradual. Its effectiveness was convincingly demonstrated during the battle for Tukayyid, where Clan Wolf's Naga-equipped artillery Stars played a pivotal role. Notably, the Nagas were instrumental in Wolf\u2019s victory at Brzo and Skupo, significantly weakening ComStar\u2019s Tenth Army. This success led to its wider acceptance and deployment among several other Clans, including the Hell\u2019s Horses, Snow Ravens, Star Adders, Cloud Cobras, and in limited numbers, the Jade Falcons.",
+        "manufacturer": [
+            "Manufacturing Plant WA3"
+        ],
+        "primaryfactory": [
+            "Arcadia"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type BMH-7 Endo Steel",
+            "engine": "Fusion 400 XL",
+            "armor": "Forged Type 34 Standard",
+            "communications": "Type G3, Mk. XII",
+            "targeting": "ArTrack 2 TTS"
+        }
+    }
+}

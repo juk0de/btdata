@@ -1,0 +1,240 @@
+{
+    "chassis": "Shadow Hawk",
+    "model": "SHD-8L",
+    "mul_id": 2909,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3079,
+    "source": "TRO: 3085",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "imp_life_support",
+        "ubiquitous_clan",
+        "ubiquitous_is",
+        "rugged_1"
+    ],
+    "mass": 55,
+    "engine": "275 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Compact Gyro",
+    "ejection": "Full Head Ejection System",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium VSP Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Plasma Rifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "MML 5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "BeagleActiveProbe",
+            "6": "BeagleActiveProbe",
+            "7": "ISGuardianECMSuite",
+            "8": "ISGuardianECMSuite",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumVariableSpeedLaser",
+            "6": "ISMediumVariableSpeedLaser",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Improved Jump Jet",
+            "5": "Improved Jump Jet",
+            "6": "Improved Jump Jet",
+            "7": "Improved Jump Jet",
+            "8": "ISPlasmaRifle",
+            "9": "ISPlasmaRifle",
+            "10": "ISPlasmaRifleAmmo",
+            "11": "ISPlasmaRifleAmmo",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Improved Jump Jet",
+            "5": "Improved Jump Jet",
+            "6": "Improved Jump Jet",
+            "7": "Improved Jump Jet",
+            "8": "ISMML5",
+            "9": "ISMML5",
+            "10": "ISMML5",
+            "11": "IS Ammo MML-5 LRM",
+            "12": "IS Ammo MML-5 SRM"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "Improved Jump Jet",
+            "10": "Improved Jump Jet",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Improved Jump Jet",
+            "6": "Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Improved Jump Jet",
+            "6": "Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

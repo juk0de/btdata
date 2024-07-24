@@ -1,0 +1,261 @@
+{
+    "chassis": "Shadow Hawk IIC",
+    "model": "9",
+    "mul_id": 6911,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3134,
+    "source": "Record Sheets: 3145 New Tech New Upgrades",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "imp_life_support"
+    ],
+    "mass": 45,
+    "engine": "270 Fusion (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ATM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERLargeLaser",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERMediumLaser",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "Jump Jet",
+            "4": "Clan Ammo ATM-6",
+            "5": "Clan Ammo ATM-6",
+            "6": "Clan Endo Steel",
+            "7": "Clan Endo Steel",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "Jump Jet",
+            "4": "CLATM6",
+            "5": "CLATM6",
+            "6": "CLATM6",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLERMediumLaser",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Shadow Hawk IIC is a second-line Clan BattleMech based upon the Shadow Hawk that was first fielded by the Star League.",
+        "capabilities": "The inexpensive unit is protected by seven and a half tons of Ferro-Fibrous armor, mounted on a weight-saving Endo Steel chassis. This medium 'Mech can reach a respectable top speed of 97 km/h, though it also carries enough jump jets to vault up to 180 meters at a time.",
+        "deployment": "This variant was introduced in the Dark Age. It carries an ER Large Laser, an ATM-6, and two ER Medium Lasers. It has a top speed of 96 km/h, and can jump 180 meters at a time.",
+        "manufacturer": [
+            "Unknown"
+        ],
+        "primaryfactory": [
+            "Unknown"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Lang T3",
+            "engine": "Consolidated Fusion 270 Standard",
+            "armor": "Compound H17 Ferro-Fibrous",
+            "jumpjet": "Northrup Starlifters M45",
+            "communications": "JNE Integrated",
+            "targeting": "TRTTS Mark II"
+        }
+    }
+}

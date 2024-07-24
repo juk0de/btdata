@@ -1,0 +1,262 @@
+{
+    "chassis": "Shadow Hawk IIC",
+    "model": "7",
+    "mul_id": 2917,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3080,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "imp_life_support"
+    ],
+    "mass": 45,
+    "engine": "225 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 8,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ATM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Large Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERMediumLaser",
+            "6": "CLMediumPulseLaser",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Clan Improved Jump Jet",
+            "4": "Clan Improved Jump Jet",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": "Clan Improved Jump Jet",
+            "8": "Clan Improved Jump Jet",
+            "9": "Clan Ammo ATM-6",
+            "10": "Clan Ammo ATM-6 ER",
+            "11": "Clan Ammo ATM-6 HE",
+            "12": "Liquid Storage (1 ton)"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Clan Improved Jump Jet",
+            "4": "Clan Improved Jump Jet",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": "CLATM6",
+            "8": "CLATM6",
+            "9": "CLATM6",
+            "10": "CLERLargeLaser",
+            "11": "Liquid Storage (1 ton)",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Clan Improved Jump Jet",
+            "12": "Clan Improved Jump Jet"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Shadow Hawk IIC is a second-line Clan BattleMech based upon the Shadow Hawk that was first fielded by the Star League.",
+        "capabilities": "The inexpensive unit is protected by seven and a half tons of Ferro-Fibrous armor, mounted on a weight-saving Endo Steel chassis. This medium 'Mech can reach a respectable top speed of 97 km/h, though it also carries enough jump jets to vault up to 180 meters at a time.",
+        "deployment": "This Clan Snow Raven variant is used in space combat to support or repel boarding attacks. By carrying eight Improved Jump Jets tied into extended capacity fuel tanks, the Shadow Hawk IIC 7 can maneuver in space very easily. On the ground the smaller XL Engine used reduces the top speed slightly, but the jump jets easily compensate for this. To reduce handling problems in space the weapons array consists of low-recoil ER Large and Medium lasers with a Medium Pulse Laser. In fact the only recoil-inducing weapon is the ATM-6 in the right torso. Three tons of ammunition space allow the IIC 7 pilot to tailor the weapon load depending on the situation.",
+        "manufacturer": [
+            "Eden Rose [Potemkin Class]/Facility 12-D",
+            "Snow Raven Industrial Complex Alpha"
+        ],
+        "primaryfactory": [
+            "Dante",
+            "Dante"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Lang T3",
+            "engine": "Consolidated Fusion 270 Standard",
+            "armor": "Compound H17 Ferro-Fibrous",
+            "jumpjet": "Northrup Starlifters M45",
+            "communications": "JNE Integrated",
+            "targeting": "TRTTS Mark II"
+        }
+    }
+}

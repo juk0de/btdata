@@ -1,0 +1,237 @@
+{
+    "chassis": "Vulpes",
+    "model": "VLP-1DX 'Beast'",
+    "mul_id": 8382,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3134,
+    "source": "TRO: 3145 Federated Suns",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "mass": 60,
+    "engine": "240 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Anti-Penetrative Ablation",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "RISC Advanced Point Defense System": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Flamer": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISClaw",
+            "5": "ISClaw",
+            "6": "ISClaw",
+            "7": "ISClaw",
+            "8": "CLERMediumPulseLaser",
+            "9": "CLERMediumPulseLaser",
+            "10": "ER Flamer",
+            "11": "ER Flamer",
+            "12": "IS Anti-Penetrative Ablation"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISClaw",
+            "5": "ISClaw",
+            "6": "ISClaw",
+            "7": "ISClaw",
+            "8": "CLERLargeLaser",
+            "9": "IS Anti-Penetrative Ablation",
+            "10": "IS Anti-Penetrative Ablation",
+            "11": "IS Anti-Penetrative Ablation",
+            "12": "IS Anti-Penetrative Ablation"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISAPDS",
+            "4": "ISAPDS",
+            "5": "ISAPDS Ammo",
+            "6": "IS Anti-Penetrative Ablation",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "ISDroneOperatingSystem",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Talons",
+            "6": "Talons",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Talons",
+            "6": "Talons",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

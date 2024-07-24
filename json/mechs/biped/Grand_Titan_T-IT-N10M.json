@@ -1,0 +1,294 @@
+{
+    "chassis": "Grand Titan",
+    "model": "T-IT-N10M",
+    "mul_id": 1265,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3054,
+    "source": "TRO: 3055",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "multi_trac",
+        "difficult_maintain"
+    ],
+    "mass": 100,
+    "engine": "400 XL Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 29
+        },
+        "right_arm": {
+            "pips": 29
+        },
+        "left_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 42
+            },
+            "rear": {
+                "pips": 19
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 38
+        },
+        "right_leg": {
+            "pips": 38
+        }
+    },
+    "weapons": {
+        "1": {
+            "LRM 15": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Large Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Small Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "SRM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "Small Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "9": {
+            "AMS": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "LRM 15",
+            "6": "LRM 15",
+            "7": "LRM 15",
+            "8": "ISArtemisIV",
+            "9": "ISMediumPulseLaser",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISLargePulseLaser",
+            "6": "ISLargePulseLaser",
+            "7": "ISLargePulseLaser",
+            "8": "ISLargePulseLaser",
+            "9": "ISMediumPulseLaser",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "SRM 6",
+            "5": "SRM 6",
+            "6": "ISArtemisIV",
+            "7": "ISSmallPulseLaser (R)",
+            "8": "IS Ammo SRM-6 Artemis-capable",
+            "9": "IS Ammo LRM-15 Artemis-capable",
+            "10": "IS Ammo LRM-15 Artemis-capable",
+            "11": "Endo Steel",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "SRM 6",
+            "5": "SRM 6",
+            "6": "ISArtemisIV",
+            "7": "ISSmallPulseLaser (R)",
+            "8": "IS Ammo SRM-6 Artemis-capable",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISAMS Ammo",
+            "12": "Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISAntiMissileSystem",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Grand Titan was designed by Vining Engineering and Salvage Team to take on the best 'Mechs that the Inner Sphere or the Clans had to offer.",
+        "capabilities": "The 'Mech is built on an Endo Steel chassis and with a LTV 400 XL Engine, which propels the Grand Titan to a top speed of 64.8 kph, to save as much weight as possible. The Grand Titan also carries eighteen tons of armor.",
+        "deployment": "The Grand Titan carries a large arsenal of weapons that allow it to work best at short to medium range. The longest-range weapon carried is a Holly LRM-15 launcher linked to an Artemis IV fire control system for greater accuracy. The 'Mech also carries two Diverse Optics Type 20 Large Pulse Lasers which it brings to bear on an enemy as it closes ranges. Once at close range, the 'Mech carries two Diverse Optics Medium Pulse Lasers, two Diverse Optics Small Pulse Lasers, and a pair of Holly SRM-6 launchers with Artemis IV fire control systems. For protection from missile attacks, the 'Mech has a McArthur Anti-Missile System.",
+        "history": "The design of the Grand Titan was sold to Earthwerks Incorporated in the Free Worlds League and has become a 'Mech commonly seen in the FWLM and the Word of Blake militia.",
+        "manufacturer": [
+            "Earthwerks Ltd."
+        ],
+        "primaryfactory": [
+            "Keystone Plant #3"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Corean Model 101BLP Endo Steel",
+            "engine": "LTV 400 XL",
+            "armor": "Durallex Heavy",
+            "communications": "Hartford JEA-1",
+            "targeting": "O/P FiberFeed 201 with Artemis IV FCS Interface"
+        }
+    }
+}

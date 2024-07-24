@@ -1,0 +1,265 @@
+{
+    "generator": "MegaMek Suite 0.49.18-SNAPSHOT on 2024-01-09",
+    "chassis": "Iron Cheetah",
+    "model": "B",
+    "mul_id": 8321,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3054,
+    "source": "Rec Guide:ilClan #19",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "mass": 100,
+    "engine": "400 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 18,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 16,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 48
+            },
+            "rear": {
+                "pips": 14
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "3": {
+            "Large Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "5": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLLargePulseLaser (OMNIPOD)",
+            "5": "CLLargePulseLaser (OMNIPOD)",
+            "6": "CLMediumPulseLaser (OMNIPOD)",
+            "7": "CLMediumPulseLaser (OMNIPOD)",
+            "8": "CLMediumPulseLaser (OMNIPOD)",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLLargePulseLaser (OMNIPOD)",
+            "5": "CLLargePulseLaser (OMNIPOD)",
+            "6": "CLMediumPulseLaser (OMNIPOD)",
+            "7": "CLMediumPulseLaser (OMNIPOD)",
+            "8": "CLMediumPulseLaser (OMNIPOD)",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (OMNIPOD)",
+            "4": "Jump Jet (OMNIPOD)",
+            "5": "CLTargeting Computer (OMNIPOD)",
+            "6": "CLTargeting Computer (OMNIPOD)",
+            "7": "CLTargeting Computer (OMNIPOD)",
+            "8": "CLTargeting Computer (OMNIPOD)",
+            "9": "CLTargeting Computer (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": "Jump Jet (OMNIPOD)",
+            "8": "Jump Jet (OMNIPOD)",
+            "9": "Clan Endo Steel",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLERSmallLaser (OMNIPOD)",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The final OmniMech of Clan Smoke Jaguar. Designed to represent the pinnacle of 3050's technology.",
+        "capabilities": "Designed to improve upon the Dire Wolf, the Iron Cheetah mounts a 400-rated XL engine. This enables to the 'Mech to reach speeds of 64 km/h. While designers feared the increased engine mass would excessively reduce the 'Mech's payload, the increased cooling efficiency meant little impact to the 'Mech's practical punch. Both Endo Steel and ferro-fibrous armor were used to save additional weight.",
+        "deployment": "Mounting paired Large Pulse Lasers and six Medium Pulse Lasers, the B-configuration is capable of highly accurate fire even while utilizing its four Jump Jets to seek cover and firing positions. A Targeting Computer provides additional firing assistance.",
+        "history": "Even though the Smoke Jaguars were running into issues of limited resources, they were still able to develop one last OmniMech. The Iron Cheetah was designed to supplement the Dire Wolf and represented the pinnacle of 3050's BattleMech technology. The lack of sufficient resources precluded the Jaguar ability to field more than a handful of these machines before their Annihilation at the hands of the Inner Sphere. The Draconis Combine was able to salvage a few chassis, which were assigned to the most prestigious of MechWarriors. The plans for the Iron Cheetah managed to find their way to Clan Diamond Shark but it wasn't until 3080s that the Diamond Sharks were able to put the OmniMech into production. The Republic of the Sphere purchased an exclusivity contract, thus preventing widespread dissemination of the Iron Cheetah. The Republic concentrated its machines in Stone's Brigade and the Fidelis. With the death of the Republic, Clan Sea Fox began selling the Iron Cheetah on the open market, mostly to House Steiner, Marik, and Davion. Only Clan Snow Raven and Clan Wolf-in-Exile have shown interest in the 'Mech.",
+        "manufacturer": [
+            "Manufacturing Plant SFF"
+        ],
+        "primaryfactory": [
+            "Itabaiana"
+        ],
+        "systemmanufacturer": {
+            "chassis": "DSAM Endo 4",
+            "engine": "400 Model SF-3 XL",
+            "armor": "Composite A-4 Ferro-Fibrous",
+            "communications": "TJ6 \u201cBell\u201d Integrated Communication System",
+            "targeting": "Series III OPT"
+        }
+    }
+}

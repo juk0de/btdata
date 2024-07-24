@@ -1,0 +1,274 @@
+{
+    "chassis": "Hellspawn",
+    "model": "HSN-7D2 (Halperin)",
+    "mul_id": 1478,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3072,
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "source": "XTR: Pirates",
+    "quirks": [
+        "bad_rep_is"
+    ],
+    "mass": 45,
+    "engine": "270 XL Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "gyro": "Compact Gyro",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISAngelECM": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISERSmallLaser (R)": {
+                "location": "right_torso",
+                "facing": "rear",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISERSmallLaser (R)": {
+                "location": "left_torso",
+                "facing": "rear",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISERMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "ISRocketLauncher20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISRocketLauncher20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "IS Coolant Pod": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "8": {
+            "IS Coolant Pod": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "9": {
+            "ISERMediumLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISRocketLauncher20",
+            "5": "ISRocketLauncher20",
+            "6": "ISRocketLauncher20",
+            "7": "ISERMediumLaser",
+            "8": "ISERMediumLaser",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISRocketLauncher20",
+            "5": "ISRocketLauncher20",
+            "6": "ISRocketLauncher20",
+            "7": "ISERMediumLaser",
+            "8": "ISERMediumLaser",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "Jump Jet",
+            "8": "Jump Jet",
+            "9": "ISERSmallLaser (R)",
+            "10": "IS Coolant Pod",
+            "11": "IS Coolant Pod",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "Jump Jet",
+            "8": "Jump Jet",
+            "9": "ISERSmallLaser (R)",
+            "10": "IS Coolant Pod",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Engine",
+            "7": "Engine",
+            "8": "Engine",
+            "9": "Jump Jet",
+            "10": "Jump Jet",
+            "11": "ISAngelECM",
+            "12": "ISAngelECM"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "The flagship design of GM's Talcott production facility, the Hellspawn was designed in response to a call from the Armed Forces of the Federated Commonwealth for a modern, highly mobile, fire-support BattleMech to compete with the older Dervish.",
+        "capabilities": "The Hellspawn is built on a GM Fury-M Endo Steel chassis that weighs half as much as a standard chassis. The Hellspawn carries a GM 270 XL engine that gives it a top speed of 97.2 km/h and also weighs half as much as a standard engine while making the 'Mech susceptible to a combat kill from a side torso loss. For protection from enemy electronic warfare equipment such as C3 or Artemis IV, the Hellspawn is equipped with a Guardian ECM Suite. To enhance the 'Mech's mobility it has six Rawlings 80 jump jets that allow the 'Mech to jump up to one hundred and eighty meters. Finally, the Hellspawn has six and a half tons of armor that is barely adequate when compared to other medium 'Mechs.",
+        "deployment": "The personal 'Mech of Crucis March Militia deserter-turned-bandit Greta Halperin, her Hellspawn introduced in 3072 had been extensively modified with experimental technologies to turn it into a deadly first strike backstabber. Both LRM launchers are swapped for two single shot Rocket Launcher 20s and each arm mounted Pulse Laser is replaced with a pair of ER Medium Lasers. The torso mounted pulse laser is dropped entirely for two rear facing ER Small Lasers, while two additional tons of armor improve the Hellspawns weak armor. Two extra heat sinks enhanced by a trio of Coolant Pods allow Halperin to Alpha Strike repeatedly until her targets are destroyed, while switching the Guardian for an advanced Angel ECM Suite prevents any chance of her high-ranked marks calling for help.",
+        "manufacturer": [
+            "General Motors"
+        ],
+        "primaryfactory": [
+            "Talcott"
+        ],
+        "systemmanufacturer": {
+            "chassis": "GM Fury-M Endo",
+            "engine": "GM 270 XL",
+            "armor": "StarGuard III",
+            "communications": "Dalban SuperMicronics with Guardian ECM",
+            "targeting": "GME HiTrak-3"
+        }
+    }
+}

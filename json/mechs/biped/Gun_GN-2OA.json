@@ -1,0 +1,222 @@
+{
+    "chassis": "G\u00f9n",
+    "model": "GN-2OA",
+    "mul_id": 6451,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3134,
+    "source": "TRO: 3145 Capellan Confederation",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "imp_target_short"
+    ],
+    "mass": 20,
+    "engine": "100 Fusion Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 6
+        },
+        "left_torso": {
+            "pips": 5
+        },
+        "right_torso": {
+            "pips": 5
+        },
+        "left_arm": {
+            "pips": 3
+        },
+        "right_arm": {
+            "pips": 3
+        },
+        "left_leg": {
+            "pips": 4
+        },
+        "right_leg": {
+            "pips": 4
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 4,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_torso": {
+            "front": {
+                "pips": 6
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 6
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "head": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 6
+        },
+        "right_leg": {
+            "pips": 6
+        }
+    },
+    "weapons": {
+        "1": {
+            "Heavy PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "Heavy PPC (omnipod)",
+            "7": "Heavy PPC (omnipod)",
+            "8": "Heavy PPC (omnipod)",
+            "9": "Heavy PPC (omnipod)",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

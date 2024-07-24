@@ -1,0 +1,228 @@
+{
+    "chassis": "Blade",
+    "model": "BLD-XS",
+    "mul_id": 392,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3087,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "weaponquirk": "mod_weapons:RA:10:Medium Laser",
+    "mass": 35,
+    "engine": "245 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 11
+        },
+        "left_torso": {
+            "pips": 8
+        },
+        "right_torso": {
+            "pips": 8
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Autocannon/10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous",
+            "7": "Light Ferro-Fibrous",
+            "8": "Light Ferro-Fibrous",
+            "9": "Light Ferro-Fibrous",
+            "10": "Light Ferro-Fibrous",
+            "11": "Light Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Autocannon/10",
+            "4": "Autocannon/10",
+            "5": "Autocannon/10",
+            "6": "Autocannon/10",
+            "7": "Autocannon/10",
+            "8": "Autocannon/10",
+            "9": "Autocannon/10",
+            "10": "ISMediumLaser",
+            "11": "ISMediumLaser",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Endo Steel",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "IS Ammo AC/10",
+            "8": "ISCASE",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

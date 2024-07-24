@@ -1,0 +1,228 @@
+{
+    "chassis": "Fafnir",
+    "model": "FNR-5WB",
+    "mul_id": 5719,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3073,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "no_arms"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 22,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 46
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISImprovedC3CPU": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISPlasmaRifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 50
+            }
+        },
+        "3": {
+            "ISPlasmaRifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "4": {
+            "ISERMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISERMediumLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDouble Heat Sink",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": "ISERMediumLaser"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDouble Heat Sink",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": "ISERMediumLaser"
+        },
+        "left_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISPlasmaRifle",
+            "8": "ISPlasmaRifle",
+            "9": "ISPlasmaRifle",
+            "10": "ISPlasmaRifle",
+            "11": "ISPlasmaRifle Ammo",
+            "12": "ISPlasmaRifle Ammo"
+        },
+        "right_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISPlasmaRifle",
+            "8": "ISPlasmaRifle",
+            "9": "ISPlasmaRifle",
+            "10": "ISPlasmaRifle",
+            "11": "ISPlasmaRifle Ammo",
+            "12": "ISPlasmaRifle Ammo"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISImprovedC3CPU",
+            "12": "ISImprovedC3CPU"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISPlasmaRifle Ammo",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        }
+    }
+}

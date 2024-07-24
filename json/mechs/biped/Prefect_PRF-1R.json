@@ -1,0 +1,241 @@
+{
+    "chassis": "Prefect",
+    "model": "PRF-1R",
+    "mul_id": 2569,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3085,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "ext_twist"
+    ],
+    "mass": 75,
+    "engine": "375 Light Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 35
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 28
+        },
+        "right_leg": {
+            "pips": 28
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Heavy PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Snub-Nose PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Heavy PPC",
+            "4": "Heavy PPC",
+            "5": "Heavy PPC",
+            "6": "Heavy PPC",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISSNPPC",
+            "6": "ISSNPPC",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISERMediumLaser",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISERMediumLaser",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

@@ -1,0 +1,258 @@
+{
+    "chassis": "King Crab",
+    "model": "KGC-0000",
+    "mul_id": 1771,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2815,
+    "source": "TRO: 3039",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "command_mech"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 33
+        },
+        "right_arm": {
+            "pips": 33
+        },
+        "left_torso": {
+            "front": {
+                "pips": 29
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 29
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 39
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 34
+        },
+        "right_leg": {
+            "pips": 34
+        }
+    },
+    "weapons": {
+        "1": {
+            "Autocannon/20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Autocannon/20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Large Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "LRM 15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Autocannon/20",
+            "6": "Autocannon/20",
+            "7": "Autocannon/20",
+            "8": "Autocannon/20",
+            "9": "Autocannon/20",
+            "10": "Autocannon/20",
+            "11": "Autocannon/20",
+            "12": "Autocannon/20"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Autocannon/20",
+            "6": "Autocannon/20",
+            "7": "Autocannon/20",
+            "8": "Autocannon/20",
+            "9": "Autocannon/20",
+            "10": "Autocannon/20",
+            "11": "Autocannon/20",
+            "12": "Autocannon/20"
+        },
+        "left_torso": {
+            "1": "Autocannon/20",
+            "2": "Autocannon/20",
+            "3": "LRM 15",
+            "4": "LRM 15",
+            "5": "LRM 15",
+            "6": "IS Ammo AC/20",
+            "7": "IS Ammo LRM-15",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Autocannon/20",
+            "2": "Autocannon/20",
+            "3": "Large Laser",
+            "4": "Large Laser",
+            "5": "IS Ammo AC/20",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Heat Sink",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "deployment:The KGC-0000 is a downgraded version of the KGC-000, first introduced in 2815. Produced by General Motors the 'Mech has sacrificed very little in this refit since it used very little lostech in the first place. The ferro-fibrous armor was replaced with standard armor and the CASE equipment was removed. This freed up weight to add another ton of armor, bringing the armor protection almost in line with that of the KGC-000. It also replaced the original's weapons and electronic systems with available models: Imperator-D autocannons, a Doombud LRM launcher, a Magna Mk III Large Laser, and Dalban's VirtuTalk comm system and HiRez targeting-track system."
+        }
+    },
+    "fluff": {
+        "overview": "The King Crab has been a horror on the battlefield since its introduction just before the old Star League's demise, and it is well known for its ability to quickly kill most BattleMechs under eighty tons.",
+        "capabilities": "While not the most heavily armored 'Mech, the King Crab is still tough to crack, with sixteen tons of ferro-fibrous armor and CASE protecting its ammunition stores; however, the arms are probably the most susceptible area to receive damage and an internal hit is likely to knock an autocannon out of the fight. The 'Mech is also slow, with a cruising speed of 32 km/h and top speed of 54 km/h, and has been described as a \"notorious hangar queen\".",
+        "history": "The KGC-000, designed by Cosara Weaponries scientists under General Kerensky's directives, performed brilliantly in its specified mission, though it was nowhere near the command vehicle that Defiance Industries' later Atlas was. The majority of King Crabs joined Kerensky on his Exodus, including all surviving -010 platforms; those that remained were surreptitiously purchased by ComStar and mothballed on Terra. Upon the Clans' arrival and the Battle of Tukayyid, most Com Guard commanders discovered that the original Imperator-D autocannon design could not close quickly enough with Clan machines to cause considerable damage. After being approached by ComStar, Cosara Weaponries created the -001 variant; the additional range gave the King Crab some much-needed reach. ComStar, pleased with their performance, gave Cosara permission to mass-produce the enhanced King Crab for general market sale, with ComStar receiving a major portion of the yearly earnings. Northwind production ended after the Word of Blake blockaded the system, and scattered intelligence reports indicate that the Blakists took control the Cosara plant. After being shut down for some months, the plant reopened in late 3069, continuously producing and sending a newer King Crab variant to Protectorate forces. First Precentor Dow took an extraordinary action for the once-secret organization after losing a major weapons supply. ComStar was able to infiltrate the Cosara plant and grab the new engineering designs by hiring a tiny mercenary group that specialized in corporate espionage. ComStar then approached Starcorps Industries and gave the young company the opportunity to create a new King Crab variation, the KGC-007. StarCorps accepted, eager to expand their product line, and the first -007s are scheduled to roll off the Son Hoa line in late 3071. The first three production runs have already been purchased by the LAAF and AFFC.",
+        "manufacturer": [
+            "Field Refit"
+        ],
+        "primaryfactory": [
+            "Various"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hollis Mark II",
+            "engine": "Vlar 300",
+            "armor": "Protec Tech 12",
+            "communications": "Dalban's VirtuTalk",
+            "targeting": "Dalban HiRez"
+        }
+    }
+}

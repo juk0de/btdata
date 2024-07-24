@@ -1,0 +1,208 @@
+{
+    "chassis": "Snake",
+    "model": "SNK-1V (Alexi)",
+    "mul_id": 2975,
+    "source": "Record Sheets: Unique Mechs",
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3057,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "imp_target_short",
+        "pro_actuator"
+    ],
+    "mass": 45,
+    "engine": "225 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERLargeLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ISStreakSRM2": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3,
+                "ammo": 50
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISERLargeLaser",
+            "4": "ISERLargeLaser",
+            "5": "ISERLargeLaser",
+            "6": "ISERLargeLaser",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISStreakSRM2",
+            "5": "ISStreakSRM2",
+            "6": "ISStreakSRM2",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISStreakSRM2 Ammo",
+            "8": "ISCASE",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Jump Jet",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet"
+        }
+    }
+}

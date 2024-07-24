@@ -1,0 +1,258 @@
+{
+    "chassis": "Bombardier",
+    "model": "BMB-05A",
+    "mul_id": 421,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "TRO: 3050",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "bad_rep_is"
+    ],
+    "mass": 65,
+    "engine": "325 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 21
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISRocketLauncher20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "2": {
+            "ISArrowIVSystem": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 20
+            }
+        },
+        "3": {
+            "ISSmallLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISAntiMissileSystem": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISArrowIVSystem",
+            "4": "ISArrowIVSystem",
+            "5": "ISArrowIVSystem",
+            "6": "ISArrowIVSystem",
+            "7": "ISArrowIVSystem",
+            "8": "ISArrowIVSystem",
+            "9": "ISArrowIVSystem",
+            "10": "ISArrowIVSystem",
+            "11": "ISArrowIVSystem",
+            "12": "ISArrowIVSystem"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISRocketLauncher20",
+            "5": "ISRocketLauncher20",
+            "6": "ISRocketLauncher20",
+            "7": "ISRocketLauncher20",
+            "8": "ISRocketLauncher20",
+            "9": "ISRocketLauncher20",
+            "10": "ISRocketLauncher20",
+            "11": "ISRocketLauncher20",
+            "12": "ISRocketLauncher20"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISArrowIVSystem",
+            "5": "ISArrowIVSystem",
+            "6": "ISArrowIVSystem",
+            "7": "ISArrowIVSystem",
+            "8": "ISArrowIVSystem",
+            "9": "ISSmallLaser",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISArrowIV Ammo",
+            "5": "ISArrowIV Ammo",
+            "6": "ISArrowIV Ammo",
+            "7": "ISArrowIV Ammo",
+            "8": "ISAMS Ammo",
+            "9": "ISAMS Ammo",
+            "10": "ISCASE",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISAntiMissileSystem",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Many 'Mechs were developed during the height of the Star League, created for the large and well-supplied formations of the SLDF. The Bombardier was no exception; employed as light artillery support, the onslaught of the Succession Wars destroyed its primary factories and left its manufacturer, Wakazashi Enterprises, without even the original plans for the design. With Wakazashi refusing to produce even spare parts for existing machines, the Bombardier began to steadily fall out of favor. Eventually it began to serve as little more than a mobile collection of spare parts, often dismantled to better service other designs such as the Archer.",
+        "capabilities": "With many variants built around twin LRM-20 launchers, what should have been a recipe for success instead inspired mediocrity. The LRMs only carried a ton of ammunition per launcher; while the SLDF and their massive logistical elements could easily resupply the BattleMech, the chaos of the Succession Wars were less than ideal for the Bombardier. The secondary weapons, both reliant upon ammunition themselves, lead to a BattleMech that heavily depended on a reliable logistical train and strong supporting elements. It comes to no surprise that most militaries and MechWarriors instead chose to ignore the Bombardier in favor of other missile support platforms.",
+        "deployment": "Never a common design, the remnants of the SLDF's Bombardier forces were scattered throughout all of the Great Houses and periphery states. The Free Worlds League and Draconis Combine fielded the highest concentration of BMB-10D's, though the mercantile FWL happily sold refurbished models to all willing parties. The -05A, to the surprise of many, would appear within the Raven Alliance. Mounting an unusual combination of an Arrow-IV artillery launcher and an array of rockets, the -05A would be produced for the Alliance militias within the Outworlds.",
+        "systemmanufacturer": {
+            "chassis": "KetoBond",
+            "engine": "VOX",
+            "armor": "Choutaka",
+            "communications": "Neil",
+            "targeting": "DLK"
+        },
+        "systemmode": {
+            "engine": "325 XL",
+            "armor": "Armorscale",
+            "communications": "COM 9000",
+            "targeting": "Type Phased Array Sensors"
+        }
+    }
+}

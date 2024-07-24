@@ -1,0 +1,215 @@
+{
+    "chassis": "Hermes II",
+    "model": "HER-7S",
+    "mul_id": 1505,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3077,
+    "source": "XTR: Marik",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "easy_maintain",
+        "imp_com"
+    ],
+    "mass": 40,
+    "engine": "320 XXL Fusion Engine (Inner Sphere)",
+    "structure": {
+        "type": "Composite",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double (Inner Sphere)"
+    },
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 8,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "CLERFlamer": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "CLLargePulseLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISLightPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERFlamer",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISLightPPC",
+            "6": "ISLightPPC",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Engine",
+            "5": "Engine",
+            "6": "Engine",
+            "7": "Jump Jet",
+            "8": "Jump Jet",
+            "9": "Jump Jet",
+            "10": "Jump Jet",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Engine",
+            "5": "Engine",
+            "6": "Engine",
+            "7": "Jump Jet",
+            "8": "Jump Jet",
+            "9": "Jump Jet",
+            "10": "Jump Jet",
+            "11": "CLLargePulseLaser",
+            "12": "CLLargePulseLaser"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "CLTargeting Computer",
+            "12": "CLTargeting Computer"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        }
+    }
+}

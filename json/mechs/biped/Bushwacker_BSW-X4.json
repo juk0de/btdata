@@ -1,0 +1,274 @@
+{
+    "chassis": "Bushwacker",
+    "model": "BSW-X4",
+    "mul_id": 7454,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3125,
+    "source": "Rec Guide:ilClan #2",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "low_profile"
+    ],
+    "weaponquirk": "stable_weapon:CT:10:ISERLargeLaser",
+    "mass": 55,
+    "engine": "275 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 18
+        },
+        "right_arm": {
+            "pips": 18
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "MML 5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Plasma Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "MML 5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Large Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMML5",
+            "5": "ISMML5",
+            "6": "ISMML5",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Light Ferro-Fibrous",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISPlasmaRifle",
+            "6": "ISPlasmaRifle",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Light Ferro-Fibrous",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Medium Laser",
+            "5": "ISMML5",
+            "6": "ISMML5",
+            "7": "ISMML5",
+            "8": "IS Ammo MML-5 LRM",
+            "9": "IS Ammo MML-5 SRM",
+            "10": "ISCASEII",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Medium Laser",
+            "5": "ISPlasmaRifleAmmo",
+            "6": "ISPlasmaRifleAmmo",
+            "7": "ISMASC",
+            "8": "ISMASC",
+            "9": "ISMASC",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERLargeLaser",
+            "12": "ISERLargeLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Light Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Originally a failed BattleMech concept designed to have a smaller forward profile, the Bushwacker would ultimately become a popular Clan Invasion era BattleMech in use within both halves of the Federated Commonwealth.",
+        "capabilities": "Under development on the cusp of the Clan Invasion, the ambitious and unorthodox design of the Bushwacker featured a low-slung and narrow upper torso to present minimal target profile to enemy units. Unfortunately this resulted in a complex and crowded internal layout, with the 'Mech's fusion engine's close proximity to the sensor and communication system resulting in electronic interference and system failures. Unable to overcome these issues, though the evaluators were impressed by the basic design and its capabilities, the 'Mech seemed destined for the scrap-heap. The Bushwacker has a top speed of 86.4 km/h and carries nine tons of armor. What the 'Mech lacks in protection it makes up for in range, using its speed to keep enemies at arm's length while using its slew of long range weaponry to slowly wear down enemies.",
+        "deployment": "Considered the export counterpart to the Gauntlet, the X4 is constructed around a similar Endo Steel frame, Light Ferro-Fibrous and MASC as the OmniMech, but a swap to 275 XL Engine allows it carry more equipment. It's primary weapon is a right arm-mounted Plasma Rifle in support of an ER Large Laser, twin Medium Lasers and paired MML 5s, the X4 carrying two tons of plasma rounds and two tons of missile reloads, normally one each of SRM and LRM.",
+        "history": "The Bushwacker was ultimately saved by the Clan juggernaut following a successful Armed Forces of the Federated Commonwealth raid against a Clan Jade Falcon base on Twycross, FedCom forces securing a treasure trove of schematics and technical data on numerous Clan designs, including the Vulture. Though a more vertical design, the Clan OmniMech shared the same compressed volume issues, with the Clan engineers making several unusual decisions in its internal layout to alleviate the interference problem. With the TharHes engineers able to adapt the Clan solution to the Bushwacker, re-configuring its internal structure, the 'Mech was given a second lease on life. Full scale production of the corrected Bushwacker began in 3053 on Tharkad following the Truce of Tukayyid, though many FedCom units who served on the Clan frontlines received pre-production models during the initial invasion. This led to the 'Mech being most numerous on the Clan/Lyran Alliance border immediately following the succession, though by the conclusion of the FedCom Civil War the Bushwacker could be found in almost every first echelon unit in both halves of the Federated Commonwealth. For some unknown reason the Bushwacker has since become a favorite of MechWarriors in the Draconis and Capellan Marches of the Federated Suns. With TharHes Industries badly damaged during the Jihad and Word of Blake occupation of Tharkad, the company was forced to sell off the Bushwacker plans to raise much-needed capital to rebuild its production lines. Purchased by Coventry Metal Works, that company used the specs to create the Gauntlet OmniMech, with modern Bushwacker models sharing a similar frame and various other components with it, allowing both CMW and TI to reduce costs for both designs through economies of scale. Though the OmniMech was intended as an exclusively Lyran design, the Bushwacker is not so restricted and is exported outside the Commonwealth, remaining popular within the Armed Forces of the Federated Suns even during the Dark Age Era.",
+        "manufacturer": [
+            "TharHes Industries"
+        ],
+        "primaryfactory": [
+            "Tharkad"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Earthwerk GRF Endo",
+            "engine": "Hermes 275 XL",
+            "armor": "Kallon Light Ferro-Fibrous with CASE",
+            "communications": "TharHes Euterpe HM-14",
+            "targeting": "TharHes Ares-8a"
+        }
+    }
+}

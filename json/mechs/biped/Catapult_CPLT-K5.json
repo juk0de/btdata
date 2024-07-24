@@ -1,0 +1,222 @@
+{
+    "chassis": "Catapult",
+    "model": "CPLT-K5",
+    "mul_id": 489,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3058,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "no_arms",
+        "weak_head_1"
+    ],
+    "mass": 65,
+    "engine": "260 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 21
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 25
+        },
+        "right_leg": {
+            "pips": 25
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISMediumPulseLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ISC3SlaveUnit": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISMRM30": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 32
+            }
+        },
+        "4": {
+            "ISMRM30": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISMRM30",
+            "4": "ISMRM30",
+            "5": "ISMRM30",
+            "6": "ISMRM30",
+            "7": "ISMRM30",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISMRM30",
+            "4": "ISMRM30",
+            "5": "ISMRM30",
+            "6": "ISMRM30",
+            "7": "ISMRM30",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "ISMRM30 Ammo",
+            "7": "ISMRM30 Ammo",
+            "8": "ISCASE",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "ISMRM30 Ammo",
+            "7": "ISMRM30 Ammo",
+            "8": "ISCASE",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISMediumPulseLaser",
+            "12": "ISMediumPulseLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISC3SlaveUnit",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    }
+}

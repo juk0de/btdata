@@ -1,0 +1,221 @@
+{
+    "chassis": "Gauss-Buster MilitiaMech",
+    "model": "",
+    "mul_id": 8100,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3090,
+    "source": "XTR: Caveat Emptor",
+    "rules_level": 5,
+    "rules_level_str": "Advanced",
+    "role": "Sniper",
+    "quirks": [
+        "easy_maintain",
+        "stable",
+        "illegal_design"
+    ],
+    "mass": 50,
+    "engine": "150 ICE Engine(IS)",
+    "structure": {
+        "type": "Industrial",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 2,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Heavy Industrial",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_torso": {
+            "front": {
+                "pips": 5
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 5
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 5
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "head": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 5
+        },
+        "right_leg": {
+            "pips": 5
+        }
+    },
+    "weapons": {
+        "1": {
+            "Heavy Gauss Rifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISHeavyGaussRifle",
+            "2": "ISHeavyGaussRifle",
+            "3": "ISHeavyGaussRifle",
+            "4": "ISHeavyGaussRifle",
+            "5": "ISHeavyGaussRifle",
+            "6": "ISHeavyGaussRifle",
+            "7": "ISHeavyGaussRifle",
+            "8": "ISHeavyGaussRifle",
+            "9": "ISHeavyGaussRifle",
+            "10": "ISHeavyGaussRifle",
+            "11": "ISHeavyGaussRifle",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISHeavyGauss Ammo",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

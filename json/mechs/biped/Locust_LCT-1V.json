@@ -1,0 +1,255 @@
+{
+    "chassis": "Locust",
+    "model": "LCT-1V",
+    "mul_id": 1901,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2499,
+    "source": "TRO: 3039",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Scout",
+    "quirks": [
+        "compact_mech",
+        "low_profile",
+        "cramped_cockpit",
+        "no_arms",
+        "weak_legs"
+    ],
+    "mass": 20,
+    "engine": "160 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 6
+        },
+        "left_torso": {
+            "pips": 5
+        },
+        "right_torso": {
+            "pips": 5
+        },
+        "left_arm": {
+            "pips": 3
+        },
+        "right_arm": {
+            "pips": 3
+        },
+        "left_leg": {
+            "pips": 4
+        },
+        "right_leg": {
+            "pips": 4
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 4
+        },
+        "right_arm": {
+            "pips": 4
+        },
+        "left_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Machine Gun": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Machine Gun": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Machine Gun",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Machine Gun",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Medium Laser",
+            "12": "IS Ammo MG - Full"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Locust is undoubtedly one of the most popular and prevalent light BattleMechs ever made. First produced in 2499, the almost dozen distinct factories manufacturing the design quickly spread it to every power in human space. Its combination of tough armor (for its size), exceptional speed, and most importantly, low cost have all contributed to the Locust's success. It remains the benchmark for many scouting designs, and its continual upgrades have ensured that it remains just as effective with every new conflict that appears.",
+        "capabilities": "As the Locust was first developed as a recon platform, speed is paramount to the design's philosophy. While many variants change the weaponry to fill specific tasks or purposes, Locusts are nearly always pressed into service in ways where they can best take advantage of their speed. When in line regiments, they can act as a deadly flankers or harassers, and are often used in reactionary roles to quickly plug holes in a fluid battle line. The structural form of Locusts themselves are their greatest weakness; with no hands, they are disadvantaged in physical combat and occasionally have difficulty righting themselves after a fall.",
+        "deployment": "One of the most common designs even produced, even the smallest mercenary or pirate outfits will often field one or more of the design. Production for the Locust has continued uninterrupted for centuries, and it plays an important role in the militaries of many smaller nations. The base LCT-1V was once estimated to account for more than 75% of all Locusts in existence at the end of the Succession Wars, though these numbers have dropped with the reappearance of more advanced technology. Still, it remains common in every military worth note.",
+        "systemmanufacturer": {
+            "chassis": "Bergan",
+            "engine": "LTV",
+            "armor": "StarSlab",
+            "communications": "Garrett",
+            "targeting": "O/P"
+        },
+        "systemmode": {
+            "chassis": "VII",
+            "engine": "160",
+            "armor": "/1",
+            "communications": "T10-B",
+            "targeting": "911"
+        }
+    }
+}

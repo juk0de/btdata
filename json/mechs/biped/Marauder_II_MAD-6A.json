@@ -1,0 +1,271 @@
+{
+    "chassis": "Marauder II",
+    "model": "MAD-6A",
+    "mul_id": 7520,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3134,
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "source": "Rec Guide:ilClan #5",
+    "quirks": [
+        "command_mech",
+        "hyper_actuator",
+        "low_profile"
+    ],
+    "mass": 100,
+    "engine": "300 Light Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 18,
+        "type": "IS Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 46
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium X-Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium X-Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Ultra AC/10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISERPPC",
+            "8": "ISERPPC",
+            "9": "ISERPPC",
+            "10": "ISMediumXPulseLaser",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISERPPC",
+            "8": "ISERPPC",
+            "9": "ISERPPC",
+            "10": "ISMediumXPulseLaser",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "IS Ultra AC/10 Ammo",
+            "10": "IS Ultra AC/10 Ammo",
+            "11": "IS Ultra AC/10 Ammo",
+            "12": "ISCASE"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISUltraAC10",
+            "7": "ISUltraAC10",
+            "8": "ISUltraAC10",
+            "9": "ISUltraAC10",
+            "10": "ISUltraAC10",
+            "11": "ISUltraAC10",
+            "12": "ISUltraAC10"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "ISDoubleHeatSink",
+            "10": "ISDoubleHeatSink",
+            "11": "ISDoubleHeatSink",
+            "12": "Jump Jet"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "First built in 3012, the Marauder II is a successful attempt to take the firepower of the Marauder and combine it with the reliability and ruggedness of an assault chassis.",
+        "capabilities": "With the Marauder already a powerful and popular 'Mech, the Dragoons' goals with the Marauder II were to enhance its abilities by strengthening its chassis to carry a much heavier armor and weapons load. The 'Mech was then armored with nineteen tons of Valiant Lamellor armor, giving it protection that rivals that of the Atlas and fitted with thirteen additional heat sinks, a total of twenty-nine, to allow a more ferocious rate of fire. Retaining its progenitor's Vlar 300-rated engine, with the MAD-5A built around an extralight fusion engine to save more weight for weapons. To make up for the reduced mobility, the Marauder II was outfitted with three Chilton 600 jump jets that give it a jumping capability of up to ninety meters.",
+        "deployment": "Introduced during the Dark Age this variant carries an ER PPC and Medium X-Pulse Laser in each arm, while the torso weapon mount carries an Ultra AC/10 with three tons of ammunition in a CASE protected bay. Powered by a light fusion engine and equipped with a Compact Gyro, the 'Mech is protected by nineteen tons of armor and carries eighteen double heat sinks.",
+        "history": "In 3010 officers of the famous Wolf's Dragoons mercenary unit contracted with Blackwell Industries of New Valencia on the project of modifying the highly successful 75-ton Marauder into a 100-ton assault 'Mech. Working from existing plans the design phase proved to be very short, the process of reinforcing the Marauder chassis turned out to be easier than expected, enhanced by the removal of the finicky and temperamental General Motors Whirlwind Autocannon for a much simpler Large Laser. First appearing with the famous Zeta Battalion before spreading to Alpha Regiment, the Dragoons' enemies soon learned to fear the appearance of Marauder IIs as foreshadowing a major advance, as for the remainder of the Third Succession War it remained the exclusive property of the mysterious Dragoons. This changed after the Fourth Succession War when Colonel Jaime Wolf authorized Blackwell to increase production and allow outside buyers access, on the provision that each sale had to be approved by the Dragoons. Now spreading in limited numbers, the largest buyer outside the Dragoons would be the Miller's Marauders mercenary unit, famed for its almost exclusive use of the Marauder chassis and the secret loan of its DropShips to Zeta Battalion for their climactic rescue of the rest of the Dragoons on Crossing. When new unit commander Major Susan Barber expressed interest in the Marauder II, Colonel Wolf gave Blackwell the go-ahead to supply her with all she needed, by the Clan Invasion the now renamed Barber's Marauders would boast almost a regiment's worth of the fearsome assault 'Mech. Though Barber's Marauder II would help drive the considerable interest and demand for the powerful assault 'Mech, they would also damage its seeming aura of invincibility following their ignoble destruction by Clan Jade Falcon on Koniz in June 3064. Seeking to rekindle interest in their flagship 'Mech following its disastrous showing on Koniz, GM/Blackwell noted the Vicore Industries triggered refresh of \"classic\" designs to develop a more powerful and visually refreshed model. The resulting MAD-4S variant was the first widely available Marauder II, Wolf's Dragoons' easing of sale restrictions partly motivated by profit but also as a means to punish the Lyran Alliance for the theft of the Blackwell developed light fusion engine, as of 3067 selling the 'Mech to all interested parties save those the Dragoons were fighting against in the Chaos March; the Word of Blake and the members of Trinity Alliance. The demand for the Marauder II would only increase in the Jihad following the Blakist destruction of GM and Blackwell's production facilities for the 'Mech as part of their vendetta against the Wolf's Dragoons, with many salvaged examples in use among the nations of the Inner Sphere in a large number of variations following the Blakists' fall, the most notable being the MAD-6D developed by the Federated Suns and shared with the Republic of the Sphere.",
+        "manufacturer": [
+            "Independence Weaponry"
+        ],
+        "primaryfactory": [
+            "Quentin"
+        ],
+        "systemmanufacturer": {
+            "chassis": "GM Marauder",
+            "engine": "Vlar 300 Light",
+            "armor": "Valiant Lamellor with CASE",
+            "jumpjet": "Chilton 600",
+            "communications": "Dalban Micronics",
+            "targeting": "Dalban Hi-Rez II"
+        }
+    }
+}

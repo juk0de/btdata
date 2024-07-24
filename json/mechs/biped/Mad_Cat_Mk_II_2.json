@@ -1,0 +1,254 @@
+{
+    "chassis": "Mad Cat Mk II",
+    "model": "2",
+    "mul_id": 5715,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3069,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "imp_target_med"
+    ],
+    "mass": 90,
+    "engine": "360 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 27
+        },
+        "right_arm": {
+            "pips": 27
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 38
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 34
+        },
+        "right_leg": {
+            "pips": 34
+        }
+    },
+    "weapons": {
+        "1": {
+            "CLERMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "CLERMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "CLStreakSRM4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 50
+            }
+        },
+        "4": {
+            "CLStreakSRM4": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "CLGaussRifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 16
+            }
+        },
+        "6": {
+            "CLLBXAC20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 10
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLLBXAC20",
+            "4": "CLLBXAC20",
+            "5": "CLLBXAC20",
+            "6": "CLLBXAC20",
+            "7": "CLLBXAC20",
+            "8": "CLLBXAC20",
+            "9": "CLLBXAC20",
+            "10": "CLLBXAC20",
+            "11": "CLLBXAC20",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLGaussRifle",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGaussRifle",
+            "8": "CLGaussRifle",
+            "9": "Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Jump Jet",
+            "4": "CLStreakSRM4",
+            "5": "CLStreakSRM4",
+            "6": "CLERMediumLaser",
+            "7": "CLStreakSRM4 Ammo",
+            "8": "CLLBXAC20 Ammo",
+            "9": "CLLBXAC20 CL Ammo",
+            "10": "Endo-Steel",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Jump Jet",
+            "4": "CLStreakSRM4",
+            "5": "CLStreakSRM4",
+            "6": "CLERMediumLaser",
+            "7": "CLStreakSRM4 Ammo",
+            "8": "CLGauss Ammo",
+            "9": "CLGauss Ammo",
+            "10": "Endo-Steel",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Jump Jet",
+            "12": "Endo-Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "Designed to be sold to fellow Clans, this rebuild of the Timber Wolf carries thirteen tons of ferro-fibrous armor while being one of most nimble BattleMechs of its class, yet still packing serious weaponry.",
+        "capabilities": "This version of the Mad Cat Mk. II keeps a single Gauss Rifle, found in the right arm, and two ER Medium Lasers of the standard configuration. The torso LRM systems have been replaced by a quartet of Streak SRM-4s. The left arm houses a massive LB 20-X autocannon. Armor and movement profile remain the same, but to make room for the weapons this variant had to drop one heat sink, leaving it with thirteen.",
+        "deployment": "Despite this, Mk II's most notable potential buyers, Clan Wolf and Clan Jade Falcon, did not purchase even a single unit, though they won some numbers in Trials. Significant numbers of Mad Cat Mk II were sold to Clan Nova Cat, and the Mech served also in Clan Ice Hellion, Clan Jade Falcon, Clan Wolf-in-Exile in addition to Diamond Shark itself. On a limited basis, Clan Diamond Shark sold unmodified Mad Cat Mk IIs to Inner Sphere factions, most notably the Draconis Combine and Federated Commonwealth, and also the Lyran Alliance bought an unknown amount of Mad Cat Mark IIs.",
+        "history": "The Mad Cat Mk II was in development for fifteen months by the time production began in 3061. The sole rationale for the Mad Cat Mk II was to increase profits for Clan Diamond Shark after war with the Inner Sphere in the 3050s.",
+        "manufacturer": [
+            "Manufacturing Plant DSF-94"
+        ],
+        "systemmanufacturer": {
+            "chassis": "DSAM Endo 4",
+            "engine": "Type 79 360 XL Fusion",
+            "armor": "Forging ZM15 Ferro Fibrous",
+            "jumpjet": "Grandthrust Mk. 5",
+            "communications": "MegaBand System 21",
+            "targeting": "Dtrac Suite 4"
+        }
+    }
+}

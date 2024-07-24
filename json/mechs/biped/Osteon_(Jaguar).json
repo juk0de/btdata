@@ -1,0 +1,271 @@
+{
+    "chassis": "Osteon",
+    "model": "(Jaguar)",
+    "mul_id": 5830,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3072,
+    "source": "Wars of Reaving",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "ext_twist",
+        "multi_trac",
+        "pro_actuator",
+        "bad_rep_clan"
+    ],
+    "mass": 85,
+    "engine": "255 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Reinforced",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Torso-Mounted Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Lamellor",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 36
+        },
+        "right_leg": {
+            "pips": 36
+        }
+    },
+    "weapons": {
+        "1": {
+            "Ultra AC/20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Small Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER PPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Small Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Retractable Blade (omnipod)",
+            "6": "Retractable Blade (omnipod)",
+            "7": "Retractable Blade (omnipod)",
+            "8": "Retractable Blade (omnipod)",
+            "9": "Retractable Blade (omnipod)",
+            "10": "Retractable Blade (omnipod)",
+            "11": "Clan Ferro-Lamellor",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLUltraAC20 (omnipod)",
+            "4": "CLUltraAC20 (omnipod)",
+            "5": "CLUltraAC20 (omnipod)",
+            "6": "CLUltraAC20 (omnipod)",
+            "7": "CLUltraAC20 (omnipod)",
+            "8": "CLUltraAC20 (omnipod)",
+            "9": "CLUltraAC20 (omnipod)",
+            "10": "CLUltraAC20 (omnipod)",
+            "11": "Clan Ferro-Lamellor",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Life Support",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLLargePulseLaser (omnipod)",
+            "7": "CLLargePulseLaser (omnipod)",
+            "8": "CLERSmallLaser (omnipod)",
+            "9": "Clan Ferro-Lamellor",
+            "10": "Clan Ferro-Lamellor",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Life Support",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLERPPC (omnipod)",
+            "7": "CLERPPC (omnipod)",
+            "8": "CLERSmallLaser (omnipod)",
+            "9": "Clan Ferro-Lamellor",
+            "10": "Clan Ferro-Lamellor",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Cockpit",
+            "12": "Sensors"
+        },
+        "head": {
+            "1": "Sensors",
+            "2": "Sensors",
+            "3": "NovaCEWS",
+            "4": "Clan Ultra AC/20 Ammo (omnipod)",
+            "5": "Clan Ultra AC/20 Ammo (omnipod)",
+            "6": "Clan Ultra AC/20 Ammo (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": "Clan Ferro-Lamellor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": "Clan Ferro-Lamellor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Osteon was The Society's assault-class OmniMech. To maximize the 'Mech's battlefield longevity, the designers focused on survivability above other considerations. Eighteen tons of Ferro-Lamellor armor provide excellent protection against weapons fire, but in case the armor is breached the Reinforced Structure will resist most attacks. In addition, the Torso-Mounted Cockpit allows the Osteon's pilot to take advantage of the heavy center torso armor. To maximize the Osteon's damage potential, a Nova CEWS allows the unit to share targeting data with friendly units. This equipment is so valuable that it's permanently mounted in the 'Mech's head.",
+        "capabilities": "Used by Russou Howell, a Dark Caste bandit known as \"The Jaguar\", this variant of the Osteon was custom-crafted by The Society in appreciation of Howell's assistance. It carries an Ultra AC/20, ER PPC, ER Large Laser, two ER Small Lasers, but its most interesting feature is the Retractable Blade mounted in the left arm.",
+        "deployment": "Due to the role this Omnimech played with The Society during the Wars of Reaving, the Osteon, as of 3090, was outlawed by the Home Clans, although it was undergoing study.",
+        "manufacturer": [
+            "Kerensky Memorial Manufacturing"
+        ],
+        "primaryfactory": [
+            "Strana Mechty"
+        ],
+        "systemmanufacturer": {
+            "chassis": "85-100T Support Reinforced Lambda Profile",
+            "engine": "Model-G 255 XL",
+            "armor": "Gravastar Ferro-Lamellor",
+            "communications": "Model 74/129.3 TCS",
+            "targeting": "S438 Mk. VI Mod. 2 TTS"
+        }
+    }
+}

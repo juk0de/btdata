@@ -1,0 +1,248 @@
+{
+    "chassis": "Battle Cobra",
+    "model": "BTL-C-2OH",
+    "mul_id": 9493,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3083,
+    "source": "Shrapnel #11",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "ext_twist"
+    ],
+    "mass": 40,
+    "engine": "200 Fusion Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "IS Double"
+    },
+    "base_chassis_heat_sinks": 8,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "2": {
+            "Thunderbolt 15": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISERMediumLaser (OMNIPOD)",
+            "5": "ISERMediumLaser (OMNIPOD)",
+            "6": "ISERMediumLaser (OMNIPOD)",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Thunderbolt 15 (OMNIPOD)",
+            "5": "Thunderbolt 15 (OMNIPOD)",
+            "6": "Thunderbolt 15 (OMNIPOD)",
+            "7": "IS Ammo Thunderbolt-15 (OMNIPOD)",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": null
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "IS Endo Steel",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Ferro-Fibrous",
+            "8": "IS Ferro-Fibrous",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "IS Ammo Thunderbolt-15 (OMNIPOD)",
+            "5": "IS Ammo Thunderbolt-15 (OMNIPOD)",
+            "6": "ISCASE (OMNIPOD)",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "history:The Draconis Combine was able to pursue an OmniMech development program after recovering massive amounts of Clan salvage from Wolcott and Luthien. Analysts were shocked by ComStar's absence of comparable outcomes following their stunning victory on Tukayyid, which had given them unprecedented access to Clan salvage. ComStar, with some of the finest brains and greatest technological databases in the Inner Sphere, should have produced legions of new OmniMech variants from Terra's reopened factories.\u00a0Finally, ComStar's approach to the Battle Cobra was typical of their failings in the aftermath of Operation Scorpion. Many of ComStar's brightest minds defected to join the Word of Blake, leaving low-level engineers in control of one of the company's most critical projects in centuries. But, the daring seizure of Terra by the Word of Blake in 3058 drove ComStar back to square one. ComStar's top management directed its surviving technical teams to complete the simplest OmniMech project at any cost. The Fighting Cobra, with its simple weapon pods, went into full production five years later. With control over practically all of ComStar's first OmniMech research, the Word of Blake chose to develop the 'Mech's design rather than push it to completion. The Blakist Battle Cobra project, eventually entrusted to the now-famous Devon Cortland, would gradually evolve into the first of the iconic Celestials: the Preta."
+        }
+    },
+    "fluff": {
+        "overview": "Obtaining a large number of mostly operational Battle Cobras in the aftermath of the brutal conflict in the Devil's Bath during the Battle of Tukayyid, ComStar selected the Battle Cobra as the focus of their efforts to reverse engineer and develop their own OmniMech.",
+        "capabilities": "Constructed using Inner Sphere\u2013manufactured components, ComStar's BTL-C-2O Battle Cobra is built on an endo steel, clad in seven tons of ferro-fibrous armor, and is powered by a 200-rated fusion engine. While reducing its speed by 20 km/h, the extra weight was required to carry heavier Inner Sphere\u2013grade weapons, as well as mount a fixed improved C3 computer in its center torso.",
+        "deployment": "No information on this variant",
+        "manufacturer": [
+            "Arc-Royal MechWorks",
+            "Comguard Tukayyid Omega-Epsilon Facility X"
+        ],
+        "primaryfactory": [
+            "Arc-Royal",
+            "Tukayyid"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Type 69-40S",
+            "engine": "Nissan 200",
+            "armor": "Paulina Ferro-Fibrous",
+            "communications": "Blade 12",
+            "targeting": "Spanke 112-A"
+        }
+    }
+}

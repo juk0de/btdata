@@ -1,0 +1,254 @@
+{
+    "chassis": "Thor II",
+    "clanname": "Grand Summoner",
+    "model": "E",
+    "mul_id": 7426,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3093,
+    "source": "Iron Wind Metals",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "imp_com"
+    ],
+    "mass": 70,
+    "engine": "350 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 14,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 8,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 23
+        },
+        "right_leg": {
+            "pips": 23
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLERPPC (OMNIPOD)",
+            "6": "CLERPPC (OMNIPOD)",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLERPPC (OMNIPOD)",
+            "6": "CLERPPC (OMNIPOD)",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Improved Jump Jet (OMNIPOD)",
+            "4": "Improved Jump Jet (OMNIPOD)",
+            "5": "Improved Jump Jet (OMNIPOD)",
+            "6": "Improved Jump Jet (OMNIPOD)",
+            "7": "Improved Jump Jet (OMNIPOD)",
+            "8": "Improved Jump Jet (OMNIPOD)",
+            "9": "Improved Jump Jet (OMNIPOD)",
+            "10": "Improved Jump Jet (OMNIPOD)",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Improved Jump Jet (OMNIPOD)",
+            "4": "Improved Jump Jet (OMNIPOD)",
+            "5": "Improved Jump Jet (OMNIPOD)",
+            "6": "Improved Jump Jet (OMNIPOD)",
+            "7": "Improved Jump Jet (OMNIPOD)",
+            "8": "Improved Jump Jet (OMNIPOD)",
+            "9": "Improved Jump Jet (OMNIPOD)",
+            "10": "Improved Jump Jet (OMNIPOD)",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLERSmallLaser (OMNIPOD)",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Thor II is a Heavy Class Clan OmniMech which was first produced by Clan Jade Falcon during the early years of the thirty-second century.",
+        "capabilities": "The Thor II shares some similarities to its predecessor, sharing the same size XL Fusion Engine, and physical appearance. What differs from the older design is its Pod Capacity; the Thor II has a 30.5 ton capacity over the older model's 22.5. This increase of capacity comes from the reshuffling of the 'Mech's internal components and dropping the original's permanently-mounted Jump Jets from the design. The Thor II's armor protection is slightly greater than the original, with half a ton more.",
+        "deployment": "Equipped with Improved Jump Jets for greater mobility, two ER PPC allow it to slug it out at range.",
+        "history": "Initially produced by the Eagle Craft Group on Erewhon in the Inner Sphere, the Thor II (also known by the Clan as the Grand Summoner) proved to be a highly reliable replacement for the original Thor OmniMech. The design would soon be traded among other Inner Sphere Clans and became popular among their Warrior castes. One of the 'Mech's most noted actions was during Clan Wolf's Trial of Possession for then Clan Diamond Shark's entire Swimmer Khanate\u2019s Beta Aimag. The flotilla\u2019s commanders were able to bid down the Clan Wolf commander to a Cluster\u2019s worth of forces on the world of Feltre. The Thor II's performance in the hands of Diamond Shark MechWarriors in this difficult terrain helped to turn the tide of battle and resulted in winning the Trial. Clan Jade Falcon first produced the Thor II as a distinct symbol of honor. This 'Mech is painted yearly in the parade scheme of a unit chosen by the Clan's Khan as part of tradition of honoring Clusters who had performed services honoring the Clan.",
+        "manufacturer": [
+            "Eagle Craft Group"
+        ],
+        "primaryfactory": [
+            "Erewhon"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Olivetti T4 Endo Steel",
+            "engine": "Magna 350 XL",
+            "armor": "Compound Beta FF",
+            "communications": "Model J-D 067",
+            "targeting": "Hawkeye 58"
+        }
+    }
+}

@@ -1,0 +1,245 @@
+{
+    "chassis": "Wildfire",
+    "model": "P1-WF",
+    "mul_id": 5409,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3053,
+    "source": "Unbound",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "non_standard",
+        "prototype"
+    ],
+    "mass": 65,
+    "engine": "390 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 21
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "cockpit": "Torso-Mounted Cockpit",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 23
+        },
+        "right_leg": {
+            "pips": 23
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISMachine Gun": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 200
+            }
+        },
+        "2": {
+            "ISMachine Gun": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISLargePulseLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISMediumPulseLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISSmallPulseLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISStreakSRM2": {
+                "location": "right_leg",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 50
+            }
+        },
+        "7": {
+            "ISStreakSRM2": {
+                "location": "left_leg",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLargePulseLaser",
+            "5": "ISLargePulseLaser",
+            "6": "ISMediumPulseLaser",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISSmallPulseLaser",
+            "6": "ISMachine Gun",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Life Support",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Life Support",
+            "5": "ISMG Ammo (200)",
+            "6": "ISStreakSRM2 Ammo",
+            "7": "ISCASE",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Cockpit",
+            "12": "Sensors"
+        },
+        "head": {
+            "1": "Sensors",
+            "2": "Sensors",
+            "3": "ISMachine Gun",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "ISStreakSRM2",
+            "6": "Ferro-Fibrous"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "ISStreakSRM2",
+            "6": "Ferro-Fibrous"
+        }
+    }
+}

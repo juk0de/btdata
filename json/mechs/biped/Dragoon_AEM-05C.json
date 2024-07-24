@@ -1,0 +1,258 @@
+{
+    "chassis": "Dragoon",
+    "model": "AEM-05C",
+    "mul_id": 7399,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3136,
+    "source": "Turning Points: Epsilon Eridani",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "easy_maintain",
+        "bad_rep_clan",
+        "bad_rep_is",
+        "obsolete"
+    ],
+    "weaponquirk": "mod_weapons:LA:5:ISMediumXPulseLaser",
+    "mass": 70,
+    "engine": "280 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Ferro-Lamellor",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 27
+        },
+        "right_leg": {
+            "pips": 27
+        }
+    },
+    "weapons": {
+        "1": {
+            "LB 10-X AC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium X-Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Plasma Rifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISPlasmaRifle",
+            "4": "ISPlasmaRifle",
+            "5": "ISMediumXPulseLaser",
+            "6": "ISMediumXPulseLaser",
+            "7": "Clan Ferro-Lamellor",
+            "8": "Clan Ferro-Lamellor",
+            "9": "Clan Ferro-Lamellor",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLBXAC10",
+            "4": "ISLBXAC10",
+            "5": "ISLBXAC10",
+            "6": "ISLBXAC10",
+            "7": "ISLBXAC10",
+            "8": "ISLBXAC10",
+            "9": "Clan Ferro-Lamellor",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "ISPlasmaRifleAmmo",
+            "6": "ISPlasmaRifleAmmo",
+            "7": "ISAngelECMSuite",
+            "8": "ISAngelECMSuite",
+            "9": "Clan Ferro-Lamellor",
+            "10": "Clan Ferro-Lamellor",
+            "11": "Clan Ferro-Lamellor",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "IS LB 10-X AC Ammo",
+            "6": "IS LB 10-X Cluster Ammo",
+            "7": "ISC3iUnit",
+            "8": "ISC3iUnit",
+            "9": "ISCASEII",
+            "10": "Clan Ferro-Lamellor",
+            "11": "Clan Ferro-Lamellor",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Lamellor",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.",
+        "capabilities": "Armed with only a few, but powerful weapons found only in the 'Mech's arms. Powered by one of Nissan's 280-rated XL Fusion Engines, the 'Mech is able to achieve a modest pace of 64 km/h. Its defenses include a Guardian ECM Suite, while its armored hull is protected by 11.5 tons of Ferro-Fibrous armor.",
+        "deployment": "The only known example piloted by Demi-Precentor Jacob Kenyon commander of the Blessed Order's revived First Division's Unending Faith III, this Dragoon variant carries an Angel ECM Suite, Improved C3 Computer, an LB-10X, Plasma Rifle, and a pair of Medium X-Pulse Lasers. It also has three jump jets for a maximum jump range of 90 meters, and is protected by fourteen and a half tons of Clan-built Ferro-Lamellor armor. Two tons of LB-X ammunition are protected by CASE II.",
+        "history": "In the year following the Amaris Coup, now-Emperor Amaris would have a means to make his dream into reality, and he began swiftly issuing contracts which would lead to the creation of the Dragoon. Built by Krupp Stellar Technologies Inc. in 2771 as their second BattleMech design, the Dragoon was designed with a similar modular subsystem akin to the Mercury BattleMech. With this system, the 'Mech's maintenance loads would be eased. Its modular nature would allow repair depots and factories to be able to reconfigure the design's weapons systems and its power plant for any needed mission-specific specs. Produced in limited numbers, only the elite of Amaris's regiments and a select few of Amaris's loyal chosen would receive the design and its variants. The design would see service in the Star League Civil War, often being salvaged by the Star League Defense Force. However, after the liberation of Terra, General Kerensky would order the purging of the design and the retooling of Krupp's two Dragoon production lines. The few remaining Dragoons in service elsewhere would become extinct before the 3rd Succession War.",
+        "manufacturer": [
+            "Krupp Stellar Technologies",
+            "Inc."
+        ],
+        "primaryfactory": [
+            "Terra"
+        ],
+        "systemmanufacturer": {
+            "chassis": "KruppTech 770",
+            "engine": "Nissan 280 XL",
+            "armor": "PanzerFerro Type 7F",
+            "jumpjet": "Corwin Consolidated Model 3H",
+            "communications": "Krupp-COMM 650 with Guardian ECM",
+            "targeting": "KBC Hypersight Model 5"
+        }
+    }
+}

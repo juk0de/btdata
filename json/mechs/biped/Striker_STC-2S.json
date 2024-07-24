@@ -1,0 +1,239 @@
+{
+    "chassis": "Striker",
+    "model": "STC-2S",
+    "mul_id": 3096,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2845,
+    "source": "TRO: 3058",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "mass": 80,
+    "engine": "320 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Single"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "(Unknown Technology Base",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 35
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "Particle Cannon": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Autocannon/10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Autocannon/10",
+            "4": "Autocannon/10",
+            "5": "Autocannon/10",
+            "6": "Autocannon/10",
+            "7": "Autocannon/10",
+            "8": "Autocannon/10",
+            "9": "Autocannon/10",
+            "10": "IS Ammo AC/10",
+            "11": "IS Ammo AC/10",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Particle Cannon",
+            "3": "Particle Cannon",
+            "4": "Particle Cannon",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Medium Laser",
+            "12": "Medium Laser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Medium Laser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "chassis": "Dragoon",
+    "model": "AEM-02",
+    "mul_id": 6781,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2771,
+    "source": "Historical: Liberation of Terra II",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "None",
+    "quirks": [
+        "easy_maintain",
+        "bad_rep_clan",
+        "bad_rep_is",
+        "obsolete"
+    ],
+    "weaponquirk": "mod_weapons:LA:5:Medium Laser",
+    "mass": 70,
+    "engine": "350 XL Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 27
+        },
+        "right_leg": {
+            "pips": 27
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERPPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISAC20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 10
+            }
+        },
+        "3": {
+            "ISMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "ISMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISMediumLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ISSmallPulseLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISERPPC",
+            "4": "ISERPPC",
+            "5": "ISERPPC",
+            "6": "ISMediumLaser",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISAC20",
+            "4": "ISAC20",
+            "5": "ISAC20",
+            "6": "ISAC20",
+            "7": "ISAC20",
+            "8": "ISAC20",
+            "9": "ISAC20",
+            "10": "ISAC20",
+            "11": "ISAC20",
+            "12": "ISAC20"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISMediumLaser",
+            "5": "ISMediumLaser",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISMediumLaser",
+            "5": "ISAC20 Ammo",
+            "6": "ISAC20 Ammo",
+            "7": "ISCASE",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISMediumLaser",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISSmallPulseLaser",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        }
+    },
+    "fluff": {
+        "overview": "The brainchild of Stefan Amaris, the Dragoon BattleMech was envisioned as part of Amaris's ambitious plan to create a family of \"modular\" multi-mission combat units for his Amaris Empire Armed Forces.",
+        "capabilities": "Armed with only a few, but powerful weapons found only in the 'Mech's arms. Powered by one of Nissan's 280-rated XL Fusion Engines, the 'Mech is able to achieve a modest pace of 64 km/h. Its defenses include a Guardian ECM Suite, while its armored hull is protected by 11.5 tons of Ferro-Fibrous armor.",
+        "deployment": "Designed as a short-ranged fighter, the Dragoon 02 is armed with a single ER PPC, the remaining weapons space is filled by five Medium Lasers, a Small Pulse Laser, and an AC/20. At the price of dropping its jump jets, the 'Mech's engine has been upgraded to an XL 350 to allow the 'Mech to close in quicker than the original model.",
+        "history": "In the year following the Amaris Coup, now-Emperor Amaris would have a means to make his dream into reality, and he began swiftly issuing contracts which would lead to the creation of the Dragoon. Built by Krupp Stellar Technologies Inc. in 2771 as their second BattleMech design, the Dragoon was designed with a similar modular subsystem akin to the Mercury BattleMech. With this system, the 'Mech's maintenance loads would be eased. Its modular nature would allow repair depots and factories to be able to reconfigure the design's weapons systems and its power plant for any needed mission-specific specs. Produced in limited numbers, only the elite of Amaris's regiments and a select few of Amaris's loyal chosen would receive the design and its variants. The design would see service in the Star League Civil War, often being salvaged by the Star League Defense Force. However, after the liberation of Terra, General Kerensky would order the purging of the design and the retooling of Krupp's two Dragoon production lines. The few remaining Dragoons in service elsewhere would become extinct before the 3rd Succession War.",
+        "manufacturer": [
+            "Krupp Stellar Technologies",
+            "Inc."
+        ],
+        "primaryfactory": [
+            "Terra"
+        ],
+        "systemmanufacturer": {
+            "chassis": "KruppTech 770",
+            "engine": "Nissan 280 XL",
+            "armor": "PanzerFerro Type 7F",
+            "jumpjet": "Corwin Consolidated Model 3H",
+            "communications": "Krupp-COMM 650 with Guardian ECM",
+            "targeting": "KBC Hypersight Model 5"
+        }
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "chassis": "Nova Cat",
+    "model": "A",
+    "mul_id": 2299,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3059,
+    "source": "TRO: 3060",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "ext_twist",
+        "exp_actuator"
+    ],
+    "mass": 70,
+    "engine": "280 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 25,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 11,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 35
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLDoubleHeatSink (omnipod)",
+            "8": "CLDoubleHeatSink (omnipod)",
+            "9": "CLDoubleHeatSink (omnipod)",
+            "10": "CLDoubleHeatSink (omnipod)",
+            "11": "CLERLargeLaser (omnipod)",
+            "12": "CLERLargeLaser (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLDoubleHeatSink (omnipod)",
+            "8": "CLDoubleHeatSink (omnipod)",
+            "9": "CLDoubleHeatSink (omnipod)",
+            "10": "CLDoubleHeatSink (omnipod)",
+            "11": "CLERLargeLaser (omnipod)",
+            "12": "CLERLargeLaser (omnipod)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLDoubleHeatSink (omnipod)",
+            "8": "CLDoubleHeatSink (omnipod)",
+            "9": "CLDoubleHeatSink (omnipod)",
+            "10": "CLDoubleHeatSink (omnipod)",
+            "11": "Jump Jet (omnipod)",
+            "12": "Jump Jet (omnipod)"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "Jump Jet (omnipod)",
+            "8": "Jump Jet (omnipod)",
+            "9": "CLTargeting Computer (omnipod)",
+            "10": "CLTargeting Computer (omnipod)",
+            "11": "CLTargeting Computer (omnipod)",
+            "12": "CLTargeting Computer (omnipod)"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Clan Endo Steel",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "A Nova Cat heavy OmniMech built to protect the Nova Cats spiritually and militarily.",
+        "capabilities": "The basic components of this design, combined with its characteristics as an OmniMech, make it very simple to repair and leave room for the large amount of double heat sinks most variants carry. 13 \u00bd tons of standard armor make this 'Mech very difficult to kill.",
+        "deployment": "The first variant is armed with 4 ER Large Lasers linked to a targeting computer for increased accuracy. Additional heat sinks keep heat mostly in check, while jump jets rocket the 'Mech up to one hundred and twenty meters at a time.",
+        "history": "After its defeat on Tukayyid, Khan Severen Leroux of Clan Nova Cat commissioned the Nova Cat OmniMech, meant to protect the Clan both militarily and spiritually. The 12 meter tall 'Mech is inspired by the Night Gyr created by Clan Jade Falcon.",
+        "manufacturer": [
+            "Barcella Alpha",
+            "Irece Alpha"
+        ],
+        "primaryfactory": [
+            "Barcella",
+            "Irece"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Mynx Type Heavy",
+            "engine": "Consolidated Fusion 280 Extralight",
+            "armor": "Alpha Compound Plate",
+            "communications": "JNE Integrated",
+            "targeting": "Build 2 CAT TTS"
+        }
+    }
+}

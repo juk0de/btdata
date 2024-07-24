@@ -1,0 +1,230 @@
+{
+    "chassis": "Fwltur",
+    "model": "FWL-3V SalvageMech",
+    "mul_id": 1163,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3085,
+    "source": "TRO: 3085",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "None",
+    "mass": 35,
+    "engine": "105 Fusion Engine(IS)",
+    "structure": {
+        "type": "Industrial",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 11
+        },
+        "left_torso": {
+            "pips": 8
+        },
+        "right_torso": {
+            "pips": 8
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Industrial Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "nocrit": "Industrial:None",
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 2,
+    "armor": {
+        "type": "Commercial",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "weapons": {},
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Heat Sink",
+            "5": "Salvage Arm",
+            "6": "Salvage Arm",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Heat Sink",
+            "5": "Salvage Arm",
+            "6": "Salvage Arm",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Lift Hoist/Arresting Hoist (R)",
+            "4": "Lift Hoist/Arresting Hoist (R)",
+            "5": "Lift Hoist/Arresting Hoist (R)",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Lift Hoist/Arresting Hoist (R)",
+            "4": "Lift Hoist/Arresting Hoist (R)",
+            "5": "Lift Hoist/Arresting Hoist (R)",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "MechanicalJumpBooster",
+            "6": "MechanicalJumpBooster",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "MechanicalJumpBooster",
+            "6": "MechanicalJumpBooster",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "manufacturer": [
+            "New Earth Trading Company"
+        ],
+        "primaryfactory": [
+            "New Earth"
+        ],
+        "systemmanufacturer": {
+            "chassis": "FWL Industrial",
+            "engine": "Victory",
+            "armor": "Type 7 IndiPlate Commercial",
+            "communications": "NETC COMSET 3.2",
+            "targeting": "TargiTrack 717 with Beagle Active Probe"
+        },
+        "systemmode": {
+            "engine": "Fusion 105"
+        }
+    },
+    "imagefile": ".\\data\\images\\fluff\\Mech\\3085Fwltur.jpg"
+}

@@ -1,0 +1,255 @@
+{
+    "chassis": "Man O' War",
+    "clanname": "Gargoyle",
+    "model": "(Conal)",
+    "mul_id": 2001,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3055,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "source": "Operational Turning Points: Red Corsair",
+    "weaponquirk": "stable_weapon:RA:4:CLERPPC",
+    "mass": 80,
+    "engine": "400 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 16,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 23
+        },
+        "right_arm": {
+            "pips": 23
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Streak SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Light TAG": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERPPC (omnipod)",
+            "4": "CLERPPC (omnipod)",
+            "5": "CLERPPC (omnipod)",
+            "6": "CLERPPC (omnipod)",
+            "7": "Clan Ferro-Fibrous",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLStreakSRM6 (omnipod)",
+            "4": "CLStreakSRM6 (omnipod)",
+            "5": "CLStreakSRM6 (omnipod)",
+            "6": "CLStreakSRM6 (omnipod)",
+            "7": "Clan Streak SRM 6 Ammo (omnipod)",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Clan Ferro-Fibrous",
+            "4": "Clan Ferro-Fibrous",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLLightTAG (omnipod)",
+            "12": "CLECMSuite (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLAntiPersonnelPod (omnipod)",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLAntiPersonnelPod (omnipod)",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Gargoyle is an extremely fast assault OmniMech developed with the Timber Wolf as replacements for the first-generation Woodsman OmniMech. The Gargoyle is therefore commonly seen among Clan Wolf, and was a featured assault OmniMech during the Clan Invasion. The Gargoyle earned the name Man O' War from the Inner Sphere forces because of its effectiveness. Along with the Timber Wolf and Naga, the Gargoyle debuted in 2945.",
+        "capabilities": "Star Colonel Conal Ward used a custom configuration when he was commanding the 31st Wolf Solahma. Mounting a pair of ER PPCs in the right arm and a pair of Streak SRM-6 launchers in the left torso, the Gargoyle Conal could fight comfortably at long and short range. Each leg mounted a single A-Pod, and the center torso held an ECM Suite and a Light TAG unit for artillery spotting.",
+        "deployment": "The Gargoyle is capable of reaching ground speeds of up to 86.4 km/h thanks to its massive 400 Model SF-3 XL Engine, accounting for over twenty percent of the 'Mech's mass. Built on a standard structure, the Gargoyle has sixteen double heat sinks in its base chassis, which can dissipate heat from most of the Gargoyle's configurations quite effectively. The Gargoyle carries eleven tons of Ferro-Fibrous armor which is light for its size, but provides protection equal to that of most heavy 'Mechs. Even the Gargoyles relatively light twenty-one and half tons of available pod space emphasizes speed; all Gargoyle configs mount weaponry almost exclusively in the arms, reducing the amount of time required to alter the weapon systems; however, with most of the weaponry placed in the arms, the Gargoyle is at the risk of being disarmed by a couple of well-placed shots.",
+        "manufacturer": [
+            "Wolf Clan Site OZ-1",
+            "Tokasha Mechworks",
+            "Tamar HH Industriplex Alpha"
+        ],
+        "primaryfactory": [
+            "Tamar",
+            "Tokasha",
+            "Tamar"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Clan Series Assault SXC",
+            "engine": "400 Model SF-3 XL",
+            "armor": "Forging C629/j Ferro-Fibrous",
+            "communications": "Raldon R1",
+            "targeting": "Version Kappa-III TTS"
+        }
+    }
+}

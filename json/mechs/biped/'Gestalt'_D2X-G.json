@@ -1,0 +1,225 @@
+{
+    "chassis": "'Gestalt'",
+    "model": "D2X-G",
+    "mul_id": 4209,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3078,
+    "source": "Jihad: Final Reckoning",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "mass": 45,
+    "engine": "315 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Interface Cockpit",
+    "gyro": "None",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Heavy Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Heavy PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": "Mek Void Signature System",
+            "8": "IS Heavy Ferro-Fibrous",
+            "9": "IS Heavy Ferro-Fibrous",
+            "10": "IS Heavy Ferro-Fibrous",
+            "11": "IS Heavy Ferro-Fibrous",
+            "12": "IS Heavy Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Heavy PPC",
+            "6": "Heavy PPC",
+            "7": "Heavy PPC",
+            "8": "Heavy PPC",
+            "9": "PPC Capacitor",
+            "10": "Mek Void Signature System",
+            "11": "IS Heavy Ferro-Fibrous",
+            "12": "IS Heavy Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "Mek Void Signature System",
+            "8": "IS Heavy Ferro-Fibrous",
+            "9": "IS Heavy Ferro-Fibrous",
+            "10": "IS Heavy Ferro-Fibrous",
+            "11": "IS Heavy Ferro-Fibrous",
+            "12": "IS Heavy Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "Mek Void Signature System",
+            "8": "IS Heavy Ferro-Fibrous",
+            "9": "IS Heavy Ferro-Fibrous",
+            "10": "IS Heavy Ferro-Fibrous",
+            "11": "IS Heavy Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "Fusion Engine",
+            "6": "Fusion Engine",
+            "7": "ISAngelECMSuite",
+            "8": "ISAngelECMSuite",
+            "9": "IS Heavy Ferro-Fibrous",
+            "10": "IS Heavy Ferro-Fibrous",
+            "11": "IS Heavy Ferro-Fibrous",
+            "12": "Mek Void Signature System"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Cockpit",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Heavy Ferro-Fibrous",
+            "6": "Mek Void Signature System",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Heavy Ferro-Fibrous",
+            "6": "Mek Void Signature System",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

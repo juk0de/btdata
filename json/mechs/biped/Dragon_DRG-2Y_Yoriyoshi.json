@@ -1,0 +1,248 @@
+{
+    "chassis": "Dragon",
+    "model": "DRG-2Y (Yoriyoshi)",
+    "mul_id": 910,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3025,
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "source": "Historical Turning Points: Galtor",
+    "quirks": [
+        "low_profile",
+        "stable"
+    ],
+    "mass": 60,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Single"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 28
+        },
+        "right_leg": {
+            "pips": 28
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLargeLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISSmallLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISFlamer": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISSRM4": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 25
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMediumLaser",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Heat Sink",
+            "5": "ISLargeLaser",
+            "6": "ISLargeLaser",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "ISSRM4 Ammo",
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISSRM4",
+            "12": "ISFlamer"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISSmallLaser",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        }
+    },
+    "fluff": {
+        "overview": "The Dragon is a heavy BattleMech originally designed in a bid to replace the Shadow Hawk.",
+        "capabilities": "A close assault 'Mech, its versatile design allows it to be used in both offensive and defensive operations. It boasts above-average firepower and plenty of ammunition for extended combat, while a Vlar 300 fusion engine gives it a high top speed for a heavy 'Mech. Armor coverage for the Dragon's ten tons is thick around the torso, and especially the rear, for when it is surrounded by opponents, while the squat design gives it a smaller profile and makes it harder to knock over. The lack of any especially heat-intensive equipment makes the use of only ten heat sinks a non-issue. The Dragon's only major problem is it requires frequent maintenance and/or overhaul of its hip actuator.",
+        "deployment": "The personal 'Mech of Benjamin Military District commander Warlord Syovo Yorioshi during the DCMS's Third Succession War invasion of Galtor III, all the standard weaponry of a Dragon save the left-arm mounted Medium Laser has been removed. Instead a Large Laser is mounted in the right arm, a Small Laser in the head and a SRM-4 and Flamer mounted where the LRM rack would normally be. With a single ton of SRM reloads, the weight saved allows five extra heat sinks to be carried and three more tons of armor to be added.",
+        "history": "Debuting in 2754 during the twilight years of the Star League, the Dragon was turned down by the SLDF in favor of an upgraded Shadow Hawk, though it would be quietly picked up by the Draconis Combine. With the dissolution of the Star League and the onset of the Succession Wars, the Dragon became the Combine's standard heavy 'Mech. Multiple production lines on many well-defended worlds, including Luthien, meant the design was so prevalent every battalion and almost every company featured the Dragon, with some battalions comprised of nothing but these 'Mechs. So many were produced that the Federated Suns and Lyran Commonwealth employed salvaged Dragons in their own arsenals, while many mercenary commands used captured or purchased models. The Free Rasalhague Republic would also adopt the 'Mech following their formation. The beginning of the end came around 3025 when the Grand Dragon, an improved version of the Dragon, entered the prototype phase. By 3040 initial production had begun on this upgraded model with several Dragon factories switching over entirely to producing Grand Dragons. Even as the Combine was phasing it out of service the original Dragon was not wholly abandoned and it saw combat during the Clan Invasion. By 3065 Luthien Armor Works had ceased production altogether on the Dragon, though it would remain within the DCMS' inventory for some time.",
+        "manufacturer": [
+            "Refit"
+        ],
+        "primaryfactory": [
+            "Various"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Type 56-60H",
+            "engine": "Vlar 300",
+            "armor": "Starshield",
+            "communications": "Sipher CommSys 3",
+            "targeting": "Eagle Eye SY10-10"
+        }
+    }
+}

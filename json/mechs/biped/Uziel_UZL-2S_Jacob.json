@@ -1,0 +1,251 @@
+{
+    "chassis": "Uziel",
+    "model": "UZL-2S (Jacob)",
+    "mul_id": 3367,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "Starterbook: Wolf & Blake",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "cowl",
+        "bad_rep_is",
+        "exp_actuator"
+    ],
+    "mass": 50,
+    "engine": "250 XL Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "gyro": "XL Gyro",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISRotaryAC5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 60
+            }
+        },
+        "2": {
+            "ISRotaryAC5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISERSmallLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISERSmallLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISSRM6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 15
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISRotaryAC5",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "ISRotaryAC5",
+            "8": "ISRotaryAC5",
+            "9": "ISRotaryAC5",
+            "10": "Light Ferro-Fibrous",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISRotaryAC5",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "ISRotaryAC5",
+            "8": "ISRotaryAC5",
+            "9": "ISRotaryAC5",
+            "10": "Light Ferro-Fibrous",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISERSmallLaser",
+            "5": "ISSRM6",
+            "6": "ISSRM6",
+            "7": "IS Rotary AC/5 Ammo",
+            "8": "ISSRM6 Ammo",
+            "9": "Light Ferro-Fibrous",
+            "10": "Light Ferro-Fibrous",
+            "11": "Light Ferro-Fibrous",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISERSmallLaser",
+            "5": "IS Rotary AC/5 Ammo",
+            "6": "IS Rotary AC/5 Ammo",
+            "7": "Light Ferro-Fibrous",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Engine",
+            "11": "Engine",
+            "12": "Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Light Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "Built at Defiance Industries' Furillo plant, the Uziel is an effective medium 'Mech that is looked down upon by the LAAF simply because it is produced on Furillo and not at the prestigious Hesperus facility. A varied weapons mix makes the Uziel an excellent trooper 'Mech.",
+        "capabilities": "The Uziel is built on a Foundation E50 Endo Steel chassis that has a GM 300 XL engine that provides the 'Mech with a top speed of 97.2 km/h. The 'Mech's mobility is enhanced with six Rawlings 50 jump jets that allow the 'Mech to jump up to one hundred and eighty meters. The Uziel is armored with eight tons of Maximillian 100 armor that gives the Uziel adequate protection from enemy fire. To dissipate the heat produced by the 'Mech's weapons, it carries eleven double heat sinks.",
+        "deployment": "Won in combat on Arc-Royal after the Wolf's Dragoons arrival, the reborn Black Widow Company's XO Jacob Kincaid set about upgrading his new 'Mech significantly. By the time of the Black Widow's return to Outreach in early 3070, Jacob's Uziel used a lighter 250 rated XL Engine and eight and half tons of Light Ferro-Fibrous armor to free up weight to mount a Rotary AC/5 in each arm while retaining the ER Small Lasers and SRM-6 rack. Three tons of autocannon reloads keep the rotaries firing, with a single ton carried for the SRM launcher.",
+        "manufacturer": [
+            "Defiance Industries"
+        ],
+        "primaryfactory": [
+            "Furillo"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Foundation E50 Endo Steel",
+            "engine": "GM 300 XL",
+            "armor": "Maximillian 100",
+            "jumpjet": "Rawlings 50",
+            "communications": "Neil 6000-g",
+            "targeting": "RCA Instatrac Mark XXII"
+        }
+    }
+}

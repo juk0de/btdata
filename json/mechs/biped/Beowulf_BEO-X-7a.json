@@ -1,0 +1,237 @@
+{
+    "chassis": "Beowulf",
+    "model": "BEO-X-7a",
+    "mul_id": 5548,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3068,
+    "source": "XTR: ComStar",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "ext_twist",
+        "exp_actuator",
+        "prototype"
+    ],
+    "mass": 45,
+    "engine": "270 XL Engine(IS)",
+    "structure": {
+        "type": "Composite",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Standard Gyro",
+    "ejection": "Full Head Ejection System",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Stealth",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "TAG": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": "BloodhoundActiveProbe (armored)",
+            "8": "BloodhoundActiveProbe (armored)",
+            "9": "BloodhoundActiveProbe (armored)",
+            "10": "Stealth",
+            "11": "Stealth",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": "ISTAG",
+            "8": "ISMASC",
+            "9": "ISMASC",
+            "10": "Stealth",
+            "11": "Stealth",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "IS Improved Jump Jet",
+            "5": "IS Improved Jump Jet",
+            "6": "IS Improved Jump Jet",
+            "7": "IS Improved Jump Jet",
+            "8": "IS Improved Jump Jet",
+            "9": "IS Improved Jump Jet",
+            "10": "Stealth",
+            "11": "Stealth",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "IS Improved Jump Jet",
+            "5": "IS Improved Jump Jet",
+            "6": "IS Improved Jump Jet",
+            "7": "IS Improved Jump Jet",
+            "8": "IS Improved Jump Jet",
+            "9": "IS Improved Jump Jet",
+            "10": "Stealth",
+            "11": "Stealth",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "IS Improved Jump Jet",
+            "12": "IS Improved Jump Jet"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISAngelECMSuite (armored)",
+            "6": "ISAngelECMSuite (armored)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Stealth",
+            "6": "Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Stealth",
+            "6": "Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

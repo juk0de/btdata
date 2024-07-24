@@ -1,0 +1,225 @@
+{
+    "chassis": "Wight",
+    "model": "WGT-1LAW/SC",
+    "mul_id": 3546,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "source": "TRO: 3075",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "exp_actuator",
+        "weak_legs"
+    ],
+    "mass": 35,
+    "engine": "175 Compact Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 11
+        },
+        "left_torso": {
+            "pips": 8
+        },
+        "right_torso": {
+            "pips": 8
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Heavy Ferro-Fibrous",
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "weapons": {
+        "1": {
+            "Heavy PPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": "Heavy Ferro-Fibrous",
+            "8": "Heavy Ferro-Fibrous",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": "Heavy Ferro-Fibrous",
+            "8": "Heavy Ferro-Fibrous",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "ISERMediumLaser",
+            "5": "ISERMediumLaser",
+            "6": "Endo Steel",
+            "7": "Endo Steel",
+            "8": "Heavy Ferro-Fibrous",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "Heavy PPC",
+            "5": "Heavy PPC",
+            "6": "Heavy PPC",
+            "7": "Heavy PPC",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "ISDoubleHeatSink",
+            "9": "ISDoubleHeatSink",
+            "10": "ISDoubleHeatSink",
+            "11": "Endo Steel",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

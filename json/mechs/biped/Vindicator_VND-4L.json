@@ -1,0 +1,267 @@
+{
+    "chassis": "Vindicator",
+    "model": "VND-4L",
+    "mul_id": 3429,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3063,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "rugged_1",
+        "difficult_eject"
+    ],
+    "mass": 45,
+    "engine": "225 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Stealth",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISERMediumLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISMediumPulseLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISLRM5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "5": {
+            "ISGuardianECM": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "Stealth Armor",
+            "12": "Stealth Armor"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISERPPC",
+            "8": "ISERPPC",
+            "9": "ISERPPC",
+            "10": "Stealth Armor",
+            "11": "Stealth Armor",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "ISLRM5",
+            "7": "ISGuardianECM",
+            "8": "ISGuardianECM",
+            "9": "Stealth Armor",
+            "10": "Stealth Armor",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "ISLRM5 Ammo",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISCASE",
+            "11": "Stealth Armor",
+            "12": "Stealth Armor"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "ISERMediumLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISMediumPulseLaser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Stealth Armor",
+            "6": "Stealth Armor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Stealth Armor",
+            "6": "Stealth Armor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Vindicator is one of the most well-known Capellan Confederation BattleMechs. This workhorse of the CCAF was built in 2826 between the First and Second Succession War to maximize the effectiveness of the Confederation's surviving production capabilities and fulfill as many roles as possible.",
+        "capabilities": "The 'Mech has a top speed of only 64.8 km/h, which allows it to keep up with most heavy 'Mechs and some slower medium 'Mechs. Four jump jets give it a jumping capability of up to 120 meters that, while not up to par with the greater distances of 'Mechs like the Phoenix Hawk, allows the Vindicator the ability to outmaneuver most heavier 'Mechs, as well as making it easier to traverse rough terrain. It also carries more armor than the Phoenix Hawk with good overall coverage, particularly on its rear torso and legs, making it better protected than smaller 'Mechs. Armament for the 'Mech is adequate though its primary weapons are unsuited for point-blank ranges, while sixteen heat sinks help keep it cool.",
+        "deployment": "The 4L Vindicator is a major upgrade to the design, part of Ceres Metals' efforts to revive the line in 3063. The engine has been replaced with a 225-rated extralight engine, granting the 'Mech a top speed of 86.4 km/h, and its jumping distance was increased to 150 meters with an additional jump jet. The 'Mech uses double heat sinks for its advanced weapons load, which includes an ER PPC and LRM-5 for striking power at long range and an ER medium laser and medium pulse laser for short range work. Finally, the 'Mech carries a Guardian ECM Suite and is protected with nine tons of Stealth Armor, making it harder to target at range. The 4L became a common design among Shadow Lances following their introduction.",
+        "history": "Designed by committee, the Vindicator's \"jack-of-all-trades\" nature means it does not excel in any one role but fulfills them adequately. With almost all of its components produced on Capella, the Vindicator is also cheap, easy to mass produce, and quick to repair with a ready supply of spare parts. Unfortunately, early models of the Vindicator suffered from a design flaw wherein the head-mounted laser created a bulge in the cockpit. More than making the space cramped for tall MechWarriors, it also interfered with the ejection propulsion system, resulting in the deaths of a number of MechWarriors when their ejection seats exploded during ejection. Engineers managed to redesign the cockpit layout prior to the War of 3039, eliminating the deadly intrusion and decreasing the chance of said unfortunate malfunction. Due to its relatively lackluster design and the outrageous mark-ups on spare parts sold to out-of-state parties, the Vindicator has remained almost exclusive to the Capellan Confederation since its introduction. Even in the wake of the Fourth Succession War, with a good portion of their military complex and resources gone, the Capellan leadership continued funding production of this 'Mech and updated it with the rediscovery of lostech. Following the introduction of the Firestarter OmniMech and its spread by the Second Star League production of the Vindicator was curtailed, though the line would be partially revived with a couple of specialized variants in 3060.",
+        "manufacturer": [
+            "Ceres Metals Industries"
+        ],
+        "primaryfactory": [
+            "Capella"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Ceresplex IV",
+            "engine": "VOX 225 XL",
+            "armor": "Starshield with CASE",
+            "jumpjet": "Anderson Propulsion 30",
+            "communications": "CeresCom Model 21-Rs",
+            "targeting": "C-Apple Churchill"
+        }
+    }
+}

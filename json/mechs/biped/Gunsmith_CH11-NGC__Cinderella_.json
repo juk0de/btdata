@@ -1,0 +1,233 @@
+{
+    "chassis": "Gunsmith",
+    "model": "CH11-NGC 'Cinderella'",
+    "mul_id": 8367,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3131,
+    "source": "XTR: Royal Fantasy",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "mass": 25,
+    "engine": "200 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 8
+        },
+        "left_torso": {
+            "pips": 6
+        },
+        "right_torso": {
+            "pips": 6
+        },
+        "left_arm": {
+            "pips": 4
+        },
+        "right_arm": {
+            "pips": 4
+        },
+        "left_leg": {
+            "pips": 6
+        },
+        "right_leg": {
+            "pips": 6
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "ejection": "Full Head Ejection System",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Reflective",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ER Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Laser AMS": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERMediumPulseLaser",
+            "5": "CLERMediumPulseLaser",
+            "6": "CLERMediumPulseLaser",
+            "7": "CLERMediumPulseLaser",
+            "8": "Clan Reflective",
+            "9": "Clan Reflective",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERMediumPulseLaser",
+            "5": "CLERMediumPulseLaser",
+            "6": "CLERMediumPulseLaser",
+            "7": "CLERMediumPulseLaser",
+            "8": "Clan Reflective",
+            "9": "Clan Reflective",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISLaserAntiMissileSystem",
+            "8": "ISLaserAntiMissileSystem",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Reflective",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

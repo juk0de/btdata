@@ -1,0 +1,255 @@
+{
+    "chassis": "Clint IIC",
+    "model": "2",
+    "mul_id": 653,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3073,
+    "source": "TRO: 3060",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "imp_target_long",
+        "imp_target_med"
+    ],
+    "mass": 40,
+    "engine": "240 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 8,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "2": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Pulse Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink",
+            "6": "CLMediumPulseLaser",
+            "7": "CLMediumPulseLaser",
+            "8": "CLMediumPulseLaser",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Clan Improved Jump Jet",
+            "4": "Clan Improved Jump Jet",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": "Clan Improved Jump Jet",
+            "8": "Clan Improved Jump Jet",
+            "9": "CLMediumPulseLaser",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Clan Improved Jump Jet",
+            "4": "Clan Improved Jump Jet",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": "Clan Improved Jump Jet",
+            "8": "Clan Improved Jump Jet",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLMediumPulseLaser",
+            "12": "Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLECMSuite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Improved Jump Jet",
+            "6": "Clan Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Clan refit of the prototyle Clint the SLDF took into exile. Primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it served well.",
+        "capabilities": "It is capable of ranging far beyond supply lines thanks to its four tons of ammunition, though it only uses 10 single heat sinks and seven tons of standard armor.",
+        "deployment": "Developed during the Jihad in 3073, the Clint IIC 2 was fitted with an all-energy weapons configuration. The 'Mech mounts five medium pulse lasers divided amongst its center torso, left torso, and right arm; one in each of the torso locations, and the remaining three in the arm. This variant has been provided eight improved jump jets to greatly enhance its mobility in tactical situations. To cope with the new levels of heat, 10 double heat sinks are used instead of the single versions. Additionally, an ECM suite has been allocated to the head. Lastly, ferro-fibrous armor now protects the design in place of the original standard armor.",
+        "history": "When General Aleksandr Kerensky led most of the Star League Defense Force into exile in 2784, they brought prototypes of the Clint BattleMech with them. After the annihilation of Clan Wolverine, Clan Snow Raven revisited these prototypes and was able to begin mass-production of the 'Mech in 2830 and introduced them in 2842. They ensured that it kept up with advances in Clan technology, eventually becoming the design that is now known as the Clint IIC. Production ceased in 2917, and in the late 30th century, the Ravens decided to decommission many less-effective designs of all sorts. It seemed fortuitous, then, when Clan Blood Spirit offered to trade some of their WarShips to the Ravens in exchange for ground units. The Ravens were only too happy to get rid of vehicles that were going to be stockpiled anyways, so many Clint IICs found their way into Clan Blood Spirit, but most of them were subsequently destroyed during the Spirits' conflict with the Adders and Burrocks. The waning fortunes of the Clint IIC were reversed in 3052, when the Ravens restarted production of the 'Mech to trade to the invading Clans for resources from the Inner Sphere.",
+        "manufacturer": [
+            "Eden Rose [Potemkin Class]/Facility 12-D (Refit)",
+            "Snow Raven Industrial Complex Alpha (Refit)"
+        ],
+        "primaryfactory": [
+            "Eden Rose [Potemkin Class]",
+            "Unknown"
+        ],
+        "systemmanufacturer": {
+            "chassis": "SR 2830/b",
+            "engine": "Type 81 Fusion 240 XL",
+            "armor": "Alpha Compound Ferro-Fibrous",
+            "jumpjet": "Andoran Model JJII-Improved",
+            "communications": "Raldon R1 with ECM",
+            "targeting": "Sloane 220 Lockover System"
+        }
+    }
+}

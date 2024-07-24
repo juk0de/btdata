@@ -1,0 +1,262 @@
+{
+    "chassis": "Highlander",
+    "model": "HGN-641-X-2",
+    "mul_id": 5552,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "XTR: ComStar",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "command_mech",
+        "cowl",
+        "reinforced_legs",
+        "difficult_eject",
+        "prototype"
+    ],
+    "mass": 90,
+    "engine": "270 XL Fusion Engine",
+    "structure": {
+        "type": "Reinforced",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "gyro": "XL Gyro",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "left_arm": {
+            "pips": 25
+        },
+        "right_arm": {
+            "pips": 30
+        },
+        "left_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISGaussRifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 16
+            }
+        },
+        "2": {
+            "ISERMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ISAngelECM": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISC3SlaveUnit": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISMML7": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 68
+            }
+        },
+        "6": {
+            "ISMML7": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "ISMML7",
+            "9": "ISArtemisIV",
+            "10": "ISMML7 LRM Ammo Artemis-capable",
+            "11": "Light Ferro-Fibrous",
+            "12": "Light Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISGaussRifle",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGaussRifle",
+            "11": "ISCASEII",
+            "12": "Light Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "ISArtemisIV",
+            "9": "ISMML7 LRM Ammo Artemis-capable",
+            "10": "ISMML7 LRM Ammo Artemis-capable",
+            "11": "ISMML7 SRM Ammo Artemis-capable",
+            "12": "ISCASEII"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "ISERMediumLaser",
+            "8": "ISERMediumLaser",
+            "9": "ISGauss Ammo",
+            "10": "ISGauss Ammo",
+            "11": "ISAngelECM",
+            "12": "ISAngelECM"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Engine",
+            "11": "Engine",
+            "12": "Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISC3SlaveUnit",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous"
+        }
+    },
+    "fluff": {
+        "overview": "The Highlander is one of the most well-known Star League Defense Force assault 'Mechs, serving with distinction for almost two centuries since first entering service in 2592.",
+        "capabilities": "Initially designed as a dedicated city and installation defender, the original model featured a variety of weaponry along with fifteen and a half tons of Ferro-Fibrous armor, but perhaps its most useful asset were the three HildCo jump jets giving it a jumping range of 90 meters. The heaviest 'Mech design to feature jump jets at the time, their original task was to allow the Highlander the ability to jump over inconvenient obstacles such as buildings and outpace other 'Mechs with a faster ground speed, but because of this increased mobility and its versatile weaponry the Highlander proved to be a capable fighter on any battlefield and within decades nearly every BattleMech regiment of the Regular and Royal Armies featured them.",
+        "deployment": "This ComStar developed variant is equipped with a pair of Artemis IV-equipped MML-7 launchers with four tons of ammo. It keeps the Gauss Rifle of the standard Highlander and mounts a pair of ER Medium Lasers. CASE II systems protect the Gauss Rifle and missile ammunition from explosions. A C3 Slave unit allows the Highlander to share targeting data. Light Ferro-Fibrous armor and a Reinforced Structure provide protection from weapons fire. To make room for all the equipment, this Highlander uses an XL Engine and XL Gyro.",
+        "history": "During the design's initial trial runs pilots began using these 'Mechs in what would infamously become known as the \"Highlander Burial\". Leaping into the air and landing directly on their enemy, a Highlander could literally drive a light 'Mech into the ground. So successful was this maneuver that the design team re-engineered the legs to withstand repeated death-from-above attacks and turned what had been a desperation move into an art form, giving Highlander pilots an additional psychological edge. As with other Star League era designs the Highlander would suffer the loss of technology brought about by the Succession Wars, and when StarCorps' factory on Son Hoa was devastated towards the end of the Second Succession War the original HGN-732 became virtually extinct. An agreement between StarCorps and Hollis Incorporated to rebuild destroyed chassis from scratch using readily-available technology kept the line going until the mid-3030s when limited production was restarted by StarCorps on Son Hoa and Corey, producing barely a dozen new 'Mechs per year. These HGN-733 Highlanders were used in small numbers by the Capellan Confederation and Lyran Commonwealth, commonly as part of lances containing Exterminators, Victors, Grasshoppers and Catapults. Unbeknownst to many, ComStar also maintained a large stock of Highlanders left over from the Star League, some of which they gifted to the Draconis Combine during the War of 3039. The appearance of so many seemingly rare 733s, along with a few 732s whose advanced technology managed to slip through ComStar screening, had a large impact on Lyran morale during that conflict. ComStar would also use the design in their own military forces, the Com Guard, and even during the Clan Invasion a few original 732s would take to the field as part of the Clans' fighting forces. The Northwind Highlanders especially favored this namesake Battlemech. In fact, during the Succession Wars, they were the only Inner Sphere army to keep a large number of them operational, along with ComStar. The Highlanders are specially skilled in delivering the famed Highlander Burial maneuver. By 3057 StarCorps' Son Hoa line was at full production, producing brand-new original-spec Highlanders for Lyran units of the Federated Commonwealth, just in time to take part in the FedCom Civil War. Highlanders would continue to be produced all the way through to the Jihad, where advanced variants fought both for and against the Word of Blake.",
+        "manufacturer": [
+            "Refit (ComStar)"
+        ],
+        "primaryfactory": [
+            "Various"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Star League XT-R",
+            "engine": "GM 270 XL",
+            "armor": "Krupp 205 Light Ferro-Fibrous with CASE II",
+            "jumpjet": "HildCo Model 10",
+            "communications": "Hector VII",
+            "targeting": "Starlight LX-1"
+        }
+    }
+}

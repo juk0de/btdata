@@ -1,0 +1,217 @@
+{
+    "chassis": "Legionnaire",
+    "model": "LGN-2F",
+    "mul_id": 4491,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3077,
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "source": "TRO: Prototypes",
+    "quirks": [
+        "easy_maintain",
+        "imp_target_med"
+    ],
+    "weaponquirk": "exposed_linkage:RT:4:ISRotaryAC5",
+    "mass": 50,
+    "engine": "350 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "cockpit": "Torso-Mounted Cockpit",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Reflective",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERMediumLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISRotaryAC5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 60
+            }
+        },
+        "3": {
+            "ISERMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "Reflective",
+            "7": "Reflective",
+            "8": "Reflective",
+            "9": "Reflective",
+            "10": "Reflective",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "Reflective",
+            "7": "Reflective",
+            "8": "Reflective",
+            "9": "Reflective",
+            "10": "Reflective",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Life Support",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Life Support",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "ISRotaryAC5",
+            "8": "ISRotaryAC5",
+            "9": "ISRotaryAC5",
+            "10": "ISRotaryAC5",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Cockpit",
+            "12": "Sensors"
+        },
+        "head": {
+            "1": "Sensors",
+            "2": "Sensors",
+            "3": "IS Rotary AC/5 Ammo",
+            "4": "IS Rotary AC/5 Ammo",
+            "5": "IS Rotary AC/5 Ammo",
+            "6": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    }
+}

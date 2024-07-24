@@ -1,0 +1,236 @@
+{
+    "chassis": "War Dog",
+    "model": "WR-DG-03FC",
+    "mul_id": 3477,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3064,
+    "source": "TRO: 3055",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "mass": 75,
+    "engine": "300 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 36
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 28
+        },
+        "right_leg": {
+            "pips": 28
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "4": {
+            "Heavy Gauss Rifle": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISERPPC",
+            "8": "ISERPPC",
+            "9": "ISERPPC",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISMediumPulseLaser",
+            "5": "ISMediumPulseLaser",
+            "6": "ISERMediumLaser",
+            "7": "ISERMediumLaser",
+            "8": "ISERMediumLaser",
+            "9": "ISHeavyGauss Ammo",
+            "10": "ISHeavyGauss Ammo",
+            "11": "ISHeavyGauss Ammo",
+            "12": "ISHeavyGauss Ammo"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISHeavyGaussRifle",
+            "5": "ISHeavyGaussRifle",
+            "6": "ISHeavyGaussRifle",
+            "7": "ISHeavyGaussRifle",
+            "8": "ISHeavyGaussRifle",
+            "9": "ISHeavyGaussRifle",
+            "10": "ISHeavyGaussRifle",
+            "11": "ISHeavyGaussRifle",
+            "12": "ISHeavyGaussRifle"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISHeavyGaussRifle",
+            "12": "ISHeavyGaussRifle"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISC3SlaveUnit",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

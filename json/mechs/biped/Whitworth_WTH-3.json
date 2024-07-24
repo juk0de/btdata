@@ -1,0 +1,253 @@
+{
+    "chassis": "Whitworth",
+    "model": "WTH-3",
+    "mul_id": 3543,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "rugged_1",
+        "weak_legs"
+    ],
+    "mass": 40,
+    "engine": "160 Fusion Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLRM5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 96
+            }
+        },
+        "2": {
+            "ISLRM5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ISC3SlaveUnit": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Endo Steel",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": "Endo Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Endo Steel",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": "Endo Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "ImprovedJump Jet",
+            "2": "ImprovedJump Jet",
+            "3": "ImprovedJump Jet",
+            "4": "ImprovedJump Jet",
+            "5": "ImprovedJump Jet",
+            "6": "ImprovedJump Jet",
+            "7": "ISLRM5",
+            "8": "ISLRM5",
+            "9": "ISLRM5 Ammo",
+            "10": "ISLRM5 Ammo",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "ImprovedJump Jet",
+            "2": "ImprovedJump Jet",
+            "3": "ImprovedJump Jet",
+            "4": "ImprovedJump Jet",
+            "5": "ImprovedJump Jet",
+            "6": "ImprovedJump Jet",
+            "7": "ISLRM5",
+            "8": "ISLRM5",
+            "9": "ISLRM5 Ammo",
+            "10": "ISLRM5 Ammo",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISC3SlaveUnit",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Whitworth was created in 2610 as a scout 'Mech to bridge the gap between the light Wasp and medium Phoenix Hawk variants.",
+        "capabilities": "Although the Whitworth is limited at short range, its missile launchers provide exceptional long-range capabilities. While its heft allows it to compete in combat with units of same and lesser size, the 'Mech is not intended to be a brawler by any means. The Whitworth is not a good short-range slugger since it lacks hand actuators, has a terrible short-range weapon loadout, and lacks the high speed curve of lighter 'Mechs. Pilots who try to utilize it as such often find themselves rocketing into the sky on their ejection seat. Furthermore, the design incorporates a faulty actuator system in the hips and legs (replacing the system would require a complete reworking of the lower half of the torso and leg assembly), resulting in far too many MechWarriors being sprawled on the battlefield and unable to move due to unresponsive (or even missing) legs.",
+        "deployment": "A variant produced in 3069, the WTH-3 is mostly used with Capellan March forces. Also utilizing an Endo Steel chassis, the -3 mounts four LRM-5s and a C3 slave. Four tons of ammunition allow it to utilize a variety of specialty munitions. The weight savings went into upgrading the jump jets to improved jump jets that allow the -3 to leap up to 180 meters at a time.",
+        "history": "The Whitworth Company's think tank produced a mediocre design that, while well equipped, was slower than either the Wasp or the P-Hawk. The Whitworth was adequately armored and had some staying power on the battlefield, but it couldn't hope to keep up with its lance companions in a running conflict. After observing that many Whitworth pilots would rush into close-range combat in order to successfully deploy its armament loadout, Star League designers pushed the manufacturer to upgrade to the extended reach of the Longbow LRM 10 series (despite the fact that most pilots were Kuritan in origin and adhered to the samurai-style of fighting). The Whitworth, dubbed the \"Tin Woodsman\" by both critics and fans, served the SLDF as a reconnaissance unit or as a part of a mobile striking lance. Because many Whitworths were allocated to severe battle zones, the death of the Star League resulted in the destruction of hundreds of them. Though survivors were rapidly recruited into the military machine of the Great Houses, the loss of so many industries signaled that the design was doomed to fade away at some point in the future. The initial WTH-1S series was found in Star League troops, often in strongly reinforced urban attack companies. Many Rim Worlds Republic troops deployed Whitworths in a more brutal manner, stockpiling half of their SRM ammo bins with inferno rounds capable of igniting large towns. Many Whitworths were incorporated into the Great Houses following the demise of the Star League. Because the Whitworth Company's large complex on Dieron was destroyed during the Amaris Crisis, these Whitworths were operated until they could no longer be maintained and then became \"parts storage,\" as the actuator and structural mounts were adaptable to numerous medium 'Mech designs. Fewer than 300 Whitworths are thought to be operable, largely in the hands of families and passed down through MechWarrior generations. Spare components are scarce, but that began to change in 3035, when Whitworth Specialty Manufacturing established on Benjamin in the Draconis Combine and began producing spare parts for the WTH-1 design. Rumors circulated that ComStar was significant in the company's early days and was somehow connected to the secret arrangement reached in 3034 between that group and Theodore Kurita.",
+        "manufacturer": [
+            "General Motors (Refit)"
+        ],
+        "primaryfactory": [
+            "Kathil"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Whitworth Type Ie",
+            "engine": "LTV 160",
+            "armor": "Durallex Light",
+            "jumpjet": "Whitworth Improved Jetlift",
+            "communications": "Garret T14",
+            "targeting": "Garret D2j"
+        }
+    }
+}

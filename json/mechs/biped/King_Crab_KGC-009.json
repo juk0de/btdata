@@ -1,0 +1,290 @@
+{
+    "chassis": "King Crab",
+    "model": "KGC-009",
+    "mul_id": 6635,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3104,
+    "source": "TRO: 3145 Lyran Commonwealth",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "command_mech",
+        "difficult_maintain"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Heavy Duty Gyro",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 46
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "LAC/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "LAC/5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Plasma Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Plasma Rifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "MML 7": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "MML 7": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISPlasmaRifle",
+            "4": "ISPlasmaRifle",
+            "5": "Light Auto Cannon/5",
+            "6": "Light Auto Cannon/5",
+            "7": "ISPlasmaRifleAmmo",
+            "8": "ISPlasmaRifleAmmo",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISPlasmaRifle",
+            "4": "ISPlasmaRifle",
+            "5": "Light Auto Cannon/5",
+            "6": "Light Auto Cannon/5",
+            "7": "ISPlasmaRifleAmmo",
+            "8": "ISPlasmaRifleAmmo",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "Medium Laser",
+            "9": "IS Ammo MML-7 LRM",
+            "10": "IS Ammo LAC/5",
+            "11": "ISCASE",
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "Medium Laser",
+            "9": "IS Ammo MML-7 LRM",
+            "10": "IS Ammo MML-7 SRM",
+            "11": "IS Ammo LAC/5",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISGuardianECMSuite",
+            "6": "ISGuardianECMSuite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The King Crab has been a horror on the battlefield since its introduction just before the old Star League's demise, and it is well known for its ability to quickly kill most BattleMechs under eighty tons.",
+        "capabilities": "While not the most heavily armored 'Mech, the King Crab is still tough to crack, with sixteen tons of ferro-fibrous armor and CASE protecting its ammunition stores; however, the arms are probably the most susceptible area to receive damage and an internal hit is likely to knock an autocannon out of the fight. The 'Mech is also slow, with a cruising speed of 32 km/h and top speed of 54 km/h, and has been described as a \"notorious hangar queen\".",
+        "deployment": "Manufactured from 3104 onward by StarCorps Industries from their facility on Loburg, the 009 variant of the King Crab was an update intended to meet the demands of the modern battlefield. Constructed around a StarFrame Hill Endo Steel chassis mated with the Vlar 300 engine of the original and a Heavy-Duty Gyro, the 009 is a rugged 'Mech even before StarCorps sheathed the 009 in nineteen and a half tons of ArcShield VII Mk. 5 armor with CASE, literally as much armor as could be fitted to the frame. For electronics StarCorps used a Dalban Commline communications system, augmented by a Guardian ECM Suite, and a Dalban HiRez-B targeting and tracking system. Fourteen double heat sinks were installed to try and mitigate the heat output of the heavy armament on the -009 - armament that consisted of a SarLon MiniCannon Light Class 5 Autocannon and a Defiance Novashot Model 2 plasma rifle in each arm, along with a Doombud 7-Tube Multi-Missile Launcher and a Phototec 806c medium laser in each of the left and right torsos. Each plasma rifle is served by two tons of ammunition stored in the arm alongside the Rifle, while each Light AC/5 draws on a ton of ammunition stored in the torso closest to the arm, and a total of three tons of ammunition is available for the two MML-7s to draw on. Despite the relatively low speed, ammunition dependency and Small Cockpit, the -009 was popular with senior Lyran officers.",
+        "history": "The KGC-000, designed by Cosara Weaponries scientists under General Kerensky's directives, performed brilliantly in its specified mission, though it was nowhere near the command vehicle that Defiance Industries' later Atlas was. The majority of King Crabs joined Kerensky on his Exodus, including all surviving -010 platforms; those that remained were surreptitiously purchased by ComStar and mothballed on Terra. Upon the Clans' arrival and the Battle of Tukayyid, most Com Guard commanders discovered that the original Imperator-D autocannon design could not close quickly enough with Clan machines to cause considerable damage. After being approached by ComStar, Cosara Weaponries created the -001 variant; the additional range gave the King Crab some much-needed reach. ComStar, pleased with their performance, gave Cosara permission to mass-produce the enhanced King Crab for general market sale, with ComStar receiving a major portion of the yearly earnings. Northwind production ended after the Word of Blake blockaded the system, and scattered intelligence reports indicate that the Blakists took control the Cosara plant. After being shut down for some months, the plant reopened in late 3069, continuously producing and sending a newer King Crab variant to Protectorate forces. First Precentor Dow took an extraordinary action for the once-secret organization after losing a major weapons supply. ComStar was able to infiltrate the Cosara plant and grab the new engineering designs by hiring a tiny mercenary group that specialized in corporate espionage. ComStar then approached Starcorps Industries and gave the young company the opportunity to create a new King Crab variation, the KGC-007. StarCorps accepted, eager to expand their product line, and the first -007s are scheduled to roll off the Son Hoa line in late 3071. The first three production runs have already been purchased by the LAAF and AFFC.",
+        "manufacturer": [
+            "StarCorps Industries"
+        ],
+        "primaryfactory": [
+            "Loburg"
+        ],
+        "systemmanufacturer": {
+            "chassis": "StarFrame Hill Endo Steel",
+            "engine": "Vlar 300",
+            "armor": "Protec Tech 12 with CASE",
+            "communications": "Dalban Commline with ECM",
+            "targeting": "Dalban HiRez-B"
+        }
+    }
+}

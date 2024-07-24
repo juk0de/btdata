@@ -1,0 +1,260 @@
+{
+    "chassis": "Anvil",
+    "model": "ANV-8M",
+    "mul_id": 53,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3060,
+    "source": "TRO: 3055",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "ext_twist",
+        "imp_target_med"
+    ],
+    "mass": 60,
+    "engine": "240 Fusion Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Arrow IV": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISERLargeLaser",
+            "9": "ISERLargeLaser",
+            "10": "ISERMediumLaser",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISArrowIV",
+            "4": "ISArrowIV",
+            "5": "ISArrowIV",
+            "6": "ISArrowIV",
+            "7": "ISArrowIV",
+            "8": "ISArrowIV",
+            "9": "ISArrowIV",
+            "10": "ISArrowIV",
+            "11": "ISArrowIV",
+            "12": "ISArrowIV"
+        },
+        "left_torso": {
+            "1": "ISArrowIVAmmo",
+            "2": "ISArrowIVAmmo",
+            "3": "ISArrowIVAmmo",
+            "4": "ISMASC",
+            "5": "ISMASC",
+            "6": "ISMASC",
+            "7": "ISCASE",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "ISArrowIV",
+            "2": "ISArrowIV",
+            "3": "ISArrowIV",
+            "4": "ISArrowIV",
+            "5": "ISArrowIV",
+            "6": "Endo Steel",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISGuardianECMSuite",
+            "12": "ISGuardianECMSuite"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISERMediumLaser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Anvil, initially conceived as an independent brawler Mech, evolved into a tactical indirect fire unit during its development. Merging elements with the Stingray, which was subsequently renamed the Anvil, this Mech became part of a dynamic duo with the Hammer. Serving in the Free Worlds League Military (FWLM), the Anvil is designed for close combat, perfectly complementing the Hammer's long-range capabilities. The pairing of these two Mechs showcases a broad weapon range and quick terrain traversal, with the Anvil excelling in deadly accurate large pulse laser attacks in close quarters.",
+        "capabilities": "The Anvil was at the forefront of FWLM's advanced technologies when first fielded, including an endo steel internal structure and double heat sinks. Its standout features are the large pulse lasers, supplemented by standard medium lasers, providing a robust close-combat arsenal. Despite its limited jump capability, the Anvil's maneuverability complements its combat role effectively. While its armor and power plant technologies were relatively standard for the time, the inclusion of Guardian ECM enhances its defensive capabilities. The Anvil, though not agile, plays a crucial role in the FWLM's strategy, especially in tandem with the Hammer.",
+        "deployment": "A radical modification for artillery support, featuring an Arrow IV system, ER large laser, ER medium lasers, reduced engine, and MASC system.",
+        "history": "The Anvil BattleMech's development journey and deployment history in the Free Worlds League Military (FWLM) reflect a tale of adaptability and strategic innovation. Originally conceptualized as a standalone brawler, the Anvil's mission underwent a substantial transformation during its development phase. An insightful engineer's proposal to match it with the Stingray design, later renamed the Hammer, led to the creation of a formidable Mech duo, optimizing the Anvil for close combat engagements complemented by the Hammer's long-range capabilities.This effective pairing of the Hammer and Anvil has been a staple strategy within the FWLM, making solo deployments of the Anvil a rarity. The duo has seen action in various significant military operations, including Operation Guerrero and clashes against the Clans. The Anvil, equipped with its advanced technologies like Guardian ECM and large pulse lasers, played a crucial role in these encounters, especially in urban combat scenarios where indirect fire and maneuverability were key. The synergy between the Anvil and Hammer units, capitalizing on the Anvil's close-combat prowess and the Hammer's long-range fire support, has been a hallmark of their operational success.Despite facing challenges in keeping up with rapid technological advancements in mech warfare, the Anvil has remained a reliable asset in the FWLM's arsenal. Various proposed upgrades and field modifications, such as enhancing armor or adjusting weapon systems, demonstrate the ongoing efforts to maintain the Anvil's relevance on the battlefield. The Anvil's enduring service, marked by both successes and adaptations, showcases the dynamic nature of Mech warfare and the strategic flexibility of FWLM's military doctrine.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs (A Division of Free Worlds Defense Industries)-Refit"
+        ],
+        "primaryfactory": [
+            "Gibson"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Duralyte 314 Endo Steel",
+            "engine": "240 GM",
+            "armor": "Jolassa-325",
+            "jumpjet": "Chilton 365",
+            "communications": "Datacom 50 with Guardian ECM Suite",
+            "targeting": "Dynatec 1122"
+        }
+    }
+}

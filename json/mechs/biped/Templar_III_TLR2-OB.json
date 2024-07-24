@@ -1,0 +1,259 @@
+{
+    "chassis": "Templar III",
+    "model": "TLR2-OB",
+    "mul_id": 6355,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3100,
+    "source": "TRO: 3145 Federated Suns",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "mass": 85,
+    "engine": "340 Light Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Heavy Duty Gyro",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 13,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 28
+        },
+        "right_arm": {
+            "pips": 28
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 44
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 36
+        },
+        "right_leg": {
+            "pips": 36
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Small X-Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Small X-Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Chain Whip (omnipod)",
+            "6": "Chain Whip (omnipod)",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Hatchet (omnipod)",
+            "6": "Hatchet (omnipod)",
+            "7": "Hatchet (omnipod)",
+            "8": "Hatchet (omnipod)",
+            "9": "Hatchet (omnipod)",
+            "10": "Hatchet (omnipod)",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (omnipod)",
+            "4": "Jump Jet (omnipod)",
+            "5": "ISERPPC (omnipod)",
+            "6": "ISERPPC (omnipod)",
+            "7": "ISERPPC (omnipod)",
+            "8": "ISSmallXPulseLaser (omnipod)",
+            "9": "ISSmallXPulseLaser (omnipod)",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (omnipod)",
+            "4": "Jump Jet (omnipod)",
+            "5": "ISSmallXPulseLaser (omnipod)",
+            "6": "ISSmallXPulseLaser (omnipod)",
+            "7": "ISSmallXPulseLaser (omnipod)",
+            "8": "ISSmallXPulseLaser (omnipod)",
+            "9": "ISCASE",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERSmallLaser (omnipod)",
+            "12": "Supercharger (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Templar III is a Dark Age era Assault Class OmniMech, first produced by General Motors for the Federated Suns. It was intended as a replacement for the original Templar, whose factory lines were destroyed during the Jihad. General Motors established a new production line on New Valencia for what was to become the next generation of the Templar with newer technologies.",
+        "capabilities": "Like its predecessor, the Templar III is typically utilized as a Command 'Mech by AFFS forces. With its alternate configurations the 'Mech is able to handle various combat situations thanks to access to Advanced equipment.",
+        "deployment": "An Advanced Tech configuration, the weapons arrangement includes a side torso\u2013mounted ER PPC, with six Small X-Pulse Lasers. Additionally, the B Configuration is intended for close-range combat with melee weapons, and four Jump Jets for improved mobility. Its melee weapons are a right arm\u2013mounted Hatchet, while the left arm carries a Chain Whip. To help it get to its intended target quickly, the 'Mech is fitted with a Supercharger.",
+        "history": "Among the most noticeable differences when comparing the original Templar to the Templar III is its smaller Pod Capacity. The new 'Mech has a 29 ton Pod capacity in comparison to the old Templar's 40 tons. However, the 'Mech's heavier Light Engine provides improved durability while retaining the original design's maximum speed and armor protection.",
+        "manufacturer": [
+            "General Motors"
+        ],
+        "primaryfactory": [
+            "New Valencia"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Kallon Type XX Endo Steel",
+            "engine": "GM 340 Light",
+            "armor": "StarGuard CIV",
+            "communications": "Newberg Telescan 17",
+            "targeting": "Spar 3C MegaTrak"
+        }
+    }
+}

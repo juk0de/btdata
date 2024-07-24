@@ -1,0 +1,279 @@
+{
+    "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
+    "chassis": "Mauler",
+    "model": "MAL-3K",
+    "mul_id": 9548,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3074,
+    "source": "Shrapnel 15",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "mass": 90,
+    "engine": "270 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "IS Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 30
+        },
+        "right_arm": {
+            "pips": 30
+        },
+        "left_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 44
+            },
+            "rear": {
+                "pips": 14
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 38
+        },
+        "right_leg": {
+            "pips": 38
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large VSP Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large VSP Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Thunderbolt 5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "LRM 15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Thunderbolt 5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISLargeVSPLaser",
+            "8": "ISLargeVSPLaser",
+            "9": "ISLargeVSPLaser",
+            "10": "ISLargeVSPLaser",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISLargeVSPLaser",
+            "8": "ISLargeVSPLaser",
+            "9": "ISLargeVSPLaser",
+            "10": "ISLargeVSPLaser",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 15",
+            "5": "LRM 15",
+            "6": "LRM 15",
+            "7": "Thunderbolt 5",
+            "8": "Thunderbolt 5",
+            "9": "IS Ammo LRM-15",
+            "10": "IS Ammo LRM-15",
+            "11": "IS Ammo Thunderbolt-5",
+            "12": "IS Ammo Thunderbolt-5"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 15",
+            "5": "LRM 15",
+            "6": "LRM 15",
+            "7": "Thunderbolt 5",
+            "8": "Thunderbolt 5",
+            "9": "IS Ammo LRM-15",
+            "10": "IS Ammo LRM-15",
+            "11": "IS Ammo Thunderbolt-5",
+            "12": "IS Ammo Thunderbolt-5"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "<p>Debuted in 3038, the Daboku quickly garnered criticism for its performance issues, notably a problematic ejection system triggered by specific torso damage. This led to its limited production run and eventual discontinuation. However, the Federated Commonwealth showed interest in the design, acquiring several units from battlefield salvage during the 3040s. These units were predominantly deployed in Lyran units along the Periphery border.</p>",
+            "14": "<p>In the late 3040s, LAW revisited the Daboku design, leading to the emergence of the Mauler. This updated version included enhanced range lasers, new heat sink technology, and a lighter engine. Despite initially inheriting the Daboku\u2019s safety flaw, the Mauler became a prominent feature in the DCMS arsenal, especially during the Clan Invasion, serving as a long-range support Mech.</p>",
+            "15": "<p>The Mauler's deployment varied significantly, with different configurations adapting to diverse combat roles and scenarios. These configurations ranged from sniper-focused setups to heavy assault modifications. The Mauler\u2019s widespread use extended beyond the Draconis Combine, with various forces within the Inner Sphere, including the AFFS and LAAF, utilizing it in numerous military engagements.</p>",
+            "16": "<p>Throughout its operational history, the Mauler has been integral to many military campaigns and conflicts. Its adaptability to changing battlefield conditions in the Inner Sphere has cemented its role as a versatile and formidable assault Mech.</p>"
+        }
+    },
+    "fluff": {
+        "overview": "The Mauler's arsenal is primarily focused on long-range engagements, featuring a combination of light autocannons and missile systems, supplemented by energy weapons. This loadout allows the Mauler to excel in support roles, offering sustained fire from a distance. Despite its impressive offensive capabilities, the Mech's limited heat dissipation can pose challenges during intense combat, necessitating careful heat management by its pilots. Its eleven and a half tons of ferro-fibrous armor provide substantial protection, but its top speed of 54 km/h limits its mobility on the battlefield.",
+        "capabilities": "At its core, the Mauler is equipped with a formidable array of weaponry, primarily geared towards long-range engagements. This includes extended-range lasers and LRM launchers, allowing it to deliver powerful strikes from a distance. The integration of these advanced weapon systems, coupled with an extra-light engine, significantly enhances its offensive capabilities, making it a formidable opponent in ranged combat scenarios.Defensively, the Mauler is protected by a robust arrangement of ferro-fibrous armor, providing substantial resilience against enemy fire. Its defensive prowess is further augmented by the sophisticated CASE system, designed to protect the pilot from critical damage. The Mauler's speed, capped at 54 km/h, is optimized for maintaining optimal distance in combat, enabling it to leverage its long-range weaponry effectively while minimizing exposure to enemy attacks.The unique technological aspects of the Mauler include its advanced heat sink system, crucial for managing the heat generated by its high-powered armaments. This system allows the Mauler to sustain prolonged engagements, delivering consistent firepower without the risk of overheating. Additionally, the Mauler's design prioritizes ammunition efficiency, ensuring a steady supply for its ballistic and missile-based weaponry, crucial for maintaining its combat effectiveness in extended battles.",
+        "deployment": "The MAL-3K variant of the Mauler, known for its balanced mix of long-range and close-combat capabilities, represents a significant upgrade from its predecessors. It features a pair of LB 10-X Autocannons, replacing the original light autocannons for more impactful direct fire. Complementing these, the MAL-3K retains its standard LRM-15 launchers, ensuring effective long-range bombardment. This variant is also equipped with a C3 slave unit, enhancing its tactical flexibility by allowing it to share targeting data with other units in the field. The inclusion of jump jets grants the MAL-3K improved mobility, making it a formidable opponent in various combat situations. Despite these upgrades, the MAL-3K maintains a balance between firepower and heat management, ensuring consistent performance in battle.",
+        "history": "The Mauler, initially developed as the Daboku by Luthien Armor Works (LAW), originated from a Draconis Combine initiative in 3036. This project aimed to capitalize on advanced Star League technology from the Helm Memory Core and ComStar's contributions. The design was intended to mirror the Star League's Thug using the Charger chassis for streamlined production.",
+        "manufacturer": [
+            "Luthien Armor Works",
+            "Luthien Armor Works"
+        ],
+        "primaryfactory": [
+            "New Samarkand",
+            "Luthien"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Class 101",
+            "engine": "Hermes 270 XL",
+            "armor": "New Samarkand Royal Ferro-Fibrous with CASE",
+            "communications": "Sipher Security Plus mk.II",
+            "targeting": "Matabushi SuperSentinel"
+        }
+    }
+}

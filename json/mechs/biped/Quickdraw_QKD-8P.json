@@ -1,0 +1,234 @@
+{
+    "chassis": "Quickdraw",
+    "model": "QKD-8P",
+    "mul_id": 4887,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3084,
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "source": "TRO: Prototypes",
+    "quirks": [
+        "hyper_actuator",
+        "exp_actuator"
+    ],
+    "mass": 60,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "gyro": "Compact Gyro",
+    "cockpit": "Torso-Mounted Cockpit",
+    "myomer": "Triple Strength Myomer",
+    "fluff": {
+        "history": "Handheld weapons NOT available in MegaMek so none are included."
+    },
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Single"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 28
+        },
+        "right_leg": {
+            "pips": 28
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISGuardianECM": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ISPPC": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISTAG": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISStreakSRM4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 25
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Triple Strength Myomer",
+            "6": "Triple Strength Myomer",
+            "7": "Triple Strength Myomer",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Triple Strength Myomer",
+            "6": "Triple Strength Myomer",
+            "7": "Triple Strength Myomer",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Life Support",
+            "2": "ISStreakSRM4",
+            "3": "ISStreakSRM4 Ammo",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Life Support",
+            "2": "ISMediumLaser",
+            "3": "ISMediumLaser",
+            "4": "ISGuardianECM",
+            "5": "ISGuardianECM",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Engine",
+            "7": "Engine",
+            "8": "Engine",
+            "9": "Cockpit",
+            "10": "Sensors",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Sensors",
+            "2": "Sensors",
+            "3": "ISPPC",
+            "4": "ISPPC",
+            "5": "ISPPC",
+            "6": "ISTAG"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        }
+    }
+}

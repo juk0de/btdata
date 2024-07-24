@@ -1,0 +1,217 @@
+{
+    "chassis": "Dola",
+    "model": "DOL-1A",
+    "mul_id": 903,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3079,
+    "source": "XTR: Liao",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Scout",
+    "mass": 30,
+    "engine": "240 XL Engine(IS)",
+    "structure": {
+        "type": "Composite",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 8,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumVibroblade",
+            "6": "ISMediumVibroblade",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "Jump Jet",
+            "8": "Light Ferro-Fibrous",
+            "9": "Light Ferro-Fibrous",
+            "10": "Light Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Jump Jet",
+            "8": "Jump Jet",
+            "9": "Jump Jet",
+            "10": "Jump Jet",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISAngelECMSuite",
+            "6": "ISAngelECMSuite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

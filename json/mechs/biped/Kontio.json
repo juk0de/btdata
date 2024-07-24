@@ -1,0 +1,264 @@
+{
+    "chassis": "Kontio",
+    "model": "",
+    "mul_id": 8352,
+    "config": "Biped",
+    "techbase": "Mixed (Clan Chassis)",
+    "era": 3145,
+    "source": "Rec Guide:ilClan #21",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "distracting",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 40,
+    "engine": "280 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Triple-Strength",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Clan Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Stealth",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Small Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "3": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "5": {
+            "Micro Pulse Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISClaw",
+            "5": "ISClaw",
+            "6": "ISClaw",
+            "7": "Triple Strength Myomer",
+            "8": "Triple Strength Myomer",
+            "9": "Triple Strength Myomer",
+            "10": "IS Stealth",
+            "11": "IS Stealth",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISClaw",
+            "5": "ISClaw",
+            "6": "ISClaw",
+            "7": "Triple Strength Myomer",
+            "8": "Triple Strength Myomer",
+            "9": "Triple Strength Myomer",
+            "10": "IS Stealth",
+            "11": "IS Stealth",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLMediumPulseLaser",
+            "4": "CLERSmallLaser",
+            "5": "CLERSmallLaser",
+            "6": "CLERSmallLaser",
+            "7": "CLECMSuite",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLMediumPulseLaser",
+            "4": "CLERSmallLaser",
+            "5": "CLERSmallLaser",
+            "6": "CLERSmallLaser",
+            "7": "Supercharger (Clan)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLMicroPulseLaser",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Bergan Industries"
+        ],
+        "primaryfactory": [
+            "Alshain"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain M Endo-Steel",
+            "engine": "280 Fusion XL",
+            "armor": "Hellespont Lite Stealth",
+            "communications": "Garret L20",
+            "targeting": "RCA Instatrac Mark IX"
+        }
+    }
+}

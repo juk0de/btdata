@@ -1,0 +1,246 @@
+{
+    "chassis": "Super-Wasp",
+    "model": "WSP-2A-X",
+    "mul_id": 5770,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3020,
+    "source": "XTR: Succession Wars",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "prototype"
+    ],
+    "mass": 25,
+    "engine": "150 Fusion Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 8
+        },
+        "left_torso": {
+            "pips": 6
+        },
+        "right_torso": {
+            "pips": 6
+        },
+        "left_arm": {
+            "pips": 4
+        },
+        "right_arm": {
+            "pips": 4
+        },
+        "left_leg": {
+            "pips": 6
+        },
+        "right_leg": {
+            "pips": 6
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "head": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "weapons": {
+        "1": {
+            "SRM 2": {
+                "location": "left_leg",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Medium Laser",
+            "5": "Medium Laser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "IS Ammo SRM-2",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Supercharger",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "SRM 2",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The WSP-2A-X Super Wasp is an evolution of the classic Wasp, a re-design that essentially produced a new BattleMech with even a different tonnage.",
+        "capabilities": "Weighing as much as a Commando, the Super Wasp maintained the basic ground speed and jump capability of its inspiration, but also added an engine Supercharger which allowed it to sprint at speeds of up to 120km/h.",
+        "deployment": "The Super Wasp remains faithful to the weapon configuration of the regular WSP-1A Wasp, namely a Medium Laser in the right arm and an SRM-2 launcher in the left leg. However, documents from the NAIS indicate that it actually carried an additional Medium Laser in the right arm, giving it twice the firepower of its progenitor.",
+        "history": "The Super Wasp was designed in 3020 together with the Super Griffin at the Friden Aerospace Park research facility on Hoff by House Davion scientists including Dr. Jorge Belasco. After eighteen months of work, two operational Super Wasp prototypes had been completed but they were still untested when the Black Widow Company attacked the facility on 13 May 3022. The prototypes were deployed as a last line of defense. The two Super Wasp units worked well, disabling a Stinger used by the Black Widows, but an overloaded supercharger led to one of the Super Wasps constantly overheating which made it an easy target for the Widows. The other Super Wasp was doing well until a shot from a large laser penetrated the left torso and touched off an ammunition explosion, destroying the unit. The Super Wasp and Super Griffin were described as the first fully-redesigned units in four decades, but the Hatchetman was hailed as the Inner Sphere's first new 'Mech design in over a century when it entered full production a few years after the attack on Hoff (and in the Periphery the Merlin had been designed in 3010 already). This suggests the Super Wasp and Super Griffin never came beyond the prototype stage.",
+        "manufacturer": [
+            "Belasco Labs/Friden Aerospace Park"
+        ],
+        "primaryfactory": [
+            "Hoff"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Unknown",
+            "engine": "Nissan 200",
+            "armor": "Durallex Light",
+            "jumpjet": "Rawlings 52",
+            "communications": "Duotech 65",
+            "targeting": "RadCom TXX"
+        }
+    }
+}

@@ -1,0 +1,253 @@
+{
+    "chassis": "Arctic Fox",
+    "model": "AF1E",
+    "mul_id": 96,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "source": "TRO: 3060",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "weak_head_1"
+    ],
+    "mass": 30,
+    "engine": "180 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 7,
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "weapons": {
+        "1": {
+            "Light PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Light PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Light PPC (omnipod)",
+            "4": "Light PPC (omnipod)",
+            "5": "Light PPC (omnipod)",
+            "6": "Light PPC (omnipod)",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Light PPC (omnipod)",
+            "4": "Light PPC (omnipod)",
+            "5": "Light PPC (omnipod)",
+            "6": "Light PPC (omnipod)",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISERMediumLaser (omnipod)",
+            "8": "ISERMediumLaser (omnipod)",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "ISDoubleHeatSink",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "<P>The Kell Hounds' first OmniMech came with their salvage from Luthien, and recognizing the value of a reconfigurable 'Mech, they sought to replicate the machine. The Arctic Fox is their successful attempt, embodying versatility and adaptability in battle.</P>",
+        "capabilities": "<P>Well armored for a light \u2019Mech, the Arctic Fox can stand up to most Inner Sphere designs of similar weight. Upon reaching an efficient range for its weapons load, the OmniMech is best used holding that range and taking advantage of natural cover. For warriors with a penchant for up-close-and-personal combat, however, the Arctic Fox does not disappoint. The Arctic Fox\u2019s snarling visage is backed by fourteen tons of pod space for weapons.</P>",
+        "deployment": "<!-- Variant E --><P>Produced during the Jihad, employs a pair of ER medium lasers in left torso, while fitting a pair of light PPCs in each arm actuator slot, providing a balanced mix of energy weaponry for various combat scenarios.</P>",
+        "history": "<P>Morgan Kell had the Arc-Royal facilities attempt a clone of the machine. However, only after Phelan Kell and his Wolves-In-Exile arrived were the final bugs worked out. In return for the Kell Hounds' material support for Phelan's Wolves, Clan technical advisors helped the Kells finish reverse-engineering a Clan Uller (known to the Clans as a Kit Fox). Though the Kells have access to Clan materials, the Arctic Fox is built with only Inner Sphere technology, for logistical as well as strategic reasons. The Kell Hounds use most of the Clan material they get for the upkeep of their captured Clan 'Mechs. Also, with their support of \"training farm\" units and ARDC defense regiments, the Kells wished to offer this versatile design to those who could afford it, but had no Clan technology. The Kell Hounds do not use the designation of AF1. In Clan fashion, they refer to the basic machine as the Arctic Fox Prime. The name evokes the 'Mech's progenitor, the Clan Kit Fox, as well as the new Wolf-in-Exile Clan 'Mech, the Arctic Wolf. Variants are designated A, B, C and D.</P>",
+        "manufacturer": [
+            "Arc-Royal MechWorks"
+        ],
+        "primaryfactory": [
+            "Arc-Royal"
+        ],
+        "systemmanufacturer": {
+            "chassis": "AR-3 Endo Steel",
+            "engine": "GM 180 XL",
+            "armor": "Royal-7 Standard",
+            "communications": "K9 Communications System",
+            "targeting": "Type IV Bloodhound T & T System"
+        }
+    }
+}

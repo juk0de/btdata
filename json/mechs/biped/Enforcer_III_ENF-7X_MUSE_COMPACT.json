@@ -1,0 +1,229 @@
+{
+    "chassis": "Enforcer III",
+    "model": "ENF-7X MUSE COMPACT",
+    "mul_id": 987,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3074,
+    "source": "XTR: Davion",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "barrel_fists_la",
+        "barrel_fists_ra"
+    ],
+    "mass": 50,
+    "engine": "250 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Clan Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 8,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "weapons": {
+        "1": {
+            "Binary Laser (Blazer) Cannon": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Binary Laser (Blazer) Cannon": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Binary Laser (Blazer) Cannon",
+            "5": "Binary Laser (Blazer) Cannon",
+            "6": "Binary Laser (Blazer) Cannon",
+            "7": "Binary Laser (Blazer) Cannon",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Binary Laser (Blazer) Cannon",
+            "5": "Binary Laser (Blazer) Cannon",
+            "6": "Binary Laser (Blazer) Cannon",
+            "7": "Binary Laser (Blazer) Cannon",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Improved Jump Jet",
+            "4": "Improved Jump Jet",
+            "5": "Improved Jump Jet",
+            "6": "Improved Jump Jet",
+            "7": "Improved Jump Jet",
+            "8": "Improved Jump Jet",
+            "9": "Improved Jump Jet",
+            "10": "Improved Jump Jet",
+            "11": "Clan Endo Steel",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Improved Jump Jet",
+            "4": "Improved Jump Jet",
+            "5": "Improved Jump Jet",
+            "6": "Improved Jump Jet",
+            "7": "Improved Jump Jet",
+            "8": "Improved Jump Jet",
+            "9": "Improved Jump Jet",
+            "10": "Improved Jump Jet",
+            "11": "Clan Endo Steel",
+            "12": "IS Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

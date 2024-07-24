@@ -1,0 +1,239 @@
+{
+    "chassis": "Victor",
+    "model": "VTR-9K2 (St. James)",
+    "mul_id": 3412,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "source": "XTR: Pirates",
+    "quirks": [
+        "rugged_1"
+    ],
+    "mass": 80,
+    "engine": "320 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "left_arm": {
+            "pips": 26
+        },
+        "right_arm": {
+            "pips": 26
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 34
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 34
+        },
+        "right_leg": {
+            "pips": 34
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLongTomCannon": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 15
+            }
+        },
+        "2": {
+            "ISMediumXPulseLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumXPulseLaser",
+            "6": "ISMediumXPulseLaser",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": null,
+            "10": null,
+            "11": "Light Ferro-Fibrous",
+            "12": "Light Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLongTomCannon",
+            "5": "ISLongTomCannon",
+            "6": "ISLongTomCannon",
+            "7": "ISLongTomCannon",
+            "8": "ISLongTomCannon",
+            "9": "ISLongTomCannon",
+            "10": "ISLongTomCannon",
+            "11": null,
+            "12": "Light Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Endo-Steel",
+            "2": "Endo-Steel",
+            "3": "Endo-Steel",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "ISLongTomCannon",
+            "2": "ISLongTomCannon",
+            "3": "ISLongTomCannon",
+            "4": "ISLongTomCannon",
+            "5": "ISLongTomCannon",
+            "6": "ISLongTomCannon",
+            "7": "ISLongTomCannon",
+            "8": "ISLongTomCannon",
+            "9": "ISLongTomCannonAmmo",
+            "10": "ISLongTomCannonAmmo",
+            "11": "ISLongTomCannonAmmo",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "IS Super Charger",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous"
+        }
+    },
+    "fluff": {
+        "overview": "The Victor was built in 2508 under contract to the Terran Hegemony as a support 'Mech with jump capabilities.",
+        "capabilities": "Standing at 14 meters tall, the Victor approaches the concept of support in an unorthodox way for a 'Mech of its weight class. While only possessing a ground speed of 64.8 km/h, the Victor achieves a high degree of mobility instead through the use of four jump jets, allowing it to jump up to one hundred and twenty meters. A Victor can therefore \"support\" friendly units by jumping directly into the fray and bringing its deadly close range arsenal to bear, an ability which can surprise inexperienced MechWarriors and prove advantageous in mountainous terrain. One sacrifice made for this superb mobility is the 'Mech's relatively light armor of only eleven and a half tons, while the lack of proper anti-infantry capabilities is a minor problem.",
+        "deployment": "After his son was killed in the Taurian Concordat invasion of the Federated Suns, Benedict St. James had his VTR-9K refitted with experimental weapons and equipment to allow him to take his revenge. Replacing the standard weapons with a Long Tom Cannon and two Medium X-Pulse Lasers, St. James' Victor can inflict massive amounts of damage on his prey. The 'Mech's jump jets had to be removed to make way for the weapons load, and technicians equipped it with a patchwork of Ferro-Fibrous and Standard Armor as another weight saving measure. A Supercharger mounted on the engine provides the Victor with unexpected bursts of speed.",
+        "history": "An estimated one thousand Victors had been produced by the time the Star League fell. Many of these left with Aleksandr Kerensky during the Exodus, and when HildCo Interplanetary's three Victor factories were destroyed during the First Succession War, the 'Mech became a prized target with all sides scrambling to salvage serviceable units. Only Independence Weaponry retained the ability to build new Victors, and with their capture by the Federated Suns during the Second Succession War it became the AFFS' primary assault 'Mech and a favorite command model for battalion and regimental commanders. Though the Draconis Combine would eventually retake the company following the War of 3039, most Kurita samurai were too proud to adopt a 'Mech now associated with their enemy, while the Davions made do with purchasing new models from the rebuilt HildCo factory in the St. Ives Compact and funding the construction of Styk's Tao MechWorks. By the time of the Clan Invasion new models of Victors were being produced which incorporated new-found lostech into their design. The formation of the Second Star League and destruction of Clan Smoke Jaguar would finally win the design acceptance by Combine warriors, while the conquest of Styk and St. Ives by the Capellan Confederation forced the Federated Commonwealth to contract General Motors to build more Victors. Though it had officially fallen out of favor, during the FedCom Civil War the Victor remained the favorite of Allied forces, with newer variants seeing use in the years afterwards",
+        "manufacturer": [
+            "HildCo Interplanetary",
+            "HildCo Interplanetary",
+            "General Motors/Blackwell Corporation",
+            "Independence Weaponry",
+            "Robinson Standard BattleWorks",
+            "Tao 'Mechworks",
+            "TharHes Industries"
+        ],
+        "primaryfactory": [
+            "St. Ives",
+            "Carver V/Liberty",
+            "New Valencia",
+            "Quentin",
+            "Robinson",
+            "Styk",
+            "Tharkad"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Class 920 Endo Steel",
+            "engine": "Pitban 340",
+            "armor": "Durallex Heavy with CASE",
+            "jumpjet": "Lexington Ltd. Lifters",
+            "communications": "Sipher Security Plus",
+            "targeting": "Matabushi Sentinel"
+        }
+    }
+}

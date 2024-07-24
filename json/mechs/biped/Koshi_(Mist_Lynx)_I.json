@@ -1,0 +1,252 @@
+{
+    "chassis": "Koshi",
+    "clanname": "Mist Lynx",
+    "model": "I",
+    "mul_id": 7557,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3086,
+    "source": "Rec Guide:ilClan #7",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "imp_sensors",
+        "low_profile"
+    ],
+    "mass": 25,
+    "engine": "175 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 8
+        },
+        "left_torso": {
+            "pips": 6
+        },
+        "right_torso": {
+            "pips": 6
+        },
+        "left_arm": {
+            "pips": 4
+        },
+        "right_arm": {
+            "pips": 4
+        },
+        "left_leg": {
+            "pips": 6
+        },
+        "right_leg": {
+            "pips": 6
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 7,
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 4
+        },
+        "right_arm": {
+            "pips": 4
+        },
+        "left_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 5
+        },
+        "right_leg": {
+            "pips": 5
+        }
+    },
+    "weapons": {
+        "1": {
+            "SRM 2": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 5
+            }
+        },
+        "2": {
+            "Narc": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLSRM2 (OMNIPOD)",
+            "6": "CLSRM2 (OMNIPOD)",
+            "7": "CLSRM2 (OMNIPOD)",
+            "8": "CLSRM2 (OMNIPOD)",
+            "9": "CLSRM2 (OMNIPOD)",
+            "10": "Clan Ammo SRM-2 (Clan) Narc-capable (OMNIPOD)",
+            "11": "Clan Endo Steel",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLNarcBeacon (OMNIPOD)",
+            "6": "CLNarc Pods (OMNIPOD)",
+            "7": "CLNarc Pods (OMNIPOD)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "Jump Jet",
+            "8": "Jump Jet",
+            "9": "Jump Jet",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "Jump Jet",
+            "8": "Clan Endo Steel",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Clan Endo Steel",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLActiveProbe",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Weighing in at twenty five tons, the Mist Lynx is a lightweight workhorse OmniMech. The Mist Lynx is a common light OmniMech among the Clans that invaded the Inner Sphere, and is part of the toumans of every clan.",
+        "capabilities": "The Mist Lynx is built on a lightweight Endo Steel chassis to save weight and is powered by a 175 XL engine that gives the 'Mech a top speed of 118.8 km/h. The Mist Lynx also has six Jump Jets that allow the 'Mech to jump up to one hundred and eighty meters. The Mist Lynx has a fixed Active Probe that allows the 'Mech to protect itself from ambush by letting it detect any hidden enemy units before they can strike. For protection from enemy fire, the Mist Lynx has three and a half tons of Ferro-Fibrous armor.",
+        "deployment": "Before the Great Refusal, the Mist Lynx was most prominently fielded by Clan Smoke Jaguar and earned the code name Koshi, or \"small death\", from the DCMS forces which encountered it during Operation Revival. Designed by Clan Smoke Jaguar around 2910, production of the Mist Lynx was continued by Clans Ice Hellion and Steel Viper after the Annihilation of Clan Smoke Jaguar.",
+        "manufacturer": [
+            "Huntress Production Facility Epsilon",
+            "Arcadia BattleMech Plant CM-O3",
+            "Manufacturing Plant SFF-AL1"
+        ],
+        "primaryfactory": [
+            "Huntress",
+            "Arcadia",
+            "Alnabog"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Light Series II Endo-steel",
+            "engine": "Type II 175 XL",
+            "armor": "Compound H17 Ferro-Fibrous",
+            "jumpjet": "Clan Light Series Mk. I",
+            "communications": "Build 1685/5 Tacticom",
+            "targeting": "Series III GDS with Active Probe"
+        }
+    }
+}

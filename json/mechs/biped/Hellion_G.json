@@ -1,0 +1,263 @@
+{
+    "chassis": "Hellion",
+    "model": "G",
+    "mul_id": 6939,
+    "config": "Biped Omnimech",
+    "techbase": "Mixed (Clan Chassis)",
+    "era": 3119,
+    "source": "Record Sheets: 3145 New Tech New Upgrades",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "weak_head_1"
+    ],
+    "mass": 30,
+    "engine": "210 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 8,
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "Improved Heavy Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Improved Heavy Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "TSEMP One-Shot": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "LRM 10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLImprovedMediumHeavyLaser (omnipod)",
+            "6": "CLImprovedMediumHeavyLaser (omnipod)",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLImprovedMediumHeavyLaser (omnipod)",
+            "6": "CLImprovedMediumHeavyLaser (omnipod)",
+            "7": "CLImprovedMediumHeavyLaser (omnipod)",
+            "8": "CLImprovedMediumHeavyLaser (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "TSEMP One-Shot (omnipod)",
+            "4": "TSEMP One-Shot (omnipod)",
+            "5": "TSEMP One-Shot (omnipod)",
+            "6": "Clan Endo Steel",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLLRM10 (omnipod)",
+            "4": "Clan Ammo LRM-10 (omnipod)",
+            "5": "CLMASC",
+            "6": "Clan Endo Steel",
+            "7": "Clan Endo Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink (omnipod)",
+            "12": "CLDoubleHeatSink (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Hellion is a product of Clan Ice Hellion and their philosophy that espouses speed above all else. Based on the Mist Lynx, the Hellion is a fast OmniMech that has respectable firepower.",
+        "capabilities": "This light 'Mech is rather difficult to kill, incorporating five and a half tons of Ferro-Fibrous armor. To save weight, the Hellion also uses an Endo Steel chassis. While it is not especially fast for its size, the Hellion does use MASC to allow for bursts of additional speed.",
+        "deployment": "This version carries an LRM-10 and three Improved Heavy Medium Lasers. It also packs an Inner Sphere-built TSEMP One Shot cannon in the left torso.",
+        "manufacturer": [
+            "Hector MechWorks Facility Alpha",
+            "Prosoma War Works",
+            "Svarstaad Industriplex Alpha"
+        ],
+        "primaryfactory": [
+            "Hector",
+            "Valencia",
+            "Svarstaad"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hellion Light Endo Steel V5",
+            "engine": "210 XL",
+            "armor": "Compound Gamma Ferro-Fibrous",
+            "communications": "HCFA 3035 3.0",
+            "targeting": "HCFA 3047 1.5"
+        }
+    }
+}

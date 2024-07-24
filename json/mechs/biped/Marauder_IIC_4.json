@@ -1,0 +1,249 @@
+{
+    "chassis": "Marauder IIC",
+    "model": "4",
+    "mul_id": 2068,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3070,
+    "source": "Record Sheets: 3085 Unabridged - Project Phoenix",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "command_mech",
+        "hyper_actuator",
+        "exp_actuator"
+    ],
+    "mass": 85,
+    "engine": "340 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 25
+        },
+        "right_arm": {
+            "pips": 25
+        },
+        "left_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "HAG/40": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "HAG/40": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLHAG40",
+            "5": "CLHAG40",
+            "6": "CLHAG40",
+            "7": "CLHAG40",
+            "8": "CLHAG40",
+            "9": "CLHAG40",
+            "10": "CLHAG40",
+            "11": "CLHAG40",
+            "12": "CLHAG40"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLHAG40",
+            "5": "CLHAG40",
+            "6": "CLHAG40",
+            "7": "CLHAG40",
+            "8": "CLHAG40",
+            "9": "CLHAG40",
+            "10": "CLHAG40",
+            "11": "CLHAG40",
+            "12": "CLHAG40"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "CLHAG40",
+            "5": "HAG/40 Ammo",
+            "6": "HAG/40 Ammo",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "CLHAG40",
+            "5": "HAG/40 Ammo",
+            "6": "HAG/40 Ammo",
+            "7": "HAG/40 Ammo",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "HAG/40 Ammo"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "HAG/40 Ammo",
+            "6": "HAG/40 Ammo",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "HAG/40 Ammo",
+            "6": "HAG/40 Ammo",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Given the Marauder's outstanding performance and sterling reputation, it was only natural for the Clans to commit resources to constructing a worthy successor.",
+        "capabilities": "While fundamentally comparable to the original Marauder in many aspects, even Golden Century ClanTech's sophisticated capabilities could not prevent the BattleMech's chassis from growing to accommodate all of its enhancements. As a result, the Marauder IIC received ten tons of overall bulk, similar to other classic 'Mechs modified by the Clans at the period. The IIC followed in both function and form the huge footsteps of its ancestor, emphasizing a perfect blend of long-range, high yield firepower, robust armor, and the mobility to keep up with its supporting troops. Although the Clans' dueling heritage prized individual warrior prowess and rapid encounters over drawn-out campaigns, their choice for high-power energy weapons over ballistics and missiles allows this 'Mech to stay lethal in the hands of an expert MechWarrior nearly indefinitely. When combined with its other characteristics, the Marauder IIC's battlefield durability cemented its position as a suitable command 'Mech, as well as its appeal among the glory-seeking warriors that comprise the majority of the Clan officer corps.",
+        "deployment": "Developed by Gorton, Kingsley & Thorpe Enterprises in 3070 to fill the Ghost Bear touman's appetite for the Marauder IIC after a shadow trade war with the Diamond Sharks cut off supply, this variant mounts two of the largest weapon now available to the Clans, the HAG 40, in its arms. Ten tons of ammunition supply these mammoth guns, while fifteen tons of armor protect the 'Mech. The inclusion of the HAGs only allowed for three jump jets to be added, meaning that the IIC 4 can leap up to 90 meters. Even with only 10 double heat sinks, the IIC 4 has no heat concerns.",
+        "history": "The Marauder IIC had that designation prior to the introduction of Omni technology and the construction of the Timber Wolf. The Marauder IIC was built from the ground up in the image of its forefather, taking full advantage of the cutting-edge technology available at the time to improve on every aspect of the original.\u00a0The end result was a bigger, stronger, more resilient, and durable Marauder\u2014one that is still popular today, despite being classified as a \"second-line\" BattleMech. The Jade Falcons continue to build the Marauder IIC in its original architecture, joining the Rasalhague Dominion's \"Phoenix\" versions as the fearsome core of numerous Clan attack formations.",
+        "manufacturer": [
+            "Gorton",
+            "Kingsley",
+            "& Thorpe Enterprises"
+        ],
+        "primaryfactory": [
+            "Satalice"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type GB-850 Light",
+            "engine": "Consolidated Fusion 340",
+            "armor": "Compound 12A1 Standard with CASE",
+            "communications": "Series D8 CC-25Xa",
+            "targeting": "\u201cHermes\u201d CT-42 Mk. II",
+            "jumpjet": "Unknown"
+        }
+    }
+}

@@ -1,0 +1,291 @@
+{
+    "chassis": "Avatar",
+    "model": "AV1-O",
+    "mul_id": 160,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3056,
+    "source": "TRO: 3058",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "weaponquirk": "stable_weapon:CT:11:Medium Laser",
+    "mass": 70,
+    "engine": "280 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "IS Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "LB 10-X AC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Machine Gun": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "LRM 10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Machine Gun": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMediumPulseLaser (OMNIPOD)",
+            "5": "ISMediumPulseLaser (OMNIPOD)",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLBXAC10 (OMNIPOD)",
+            "4": "ISLBXAC10 (OMNIPOD)",
+            "5": "ISLBXAC10 (OMNIPOD)",
+            "6": "ISLBXAC10 (OMNIPOD)",
+            "7": "ISLBXAC10 (OMNIPOD)",
+            "8": "ISLBXAC10 (OMNIPOD)",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 10 (OMNIPOD)",
+            "5": "LRM 10 (OMNIPOD)",
+            "6": "ISArtemisIV (OMNIPOD)",
+            "7": "Machine Gun (OMNIPOD)",
+            "8": "IS Ammo LRM-10 Artemis-capable (OMNIPOD)",
+            "9": "IS Ammo LRM-10 Artemis-capable (OMNIPOD)",
+            "10": "IS Ammo LRM-10 Artemis-capable (OMNIPOD)",
+            "11": "ISCASE",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 10 (OMNIPOD)",
+            "5": "LRM 10 (OMNIPOD)",
+            "6": "ISArtemisIV (OMNIPOD)",
+            "7": "Machine Gun (OMNIPOD)",
+            "8": "IS Ammo MG - Full (OMNIPOD)",
+            "9": "IS LB 10-X AC Ammo (OMNIPOD)",
+            "10": "IS LB 10-X Cluster Ammo (OMNIPOD)",
+            "11": "ISCASE",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Medium Laser",
+            "12": "Medium Laser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Avatar OmniMech is the result of Inner Sphere initiative in response to Clan technology. Originating from the Draconis Combine's efforts post-capture of Clan 'Mechs, this seventy-ton platform is a significant presence in engagements involving the Draconis Combine Mustered Soldiery, the Lyran Alliance, and ComStar. It reaches speeds up to 64.8 km/h powered by an XL engine and is encased in twelve tons of armor with CASE systems for ammunition explosion containment. The 'Mech's design supports a substantial thirty-four tons of pod space for weapons.",
+        "capabilities": "Equipped with medium lasers as standard fixed armaments, the Avatar is designed to maintain offensive capabilities even with pod failure. In its primary loadout, the OmniMech is outfitted with long-range missile launchers, an autocannon, machine guns, and pulse lasers, allowing it to engage at various ranges with a broad selection of weaponry.",
+        "deployment": "The primary configuration of the Avatar emphasizes flexibility across different combat ranges. It is equipped with two LRM-10 launchers augmented with Artemis IV Fire Control Systems, enhancing missile precision. The configuration is further bolstered by an LB-X Autocannon/10, capable of firing a versatile array of munitions from solid slugs to cluster rounds, allowing it to adapt to diverse battlefield roles. For engagements at close quarters, this variant integrates two Machine Guns for anti-infantry and light armor scenarios, supplemented by two Medium Pulse Lasers for reliable pinpoint damage against hardened targets.",
+        "history": "Developed by Luthien Armor Works, the Avatar is a strategic development following the Battle of Luthien. The 'Mech's design retains the leg assembly from captured Clan 'Mechs, specifically the Mad Dog, with modifications to the torso to accommodate the bulkier Inner Sphere technology.",
+        "manufacturer": [
+            "Crofton",
+            "Loburg",
+            "Luthien",
+            "Marduk",
+            "New Valencia",
+            "Son Hoa",
+            "St. Ives"
+        ],
+        "primaryfactory": [
+            "StarCorps Industries",
+            "StarCorps Industries",
+            "Luthien Armor Works",
+            "Victory Industries (formerly Norse BattleMech Works)",
+            "General Motors/Blackwell Corporation",
+            "StarCorps Industries",
+            "StarCorps Industries"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Hagetaga-O7",
+            "engine": "Hermes 280 XL",
+            "armor": "StarSlab/4 with CASE",
+            "communications": "Sipher CommCon SCU-9",
+            "targeting": "Matabushi Stalker"
+        }
+    }
+}

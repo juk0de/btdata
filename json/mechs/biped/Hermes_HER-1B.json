@@ -1,0 +1,251 @@
+{
+    "chassis": "Hermes",
+    "model": "HER-1B",
+    "mul_id": 1486,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2856,
+    "source": "TRO: 3039",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "imp_com",
+        "stable"
+    ],
+    "mass": 30,
+    "engine": "270 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 9,
+    "run_mp": 14,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_torso": {
+            "front": {
+                "pips": 6
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 6
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "head": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 6
+        },
+        "right_leg": {
+            "pips": 6
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Medium Laser",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Medium Laser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Medium Laser",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Star League, showing its industrial and economic might, commissioned a new dedicated scout in 2632. Irian BattleMechs Unlimited won the contract, and was able to fulfill initial orders for this new Hermes quicker then anticipated. This caused concern in the SLDF's Quartermaster Command despite the 'Mech apparently meeting all requirements. These suspicions were quickly confirmed, as many 'Mechs in the initial run had unresolved issues with their electronics that made their targeting systems all but useless. While these problems were eventually rectified, the time needed for the fix was not insignificant, and the 'Mech would develop a negative reputation that would follow it during the remainder of the Star League era.",
+        "capabilities": "Emphasizing mobility over firepower, the Hermes was faster than nearly every 'Mech in service at the time of its introduction. Once the glitches surrounding the targeting systems were fixed, the Alexis Photon proved popular with technicians as it reduced wear and tear on the laser systems. The initial production variant used a fuel-based flamer instead of the more modern version that would tap directly into a 'Mech's fusion plant. Considered to be quite safe, MechWarriors piloting Hermes could even choose to jettison the fuel storage cylinders if needed.",
+        "deployment": "The Hermes only served in the SLDF for 19 years, after which they were put in storage or relegated to militia commands. The Succession Wars forced the Hermes back into frontline regiments through sheer need, though Irian chose to re-engineer the 'Mech in the heavier Hermes II instead of putting the base chassis back into production. Instead, Irian would refit existing Hermes chassis into downgraded variants as the Succession Wars spurred technological decline. The HER-1B would be a minor shoot-off of the main downgrade, slightly increasing the 'Mech's firepower. Only seeing service in the Free Worlds League military, the variant would rapidly vanish after the rediscovery of advanced technology in the Helm Core.",
+        "systemmanufacturer": {
+            "chassis": "Irian Chassis",
+            "engine": "GM",
+            "armor": "Starshield",
+            "communications": "Irian",
+            "targeting": "Wasat"
+        },
+        "systemmode": {
+            "chassis": "Class 10 Standard",
+            "engine": "270",
+            "communications": "TelStar",
+            "targeting": "Aggressor"
+        }
+    }
+}

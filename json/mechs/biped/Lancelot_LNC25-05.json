@@ -1,0 +1,267 @@
+{
+    "chassis": "Lancelot",
+    "model": "LNC25-05",
+    "mul_id": 1858,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2594,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "anti_air",
+        "low_profile",
+        "bad_rep_is"
+    ],
+    "mass": 60,
+    "engine": "360 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLargeLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISMachine Gun": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 200
+            }
+        },
+        "3": {
+            "ISLargeLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISMachine Gun": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "ISPPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLargeLaser",
+            "4": "ISLargeLaser",
+            "5": "ISMachine Gun",
+            "6": "ISMachine Gun",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLargeLaser",
+            "4": "ISLargeLaser",
+            "5": "ISMachine Gun",
+            "6": "ISMachine Gun",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISPPC",
+            "5": "ISPPC",
+            "6": "ISPPC",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISMG Ammo (200)",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Lancelot was originally conceived in response to a Star League Defense Force contract for a medium BattleMech that could operate with minimal logistical support, was fast enough to take part in mobile operations and packed sufficient firepower to be a viable threat on the battlefield.",
+        "capabilities": "Krupp Technologies attempted to combine the speed of a medium 'Mech with the survivability of a heavy 'Mech in the Lancelot. Despite the use of a lightweight Extralight engine, the production Lancelot ended up in the heavyweight class, but the SLDF was impressed enough with the unit's speed and firepower during its trial runs to make an initial order of 250 in 2581.",
+        "deployment": "The 25-05 is a curious variant of the traditionally energy-based Lancelot primarily aimed at fighting conventional forces. The medium laser and two heat sinks have been replaced with four Machine Guns and a full ton of ammunition. The armor has not been upgraded, and the 25-05 Lancelot has the same speed profile as the older 25-01 model",
+        "history": "An entirely energy-based armament allowed the Lancelot to operate away from friendly supply lines for extended periods, while the use of a Hermes 360XL engine not only made it faster than any other heavy 'Mech at the time but also allowed for thirteen double heat sinks to be installed. The use of only nine and a half tons of armor was considered light for its tonnage, however this was partially offset by the design's mobility and its subtle curves, presenting a narrower silhouette for the enemy to target. Its advanced Krupp KBC battle computer, long a standard in the industry, offered superior internal system monitoring, such as current armor status and skin temperature, without distracting the pilot during combat. The most exceptional part of the Lancelot was its KBC Starsight Model 3 T&T System, which could track and prioritize hundreds of targets and projectiles at once. This also made the Lancelot superior at shooting down enemy fighters, and by all indications it was replacing the Rifleman as the SLDF's standard anti-aircraft 'Mech before the Amaris Civil War put an end to that plan. Many Lancelots, along with Krupp's factory on Mars, were destroyed during the Civil War, and as the advanced systems which had gone into their construction became lostech these 'Mechs came to the brink of extinction. Luthien Armor Works obtained copies of the design and began production after the Second Succession War, but their LNC25-02 model was greatly reduced in capability, most significantly the loss of its mobility. With only average speed now and enough armor plating to withstand only a few solid hits, pilots derisively began referring to the 'Mech as \"the Coffin.\" Whereas before the fall of the Star League the Lancelot could be found in almost all militaries, by the end of the Succession Wars less than a dozen still-functional original models were in service, many heavily modified due to battle damage, alongside a few hundred 02 models, most of which were in the hands of the Draconis Combine. In the wake of the Clan Invasion and the Battle of Tukayyid, Precentor Martial Anastasius Focht would rebuild the Krupp Stellar factory on Mars to restart production of original model Lancelots for the Com Guards along with other advanced variants. Examples of these 'Mechs would also be used by the Word of Blake in the prosecution of their Jihad.",
+        "manufacturer": [
+            "Field Refit"
+        ],
+        "primaryfactory": [
+            "Various"
+        ],
+        "systemmanufacturer": {
+            "chassis": "MangoTech 500SJ",
+            "engine": "Hermes 360 XL",
+            "armor": "PanzerSlab Type 5",
+            "communications": "Krupp-COMM 500",
+            "targeting": "KBC Starsight Model 3"
+        }
+    }
+}

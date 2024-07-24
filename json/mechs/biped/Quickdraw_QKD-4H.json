@@ -1,0 +1,266 @@
+{
+    "chassis": "Quickdraw",
+    "model": "QKD-4H",
+    "mul_id": 2611,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2847,
+    "source": "TRO: 3039",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "hyper_actuator",
+        "exp_actuator"
+    ],
+    "mass": 60,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Single"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "LRM 10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "SRM 4": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Medium Laser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Medium Laser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Jump Jet",
+            "3": "Jump Jet",
+            "4": "LRM 10",
+            "5": "LRM 10",
+            "6": "IS Ammo LRM-10",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "Medium Laser",
+            "4": "Medium Laser",
+            "5": "IS Ammo SRM-4",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "SRM 4 (R)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Few business decisions have been as questionable as those that lead to the original reasoning for the Quickdraw. Intended to replace the Rifleman, the Quickdraw lacked any of the capabilities that made the Rifleman such a popular fire support platform. Had the Star League stood for longer, perhaps the Quickdraw would have faded into obscurity, but the rapid start of the Succession Wars only seven years after the Quickdraw's introduction instead sent it into the armies of every Great House. There it created its own legacy as a generalist workhouse, able to fill many different roles with its maneuverable movement profile and varied armament.",
+        "capabilities": "Many Quickdraw variants carry weapons for every angle, including rarely seen rear-mount firepower. With its specially-modified arm actuators allowing it to flip its arms towards the rear, the Quickdraw is well suited for forays in the midst of an enemy formation. Pilots must be cautious of the Quickdraw's fragility in physical combat, however. The ankle actuators, though allowing the Quickdraw unparalleled stability on uneven ground, are susceptible to damage that can quickly paralyze the BattleMech.",
+        "deployment": "The Quickdraw shows few favorites, and has notable concentrations in most armies of the Inner Sphere. The Draconis Combine and Free Worlds League are both home to manufacturing lines for the design, and the 'Mech tends to be a more common sight in most of their formations as a result. The -4H variant is a simple swap, bringing all of the lasers to the front of the 'Mech while positioning the SRM in its rear.",
+        "systemmanufacturer": {
+            "chassis": "Technicron",
+            "engine": "Vlar",
+            "armor": "Riese",
+            "communications": "Garret",
+            "targeting": "Dynatec"
+        },
+        "systemmode": {
+            "chassis": "Type E",
+            "engine": "300",
+            "armor": "475",
+            "communications": "T12E",
+            "targeting": "2180"
+        }
+    }
+}

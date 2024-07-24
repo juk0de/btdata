@@ -1,0 +1,256 @@
+{
+    "chassis": "St. Florian",
+    "model": "FLN-366 FireMech",
+    "mul_id": 5118,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3100,
+    "source": "TRO: 3085u",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "None",
+    "mass": 90,
+    "engine": "270 Fusion Engine(IS)",
+    "structure": {
+        "type": "Industrial",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Heavy Industrial",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "weapons": {
+        "1": {
+            "Fluid Gun": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Fluid Gun": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Fluid Gun": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "4": {
+            "Fluid Gun": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "IS Fluid Gun",
+            "6": "IS Fluid Gun",
+            "7": "IS Fluid Gun",
+            "8": "IS Fluid Gun",
+            "9": "ISFluidGun Ammo",
+            "10": "ISFluidGun Ammo",
+            "11": "ISFluidGun Ammo",
+            "12": "Environmental Sealing"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "IS Fluid Gun",
+            "6": "IS Fluid Gun",
+            "7": "IS Fluid Gun",
+            "8": "IS Fluid Gun",
+            "9": "ISFluidGun Ammo",
+            "10": "ISFluidGun Ammo",
+            "11": "ISFluidGun Ammo",
+            "12": "Environmental Sealing"
+        },
+        "left_torso": {
+            "1": "IS Fluid Gun",
+            "2": "IS Fluid Gun",
+            "3": "IS Fluid Gun",
+            "4": "IS Fluid Gun",
+            "5": "ISFluidGun Ammo",
+            "6": "ISFluidGun Ammo",
+            "7": "ISFluidGun Ammo",
+            "8": "Searchlight",
+            "9": "Environmental Sealing",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "IS Fluid Gun",
+            "2": "IS Fluid Gun",
+            "3": "IS Fluid Gun",
+            "4": "IS Fluid Gun",
+            "5": "ISFluidGun Ammo",
+            "6": "ISFluidGun Ammo",
+            "7": "ISFluidGun Ammo",
+            "8": "Searchlight",
+            "9": "Environmental Sealing",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISFluidGun Ammo",
+            "12": "Environmental Sealing"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Environmental Sealing",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Environmental Sealing",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Environmental Sealing",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "overview:The St. Florian MOD, recently seen with the Stormhammers on Towne, is an imposing sight, towering as large as an assault BattleMech while still fielding the firepower of a heavy one. The secret to its abilities lies in its pedigree, as many of the FireMech\u2019s components have been adapted from one of the Inner Sphere\u2019s most famous assault \u2019Mechs: the Highlander. Initially a byproduct to utilize surplus single heat sink-equipped standard fusion engines after the Highlander production line was upgraded to the HGN-734 in 3062, the St. Florian quickly gained fame as the most advanced IndustrialMech introduced since the fall of the Star League. It became a bestseller amongst those parties which could afford it\u2014and more often than not are now scrambling to equip it with weaponry."
+        }
+    },
+    "fluff": {
+        "capabilities": "Cynical minds fear that Star Corps themselves may be behind a military modification of the St. Florian, but closer examination of this MOD suggests little evidence to support any such theories. While it carries advanced plasma rifles, there is no structural upgrade to the FireMech whatsoever. The environmental sealing and bank of heat sinks are core components of the standard St. Florian which allow it to wade into the thick of fires instead of combating them from the outside as slighter units like the Pompier are forced to. Turning a firefighter into an incendiary combatant makes a certain amount of sense, but a lack of additional heat sinks and reliance on volatile coolant pods definitely betrays this otherwise impressive MOD as a field modification in the truest sense.",
+        "deployment": "While the St. Florian\u2019s capabilities mark it as a much-desired part of any community\u2019s public services apparatus, its cost is unfortunately prohibitive for most small to medium-sized towns. Even the Republic, with its prosperity driven by Devlin Stone\u2019s reforms, has had difficulty in procuring large quantities of this FireMech. As a consequence, the majority of the St. Florians in service are to be found in planetary capitals and major metropolises across the Inner Sphere, while smaller settlements must make do with the Pompier or even forego specialized fire-fighting \u2019Mechs. However, the long service record of the St. Florian has led to a significant secondary market where used or slightly damaged examples are perennial bestsellers. Though the current scramble to militarize common IndustrialMechs has not passed the St. Florian by, the crucial role it plays in protecting the homes and businesses of the cities where it has been deployed means that a comparatively smaller percentage of these \u2019Mechs have been modded for combat usage. Within the Republic, such conversions seem oddly common on those worlds that have recently come under control of one of the Clan-based splinter factions. The very idea of piloting converted Industrials into combat is anathema to most Clanners but the fact that several of these factions have begun accepting Spheroid applicants is perhaps all the explanation necessary.",
+        "manufacturer": [
+            "StarCorps Industries"
+        ],
+        "primaryfactory": [
+            "Son Hoa"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Industrial XT",
+            "engine": "GM 270 Fusion",
+            "armor": "Lang Heavy Industrial",
+            "communications": "Hector VII",
+            "targeting": "Starlight LX-1"
+        }
+    }
+}

@@ -1,0 +1,261 @@
+{
+    "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
+    "chassis": "Thunderbolt IIC",
+    "model": "",
+    "mul_id": 5239,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3085,
+    "source": "TRO: Prototypes",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "difficult_maintain",
+        "pro_actuator"
+    ],
+    "weaponquirk": "mod_weapons:RT:4:CLStreakLRM15",
+    "mass": 70,
+    "engine": "350 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "Clan Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "Improved Heavy Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Improved Heavy Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "4": {
+            "Streak LRM 15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLImprovedHeavyLargeLaser",
+            "6": "CLImprovedHeavyLargeLaser",
+            "7": "CLImprovedHeavyLargeLaser",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLImprovedHeavyLargeLaser",
+            "6": "CLImprovedHeavyLargeLaser",
+            "7": "CLImprovedHeavyLargeLaser",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLERMediumLaser",
+            "6": "CLERMediumLaser",
+            "7": "CLERMediumLaser",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLStreakLRM15",
+            "6": "CLStreakLRM15",
+            "7": "CLStreakLRM15",
+            "8": "Clan Streak LRM 15 Ammo",
+            "9": "Clan Streak LRM 15 Ammo",
+            "10": "CLCASEII",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink",
+            "12": "CLDoubleHeatSink"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Thunderbolt IIC is a second-line heavy BattleMech that was originally developed for Clan Jade Falcon in 3085.",
+        "capabilities": "The Thunderbolt IIC is a blend of standard and Advanced Clan technology. Due to the then-experimental nature of its weaponry, its MechWarriors were required to keep detailed logs noting the equipment's performance.",
+        "deployment": "The design's XL Engine allows it to maintain pace with contemporary heavy designs in the Falcons' Touman. The weight-saving property of the engine allows the Thunderbolt IIC to be fitted with 13.5 tons of armor on its hull. The 'Mech's main weaponry is its two Series XVI-a Improved Heavy Large Lasers, with a laser system mounted in each arm. These weapons offer tremendous damage at medium to short ranges. A MechWarrior will find, however, that by firing both arm-mounted lasers alone, they will be overtaxing the 'Mech\u2019s Double Heat sinks. For the Thunderbolt IIC's long-range firepower, the 'Mech sports a highly ammo-efficient Type XV-S Streak LRM 15 Launcher. The weapon is supplied with two tons of ammunition which are protected by CASE II. Three Series 7Ja Extended Range Medium Lasers serve as this 'Mech's secondary weaponry, rounding out the rest of its arsenal.",
+        "history": "The design came into existence due to that Clan's need to re-purpose surplus components being produced for their Loki and Thor OmniMech designs. Using one of Olivetti Weaponry's previous Inner Sphere designs, the classic Thunderbolt, they reworked it as a replacement for second-line 'Mechs lost during the Jihad.",
+        "manufacturer": [
+            "Olivetti Weaponry"
+        ],
+        "primaryfactory": [
+            "Sudeten"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Olivetti TDR-II",
+            "armor": "Forging Omni H24",
+            "communications": "Model J-D 067",
+            "targeting": "Hawkeye 58"
+        }
+    }
+}

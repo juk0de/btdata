@@ -1,0 +1,258 @@
+{
+    "chassis": "Blood Kite",
+    "model": "",
+    "mul_id": 3836,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 2907,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "source": "TRO: 3067",
+    "quirks": [
+        "easy_maintain",
+        "rugged_2"
+    ],
+    "mass": 85,
+    "engine": "255 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 21,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 39
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "CLERLargeLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "CLERLargeLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "CLLRM15": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 48
+            }
+        },
+        "4": {
+            "CLSRM4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 25
+            }
+        },
+        "5": {
+            "CLSRM4": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "CLSRM4": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "CLLRM15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "CLLRM15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "9": {
+            "CLERLargeLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERLargeLaser",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "CLDouble Heat Sink",
+            "8": "CLDouble Heat Sink",
+            "9": "CLDouble Heat Sink",
+            "10": "CLDouble Heat Sink",
+            "11": "CLDouble Heat Sink",
+            "12": "CLDouble Heat Sink"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLLRM15",
+            "4": "CLLRM15",
+            "5": "CLLRM15 Ammo",
+            "6": "CLLRM15 Ammo",
+            "7": "CLSRM4",
+            "8": "CLDouble Heat Sink",
+            "9": "CLDouble Heat Sink",
+            "10": "CLDouble Heat Sink",
+            "11": "CLDouble Heat Sink",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "CLLRM15",
+            "2": "CLLRM15",
+            "3": "CLLRM15 Ammo",
+            "4": "CLLRM15 Ammo",
+            "5": "CLSRM4",
+            "6": "CLDouble Heat Sink",
+            "7": "CLDouble Heat Sink",
+            "8": "CLDouble Heat Sink",
+            "9": "CLDouble Heat Sink",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Jump Jet"
+        },
+        "right_torso": {
+            "1": "CLLRM15",
+            "2": "CLLRM15",
+            "3": "CLLRM15 Ammo",
+            "4": "CLLRM15 Ammo",
+            "5": "CLSRM4",
+            "6": "CLSRM4 Ammo",
+            "7": "CLDouble Heat Sink",
+            "8": "CLDouble Heat Sink",
+            "9": "CLDouble Heat Sink",
+            "10": "CLDouble Heat Sink",
+            "11": "Endo-Steel",
+            "12": "Jump Jet"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "CLERLargeLaser",
+            "12": "Jump Jet"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLERLargeLaser",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink"
+        }
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "chassis": "Thanatos",
+    "model": "TNS-4T",
+    "mul_id": 5700,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3062,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "stable"
+    ],
+    "mass": 75,
+    "engine": "300 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 13
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 27
+        },
+        "right_leg": {
+            "pips": 27
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISC3SlaveUnit": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISMediumPulseLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ISLBXAC20": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 15
+            }
+        },
+        "4": {
+            "ISMRM20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "5": {
+            "ISMediumPulseLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "ISGuardianECM": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLBXAC20",
+            "4": "ISLBXAC20",
+            "5": "ISLBXAC20",
+            "6": "ISLBXAC20",
+            "7": "ISLBXAC20",
+            "8": "ISLBXAC20",
+            "9": "ISLBXAC20",
+            "10": "ISLBXAC20",
+            "11": "ISLBXAC20",
+            "12": "ISLBXAC20"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMRM20",
+            "5": "ISMRM20",
+            "6": "ISMRM20",
+            "7": "ISMRM20 Ammo",
+            "8": "ISMRM20 Ammo",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISLBXAC20",
+            "5": "ISMediumPulseLaser",
+            "6": "ISMediumPulseLaser",
+            "7": "ISLBXAC20 Ammo",
+            "8": "ISLBXAC20 Ammo",
+            "9": "ISLBXAC20 CL Ammo",
+            "10": "ISGuardianECM",
+            "11": "ISGuardianECM",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISMediumPulseLaser",
+            "5": "ISMediumPulseLaser",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISC3SlaveUnit",
+            "12": "Endo-Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet"
+        }
+    }
+}

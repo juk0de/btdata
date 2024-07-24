@@ -1,0 +1,250 @@
+{
+    "chassis": "Grand Dragon",
+    "model": "DRG-7K",
+    "mul_id": 1260,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3063,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "ext_twist",
+        "low_profile",
+        "stable"
+    ],
+    "mass": 60,
+    "engine": "360 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "ISMASC",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "2": {
+            "ISERPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISMRM10": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "4": {
+            "ISC3SlaveUnit": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": "ISERMediumLaser",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISERPPC",
+            "5": "ISERPPC",
+            "6": "ISERPPC",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISC3SlaveUnit",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISMRM10 Ammo",
+            "5": "ISMASC",
+            "6": "ISMASC",
+            "7": "ISMASC",
+            "8": "ISCASE",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISMRM10",
+            "12": "ISMRM10"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "The Grand Dragon is the successful follow-up to the Dragon BattleMech.",
+        "capabilities": "Protected by ten tons of armor, the Grand Dragon uses thirteen double heat sinks for excellent heat management and uses a 16.5 ton Hermes 360 XL engine to achieve a moderate cruising speed of 64 km/h. Originally the Grand Dragon used the same Alshain Type 56-60H chassis as was found in the Dragon 'Mech it replaced. However, when the new Nykvarn plant was being set up an innovative engineering team came up with a way to increase the Grand Dragon's rotation from 250\u00b0 to 300\u00b0 by using an alternative assembly method for the hip and torso structure. This improvement was responsible for Nykvarn being awarded the honor of restarting Grand Dragon production, with all new Grand Dragons using this Nykvarn Type 58-66SH chassis",
+        "deployment": "The 7K variant first built in 3063 uses an Endo Steel chassis to free up weight and carries an XL Engine for power, which is linked to a MASC system. This allows the Grand Dragon to move at speeds of up to 129.6 km/h in short bursts. The 'Mech is armed with an ER PPC as its primary weapon. For support, the 'Mech carries an MRM-10 as its secondary weapon. The 'Mech also carries three ER Medium Lasers as close combat weapons, all of which are carried in the left arm to allow for the greatest range of fire. Finally, the 'Mech has a C3 slave unit that allows it to share targeting information with friendly units. The use of Medium Range Missiles was considered controversial when it was introduced, since a constant stream of glitches and field upgrades guaranteed maintenance issues. Those who pilot these 'Mechs tend to be veteran pilots who have adapted to the 'Mech's quirks.",
+        "history": "The 'Mech was originally a simple variant of the Dragon with some modifications, chiefly replacing the autocannon with a particle projection cannon, introduced around the end of the Fourth Succession War. In 3040 this DRG-1G variant was turned into a production model, with several of the Dragon's production lines turned over to building Grand Dragons. As it reached Draconis Combine Mustered Soldiery units the Grand Dragon became well-liked for its all-around effectiveness in terms of speed, heat management and weaponry. Luthien Armor Works went ahead with phasing in the Grand Dragon, retooling their Dragon factories on Luthien, Saffel, Yorii and Dieron to build the new 'Mechs exclusively, by 3055 all Dragon production had ceased in favor of the Grand Dragon. Just like the Dragon, the Grand Dragon quickly became a favorite in the DCMS, with nearly every line unit fielding a company of either design. Production of the Grand Dragon continued unabated until the Jihad, when the Word of Blake devastated LAW's factories in 3068. It took two years for LAW to get new Grand Dragon factories up and running, the first on Nykvarn followed by Abiy Adi and Savinsville, and ensure the continued use of the 'Mech in years to come.",
+        "manufacturer": [
+            "Luthien Armor Works",
+            "Luthien Armor Works",
+            "Luthien Armor Works",
+            "Luthien Armor Works",
+            "Luthien Armor Works"
+        ],
+        "primaryfactory": [
+            "Dieron",
+            "Luthien",
+            "Nykvarn",
+            "Saffel",
+            "Yorii"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Nykvarn Type 58-66SH Endo",
+            "engine": "Hermes 360 XL with MASC",
+            "armor": "Starshield with CASE",
+            "communications": "Sipher CommSys 3",
+            "targeting": "Eagle Eye SY10-10"
+        }
+    }
+}

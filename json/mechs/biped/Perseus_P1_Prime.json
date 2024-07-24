@@ -1,0 +1,282 @@
+{
+    "chassis": "Perseus",
+    "model": "P1",
+    "mul_id": 4807,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3058,
+    "source": "TRO: 3067",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "anti_air",
+        "easy_maintain"
+    ],
+    "mass": 75,
+    "engine": "300 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 21
+        },
+        "right_arm": {
+            "pips": 21
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 36
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_leg",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_leg",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "LRM 20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Ultra AC/10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "SRM 4": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ER Small Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "LRM 20 (omnipod)",
+            "4": "LRM 20 (omnipod)",
+            "5": "LRM 20 (omnipod)",
+            "6": "LRM 20 (omnipod)",
+            "7": "LRM 20 (omnipod)",
+            "8": "ISArtemisIV (omnipod)",
+            "9": "ISMediumPulseLaser (omnipod)",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISUltraAC10 (omnipod)",
+            "4": "ISUltraAC10 (omnipod)",
+            "5": "ISUltraAC10 (omnipod)",
+            "6": "ISUltraAC10 (omnipod)",
+            "7": "ISUltraAC10 (omnipod)",
+            "8": "ISUltraAC10 (omnipod)",
+            "9": "ISUltraAC10 (omnipod)",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "IS Ammo SRM-4 Artemis-capable (omnipod)",
+            "5": "ISCASE (omnipod)",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "IS Ultra AC/10 Ammo (omnipod)",
+            "5": "IS Ultra AC/10 Ammo (omnipod)",
+            "6": "IS Ammo LRM-20 Artemis-capable (omnipod)",
+            "7": "IS Ammo LRM-20 Artemis-capable (omnipod)",
+            "8": "ISCASE (omnipod)",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "SRM 4 (omnipod)",
+            "12": "ISArtemisIV (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISERSmallLaser (omnipod)",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "ISERMediumLaser (omnipod)",
+            "6": "ISERMediumLaser (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "ISERMediumLaser (omnipod)",
+            "6": "ISERMediumLaser (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Perseus is the product of a program begun by the League Central Coordination and Command to create an OmniMech completely indigenous to the Free Worlds League from concept to production.",
+        "capabilities": "While on paper the Perseus is a capable 'Mech with forty-tons of available pod space, the design has earned something of a lackluster reputation when compared to other modern OmniMechs such as the Templar or Hauptmann. This is largely due to the small size of it's weapon bays which limit the type of weaponry of the Perseus can mount, only the arms can carry larger autocannons and the hand and lower-arm actuators must be removed to be able do so, with a number of configurations also forced to mount weaponry in the 'Mech's legs. More critically the small size of the bays hampers the volume of extra double heat sinks that can be carried, consequently most of the Perseus's configurations utilize ballistic and missile weaponry over more heat-intensive energy loadouts. Built on a lightweight Endo Steel chassis, the Perseus is powered by a Hermes 300 XL engine helping save even more weight and giving the 'Mech a top speed of 64.8 km/h. The advanced structure and engine save a great deal of weight for weapons and equipment. The Perseus is protected by fourteen tons of Valiant Lamellor armor, giving it around average armor protection for a 'Mech of its size. It also has twelve double heat sinks that are fixed on the chassis.",
+        "deployment": "The primary configuration of the Perseus shares a great deal with the Orion. For long range direct and indirect fire support, the Perseus carries an LRM-20 with Artemis IV for increased missile accuracy. For long range direct fire, the Perseus carries a powerful Ultra Autocannon/10 that is capable of firing at twice the rate as a standard autocannon. The Perseus has a devastating short range arsenal with a highly accurate Medium Pulse Laser, four ER Medium Lasers , an ER Small Laser, and finally an SRM-4 launcher that is linked to an Artemis IV FCS. The primary configuration mounts two tons each of both Ultra Autocannon and LRM munitions as well as single ton of SRM reloads in CASE protected ammunition bays in both its side torsos.",
+        "history": "The Perseus shares much with the venerable Orion, a staple of Free Worlds League Military, both broadly resembling the older design visually and using a number of the same components. This similarity prompted more than a few FWLM technicians to nickname the new design the \"Omni-Orion\" and the deployment of Perseus has largely been to front-line units that fielded large concentrations of its progenitor, replacing older Orions on a one-for-one basis.",
+        "manufacturer": [
+            "Kali Yama Weapons Industries"
+        ],
+        "primaryfactory": [
+            "Kalidasa"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Kali Yama Endo Steel",
+            "engine": "Hermes 300 XL",
+            "armor": "Valiant Lamellor",
+            "communications": "Irian Orator-5K",
+            "targeting": "Wasat Aggressor Type 5 with OmniLink"
+        }
+    }
+}

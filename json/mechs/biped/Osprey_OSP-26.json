@@ -1,0 +1,272 @@
+{
+    "chassis": "Osprey",
+    "model": "OSP-26",
+    "mul_id": 2346,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3076,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "no_arms"
+    ],
+    "weaponquirk": "direct_torso_mount:RT:4:ISGaussRifle",
+    "mass": 55,
+    "engine": "220 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "IS Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Small Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "MML 7": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Gauss Rifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISERMediumLaser",
+            "7": "ISERSmallLaser",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISERMediumLaser",
+            "7": "BeagleActiveProbe",
+            "8": "BeagleActiveProbe",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "ISMML7",
+            "9": "IS Ammo MML-7 LRM",
+            "10": "IS Ammo MML-7 SRM",
+            "11": "IS Gauss Ammo",
+            "12": "ISCASE"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGaussRifle",
+            "11": "ISGaussRifle",
+            "12": "IS Gauss Ammo"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Jump Jet"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Originally a rare and little-known urban combat 'Mech from the Star League era, the Osprey reached new levels of prominence thanks to the Jihad.",
+        "capabilities": "To allow the Osprey to carry a heavy weapons load-out for its size, the 'Mech was built using a weight saving Endo Steel chassis and DAV 220 XL Fusion Engine. Clad in eleven tons of armor and equipped with ten double heat sinks, the design also carried a Beagle Active Probe to weed out hidden units in the urban environment. To make up for the Ospreys low ground speed, four Anderson Propulsion 25 jump jets were mounted in its torso and legs.",
+        "deployment": "The modern Ospreys main ranged weapon was its dorsally mounted M-7 Gauss Rifle supported by Holly Multi-Missile Launcher 7 Rack underneath. At closer ranges the 'Mech carried a pair of Diverse Optics ER Medium Laser and a single ER Small Laser, with the small laser and Beagle probe designed to fit into mountings identical to the medium lasers and giving the impression it mounts two medium lasers in each of its stubby arms. Two tons of ammunition for the Gauss Rifle and the Multi-Missile Launcher, allowing both LRM and SRM missiles to be carried, are carried in CASE protected ammo bays in the Osprey's torsos.",
+        "history": "Designed by Hollis Incorporated to fulfill a Star League Defense Force contract for a mobile, medium-weight fire support unit, when Blue Shot Weapons' Lynx design won the bid the Osprey was relegated to a limited contract for the SLDF's Royal units in an urban defense role. Rendered virtually extinct during the Succession Wars, the Word of Blake commissioned Skobel MechWorks to revive the design to bolster its own militia forces, resulting in massive production runs at Skobel and later Achernar BattleMechs during the Jihad. Impressed by the durability and effectiveness of the design during the brutal fighting to take Achernar and Terra, both the Republic of the Sphere and the Capellan Confederation placed a priority on restarting production for their own armed forces after the Jihad.",
+        "manufacturer": [
+            "Skobel MechWorks",
+            "Hollis Incorporated",
+            "Achernar BattleMechs"
+        ],
+        "primaryfactory": [
+            "Terra (Skobel)",
+            "Corey (Hollis)",
+            "Achernar (Achernar- Destroyed)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hollis Mk II Endo Steel",
+            "engine": "DAV 220 XL",
+            "armor": "Durallex Heavy with CASE",
+            "jumpjet": "Anderson Propulsion 25",
+            "communications": "O/P COM-211",
+            "targeting": "O/P 1078 with Beagle Active Probe"
+        }
+    }
+}

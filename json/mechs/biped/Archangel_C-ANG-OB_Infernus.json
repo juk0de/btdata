@@ -1,0 +1,267 @@
+{
+    "chassis": "Archangel",
+    "model": "C-ANG-OB Infernus",
+    "mul_id": 67,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "source": "TRO: 3075",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "command_mech",
+        "imp_com",
+        "imp_sensors",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 100,
+    "engine": "300 Compact Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 20,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "Light PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Heavy PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Snub-Nose PPC": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Snub-Nose PPC": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "ISDoubleHeatSink (omnipod)",
+            "8": "ISDoubleHeatSink (omnipod)",
+            "9": "Light PPC (omnipod)",
+            "10": "Light PPC (omnipod)",
+            "11": "Light PPC (omnipod)",
+            "12": "Light PPC (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "ISDoubleHeatSink (omnipod)",
+            "8": "ISDoubleHeatSink (omnipod)",
+            "9": "Heavy PPC (omnipod)",
+            "10": "Heavy PPC (omnipod)",
+            "11": "Heavy PPC (omnipod)",
+            "12": "Heavy PPC (omnipod)"
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink (omnipod)",
+            "2": "ISDoubleHeatSink (omnipod)",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "IS Endo Steel",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink (omnipod)",
+            "2": "ISDoubleHeatSink (omnipod)",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "ISDoubleHeatSink (omnipod)",
+            "8": "ISDoubleHeatSink (omnipod)",
+            "9": "ISSNPPC (omnipod)",
+            "10": "ISSNPPC (omnipod)",
+            "11": "ISC3iUnit",
+            "12": "ISC3iUnit"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISSNPPC (omnipod)",
+            "6": "ISSNPPC (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops.",
+        "capabilities": "The Archangel is the largest of these. Designed to be an \"anchor\" for Word formations, the 'Mech is known as a \"zombie\" because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.",
+        "history": "Similar in some respects to the Dominus, the Infernus also mounts a Heavy PPC in the arm, but the other arm contains two Light PPCs. The weight saved allows the Archangel B to carry two Snub-Nose PPCs.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs",
+            "Martinson Armaments"
+        ],
+        "primaryfactory": [
+            "Gibson (Gibson Federated)",
+            "Terra (Martinson)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Celestial Series AA1E",
+            "engine": "Immortus 300 Compact Fusion",
+            "armor": "Durallex Heavy Gold",
+            "communications": "Master\u2019s Voice Cel-Alpha",
+            "targeting": "Master\u2019s Sight 1-Omega"
+        }
+    }
+}

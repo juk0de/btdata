@@ -1,0 +1,278 @@
+{
+    "generator": "MegaMek Suite 0.49.18-SNAPSHOT on 2024-01-06",
+    "chassis": "Thunder Hawk",
+    "model": "TDK-7X",
+    "mul_id": 3222,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2771,
+    "source": "TRO: 3058",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "variable_range_long",
+        "good_rep_1",
+        "difficult_maintain",
+        "command_mech"
+    ],
+    "mass": 100,
+    "engine": "300 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 50
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Gauss Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Gauss Rifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Gauss Rifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Medium Laser",
+            "6": "Medium Laser",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGaussRifle",
+            "11": "ISGaussRifle",
+            "12": "Medium Laser"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISGaussRifle",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGaussRifle",
+            "11": "IS Gauss Ammo",
+            "12": "IS Gauss Ammo"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISGaussRifle",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGaussRifle",
+            "11": "IS Gauss Ammo",
+            "12": "IS Gauss Ammo"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "IS Gauss Ammo",
+            "12": "IS Gauss Ammo"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Medium Laser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Thunder Hawk, developed by Norse Technologies for the Amaris-Terran Hegemony invasion, became a staple in General Aleksandr Kerensky's forces. Surviving 'Mechs were taken into Exodus, symbolizing their significance. In the 3050s, Norse-Storm BattleMechs revived the Thunder Hawk among other Star League-era designs.",
+        "capabilities": "Dominating the Thunder Hawk's arsenal are three Norse Gauss rifles, accounting for over half its weight. These long-range weapons can incapacitate most foes with a single barrage. Ammunition is distributed throughout the torso to mitigate critical damage risks. However, its Achilles' heel lies in the extra-light Vlar fusion engine. While heavily armored, any breach in the torso significantly compromises the BattleMech\u2019s structural integrity, rendering it inoperable.",
+        "deployment": "The Thunder Hawk TDK-7X, a 100-ton behemoth, epitomizes long-range combat effectiveness with its primary armament of three Gauss Rifles. These formidable weapons, distributed across its arms and torso, enable the TDK-7X to deliver devastating volleys from a distance, making it a feared sniper on the battlefield. The inclusion of additional Medium Lasers, including one in the head, bolsters its arsenal, offering more versatility in engagements. Powered by a 300 XL Engine, the Thunder Hawk strikes a balance between firepower and mobility, although its top speed of 32.4 km/h limits rapid redeployment.However, the TDK-7X's reliance on a standard internal structure, while providing sturdiness, results in a higher weight and less flexibility compared to more advanced materials. Its cooling system, equipped with 10 single heat sinks, may struggle under the immense heat generated by its weaponry, particularly when the Gauss Rifles and lasers are fired simultaneously. This necessitates careful heat management by the pilot.Despite its impressive armament, the Thunder Hawk's maintenance can be challenging, attributed partly to the intricate mechanics of its Gauss Rifles and the sophisticated targeting systems required for long-range precision. These factors, combined with the 'Mech's rarity and specialized role, make it a valuable asset on the battlefield, often reserved for command units and elite pilots who can maximize its potential.",
+        "history": "The Thunder Hawk became a hallmark of the Lyran Alliance, extensively utilized during the FedCom Civil War. Contrary to its design as a support 'Mech, Loyalists deployed it in direct combat, leveraging its heavy armor. Post-war, Archon Peter Steiner Davion allocated new Thunder Hawks to units loyal to Allied forces. Plans for export are pending until the completion of military restructuring.",
+        "manufacturer": [
+            "Norse-Storm Technologies",
+            "Inc"
+        ],
+        "primaryfactory": [
+            "Loxley"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Norse Heavy XTI-4C",
+            "engine": "Vlar 300 XL",
+            "armor": "ArcShield Heavy Type K",
+            "communications": "Tek BattleCom",
+            "targeting": "DLK Type Phased Array Sensor System"
+        }
+    }
+}

@@ -1,0 +1,280 @@
+{
+    "chassis": "Nobori-nin",
+    "clanname": "Huntsman",
+    "model": "E",
+    "mul_id": 7782,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3070,
+    "source": "Rec Guide:ilClan #12",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "stable"
+    ],
+    "mass": 50,
+    "engine": "250 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Large Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Light TAG [Clan]": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Anti-Missile System": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ATM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": "CLDoubleHeatSink (OMNIPOD)",
+            "8": "CLMediumPulseLaser (OMNIPOD)",
+            "9": "CLMediumPulseLaser (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Endo Steel",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLLargePulseLaser (OMNIPOD)",
+            "7": "CLLargePulseLaser (OMNIPOD)",
+            "8": "CLLightActiveProbe (OMNIPOD)",
+            "9": "CLLightTAG (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Endo Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "Jump Jet",
+            "6": "CLERSmallLaser (OMNIPOD)",
+            "7": "CLAntiMissileSystem (OMNIPOD)",
+            "8": "CLAMS Ammo (OMNIPOD)",
+            "9": "Clan Endo Steel",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "CLATM6 (OMNIPOD)",
+            "5": "CLATM6 (OMNIPOD)",
+            "6": "CLATM6 (OMNIPOD)",
+            "7": "Clan Ammo ATM-6 (OMNIPOD)",
+            "8": "Clan Ammo ATM-6 ER (OMNIPOD)",
+            "9": "Clan Ammo ATM-6 HE (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Exemplifying the OmniMech concept, the flexible Huntsman was the premier medium 'Mech of Clan Nova Cat during Operation REVIVAL.",
+        "deployment": "A Jihad-era config, the E mounts a Large Pulse Laser and paired Medium Pulse Lasers for high accuracy even while jumping. These are supported by an ATM-6 with three tons of ammo as well as an ER Small Laser. An Anti-Missile System, Light Active Probe, and Light TAG round out the equipment package. Four additional double heat sinks help keep the Huntsman E running cool.",
+        "capabilities": "No expense has been spared in the construction of this front-line OmniMech that uses an Extra-Light Engine, Endo Steel structure, and nine tons of Ferro-Fibrous armor. Five jump jets enable it to leap up to 150 meters at a time.",
+        "history": "First seen within the 119th Nova Cat Striker Cluster during the Battle of Luthien, a Draconis Combine Mustered Soldiery intelligence officer dubbed the OmniMech with the name of \"Nobori-nin\" (Japanese for \"Banner-bearer\") due to the single fin-like projection rising from the back of the 'Mech reminding him of the banner samurai worn on their backs in feudal Japan. Prized for its flexibility across a wide range of opponents and battlefield conditions, the Huntsman was almost exclusively a Nova Cat design during the initial Clan Invasion, but prior to the Word of Blake Jihad had entered service with Clans Diamond Shark, Cloud Cobra and Star Adder.",
+        "manufacturer": [
+            "Irece Alpha",
+            "Avon Alpha",
+            "and Brim Ironworks",
+            "Clan Protectorate Arms"
+        ],
+        "primaryfactory": [
+            "Irece",
+            "Avon",
+            "Brim",
+            "Asellus Australis"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Mynx Type Medium Endo Steel",
+            "engine": "250 Consolidated XL Fusion",
+            "armor": "Alpha Compound Ferro-Fibrous",
+            "jumpjet": "Northrup Starlifters M50s Standard"
+        }
+    }
+}

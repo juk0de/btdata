@@ -1,0 +1,253 @@
+{
+    "chassis": "Kraken-XR",
+    "model": "",
+    "mul_id": 4463,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3073,
+    "source": "XTR: Clans",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "difficult_maintain",
+        "poor_performance",
+        "prototype",
+        "ext_twist",
+        "pro_actuator"
+    ],
+    "mass": 100,
+    "engine": "300 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Composite",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Reflective",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 46
+            },
+            "rear": {
+                "pips": 13
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "CLRotaryAC2": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 90
+            }
+        },
+        "2": {
+            "CLRotaryAC2": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "CLStreakLRM10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "4": {
+            "CLStreakLRM10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "CLERLargeLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLRotaryAC2",
+            "4": "CLRotaryAC2",
+            "5": "CLRotaryAC2",
+            "6": "CLRotaryAC2",
+            "7": "CLRotaryAC2",
+            "8": "CLRotaryAC2",
+            "9": "CLRotaryAC2",
+            "10": "CLRotaryAC2",
+            "11": "CLRotaryAC2 Ammo",
+            "12": "CLCASEII"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLRotaryAC2",
+            "4": "CLRotaryAC2",
+            "5": "CLRotaryAC2",
+            "6": "CLRotaryAC2",
+            "7": "CLRotaryAC2",
+            "8": "CLRotaryAC2",
+            "9": "CLRotaryAC2",
+            "10": "CLRotaryAC2",
+            "11": "CLRotaryAC2 Ammo",
+            "12": "CLCASEII"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "CLLaser Heat Sink",
+            "4": "CLLaser Heat Sink",
+            "5": "CLLaser Heat Sink",
+            "6": "CLLaser Heat Sink",
+            "7": "CLStreakLRM10",
+            "8": "CLStreakLRM10",
+            "9": "CLERLargeLaser",
+            "10": "CLStreakLRM10 Ammo",
+            "11": "CLCASEII",
+            "12": "Endo-Composite"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "CLLaser Heat Sink",
+            "4": "CLLaser Heat Sink",
+            "5": "CLLaser Heat Sink",
+            "6": "CLLaser Heat Sink",
+            "7": "CLStreakLRM10",
+            "8": "CLStreakLRM10",
+            "9": "CLStreakLRM10 Ammo",
+            "10": "CLCASEII",
+            "11": "Endo-Composite",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Endo-Composite",
+            "12": "Reflective"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Composite",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Reflective",
+            "6": "Reflective"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Reflective",
+            "6": "Reflective"
+        }
+    },
+    "fluff": {
+        "overview": "The Bane is a BattleMech that is based upon a Star League prototype that was never put into production. Tagged the Kraken by Inner Sphere forces who opposed it.",
+        "capabilities": "The Bane was first built in 2827. It was originally a significant part of many Clan toumans, but was gradually relegated to second-line status following the introduction of the OmniMech. As such, it is still critical to many defensive units. The design uses a lightweight XL Engine so that it can mount the arsenal that it does. Nineteen tons of armor protects this venerable assault 'Mech.",
+        "deployment": "A Clan Jade Falcon variant that uses Experimental Technology extensively, the Kraken-XR was first spotted at Olivetti Weaponry on Sudeten. The standard Kraken skeleton was replaced by an Endo-Composite Structure to save weight while keeping strength. The Kraken-XR uses sixteen Laser Heat Sinks, and carries nineteen tons of Reflective Armor for protection. The weapons load appears to be a cross between the Bane 2 and Bane 3 variants, consisting of a pair of Rotary AC/2s in each arm and a Streak LRM-10 in each torso. A single ER Large Laser acts as a backup weapon in case the ammunition runs dry. For more protection the Kraken-XR mounts CASE II in each ammunition bay.",
+        "manufacturer": [
+            "Tokasha MechWorks Alpha",
+            "Olivetti Weapons"
+        ],
+        "primaryfactory": [
+            "Tokasha",
+            "Sudeten"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type AXT, Mk. XX",
+            "engine": "Fusion 300 XL",
+            "armor": "Forging C745",
+            "communications": "JNE Integrated",
+            "targeting": "Series VI TTS"
+        }
+    }
+}

@@ -1,0 +1,294 @@
+{
+    "chassis": "Flashman",
+    "model": "FLS-10E",
+    "mul_id": 8445,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3144,
+    "source": "Rec Guide:ilClan #24",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "rugged_1"
+    ],
+    "mass": 75,
+    "engine": "375 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 18,
+        "type": "IS Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Reflective",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "8": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "9": {
+            "Anti-Missile System": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "CLERLargeLaser",
+            "7": "CLERMediumLaser",
+            "8": "IS Reflective",
+            "9": "IS Reflective",
+            "10": "IS Reflective",
+            "11": "IS Reflective",
+            "12": "IS Reflective"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "CLERLargeLaser",
+            "7": "CLERMediumLaser",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "CLERMediumLaser",
+            "7": "CLERMediumLaser (R)",
+            "8": "IS Endo Steel",
+            "9": "IS Reflective",
+            "10": "IS Reflective",
+            "11": "IS Reflective",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLERMediumLaser",
+            "4": "ISAntiMissileSystem",
+            "5": "ISAMS Ammo",
+            "6": "ISCASEII",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLERLargeLaser",
+            "12": "Supercharger"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLERSmallLaser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Reflective",
+            "6": "IS Reflective",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Flashman is an underrated heavy 'Mech, commonly called a \"flashbulb\" by MechWarriors for its heavy-energy configuration.",
+        "capabilities": "Designed to provide continuous energy based fire support for lancemates moving to attack or covering fire for withdrawing units. The use of a Faust/Shinji AT/TS targeting-tracking system gives the Flashman a level of accuracy few can match, while fifteen double heat sinks give it an effective heat management system. The 'Mech is also notable for using an extralight engine which makes it fast for its size, though not at the expense of protection thanks to thirteen and a half tons of armor.",
+        "deployment": "Unknown",
+        "history": "The Flashman, which was first introduced in 2701, is a 'Mech that is capable of engaging an enemy for extended periods of time with little re-supply. This made it one of the most prized 'Mechs in a commander's arsenal during the Star League and saw heavy use by line regiments, typically in a \"fire brigade\" role for heavy and assault lances. During advances it would stay to the rear to protect against ambushes and provide fire support for its lancemates. Towards the end of the Star League, several divisions had battalions composed of nothing but Flashmen, and thanks to its popularity these 'Mechs saw frequent use on the front lines. When the League dissolved, the design spread amongst the Successor States but fewer than 500 Flashmen were still operational at the start of the First Succession War. Their heavy use during this fighting saw many destroyed and production of new 'Mechs abruptly stopped in 2796 when Renault-Prime Industries on Wasat was destroyed. The Flashman was saved from extinction thanks to Defiance Industries, which was able to acquire the schematics and produced a downgraded version at their Hesperus II plant. Thanks to the fact that they owned the only remaining Flashman factory and could replace their combat losses, the Lyran Commonwealth remained the largest user of Flashman 'Mechs throughout the Succession Wars - at least until the unveiling of the Com Guards. ComStar also supplied examples of downgraded Flashmen to the Draconis Combine as part of Operation Rosebud. Following the recovery of the Helm Memory Core, Defiance Industries was able to restart production of original-model Flashman 'Mechs in the 3050s and built new variants for ComStar. After the Word of Blake seized control of Defiance Industries they also produced new variants which were supplied to their Militia for the Jihad.",
+        "manufacturer": [
+            "Defiance Industries"
+        ],
+        "primaryfactory": [
+            "Hesperus II"
+        ],
+        "systemmanufacturer": {
+            "chassis": "FLS/HV-1",
+            "engine": "GM 375 XL",
+            "armor": "Bowie Glinting Blade Reflective",
+            "communications": "Duoteck 195",
+            "targeting": "Faust/Shinji AT/TS"
+        }
+    }
+}

@@ -1,0 +1,275 @@
+{
+    "chassis": "Katana (Crockett)",
+    "model": "CRK-5003-C",
+    "mul_id": 1761,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3057,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "easy_pilot",
+        "poor_life_support"
+    ],
+    "mass": 85,
+    "engine": "255 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 20,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 19
+        },
+        "right_arm": {
+            "pips": 19
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLargeLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISLargeLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISSRM6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 30
+            }
+        },
+        "4": {
+            "ISSRM6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISLBXAC10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 20
+            }
+        },
+        "6": {
+            "ISC3SlaveUnit": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLargeLaser",
+            "5": "ISLargeLaser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLargeLaser",
+            "5": "ISLargeLaser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "Heat Sink",
+            "5": "ISSRM6",
+            "6": "ISSRM6",
+            "7": "ISLBXAC10",
+            "8": "ISLBXAC10",
+            "9": "ISLBXAC10",
+            "10": "ISLBXAC10",
+            "11": "ISLBXAC10",
+            "12": "ISLBXAC10"
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "Heat Sink",
+            "5": "ISSRM6",
+            "6": "ISSRM6",
+            "7": "ISSRM6 Ammo",
+            "8": "ISSRM6 Ammo",
+            "9": "ISLBXAC10 CL Ammo",
+            "10": "ISLBXAC10 Ammo",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "ISC3SlaveUnit"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Katana began its existence when the Draconis Combine was given several downgraded Crockett BattleMechs by ComStar as part of Operation Rosebud.",
+        "capabilities": "The Katana shares many of the same features as the Crockett, right down to the serial number. Just like the Crockett, the Katana mounts the same fusion engine and jump jets for similar ground speed and leaping ability. It is also protected by the same twelve and a half tons of armor and utilizes the same electronic systems. Unlike the original 'Mech, the Katana makes do with twenty standard heat sinks.",
+        "deployment": "A simple variant of the Katana introduced in 3057, the 5003-C variant is a modification intended to carry a C3 Slave unit into battle. In order to achieve this, the 'Mech has removed both of the small lasers from the chassis, freeing up the needed room for the slave unit and allowing the Katana to share targeting data with friendly units.",
+        "history": "During negotiations in 3035 Primus Myndo Waterly gave the Combine the Blankenburg Technologies storage facility on Soul as a gesture of good faith. The facility was handed over to Independence Weaponry (although for appearance's sake it was \"leased\" from Blankenburg) which, beyond a treasure trove of lostech weapons, also contained a number of Crocketts. IW went about reverse-engineering the weapons so they could produce copies at a nearby facility for sale to other Combine manufacturers and closely examined the Crocketts for several months. After making minor modifications these 'Mechs were renamed Katanas and used to replace Chargers in several DCMS units. The Katana quickly become a mainstay in many of the heavier mobile line units, especially after the invention of the C3 Computer. Recognizing the value in this new technology, IW quickly developed several new Katana variants which could effectively operate as part of C3 lances. When the \"lease\" expired and the Soul facility was returned to Blankenburg, the company hired on the entire IW Katana engineering team and entered into a technology-sharing agreement to continue production of new Katanas.",
+        "manufacturer": [
+            "Blankenburg Technologies (Refit)"
+        ],
+        "primaryfactory": [
+            "Soul"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Geometric 530 Hard Core",
+            "engine": "Strand 255",
+            "armor": "CarbonStrand 30 Weight AS",
+            "jumpjet": "Geotec 300",
+            "communications": "GRPNTR Groundpainter 5",
+            "targeting": "Scope 30 RNDST"
+        }
+    }
+}

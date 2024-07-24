@@ -1,0 +1,227 @@
+{
+    "chassis": "Hoplite",
+    "model": "HOP-4Cb",
+    "mul_id": 1542,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2821,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "source": "Historical: Operation Klondike",
+    "quirks": [
+        "no_arms"
+    ],
+    "mass": 55,
+    "engine": "220 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 18
+        },
+        "right_arm": {
+            "pips": 18
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISGaussRifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "2": {
+            "ISSRM6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 15
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISSRM6",
+            "4": "ISSRM6",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISGaussRifle",
+            "4": "ISGaussRifle",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGauss Ammo",
+            "11": "ISGauss Ammo",
+            "12": "ISGauss Ammo"
+        },
+        "left_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISSRM6 Ammo",
+            "5": "ISCASE",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISCASE",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null
+        }
+    },
+    "fluff": {
+        "overview": "Martinson Armaments designed the Hoplite as a support 'Mech for deployment alongside the infantry divisions of the newly formed Star League Defense Force.",
+        "capabilities": "The Hoplite is slow for a medium 'Mech, with a top speed of only 64.8 km/h. However its 11.5 tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower.",
+        "deployment": "A Hell's Horses field refit from Operation KLONDIKE, the 4Cb removes the weapons, electronics suite, and a heat sink in favor of a Gauss rifle, SRM-6, and ferro-fibrous armor.",
+        "history": "The Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. While every Hoplite in the Inner Sphere was destroyed during the Amaris Crisis and the early Succession Wars, Aleksandr Kerensky's SLDF exiles found the simple and rugged design ideal for bolstering their forces in the months prior to the Exodus Civil War. Selected by Wolf's Dragoons in the belief that the ancient design wouldn't arouse undue attention, it had the complete opposite effect, and only raised more questions as to the Dragoons' origins when they arrived in 3005. After the mercenaries cut ties with the Clan Homeworlds in 3020, they also lost access to replacement Hoplites, with attrition bringing the design close to extinction by the Jihad. During the Jihad, when the surviving Dragoons relocated to Arc-Royal, experimental refits were performed on the remaining Hoplites, which continued after the conflict's end.",
+        "manufacturer": [
+            "Eden Consolidated Weaponry"
+        ],
+        "primaryfactory": [
+            "Eden"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Star League HO-01a",
+            "engine": "DAV 220",
+            "armor": "Strasbourg Armaments Type 4 Ferro-Fibrous",
+            "communications": "MultiGab 2000",
+            "targeting": "Dalban HiRez II"
+        }
+    }
+}

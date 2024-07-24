@@ -1,0 +1,273 @@
+{
+    "chassis": "Gladiator-B",
+    "clanname": "Executioner-B",
+    "model": "B",
+    "mul_id": 8465,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 2873,
+    "source": "Shrapnel #8",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "distracting",
+        "poor_performance"
+    ],
+    "mass": 95,
+    "engine": "285 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 30
+        },
+        "left_torso": {
+            "pips": 20
+        },
+        "right_torso": {
+            "pips": 20
+        },
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 18,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 11,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 2,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 32
+        },
+        "right_arm": {
+            "pips": 32
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 38
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 40
+        },
+        "right_leg": {
+            "pips": 40
+        }
+    },
+    "weapons": {
+        "1": {
+            "Gauss Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Gauss Rifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Large Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Large Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLGaussRifle (OMNIPOD)",
+            "6": "CLGaussRifle (OMNIPOD)",
+            "7": "CLGaussRifle (OMNIPOD)",
+            "8": "CLGaussRifle (OMNIPOD)",
+            "9": "CLGaussRifle (OMNIPOD)",
+            "10": "CLGaussRifle (OMNIPOD)",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLGaussRifle (OMNIPOD)",
+            "6": "CLGaussRifle (OMNIPOD)",
+            "7": "CLGaussRifle (OMNIPOD)",
+            "8": "CLGaussRifle (OMNIPOD)",
+            "9": "CLGaussRifle (OMNIPOD)",
+            "10": "CLGaussRifle (OMNIPOD)",
+            "11": "Clan Gauss Ammo (OMNIPOD)",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "CLERLargeLaser (OMNIPOD)",
+            "8": "CLMediumPulseLaser (OMNIPOD)",
+            "9": "CLMediumPulseLaser (OMNIPOD)",
+            "10": "Clan Gauss Ammo (OMNIPOD)",
+            "11": "Clan Gauss Ammo (OMNIPOD)",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "CLERLargeLaser (OMNIPOD)",
+            "8": "CLMediumPulseLaser (OMNIPOD)",
+            "9": "CLMediumPulseLaser (OMNIPOD)",
+            "10": "Clan Gauss Ammo (OMNIPOD)",
+            "11": "Clan Gauss Ammo (OMNIPOD)",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink",
+            "12": "CLDoubleHeatSink"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Albion Armor Works Alpha"
+        ],
+        "primaryfactory": [
+            "Albion"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Clan Series Assault SXE",
+            "engine": "MechFusion 285 XL",
+            "armor": "Compound Alpha Ferro-Fibrous",
+            "jumpjet": "Pryzhok WM 10",
+            "communications": "Consolidated BM3-CC",
+            "targeting": "Series III GB"
+        }
+    }
+}

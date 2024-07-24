@@ -1,0 +1,287 @@
+{
+    "chassis": "Savage Coyote",
+    "model": "B",
+    "mul_id": 4983,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3059,
+    "source": "TRO: 3067",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "oversized"
+    ],
+    "mass": 85,
+    "engine": "255 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 20,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 25
+        },
+        "right_arm": {
+            "pips": 25
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 34
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "Ultra AC/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Small Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "3": {
+            "Large Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "ATM 3": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "ATM 3": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "7": {
+            "Small Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "Small Pulse Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLUltraAC5 (omnipod)",
+            "6": "CLUltraAC5 (omnipod)",
+            "7": "CLUltraAC5 (omnipod)",
+            "8": "CLSmallPulseLaser (omnipod)",
+            "9": "CLSmallPulseLaser (omnipod)",
+            "10": "CLSmallPulseLaser (omnipod)",
+            "11": "CLSmallPulseLaser (omnipod)",
+            "12": "Clan Ultra AC/5 Ammo (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLDoubleHeatSink (omnipod)",
+            "8": "CLDoubleHeatSink (omnipod)",
+            "9": "CLLargePulseLaser (omnipod)",
+            "10": "CLLargePulseLaser (omnipod)",
+            "11": "CLERLargeLaser (omnipod)",
+            "12": "CLERLargeLaser (omnipod)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLATM3 (omnipod)",
+            "8": "CLATM3 (omnipod)",
+            "9": "CLATM3 (omnipod)",
+            "10": "CLATM3 (omnipod)",
+            "11": "Clan Ammo ATM-3 (omnipod)",
+            "12": "Clan Ammo ATM-3 HE (omnipod)"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLATM3 (omnipod)",
+            "6": "CLATM3 (omnipod)",
+            "7": "CLATM3 (omnipod)",
+            "8": "CLATM3 (omnipod)",
+            "9": "CLSmallPulseLaser (omnipod)",
+            "10": "Clan Ammo ATM-3 (omnipod)",
+            "11": "Clan Ammo ATM-3 ER (omnipod)",
+            "12": "Clan Ammo ATM-3 HE (omnipod)"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink (omnipod)",
+            "12": "CLDoubleHeatSink (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLSmallPulseLaser (omnipod)",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Savage Coyote OmniMech was created as a showcase OmniMech. The 'Mech was also part of Khan Koga's attempts to revitalize the fading Clan that invented the OmniMech.",
+        "capabilities": "This assault 'Mech uses an XL Engine to save enough weight to devote forty-five tons of space to modular equipment and fifteen tons of armor. The base chassis contains fourteen fixed double heat sinks.",
+        "deployment": "This variant is effective at all ranges. A pair of ER Large Lasers and a Large Pulse Laser combine with an Ultra Autocannon/5 to provide an effective long-range punch. Six Small Pulse Lasers aid at knife-fighting range and can quickly devastate conventional infantry. Two pairs of ATM 3s provide support at all ranges.",
+        "history": "Following the development of Advanced Tactical Missile technology. The creation of the Savage Coyote was a direct result of both the warriors of Clan Coyote clamoring for new weapons to use and the election of Khan Sullivan Koga in 3052.",
+        "manufacturer": [
+            "Landen",
+            "Picuris",
+            "and Zuni \u2019Mech Production Complexes"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Assault Series SXG",
+            "engine": "Type 255 Extralight",
+            "armor": "Forging ZK11 Standard",
+            "communications": "TJ6 \u201cBell\u201d Integrated Communications System",
+            "targeting": "TRTTS Mark II CWS"
+        }
+    }
+}

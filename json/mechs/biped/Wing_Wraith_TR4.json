@@ -1,0 +1,255 @@
+{
+    "generator": "Mordel.Net Code Release 2.24.13 on 14-Jun-2024",
+    "chassis": "'Wing' Wraith",
+    "model": "TR4",
+    "source": "Shrapnel 17",
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3150,
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "mass": 55,
+    "engine": "330 XL Engine(IS)",
+    "structure": {
+        "type": "Endo-Composite",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "IS",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "Snub-Nose PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium VSP Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumVSPLaser",
+            "6": "ISMediumVSPLaser",
+            "7": "Endo-Composite",
+            "8": "Endo-Composite",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISSNPPC",
+            "6": "ISSNPPC",
+            "7": "ISPPCCapacitor",
+            "8": "Endo-Composite",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISPartialWing",
+            "5": "ISPartialWing",
+            "6": "ISPartialWing",
+            "7": "ISPartialWing",
+            "8": "Jump Jet",
+            "9": "Jump Jet",
+            "10": "Jump Jet",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISPartialWing",
+            "5": "ISPartialWing",
+            "6": "ISPartialWing",
+            "7": "ISPartialWing",
+            "8": "Jump Jet",
+            "9": "Jump Jet",
+            "10": "Jump Jet",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Supercharger",
+            "12": "Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Composite",
+            "6": "Endo-Composite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Composite",
+            "6": "Endo-Composite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": null,
+            "14": null,
+            "15": null,
+            "16": null,
+            "17": null,
+            "18": null,
+            "19": null,
+            "20": null,
+            "21": null,
+            "22": null,
+            "23": null,
+            "24": null
+        }
+    },
+    "center_leg": "",
+    "fluff": {
+        "overview": "The Wraith is a 'Mech that, when properly employed, can wreak havoc on an enemy with its astounding speed and maneuverability. Initially developed by Curtiss Militech, it later became a key asset for the Capellan Confederation following the company's financial distress post-Jihad. The Wraith's speed, firepower, and decent armor make it a considerable threat to many 'Mechs, some being almost twice its weight.",
+        "capabilities": "The \u201cWing\u201d Wraith enhances the base design\u2019s accurate and ammunition-independent loadout with improved heat dissipation and jump range. Despite the advantages of the partial-wing technology, the TR6 suffers from slower ground speed and a demanding maintenance schedule, making it a less popular export than the more straightforward TR5. However, both variants share parts and construction processes, making continued production a low-cost endeavor.",
+        "deployment": "The TR4 variant of the Wraith builds upon the early prototype TR4-X by enhancing its firepower and overall combat effectiveness. Originally based on the customized TR2-X arena fighter from the late thirty-first century, the TR4 retains the exceptional jump capabilities of its predecessors, utilizing advanced partial-wing technology to achieve remarkable maneuverability. To address the firepower deficiencies of the TR4-X, the TR4 is equipped with a powerful main weapon that allows it to engage effectively at both medium and long ranges.",
+        "history": "The Wing Wraith project, spearheaded by Hellespont Industries, dates back to the Capellan Crusades, but it wasn\u2019t until the 3140s that the mass-produced TR6 variant saw production. The Wraith\u2019s assets were acquired by the Capellan Confederation after Curtiss Hydroponics, the original manufacturer, was forced to sell its military holdings to remain solvent following the Jihad. The destruction of Curtiss Militech\u2019s homeworld, Paradise, by the Regulans during the Jihad significantly contributed to the financial distress that led to this sale. Hellespont Industries capitalized on this opportunity, integrating advanced partial-wing technology into the Wraith design to enhance its maneuverability and heat dissipation capabilities.The TR6\u2019s first major combat deployment occurred during the Victoria Rangers\u2019 assault on Victoria in 3144. However, the results were underwhelming due to the Wraiths being reassigned to unsuitable roles, leading to significant damage and operational issues. Despite this setback, the TR6 found its stride during House Davion\u2019s Operation Cerberus. On Narellan, Wraiths from the Second St. Ives Cheveau-L\u00e9gers conducted effective raiding operations against the Second Davion Auxiliaries, showcasing their capability in hit-and-run tactics alongside Canopian Agroteras. This success spurred increased orders from various factions, including the Sea Foxes and the Magistracy Armed Forces, solidifying the Wing Wraith\u2019s reputation as a valuable raider and scout hunter in the Capellan Confederation's arsenal.",
+        "manufacturer": [
+            "Hellespont Industries"
+        ],
+        "primaryfactory": [
+            "Sian"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hellespont Wraith Endo-Composite",
+            "engine": "Magna 330 XL",
+            "armor": "Hellespont Lite Ferro-Fibrous",
+            "jumpjet": "Hellespont Leapers with Partial Wing",
+            "communications": "Ceres Metals Model 666",
+            "targeting": "Ceres Bullseye"
+        }
+    }
+}

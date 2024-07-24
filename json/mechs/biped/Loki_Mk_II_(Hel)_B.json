@@ -1,0 +1,244 @@
+{
+    "chassis": "Loki Mk II",
+    "clanname": "Hel",
+    "model": "B",
+    "mul_id": 6279,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3121,
+    "source": "TRO: 3145 The Clans",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "multi_trac"
+    ],
+    "mass": 65,
+    "engine": "260 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 21
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "weapons": {
+        "1": {
+            "Long Tom Cannon": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLongTomCannon (OMNIPOD)",
+            "4": "ISLongTomCannon (OMNIPOD)",
+            "5": "ISLongTomCannon (OMNIPOD)",
+            "6": "ISLongTomCannon (OMNIPOD)",
+            "7": "ISLongTomCannon (OMNIPOD)",
+            "8": "ISLongTomCannon (OMNIPOD)",
+            "9": "ISLongTomCannon (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": "CLERLargeLaser (OMNIPOD)",
+            "8": "CLMediumPulseLaser (OMNIPOD)",
+            "9": "CLMediumPulseLaser (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Endo Steel",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISLongTomCannon (OMNIPOD)",
+            "4": "ISLongTomCannon (OMNIPOD)",
+            "5": "ISLongTomCannon (OMNIPOD)",
+            "6": "ISLongTomCannon (OMNIPOD)",
+            "7": "ISLongTomCannon (OMNIPOD)",
+            "8": "ISLongTomCannon (OMNIPOD)",
+            "9": "ISLongTomCannon (OMNIPOD)",
+            "10": "ISLongTomCannon (OMNIPOD)",
+            "11": "Clan Endo Steel",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLMediumPulseLaser (OMNIPOD)",
+            "6": "CLMediumPulseLaser (OMNIPOD)",
+            "7": "ISLongTomCannonAmmo (OMNIPOD)",
+            "8": "ISLongTomCannonAmmo (OMNIPOD)",
+            "9": "ISLongTomCannonAmmo (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink (OMNIPOD)",
+            "12": "CLDoubleHeatSink (OMNIPOD)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

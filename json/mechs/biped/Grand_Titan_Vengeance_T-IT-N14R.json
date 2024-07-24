@@ -1,0 +1,258 @@
+{
+    "chassis": "Grand Titan",
+    "model": "T-IT-N14R 'Vengeance'",
+    "mul_id": 5604,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3075,
+    "source": "XTR: Phantoms",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "multi_trac",
+        "difficult_maintain",
+        "cowl",
+        "imp_life_support"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "nocrit": "IS Hardened:None",
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 2,
+    "armor": {
+        "type": "Hardened",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 32
+        },
+        "right_arm": {
+            "pips": 32
+        },
+        "left_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Thumper": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERMediumLaser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERMediumLaser",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "ISThumperAmmo",
+            "2": "ISThumperAmmo",
+            "3": "ISCASEII",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISThumper",
+            "2": "ISThumper",
+            "3": "ISThumper",
+            "4": "ISThumper",
+            "5": "ISThumper",
+            "6": "ISThumper",
+            "7": "ISThumper",
+            "8": "ISThumper",
+            "9": "ISThumper",
+            "10": "ISThumper",
+            "11": "ISThumper",
+            "12": "ISThumper"
+        },
+        "center_torso": {
+            "1": "Fusion Engine (armored)",
+            "2": "Fusion Engine (armored)",
+            "3": "Fusion Engine (armored)",
+            "4": "Gyro (armored)",
+            "5": "Gyro (armored)",
+            "6": "Fusion Engine (armored)",
+            "7": "Fusion Engine (armored)",
+            "8": "Fusion Engine (armored)",
+            "9": "ISThumper",
+            "10": "ISThumper",
+            "11": "ISThumper",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit (armored)",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Grand Titan was designed by Vining Engineering and Salvage Team to take on the best 'Mechs that the Inner Sphere or the Clans had to offer.",
+        "capabilities": "The 'Mech is built on an Endo Steel chassis and with a LTV 400 XL Engine, which propels the Grand Titan to a top speed of 64.8 kph, to save as much weight as possible. The Grand Titan also carries eighteen tons of armor.",
+        "deployment": "Developed by the Principality of Regulus during the Jihad, the Grand Titan Vengeance trades the weaponry and armor of the standard version for Hardened Armor, an Armored Compact Gyro, Armored Engine, and Armored Cockpit. The 'Mech also has a Full-Head Ejection System. All this protection, and a 60-meter jump radius, seems strange, but the Vengeance has a single Thumper Artillery Piece with two tons of ammo in a CASE II protected bin. This, along with two Clan built ER Medium Lasers, are the only weapons on the unit. This would seem a ridiculously light amount of weaponry, but intelligence reports suggest that the Vengeance uses the Thumper to launch nuclear warheads.",
+        "history": "The design of the Grand Titan was sold to Earthwerks Incorporated in the Free Worlds League and has become a 'Mech commonly seen in the FWLM and the Word of Blake militia.",
+        "manufacturer": [
+            "Regulan Defense Force"
+        ],
+        "primaryfactory": [
+            "Tiger Valley?"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Corean Model 101BLP Endo Steel",
+            "engine": "LTV 400 XL",
+            "armor": "Durallex Heavy",
+            "communications": "Hartford JEA-1",
+            "targeting": "O/P FiberFeed 201 with Artemis IV FCS Interface"
+        }
+    }
+}

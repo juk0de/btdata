@@ -1,0 +1,274 @@
+{
+    "chassis": "Flamberge",
+    "model": "D",
+    "mul_id": 6873,
+    "config": "Biped Omnimech",
+    "techbase": "Mixed (Clan Chassis)",
+    "era": 3115,
+    "source": "TRO: 3145",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "imp_target_med"
+    ],
+    "mass": 70,
+    "engine": "280 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 11,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "SRM 6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "SRM 6": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "Plasma Rifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Plasma Rifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLSRM6",
+            "8": "CLMediumPulseLaser (omnipod)",
+            "9": "CLMediumPulseLaser (omnipod)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Endo Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLSRM6",
+            "8": "CLMediumPulseLaser (omnipod)",
+            "9": "CLMediumPulseLaser (omnipod)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Endo Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "Jump Jet (omnipod)",
+            "6": "Jump Jet (omnipod)",
+            "7": "ISPlasmaRifle (omnipod)",
+            "8": "ISPlasmaRifle (omnipod)",
+            "9": "ISPlasmaRifleAmmo (omnipod)",
+            "10": "Clan Ammo SRM-6 (omnipod)",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (omnipod)",
+            "4": "Jump Jet (omnipod)",
+            "5": "ISPlasmaRifle (omnipod)",
+            "6": "ISPlasmaRifle (omnipod)",
+            "7": "ISPlasmaRifleAmmo (omnipod)",
+            "8": "Clan Ammo SRM-6 (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISPlasmaRifleAmmo (omnipod)",
+            "12": "ISPlasmaRifleAmmo (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Initially a Partial Wing test-bed, the Flamberge became a prominent Clan Jade Falcon OmniMech, helping to inspire the Falcon's Dark Age era design style aesthetic.",
+        "capabilities": "Built on an Endo Steel chassis, powered by a 280 rated XL Engine, and clad in thirteen and a half tons of armor, while slower than other front-line OmniMechs of similar weight, the bulk of the Flamberge's variants feature Jump Jets and the design was built with them in mind. Mounting eleven double heat sinks on its base frame, the design had thirty-five tons of available pod space.",
+        "deployment": "This version of the Flamberge developed in 3115 carries two Plasma Rifles from Inner Sphere sources. These are supplemented by four Medium Pulse Lasers and the fixed SRM-6 launchers. To counter the heat, sixteen double heat sinks are fitted.",
+        "history": "Developing the experimental Partial Wing technology in the 3060s, attempts by the Falcon scientists to develop a new production design using it were unsuccessful and the project was ultimately shelved. Cut-off from the Clan Homeworlds as losses mounted in the Jihad, in 3074 then Khan Marthe Pryde tasked Merchant Daniel and the Falcon design teams to use whatever was available to rebuild her forces. After removing much of the internal components of the wings, retaining the inbuilt Pattern J7 SRM-6 launchers in the shoulders to avoid further delays, the reborn test-bed featured an imposing bird-like cosmetic appearance that helped the Flamberge secure a prominent position in the Clan Jade Falcon Touman.",
+        "manufacturer": [
+            "Olivetti Weaponry"
+        ],
+        "primaryfactory": [
+            "Sudeten"
+        ],
+        "systemmanufacturer": {
+            "chassis": "JF 7 Light Endo Steel",
+            "engine": "280 XL Fusion",
+            "armor": "JF Standard",
+            "communications": "JF Integrated",
+            "targeting": "JFIX/Olivetti Pinpoint Advanced"
+        }
+    }
+}

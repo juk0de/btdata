@@ -1,0 +1,261 @@
+{
+    "chassis": "Avalanche",
+    "model": "AVL-1O",
+    "mul_id": 6396,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3133,
+    "source": "TRO: 3145 Draconis Combine",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "bad_rep_is"
+    ],
+    "mass": 50,
+    "engine": "250 Fusion Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "IS Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "LRM 10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "LRM 10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISERMediumLaser (OMNIPOD)",
+            "4": "ISERMediumLaser (OMNIPOD)",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISERMediumLaser (OMNIPOD)",
+            "4": "ISERMediumLaser (OMNIPOD)",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "LRM 10 (OMNIPOD)",
+            "4": "LRM 10 (OMNIPOD)",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "LRM 10 (OMNIPOD)",
+            "4": "LRM 10 (OMNIPOD)",
+            "5": "IS Ammo LRM-10 (OMNIPOD)",
+            "6": "IS Ammo LRM-10 (OMNIPOD)",
+            "7": "ISCASE",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Avalanche is a thirty-second century medium OmniMech, first deployed by the Draconis Combine and Clan Nova Cat.",
+        "capabilities": "Constructed using Inner Sphere technologies, the 'Mech design was envisioned with economics in mind. The Avalanche is powered by a 250-rated fusion engine, giving it a modest maximum speed of 86 km/h, while its hull is protected by 10 tons of standard armor, which gives it less armor protection than other designs of the time. Mobility is enhanced with five jump jets, and CASE mounted in its right torso protected against complete destruction from a magazine detonation. Additional equipment and weapons are allotted 16 tons of pod space, giving decent flexibility.",
+        "deployment": "The Avalanche gains its name from its primary configuration which consists of two LRM-10 launchers in its torso, which obscure it in a white, snow-like cloud of smoke when firing. These are backed up with a quartet of ER medium lasers mounted in the arms.",
+        "history": "The 'Mech was conceived as part of a joint project between House Kurita and its then ally Clan Nova Cat, and served as part of an effort to aid in the rebuilding the Clan's depleted touman as a result of the aftermath of the 2nd Combine-Dominion War that ended in 3101. The 'Mech would be developed over the next 30 years, however development would prove to be challenging for both groups. After decades of development, the Avalanche would still have a number of design flaws which would give it a bad reputation among warriors of Clan Nova Cat. The 'Mech would soon be deployed shortly before House Kurita's invasion of the Republic of the Sphere, where it would serve among House Kurita's elite forces. After the destruction of Clan Nova Cat, as a result of its revolt against Coordinator Yori Kurita, the dead Clan's allotment of Avalanches would be sold off to other Inner Sphere powers.",
+        "manufacturer": [
+            "Luthien Armor Works"
+        ],
+        "primaryfactory": [
+            "Luthien"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Luthien Class M Endo Steel",
+            "engine": "Hermes 250",
+            "armor": "Mitchel Argon Standard",
+            "jumpjet": "Icarus Standard",
+            "communications": "Sipher CommCon SCU-9",
+            "targeting": "Matabushi Stalker"
+        }
+    }
+}

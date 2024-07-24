@@ -1,0 +1,275 @@
+{
+    "chassis": "BattleMaster",
+    "model": "BLR-4L",
+    "mul_id": 293,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3081,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "command_mech",
+        "weak_head_1"
+    ],
+    "mass": 85,
+    "engine": "340 Light Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "IS Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Stealth",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "Light Gauss Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "MML 7": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Light PPC": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Light PPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISGuardianECMSuite",
+            "6": "ISGuardianECMSuite",
+            "7": "IS Stealth",
+            "8": "IS Stealth",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLightGaussRifle",
+            "5": "ISLightGaussRifle",
+            "6": "ISLightGaussRifle",
+            "7": "ISLightGaussRifle",
+            "8": "ISLightGaussRifle",
+            "9": "IS Light Gauss Ammo",
+            "10": "IS Light Gauss Ammo",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "Light PPC",
+            "9": "Light PPC",
+            "10": "ISERMediumLaser",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Light PPC",
+            "5": "Light PPC",
+            "6": "ISERMediumLaser",
+            "7": "IS Ammo MML-7 LRM",
+            "8": "IS Ammo MML-7 LRM",
+            "9": "IS Ammo MML-7 SRM",
+            "10": "IS Stealth",
+            "11": "IS Stealth",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Versatile and powerful, the BattleMaster was one of the best known BattleMechs in existence. Hollis Industries began production in 2633, originally designing it to be the largest and most powerful 'Mech for the Star League armies at that time.",
+        "capabilities": "Indeed the sheer size of the BattleMaster, combined with the costs and resources needed to build one, meant the 'Mech could only be manufactured on a few planets. Still, those lucky enough to pilot a BattleMaster can attest to some of the stories surrounding the 'Mech. With good reliability, firepower and armoring, the BattleMaster is equally adept anchoring an assault lance or serving as a command vehicle.",
+        "deployment": "This BattleMaster variant first seen in 3081 is unique to the Capellan Confederation. Equipped with Stealth Armor and a Guardian ECM Suite to power it, the traditional weaponry has been replaced with a Light Gauss Rifle and MML-7, supported by a Light PPC and ER Medium Laser in each torso. It also carries three jump jets, allowing it to cover 90 meters at a time. A Light Fusion Engine provides power and increases survivability.",
+        "history": "Although only produced in modest numbers, examples of the BattleMaster could be found in the arsenals of all the Great Houses and technicians have gone to great lengths in order to repair one. During the First Succession War Hollis' BattleMaster factories on Corey were attacked, their production lines destroyed and any finished BattleMasters purloined by the various House forces. While production of new BattleMasters was taken up by Earthwerks Incorporated on Keystone, Trellshire Heavy Industries on Twycross, and Red Devil Industries on Pandora, they could build only a handful of new 'Mechs every year. This was enough though to make House Steiner and House Marik the largest users of BattleMasters during the Succession Wars. House Liao also fielded a large number of BattleMasters, at least until the devastation of the Fourth Succession War when many fell into the hands of the Federated Suns, themselves lacking any BattleMaster factories. By fortuitous accident the Draconis Combine also came into possession of a large number of BattleMasters when a hapless ComStar Precentor, intending to ship unmodified versions of advanced BattleMasters to Com Guard units, sent them to the Combine instead. These BattleMasters served as excellent command vehicles during the War of 3039. New models of the BattleMaster would be introduced in time to take part in the Clan Invasion. Although the manufacture of new BattleMasters was disrupted when Twycross fell to Clan Jade Falcon, the recapture of that world allowed for a brief resumption of production. While Pandora did not fall during the Invasion an effort was made to relocate its BattleMaster factory, but the haphazard nature of the factory and feet-dragging by the planet's corrupt nobility delayed this effort. It wasn't until 3061 that the Red Devil factory was finally ready to be closed when the nobility's lobbying paid off and instead funds were allocated by Archon Katherine Steiner-Davion to refurbish the factory. As part of the arrangement a deal was struck with J.B. BattleMechs Incorporated to produce a new variant, the BLR-4S. Initial units were built starting in 3062 but the FedCom Civil War would delay full-scale production until 3064, by which time the second Jade Falcon Incursion captured the planet and put these new BattleMasters to work in their second-line units. This left the hard-pressed J.B. BattleMechs' factory on Storfors to build the BLR-4S for the Lyran Alliance, while the Free Worlds League and Combine would come out with their own variants.",
+        "manufacturer": [
+            "Hollis Incorporated"
+        ],
+        "primaryfactory": [
+            "Corey"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hollis Mark X",
+            "engine": "VOX 340 Light",
+            "armor": "Ceres Durralex Heavy Stealth",
+            "jumpjet": "Unknown",
+            "communications": "HarfordCo COM 4000",
+            "targeting": "HarfordCo XKZ 1"
+        }
+    }
+}

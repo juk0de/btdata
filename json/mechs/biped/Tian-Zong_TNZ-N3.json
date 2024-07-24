@@ -1,0 +1,242 @@
+{
+    "chassis": "Tian-Zong",
+    "model": "TNZ-N3",
+    "mul_id": 6468,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3140,
+    "source": "TRO: 3145 Capellan Confederation",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "command_mech"
+    ],
+    "mass": 75,
+    "engine": "300 XL Engine(IS)",
+    "structure": {
+        "type": "Endo-Composite",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Stealth",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 34
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "Light PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Light PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Gauss Rifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Gauss Rifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Light PPC",
+            "6": "Light PPC",
+            "7": "IS Gauss Ammo",
+            "8": "IS Endo-Composite",
+            "9": "IS Endo-Composite",
+            "10": "IS Endo-Composite",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Light PPC",
+            "6": "Light PPC",
+            "7": "IS Gauss Ammo",
+            "8": "IS Endo-Composite",
+            "9": "IS Endo-Composite",
+            "10": "IS Endo-Composite",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISGaussRifle",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGaussRifle",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISGaussRifle",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGaussRifle",
+            "9": "ISGaussRifle",
+            "10": "ISGaussRifle",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISAngelECMSuite",
+            "12": "ISAngelECMSuite"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "IS Gauss Ammo",
+            "6": "IS Endo-Composite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

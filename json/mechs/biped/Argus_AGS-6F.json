@@ -1,0 +1,223 @@
+{
+    "chassis": "Argus",
+    "model": "AGS-6F",
+    "mul_id": 5684,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3078,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "easy_maintain",
+        "no_arms"
+    ],
+    "mass": 60,
+    "engine": "300 Light Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "left_arm": {
+            "pips": 19
+        },
+        "right_arm": {
+            "pips": 19
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 27
+        },
+        "right_leg": {
+            "pips": 27
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISERMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISAC20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 20
+            }
+        },
+        "4": {
+            "ISSRM6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 15
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISSRM6",
+            "4": "ISSRM6",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Light Ferro-Fibrous",
+            "10": "Light Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISAC20",
+            "4": "ISAC20",
+            "5": "ISAC20",
+            "6": "ISAC20",
+            "7": "ISAC20",
+            "8": "ISAC20",
+            "9": "ISAC20",
+            "10": "ISAC20",
+            "11": "ISAC20",
+            "12": "ISAC20"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "ISERMediumLaser",
+            "4": "ISSRM6 Ammo",
+            "5": "ISCASE",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": null,
+            "10": "Light Ferro-Fibrous",
+            "11": "Light Ferro-Fibrous",
+            "12": "Light Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "ISERMediumLaser",
+            "4": "ISAC20 Ammo",
+            "5": "ISAC20 Ammo",
+            "6": "ISAC20 Ammo",
+            "7": "ISAC20 Ammo",
+            "8": "ISCASE",
+            "9": "Endo-Steel",
+            "10": "Light Ferro-Fibrous",
+            "11": "Light Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    }
+}

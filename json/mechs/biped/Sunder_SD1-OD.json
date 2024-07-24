@@ -1,0 +1,254 @@
+{
+    "chassis": "Sunder",
+    "model": "SD1-OD",
+    "mul_id": 3128,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3063,
+    "source": "TRO: 3058",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "ext_twist"
+    ],
+    "mass": 90,
+    "engine": "360 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 14,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 30
+        },
+        "right_arm": {
+            "pips": 30
+        },
+        "left_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 41
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 33
+        },
+        "right_leg": {
+            "pips": 33
+        }
+    },
+    "weapons": {
+        "1": {
+            "LB 20-X AC": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLBXAC20 (omnipod)",
+            "4": "ISLBXAC20 (omnipod)",
+            "5": "ISLBXAC20 (omnipod)",
+            "6": "ISLBXAC20 (omnipod)",
+            "7": "ISLBXAC20 (omnipod)",
+            "8": "ISLBXAC20 (omnipod)",
+            "9": "ISLBXAC20 (omnipod)",
+            "10": "ISLBXAC20 (omnipod)",
+            "11": "ISLBXAC20 (omnipod)",
+            "12": "ISLBXAC20 (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "PPC (omnipod)",
+            "7": "PPC (omnipod)",
+            "8": "PPC (omnipod)",
+            "9": "PPC (omnipod)",
+            "10": "PPC (omnipod)",
+            "11": "PPC (omnipod)",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet (omnipod)",
+            "5": "ISLBXAC20 (omnipod)",
+            "6": "IS LB 20-X AC Ammo (omnipod)",
+            "7": "IS LB 20-X Cluster Ammo (omnipod)",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Jump Jet (omnipod)",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet (omnipod)",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Sunder OmniMech is a product of the Draconis Combine's initiative to reengineer captured Clan Loki and Thor chassis for similar roles. Though initially plagued by actuator wear and missile exhaust issues, it was not until late 3056 that the Sunder was deployed widely.",
+        "capabilities": "This ninety-ton behemoth is powered by a Hermes 360 XL engine, enabling a top speed of 65 km/h, which is respectable for its weight class. The Sunder is armored with sixteen and a half tons of protection and equipped with fifteen double heat sinks to manage the heat load from its diverse weaponry. The Sunder can carry up to 36 tons of pod-mounted equipment. Despite its slower speed and the quality difference between Inner Sphere and Clan technology, the Sunder performs its intended roles marginally well.",
+        "deployment": "Configuration D: This versatile configuration is adept at both long and short-range engagements. The PPCs provide reliable long-range damage, while the LB 20-X Autocannon can deliver devastating short-range hits. The inclusion of jump jets grants it additional mobility to traverse challenging terrains or reposition in battle, making it a threat at any range.",
+        "history": "Sunders were key players in Operation Bulldog, particularly along the Clan border. Their 36-ton pod space, utilized to peak efficiency, allowed them to compete favorably with Clan Masakari and Gladiator OmniMechs. Many Sunders were also equipped as lance or company C3 nodes, significantly enhancing DCMS units' performance. They continued to prove their worth in subsequent conflicts like the Lyons Thumb incident and the Ghost Bear War, showcasing the strategic advantages of OmniMech technology in protracted engagements. Noteworthy engagements and MechWarriors have contributed to the Sunder's reputation. During Operation Bulldog, a commander of the Fourth Pesht Regulars distinguished himself against Nova Cat opponents, later earning renown on Kiamba by challenging a Second Bear Regulars Trinary's Star Captain to single combat, thereby allowing his unit to regroup. Another MechWarrior known as 'the Scourge of Addicks' gained repute for her unique configurations specializing in anti-infantry warfare, employing flamers, machine guns, and Inferno SRM launchers. These historical narratives underline the Sunder's versatility and the valor of its pilots in various combat scenarios. The production of this OmniMech in the Draconis Combine was halted due to the destruction of the Luthien Armor Works factory by Word of Blake forces in 3068.",
+        "manufacturer": [
+            "StarCorps Industries",
+            "StarCorps Industries",
+            "Luthien Armor Works",
+            "StarCorps Industries",
+            "StarCorps Industries"
+        ],
+        "primaryfactory": [
+            "Crofton",
+            "Loburg",
+            "Luthien",
+            "Son Hoa",
+            "St. Ives"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Class 98 Omni",
+            "engine": "Hermes 360 XL",
+            "armor": "Mitchell Argon",
+            "communications": "Sipher Security Plus",
+            "targeting": "Matabushi Sentinel"
+        }
+    }
+}

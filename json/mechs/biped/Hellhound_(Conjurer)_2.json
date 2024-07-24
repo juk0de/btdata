@@ -1,0 +1,245 @@
+{
+    "chassis": "Hellhound",
+    "clanname": "Conjurer",
+    "model": "2",
+    "mul_id": 1474,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3062,
+    "source": "TRO: 3055",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "ext_twist"
+    ],
+    "mass": 50,
+    "engine": "350 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ATM 9": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLMediumPulseLaser",
+            "6": "CLMediumPulseLaser",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLATM9",
+            "5": "CLATM9",
+            "6": "CLATM9",
+            "7": "CLATM9",
+            "8": "Clan Ammo ATM-9",
+            "9": "Clan Ammo ATM-9 ER",
+            "10": "Clan Ammo ATM-9 HE",
+            "11": "Ferro-Fibrous",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Endo Steel",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Endo Steel",
+            "7": "Endo Steel",
+            "8": "Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLTargeting Computer",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "deployment:Following the Ghost Bear-Combine War, Clan Nova Cat needed to rebuild, but there was a problem: they lacked the infrastructure to rebuild their OmniMech forces after being Abjured from Clan space. Khan Santin West initiated a deal with Clan Diamond Shark to enlist their aid in building factories on Irece and Avon. One of the concessions from the Sharks was to aid the Cats upgrade existing Conjurers and construct the capacity to build new ones. The resulting 'Mech was almost completely rebuilt from the ground up. The Conjurer 2 uses a Consolidated 350 XL fusion engine to achieve speeds up to 119 km/h, along with increased jumping capacity that enable it to move up to 210 meters a jump by a BMP Mk. XXI jump jet system. The weapons are removed to make way for an ATM-9 that has three tons of ammunition to allow maximum flexibility. A pair of medium pulse lasers that are tied to a targeting computer round out the weapons. An added half ton of armor brings the armor protection up to the maximum the 50 ton chassis can carry."
+        }
+    },
+    "fluff": {
+        "overview": "The Conjurer (code-named the Hellhound by the Inner Sphere nations) is a fast, inexpensive medium BattleMech that excels at medium to short range.",
+        "capabilities": "Starting as befitting its status as a second-line 'Mech, most Conjurers uses a standard engine, though it is constructed on an endo steel chassis and uses eight and a half tons of ferro-fibrous armor. Its jump jets enable it to leap up to 180 meters at a time. However Clan Nova Cat\u2019s Conjurer program in the 3060s saw refits and various new builds at times only loosely based on the original. It is noteworthy that the Conjurer is, for all intents and purposes, the Wolverine IIC and was even reported as such by ComStar in early sightings, presumably for its obvious heritage; it was designed off the WVR-7H Wolverine II variant of the original Wolverine, taking the concept and rebuilding it with advanced technology in the fashion of a IIC rebuild. However the Clans would not retain the name of the Not-Named Clan for the redesigned 'Mech.",
+        "history": "Even with an established infrastructure, rebuilding a destroyed Touman for any Clan is a hard task.\u00a0Rebuilding was a Herculean effort for the Nova Cats, whose infrastructure could barely maintain current units in the field operating, let alone replace units destroyed during the Ghost Bear-Combine battle. The Nova Cats' ongoing reliance on the Draconis Combine may not be sustainable. It harmed their self-esteem and threatened to demoralize them in the long run. If Khan Santin West and his Nova Cats were to survive as a Clan, they would have to conquer this hurdle.\u00a0Nova Cat scientists, technicians, and Galaxy Commanders looked for a different way to restore their depleted Touman. They updated existing BattleMechs instead of replacing the massive number of lost OmniMechs. The Hellhound was the first such candidate because of its proven battle record and the implications of its moniker. Everyone agreed that retooling this 'Mech would help to shore up the Nova Cats' tattered forces.\u00a0The Hellhound's performance profile needed to be refined to satisfy new Nova Cat warfare doctrines, which meant the Cats needed assistance from their longtime friend and ally, Clan Diamond Shark. Through the Chatterweb, Khan West contacted Shark Khan Barbara Sennet and offered three Carrack Merchant-class warships and the rights to the new Hellhound in exchange for all of the materials and components needed to create it. Khan West has asked assistance in restoring the Cats' infrastructure, including the construction of new factories on Irece and Avon. The Diamond Sharks enthusiastically agreed to the deal.",
+        "manufacturer": [
+            "Irece Alpha"
+        ],
+        "primaryfactory": [
+            "Irece"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Puma Type Medium Endo Steel",
+            "engine": "Consolidated Fusion 350 XL",
+            "armor": "Alpha Plate Special Ferro-Fibrous",
+            "communications": "JNE II Integrated",
+            "targeting": "Build 4 CAT Advanced TTS"
+        }
+    }
+}

@@ -1,0 +1,290 @@
+{
+    "chassis": "Fafnir",
+    "model": "FNR-4A (Peter)",
+    "mul_id": 1020,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3068,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "Jihad Turning Points: Tharkad",
+    "quirks": [
+        "no_arms"
+    ],
+    "weaponquirk": "stable_weapon:RT:1:ISHeavyGaussRifle",
+    "mass": 100,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 46
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISMediumPulseLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISRocketLauncher10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "3": {
+            "ISMediumPulseLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISRocketLauncher10": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "5": {
+            "ISHeavyGaussRifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 16
+            }
+        },
+        "6": {
+            "ISERLargeLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "7": {
+            "ISRocketLauncher10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "8": {
+            "ISGuardianECM": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "9": {
+            "ISC3SlaveUnit": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "10": {
+            "ISRocketLauncher10": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "11": {
+            "ISMediumPulseLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISMediumPulseLaser",
+            "4": "ISRocketLauncher10",
+            "5": "ISRocketLauncher10",
+            "6": "ISRocketLauncher10",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISMediumPulseLaser",
+            "4": "ISRocketLauncher10",
+            "5": "ISRocketLauncher10",
+            "6": "ISRocketLauncher10",
+            "7": "ISHeavyGauss Ammo",
+            "8": "ISHeavyGauss Ammo",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "left_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISERLargeLaser",
+            "5": "ISERLargeLaser",
+            "6": "ISERLargeLaser",
+            "7": "ISERLargeLaser",
+            "8": "ISRocketLauncher10",
+            "9": "ISRocketLauncher10",
+            "10": "ISRocketLauncher10",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "ISCASE",
+            "2": "ISHeavyGaussRifle",
+            "3": "ISHeavyGaussRifle",
+            "4": "ISHeavyGaussRifle",
+            "5": "ISHeavyGaussRifle",
+            "6": "ISHeavyGaussRifle",
+            "7": "ISHeavyGaussRifle",
+            "8": "ISHeavyGaussRifle",
+            "9": "ISHeavyGaussRifle",
+            "10": "ISHeavyGaussRifle",
+            "11": "ISHeavyGaussRifle",
+            "12": "ISHeavyGaussRifle"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "ISGuardianECM",
+            "10": "ISGuardianECM",
+            "11": "ISC3SlaveUnit",
+            "12": "ISRocketLauncher10"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISMediumPulseLaser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "ISHeavyGauss Ammo",
+            "6": "ISHeavyGauss Ammo",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

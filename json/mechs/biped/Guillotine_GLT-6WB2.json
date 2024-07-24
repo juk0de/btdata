@@ -1,0 +1,275 @@
+{
+    "chassis": "Guillotine",
+    "model": "GLT-6WB2",
+    "mul_id": 1343,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "searchlight"
+    ],
+    "mass": 70,
+    "engine": "280 XL Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLightPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ISLightGaussRifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 16
+            }
+        },
+        "3": {
+            "ISERMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISERMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISLRM5": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "6": {
+            "ISImprovedC3CPU": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLightGaussRifle",
+            "4": "ISLightGaussRifle",
+            "5": "ISLightGaussRifle",
+            "6": "ISLightGaussRifle",
+            "7": "ISLightGaussRifle",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLightPPC",
+            "5": "ISLightPPC",
+            "6": "ISLightPPC",
+            "7": "ISLightPPC",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ImprovedJump Jet",
+            "5": "ImprovedJump Jet",
+            "6": "ImprovedJump Jet",
+            "7": "ImprovedJump Jet",
+            "8": "ISERMediumLaser",
+            "9": "ISLightGauss Ammo",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ImprovedJump Jet",
+            "5": "ImprovedJump Jet",
+            "6": "ImprovedJump Jet",
+            "7": "ImprovedJump Jet",
+            "8": "ISERMediumLaser",
+            "9": "ISLRM5 Ammo Artemis-capable",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "ISLRM5",
+            "10": "ISArtemisIV",
+            "11": "ISImprovedC3CPU",
+            "12": "ISImprovedC3CPU"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "ImprovedJump Jet",
+            "6": "ImprovedJump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "ImprovedJump Jet",
+            "6": "ImprovedJump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations.",
+        "capabilities": "While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries.",
+        "deployment": "Built in 3070 on an Endo Steel frame and utilizing a Compact Gyro, the 6WB2 mounts two ER Medium Lasers, and with the removal of half a ton of armor, a Light Gauss Rifle and paired Light PPCs. An Artemis IV-guided LRM-5 launcher provides additional long range firepower. Six improved jump jets enable the 6WB2 to leap up to 180 meters. This variant retains the C3i computer.",
+        "history": "Newhart Industries built the Guillotine from their factory on New Earth, but this was destroyed during the Amaris Civil War in 2776 as part of a celebration put on by the 12th Republican Guard. At the same time Irian BattleMechs Unlimited was building Guillotines under contract from Newheart out of Irian and continued to do so for another half-century; Lycomb-Davion IntroTech had also been producing the Guillotine from their main manufacturing facility on Demeter, but this facility was destroyed by Capellan Confederation forces early in the First Succession War. The collapse of the Star League and exodus of the SLDF scattered Guillotines across all of the Great Houses, while ComStar succeeded in raiding New Earth in 2788 and acquiring a battalion's worth from former Newhart stockpiles. In the wake of the First Succession War a shortage of the advanced components necessary for the 'Mech forced IBMU to design a downgraded variant, the GLT-4L, which they continued to produce off and on for the next few centuries. The recovery of the Helm Memory Core inspired a number of old designs, the Guillotine included, to be upgraded with lostech. Using the refurbished Newhart factory Irian's new GLT-5M model not only restored the Guillotine to its former glory but improved upon it with better (and importantly more reliable) weaponry. Irian continued producing new Guillotines, which would go on to take part in the FedCom Civil War and the Jihad.",
+        "manufacturer": [
+            "Irian BattleMechs Unlimited"
+        ],
+        "primaryfactory": [
+            "Irian"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Crucis-I Endo Steel",
+            "engine": "VOX 280",
+            "armor": "Ulston Prime with CASE",
+            "jumpjet": "Anderson 398",
+            "communications": "StarLink 955G",
+            "targeting": "Pulsar Tri-X"
+        }
+    }
+}

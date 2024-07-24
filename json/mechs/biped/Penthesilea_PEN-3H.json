@@ -1,0 +1,271 @@
+{
+    "chassis": "Penthesilea",
+    "model": "PEN-3H",
+    "mul_id": 7347,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3129,
+    "source": "XTR: Republic II",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "rugged_1"
+    ],
+    "weaponquirk": "em_interference:RA:3:Bombast Laser",
+    "mass": 75,
+    "engine": "225 Compact Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 35
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "Bombast Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "3": {
+            "Light Machine Gun": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Light Machine Gun": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "5": {
+            "Light Machine Gun": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Light Machine Gun Array": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "LAC/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "Medium VSP Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMediumVSPLaser",
+            "5": "ISMediumVSPLaser",
+            "6": "Light Auto Cannon/5",
+            "7": "Light Auto Cannon/5",
+            "8": "ISAES",
+            "9": "ISAES",
+            "10": "ISAES",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Bombast Laser",
+            "5": "Bombast Laser",
+            "6": "Bombast Laser",
+            "7": "Medium Laser",
+            "8": "Medium Laser",
+            "9": "Medium Laser",
+            "10": "ISAES",
+            "11": "ISAES",
+            "12": "ISAES"
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "Light Machine Gun",
+            "5": "IS Light Machine Gun Ammo - Half",
+            "6": "IS Ammo LAC/5",
+            "7": "IS Ammo LAC/5",
+            "8": "IS Ammo LAC/5",
+            "9": "ISCASEII",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Light Machine Gun",
+            "2": "IS Endo Steel",
+            "3": "IS Endo Steel",
+            "4": "IS Endo Steel",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Jump Jet",
+            "7": "Light Machine Gun",
+            "8": "Light Machine Gun",
+            "9": "Light Machine Gun",
+            "10": "ISLMGA",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "IS Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "IS Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

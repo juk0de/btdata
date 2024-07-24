@@ -1,0 +1,269 @@
+{
+    "chassis": "Firefly",
+    "model": "FFL-4D",
+    "mul_id": 1090,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3067,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "no_arms"
+    ],
+    "mass": 30,
+    "engine": "150 Light Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Single"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISAntiMissileSystem": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 12
+            }
+        },
+        "2": {
+            "ISERMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISLRM5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "4": {
+            "ISERMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISERMediumLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISAntiMissileSystem",
+            "4": "Endo Steel",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Endo Steel",
+            "4": "Endo Steel",
+            "5": "Endo Steel",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Heat Sink",
+            "4": "Heat Sink",
+            "5": "Heat Sink",
+            "6": "ISERMediumLaser",
+            "7": "ISAMS Ammo",
+            "8": "ISLRM5 Ammo Artemis-capable",
+            "9": "ISCASE",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Heat Sink",
+            "4": "Heat Sink",
+            "5": "Heat Sink",
+            "6": "ISERMediumLaser",
+            "7": "ISLRM5",
+            "8": "ISArtemisIV",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERMediumLaser",
+            "12": "Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Firefly is a well-armed recon 'Mech that tips the scales at thirty tons, with a maximum ground speed of 86.4 km/h, the and ability to jump up to 120 meters. As a scout 'Mech, the Firefly gives average performance with its energy weapon-heavy arsenal and is useful in both a recon and guerrilla fighter role.",
+        "capabilities": "Although it was slow in comparison to other 'Mechs of its weight class, it was powerfully armed and armored, and it frequently served as an anvil against which opposing forces' recon units were smashed.",
+        "deployment": "A comparatively new variant that appeared with the Dragoons shortly before the fighting on Outreach, the 4D saves weight through the use of a light engine, endo steel, and ferro-fibrous armor. Like the 4C, this variant adds an Artemis IV FCS to the LRM-5, but also upgrades the lasers to ER medium lasers. Due to space constraints, the 4D uses 12 single heat sinks that are sorely taxed.",
+        "history": "The Firefly, which entered service in the late 27th century, was one of the SLDF's primary light 'Mechs in its later years. Cases occurred in all House forces, but not in the numbers deployed by the SLDF, and all were presumed destroyed by the end of the Second Succession War, save for tales of anomalous examples in the Periphery. The design reappeared with Wolf's Dragoons in the early 31st century, raising eyebrows, yet the secret of the Firefly's origin was exposed when the Dragoons' Clan origins were revealed. In the 3040s, the advent of a small number of Fireflys with the Com Guard forces elicited a similar reaction.",
+        "manufacturer": [
+            "Arc-Royal MechWorks",
+            "Blackwell Corporation"
+        ],
+        "primaryfactory": [
+            "Arc-Royal",
+            "Outreach"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Earthwerks Endo Firefly",
+            "engine": "GM 150 Light",
+            "armor": "StarSlab/1x Ferro Fibrous with CASE",
+            "jumpjet": "Lexington Lifters",
+            "communications": "Datcom 18",
+            "targeting": "Radcom TXX"
+        }
+    }
+}

@@ -1,0 +1,279 @@
+{
+    "chassis": "Annihilator",
+    "model": "ANH-1A",
+    "mul_id": 3700,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3009,
+    "source": "TRO: 3050",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "mass": 100,
+    "engine": "200 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 18,
+        "type": "Single"
+    },
+    "walk_mp": 2,
+    "run_mp": 3,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISAC10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISAC10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISAC10": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISAC10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 40
+            }
+        },
+        "5": {
+            "ISMediumLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "ISMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ISMediumLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISAC10",
+            "5": "ISAC10",
+            "6": "ISAC10",
+            "7": "ISAC10",
+            "8": "ISAC10",
+            "9": "ISAC10",
+            "10": "ISAC10",
+            "11": "ISMediumLaser",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISAC10",
+            "5": "ISAC10",
+            "6": "ISAC10",
+            "7": "ISAC10",
+            "8": "ISAC10",
+            "9": "ISAC10",
+            "10": "ISAC10",
+            "11": "ISMediumLaser",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "ISAC10",
+            "5": "ISAC10",
+            "6": "ISAC10",
+            "7": "ISAC10",
+            "8": "ISAC10",
+            "9": "ISAC10",
+            "10": "ISAC10",
+            "11": "ISAC10 Ammo",
+            "12": "ISAC10 Ammo"
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "ISAC10",
+            "5": "ISAC10",
+            "6": "ISAC10",
+            "7": "ISAC10",
+            "8": "ISAC10",
+            "9": "ISAC10",
+            "10": "ISAC10",
+            "11": "ISAC10 Ammo",
+            "12": "ISAC10 Ammo"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISMediumLaser",
+            "12": "ISMediumLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Originally developed in the final year of the Amaris Civil War as the ultimate fixed position city defense BattleMech.",
+        "capabilities": "The Annihilator is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The 100-ton 'Mech has a maximum speed of 32.4 km/h, making it one of the slowest 'Mechs ever designed together with the UrbanMech. It is by no means intended to use speed to outmaneuver an enemy, instead depending on its twelve and a half tons of armor to weather any fire that is directed at the 'Mech.",
+        "deployment": "The actual variant that showed up with Wolf's Dragoons, the -1A was armed with four Autocannon/10s and four Medium Lasers. While less accurate and unable to use cluster rounds, the 1A was still a highly destructive and dangerous 'Mech that no MechWarrior looked forward to engaging.",
+        "history": "The Annihilator was built as a sign of the military strength of both the Star League in Exile and the newly created Clans. Discontinued before the Clans' Golden Century, in one of their few missteps, the Wolf's Dragoons brought a number of unknown designs with them in 3009, raising more questions to their origins while at the same time adding to their mystique. It was exclusive to the Dragoons until the Jihad disseminated the design to Arc-Royal due to the strengthening of the relationship that Wolf's Dragoons forged with the Kell Hounds and Clan Wolf-in-Exile following their flight from Outreach.",
+        "manufacturer": [
+            "Refit"
+        ],
+        "primaryfactory": [
+            "Various"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Star League MN-01",
+            "engine": "Nissan 200",
+            "armor": "Starshield Special-b",
+            "communications": "Garret T19-G",
+            "targeting": "Wasat Aggressor Type 5"
+        }
+    }
+}

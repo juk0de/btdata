@@ -1,0 +1,278 @@
+{
+    "chassis": "Tenshi",
+    "model": "TN-10-OB",
+    "mul_id": 6423,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3101,
+    "source": "TRO: 3145 Draconis Combine",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "distracting",
+        "searchlight",
+        "difficult_eject"
+    ],
+    "mass": 95,
+    "engine": "285 Light Engine(IS)",
+    "structure": {
+        "type": "Endo-Composite",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 30
+        },
+        "left_torso": {
+            "pips": 20
+        },
+        "right_torso": {
+            "pips": 20
+        },
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 11,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 32
+        },
+        "right_arm": {
+            "pips": 32
+        },
+        "left_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 45
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 40
+        },
+        "right_leg": {
+            "pips": 40
+        }
+    },
+    "weapons": {
+        "1": {
+            "Streak SRM 6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "TSEMP Cannon": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Streak SRM 6": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "TSEMP Cannon": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "Heavy PPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISStreakSRM6 (omnipod)",
+            "7": "ISStreakSRM6 (omnipod)",
+            "8": "TSEMP Cannon (omnipod)",
+            "9": "TSEMP Cannon (omnipod)",
+            "10": "TSEMP Cannon (omnipod)",
+            "11": "TSEMP Cannon (omnipod)",
+            "12": "TSEMP Cannon (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISStreakSRM6 (omnipod)",
+            "7": "ISStreakSRM6 (omnipod)",
+            "8": "TSEMP Cannon (omnipod)",
+            "9": "TSEMP Cannon (omnipod)",
+            "10": "TSEMP Cannon (omnipod)",
+            "11": "TSEMP Cannon (omnipod)",
+            "12": "TSEMP Cannon (omnipod)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISMediumPulseLaser (omnipod)",
+            "7": "ISMediumPulseLaser (omnipod)",
+            "8": "IS Streak SRM 6 Ammo (omnipod)",
+            "9": "IS Endo-Composite",
+            "10": "IS Endo-Composite",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "Heavy PPC (omnipod)",
+            "7": "Heavy PPC (omnipod)",
+            "8": "Heavy PPC (omnipod)",
+            "9": "Heavy PPC (omnipod)",
+            "10": "IS Streak SRM 6 Ammo (omnipod)",
+            "11": "IS Endo-Composite",
+            "12": "IS Endo-Composite"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "ISDoubleHeatSink (omnipod)",
+            "10": "ISDoubleHeatSink (omnipod)",
+            "11": "ISDoubleHeatSink (omnipod)",
+            "12": "Jump Jet (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo-Composite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet (omnipod)",
+            "6": "IS Endo-Composite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet (omnipod)",
+            "6": "IS Endo-Composite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "deployment:Designed to severely cripple or destroy an enemy, the B configuration is equipped with two TSEMP Cannons found in each of its arms. Its other weapons and equipment include: A single right torso-mounted Heavy PPC, a pair of arm-mounted Streak 6-tubed SRM Launchers, and a pair of Medium Pulse Lasers. Three Jump Jets help the 'Mech travel difficult terrain, while five Double Heat Sinks keep heat levels fairly manageable."
+        }
+    },
+    "fluff": {
+        "overview": "The Tenshi, (\"Angel\" in japanese), is an Assault Class OmniMech, which was manufactured during the early thirty-second century for the Draconis Combine's armed forces.",
+        "capabilities": "Among the Tenshi's design features is its durability and having a heavy equipment payload. The designers saw fit to equip the 'Mech with a Compact Gyro and 18.5 tons of Standard Armor. The Tenshi also uses a number of new technologies that had finally entered production in the decades preceding the Jihad. The use of an Endo-Composite internal structure and a Light Fusion Engine granted the design a huge pod capacity of 48 tons. However, this large capacity had come at a price; that price being a slightly lower maximum speed than other comparable designs of the era.",
+        "history": "A product of House Kurita's hidden efforts to rebuild its decimated 'Mech regiments, the Tenshi was designed to use resources found within the Combine. The Tenshi was first deployed among the ranks of the Ghost Regiments in the early 3100s, its deployment with a less-renowned brigade was part of the DCMS' two-fold effort of testing the 'Mech while also providing a fire-wall to save face should the design prove to be a failure in combat. One of its first deployments was in 3103, when the 1st Ghost conducted a raid on the Ghost Bear Dominion world of Grumium. The eight Tenshis among the Ghosts' ranks performed well, with most of their numbers returning to",
+        "manufacturer": [
+            "Luthien Armor Works"
+        ],
+        "primaryfactory": [
+            "Luthien"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Luthien Class 105A",
+            "engine": "Hermes 285 Light",
+            "armor": "Mitchel Argon Standard",
+            "communications": "Sipher Clarion",
+            "targeting": "Matabushi Tenbatsu"
+        }
+    }
+}

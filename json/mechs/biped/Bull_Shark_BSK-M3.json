@@ -1,0 +1,284 @@
+{
+    "chassis": "Bull Shark",
+    "model": "BSK-M3",
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3035,
+    "source": "Videogame (Apocryphal)",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "quirks": [
+        "distracting"
+    ],
+    "mass": 95,
+    "engine": "285 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 30
+        },
+        "left_torso": {
+            "pips": 20
+        },
+        "right_torso": {
+            "pips": 20
+        },
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 32
+        },
+        "right_arm": {
+            "pips": 32
+        },
+        "left_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 45
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 40
+        },
+        "right_leg": {
+            "pips": 40
+        }
+    },
+    "weapons": {
+        "1": {
+            "Improved Autocannon/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "AC/10": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Improved Autocannon/5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "AC/10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "LRM 5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "7": {
+            "LRM 5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "8": {
+            "Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Improved Autocannon/5",
+            "4": "Improved Autocannon/5",
+            "5": "Autocannon/10",
+            "6": "Autocannon/10",
+            "7": "Autocannon/10",
+            "8": "Autocannon/10",
+            "9": "Autocannon/10",
+            "10": "Autocannon/10",
+            "11": "Autocannon/10",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Improved Autocannon/5",
+            "4": "Improved Autocannon/5",
+            "5": "Autocannon/10",
+            "6": "Autocannon/10",
+            "7": "Autocannon/10",
+            "8": "Autocannon/10",
+            "9": "Autocannon/10",
+            "10": "Autocannon/10",
+            "11": "Autocannon/10",
+            "12": "IS Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 5",
+            "5": "LRM 5",
+            "6": "Medium Laser",
+            "7": "Medium Laser",
+            "8": "IS Ammo LRM-5",
+            "9": "CLIMPAmmoAC5",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 5",
+            "5": "LRM 5",
+            "6": "Medium Laser",
+            "7": "Medium Laser",
+            "8": "IS Ammo LRM-5",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ammo AC/10",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ammo AC/10",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "\"This is something brand-new to me, Commander. I don't know where this 'Mech came from, but it's a serious force to be reckoned with because of its heavy weaponry and nearly impenetrable armor. Quite a find!\" - Yang Virtanen",
+        "deployment": "The Bull Shark is a 95-ton Assault 'Mech described as a \"Heavy Brawler\", and is equipped to engage targets across a fairly wide range bracket. This Inner Sphere production variant uses conventional and rediscovered 'tech, unlike its original prototype, and carries a more versatile loadout and hardpoint set-up. A pair of LRM-5s and one ton of ammo are fitted to each torso, while medium lasers replace the original extended range versions. Each arm mounts a standard AC/10 and an Improved AC/5. The design features two tons of AC/10 ammo and one ton of AC/5 ammo. The replacement of the original's Thumper Artillery Cannon allows the chassis to carry a full 18.5 tons of armour, providing protection that nearly rivals an Atlas.  Only ten Single Heat Sinks mounted in the engine fight to keep the 'Mech from burning up, with MechWarriors needing to keep careful track of their heat generation.",
+        "history": "Following the discovery and subsequent loss of the original Bull Shark BSK-MAZ aboard the abandoned jumpship Dobrev, the shadowy organisation known as the Baumann Group set to recreate the design. While the original 'Mech was lost to them during a conflict with the Black Widow Company, a large equipment cache of mysterious origin was still aboard and available for them to use, primarily consisting of seemingly cast-off but high-quality autocannons. After a few years of design and production set-up, the initial results were less than desirable, with the 'Mech unable to match its original's speed without sacrificing firepower or armour. The rediscovery of Endo-Steel and Extralight Fusion Engine manufacturing in 3035, around a decade after the original Bull Shark had been lost, allowed the Baumann Group to progress their recreation further. With their influence and black market dealings, they sourced the new material and engines for their efforts. Using standard Inner Sphere weaponry - paired with the Improved Autocannons from the Dobrev - a limited run of BSK-M3s were produced and sold to those with the right connections and enough C-Bills to afford the exotic-looking new 'Mechs.",
+        "manufacturer": [
+            "Baumann Group"
+        ],
+        "systemmode": {
+            "chassis": "Endo-Steel",
+            "engine": "285 XL",
+            "armor": "Standard",
+            "jumpjet": "N/A"
+        },
+        "systemmanufacturer": {
+            "jumpjet": "N/A"
+        }
+    },
+    "notes": "The following regards derivation of the design: Improved Autocannons must be used to fit in the arms. Assume they are from a Clan equipment stash found aboard the Dobrev where the MAZ prototype was discovered. Inner Sphere Endo-Steel and XL engines are reintroduced in 3035 in the Combine and Commonwealth respectively. Assume the well-connected Baumann Group was able to source these for limited production.  Design runs 2 tons light. This is legal; or alternatively view that if normal AC-5s were (somehow) fitted as with HBS' design in the videogame, it would come to 95 tons total."
+}

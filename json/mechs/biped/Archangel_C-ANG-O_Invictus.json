@@ -1,0 +1,253 @@
+{
+    "chassis": "Archangel",
+    "model": "C-ANG-O Invictus",
+    "mul_id": 65,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "source": "TRO: 3075",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "command_mech",
+        "imp_com",
+        "imp_sensors",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 100,
+    "engine": "300 Compact Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "IS Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "Heavy PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Plasma Rifle": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Retractable Blade (OMNIPOD)",
+            "6": "Retractable Blade (OMNIPOD)",
+            "7": "Retractable Blade (OMNIPOD)",
+            "8": "Retractable Blade (OMNIPOD)",
+            "9": "Retractable Blade (OMNIPOD)",
+            "10": "Retractable Blade (OMNIPOD)",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Heavy PPC (OMNIPOD)",
+            "4": "Heavy PPC (OMNIPOD)",
+            "5": "Heavy PPC (OMNIPOD)",
+            "6": "Heavy PPC (OMNIPOD)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Jump Jet (OMNIPOD)",
+            "2": "ISTargeting Computer (OMNIPOD)",
+            "3": "ISTargeting Computer (OMNIPOD)",
+            "4": "ISTargeting Computer (OMNIPOD)",
+            "5": "ISTargeting Computer (OMNIPOD)",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink (OMNIPOD)",
+            "2": "ISDoubleHeatSink (OMNIPOD)",
+            "3": "ISDoubleHeatSink (OMNIPOD)",
+            "4": "Jump Jet (OMNIPOD)",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Jump Jet (OMNIPOD)",
+            "7": "ISPlasmaRifleAmmo (OMNIPOD)",
+            "8": "ISPlasmaRifleAmmo (OMNIPOD)",
+            "9": "ISC3iUnit (OMNIPOD)",
+            "10": "ISC3iUnit (OMNIPOD)",
+            "11": "ISGuardianECMSuite (OMNIPOD)",
+            "12": "ISGuardianECMSuite (OMNIPOD)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISPlasmaRifle (OMNIPOD)",
+            "6": "ISPlasmaRifle (OMNIPOD)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops.",
+        "capabilities": "The Archangel is the largest of these. Designed to be an \"anchor\" for Word formations, the 'Mech is known as a \"zombie\" because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.",
+        "history": "The Invictus, or primary, version of the Archangel carries a Guardian ECM Suite to allow the 'Mech to disrupt enemy electronics and targeting systems. For ranged combat, the Archangel Invictus carries a Plasma Rifle and Heavy PPC, both of which are slaved to an advanced targeting computer. The Invictus also includes jump jets, allowing the 100-tonner to hop 90 meters. Finally, a Retractable Blade gives the design added defense in close combat situations.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs",
+            "Martinson Armaments"
+        ],
+        "primaryfactory": [
+            "Gibson (Gibson Federated)",
+            "Terra (Martinson)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Celestial Series AA1E",
+            "engine": "Immortus 300 Compact Fusion",
+            "armor": "Durallex Heavy Gold",
+            "communications": "Master\u2019s Voice Cel-Alpha",
+            "targeting": "Master\u2019s Sight 1-Omega"
+        }
+    }
+}

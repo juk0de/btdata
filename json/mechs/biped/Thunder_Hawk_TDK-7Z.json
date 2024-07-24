@@ -1,0 +1,278 @@
+{
+    "generator": "MegaMek Suite 0.49.18-SNAPSHOT on 2024-01-06",
+    "chassis": "Thunder Hawk",
+    "model": "TDK-7Z",
+    "mul_id": 9581,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3138,
+    "source": "Rec Guide:ilClan #33",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "variable_range_long",
+        "good_rep_1",
+        "difficult_maintain",
+        "command_mech"
+    ],
+    "mass": 100,
+    "engine": "300 XL Engine(IS)",
+    "structure": {
+        "type": "Composite",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "IS Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 50
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Thunderbolt 20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Thunderbolt 20": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Thunderbolt 20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Medium Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Thunderbolt 20",
+            "6": "Thunderbolt 20",
+            "7": "Thunderbolt 20",
+            "8": "Thunderbolt 20",
+            "9": "Thunderbolt 20",
+            "10": "ISERMediumLaser",
+            "11": "IS Ammo Thunderbolt-20",
+            "12": "IS Ammo Thunderbolt-20"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Thunderbolt 20",
+            "5": "Thunderbolt 20",
+            "6": "Thunderbolt 20",
+            "7": "Thunderbolt 20",
+            "8": "Thunderbolt 20",
+            "9": "IS Ammo Thunderbolt-20",
+            "10": "IS Ammo Thunderbolt-20",
+            "11": "IS Ammo Thunderbolt-20",
+            "12": "IS Ammo Thunderbolt-20"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Thunderbolt 20",
+            "5": "Thunderbolt 20",
+            "6": "Thunderbolt 20",
+            "7": "Thunderbolt 20",
+            "8": "Thunderbolt 20",
+            "9": "IS Ammo Thunderbolt-20",
+            "10": "IS Ammo Thunderbolt-20",
+            "11": "IS Ammo Thunderbolt-20",
+            "12": "IS Ammo Thunderbolt-20"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISERMediumLaser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Thunder Hawk, developed by Norse Technologies for the Amaris-Terran Hegemony invasion, became a staple in General Aleksandr Kerensky's forces. Surviving 'Mechs were taken into Exodus, symbolizing their significance. In the 3050s, Norse-Storm BattleMechs revived the Thunder Hawk among other Star League-era designs.",
+        "capabilities": "Dominating the Thunder Hawk's arsenal are three Norse Gauss rifles, accounting for over half its weight. These long-range weapons can incapacitate most foes with a single barrage. Ammunition is distributed throughout the torso to mitigate critical damage risks. However, its Achilles' heel lies in the extra-light Vlar fusion engine. While heavily armored, any breach in the torso significantly compromises the BattleMech\u2019s structural integrity, rendering it inoperable.",
+        "deployment": "The Thunder Hawk TDK-7Z, a missile-focused variant of the storied Thunder Hawk line, is a notable example of adapting classic designs to modern warfare requirements. It stands out for its use of a composite internal structure, a feature that brings both advantages and disadvantages.Armed with three Thunderbolt 20 missile launchers and complemented by four ER Medium Lasers, the TDK-7Z excels in delivering devastating missile barrages at a range of combat scenarios. The missile launchers, placed strategically in the arms and torso, form the core of its offensive capabilities.The composite internal structure of the TDK-7Z contributes significantly to its performance. This advanced material reduces the overall weight of the 'Mech, allowing for the inclusion of heavier weaponry like the Thunderbolt 20s without sacrificing speed. However, this advantage comes at the cost of durability. Composite structures are more fragile than standard internal structures, making the 'Mech more susceptible to critical damage, especially in intense combat situations. This vulnerability is particularly concerning given the lack of CASE in the TDK-7Z, increasing the risk of catastrophic ammunition explosions.Commanders fielding the TDK-7Z must therefore balance its potent offensive capabilities with its structural weaknesses. Its role as a missile boat is best utilized in scenarios where it can leverage its long-range firepower while minimizing exposure to direct enemy fire, thus mitigating the risks associated with its composite structure. Despite these concerns, the TDK-7Z remains a valued asset for its overwhelming long-range firepower and the tactical flexibility it offers on the battlefield.",
+        "history": "The Thunder Hawk became a hallmark of the Lyran Alliance, extensively utilized during the FedCom Civil War. Contrary to its design as a support 'Mech, Loyalists deployed it in direct combat, leveraging its heavy armor. Post-war, Archon Peter Steiner Davion allocated new Thunder Hawks to units loyal to Allied forces. Plans for export are pending until the completion of military restructuring.",
+        "manufacturer": [
+            "Norse-Storm Technologies",
+            "Inc"
+        ],
+        "primaryfactory": [
+            "Loxley"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Norse Heavy XTI-4C",
+            "engine": "Vlar 300 XL",
+            "armor": "ArcShield Heavy Type K",
+            "communications": "Tek BattleCom",
+            "targeting": "DLK Type Phased Array Sensor System"
+        }
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "chassis": "Night Stalker",
+    "model": "NSR-K4",
+    "mul_id": 6719,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3136,
+    "source": "TRO: 3145 Republic of the Sphere",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Scout",
+    "quirks": [
+        "distracting"
+    ],
+    "mass": 40,
+    "engine": "320 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Torso-Mounted Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "SRM 4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "IS Lance",
+            "6": "IS Lance",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Life Support",
+            "5": "SRM 4",
+            "6": "IS Ammo SRM-4",
+            "7": "ISCASE",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Life Support",
+            "5": "BeagleActiveProbe",
+            "6": "BeagleActiveProbe",
+            "7": "ISERMediumLaser",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Cockpit",
+            "12": "Sensors"
+        },
+        "head": {
+            "1": "Sensors",
+            "2": "Sensors",
+            "3": "ISERMediumLaser",
+            "4": "IS Endo Steel",
+            "5": "IS Endo Steel",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

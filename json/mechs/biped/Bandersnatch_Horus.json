@@ -1,0 +1,249 @@
+{
+    "chassis": "Bandersnatch",
+    "model": "BNDR-01A (Horus)",
+    "mul_id": 3780,
+    "source": "Record Sheets: Unique Mechs",
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3061,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "stable",
+        "ubiquitous_is"
+    ],
+    "mass": 75,
+    "engine": "300 XL Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 36
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISAC20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 20
+            }
+        },
+        "2": {
+            "ISAC20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISERLargeLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISAC20",
+            "4": "ISAC20",
+            "5": "ISAC20",
+            "6": "ISAC20",
+            "7": "ISAC20",
+            "8": "ISAC20",
+            "9": "ISAC20",
+            "10": "ISAC20",
+            "11": "ISAC20",
+            "12": "ISAC20"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISAC20",
+            "4": "ISAC20",
+            "5": "ISAC20",
+            "6": "ISAC20",
+            "7": "ISAC20",
+            "8": "ISAC20",
+            "9": "ISAC20",
+            "10": "ISAC20",
+            "11": "ISAC20",
+            "12": "ISAC20"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISAC20 Ammo",
+            "5": "ISAC20 Ammo",
+            "6": "ISMediumLaser",
+            "7": "ISCASE",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISAC20 Ammo",
+            "5": "ISAC20 Ammo",
+            "6": "ISMediumLaser",
+            "7": "ISCASE",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISERLargeLaser",
+            "12": "ISERLargeLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "The Bandersnatch, who receives his name from the monster mentioned in Lewis Carroll's \"Wonderland\" series, is the brainchild of Felifious Bander and is built around the concept of an affordable and effective BattleMech for sale to mercenary units.",
+        "capabilities": "The Bandersnatch is built using some common components with the Marauder in an attempt to make the 'Mech cheaper and easier to repair. The 'Mech has a top speed of 64.8 kph which is average for a 'Mech of its weight. The Bandersnatch also uses double heat sinks for their superior heat dissipation capabilities, allowing a heavy weapons payload to be used by the 'Mech. Finally, the Bandersnatch carries a respectable eleven tons of armor. While not the maximum amount of armor that the chassis can handle, the 'Mech is still well protected.",
+        "deployment": "A unique customized Bandersnatch which was created for ex-Nova Cat MechWarrior Horus. Equipped with Endo Steel, the 'Mech's weaponry had been almost completely refitted with the exception of the rear-firing Medium Lasers. In each arm, the 'Mech has been given a Class 20 Autocannon. It has 2 tons of CASE protected ammunition for the cannons in each side torso. For long-range firepower, it was fitted with a torso-mounted ER Large Laser.",
+        "manufacturer": [
+            "Bander BattleMechs",
+            "Kressly WarWorks"
+        ],
+        "primaryfactory": [
+            "Terra Firma (Bander BattleMechs)",
+            "Epsilon Eridani (Kressly WarWorks)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Bander Custom 1",
+            "engine": "Vlar 300 XL",
+            "armor": "Valiant Chainmail",
+            "communications": "Winston Mega Boozee Mark IX",
+            "targeting": "Winston Sidewinder"
+        }
+    }
+}

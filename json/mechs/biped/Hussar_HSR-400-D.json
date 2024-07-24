@@ -1,0 +1,242 @@
+{
+    "chassis": "Hussar",
+    "model": "HSR-400-D",
+    "mul_id": 1589,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3052,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Scout",
+    "quirks": [
+        "imp_com",
+        "rugged_1"
+    ],
+    "weaponquirk": "direct_torso_mount:LT:3:ISLBXAC10",
+    "mass": 30,
+    "engine": "240 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 2
+        },
+        "right_arm": {
+            "pips": 2
+        },
+        "left_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 1
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 1
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 5
+        },
+        "right_leg": {
+            "pips": 5
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLBXAC10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 10
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISLBXAC10",
+            "5": "ISLBXAC10",
+            "6": "ISLBXAC10",
+            "7": "ISLBXAC10",
+            "8": "ISLBXAC10",
+            "9": "ISLBXAC10",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Ferro-Fibrous",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISLBXAC10 CL Ammo",
+            "12": "Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "<P>Enhanced communication and surveillance apparatus form a part of the Hussar's core capabilities, with the original Field Ranger Sightseer schematics being replicated in 3055, thus bolstering its reconnaissance prowess. This technological integration rendered the Hussar invaluable during the FedCom Civil War, with its deployment often aimed at disrupting enemy supply lines, embodying a strategy not alien to several hard-line Lyran commanders of the era.</P>"
+        }
+    },
+    "fluff": {
+        "overview": "The Hussar stands as a hallmark reconnaissance platform within the realms of the Star League Defense Force (SLDF), with its ability to achieve top speeds surpassing 150 kph. This speed advantage rendered the Hussar a challenging target in direct confrontations on the battlefield. Although modern designs have surfaced over time, the Hussar continues to embody the quintessence of a light recon BattleMech. The initial utilization of Hussar by the original SLDF in light 'Mech formations led to its scarce presence among the Great Houses, a scenario exacerbated post the historical Exodus led by General Kerensky.",
+        "capabilities": "<P>The Hussar, though notably under-armored when juxtaposed against other recon designs, wasn't crafted to thrive in one-on-one combat scenarios. Its principal design featured an extended-range large laser, a component allowing it to engage adversaries from a long-range distance. The essence of the Hussar\u2019s advantage is rooted in its speed, a fact often overlooked by Lyran pilots, particularly the inexperienced ones accustomed to heavier designs, leading to a significant pilot mortality rate.</P>",
+        "deployment": "One of the so-called \"Clanbuster\" upgrades developed by ComStar in 3052, the 400-D is an extreme modification of the original Hussar. The ER large laser and engine have both been stripped from the chassis to make room for an LB 10-X AC with one ton of ammo, an additional one and a half tons of armor, and a GM 240 XL engine, reducing the Hussar's speed to 129.6 km/h. This variant of the Hussar, due to the cluster rounds that can be fired from the LB-X autocannon, performs admirably in anti-vehicle screening forces.",
+        "history": "The legacy of the Hussar traces back to its pivotal role within the SLDF as a reconnaissance stalwart. The scarcity of this design among the Great Houses became more pronounced post General Kerensky\u2019s Exodus, leading to its classification as a lost design until its revival by the Com Guards in 3051. The subsequent acquisition of the Hussar design by Coventry Metal Works from Bonn Mekarmorwerks marked a new chapter, leading to the development of new variants between 3055 and 3068. The narrative of the Hussar took a dire turn with the onset of the Jihad, as the Word of Blake\u2019s assault on Coventry halted further advancements and shipments of this iconic design.",
+        "manufacturer": [
+            "Coventry Metal Works",
+            "Bonn Mekarmorwerks"
+        ],
+        "primaryfactory": [
+            "Coventry",
+            "Terra"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Benztrov 40",
+            "engine": "GM 240 XL",
+            "armor": "Lexington Limited High Grade Ferro-Fibrous",
+            "communications": "Field Ranger Sightseer",
+            "targeting": "Ranger LAF Model 2"
+        }
+    }
+}

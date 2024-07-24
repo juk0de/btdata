@@ -1,0 +1,234 @@
+{
+    "chassis": "Lao Hu",
+    "model": "LHU-3L",
+    "mul_id": 5695,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "good_rep_1"
+    ],
+    "mass": 75,
+    "engine": "375 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 23
+        },
+        "right_arm": {
+            "pips": 23
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 28
+        },
+        "right_leg": {
+            "pips": 28
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLRM10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 12
+            }
+        },
+        "2": {
+            "ISRotaryAC5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 60
+            }
+        },
+        "3": {
+            "ISPlasmaRifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 10
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISPlasmaRifle",
+            "5": "ISPlasmaRifle",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISRotaryAC5",
+            "4": "ISRotaryAC5",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "ISRotaryAC5",
+            "8": "ISRotaryAC5",
+            "9": "IS Rotary AC/5 Ammo",
+            "10": "IS Rotary AC/5 Ammo",
+            "11": "IS Rotary AC/5 Ammo",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISLRM10",
+            "5": "ISLRM10",
+            "6": "ISArtemisIV",
+            "7": "ISLRM10 Ammo Artemis-capable",
+            "8": "ISPlasmaRifle Ammo",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISTargeting Computer",
+            "5": "ISTargeting Computer",
+            "6": "ISTargeting Computer",
+            "7": "ISTargeting Computer",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "Designed by a student at the Victoria Academy of Arms and Technology, the Lao Hu (\"Tiger\") is based on the Thunder BattleMech and is designed to correct perceived flaws in the Thunder by using new technologies available to the Capellan Confederation.",
+        "capabilities": "The Lao Hu is built on a lightweight Chariot Type II Endo Steel that carries a GM 375 XL Engine which gives the 'Mech a top speed of 86.4 km/h while sacrificing some survivability for more free weight and a heavier weapons payload. The Lao Hu is protected by an impressive thirteen and a half tons of armor, making it capable of weathering hits from all but the heaviest weapons.",
+        "deployment": "Introduced in the Jihad, this version of the Lao Hu turns the enemy's equipment against him. It carries a Rotary AC/5 in the right arm, while the left carries a Plasma Rifle. An advanced Targeting Computer ties into these weapons, making them more accurate. The LRM-10 has been enhanced with an Artemis IV fire control system.",
+        "manufacturer": [
+            "Shengli Arms"
+        ],
+        "primaryfactory": [
+            "Victoria"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Chariot Type II Endo Steel",
+            "engine": "GM 375 XL",
+            "armor": "Star Shell Standard",
+            "communications": "Dian-bao Comms, Standard",
+            "targeting": "O/P 911 Targeting and Tracking System"
+        }
+    }
+}

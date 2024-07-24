@@ -1,0 +1,254 @@
+{
+    "chassis": "Axman",
+    "model": "AXM-5N",
+    "mul_id": 7790,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3148,
+    "source": "Rec Guide:ilClan #12",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "pro_actuator"
+    ],
+    "mass": 65,
+    "engine": "260 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 21
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Triple-Strength",
+    "ejection": "Full Head Ejection System",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 27
+        },
+        "right_leg": {
+            "pips": 27
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "3": {
+            "HAG/20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERPPC",
+            "6": "CLERPPC",
+            "7": "IS Light Ferro-Fibrous",
+            "8": "IS Light Ferro-Fibrous",
+            "9": "IS Light Ferro-Fibrous",
+            "10": "IS Light Ferro-Fibrous",
+            "11": "IS Light Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "ISERMediumLaser",
+            "7": "ISERMediumLaser",
+            "8": "Hatchet",
+            "9": "Hatchet",
+            "10": "Hatchet",
+            "11": "Hatchet",
+            "12": "Hatchet"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Hyper-Assault Gauss Rifle/20 Ammo",
+            "5": "Hyper-Assault Gauss Rifle/20 Ammo",
+            "6": "Hyper-Assault Gauss Rifle/20 Ammo",
+            "7": "Triple Strength Myomer",
+            "8": "Triple Strength Myomer",
+            "9": "Triple Strength Myomer",
+            "10": "Triple Strength Myomer",
+            "11": "Triple Strength Myomer",
+            "12": "Triple Strength Myomer"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "CLHAG20",
+            "5": "CLHAG20",
+            "6": "CLHAG20",
+            "7": "CLHAG20",
+            "8": "CLHAG20",
+            "9": "CLHAG20",
+            "10": "ISCASEII",
+            "11": "IS Light Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISGuardianECMSuite",
+            "12": "ISGuardianECMSuite"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Light Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Developed by Team Banzai as the big brother of the highly successful Hatchetman, the Axman was designed exclusively to be a 'Mech killer",
+        "capabilities": "The Axman has a ground speed of only 64.8 km/h, which is average for a Heavy weight, but improved in part by the inclusion of Jump Jets. The 'Mech is covered with eleven tons of Ferro-Fibrous armor that gives it a great deal of protection, with ten Double Heat Sinks offering average heat dissipation. Much like its lighter brother, the Axman was designed to utilize the Full-Head Ejection System to safe-guard its MechWarrior.",
+        "deployment": "A prototype in 3146 whose production was delayed only due to lack parts, the AXM-5N was rapidly built for the desperate AFFS after the Davion recapture of New Syrtis from the Capellans. Using a number of components shared with the Hatchetman 7D and Caesar 5D, the AXM-5N carries a Tiburon Khanate supplied HAG 20 in its right torso supported by a left-arm mounted Sea Fox Clan ER PPC and a trio of IS-grade ER Medium Lasers on the right-arm. Fitted with a Guardian ECM Suite, through carrying three tons of HAG reloads, the AXM-5N primarily relies on its energy weaponry to activate its Triple Strength Myomer to enhance both its speed and the damage inflicted with its hatchet.",
+        "history": "The Axman was also intended as a symbol of solidarity throughout the Federated Commonwealth by using components that were produced in Federated Suns, Lyran Commonwealth, and even former Capellan Confederation space. The collapse of the Federated Commonwealth in 3057 almost rendered the design extinct because of this, production slowing to a trickle as both the Federated Suns and Lyran Alliance were forced to rely on surplus stores while developing new variants utilizing locally sourced components.",
+        "manufacturer": [
+            "Johnston Industries"
+        ],
+        "primaryfactory": [
+            "New Syrtis"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Dorwinion AXM Standard",
+            "engine": "Magna 260 XL",
+            "armor": "Kallon Light Light Ferro-Fibrous",
+            "jumpjet": "HildCo Model 12",
+            "communications": "Johnston Wide Band",
+            "targeting": "Rander Pinpoint-HY"
+        }
+    }
+}

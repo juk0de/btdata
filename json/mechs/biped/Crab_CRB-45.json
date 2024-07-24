@@ -1,0 +1,264 @@
+{
+    "chassis": "Crab",
+    "model": "CRB-45",
+    "mul_id": 719,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "mass": 50,
+    "engine": "300 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Heavy Ferro-Fibrous",
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLightPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISLightPPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISImprovedC3CPU": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISLightPPC": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISERLargeLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISLightPPC",
+            "8": "ISLightPPC",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISLightPPC",
+            "8": "ISLightPPC",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISLightPPC",
+            "5": "ISLightPPC",
+            "6": "Heavy Ferro-Fibrous",
+            "7": "Heavy Ferro-Fibrous",
+            "8": "Heavy Ferro-Fibrous",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISImprovedC3CPU",
+            "8": "ISImprovedC3CPU",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERLargeLaser",
+            "12": "ISERLargeLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heavy Ferro-Fibrous",
+            "6": "Heavy Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heavy Ferro-Fibrous",
+            "6": "Heavy Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "history:Less than a thousand Crabs had been produced when the Succession Wars began. So popular was the Crab that many believed it was likely to become the standard medium 'Mech of the SLDF. Unfortunately the Amaris Civil War and the dissolution of the Star League put an end to any future plans for the Crab. Cosara Weaponries' Crab factory on Northwind was practically destroyed in 2786, one of many strategic targets attacked in the opening salvos of the First Succession War. Although dedicated technicians were able to keep portions of the assembly line open, producing what spare parts they still could to rebuild damaged Crabs, the technology used for both the original's advanced armor plating and communications system became lost. Designated as CRB-20 models, these Crabs were only slightly inferior to the original: with the destruction of the military infrastructure necessary for the Dalban Series K's more advanced functions to work, its replacement by lesser systems ironically became less of an issue. By the end of the Fourth Succession War a hundred or so Crabs were still active in the Inner Sphere and all were CRB-20s. Unbeknownst to many, ComStar had secreted away massive stockpiles of Star League technology and 'Mechs, including the Crab. When it came time to form their own military original CRB-27 Crabs were used to outfit the Com Guards, while at the same time gifting downgraded CRB-20s to the Draconis Combine during the War of 3039 as part of Operation Rosebud. Concurrently the discovery of the Helm Memory Core allowed the refit line on Northwind to start upgrading the remaining downgraded Crabs to their original specification. Unknown to anyone in the Inner Sphere was the continued existence of the Crab in the arsenal of the Clans, although by the time of the Clan Invasion these had been relegated to second-line and garrison units. Eventually Cosara Weaponries was able to restart production of the original Crab in the 3050s and brand-new variants began turning up. Among these were new CRB-30s built by ComStar (later acquired by the Word of Blake) which made use of new C3 technology; it was also rumored ComStar sold these models to the rump Free Rasalhague Republic. During the Jihad the Word of Blake managed to capture the Northwind factory and begin producing their own radical variant known as the CRB-45."
+        }
+    },
+    "fluff": {
+        "overview": "Designed in 2719 during the last days of the Star League, the Crab was built as a medium-weight raider and guerrilla fighter for the Star League Defense Force.",
+        "capabilities": "Although lacking hand actuators or jump jets, it possessed good overland speed and its all-energy weapons payload was suitable for long-range missions without the prospect for resupply. The Crab also boasted a highly advanced communications system, the Dalban Series K, and was built mostly with proven parts easy to maintain. The term \"Crab walk\" soon became synonymous with easy duty, since technicians spent less than half the time maintaining the Crab than with other 'Mechs of the same weight class.",
+        "deployment": "This variant fielded by Word of Blake and first spotted in 3070 makes use of three Light PPCs and an ER Large Laser, turning the Crab into a direct-fire support 'Mech. The 45 incorporates enough heat sinks to combat all heat the machine is capable of producing while a larger XL engine allows speeds of up to 96 km/h. This came at a slight decrease in armor, though the use of a Heavy Ferro-Fibrous weave helped make up most of the difference. A seemingly-standard C3i Computer allows this design to share target data with other like-equipped units.",
+        "manufacturer": [
+            "Cosara Weaponries"
+        ],
+        "primaryfactory": [
+            "Northwind"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hollis Mark 1A",
+            "engine": "Magna 250 XL",
+            "armor": "Paulina Heavy Ferro-Fibrous",
+            "communications": "Dalban Series K with C3i",
+            "targeting": "650 RND"
+        }
+    }
+}

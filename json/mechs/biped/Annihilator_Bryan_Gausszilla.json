@@ -1,0 +1,240 @@
+{
+    "chassis": "Annihilator",
+    "model": "C 'Gausszilla'",
+    "mul_id": 44,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 2844,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "Historical: Operation Klondike",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "mass": 100,
+    "engine": "200 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 2,
+    "run_mp": 3,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 25
+        },
+        "right_arm": {
+            "pips": 25
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 29
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "CLGaussRifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 64
+            }
+        },
+        "2": {
+            "CLGaussRifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "CLGaussRifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "CLGaussRifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLGaussRifle",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGaussRifle",
+            "8": "CLGaussRifle",
+            "9": "CLGauss Ammo",
+            "10": "CLGauss Ammo",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLGaussRifle",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGaussRifle",
+            "8": "CLGaussRifle",
+            "9": "CLGauss Ammo",
+            "10": "CLGauss Ammo",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "CLGaussRifle",
+            "2": "CLGaussRifle",
+            "3": "CLGaussRifle",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGauss Ammo",
+            "8": "CLGauss Ammo",
+            "9": "CLGauss Ammo",
+            "10": "CLGauss Ammo",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_torso": {
+            "1": "CLGaussRifle",
+            "2": "CLGaussRifle",
+            "3": "CLGaussRifle",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGaussRifle",
+            "8": "CLGaussRifle",
+            "9": "CLGaussRifle",
+            "10": "CLGaussRifle",
+            "11": "CLGaussRifle",
+            "12": "CLGaussRifle"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink"
+        }
+    },
+    "fluff": {
+        "overview": "Originally developed in the final year of the Amaris Civil War as the ultimate fixed position city defense BattleMech.",
+        "capabilities": "The Annihilator is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The 100-ton 'Mech has a maximum speed of 32.4 km/h, making it one of the slowest 'Mechs ever designed together with the UrbanMech. It is by no means intended to use speed to outmaneuver an enemy, instead depending on its twelve and a half tons of armor to weather any fire that is directed at the 'Mech.",
+        "deployment": "Apparently based on the Annihilator C2, this customized variant carried a fifth Gauss Rifle in addition to the standard Gauss Rifle layout, with altogether only eight tons of ammunition. It was the customized personal 'Mech of early 29th century Clan Ghost Bear Star Colonel Bryan Kabrinski, and apparently a unique modification given the note (as of 3074) that the 'Mech was \"lost to history\". Known as \"Gausszilla\" in its time.",
+        "history": "The Annihilator was built as a sign of the military strength of both the Star League in Exile and the newly created Clans. Discontinued before the Clans' Golden Century, in one of their few missteps, the Wolf's Dragoons brought a number of unknown designs with them in 3009, raising more questions to their origins while at the same time adding to their mystique. It was exclusive to the Dragoons until the Jihad disseminated the design to Arc-Royal due to the strengthening of the relationship that Wolf's Dragoons forged with the Kell Hounds and Clan Wolf-in-Exile following their flight from Outreach.",
+        "manufacturer": [
+            "Refit"
+        ],
+        "primaryfactory": [
+            "Various"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Star League MN-01",
+            "engine": "Nissan 200",
+            "armor": "Starshield Special-b",
+            "communications": "Garret T19-G",
+            "targeting": "Wasat Aggressor Type 5"
+        }
+    }
+}

@@ -1,0 +1,265 @@
+{
+    "chassis": "Shadow Cat",
+    "model": "M",
+    "mul_id": 7707,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3054,
+    "source": "Rec Guide:ilClan #9",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "low_profile"
+    ],
+    "mass": 45,
+    "engine": "270 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLLargePulseLaser (OMNIPOD)",
+            "6": "CLLargePulseLaser (OMNIPOD)",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLLargePulseLaser (OMNIPOD)",
+            "6": "CLLargePulseLaser (OMNIPOD)",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLERMediumLaser (OMNIPOD)",
+            "7": "Clan Endo Steel",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "CLERMediumLaser (OMNIPOD)",
+            "5": "Clan Endo Steel",
+            "6": "Clan Ferro-Fibrous",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLMASC",
+            "12": "CLMASC"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Shadow Cat is a heavily-armed and maneuverable medium OmniMech developed by Clan Nova Cat to replace the Ice Ferret in the early 31st century during preparations for Operation Revival.",
+        "capabilities": "This expensive OmniMech makes use of weight-saving technologies in the form of an Endo Steel internal structure, an XL Engine, and seven tons of Ferro-Fibrous armor. All of these together allow the Shadow Cat to employ more pod space than the Ice Ferret at the expense of speed. To counteract this, the base chassis employs enough jump jets to vault up to 180 meters in a single bound and Myomer Accelerated Signal Circuitry that enables it to move up to 130 km/h in bursts.",
+        "deployment": "A fast striker, this configuration mounts a large pulse laser in each arm and an ER medium laser in each side torso. Three additional double heat sinks help mitigate the heat generated by such an energy-intensive weapons loadout.",
+        "history": "First used against Inner Sphere forces during the Battle of Luthien, the successful Shadow Cat was subsequently deployed by the Clans against ComStar during the Battle of Tukayyid. The Shadow Cat is one of the few Invasion-era Clan 'Mechs to lack a separate Inner Sphere designation; every Inner Sphere pilot who encountered the 'Mech before the Battle of Tukayyid was killed in action, and ComStar was informed of its designation before that battle which resulted in both sides using the same name to refer to the Shadow Cat. Production of the Shadow Cat in the Clan Homeworlds faltered in the years after the Great Refusal, and stopped altogether around the time of the Wars of Reaving. This 'Mech was one of several older designs that were being phased out of manufacture in the Homeworlds. The reasons for the cessation of Shadow Cat production were never explicitly given, but it is possible that the 'Mech's association with the exiled Clan Nova Cat played a role in the decision to phase out this 'Mech. In the Inner Sphere, however, no such reservations existed - despite its historical associations, the Shadow Cat remains a highly successful design that has seen continued production by Clan Nova Cat well into the Dark Age period. Rights to produce the 'Mech were acquired by the rechristened Clan Sea Fox, who continue to sell Shadow Cats to most Clans and even Inner Sphere militaries.",
+        "manufacturer": [
+            "Barcella Beta",
+            "Clan Protectorate Arms"
+        ],
+        "primaryfactory": [
+            "Barcella",
+            "Irece",
+            "Asellus Australis"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type 79-45 Endo Steel",
+            "engine": "RFUM 270 XL",
+            "armor": "Compound H17 Ferro-Fibrous with CASE",
+            "jumpjet": "Model KY Boosters",
+            "communications": "JNE Integrated",
+            "targeting": "Build 2 CAT TTS"
+        }
+    },
+    "notes": "The Shadow Cat was such a successful design that it has seen continued production by Clan Nova Cat well into the Dark Age period."
+}

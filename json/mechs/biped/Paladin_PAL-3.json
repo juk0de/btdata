@@ -1,0 +1,235 @@
+{
+    "chassis": "Paladin",
+    "model": "PAL-3",
+    "mul_id": 2410,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3068,
+    "source": "TRO: 3055",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "difficult_maintain",
+        "non_standard"
+    ],
+    "mass": 60,
+    "engine": "360 XXL Engine",
+    "structure": {
+        "type": "Reinforced",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 18
+        },
+        "right_arm": {
+            "pips": 18
+        },
+        "left_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 25
+        },
+        "right_leg": {
+            "pips": 25
+        }
+    },
+    "weapons": {
+        "1": {
+            "Ultra AC/20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium X-Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Machine Gun": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISUltraAC20",
+            "4": "ISUltraAC20",
+            "5": "ISUltraAC20",
+            "6": "ISUltraAC20",
+            "7": "ISUltraAC20",
+            "8": "ISUltraAC20",
+            "9": "ISUltraAC20",
+            "10": "ISUltraAC20",
+            "11": "ISUltraAC20",
+            "12": "ISUltraAC20"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMediumXPulseLaser",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "Fusion Engine",
+            "6": "Fusion Engine",
+            "7": "Machine Gun",
+            "8": "Machine Gun",
+            "9": "Machine Gun",
+            "10": "Machine Gun",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "Fusion Engine",
+            "6": "Fusion Engine",
+            "7": "IS Ultra AC/20 Ammo",
+            "8": "IS Ultra AC/20 Ammo",
+            "9": "IS Ammo MG - Full",
+            "10": "ISCASE",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

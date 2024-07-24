@@ -1,0 +1,256 @@
+{
+    "chassis": "Doloire",
+    "model": "DLR-OD",
+    "mul_id": 6682,
+    "config": "Biped Omnimech",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3121,
+    "source": "TRO: 3145 Republic of the Sphere",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "multi_trac",
+        "command_mech"
+    ],
+    "mass": 80,
+    "engine": "320 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo-Composite",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 38
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Micro Laser": {
+                "location": "left_leg",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Micro Laser": {
+                "location": "right_leg",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Streak SRM 4": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "4": {
+            "TSEMP Cannon": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "TSEMP Cannon": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISLargeVibroblade (omnipod)",
+            "6": "ISLargeVibroblade (omnipod)",
+            "7": "ISLargeVibroblade (omnipod)",
+            "8": "ISLargeVibroblade (omnipod)",
+            "9": "ISAES",
+            "10": "ISAES",
+            "11": "ISAES",
+            "12": "ISAES"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLStreakSRM4 (omnipod)",
+            "6": "CLStreakSRM4 (omnipod)",
+            "7": "CLStreakSRM4 (omnipod)",
+            "8": "CLStreakSRM4 (omnipod)",
+            "9": "ISAES",
+            "10": "ISAES",
+            "11": "ISAES",
+            "12": "ISAES"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "TSEMP Cannon (omnipod)",
+            "4": "TSEMP Cannon (omnipod)",
+            "5": "TSEMP Cannon (omnipod)",
+            "6": "TSEMP Cannon (omnipod)",
+            "7": "TSEMP Cannon (omnipod)",
+            "8": "Supercharger (omnipod)",
+            "9": "IS Endo-Composite",
+            "10": "IS Endo-Composite",
+            "11": "IS Endo-Composite",
+            "12": "IS Endo-Composite"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "TSEMP Cannon (omnipod)",
+            "4": "TSEMP Cannon (omnipod)",
+            "5": "TSEMP Cannon (omnipod)",
+            "6": "TSEMP Cannon (omnipod)",
+            "7": "TSEMP Cannon (omnipod)",
+            "8": "Clan Streak SRM 4 Ammo (omnipod)",
+            "9": "Clan Streak SRM 4 Ammo (omnipod)",
+            "10": "ISCASEII (omnipod)",
+            "11": "IS Endo-Composite",
+            "12": "IS Endo-Composite"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLERMediumLaser",
+            "12": "CLERMediumLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo-Composite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLERMicroLaser (omnipod)",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLERMicroLaser (omnipod)",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

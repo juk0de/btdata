@@ -1,0 +1,234 @@
+{
+    "chassis": "Gauntlet",
+    "model": "GTL-1OB",
+    "mul_id": 6623,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3128,
+    "source": "TRO: 3145 Lyran Commonwealth",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "poor_life_support"
+    ],
+    "mass": 55,
+    "engine": "275 Light Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 18
+        },
+        "right_arm": {
+            "pips": 18
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 5
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 5
+            }
+        },
+        "3": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Medium Laser (omnipod)",
+            "4": "Medium Laser (omnipod)",
+            "5": "Medium Laser (omnipod)",
+            "6": "Medium Laser (omnipod)",
+            "7": "Medium Laser (omnipod)",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Light Ferro-Fibrous",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Medium Laser (omnipod)",
+            "4": "Medium Laser (omnipod)",
+            "5": "Medium Laser (omnipod)",
+            "6": "Medium Laser (omnipod)",
+            "7": "Medium Laser (omnipod)",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Light Ferro-Fibrous",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISTargeting Computer (omnipod)",
+            "4": "ISTargeting Computer (omnipod)",
+            "5": "ISTargeting Computer (omnipod)",
+            "6": "IS Coolant Pod (omnipod)",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISMediumPulseLaser (omnipod)",
+            "4": "ISGuardianECMSuite (omnipod)",
+            "5": "ISGuardianECMSuite (omnipod)",
+            "6": "IS Coolant Pod (omnipod)",
+            "7": "ISMASC",
+            "8": "ISMASC",
+            "9": "ISMASC",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet (omnipod)",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet (omnipod)",
+            "6": "Jump Jet (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet (omnipod)",
+            "6": "Jump Jet (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

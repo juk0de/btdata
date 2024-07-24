@@ -1,0 +1,256 @@
+{
+    "chassis": "Hatamoto-Mizo",
+    "model": "HTM-27Y",
+    "mul_id": 1409,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3050,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "barrel_fists_la",
+        "easy_maintain"
+    ],
+    "mass": 80,
+    "engine": "320 Fusion Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 22,
+        "type": "Single"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 26
+        },
+        "right_arm": {
+            "pips": 26
+        },
+        "left_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 34
+            },
+            "rear": {
+                "pips": 16
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 34
+        },
+        "right_leg": {
+            "pips": 34
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISPPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISERLargeLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISPPC",
+            "5": "ISPPC",
+            "6": "ISPPC",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISPPC",
+            "6": "ISPPC",
+            "7": "ISPPC",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "Heat Sink",
+            "3": "Heat Sink",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "ISERLargeLaser",
+            "3": "ISERLargeLaser",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Heat Sink",
+            "12": "Heat Sink"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "<p>The introduction of the HTM-28T marked a significant advancement, featuring ER PPCs and Streak SRM-6 launchers, and the inclusion of a C3 slave unit, signifying the Combine's growing emphasis on network-centric warfare. This variant was particularly notable for its improved jumping capability, enhancing the Mech's mobility on the battlefield.</p>",
+            "14": "<p>As the Draconis Combine faced new challenges in the post-Clan Invasion era and beyond, the Hatamoto-Chi continued to evolve. The HTM-30S Hatamoto-Suna and HTM-30Z Hatamoto-Godai variants, with their advanced weapon systems and electronic warfare capabilities, showcased the Combine's response to the changing dynamics of interstellar warfare. The HTM-30Z, equipped for command roles, became a symbol of leadership and strategic command on the battlefield.</p>",
+            "15": "<p>In conclusion, the Hatamoto-Chi's history is not just a tale of technological innovation but also a reflection of the Draconis Combine's strategic adaptability and cultural evolution in Mech warfare. Each variant of the Hatamoto-Chi has contributed to its legacy as a formidable and versatile warrior on the battlefields of the Inner Sphere.</p>"
+        }
+    },
+    "fluff": {
+        "overview": "The Hatamoto-Series BattleMechs represent a pinnacle of strategic innovation within the Draconis Combine, marking a fusion of advanced Star League technology with existing Combine frameworks. The development of this series was initiated to leverage the influx of SLDF BattleMechs gifted by ComStar, focusing on reverse-engineering efforts that combined the strengths of the Thug with the Charger chassis. Spearheaded by the foresight of the future Coordinator of the Draconis Combine, this endeavor aimed to create a long-term technological advantage. Integrating advanced weaponry onto a robust and readily available chassis, the Hatamoto-Series stands as a significant achievement in military engineering, reflecting a progressive approach to Mech warfare.",
+        "capabilities": "The Hatamoto-Series is characterized by its formidable balance of firepower and defensive capabilities. These Mechs are equipped with a diverse array of energy and missile weapons, enabling effective engagement at multiple ranges. Their considerable armor plating allows them to endure severe combat scenarios, solidifying their role as primary combat units. A key design focus of the Hatamoto-Series is the prioritization of armament strength and survivability, though this comes at the cost of limited heat management and reduced mobility. The series faces challenges in heat dissipation during high-intensity battles, necessitating strategic weapon use by pilots. Despite these constraints, the Hatamoto-Series remains a testament to the Draconis Combine's engineering acumen, blending lethal offensive power with robustness to fulfill various combat requirements effectively.",
+        "deployment": "The HTM-27Y, known as the Hatamoto-Mizo, shifts its focus towards long-range combat effectiveness. This variant replaces the standard SRM-6 launchers with a single ER Large Laser, significantly enhancing its long-range striking capabilities. The Hatamoto-Mizo is adept at wearing down enemy defenses from a distance before closing in for decisive combat. Its configuration is optimized for MechWarriors who prioritize range and precision in their tactical approach, making it a formidable contender in ranged engagements.",
+        "history": "The Hatamoto-Chi's development and subsequent variants have played a pivotal role in the evolution of the Draconis Combine's military might. After the introduction of the HTM-26T and 27T models, the Hatamoto-Chi underwent a series of modifications, each tailored to specific tactical needs and technological advancements within the Combine. The HTM-27U, known as the Hatamoto-Hi, emerged as a response to the need for a more heat-efficient and close-combat capable Mech. The integration of Medium Pulse Lasers and an additional heat sink in the 27U variant made it a popular choice for MechWarriors engaging in more aggressive combat scenarios.Similarly, the HTM-27V (Hatamoto-Kaze) and HTM-27W (Hatamoto-Ku) variants represented strategic shifts towards long-range and direct fire combat, respectively. The 27V's focus on missile weaponry and the 27W's implementation of an Autocannon/5 provided MechWarriors with greater versatility in battlefield engagements, enhancing the Hatamoto-Chi's adaptability across different combat situations.",
+        "manufacturer": [
+            "Yori 'Mech Works",
+            "Luthien Armor Works"
+        ],
+        "primaryfactory": [
+            "Al Na'ir",
+            "Luthien"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Earthwerks VOL Endo Steel",
+            "engine": "Pitban 320",
+            "armor": "Mitchell Argon",
+            "communications": "Colmax 90",
+            "targeting": "Garret D2j"
+        }
+    }
+}

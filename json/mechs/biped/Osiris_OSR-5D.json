@@ -1,0 +1,218 @@
+{
+    "chassis": "Osiris",
+    "model": "OSR-5D",
+    "mul_id": 5660,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3081,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "ext_twist"
+    ],
+    "mass": 30,
+    "engine": "210 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "gyro": "XL Gyro",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_torso": {
+            "front": {
+                "pips": 9
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 9
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISHeavyPPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Endo-Steel",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Endo-Steel",
+            "4": "Endo-Steel",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Light Ferro-Fibrous",
+            "8": "Light Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "Jump Jet",
+            "11": "Jump Jet",
+            "12": "Jump Jet"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "Jump Jet",
+            "8": "ISHeavyPPC",
+            "9": "ISHeavyPPC",
+            "10": "ISHeavyPPC",
+            "11": "ISHeavyPPC",
+            "12": "Light Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Engine",
+            "11": "Engine",
+            "12": "Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Light Ferro-Fibrous",
+            "6": "Light Ferro-Fibrous"
+        }
+    },
+    "fluff": {
+        "overview": "The Osiris was essentially modeled after the Clan Dragonfly and designed by the same engineers who designed the Anubis. The Osiris was designed to be a fast, hit-and-fade style offensive platform and can perform well in that capacity with its awesome speed, although it does appear to rely too heavily on its mobility to protect it from damage.",
+        "capabilities": "While the limits of Inner Sphere technology forced the designers to skimp on the specifications somewhat, the Osiris does maintain the same speed as the design it is based off of with its powerful Pharaoh 240 XL. The armor and jump capacity are sadly lacking, however, as the Osiris can only jump half as far as the Dragonfly with its four Rawlings 61 jump jets and is armored with four and a half tons of StarGuard Ferro-Fibrous.",
+        "deployment": "This Jihad-era variant developed in 3081 drops all the weaponry in favor of a single Heavy PPC. The 'Mech makes room for this by using an XL Gyro and a smaller XL Engine that reduces the top speed to approximately 110km/h. This Osiris variant has a 210 meter jump capability and is protected by Light Ferro-Fibrous armor.",
+        "manufacturer": [
+            "Achernar BattleMechs"
+        ],
+        "primaryfactory": [
+            "New Avalon"
+        ],
+        "systemmanufacturer": {
+            "chassis": "FITES-O",
+            "engine": "Pharaoh 240 XL",
+            "armor": "StarGuard Ferro-Fibrous",
+            "communications": "Achernar Electronics HID-8.7",
+            "targeting": "Federated Hunter Mk. VII"
+        }
+    }
+}

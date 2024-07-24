@@ -1,0 +1,274 @@
+{
+    "chassis": "Rifleman IIC",
+    "model": "8",
+    "mul_id": 2717,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3078,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "anti_air",
+        "imp_com"
+    ],
+    "mass": 65,
+    "engine": "325 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 21
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Streak SRM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "AP Gauss Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "AP Gauss Rifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "Streak SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERLargeLaser",
+            "4": "CLAPGaussRifle",
+            "5": "CLAPGaussRifle",
+            "6": "CLAPGaussRifle Ammo",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLERLargeLaser",
+            "6": "CLAPGaussRifle",
+            "7": "CLAPGaussRifle",
+            "8": "CLAPGaussRifle Ammo",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLStreakSRM6",
+            "6": "CLStreakSRM6",
+            "7": "Clan Streak SRM 6 Ammo",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLStreakSRM6",
+            "6": "CLStreakSRM6",
+            "7": "Clan Streak SRM 6 Ammo",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": "Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLECMSuite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Rifleman IIC is an upgrade of the venerable Rifleman BattleMech. Five tons heavier than the design it is based on, the Rifleman IIC is also slower.",
+        "capabilities": "Five tons heavier than the design it is based on, the Rifleman IIC is also slower. This creates a great deal more room with which to mount other equipment. Further weight savings are found in the use of an Endo Steel frame. One of the first upgrades to the design was maxing out its protection, with eleven tons of Ferro-Fibrous armor.",
+        "deployment": "This version carries an ER Large Laser and pair of AP Gauss Rifles in each arm. These are supported by a Streak SRM-6 mounted in the left and right torsos. A head mounted ECM Suite can disrupt targeting networks, and five jump jets allow the IIC 8 to cover 150 meters at a time. The Endo Steel chassis allowed the engineers to install a Consolidated 325 XL engine, increasing ground speed to a maximum of 86 km/h.",
+        "history": "An ancient rebuild of an already ancient design, the Rifleman IIC has soldiered on throughout the centuries. The \u2019Mech can be found in service with most Clans (a notable exception is Clan Wolf, which prefers the Glass Spider) and several Inner Sphere powers. Its simplicity is matched only by its effectiveness, and new variants continue to debut.",
+        "manufacturer": [
+            "Trellshire Heavy Industries (Refits)"
+        ],
+        "primaryfactory": [
+            "Twycross"
+        ],
+        "systemmanufacturer": {
+            "chassis": "CCo-B Endo",
+            "engine": "Consolidated 325 XL",
+            "armor": "Forging ZM15 Ferro-Fibrous",
+            "jumpjet": "\"Highlifter\" 44",
+            "communications": "Garret T11-A",
+            "targeting": "GH D5j TTS with Active Probe"
+        }
+    }
+}

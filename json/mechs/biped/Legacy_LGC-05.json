@@ -1,0 +1,273 @@
+{
+    "chassis": "Legacy",
+    "model": "LGC-05",
+    "mul_id": 5703,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3073,
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "directional_torso_mount",
+        "bad_rep_is"
+    ],
+    "weaponquirk": "direct_torso_mount:LA:6:Light PPC",
+    "mass": 80,
+    "engine": "240 Compact Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "gyro": "Compact Gyro",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 2,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 26
+        },
+        "right_arm": {
+            "pips": 26
+        },
+        "left_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 34
+        },
+        "right_leg": {
+            "pips": 34
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERSmallLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISMML7": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 34
+            }
+        },
+        "3": {
+            "ISMML7": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISImprovedC3CPU": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISLightPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISLightPPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ISMediumVSPLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "ISMediumVSPLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumVSPLaser",
+            "6": "ISMediumVSPLaser",
+            "7": "ISLightPPC",
+            "8": "ISLightPPC",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISMediumVSPLaser",
+            "6": "ISMediumVSPLaser",
+            "7": "ISLightPPC",
+            "8": "ISLightPPC",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "ISArtemisIV",
+            "9": "ISImprovedC3CPU",
+            "10": "ISImprovedC3CPU",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "ISArtemisIV",
+            "9": "ISMML7 LRM Ammo Artemis-capable",
+            "10": "ISMML7 SRM Ammo Artemis-capable",
+            "11": "Endo-Steel",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": "Endo-Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISERSmallLaser",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "The Legacy was produced as a testbed for new technologies, including the Ultra AC/10 and C3i Computer.",
+        "capabilities": "They upgraded its targeting system and included the C3i, which allows six units to coordinate fire. Its thick armor protection, standard fusion engine, and CASE give the Legacy remarkable staying power on the battlefield. One of the weaknesses of the 'Mech is its slow speed compared to other 'Mechs of similar size, but the inclusion of jump jets sought to counter that with superior maneuverability.",
+        "deployment": "This variant uses a Compact Engine and Compact Gyro to increase survivability. It has the same top speed as the standard Legacy and drops the jump range to sixty meters. Each arm carries a Medium Variable Speed Pulse Laser and a Light PPC, supported by two torso mounted MML-7s with Artemis IV fire control systems. A head-mounted ER Small Laser rounds out the armament. Thirteen double heat sinks are installed as well",
+        "history": "At the request of Word of Blake Precentor Martial Cameron St. Jamais. The designers used a failed Star League 'Mech called the Rising Star as the base for the Legacy.",
+        "manufacturer": [
+            "Skobel MechWorks"
+        ],
+        "primaryfactory": [
+            "Russia",
+            "Terra"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Skobel Template 8 Endo Steel",
+            "engine": "Pitban 240",
+            "armor": "Aldis Plate with CASE",
+            "jumpjet": "CurtissJet 80",
+            "communications": "Skobel Wave VII Comm with C3i Computer",
+            "targeting": "Falcon 15 Watcher"
+        }
+    }
+}

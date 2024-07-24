@@ -1,0 +1,270 @@
+{
+    "chassis": "Pouncer",
+    "model": "D",
+    "mul_id": 2560,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3050,
+    "source": "TRO: 3055",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "weak_head_2"
+    ],
+    "mass": 40,
+    "engine": "240 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 9,
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "3": {
+            "Streak SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Streak SRM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "CLERMediumLaser (omnipod)",
+            "8": "CLERMediumLaser (omnipod)",
+            "9": "CLERMediumLaser (omnipod)",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "CLERMediumLaser (omnipod)",
+            "8": "CLERMediumLaser (omnipod)",
+            "9": "CLERMediumLaser (omnipod)",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "CLStreakSRM6 (omnipod)",
+            "6": "CLStreakSRM6 (omnipod)",
+            "7": "CLERSmallLaser (R) (omnipod)",
+            "8": "CLTargeting Computer (omnipod)",
+            "9": "CLTargeting Computer (omnipod)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": "CLStreakSRM6 (omnipod)",
+            "8": "CLStreakSRM6 (omnipod)",
+            "9": "Clan Streak SRM 6 Ammo (omnipod)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Pouncer was originally a testbed design that was upgraded to combat specifications on the orders of then ilKhan Ulric Kerensky, as it was realized that a more mobile 'Mech was needed when combating Inner Sphere forces.",
+        "capabilities": "Overall, the Pouncer is an excellent OmniMech with 15.5 tons of pod space, allowing it to carry a wide variety of weapons payloads.",
+        "deployment": "A close combat configuration, the Pouncer D carries six ER medium lasers for its primary firepower, which are linked to an advanced targeting computer for increased accuracy. The 'Mech also has two highly accurate Streak SRM-6 launchers which can eviscerate a target at close range. For protection from rear attacks, the 'Mech has a single ER small laser.",
+        "history": "The Pouncer is built on a lightweight DSAM Endo 4 endo steel chassis and is powered by a 240-rated XL engine which gives it a maximum speed of 97.2 km/h. The 'Mech's mobility is enhanced with five Grandthrust Mk. Four jump jets that allow it to jump up to 150 meters. For protection from enemy fire, the Pouncer has a respectable six tons of Forging ZM15 ferro-fibrous armor. The last of the Nova factories on Tokasha were later retooled to create Pouncers after the Wars of Reaving.",
+        "manufacturer": [
+            "WC Primary Facility 5",
+            "Manufacturing Plant SFF-TW2"
+        ],
+        "primaryfactory": [
+            "Tiber (Clan)",
+            "CSF Titanic Mobile Production Facility"
+        ],
+        "systemmanufacturer": {
+            "chassis": "DSAM Endo 4",
+            "engine": "Fusion 240 XL",
+            "armor": "Forging ZM15 Ferro-Fibrous",
+            "jumpjet": "Grandthrust Mk. 4",
+            "communications": "Megaband System 21",
+            "targeting": "Dtrac Suite 4"
+        }
+    }
+}

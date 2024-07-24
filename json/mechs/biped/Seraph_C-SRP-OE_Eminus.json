@@ -1,0 +1,260 @@
+{
+    "chassis": "Seraph",
+    "model": "C-SRP-OE Eminus",
+    "mul_id": 2874,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3072,
+    "source": "TRO: 3075",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "imp_com",
+        "imp_sensors",
+        "low_profile",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 85,
+    "engine": "255 Light Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Triple-Strength",
+    "cockpit": "Small Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 27
+        },
+        "right_arm": {
+            "pips": 27
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 13
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 35
+        },
+        "right_leg": {
+            "pips": 35
+        }
+    },
+    "weapons": {
+        "1": {
+            "Thunderbolt 20": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Thunderbolt 20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Snub-Nose PPC": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "TSM",
+            "6": "TSM",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Thunderbolt 20 (omnipod)",
+            "4": "Thunderbolt 20 (omnipod)",
+            "5": "Thunderbolt 20 (omnipod)",
+            "6": "Thunderbolt 20 (omnipod)",
+            "7": "Thunderbolt 20 (omnipod)",
+            "8": "IS Ammo Thunderbolt-20 (omnipod)",
+            "9": "IS Ammo Thunderbolt-20 (omnipod)",
+            "10": "ISC3iUnit",
+            "11": "ISC3iUnit",
+            "12": "ISCASE (omnipod)"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Thunderbolt 20 (omnipod)",
+            "4": "Thunderbolt 20 (omnipod)",
+            "5": "Thunderbolt 20 (omnipod)",
+            "6": "Thunderbolt 20 (omnipod)",
+            "7": "Thunderbolt 20 (omnipod)",
+            "8": "IS Ammo Thunderbolt-20 (omnipod)",
+            "9": "IS Ammo Thunderbolt-20 (omnipod)",
+            "10": "IS Ammo Thunderbolt-20 (omnipod)",
+            "11": "IS Ammo Thunderbolt-20 (omnipod)",
+            "12": "ISCASE (omnipod)"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISSNPPC (omnipod)",
+            "6": "ISSNPPC (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "TSM",
+            "6": "TSM",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "TSM",
+            "6": "TSM",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The light assault 'Mech of the Celestial series of OmniMechs, the Seraph is somewhat slow for its weight, but it attempts to make up for that with the inclusion of Triple-Strength Myomer that enables the 'Mech to speed up to 64 kph when it runs hot.",
+        "capabilities": "Like the other Celestials, the Seraph makes use of a light fusion engine and a small cockpit, though other newer technologies are present only in its weaponry. As with the other Celestials, a C3i Computer is included. The main criticism of the Seraph Invictus is that it does not make very good use of its Triple-Strength Myomer. The design does not build enough heat to activate the musculature, a problem the Streak missile system only exacerbates.",
+        "deployment": "The Seraph E uses two experimental Thunderbolt 20s, though it only has enough ammunition to fire each about nine times. Backing these up is a Snub-Nose PPC.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs",
+            "Martinson Armaments"
+        ],
+        "primaryfactory": [
+            "Gibson (Gibson Federated)",
+            "Terra (Martinson)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Celestial Series SP1",
+            "engine": "GM 255 Light Fusion with Triple-Strength Myomer",
+            "armor": "Durallex Divine Guardian",
+            "communications": "Master\u2019s Voice Cel-Alpha",
+            "targeting": "Master\u2019s Sight 1-Omega"
+        }
+    }
+}

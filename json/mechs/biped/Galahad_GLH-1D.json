@@ -1,0 +1,260 @@
+{
+    "chassis": "Galahad",
+    "model": "GLH-1D",
+    "mul_id": 1167,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2570,
+    "source": "TRO: 3075",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "difficult_maintain"
+    ],
+    "mass": 50,
+    "engine": "150 Fusion Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 16
+        },
+        "left_torso": {
+            "pips": 12
+        },
+        "right_torso": {
+            "pips": 12
+        },
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Particle Cannon": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Particle Cannon": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Particle Cannon",
+            "8": "Particle Cannon",
+            "9": "Particle Cannon",
+            "10": "Large Laser",
+            "11": "Large Laser",
+            "12": "Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Particle Cannon",
+            "8": "Particle Cannon",
+            "9": "Particle Cannon",
+            "10": "Large Laser",
+            "11": "Large Laser",
+            "12": "Endo Steel"
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Endo Steel",
+            "8": "Endo Steel",
+            "9": "Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "ISDoubleHeatSink",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Endo Steel",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Born from the Terran Hegemony's attempts to create a medium fire-support platform that would be more advanced than the RLN-1N Rifleman.",
+        "capabilities": "The Galahad utilizes special building materials in the form of eleven tons of Ferro-Fibrous armor and Endo Steel internals. To fit the massive weapons on the Galahad, the engine was dropped to a GM 180, giving it a maximum speed of only 54 km/h, making it difficult for the 'Mech to keep up with its companions in most cases.",
+        "deployment": "The original HAF Galahad weighed only 50 tons, was powered by a 150-rated GM Fusion engine, used Star League V Endo Steel internals, and had ten tons of standard Armorscale armor to protect it. For weapons, it had two Nova Large Lasers and two Magna Hellstar Particle Projection Cannons, one in each arm. The GLH-1D only had a mere thirteen double heat sinks to attempt to cope with such high-heat weapons, which rewarded careful volley fire but punished alpha strikes. The GLH-1D's slow speed for its weight and insufficient cooling resulted in the upgraded GLH-2D variant.",
+        "history": "Mitchell Vehicles unveiled the GLH-1D Galahad in 2570. Though it outgunned the earlier design and found significant acceptance within the Hegemony Armed Forces, the Galahad suffered from the same heat issues as the BattleMech it was meant to replace. With the development of the new Gauss Rifle, Mitchell Vehicles decided in 2594 to redesign the Galahad around these new weapons, changing it into a heavy design in the process. Production of the 2D Galahad continued for almost two centuries, only stopping when the Graham IV manufacturing center was destroyed during the First Succession War. While the older GLH-1D did spread to the Member State militaries, because the GLH-2D possessed so much advanced technology, the Galahad was mainly (but not exclusively) reserved for SLDF Royal Units. Most functioning GLH-2D Galahads departed the Inner Sphere during Kerensky's Exodus. Though sizable numbers of the less advanced GLH-1D remained behind, the technological decline of the Succession Wars era soon made it impossible for the Inner Sphere to maintain either variant. Outside the secret stockpiles of ComStar and patchwork examples in the Periphery or other backwaters, the Galahad was one of many designs that disappeared from the battlefield. During the Word of Blake Jihad, the Blakists put the Galahad back in production for the first time in centuries at the massive Defiance Industries plant on Hesperus II. After the factory was retaken by the Lyran Alliance and its allies, production of the 'Mech would continue for the Lyrans as of 3079.",
+        "manufacturer": [
+            "Mitchell Vehicles",
+            "Defiance Industries"
+        ],
+        "primaryfactory": [
+            "Graham IV (destroyed 2775)",
+            "Hesperus II"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Star League VI",
+            "engine": "GM 180",
+            "armor": "Grumman-3 Ferro Fibrous",
+            "communications": "HartfordCo COM 3000",
+            "targeting": "HartfordCo XHW 7"
+        }
+    }
+}

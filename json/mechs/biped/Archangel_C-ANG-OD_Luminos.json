@@ -1,0 +1,288 @@
+{
+    "chassis": "Archangel",
+    "model": "C-ANG-OD Luminos",
+    "mul_id": 69,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "source": "TRO: 3075",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "command_mech",
+        "imp_com",
+        "imp_sensors",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 100,
+    "engine": "300 Compact Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "Small Pulse Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Pulse Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ER Small Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "ISDoubleHeatSink (omnipod)",
+            "8": "ISDoubleHeatSink (omnipod)",
+            "9": "ISERPPC (omnipod)",
+            "10": "ISERPPC (omnipod)",
+            "11": "ISERPPC (omnipod)",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "ISDoubleHeatSink (omnipod)",
+            "8": "ISDoubleHeatSink (omnipod)",
+            "9": "ISERPPC (omnipod)",
+            "10": "ISERPPC (omnipod)",
+            "11": "ISERPPC (omnipod)",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Jump Jet (omnipod)",
+            "2": "ISMediumPulseLaser (omnipod)",
+            "3": "ISGuardianECMSuite (omnipod)",
+            "4": "ISGuardianECMSuite (omnipod)",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Jump Jet (omnipod)",
+            "2": "ISMediumPulseLaser (omnipod)",
+            "3": "ISMediumPulseLaser (omnipod)",
+            "4": "IS Endo Steel",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "ISDoubleHeatSink (omnipod)",
+            "8": "ISDoubleHeatSink (omnipod)",
+            "9": "Jump Jet (omnipod)",
+            "10": "ISSmallPulseLaser (omnipod)",
+            "11": "ISC3iUnit",
+            "12": "ISC3iUnit"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISMediumPulseLaser (omnipod)",
+            "6": "ISERSmallLaser (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops.",
+        "capabilities": "The Archangel is the largest of these. Designed to be an \"anchor\" for Word formations, the 'Mech is known as a \"zombie\" because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.",
+        "history": "Meant for work at longer ranges than the previous variants, the main guns of the Luminos are a pair of ER PPCs. Jump jets give it the ability to maneuver to a good position to snipe from more quickly, while a Guardian ECM Suite provides added defense. In case an enemy gets close, the Archangel D can utilize four Medium Pulse Lasers, an ER Small Laser, and a Small Pulse Laser that is devastating to unarmored infantry.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs",
+            "Martinson Armaments"
+        ],
+        "primaryfactory": [
+            "Gibson (Gibson Federated)",
+            "Terra (Martinson)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Celestial Series AA1E",
+            "engine": "Immortus 300 Compact Fusion",
+            "armor": "Durallex Heavy Gold",
+            "communications": "Master\u2019s Voice Cel-Alpha",
+            "targeting": "Master\u2019s Sight 1-Omega"
+        }
+    }
+}

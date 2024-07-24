@@ -1,0 +1,274 @@
+{
+    "chassis": "Cauldron-Born",
+    "clanname": "Ebon Jaguar",
+    "model": "C",
+    "mul_id": 492,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3049,
+    "source": "TRO: Clan Invasion",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "low_profile"
+    ],
+    "mass": 65,
+    "engine": "325 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 21
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 13,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "weapons": {
+        "1": {
+            "SRM 6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Ultra AC/2": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "SRM 6": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Ultra AC/2": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "LRM 15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "LRM 15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLSRM6 (omnipod)",
+            "4": "CLUltraAC2 (omnipod)",
+            "5": "CLUltraAC2 (omnipod)",
+            "6": "Clan Ultra AC/2 Ammo (omnipod)",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLSRM6 (omnipod)",
+            "4": "CLUltraAC2 (omnipod)",
+            "5": "CLUltraAC2 (omnipod)",
+            "6": "Clan Ultra AC/2 Ammo (omnipod)",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLLRM15 (omnipod)",
+            "4": "CLLRM15 (omnipod)",
+            "5": "Clan Ammo LRM-15 (omnipod)",
+            "6": "Clan Ammo LRM-15 (omnipod)",
+            "7": "Clan Ammo SRM-6 (omnipod)",
+            "8": "Clan Ammo SRM-6 (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLLRM15 (omnipod)",
+            "4": "CLLRM15 (omnipod)",
+            "5": "Clan Ammo LRM-15 (omnipod)",
+            "6": "Clan Ammo LRM-15 (omnipod)",
+            "7": "Clan Ammo SRM-6 (omnipod)",
+            "8": "Clan Ammo SRM-6 (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Clan Endo Steel",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Introduced in 3049 to address flaws in the venerable Hellbringer, by Operation REVIVAL the Ebon Jaguar had only just started to spread through the Jaguar's touman with the Inner Sphere first encountering the design during the Battle of Luthien.",
+        "capabilities": "The Cauldron-Born C is a missile boat and much easier on the heat curve than the other variants. Its primary weapons are a pair of LRM-15s and 25mm Ultra Autocannon/2s. Backing these up for short range work are a pair of SRM-6s. Though this variant carries no energy weapons, it does have ample supplies of ammunition that allow it to stay on the field for long periods of time.",
+        "history": "Facing it for the first time when engaging the First Jaguar Guards Cluster in the Kado-Guchi Valley, the 'Mech's ability to take damage and remain operational led the Inner Sphere warriors who fought it to call it the Cauldron-Born after the unstoppable zombies of Irish myth. Paradoxically many of the other Clans also used the Inner Sphere Cauldron-Born reporting name, having first learned detailed information of the design from Inner Sphere sources. By Operation BULLDOG the Cauldron-Born made up a large proportion of the heavy 'Mechs of the rebuilding Smoke Jaguars, and following their Annihilation the design proliferated the remaining Clans, save the Jade Falcons, Wolves and Coyotes who continued to favor the Hellbringer. Following the Wars of Reaving the Ebon Jaguar had finally supplanted the Hellbringer in most Homeworld Clans, save the Coyotes who remained loyal to redeeming the honor of the design.",
+        "manufacturer": [
+            "Huntress Manufacturing Plant DL-6"
+        ],
+        "primaryfactory": [
+            "Huntress"
+        ],
+        "systemmanufacturer": {
+            "chassis": "CSJ Type 65.43 Endo",
+            "engine": "Consolidated Fusion 325 XL",
+            "armor": "Composite A-4 Ferro-Fibrous",
+            "communications": "Hector CC-22E",
+            "targeting": "Integrated Bravo-7"
+        }
+    }
+}

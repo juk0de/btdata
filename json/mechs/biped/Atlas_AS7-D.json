@@ -1,0 +1,285 @@
+{
+    "chassis": "Atlas",
+    "model": "AS7-D",
+    "mul_id": 140,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2755,
+    "source": "TRO: 3039",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "command_mech",
+        "distracting",
+        "imp_com"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 20,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 14
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 41
+        },
+        "right_leg": {
+            "pips": 41
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 20": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "AC/20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Heat Sink",
+            "6": "Medium Laser",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Heat Sink",
+            "6": "Medium Laser",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "LRM 20",
+            "3": "LRM 20",
+            "4": "LRM 20",
+            "5": "LRM 20",
+            "6": "LRM 20",
+            "7": "SRM 6",
+            "8": "SRM 6",
+            "9": "IS Ammo LRM-20",
+            "10": "IS Ammo LRM-20",
+            "11": "IS Ammo SRM-6",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Autocannon/20",
+            "2": "Autocannon/20",
+            "3": "Autocannon/20",
+            "4": "Autocannon/20",
+            "5": "Autocannon/20",
+            "6": "Autocannon/20",
+            "7": "Autocannon/20",
+            "8": "Autocannon/20",
+            "9": "Autocannon/20",
+            "10": "Autocannon/20",
+            "11": "IS Ammo AC/20",
+            "12": "IS Ammo AC/20"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Medium Laser (R)",
+            "12": "Medium Laser (R)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Heat Sink",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "\"A 'Mech as powerful as possible, as impenetrable as possible, and as ugly and foreboding as conceivable, so that fear itself will be our ally.\u201d-Aleksandr Kerensky",
+        "capabilities": "The Atlas is probably the best-known BattleMech to ever set foot on the modern battlefield. Designed with specifications from Aleksandr Kerensky himself in 2755 in the midst of the Cameron Edicts, the Atlas was originally intended to ensure SLDF superiority over the Star League member states. Carrying the largest LRM launcher, the largest autocannon, and the largest SRM launcher possible, the Atlas can deal frightening amounts of damage in short amounts of time. Often used as a command vehicle, the Atlas mounts an advanced antenna and communications array, allowing it to engage in surface-to-space communications in real time. The massive 19-ton hide of armor that protects the Atlas makes it a difficult foe to take down. Indeed, most MechWarriors choose to fall back rather than face one head-on, as its lumbering gait means it can rarely catch up to other 'Mechs that choose to flee it. A full year of development went into crafting the famous \"Death's Head\" of the 'Mech to achieve the perfect ratio of functionality and fear. The head is also quite roomy and allows a small satellite dish to be mounted for surface-to-space communications. During combat the pilot can easily fold up the dish and store it within a protective portion of the head.",
+        "deployment": "The Atlas is armed with a multitude of weapons for both long and short range combat, all designed specifically to be as visible as possible so as to strike fear in the hearts of its enemies. For long ranges, the 'Mech carries a FarFire Maxi-Rack LRM-20 in the left torso that allows it to both fire directly at an enemy target at long range, and to give indirect fire support when needed. Unable to fit a full twenty-tube system on the 'Mech, the FarFire instead launches the missiles in waves of five over the course of ten seconds and carries two tons of reloads for twelve such salvos. For close range combat the 'Mech is armed with a Defiance 'Mech Hunter Autocannon/20 in the right torso with two tons of ammo. Although lacking a cooling jacket and liable to overheat, the massive autocannon gives the Atlas the firepower to take on an entire 'Mech company. To back up the AC/20 the Atlas carries four Defiance B3M Medium Lasers, one in each arm and two mounted in the rear center torso, and a TharHes Maxi SRM-6 launcher with one ton of missiles in the right torso (the aperture between the SRM and LRM launchers is not another weapon but an omnicoupling for power and coolant cable connection). Furthermore the Atlas is equipped with hand actuators which, combined with its sheer weight and power, makes it a potent hand-to-hand fighter. Accounts of Atlases actually picking up medium-weight 'Mechs and throwing them around like toys makes for suitable horror stories and further enhances the aura of the 'Mech.",
+        "history": "Though the inexorable arming of the Great Houses continued, the Atlas proved itself to be everything General Kerensky requested. With the largest amount of armor of nearly any 'Mech, crippling firepower, and the foreboding skull-shaped \"Death's Head\" cockpit/head assembly, the Atlas lived up to its reputation. The mere sight of an Atlas had been known to make even a veteran MechWarrior break out in a cold sweat, and theoretically a single Atlas can take on and wipe out an entire battalion of Stingers in exchange for minor armor loss. The Atlas' first combat trials came during the Amaris Civil War, where it served an instrumental role as a powerful command vehicle. Though General Kerensky is well-known for being the one who kicked down the palace doors of the Usurper in his Orion, it was his close friend Aaron DeChavilier who, in his Atlas, weathered the storm of enemy fire and breached the protective wall surrounding the complex. After this conflict it was therefore with little surprise that the General wished for all of these 'Mechs to accompany him on Operation Exodus, but ironically of those MechWarriors who refused his summons fully two-thirds were Atlas pilots. These units were spread among the Successor States and Atlas factories on Al Na'ir, Hesperus II and Quentin would continue production of the 'Mech through the Succession Wars. Most commanders were loath to tamper too much with such a successful 'Mech, but the recovery of the Helm Memory Core resulted in a number of ancient designs being updated with lostech, and the Atlas was no exception. The new AS7-K model was released in 3049, just in time to fight off the Clan Invasion. The Federated Commonwealth also briefly began production of their own model, the AS7-S, although following the civil war that line was discontinued and further variants have been introduced by the Lyran Alliance and Draconis Combine. Despite its age, well into the end of the thirty-first century there were no plans to replace the Atlas, and even the most cutting-edge designs will stop and pause when faced with the prospect of an Atlas bearing down on them.",
+        "manufacturer": [
+            "Yori 'Mech Works",
+            "HildCo Interplanetary",
+            "Witten Industries",
+            "Defiance Industries",
+            "Independence Weaponry"
+        ],
+        "primaryfactory": [
+            "Al Na'ir",
+            "Carver V/Liberty",
+            "Hesperus II",
+            "Hesperus II",
+            "Quentin"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Foundation Type 10X",
+            "engine": "Vlar 300",
+            "armor": "Durallex Special Heavy",
+            "communications": "Angst Discom",
+            "targeting": "Angst Accuracy"
+        }
+    }
+}

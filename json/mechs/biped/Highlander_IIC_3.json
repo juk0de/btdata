@@ -1,0 +1,262 @@
+{
+    "chassis": "Highlander IIC",
+    "model": "3",
+    "mul_id": 1523,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3077,
+    "source": "Record Sheets: 3085 Unabridged - Old is the New New",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "command_mech",
+        "cowl",
+        "reinforced_legs",
+        "difficult_eject"
+    ],
+    "mass": 90,
+    "engine": "270 Fusion (Clan) Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 30
+        },
+        "right_arm": {
+            "pips": 30
+        },
+        "left_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 17
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 38
+        },
+        "right_leg": {
+            "pips": 38
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "2": {
+            "LRM 20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Streak SRM 6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "4": {
+            "HAG/20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLStreakSRM6",
+            "6": "CLStreakSRM6",
+            "7": "CLStreakSRM6",
+            "8": "CLStreakSRM6",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLHAG20",
+            "5": "CLHAG20",
+            "6": "CLHAG20",
+            "7": "CLHAG20",
+            "8": "CLHAG20",
+            "9": "CLHAG20",
+            "10": "HAG/20 Ammo",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Jump Jet",
+            "2": "CLMediumPulseLaser",
+            "3": "CLMediumPulseLaser",
+            "4": "CLMediumPulseLaser",
+            "5": "Clan Ammo LRM-20 (Clan) Artemis-capable",
+            "6": "Clan Ammo LRM-20 (Clan) Artemis-capable",
+            "7": "Clan Ammo LRM-20 (Clan) Artemis-capable",
+            "8": "Clan Ammo LRM-20 (Clan) Artemis-capable",
+            "9": "Clan Streak SRM 6 Ammo",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Jump Jet",
+            "2": "CLLRM20",
+            "3": "CLLRM20",
+            "4": "CLLRM20",
+            "5": "CLLRM20",
+            "6": "CLArtemisIV",
+            "7": "HAG/20 Ammo",
+            "8": "HAG/20 Ammo",
+            "9": "HAG/20 Ammo",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLECMSuite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans.",
+        "capabilities": "With the use of newer, lighter weapons, the damage potential of the Highlander has roughly doubled. The IIC also contains enough ammunition that it rarely needs to conserve any during Trials. Clan scientists were forced to rearrange the placement of some weapons within the 'Mech to allow it proper ammo feeds, but the design is largely unchanged. It carries the maximum amount of Ferro-Fibrous armor that can be crammed on the frame, fourteen and a half tons. As with the original, the IIC carries enough jump jets to move up to ninety meters at a time, allowing MechWarriors to execute the \"Highlander Burial\".",
+        "deployment": "This version introduced 3077 carries a HAG/20 with 4 tons of ammunition for long battlefield endurance and ECM Suite instead of the standard Gauss Rifle.",
+        "history": "As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. Though no new Highlanders have been produced in over a century, several hundred are still in scattered use throughout the touman of every Clan.",
+        "manufacturer": [
+            "W-7 Facilities (Refit)"
+        ],
+        "primaryfactory": [
+            "Weingarten"
+        ],
+        "systemmanufacturer": {
+            "chassis": "SL-XT Modified",
+            "engine": "Fusion 270 Standard",
+            "armor": "Arcadia Compound Delta VII Ferro-Fibrous",
+            "jumpjet": "Prentiss-IIIA",
+            "communications": "C-XII Series B4 GDS",
+            "targeting": "C-12 Mk. III with Artemis IV FCS"
+        }
+    }
+}

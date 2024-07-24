@@ -1,0 +1,264 @@
+{
+    "chassis": "Grendel",
+    "clanname": "Mongrel",
+    "model": "A",
+    "mul_id": 1286,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3053,
+    "source": "TRO: Clan Invasion",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "rugged_1"
+    ],
+    "mass": 45,
+    "engine": "315 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Small Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "LRM 15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLMediumPulseLaser (omnipod)",
+            "4": "CLERSmallLaser (omnipod)",
+            "5": "Clan Endo Steel",
+            "6": "Clan Ferro-Fibrous",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "CLLRM15 (omnipod)",
+            "5": "CLLRM15 (omnipod)",
+            "6": "Clan Ammo LRM-15 (omnipod)",
+            "7": "Clan Ammo LRM-15 (omnipod)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "CLLRM15 (omnipod)",
+            "5": "CLLRM15 (omnipod)",
+            "6": "Clan Ammo LRM-15 (omnipod)",
+            "7": "Clan Ammo LRM-15 (omnipod)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Mongrel received its baptism of fire during the Battle of Tukayyid. There, it was commonly seen leading light Stars, especially on deep reconnaissance and raiding missions. Its ammo-efficient weapons allowed it to range far afield and helped simplify resupply, while its speed allowed it to dictate its range of engagement and outmaneuver all but the fastest of opponents.",
+        "capabilities": "This missile boat carries a pair of LRM 15s with two tons of ammunition for each. A Medium Pulse Laser and ER Small Laser provide backup firepower. A MechWarrior will find it difficult to overheat this design.",
+        "deployment": "The Grendel features a powerful 315-rated engine, enabling it to move at a fleet 119 km/h, and enough jump jets fixed on the chassis to propel it up to 210 meters at a leap. The Sharks spared no expense in weight-saving materials, making use of an XL Engine, Endo Steel structure, and seven and a half tons of Ferro-Fibrous armor. The incredible speed of the Grendel is not terribly helpful in most zellbrigen duels, but it is effective in large-scale actions especially against Inner Sphere foes of similar weight hard pressed to counter its speed or firepower. The Grendel is also popular with technicians. While many OmniMechs are often \"hangar queens,\" the Grendel can go long periods without maintenance and still remain combat effective.",
+        "history": "The 'Mech entered full production after a slight physical remodel the following year and was re-christened \"Grendel\" after the name given to it by Com Guard troops who faced it. One of the few successes of Clan Diamond Shark's defeat on Tukayyid, the other Invading Clans almost immediately staged Trials of Possession of the re-named 'Mech. Rather than waste Warrior Caste resources in fighting the numerous Trials, the Diamond Sharks instead chose to sell production runs or license the design to the other Clans, speeding their recovery and ensuring the Grendel was a common sight among many front-line Clusters. Though the Grendel remains in use among the other Inner Sphere Clans following the Wars of Reaving, most notably the Clan Hell's Horses, the majority of production during the Dark Age era resides in the Khanates of Clan Sea Fox.",
+        "manufacturer": [
+            "Arcadia BattleMech Plant CM-T15",
+            "Manufacturing Plant SFF-AL2"
+        ],
+        "primaryfactory": [
+            "Arcadia",
+            "Alnabog"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Process 12 Endo Steel",
+            "engine": "315 Consolidated XL",
+            "armor": "Arcadia Compound Delta VII Ferro-Fibrous",
+            "jumpjet": "Clan Standard 14X Series",
+            "communications": "KP-3 \u201cScreamer\u201d",
+            "targeting": "Version Gamma-V TTS"
+        }
+    }
+}

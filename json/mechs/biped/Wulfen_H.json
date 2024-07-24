@@ -1,0 +1,254 @@
+{
+    "chassis": "Wulfen",
+    "model": "H",
+    "mul_id": 6262,
+    "config": "Biped Omnimech",
+    "techbase": "Mixed (Clan Chassis)",
+    "era": 3137,
+    "source": "TRO: 3145 The Clans",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "mass": 30,
+    "engine": "300 XXL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 10,
+    "run_mp": 15,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Stealth",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "Improved Heavy Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Improved Heavy Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Improved Heavy Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLImprovedHeavyLargeLaser (omnipod)",
+            "7": "CLImprovedHeavyLargeLaser (omnipod)",
+            "8": "CLImprovedHeavyLargeLaser (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "IS Stealth",
+            "12": "IS Stealth"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "IS Stealth",
+            "11": "IS Stealth",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLImprovedMediumHeavyLaser (omnipod)",
+            "8": "CLImprovedMediumHeavyLaser (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": "IS Stealth",
+            "11": "IS Stealth",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLImprovedMediumHeavyLaser (omnipod)",
+            "8": "CLImprovedMediumHeavyLaser (omnipod)",
+            "9": "Clan Endo Steel",
+            "10": "IS Stealth",
+            "11": "IS Stealth",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLECMSuite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Stealth",
+            "6": "IS Stealth",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "<P>The Wulfen, a light OmniMech from Clan Wolf, initially met with internal disapproval but soon gained admiration due to its sterling combat performances. Its prototypes showcased formidable capabilities during the invasions of the Republic, Free Worlds League, and Lyran Commonwealth, earning it a special place within Clan Wolf, especially among ristars (rising stars).</P>",
+        "capabilities": "<P>Boasting an amalgam of speed and stealth armor, the Wulfen excels in dictating engagement terms against heavier adversaries. Its versatility shines in long-range duels, disrupting supply chains, eliminating reconnaissance elements, and facilitating general advancements on the battlefield.</P><P>Leveraging a blend of Clan and Inner Sphere technologies, the Wulfen is equipped with a 300-rated Model 39b extra-light engine, Inner Sphere XL gyro, Process 12 endo steel chassis, and 10 tons of pod space. It also hosts an ECM suite, Full-Head Ejection System, and six and a half tons of Imstar V-Stealth stealth armor. This technological medley ensures the Wulfen remains a formidable contender on the battlefield.</P>",
+        "deployment": "<P>Designed for close combat, it's loaded with a heavy laser suite and four additional double heat sinks to manage the substantial heat load during prolonged engagements.</P>",
+        "history": "<P>Initially designed in 3137 on Tamar, its production saw a hiatus during the Clan's repositioning to the Lyran Commonwealth border, resuming in 3142 initially on Weingarten and later on Thermopolis. Star Captain Paul's ascendancy from a humble sibko to a Nova leader in the Third Wolf Guard Battle Cluster epitomizes the Wulfen's allure among the Clan's ambitious warriors.</P><P>The Wulfen's journey from controversy to a revered combat unit encapsulates Clan Wolf's evolving combat doctrines. Initially denounced by Star Colonel Josiah Ward as a symbol of Spheroid dishonor, the Wulfen's reputation was salvaged by saKhan Garner Kerensky, who triumphed over Ward in a Trial of Grievance using a Wulfen prototype. This event birthed the B configuration, which became a staple in later combat scenarios. Its prototypes showcased formidable capabilities during the invasions of the Republic, Free Worlds League, and Lyran Commonwealth, earning it a special place within Clan Wolf, especially among ristars (rising stars).</P>",
+        "manufacturer": [
+            "Kallon Weapon Industries",
+            "W-7 Facilities"
+        ],
+        "primaryfactory": [
+            "Thermopolis",
+            "Weingarten"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Process 12 Endo Steel",
+            "engine": "Model 39b 300 XXL Engine",
+            "armor": "Imstar V-Stealth",
+            "communications": "Garret T11-b with ECM Suite",
+            "targeting": "ync Tracker (39-42071)"
+        }
+    }
+}

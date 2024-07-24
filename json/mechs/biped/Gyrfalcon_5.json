@@ -1,0 +1,262 @@
+{
+    "generator": "MegaMek Suite 0.49.20-SNAPSHOT on 2024-06-01",
+    "chassis": "Gyrfalcon",
+    "model": "5",
+    "mul_id": 7694,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3133,
+    "source": "Rec Guide:ilClan #33",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "distracting",
+        "reinforced_legs"
+    ],
+    "mass": 55,
+    "engine": "275 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Laser"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Ultra AC/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Ultra AC/5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERLargeLaser",
+            "4": "CLUltraAC5",
+            "5": "CLUltraAC5",
+            "6": "CLUltraAC5",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERLargeLaser",
+            "4": "CLUltraAC5",
+            "5": "CLUltraAC5",
+            "6": "CLUltraAC5",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLPartialWing",
+            "4": "CLPartialWing",
+            "5": "CLPartialWing",
+            "6": "Jump Jet",
+            "7": "Jump Jet",
+            "8": "CLMASC",
+            "9": "CLMASC",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLPartialWing",
+            "4": "CLPartialWing",
+            "5": "CLPartialWing",
+            "6": "Jump Jet",
+            "7": "Jump Jet",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Clan Ultra AC/5 Ammo"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Gyrfalcon, a successor to Olivetti Weaponry\u2019s Eyrie, was unveiled by the Jade Falcons twenty-five years after the Eyrie's introduction. Developed as part of a Clan Council initiative to rejuvenate the touman during Devlin Stone\u2019s peace, the Gyrfalcon was designed to inspire both the new generation and veteran warriors of the Jade Falcons. It embodies the Clan\u2019s principles of pride, patriotism, and culture, proving to be a resounding success in both its battlefield role and as a symbol of Clan identity.",
+        "capabilities": "The Gyrfalcon stands out for its maneuverability and offensive pressure, thanks to its MASC system and partial wing assembly. It maintains a balance between keeping adversaries at a distance with its weapons and relying on reflective armor for defense. For close-range engagements, the Gyrfalcon\u2019s legs are reinforced to withstand the rigors of performing Death From Above assaults, making it a formidable opponent in various combat scenarios.",
+        "deployment": "Aleksandr Hazen\u2019s configuration, with an ER large laser and UAC/5 on each arm, ferro-fibrous armor, and no light active probe.",
+        "history": "The Gyrfalcon's journey from concept to battlefield dominance is a testament to Clan Jade Falcon's enduring pursuit of excellence in Mech design and combat strategy. Conceived during a period of relative peace, the Gyrfalcon was not just a response to immediate tactical needs but a forward-looking vision aimed at preparing the Clan for future conflicts. Its development paralleled the Clan's aspirations to uphold and enhance their proud warrior culture, with the Mech serving as both a literal and symbolic weapon of Clan Jade Falcon's might.",
+        "manufacturer": [
+            "Olivetti Weaponry"
+        ],
+        "primaryfactory": [
+            "Sudeten"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Olivetti Stage 3",
+            "engine": "275 Fusion XL",
+            "armor": "Compound Alpha ferro-fibrous",
+            "jumpjet": "Clan Standard Type A1 with Partial Wing",
+            "communications": "Raptor X-T Type iii",
+            "targeting": "Goshawk E-Series with Light Active Probe"
+        }
+    }
+}

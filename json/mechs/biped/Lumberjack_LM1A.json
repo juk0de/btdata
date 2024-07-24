@@ -1,0 +1,210 @@
+{
+    "chassis": "Lumberjack",
+    "model": "LM1/A",
+    "mul_id": 4545,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2355,
+    "source": "Record Sheets: 3075",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Ambusher",
+    "mass": 60,
+    "engine": "220 ICE Engine(IS)",
+    "structure": {
+        "type": "Industrial",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Primitive Industrial Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 0,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Commercial",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_torso": {
+            "front": {
+                "pips": 9
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 9
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 9
+        },
+        "right_leg": {
+            "pips": 9
+        }
+    },
+    "weapons": {},
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Lift Hoist/Arresting Hoist",
+            "6": "Lift Hoist/Arresting Hoist",
+            "7": "Lift Hoist/Arresting Hoist",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Chainsaw",
+            "5": "Chainsaw",
+            "6": "Chainsaw",
+            "7": "Chainsaw",
+            "8": "Chainsaw",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Cargo (1 ton)",
+            "2": "Cargo (1 ton)",
+            "3": "Cargo (1 ton)",
+            "4": "Cargo (1 ton)",
+            "5": "Cargo (1 ton)",
+            "6": "Cargo (1 ton)",
+            "7": "Cargo (1 ton)",
+            "8": "Cargo (1 ton)",
+            "9": "Dumper (Rear)",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

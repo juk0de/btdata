@@ -1,0 +1,270 @@
+{
+    "chassis": "Penetrator",
+    "model": "PTR-8D",
+    "mul_id": 9353,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3144,
+    "source": "Rec Guide:ilClan #27",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "good_rep_1",
+        "stable"
+    ],
+    "mass": 75,
+    "engine": "300 Fusion Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "IS Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Reflective",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 21
+        },
+        "right_arm": {
+            "pips": 21
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 34
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Re-engineered Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large Re-engineered Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "4": {
+            "Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "5": {
+            "Laser AMS": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Large Re-engineered Laser",
+            "5": "Large Re-engineered Laser",
+            "6": "Large Re-engineered Laser",
+            "7": "Large Re-engineered Laser",
+            "8": "Large Re-engineered Laser",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Reflective",
+            "12": "IS Reflective"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Large Re-engineered Laser",
+            "5": "Large Re-engineered Laser",
+            "6": "Large Re-engineered Laser",
+            "7": "Large Re-engineered Laser",
+            "8": "Large Re-engineered Laser",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Reflective",
+            "12": "IS Reflective"
+        },
+        "left_torso": {
+            "1": "Medium Laser",
+            "2": "Medium Laser",
+            "3": "Medium Laser",
+            "4": "Coolant Pod",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Reflective",
+            "11": "IS Reflective",
+            "12": "IS Reflective"
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink",
+            "2": "ISDoubleHeatSink",
+            "3": "ISDoubleHeatSink",
+            "4": "Medium Laser",
+            "5": "Medium Laser",
+            "6": "Medium Laser",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Reflective"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "ISLaserAntiMissileSystem",
+            "10": "ISLaserAntiMissileSystem",
+            "11": "IS Reflective",
+            "12": "IS Reflective"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The designers at Kallon Industries used the Black Hawk Clan OmniMech as the basis for the Penetrator.",
+        "capabilities": "The Penetrator has an all energy weapons arsenal and uses twelve double heat sinks to handle the massive heat load from its weapons. The 'Mech is lacking in speed though when compared to the Black Hawk. This is because the 'Mechs designers used a Vlar 300 fusion engine for its combat durability, giving the 'Mech a top speed of 64.8 km/h. To help offset the 'Mech's lack of mobility, the Penetrator has four Anderson 398 jump jets giving it added mobility with a jumping distance of one hundred and twenty meters. The Penetrator also carries a respectable thirteen tons of armor. The 'Mech's heavy armor protection,",
+        "deployment": "No information on this variant available",
+        "history": "With the threat of the Clans looming over it, the Federated Commonwealth dispatched a large number of Penetrators to units stationed in Lyran space. Following the secession of the Commonwealth's Lyran half and the formation of the Lyran Alliance under Katherine Steiner-Davion in 3058, many Penetrators ended up on the LAAF's rolls. Penetrators served on both sides of the FedCom Civil War, demonstrating their toughness yet again. The 'Mech's low reliance on ammunition made it ideal for the mobile campaigns that defined that conflict. Archer's Avengers and other allied forces conducted a planet-hopping campaign, always staying one step ahead of the Loyalist forces pursuing them. The Avengers had to live off the land because reliable supply lines were almost non-existent. The Penetrator was an ideal combat unit because it required little ammunition and had few advanced components. Several Penetrators were captured by mercenary units during the FedCom Civil War. According to rumors, Kallon Industries may soon change its policy of only selling the design to the Federated Commonwealth and now the Federated Suns.",
+        "manufacturer": [
+            "Kallon Weapon Industries"
+        ],
+        "primaryfactory": [
+            "Talon (Wernke)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Crucis G Endo-Steel",
+            "engine": "Vlar 300",
+            "armor": "StarGuard Reflec",
+            "jumpjet": "Anderson 398",
+            "communications": "Dalban Micronics",
+            "targeting": "Matabushi Sentinel"
+        }
+    }
+}

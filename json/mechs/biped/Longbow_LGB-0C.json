@@ -1,0 +1,273 @@
+{
+    "chassis": "Longbow",
+    "model": "LGB-0C",
+    "mul_id": 5619,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2480,
+    "source": "XTR: Primitives III",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "ext_twist",
+        "imp_com",
+        "searchlight",
+        "ubiquitous_is",
+        "cramped_cockpit",
+        "no_arms",
+        "obsolete",
+        "weak_legs"
+    ],
+    "mass": 85,
+    "engine": "310 Fusion Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Primitive Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Primitive",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 21
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "weapons": {
+        "1": {
+            "LRM 20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "LRM 20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Small Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "LRM 20",
+            "4": "LRM 20",
+            "5": "LRM 20",
+            "6": "LRM 20",
+            "7": "LRM 20",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "LRM 20",
+            "4": "LRM 20",
+            "5": "LRM 20",
+            "6": "LRM 20",
+            "7": "LRM 20",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Medium Laser",
+            "2": "IS Ammo LRM-20",
+            "3": "IS Ammo LRM-20",
+            "4": "IS Ammo LRM-20",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Medium Laser",
+            "2": "IS Ammo LRM-20",
+            "3": "IS Ammo LRM-20",
+            "4": "IS Ammo LRM-20",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Heat Sink",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Small Laser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Longbow, introduced in 2480 as the LGB-0C Longbow, has seen service in the armies of the Inner Sphere since the days of the Star League and is one of the most well-known fire support 'Mechs in existence.",
+        "capabilities": "The Longbow is a massive BattleMech weighing in at 85 tons and is able to move at a top speed of 54.0 km/h, thanks to a Strand 255 fusion engine. The Longbow is protected by fourteen and a half tons of armor. Some have criticized the design for its lack of CASE - making an otherwise rugged 'Mech vulnerable to a loss by an ammunition explosion. As a fire-support 'Mech though, the Longbow is a trusted and reliable machine that can be counted on to carry out the mission it is designed for.",
+        "deployment": "The original Longbow built in 2480, this Free Worlds League design carried twin LRM-20s each with three tons of ammunition, supported by two Medium Lasers and a Small Laser. The Primitive Technology used limited the design's top speed to 54km/h, but this was deemed acceptable for a fire support unit. The location of the LRM launchers in the arms allowed it to fire in a wider arc, a feature prized by pilots. The Primitive Armor provided some protection, but many felt it was too thin. This design would go on to become one of the most popular and widely distributed as the manufacturer, Lockenburg-Holly Industries, merged with several other manufacturers to form StarCorps Industries.",
+        "manufacturer": [
+            "Lockenburg-Holly Industries"
+        ],
+        "primaryfactory": [
+            "Emris IV"
+        ],
+        "systemmanufacturer": {
+            "chassis": "StarCorps 100 LGB",
+            "engine": "Strand 255",
+            "armor": "StarSlab/9.5 Mk I",
+            "communications": "O/P 3000 COMSET",
+            "targeting": "Octagon Tartrac System C"
+        }
+    }
+}

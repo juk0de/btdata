@@ -1,0 +1,280 @@
+{
+    "chassis": "Warhammer IIC",
+    "model": "9",
+    "mul_id": 3508,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3086,
+    "source": "Record Sheets: 3085 Unabridged - Project Phoenix",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "searchlight",
+        "stable"
+    ],
+    "mass": 80,
+    "engine": "400 XXL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "Rotary AC/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Rotary AC/5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Small Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "LRM 10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLRotaryAC5",
+            "4": "CLRotaryAC5",
+            "5": "CLRotaryAC5",
+            "6": "CLRotaryAC5",
+            "7": "CLRotaryAC5",
+            "8": "CLRotaryAC5",
+            "9": "CLRotaryAC5",
+            "10": "CLRotaryAC5",
+            "11": "Endo Steel",
+            "12": "Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLRotaryAC5",
+            "4": "CLRotaryAC5",
+            "5": "CLRotaryAC5",
+            "6": "CLRotaryAC5",
+            "7": "CLRotaryAC5",
+            "8": "CLRotaryAC5",
+            "9": "CLRotaryAC5",
+            "10": "CLRotaryAC5",
+            "11": "Endo Steel",
+            "12": "Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "CLERMediumLaser",
+            "6": "CLERSmallLaser",
+            "7": "CLRotaryAC5 Ammo",
+            "8": "CLRotaryAC5 Ammo",
+            "9": "CLRotaryAC5 Ammo",
+            "10": "CLRotaryAC5 Ammo",
+            "11": "Endo Steel",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "CLERMediumLaser",
+            "6": "CLERSmallLaser",
+            "7": "CLLRM10",
+            "8": "Clan Ammo LRM-10",
+            "9": "CLRotaryAC5 Ammo",
+            "10": "CLRotaryAC5 Ammo",
+            "11": "Endo Steel",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Endo Steel",
+            "12": "Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLECMSuite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Clan's interpretation on the classic Warhammer has never been subtle. The BattleMech's hyper-advanced technology only emphasized and improved its duty as a frontline brawler; boosting its mass by 10 tons (with equivalent increases in armor protection) made it even more powerful.",
+        "capabilities": "Thanks to their technological expertise, they were able to add ten tons with the same speed and firepower and nearly double the armor of the original. The Warhammer IIC is built on an Endo Steel frame and is protected by tons of ferro-fibrous armor. The result is a dangerous 'Mech, able to hold its own in any battle against the Inner Sphere. Also note that the armor was the primary concern when designing the IIC version rivaling even 100 ton assault 'Mechs in durability and protection.",
+        "deployment": "This version drops the ER PPCs and replaces them with experimental Rotary AC/5s. An XXL fusion engine provides enough power for a top speed of 86 km/h. The RACs are backed up by a pair of ER Medium Lasers and ER Small Lasers, and the missile launcher is now an LRM-10. In addition to the ferro-fibrous armor, an ECM Suite in the head disrupts enemy electronics.",
+        "history": "The Warhammer IIC is now the most common Clan BattleMech in the Inner Sphere. These remarkable machines are fielded by every major Inner Sphere force, Clan, and many large mercenary groups. It is only found on the periphery, where its equally outstanding price tag is simply too high for these countries to justify.",
+        "manufacturer": [
+            "Trellshire Heavy Industries"
+        ],
+        "primaryfactory": [
+            "Twycross"
+        ],
+        "systemmanufacturer": {
+            "chassis": "SFX-80 Endo",
+            "engine": "Type 79 400 XL",
+            "armor": "Forging ZM15 Ferro-Fibrous",
+            "communications": "TDWS-37 Mk 2.2",
+            "targeting": "\u201cHephaestus\u201d CT-44"
+        }
+    }
+}

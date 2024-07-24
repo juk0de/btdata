@@ -1,0 +1,289 @@
+{
+    "chassis": "Mad Cat",
+    "clanname": "Timber Wolf",
+    "model": "(Bounty Hunter 2)",
+    "mul_id": 5803,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3068,
+    "source": "BattleTech Dossiers: The Bounty Hunter",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "imp_target_med",
+        "weak_head_1"
+    ],
+    "mass": 75,
+    "engine": "375 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 15,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 36
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "SRM 4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "4": {
+            "AP Gauss Rifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Streak SRM 4": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "6": {
+            "ER Small Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "AP Gauss Rifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLLargePulseLaser (OMNIPOD)",
+            "5": "CLLargePulseLaser (OMNIPOD)",
+            "6": "Clan Ammo SRM-4 (OMNIPOD)",
+            "7": "CLTargeting Computer (OMNIPOD)",
+            "8": "CLTargeting Computer (OMNIPOD)",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERMediumLaser (OMNIPOD)",
+            "5": "CLERMediumLaser (OMNIPOD)",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (OMNIPOD)",
+            "4": "CLSRM4 (OMNIPOD)",
+            "5": "CLSRM4 (OMNIPOD)",
+            "6": "CLSRM4 (OMNIPOD)",
+            "7": "CLAPGaussRifle (OMNIPOD)",
+            "8": "CLAPGaussRifle Ammo (OMNIPOD)",
+            "9": "Coolant Pod (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (OMNIPOD)",
+            "4": "CLStreakSRM4 (OMNIPOD)",
+            "5": "CLStreakSRM4 (OMNIPOD)",
+            "6": "CLStreakSRM4 (OMNIPOD)",
+            "7": "CLERSmallLaser (OMNIPOD)",
+            "8": "CLAPGaussRifle (OMNIPOD)",
+            "9": "Clan Streak SRM 4 Ammo (OMNIPOD)",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Timber Wolf is a fast, heavy OmniMech. A signature design of the Clans' military might, it was arguably the first Clan OmniMech encountered by Inner Sphere forces (as opposed to periphery forces) on The Rock in 3049 by Phelan Kell.",
+        "capabilities": "The second custom configuration used by the Bounty Hunter at the start of Jihad mounted a Large Pulse Laser in the left arm and paired ER Medium Lasers in the right arm, supported by a trio of SRM-4s in the left torso and similar trio of Streak SRM-4s in the right. Rounded out by an Anti-Personnel Gauss Rifle in each side torso and an ER Small Laser in the right, the Bounty Hunter's second Mad Cat also mounted a Targeting Computer as well as a Coolant Pod and three Jump Jets to enhance its effectiveness. A single ton of reloads for each weapon type was carried.",
+        "history": "Vaguely resembling a cross-over between the MAD (Marauder) and CAT (Catapult) series, the Timber Wolf was tagged with the Inner Sphere reporting name Mad Cat on first contact. (The targeting computer on Phelan Kell's Wolfhound switched between MAD and CAT when trying to identify it; upon analyzing the data recording from Kell's 'Mech, Precentor Martial Anastasius Focht later officially designated it \"Mad Cat\".",
+        "deployment": "Always a MechWarrior, the Bounty Hunter piloted a variety of BattleMechs, typically leading a BattleMech lance. His 'Mechs were invariably painted a bright green with currency symbols on it, a feared sight on the battlefield, and often custom-modified, allowing for his or her PA(L) armor to be worn while piloting to further conceal the pilot's identity. The Bounty Hunter has been active for more than a century, leading to speculation that the PA(L) suit, the modified 'Mechs that he piloted, and even the mythos surrounding the individual were passed from person to person via the death or retirement of the former MechWarrior whose personified him. Known people to have been the Bounty Hunter were Michi Noketsuna and Vic Travers, who inherited the equipment and a book referred to as \"the tradition\". Travers eventually passed the legacy on to one of his aides going by the name of Walt Urizeman, though that name is held to be just one of the man's several fake identities. The \"Bounty Hunter\" legend was the topic of a hero team-style tri-vid show called \"The Bounty Hunters\". Though tapping into the Bounty Hunter's reputation, the producers instead developed their own mythos almost completely unrelated to the real person. The popularity of the series was such that many people in the Inner Sphere cannot separate the fiction of the holovid from the reality of the true Bounty Hunter.",
+        "manufacturer": [
+            "Wolf Clan Site #1",
+            "Wolf Clan Site #2",
+            "W-7 Facilities",
+            "Kallon Weapon Industries"
+        ],
+        "primaryfactory": [
+            "Arc-Royal",
+            "Strana Mechty",
+            "Weingarten",
+            "Thermopolis"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type W3 Endo-steel",
+            "engine": "Starfire 375 XL",
+            "armor": "Composite A-2 Ferro-Fibrous",
+            "communications": "Khan Series (Type 2c)",
+            "targeting": "Series III OPT"
+        }
+    }
+}

@@ -1,0 +1,219 @@
+{
+    "chassis": "Porcupine",
+    "model": "PRC-3N",
+    "mul_id": 8102,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3132,
+    "source": "XTR: Caveat Emptor",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "distracting"
+    ],
+    "mass": 20,
+    "engine": "180 XXL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 6
+        },
+        "left_torso": {
+            "pips": 5
+        },
+        "right_torso": {
+            "pips": 5
+        },
+        "left_arm": {
+            "pips": 3
+        },
+        "right_arm": {
+            "pips": 3
+        },
+        "left_leg": {
+            "pips": 4
+        },
+        "right_leg": {
+            "pips": 4
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 9,
+    "run_mp": 14,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Impact-Resistant",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "weapons": {
+        "1": {
+            "Laser AMS": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "Spikes",
+            "9": "IS Impact-Resistant",
+            "10": "IS Impact-Resistant",
+            "11": "IS Impact-Resistant",
+            "12": "Mek Null Signature System"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "Spikes",
+            "9": "IS Impact-Resistant",
+            "10": "IS Impact-Resistant",
+            "11": "IS Impact-Resistant",
+            "12": "Mek Null Signature System"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "Fusion Engine",
+            "6": "Fusion Engine",
+            "7": "ISLaserAntiMissileSystem",
+            "8": "ISLaserAntiMissileSystem",
+            "9": "Spikes",
+            "10": "IS Impact-Resistant",
+            "11": "IS Impact-Resistant",
+            "12": "Mek Null Signature System"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "Fusion Engine",
+            "6": "Fusion Engine",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "ISDoubleHeatSink",
+            "10": "Spikes",
+            "11": "ISMASC",
+            "12": "Mek Null Signature System"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Supercharger",
+            "12": "Mek Null Signature System"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Spikes",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Impact-Resistant",
+            "6": "Mek Null Signature System",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Impact-Resistant",
+            "6": "Mek Null Signature System",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

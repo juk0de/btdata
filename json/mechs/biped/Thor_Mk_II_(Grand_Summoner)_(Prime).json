@@ -1,0 +1,282 @@
+{
+    "chassis": "Thor II",
+    "clanname": "Grand Summoner",
+    "model": "(Prime)",
+    "mul_id": 6281,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3093,
+    "source": "TRO: 3145 The Clans",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "imp_com"
+    ],
+    "mass": 70,
+    "engine": "350 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 14,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 20
+        },
+        "right_arm": {
+            "pips": 20
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 23
+        },
+        "right_leg": {
+            "pips": 23
+        }
+    },
+    "weapons": {
+        "1": {
+            "Ultra AC/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Ultra AC/5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "LRM 15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLUltraAC5 (omnipod)",
+            "4": "CLUltraAC5 (omnipod)",
+            "5": "CLUltraAC5 (omnipod)",
+            "6": "CLERMediumLaser (omnipod)",
+            "7": "Clan Ultra AC/5 Ammo (omnipod)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLUltraAC5 (omnipod)",
+            "4": "CLUltraAC5 (omnipod)",
+            "5": "CLUltraAC5 (omnipod)",
+            "6": "CLERMediumLaser (omnipod)",
+            "7": "Clan Ultra AC/5 Ammo (omnipod)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLLRM15 (omnipod)",
+            "4": "CLLRM15 (omnipod)",
+            "5": "CLERMediumLaser (omnipod)",
+            "6": "Clan Ammo LRM-15 (omnipod)",
+            "7": "Clan Ammo LRM-15 (omnipod)",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLERMediumLaser (omnipod)",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Clan Ferro-Fibrous",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet (omnipod)",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet (omnipod)",
+            "6": "Jump Jet (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet (omnipod)",
+            "6": "Jump Jet (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Thor II is a Heavy Class Clan OmniMech which was first produced by Clan Jade Falcon during the early years of the thirty-second century.",
+        "capabilities": "The Thor II shares some similarities to its predecessor, sharing the same size XL Fusion Engine, and physical appearance. What differs from the older design is its Pod Capacity; the Thor II has a 30.5 ton capacity over the older model's 22.5. This increase of capacity comes from the reshuffling of the 'Mech's internal components and dropping the original's permanently-mounted Jump Jets from the design. The Thor II's armor protection is slightly greater than the original, with half a ton more.",
+        "deployment": "The Prime Configuration long-range firepower comes from its side-torso-mounted 15-Tubed Long-Range Missile Launcher and pair of arm-mounted Class 5 Ultra Autocannons. Their ammunition is kept where these weapons are housed, with single ton per Autocannon and two tons for the missile launcher. In intermediate and close ranges, the Thor II's full arsenal \u2014 including its four Extended Range Medium Lasers \u2014 can be brought to bear on a target with a minimum of overheating concerns (except when its Jump Jets are in use).",
+        "history": "Initially produced by the Eagle Craft Group on Erewhon in the Inner Sphere, the Thor II (also known by the Clan as the Grand Summoner) proved to be a highly reliable replacement for the original Thor OmniMech. The design would soon be traded among other Inner Sphere Clans and became popular among their Warrior castes. One of the 'Mech's most noted actions was during Clan Wolf's Trial of Possession for then Clan Diamond Shark's entire Swimmer Khanate\u2019s Beta Aimag. The flotilla\u2019s commanders were able to bid down the Clan Wolf commander to a Cluster\u2019s worth of forces on the world of Feltre. The Thor II's performance in the hands of Diamond Shark MechWarriors in this difficult terrain helped to turn the tide of battle and resulted in winning the Trial. Clan Jade Falcon first produced the Thor II as a distinct symbol of honor. This 'Mech is painted yearly in the parade scheme of a unit chosen by the Clan's Khan as part of tradition of honoring Clusters who had performed services honoring the Clan.",
+        "manufacturer": [
+            "Eagle Craft Group"
+        ],
+        "primaryfactory": [
+            "Erewhon"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Olivetti T4 Endo Steel",
+            "engine": "Magna 350 XL",
+            "armor": "Compound Beta FF",
+            "communications": "Model J-D 067",
+            "targeting": "Hawkeye 58"
+        }
+    }
+}

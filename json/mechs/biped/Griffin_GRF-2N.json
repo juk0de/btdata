@@ -1,0 +1,253 @@
+{
+    "chassis": "Griffin",
+    "model": "GRF-2N",
+    "mul_id": 1299,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2751,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "source": "Historical: Operation Klondike",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "rugged_1",
+        "ubiquitous_clan",
+        "ubiquitous_is"
+    ],
+    "weaponquirk": "jettison_capable:RA:4:ISERPPC",
+    "mass": 55,
+    "engine": "275 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 18
+        },
+        "right_arm": {
+            "pips": 18
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 24
+        },
+        "right_leg": {
+            "pips": 24
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISSRM6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 30
+            }
+        },
+        "3": {
+            "ISSRM6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISGuardianECM": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERPPC",
+            "6": "ISERPPC",
+            "7": "ISERPPC",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "ISSRM6",
+            "4": "ISSRM6",
+            "5": "ISGuardianECM",
+            "6": "ISGuardianECM",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "ISSRM6",
+            "4": "ISSRM6",
+            "5": "ISSRM6 Ammo",
+            "6": "ISSRM6 Ammo",
+            "7": "ISCASE",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Jump Jet",
+            "12": "Endo-Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "Built in 2492 the Griffin was originally classified as a heavy BattleMech, filling in the weight gap between mammoth machines like the Mackie and smaller recon 'Mechs like the Wasp, and intended for close assaults",
+        "capabilities": "The massive and efficient fusion engine of the Griffin, giving it a cruising speed of 57.1 km/h, combined with five jump jets occupying the rear torso areas for a total jumping distance of 150 meters, is what distinguishes it from other medium 'Mechs and has kept the Griffin in the game over the centuries. Unfortunately, like most other early 'Mechs, the Griffin suffers from insufficient heat capacity with only twelve heat sinks installed. The result is that Griffin pilots, lacking the ability to do both, must choose at the outset of a fight whether to engage or withdraw. Nine and a half tons of armor plating compares quite favorably to many other medium 'Mechs, although as is often the case the Griffin will find itself in combat with larger 'Mechs. For this reason, two pairs of false armor baffles were added to the 'Mech, one on its shoulders providing limited protection to the LRM launcher and cockpit, and a smaller pair on the legs protecting the knees joints.",
+        "deployment": "The SLDF's Royal Griffin was introduced in 2751 and mounted an ER PPC, two SRM-6 launchers, and a Guardian ECM Suite. The heat-sinks were upgraded to double-strength models and the ammo was protected by CASE. To fit all this, the armor was changed to Ferro-Fibrous and the chassis was made of Endo Steel. Disappearing during the Succession Wars until a Jihad era return thanks to the discovery of the New Dallas Memory Core, the Clans also retained a number of original models among their solahma forces.",
+        "history": "Combining tremendous speed and firepower in one frame the Griffin briefly dominated in this role before being superseded by larger and better-equipped 'Mechs. However the Griffin was very popular among commanders and pilots alike and so Earthwerks Incorporated kept it in production, this time reclassified as a medium 'Mech and tasked with long-range fire support for medium lances. In this capacity the Griffin has excelled, combining good striking power, endurance and speed, with its only major weakness being a lack of close-range defensive weapons. During the Succession Wars the Griffin could be found in almost every unit of all the Great Houses, thanks in part to its diverse number of manufacturers. Besides being constructed from Earthwerks' factory on Keystone the Griffin was later acquired and built by Defiance Industries (Hesperus II), Kallon Industries (Talon), Brigadier Corporation (Oliver), and Norse BattleMech Works (later Victory Industries, Marduk). It was even manufactured in the Periphery by Vandenberg Mechanized Industries on Illiushin. Only the Capellan Confederation lacked a means of building the 'Mech, although they made up for it by purchasing a limited number from the Taurian Concordat. During the Fourth Succession War some of these manufacturers exchanged hands, with the Draconis Combine capturing Marduk from the Federated Suns and the Lyran Commonwealth taking Oliver from the Free Worlds League. This exchange also happened to coincide with several new variants being designed to exploit recently-recovered lostech. As such variants meant specifically for either Houses Kurita, Marik or the Federated Commonwealth found their way into the arsenals of all of them. During the Clan Invasion these manufacturers produced the new variants to meet the Clan threat while Vandenberg Industries continued to build original GRF-1N Griffins. When Vicore Industries began shopping around its \"Project Phoenix\" initiative, Defiance and Kallon Industries signed on to begin producing the completely redesigned GRF-6S Griffin. Victory Industries later signed up as well after the legal battle between Wolf's Dragoons and the Lyran Alliance saw the famous mercenary group selling its Light Fusion technology to both the Draconis Combine and Free Worlds League. The League designed a native update to the Griffin while ComStar had their own built as well which, ominously, soon began appearing in the ranks of the Word of Blake Militia. The Griffin would continue to remain a staple of the battlefields of the Inner Sphere during the maelstrom of the Jihad, the era of the Republic of the Sphere and the rise of the ilClan, with models still in production within the Free Worlds League and the Wolf Empire.",
+        "manufacturer": [
+            "Earthwerks-FWL",
+            "Inc.",
+            "Norse BattleMech Works",
+            "Brigadier Corporation",
+            "Earthwerks Incorporated"
+        ],
+        "primaryfactory": [
+            "Keystone",
+            "Marduk",
+            "Oliver",
+            "Terra"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Earthwerks GRF Endo",
+            "engine": "CoreTek 275",
+            "armor": "Starshield Ferro-Fibrous",
+            "jumpjet": "Rawlings 55",
+            "communications": "Neil 6000",
+            "targeting": "Octagon Tartrac System C"
+        }
+    }
+}

@@ -1,0 +1,235 @@
+{
+    "chassis": "Devastator",
+    "model": "DVS-10",
+    "mul_id": 7984,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3142,
+    "source": "Record Sheets: 3150",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "quirks": [
+        "hyper_actuator",
+        "searchlight"
+    ],
+    "mass": 100,
+    "engine": "400 XL Engine(IS)",
+    "structure": {
+        "type": "Endo-Composite",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 18,
+        "type": "IS Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 40
+        },
+        "right_leg": {
+            "pips": 40
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Re-engineered Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Large Re-engineered Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Re-engineered Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder (ARMORED)",
+            "2": "Upper Arm Actuator",
+            "3": "Large Re-engineered Laser",
+            "4": "Large Re-engineered Laser",
+            "5": "Large Re-engineered Laser",
+            "6": "Large Re-engineered Laser",
+            "7": "Large Re-engineered Laser",
+            "8": "IS Endo-Composite",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder (ARMORED)",
+            "2": "Upper Arm Actuator",
+            "3": "Large Re-engineered Laser",
+            "4": "Large Re-engineered Laser",
+            "5": "Large Re-engineered Laser",
+            "6": "Large Re-engineered Laser",
+            "7": "Large Re-engineered Laser",
+            "8": "IS Endo-Composite",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISMASC",
+            "8": "ISMASC",
+            "9": "ISMASC",
+            "10": "ISMASC",
+            "11": "ISMASC",
+            "12": "IS Endo-Composite"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Supercharger (ARMORED)",
+            "8": "IS Endo-Composite",
+            "9": "IS Endo-Composite",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro (ARMORED)",
+            "5": "Gyro (ARMORED)",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "Medium Re-engineered Laser",
+            "10": "Medium Re-engineered Laser",
+            "11": "Medium Re-engineered Laser",
+            "12": "Medium Re-engineered Laser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip (ARMORED)",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo-Composite",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip (ARMORED)",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo-Composite",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

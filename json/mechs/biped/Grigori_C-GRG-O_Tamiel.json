@@ -1,0 +1,260 @@
+{
+    "chassis": "Grigori",
+    "model": "C-GRG-O (Tamiel)",
+    "mul_id": 1319,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3072,
+    "source": "TRO: 3075",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "imp_com",
+        "imp_sensors",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 60,
+    "engine": "240 Light Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 9,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 19
+        },
+        "right_arm": {
+            "pips": 19
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "Snub-Nose PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Thunderbolt 10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Thunderbolt 10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISSNPPC (omnipod)",
+            "7": "ISSNPPC (omnipod)",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Thunderbolt 10 (omnipod)",
+            "6": "Thunderbolt 10 (omnipod)",
+            "7": "IS Light Ferro-Fibrous",
+            "8": "IS Light Ferro-Fibrous",
+            "9": "IS Light Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (omnipod)",
+            "4": "Jump Jet (omnipod)",
+            "5": "Thunderbolt 10 (omnipod)",
+            "6": "Thunderbolt 10 (omnipod)",
+            "7": "ISC3iUnit",
+            "8": "ISC3iUnit",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (omnipod)",
+            "4": "Jump Jet (omnipod)",
+            "5": "IS Ammo Thunderbolt-10 (omnipod)",
+            "6": "IS Ammo Thunderbolt-10 (omnipod)",
+            "7": "ISCASE (omnipod)",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISGuardianECMSuite (omnipod)",
+            "6": "ISGuardianECMSuite (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Light Ferro-Fibrous",
+            "6": "IS Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Light Ferro-Fibrous",
+            "6": "IS Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Grigori is one of the Word of Blake's new Celestial series OmniMechs designed by Doctor Devon Cortland.",
+        "capabilities": "It is constructed on a standard chassis, but makes use of eleven tons of Light Ferro-Fibrous armor, a light fusion engine, and an XL Gyro; as well as the small cockpit that is common to all of the Celestials. Like the other Celestials, the Grigori has a C3i Computer to help direct its fire.",
+        "deployment": "Poltergeist Precentor Sigma Tamiel of the 47th Shadow Division uses a custom weapons configuration. His Grigori mounts two Thunderbolt 10 missile launchers and a Snub-Nose PPC. A head-mounted Guardian ECM Suite provides an additional layer of defense. For increased mobility, the Grigori Tamiel carries four Jump Jets.",
+        "history": "The Grigori (named after fallen angels from Christianity) was added to the Word of Blake Militia's arsenal in late 3069 as Doctor Cortland oversaw the final production personally.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs",
+            "Martinson Armaments"
+        ],
+        "primaryfactory": [
+            "Gibson (Gibson Federated)",
+            "Terra (Martinson)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Celestial Series GG1",
+            "engine": "GM 240 Light Fusion",
+            "armor": "Divine Shield-B Light Ferro",
+            "communications": "Master\u2019s Voice Cel-Alpha",
+            "targeting": "Master\u2019s Sight 1-Omega"
+        }
+    }
+}

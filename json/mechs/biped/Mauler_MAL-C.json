@@ -1,0 +1,285 @@
+{
+    "chassis": "Mauler",
+    "model": "MAL-C",
+    "mul_id": 2103,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3051,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "weaponquirk": "stable_weapon:LT:7:Autocannon/2",
+    "mass": 90,
+    "engine": "270 XL Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 27
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERLargeLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISERLargeLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISLRM15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISLRM15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 32
+            }
+        },
+        "5": {
+            "ISAC2": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "ISAC2": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 45
+            }
+        },
+        "7": {
+            "ISC3SlaveUnit": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISERLargeLaser",
+            "8": "ISERLargeLaser",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISERLargeLaser",
+            "5": "ISERLargeLaser",
+            "6": "Ferro-Fibrous",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISLRM15",
+            "5": "ISLRM15",
+            "6": "ISLRM15",
+            "7": "ISAC2",
+            "8": "ISAC2",
+            "9": "ISC3SlaveUnit",
+            "10": "ISLRM15 Ammo",
+            "11": "ISLRM15 Ammo",
+            "12": "ISCASE"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISLRM15",
+            "5": "ISLRM15",
+            "6": "ISLRM15",
+            "7": "ISAC2",
+            "8": "ISAC2",
+            "9": "ISLRM15 Ammo",
+            "10": "ISLRM15 Ammo",
+            "11": "ISAC2 Ammo",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "<p>Armored with Ferro-Fibrous armor for robust protection, the MAL-C must strategically balance its firepower and defense, especially considering its 11 double heat sinks. While capable of delivering sustained long-range fire, the mech's pilots need to be cautious of overheating during intense combat scenarios.</p>",
+            "14": "<p>Debuted in 3038, the Daboku quickly garnered criticism for its performance issues, notably a problematic ejection system triggered by specific torso damage. This led to its limited production run and eventual discontinuation. However, the Federated Commonwealth showed interest in the design, acquiring several units from battlefield salvage during the 3040s. These units were predominantly deployed in Lyran units along the Periphery border.</p>",
+            "15": "<p>In the late 3040s, LAW revisited the Daboku design, leading to the emergence of the Mauler. This updated version included enhanced range lasers, new heat sink technology, and a lighter engine. Despite initially inheriting the Daboku\u2019s safety flaw, the Mauler became a prominent feature in the DCMS arsenal, especially during the Clan Invasion, serving as a long-range support Mech.</p>",
+            "16": "<p>The Mauler's deployment varied significantly, with different configurations adapting to diverse combat roles and scenarios. These configurations ranged from sniper-focused setups to heavy assault modifications. The Mauler\u2019s widespread use extended beyond the Draconis Combine, with various forces within the Inner Sphere, including the AFFS and LAAF, utilizing it in numerous military engagements.</p>",
+            "17": "<p>Throughout its operational history, the Mauler has been integral to many military campaigns and conflicts. Its adaptability to changing battlefield conditions in the Inner Sphere has cemented its role as a versatile and formidable assault Mech.</p>"
+        }
+    },
+    "fluff": {
+        "overview": "The Mauler's arsenal is primarily focused on long-range engagements, featuring a combination of light autocannons and missile systems, supplemented by energy weapons. This loadout allows the Mauler to excel in support roles, offering sustained fire from a distance. Despite its impressive offensive capabilities, the Mech's limited heat dissipation can pose challenges during intense combat, necessitating careful heat management by its pilots. Its eleven and a half tons of ferro-fibrous armor provide substantial protection, but its top speed of 54 km/h limits its mobility on the battlefield.",
+        "capabilities": "At its core, the Mauler is equipped with a formidable array of weaponry, primarily geared towards long-range engagements. This includes extended-range lasers and LRM launchers, allowing it to deliver powerful strikes from a distance. The integration of these advanced weapon systems, coupled with an extra-light engine, significantly enhances its offensive capabilities, making it a formidable opponent in ranged combat scenarios.Defensively, the Mauler is protected by a robust arrangement of ferro-fibrous armor, providing substantial resilience against enemy fire. Its defensive prowess is further augmented by the sophisticated CASE system, designed to protect the pilot from critical damage. The Mauler's speed, capped at 54 km/h, is optimized for maintaining optimal distance in combat, enabling it to leverage its long-range weaponry effectively while minimizing exposure to enemy attacks.The unique technological aspects of the Mauler include its advanced heat sink system, crucial for managing the heat generated by its high-powered armaments. This system allows the Mauler to sustain prolonged engagements, delivering consistent firepower without the risk of overheating. Additionally, the Mauler's design prioritizes ammunition efficiency, ensuring a steady supply for its ballistic and missile-based weaponry, crucial for maintaining its combat effectiveness in extended battles.",
+        "deployment": "The MAL-C Mauler variant, designed for long-range combat, features a 270 XL Engine in its 90-ton frame. This engine choice offers increased speed but at the cost of vulnerability in the side torsos. The mech's weaponry includes two ER Large Lasers and twin LRM-15s, complemented by four Autocannon/2s for extended-range engagements. Notably, it incorporates a C3 Slave Unit, enhancing its capability in coordinated attacks by sharing targeting data with other C3-equipped units.",
+        "history": "The Mauler, initially developed as the Daboku by Luthien Armor Works (LAW), originated from a Draconis Combine initiative in 3036. This project aimed to capitalize on advanced Star League technology from the Helm Memory Core and ComStar's contributions. The design was intended to mirror the Star League's Thug using the Charger chassis for streamlined production.",
+        "manufacturer": [
+            "Luthien Armor Works",
+            "Luthien Armor Works"
+        ],
+        "primaryfactory": [
+            "New Samarkand",
+            "Luthien"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Class 101",
+            "engine": "Hermes 270 XL",
+            "armor": "New Samarkand Royal Ferro-Fibrous with CASE",
+            "communications": "Sipher Security Plus mk.II",
+            "targeting": "Matabushi SuperSentinel"
+        }
+    }
+}

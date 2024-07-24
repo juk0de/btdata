@@ -1,0 +1,261 @@
+{
+    "chassis": "Shadow Cat III",
+    "model": "B",
+    "mul_id": 7493,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3111,
+    "source": "Rec Guide:ilClan #3",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "low_profile"
+    ],
+    "mass": 45,
+    "engine": "270 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 22
+        },
+        "right_leg": {
+            "pips": 22
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ATM 3": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ATM 3": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERMediumLaser (omnipod)",
+            "4": "CLATM3 (omnipod)",
+            "5": "CLATM3 (omnipod)",
+            "6": "CLATM3 (omnipod)",
+            "7": "CLATM3 (omnipod)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLERMediumLaser (omnipod)",
+            "4": "CLATM3 (omnipod)",
+            "5": "CLATM3 (omnipod)",
+            "6": "CLATM3 (omnipod)",
+            "7": "CLATM3 (omnipod)",
+            "8": "Clan Endo Steel",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (omnipod)",
+            "4": "Clan Ammo ATM-3 (omnipod)",
+            "5": "Clan Ammo ATM-3 ER (omnipod)",
+            "6": "ISAngelECMSuite (omnipod)",
+            "7": "ISAngelECMSuite (omnipod)",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet (omnipod)",
+            "4": "Clan Ammo ATM-3 (omnipod)",
+            "5": "Clan Ammo ATM-3 HE (omnipod)",
+            "6": "CLActiveProbe (omnipod)",
+            "7": "CLTargeting Computer (omnipod)",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLMASC",
+            "12": "CLMASC"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Shadow Cat III was born from the Shadow Cat, after Clan Nova Cat's Touman and facilities were heavily damaged during the Second Combine-Dominion War.",
+        "capabilities": "This expensive OmniMech makes use of weight-saving technologies in the form of an Endo Steel internal structure, an XL Engine, and eight tons of Ferro-Fibrous armor. The Shadow Cat III employs more pod space than the Shadow Cat at the expense of jump jets, but keeps the Myomer Accelerated Signal Circuitry that enables it to move up to 130 km/h in bursts.",
+        "deployment": "This variant is also a fusion of long-range weaponry with a scouting system. This configuration uses four ATM 3 launchers backed by two ER Medium Lasers. A Targeting Computer enhances the lasers' precision, while an Active Probe and an Angel ECM round out the variant's electronic warfare suite. Six jump jets allow it to navigate through difficult terrain.",
+        "history": "The Clan's scientists took a cue from Clan Jade Falcon's Thor II, and removed the Shadow Cat's fixed jump jets to free up mass that would be used mostly for pod space and an enhancement of the 'Mech's armor coverage.",
+        "manufacturer": [
+            "Barcella Beta"
+        ],
+        "primaryfactory": [
+            "Irece"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type 79-45 Endo Steel",
+            "engine": "RFUM 270 XL",
+            "armor": "Compound H17Ferro-Fibrous with CASE",
+            "jumpjet": "Model KY Boosters",
+            "communications": "Sipher CommCon SCU-9",
+            "targeting": "Build 4 CAT TTS"
+        }
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "chassis": "StrongArm",
+    "model": "SC CV ConstructionMech",
+    "mul_id": 7857,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3094,
+    "source": "TRO: Irregulars",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "None",
+    "mass": 35,
+    "engine": "140 ICE Engine(IS)",
+    "structure": {
+        "type": "Industrial",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 11
+        },
+        "left_torso": {
+            "pips": 8
+        },
+        "right_torso": {
+            "pips": 8
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Industrial Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 0,
+        "type": "Single"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Industrial",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 9
+        }
+    },
+    "weapons": {},
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Lift Hoist/Arresting Hoist",
+            "5": "Lift Hoist/Arresting Hoist",
+            "6": "Lift Hoist/Arresting Hoist",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Lift Hoist/Arresting Hoist",
+            "5": "Lift Hoist/Arresting Hoist",
+            "6": "Lift Hoist/Arresting Hoist",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "cargo": "size:0.5",
+    "fluff": {
+        "overview": "The StrongArm MOD should serve as a cautionary example of the worst possible modification one can perform on an IndustrialMech. All MODs tend to be shoddy, yet generally at least minimally combat-worthy, but the StrongArm MOD features no upgrade to its armor, lacks gunsights and a proper cooling system, and has a flamer that is as dangerous to itself as it is to the enemy. Even the user\u2019s manual\u2014aptly named Brainless Guide to Piloting\u00ae the StrongArm MOD\u2014yields no better guidance than to roughly point the weapon at the enemy and hope for the best.",
+        "capabilities": "The original StrongArm ConstructionMech is a high-quality product of the Sitwell Corporation, heavily based on their established Powerman. The modification comes with all the drawbacks of similarly militarized IndustrialMechs, in that the right arm heavy flamer installation is open and improvised, but its workmanship is even poorer than on most other documented chassis. Its single retrofitted heat sink does not come close to dissipating the hellish temperature of the \u2019Mech-class weapon when fired, it lacks any targeting system, and the heavy armor is not upgraded, thereby limiting the pilot\u2019s protection in combat situations. Though it is purchased by everyone and their grandmother, the StrongArm MOD is a deluded man\u2019s ride and it speaks volumes that its producer would stay anonymous, selling refit kits via third parties.",
+        "deployment": "Given how widespread the StrongArm has become throughout the Republic, it is no surprise that nearly every RAF unit has at least one story of meeting an overconfident and sometimes even delusional StrongArm MOD pilot on the field. The cheapness of the base model and the ease with which it can be modded more than offset the severe lack of effectiveness the design provides, making it one of the more common militarized IndustrialMechs seen in the wild. Perhaps the most infamous incident occurred in 3126 on Caselton, when the workers of Caselton Consolidated Construction Professionals staged a two-week work stoppage on the site of Battlement\u2019s new opera house. Though Governor Lafontaine Avendout favored waiting out the striking workers, Legate Dumaka Odoh pushed for a more aggressive solution. When, as part of their demands, the workers were supplied with several kegs of Wolf Cola and meals from local favorite Kr\u00fcpe Meats, Legate Odoh ordered the food and drink drugged, ostensibly in the hopes of incapacitating the workers. However, as later revealed in court testimony, the actual drugs made the workers paranoid and violent and they burst forth from their barricades in their ConstructionMechs, over half of which were StrongArm MODs. The possession of military-scale weaponry by the workers, even weaponry as ridiculously ineffectual as that of the StrongArm, took local militia forces by surprise and in the ensuing confusion three militia soldiers and all twenty-eight construction workers were killed, along with millions of stones of damage to surrounding buildings within the capital. The official investigation of the incident uncovered the Legate\u2019s plan to use the strike to get an increase in his budget and the backchannel deals he set up to supply the striking workers with MOD kits for their ConstructionMechs in order to make them a more effective threat. Governor Avendout resigned in the wake of the scandal, despite no evidence of wrongdoing on his part, and Legate Odoh was sentenced to life imprisonment in a mining colony in the Bordon system.",
+        "manufacturer": [
+            "Sitwell Corporation"
+        ],
+        "primaryfactory": [
+            "Saiph"
+        ],
+        "systemmanufacturer": {
+            "chassis": "PowerBuild CCV",
+            "engine": "Skobel 140 ICE",
+            "armor": "Hughes IndusWeave",
+            "communications": "SineWave 5000"
+        }
+    }
+}

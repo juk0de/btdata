@@ -1,0 +1,280 @@
+{
+    "chassis": "Bull Shark",
+    "model": "BSK-MAZ",
+    "config": "Biped",
+    "techbase": "Mixed (Clan Chassis)",
+    "era": 3012,
+    "source": "Videogame (Apocryphal)",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "quirks": [
+        "distracting"
+    ],
+    "mass": 95,
+    "engine": "285 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 30
+        },
+        "left_torso": {
+            "pips": 20
+        },
+        "right_torso": {
+            "pips": 20
+        },
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Clan Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 28
+        },
+        "right_arm": {
+            "pips": 28
+        },
+        "left_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 26
+        },
+        "right_leg": {
+            "pips": 26
+        }
+    },
+    "weapons": {
+        "1": {
+            "LB 10-X AC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Ultra AC/5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LB 10-X AC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Ultra AC/5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "7": {
+            "Thumper Cannon": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLBXAC10",
+            "4": "ISLBXAC10",
+            "5": "ISLBXAC10",
+            "6": "ISLBXAC10",
+            "7": "ISLBXAC10",
+            "8": "ISLBXAC10",
+            "9": "CLUltraAC5",
+            "10": "CLUltraAC5",
+            "11": "CLUltraAC5",
+            "12": "Clan Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISLBXAC10",
+            "4": "ISLBXAC10",
+            "5": "ISLBXAC10",
+            "6": "ISLBXAC10",
+            "7": "ISLBXAC10",
+            "8": "ISLBXAC10",
+            "9": "CLUltraAC5",
+            "10": "CLUltraAC5",
+            "11": "CLUltraAC5",
+            "12": "Clan Endo Steel"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLERMediumLaser",
+            "4": "CLERMediumLaser",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "CLDoubleHeatSink",
+            "8": "CLDoubleHeatSink",
+            "9": "Clan Ultra AC/5 Ammo",
+            "10": "Clan Ultra AC/5 Ammo",
+            "11": "Clan Endo Steel",
+            "12": "Clan Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLERMediumLaser",
+            "4": "CLERMediumLaser",
+            "5": "ISThumperCannon",
+            "6": "ISThumperCannon",
+            "7": "ISThumperCannon",
+            "8": "ISThumperCannon",
+            "9": "ISThumperCannon",
+            "10": "ISThumperCannon",
+            "11": "ISThumperCannon",
+            "12": "ISThumperCannonAmmo"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Clan Endo Steel",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS LB 10-X AC Ammo",
+            "6": "Clan Ultra AC/5 Ammo",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS LB 10-X Cluster Ammo",
+            "6": "Clan Ultra AC/5 Ammo",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "notes:The following regards tabletop play: Thumper Cannon may be treated as preloaded with two shots, and only two shots. Optionally remove Thumper ammo bin and replace with LB 10-X ammo, otherwise add 4 points armour to each arm and leg. Thumper Cannon may use an updated damage profile of 15/5A if agreed upon. Suggest following the above note of preloaded ammo. The following regards derivation of loadout: Clan Wolverine was Annihilated in 2823. ER Med. Laser (C) available in 2824. UAC/5 (C) available in 2825. LB 10-X (C) available in 2828. UAC/5 (C) used because frankly the design mandates it. Assume it was somehow sourced by survivors. Since ER Med. Lasers were available the year before, assume they were sourced as well. [In tabletop] If you wish to use prototype ER lasers, the stats for those are identical to ER Med. (IS) but weighing 1.5 tons each. Remove the Thumper ammo bin and one ton of armour. LB 10-X (C) assumed to be too late to source, and relic LB 10-X (IS) are mounted instead; also to enforce the mixed tech nature of the 'mech and follow the weight layout."
+        }
+    },
+    "fluff": {
+        "overview": "\"I've never seen anything like this, Commander. This 'Mech oozes deadly grace and can obviously devastate anything in its path. It's... otherworldly, but clearly influenced by Star League 'tech. It has a mounted artillery piece to boot - I wonder where it came from.\" - Yang Virtanen",
+        "deployment": "The Bull Shark is a 95-ton Assault 'Mech described as a \"Heavy Brawler\", and is equipped to engage targets across a fairly wide range bracket with its somewhat unusual arsenal. Some of its long-range firepower comes from a Thumper Artillery Cannon that takes up most of the right torso. This is backed up by two extended range medium lasers in each torso, while each arm mounts an LB 10-X AC and an Ultra AC/5. The design features two tons of LB 10-X ammo and four tons of Ultra AC/5 ammo. Thirteen Double Heat Sinks (two in the left torso plus eleven in the engine) attempt to keep the very high heat generation of its ER medium lasers in check.",
+        "history": "The Bull Shark is a mysterious singular 'Mech of unknown origin and design discovered aboard an abandoned jumpship in the times of the Arano Restoration. Little clue was left as for who made it or why it was left behind, other than the ship's name - 'Dobrev' - and references to an old Terran mammal known as a wolverine. What is known is that it carries a powerful armament of ballistic weaponry and advanced 'tech that harkens back to the days of the Star League, even exceeding it somehow. Word of the discovery through black market communications and rumours brought the Black Widow Company's Natasha Kerensky to fight the legendary Bounty Hunter, the Baumann Group, and a small mercenary company in an attempt to destroy the ship and everything aboard.",
+        "manufacturer": [
+            "Minnesota Tribe"
+        ],
+        "primaryfactory": [
+            "Dobrev"
+        ],
+        "systemmode": {
+            "chassis": "Endo-Steel",
+            "engine": "285 XL",
+            "armor": "Standard",
+            "jumpjet": "N/A"
+        },
+        "systemmanufacturer": {
+            "jumpjet": "N/A"
+        }
+    }
+}

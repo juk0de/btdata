@@ -1,0 +1,275 @@
+{
+    "chassis": "Dervish",
+    "model": "DV-6Md",
+    "mul_id": 5869,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2750,
+    "source": "Era Report 2750",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "easy_maintain",
+        "hyper_actuator"
+    ],
+    "mass": 55,
+    "engine": "275 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Single"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "SRM 2": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "SRM 2": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "LRM 15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "LRM 15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Medium Laser",
+            "5": "SRM 2",
+            "6": "IS Ammo SRM-2",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Medium Laser",
+            "5": "SRM 2",
+            "6": "IS Ammo SRM-2",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 15",
+            "5": "LRM 15",
+            "6": "LRM 15",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "LRM 15",
+            "5": "LRM 15",
+            "6": "LRM 15",
+            "7": "IS Ammo LRM-15",
+            "8": "IS Ammo LRM-15",
+            "9": "IS Ammo LRM-15",
+            "10": "ISCASE",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Heat Sink"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "At the higher end of the medium class, the Dervish is a highly mobile fire support BattleMech. Commissioned in 2520 by the Lyran Commonwealth",
+        "capabilities": "The Dervish has a maximum speed of 86.4 km/h, letting it keep up with and support most Succession Wars-era medium and light models. Five jump jets also gives the 'Mech a jumping capability of 150 meters, allowing it to move through rough terrain with ease; these were originally an afterthought in the design but have proven their worth. While regarded by some as a poor man's Archer, the Dervish's speed and weaponry nevertheless allow it to provide quick fire support and free larger 'Mechs for other duties. The design's major flaws lie in its lack of hand actuators and in its armoring. Having no hands limits its usefulness outside of combat and restricts its capability when confronted in close quarters. As for the armor, while sufficient to handle small and medium weapons, it is inadequate against heavier firepower. Commanders cannot overcome the first issue but they can affect the second, albeit at an apparent cost of firepower. The conundrum faced here is that the tradeoff becomes counterintuitive given the 'Mech's primary role in the field.",
+        "deployment": "This Star League era variant uses an XL engine, 12 single heat sinks, and upgrades the LRM-10s to LRM-15s. Three tons of ammunition are in a CASE protected torso bin.",
+        "history": "The Dervish was among the first 'Mechs mass produced by the Great Houses and has served as a workhorse for their armies since its introduction. It was eventually commissioned into the Star League Defense Force during the Reunification War, with the Terran Hegemony providing funds to allow their original model Dervishes be upgraded to the DV-6M standard in 2610. Its service in the SLDF ensured the widespread proliferation of the design; even ComStar Explorer Corps missions into the Deep Periphery have found examples of original-model Dervishes among the forces of Nueva Castile. Over the course of the Succession Wars however the 'Mech's numbers decreased due to loss or lack of parts, and all but one of Achernar's factories was destroyed. Though it could still be found throughout the Inner Sphere by the end of the Third Succession War, only the Federated Suns maintained production of the venerable design. The 'Mech remained one of the Suns' most common medium-weight machines, being particularly popular with the Avalon Hussars, and was earmarked for use by several newly forming Federated Commonwealth regiments after the Fourth Succession War. However, interest in the design began to wane in later years, and while the 7D refit of 3047 with its use of lostech generated higher sales, Achernar was forced to heavily lobby House Davion to keep buying them. Ironically the run-up to the FedCom Civil War and the conflict itself was enough to increase demand and prevent the company from retooling its Dervish lines. In the wake of the civil war the Federated Suns continued purchasing upgraded Dervishes while the Lyran Alliance adopted the Griffin. Older models can be found in militia and reserve units in other armies, while small mercenary outfits have found the 'Mech to be durable and easy to maintain. During the Jihad a number of manufacturers began manufacturing \"retrotech\" 'Mechs using details of the original production standard of primitive 'Mech designs; one of the designs that was reintroduced to service as a part of this retrotech manufacturing production was the original Dervish, with companies such as Sword of the Prophet Enterprises of Algedi producing primitive Dervishes; production at some sites continued beyond 3079.",
+        "manufacturer": [
+            "Achernar Battlemechs"
+        ],
+        "primaryfactory": [
+            "New Avalon"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Dorwinion Standard 55T",
+            "engine": "Core Tek 275 XL",
+            "armor": "Maximillian 105",
+            "jumpjet": "Swingline X-100",
+            "communications": "Achernar Electronics HID-21",
+            "targeting": "Federated Hunter Mk. II"
+        }
+    }
+}

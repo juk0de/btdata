@@ -1,0 +1,248 @@
+{
+    "chassis": "Thug",
+    "model": "THG-12E",
+    "mul_id": 3207,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3067,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "rugged_1"
+    ],
+    "mass": 80,
+    "engine": "320 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 26
+        },
+        "right_arm": {
+            "pips": 26
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 38
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 34
+        },
+        "right_leg": {
+            "pips": 34
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISSRM6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 15
+            }
+        },
+        "2": {
+            "ISSRM6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISImprovedC3CPU": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISERPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISERPPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISERPPC",
+            "9": "ISERPPC",
+            "10": "ISERPPC",
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISERPPC",
+            "9": "ISERPPC",
+            "10": "ISERPPC",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISSRM6",
+            "5": "ISSRM6",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISSRM6",
+            "8": "ISSRM6",
+            "9": "ISSRM6 Ammo",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISImprovedC3CPU",
+            "12": "ISImprovedC3CPU"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "history:The Thug sought to directly address some of the challenges which faced the Warhammer, chief of which was to increase armor protection without sacrificing firepower. When compared side-by-side, the Thug has a great many advantages over the Warhammer, yet it never wholly replaced the venerable 'Mech. Still the Thug proved popular enough that Maltex Corporation was forced to contract Earthwerks Incorporated to produce the Thug on Keystone in order to meet demand. Although it has had its detractors, the Thug has proven itself for over five hundred years to be the quintessential \"zombie 'Mech.\" Production of the Thug from Maltex's original factory on Errai ceased when it was destroyed in 2835, one of many causalities of the Succession Wars, leaving only Earthwerks to continue building new Thugs at a rate of twelve per year. Unfortunately the same terrible conflict resulted in the loss of much advanced knowledge and technology, threatening their ability to keep even this meager production rate up. In a twist of fate it was the Warhammer which helped keep the Thug production line alive: with the loss of their original PPC weaponry, Earthwerks instead reworked the design to make use of the extensive stockpile of Donal PPCs used by the Warhammer, allowing new Thugs to be built and repairs to be made more easily. Beyond the few still in service to the Great Houses the largest user of Thugs was ComStar, a fact confirmed upon the reveal of their Com Guards. Eventually the recovery of lostech would allow both Earthwerks and Maltex to restart production of original-model Thugs during the 3050s. These were supplanted by new variants which, following the formation of the Second Star League, were supplied to ComStar, the SLDF, the Draconis Combine and Federated Suns. New Thugs were also built for the Word of Blake and those forces of the Free Worlds League aligned with them during the Jihad."
+        }
+    },
+    "fluff": {
+        "overview": "The Thug was designed by Maltex Corporation as a direct competitor to the popular Warhammer BattleMech. First seeing production in 2572.",
+        "capabilities": "The armament on the Thug is a very simple, yet effective, combination. Take an extremely powerful long range 'Mech, extend its range and accuracy, and put it in the hands of the Inner Sphere's two most secretive organizations, and you have the 12E Thug. Built for both ComStar and the Word of Blake in 3067 the PPCs have been upgraded to ER PPCs and an improved C3 computer has been added. To make the change to a C3i computer, a double heat sink, one ton of ammunition, and the corresponding CASE were removed",
+        "manufacturer": [
+            "Maltex Corporation",
+            "Earthwerks Incorporated"
+        ],
+        "primaryfactory": [
+            "Errai",
+            "Keystone"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Earthwerks VOL Endo Steel",
+            "engine": "Pitban 320",
+            "armor": "Mitchell Argon with CASE",
+            "communications": "Colmax 90",
+            "targeting": "TharHes Ares-5"
+        }
+    }
+}

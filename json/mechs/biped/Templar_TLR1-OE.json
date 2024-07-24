@@ -1,0 +1,273 @@
+{
+    "chassis": "Templar",
+    "model": "TLR1-OE",
+    "mul_id": 5708,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3064,
+    "source": "Record Sheets: 3067 Unabridged",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "mass": 85,
+    "engine": "340 XL Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 13,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 28
+        },
+        "right_arm": {
+            "pips": 28
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 44
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 36
+        },
+        "right_leg": {
+            "pips": 36
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "LRM 15": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Small Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "C3 Master with TAG": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISDoubleHeatSink (omnipod)",
+            "5": "ISDoubleHeatSink (omnipod)",
+            "6": "ISERPPC (omnipod)",
+            "7": "ISERPPC (omnipod)",
+            "8": "ISERPPC (omnipod)",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "LRM 15 (omnipod)",
+            "4": "LRM 15 (omnipod)",
+            "5": "LRM 15 (omnipod)",
+            "6": "ISArtemisIV (omnipod)",
+            "7": "LRM 15 (omnipod)",
+            "8": "LRM 15 (omnipod)",
+            "9": "LRM 15 (omnipod)",
+            "10": "ISArtemisIV (omnipod)",
+            "11": "IS Endo Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISMediumPulseLaser (omnipod)",
+            "5": "Small Laser (omnipod)",
+            "6": "ISC3MasterUnit (omnipod)",
+            "7": "ISC3MasterUnit (omnipod)",
+            "8": "ISC3MasterUnit (omnipod)",
+            "9": "ISC3MasterUnit (omnipod)",
+            "10": "ISC3MasterUnit (omnipod)",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISMediumPulseLaser (omnipod)",
+            "5": "IS Ammo LRM-15 Artemis-capable (omnipod)",
+            "6": "IS Ammo LRM-15 Artemis-capable (omnipod)",
+            "7": "IS Ammo LRM-15 Artemis-capable (omnipod)",
+            "8": "IS Ammo LRM-15 Artemis-capable (omnipod)",
+            "9": "IS Ammo LRM-15 Artemis-capable (omnipod)",
+            "10": "ISCASE",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISGuardianECMSuite (omnipod)",
+            "12": "ISGuardianECMSuite (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "capabilities": "A commander's configuration, this variation carries a C3 Master Computer to coordinate fire. To protect itself from hostile electronic systems, it carries a Guardian ECM Suite. Offensively it carries a pair of Medium Pulse Lasers, twin Artemis IV-enhanced LRM-15s, and an ER PPC. A Small Laser has also been included.",
+        "deployment": "The Templar is built on a lightweight Kallon Type XIX Endo Steel chassis and is powered by a KalTek 340 XL engine that gives the 'Mech a top speed of 64.8 km/h while sacrificing durability. The Templar has thirteen fixed double heat sinks and is armored with sixteen and a half tons of Starshield A armor with CASE fixed in the right torso. Overall, this allows the Templar to have forty tons of free pod space for weapons and equipment which the 'Mech uses effectively in its various configurations.",
+        "history": "With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own considerable financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield.",
+        "manufacturer": [
+            "Kallon Industries"
+        ],
+        "primaryfactory": [
+            "Talon"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Kallon Type XIX Endo Steel",
+            "engine": "KalTek 340 Extralight",
+            "armor": "Starshield A with CASE",
+            "communications": "Newberg Telescan 17",
+            "targeting": "Spar 3C MegaTrak"
+        }
+    }
+}

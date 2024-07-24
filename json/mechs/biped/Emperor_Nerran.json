@@ -1,0 +1,224 @@
+{
+    "chassis": "Emperor",
+    "model": "EMP-6A (Nerran)",
+    "mul_id": 965,
+    "source": "Record Sheets: Unique Mechs",
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3064,
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "command_mech"
+    ],
+    "weaponquirk": "imp_cooling:LA:3:Large Laser",
+    "mass": 90,
+    "engine": "270 XL Engine (Inner Sphere)",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double (Inner Sphere)"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 30
+        },
+        "right_arm": {
+            "pips": 30
+        },
+        "left_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 48
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 38
+        },
+        "right_leg": {
+            "pips": 38
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISLargeLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISERPPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISLBXAC10": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 20
+            }
+        },
+        "4": {
+            "CLGaussRifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 16
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLargeLaser",
+            "5": "ISLargeLaser",
+            "6": "ISLBXAC10",
+            "7": "ISLBXAC10",
+            "8": "ISLBXAC10",
+            "9": "ISLBXAC10",
+            "10": "ISLBXAC10",
+            "11": "ISLBXAC10",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGaussRifle",
+            "8": "CLGaussRifle",
+            "9": "CLGaussRifle",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": "ISDouble Heat Sink"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISCASE",
+            "5": "ISLBXAC10 CL Ammo",
+            "6": "ISLBXAC10 Ammo",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": "ISDouble Heat Sink"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "ISCASE",
+            "5": "ISERPPC",
+            "6": "ISERPPC",
+            "7": "ISERPPC",
+            "8": "CLGauss Ammo",
+            "9": "CLGauss Ammo",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": "ISDouble Heat Sink"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Jump Jet",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": null
+        }
+    }
+}

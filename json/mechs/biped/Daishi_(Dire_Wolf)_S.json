@@ -1,0 +1,301 @@
+{
+    "chassis": "Daishi",
+    "clanname": "Dire Wolf",
+    "model": "S",
+    "mul_id": 819,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3050,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "imp_target_long",
+        "difficult_eject"
+    ],
+    "mass": 100,
+    "engine": "300 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 20,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 14
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 41
+        },
+        "right_leg": {
+            "pips": 41
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "LB 20-X AC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "4": {
+            "Machine Gun": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Streak SRM 4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Pulse Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "7": {
+            "Machine Gun": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "Streak SRM 4": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "9": {
+            "Medium Pulse Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLDoubleHeatSink (omnipod)",
+            "8": "CLDoubleHeatSink (omnipod)",
+            "9": "CLDoubleHeatSink (omnipod)",
+            "10": "CLDoubleHeatSink (omnipod)",
+            "11": "CLLargePulseLaser (omnipod)",
+            "12": "CLLargePulseLaser (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLLBXAC20 (omnipod)",
+            "4": "CLLBXAC20 (omnipod)",
+            "5": "CLLBXAC20 (omnipod)",
+            "6": "CLLBXAC20 (omnipod)",
+            "7": "CLLBXAC20 (omnipod)",
+            "8": "CLLBXAC20 (omnipod)",
+            "9": "CLLBXAC20 (omnipod)",
+            "10": "CLLBXAC20 (omnipod)",
+            "11": "CLLBXAC20 (omnipod)",
+            "12": "Clan LB 20-X Cluster Ammo (omnipod)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "Jump Jet (omnipod)",
+            "8": "CLStreakSRM4 (omnipod)",
+            "9": "CLMediumPulseLaser (omnipod)",
+            "10": "CLMediumPulseLaser (omnipod)",
+            "11": "CLMG (omnipod)",
+            "12": "Clan Streak SRM 4 Ammo (omnipod)"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "Jump Jet (omnipod)",
+            "6": "CLMediumPulseLaser (omnipod)",
+            "7": "CLMediumPulseLaser (omnipod)",
+            "8": "CLMG (omnipod)",
+            "9": "Clan LB 20-X AC Ammo (omnipod)",
+            "10": "Clan LB 20-X Cluster Ammo (omnipod)",
+            "11": "Clan LB 20-X AC Ammo (omnipod)",
+            "12": "Clan Machine Gun Ammo - Full (omnipod)"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLStreakSRM4 (omnipod)",
+            "12": "Jump Jet (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLMediumPulseLaser (omnipod)",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLAntiPersonnelPod (omnipod)",
+            "6": "CLAntiPersonnelPod (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so.",
+        "capabilities": "The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for \"Great Death\") by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.",
+        "deployment": "The S configuration is intended for the close confines of urban and jungle warfare. The S configurations primary weapon is a massive LB-X Autocannon/20 which is capable of disabling most light and medium 'Mechs in a single blast. This is backed up by a single Large Pulse Laser to provide some long range firepower should the Dire Wolf S be caught in the open. Additional short range firepower is provided by five Medium Pulse Lasers and two Streak SRM-4 launchers. Two Anti-Personnel Pods and two Machine Guns provide exceptional anti infantry capabilities. The S configuration has added mobility with three jump jets allowing it to jump up to ninety meters.",
+        "history": "The Dire Wolf was the brainchild of the Clan Wolf scientist caste, but was actually first produced by Clan Smoke Jaguar. Hearing rumors that Clan Wolf was developing the \"Ultimate Assault OmniMech\", the Jaguars won the plans and production rights in a trial that, rumor has it, was fought dishonorably. Production commenced on Huntress in 3010. In 3019, Clan Wolf began production of the OmniMech on Strana Mechty as well; Star Colonel Ulric won a trial of possession to expand manufacture into Clan Wolf. Beyond the limited manufacture of the Dire Wolf on Outreach, all Dire Wolves outside of Clans Smoke Jaguar and Wolf (or the Wolf's Dragoons) are either gifts, isorla, or were acquired through trade.",
+        "manufacturer": [
+            "Phan Industriplex",
+            "Wolf Clan Site #1",
+            "Svarstaad Industriplex Delta"
+        ],
+        "primaryfactory": [
+            "Huntress",
+            "Strana Mechty",
+            "Svarstaad"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Titan HX",
+            "engine": "Starfire 300 XL",
+            "armor": "Compound 12B2 Standard",
+            "communications": "TJ6 \u201cBell\u201d Integrated Communication System",
+            "targeting": "Mars System 9"
+        }
+    }
+}

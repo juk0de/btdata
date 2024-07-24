@@ -1,0 +1,259 @@
+{
+    "chassis": "Jenner",
+    "model": "JR7-K (Grace)",
+    "mul_id": 1696,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3039,
+    "source": "Starterbook: Sword and Dragon",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Scout",
+    "quirks": [
+        "no_arms"
+    ],
+    "mass": 35,
+    "engine": "245 Fusion Engine(IS)",
+    "structure": {
+        "type": "Endo Steel Prototype",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 11
+        },
+        "left_torso": {
+            "pips": 8
+        },
+        "right_torso": {
+            "pips": 8
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 5,
+    "armor": {
+        "type": "Ferro-Fibrous Prototype",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 8
+        },
+        "right_arm": {
+            "pips": 8
+        },
+        "left_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "head": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Narc": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Medium Laser",
+            "4": "Ferro-Fibrous Prototype",
+            "5": "Ferro-Fibrous Prototype",
+            "6": "Ferro-Fibrous Prototype",
+            "7": "Ferro-Fibrous Prototype",
+            "8": "Ferro-Fibrous Prototype",
+            "9": "Ferro-Fibrous Prototype",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Medium Laser",
+            "4": "Endo Steel Prototype",
+            "5": "Endo Steel Prototype",
+            "6": "Endo Steel Prototype",
+            "7": "Endo Steel Prototype",
+            "8": "Ferro-Fibrous Prototype",
+            "9": "Ferro-Fibrous Prototype",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "ISNarcBeacon",
+            "4": "ISNarcBeacon",
+            "5": "ISNarc Pods",
+            "6": "ISNarc Pods",
+            "7": "ISNarc Pods",
+            "8": "Ferro-Fibrous Prototype",
+            "9": "Ferro-Fibrous Prototype",
+            "10": "Ferro-Fibrous Prototype",
+            "11": "Ferro-Fibrous Prototype",
+            "12": "Ferro-Fibrous Prototype"
+        },
+        "right_torso": {
+            "1": "Jump Jet",
+            "2": "Jump Jet",
+            "3": "Endo Steel Prototype",
+            "4": "Endo Steel Prototype",
+            "5": "Endo Steel Prototype",
+            "6": "Endo Steel Prototype",
+            "7": "Endo Steel Prototype",
+            "8": "Endo Steel Prototype",
+            "9": "Endo Steel Prototype",
+            "10": "Endo Steel Prototype",
+            "11": "Endo Steel Prototype",
+            "12": "Endo Steel Prototype"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Ferro-Fibrous Prototype"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Heat Sink",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous Prototype",
+            "6": "Ferro-Fibrous Prototype",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel Prototype",
+            "6": "Endo Steel Prototype",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Jenner became the standard light warhorse of the DCMS with the outbreak of the First Succession War, though its reputation would be forever tarnished following its role in the Kentares Massacre.",
+        "capabilities": "Five Smithson Lifter jump jets, two in each side torso and one in the center torso gave it a jumping distance of 150 meters, while its 245-rated Magna fusion engine allowed for a top speed of over 118 km/h, making it faster than most other 'Mechs. A favorite tactic of Jenner lances was to gang up on larger 'Mechs and unleash a devastating alpha strike. One or two of the 'Mechs would be equipped with inferno rounds, so even if the enemy survived the first strike they were badly damaged and running hot, allowing the Jenners to jump to safety and cool down themselves. A few seconds later the attack would be repeated until finally, the enemy was dead. It was also common practice to pair the Jenner with another Combine 'Mech, the Panther, creating a deadly combination of sheer speed and firepower with the slower Panther provided cover fire for the Jenner's flanking attack. The Jenner was such a favorite among Kurita MechWarriors that it became the benchmark against which all other newly designed Combine 'Mechs were compared.",
+        "deployment": "Known as \"Cat\" among the MechWarriors of Sorenson's Sabres, the personal 'Mech of Grace Shiro has been extensively modified over the years to aid her role as the unit's spotter. Originally trading two Medium Lasers for extra armor, in the lead-up to the War of 3039 her 'Mech was outfitted a less-refined experimental Endo Steel chassis and Ferro-Fibrous Armor, allowing the SRM launcher to be replaced with an advanced Octagon Missile Magnet Narc Missile Beacon with three tons of Homing Pods.",
+        "history": "Construction of new Jenners continued at Diplan MechYard's factory on Ozawa until a raw mineral shortage caused a halt in 2815, though they continued to produce new chassis. In 2823 production resumed on Ozawa, with some three thousand chassis shipped to Diplan's subsidiary on Luthien for final assembly, which itself was retooling to begin full-scale production; by 2830 both production lines were producing 1,350 Jenners a year. The sheer destruction of the Succession Wars finally took their toll when the last Jenner factory was destroyed in 2848, though so many Jenners had been produced by then that nearly every DCMS battalion had at least one of these 'Mechs well into the War of 3039. While the other Successor States eventually managed to procure operational Jenners (every AFFS regiment along the Combine border had at least one), the design remained in predominant use by House Kurita.",
+        "manufacturer": [
+            "Luthien Armor Works",
+            "Diplan 'Mechyards",
+            "Luthien Armor Works",
+            "Luthien Armor Works",
+            "Diplan 'Mechyards"
+        ],
+        "primaryfactory": [
+            "Luthien",
+            "Abiy Adi",
+            "New Samarkand",
+            "Ozawa"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Alshain Class 48",
+            "engine": "Magna 245",
+            "armor": "New Samarkand Royal Ferro-Fibrous with CASE",
+            "jumpjet": "Lexington Ltd. Lifters",
+            "communications": "Sipher Security Plus",
+            "targeting": "Matabushi Sentinel"
+        }
+    }
+}

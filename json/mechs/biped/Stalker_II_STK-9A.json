@@ -1,0 +1,277 @@
+{
+    "chassis": "Stalker II",
+    "model": "STK-9A",
+    "mul_id": 6515,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3137,
+    "source": "TRO: 3145 Free Worlds League",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "combat_computer",
+        "pro_actuator",
+        "no_arms"
+    ],
+    "mass": 85,
+    "engine": "255 Fusion Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Torso-Mounted Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "IS Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Hardened",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 23
+        },
+        "right_arm": {
+            "pips": 23
+        },
+        "left_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 25
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 36
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 25
+        },
+        "right_leg": {
+            "pips": 25
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Extended LRM 10": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Extended LRM 10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "Medium Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Medium Laser",
+            "4": "Medium Laser",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Medium Laser",
+            "4": "Medium Laser",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Life Support",
+            "2": "Extended LRM 10",
+            "3": "Extended LRM 10",
+            "4": "Extended LRM 10",
+            "5": "Extended LRM 10",
+            "6": "IS Ammo Extended LRM-10",
+            "7": "IS Ammo Extended LRM-10",
+            "8": "ISCASEII",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Life Support",
+            "2": "Extended LRM 10",
+            "3": "Extended LRM 10",
+            "4": "Extended LRM 10",
+            "5": "Extended LRM 10",
+            "6": "IS Ammo Extended LRM-10",
+            "7": "IS Ammo Extended LRM-10",
+            "8": "ISCASEII",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Fusion Engine",
+            "7": "Fusion Engine",
+            "8": "Fusion Engine",
+            "9": "Medium Laser",
+            "10": "Medium Laser",
+            "11": "Cockpit",
+            "12": "Sensors"
+        },
+        "head": {
+            "1": "Sensors",
+            "2": "Sensors",
+            "3": "Medium Laser",
+            "4": "Medium Laser",
+            "5": "ISTargeting Computer",
+            "6": "ISTargeting Computer",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Based on the original Star League-era BattleMech, the Stalker II is a complete top-to-bottom redesign that takes advantage of technological advancements gained since the last era of open warfare ended.",
+        "capabilities": "One of the aspects that contributed to the original Stalker's success was variants that used Star League-era fire control systems. In order to recapture this particular aspect of the old design, the Stalker II was fitted with a modern Targeting Computer that ties into its eight Magna Mk. II Medium Lasers. For its long-range firepower, the 'Mech relies on two Irian Weapon Works 10-Tubed Extended-Range LRM Launchers with four tons of ammunition tied to them.",
+        "deployment": "Designed to take great deal of punishment, the Stalker II's armor protection consists of twenty-seven tons of Riese-675 Hardened Armor with CASE II. The Stalker II is powered by a Strand rated-255 Fusion Engine, the very same model used to power its ancient brethren over the centuries. The old power plant proved unable to overcome the weight of new heavy armor and causes the 'Mech's maximum speed to be slowed down to only 43 km/h. Adding to these protected aspects of the design, the cockpit has been moved to the torso, while a Compact Gyro is installed to make room for it.",
+        "history": "Its conception was propelled by the events of Gray Monday in 3132. Irian engineers on Shiro III reviewed records of the classic Stalker over its service life and focused their efforts on taking the best of those qualities for their new design. These efforts resulted in the Stalker II, giving troops an incredibly durable assault 'Mech that is able to withstand horrific amounts of punishment. First deployed by the armed forces of the Duchy of Andurien in 3137, the Stalker II was deployed in all of its major commands. The 'Mech first saw action during the Duchy of Oriente's invasion of Andurien. Shortly after the conflict, Irian began selling the Stalker II to Andurien allies as a means of drumming up needed cash for the Duchy. Sales of the design would see the 'Mech deployed with various combat units within the Capellan Confederation and the now-defunct Marik-Stewart Commonwealth. The Stalker II made a name for itself during the Commonwealth's last days, fighting against Lyran and Clan Wolf forces. In the fighting on Rexburg, two Stalker IIs from the Thirteenth Atrean Dragoons engaged in a Clan trial to buy time for the rest of their company to withdraw from the battlefield. Each Stalker II engaged an entire Nova of light 'Mechs and combat vehicles. The trial by combat ended when one of the Stalker IIs fell to its foes and the other defeated its opponents, even though the pilot eventually succumbed to neurohelmet feedback effects.",
+        "manufacturer": [
+            "Irian BattleMechs Unlimited"
+        ],
+        "primaryfactory": [
+            "Shiro III"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Irian Chassis Class 38 Endo Steel",
+            "engine": "Strand 255",
+            "armor": "Riese-675 Hardened with CASE II",
+            "communications": "Irian E.A.R.",
+            "targeting": "Wasat Aggressor with Advanced Targeting Computer"
+        }
+    }
+}

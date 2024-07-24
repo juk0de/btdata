@@ -1,0 +1,264 @@
+{
+    "chassis": "Tomahawk",
+    "model": "C",
+    "mul_id": 6301,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3063,
+    "source": "TRO: 3145 The Clans",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "mass": 100,
+    "engine": "300 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 23,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 46
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 41
+        },
+        "right_leg": {
+            "pips": 41
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "Large Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ATM 12": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ATM 12": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Small Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLDoubleHeatSink (omnipod)",
+            "8": "CLDoubleHeatSink (omnipod)",
+            "9": "CLLargePulseLaser (omnipod)",
+            "10": "CLLargePulseLaser (omnipod)",
+            "11": "CLLargePulseLaser (omnipod)",
+            "12": "CLLargePulseLaser (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLDoubleHeatSink (omnipod)",
+            "8": "CLDoubleHeatSink (omnipod)",
+            "9": "CLLargePulseLaser (omnipod)",
+            "10": "CLLargePulseLaser (omnipod)",
+            "11": "CLLargePulseLaser (omnipod)",
+            "12": "CLLargePulseLaser (omnipod)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLATM12 (omnipod)",
+            "6": "CLATM12 (omnipod)",
+            "7": "CLATM12 (omnipod)",
+            "8": "CLATM12 (omnipod)",
+            "9": "CLATM12 (omnipod)",
+            "10": "Clan Ammo ATM-12 (omnipod)",
+            "11": "Clan Ammo ATM-12 (omnipod)",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLATM12 (omnipod)",
+            "6": "CLATM12 (omnipod)",
+            "7": "CLATM12 (omnipod)",
+            "8": "CLATM12 (omnipod)",
+            "9": "CLATM12 (omnipod)",
+            "10": "Clan Ammo ATM-12 (omnipod)",
+            "11": "Clan Ammo ATM-12 (omnipod)",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLDoubleHeatSink (omnipod)",
+            "12": "CLDoubleHeatSink (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLERSmallLaser (omnipod)",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Tomahawk is an assault-class OmniMech designed by Clan Wolf in 3063. The 'Mech ultimately failed to enter production and remained a prototype, presumably due at least in part to the Clan's troubles during the Jihad.",
+        "deployment": "The C configuration comes with a large array of Pulse Lasers and Advanced Tactical Missile batteries. Four Large Pulse Lasers are mounted in the arms, with the lower arm actuators being removed. Two large ATM-12 launchers are fitted in each of the 'Mech side torso, with two tons of ammunition split between each of them. Ten additional Double Heat Sinks are fitted throughout the 'Mech.",
+        "history": "One these prototypes was piloted by Nathan Wolf in a Circle of Equals on Tamar when he attained the rank of Star Colonel. Although he was victorious against a Thor, it was noted that the Tomahawk still suffered from numerous system errors and gremlins and was not yet ready for mass production. Still, Nathan retained the 'Mech for his subsequent assignment to Omega Galaxy and successfully piloted it in combat on Novo Cressidas in the Star's End system on 11 April 3064. After the Jihad, the design was revisited and improved, and became the Tomahawk II which did enter line production.",
+        "manufacturer": [
+            "Clan Wolf"
+        ],
+        "primaryfactory": [
+            "Unknown"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Unspecified",
+            "engine": "Unspecified",
+            "armor": "Unspecified",
+            "jumpjet": "Unspecified",
+            "communications": "Unspecified",
+            "targeting": "Unspecified"
+        }
+    }
+}

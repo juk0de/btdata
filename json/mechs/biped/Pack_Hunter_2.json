@@ -1,0 +1,252 @@
+{
+    "chassis": "Pack Hunter",
+    "model": "2",
+    "mul_id": 2393,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3065,
+    "source": "TRO: 3060",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "reinforced_legs"
+    ],
+    "mass": 30,
+    "engine": "210 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Micro Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "2": {
+            "ER PPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Micro Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "CLDoubleHeatSink",
+            "8": "CLDoubleHeatSink",
+            "9": "Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "CLERMicroLaser",
+            "7": "CLERMicroLaser",
+            "8": "CLERMicroLaser",
+            "9": "CLERMicroLaser",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "CLERPPC",
+            "7": "CLERPPC",
+            "8": "CLERMicroLaser",
+            "9": "CLERMicroLaser",
+            "10": "CLERMicroLaser",
+            "11": "CLERMicroLaser",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo Steel",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Fast and with a sharp bite, the Pack Hunter is the first new design produced by Clan Wolf-in-Exile on Arc-Royal.",
+        "capabilities": "Built around an Endo Steel skeleton, standard 210 Fusion Engine and seven jump jets, a max speed of more than a hundred kilometers per hour and an impressive jumping range make the Pack Hunter an excellent flanking or vanguard BattleMech. Though lacking the high-powered sensor equipment that would make it an excellent scout, its ability to handle itself in nearly any situation makes up for that perceived deficiency. The use of a standard engine its internal Double Heat Sinks make the 'Mech cheaper to manufacture.",
+        "deployment": "This variant was introduced during 3065. It adds an XL Engine to mount eight General Systems ER Micro Lasers and an additional double heat sink. It also carries the maximum amount of Ferro-Fibrous armor possible. Even with the additional heat sink, the Pack Hunter 2 is at risk to high heat levels",
+        "history": "Following their arrival on Arc-Royal in the wake of the Refusal War, Khan Phelan Kell's newly Exiled Wolves quickly set about constructing production facilities to support their touman. Though many Exiled Wolf Warriors pushed for a heavy flagship OmniMech that would command attention from the other Clans as their first BattleMech, Khan Kell pragmatically realized that a second-line machine was of more immediate usefulness as well as serving as a proof-of-concept for the new production lines, allowing problems to be identified and fixed without the risk of producing a flawed OmniMech. Showing his bias for lighter, faster designs, Khan Phelan Kell directed his scientists to create a 'Mech offering \"impressive speed but with a bite. A real pack hunter.\" Production of the Pack Hunter also showed the strength of the Exiled Wolves' ties to the Kell Hounds, the 'Mech carrying standard composite armor and communication equipment manufactured by the Hounds and purchased as part of a trade agreement for access to Endo Steel from an Exiled Wolf orbital factory. While the lion share of Pack Hunters were deployed in Clan Wolf-in-Exile's second-line and garrison clusters as fast as they can be produced, the Kell Hounds deployed a few in their own regiments. Intended for obsolescence from the very start, repeated delays and false starts would ensure the Pack Hunter saw continued production until the introduction not of a new OmniMech, but the updated and upgraded Pack Hunter II in 3077 instead. Amazingly the original design would reappear over seventy years later during the Dark Ages thanks to the Wolf Empire's capture of the Technicron Manufacturing/Irian BattleMechs Unlimited plant on Tongatapu. Rather than upgrade the Tongatapu Hermes 4K line to Clan standards, the Empire instead used it as the basis to reintroduce the Pack Hunter. Though how the Empire acquired the plans is unknown, the decision was intended not as a snub to the Exiled Wolves but an attempt at enticing its survivors to join the Empire following the fall of Arc-Royal.",
+        "manufacturer": [
+            "WC Site 3"
+        ],
+        "primaryfactory": [
+            "Arc-Royal"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type AR1 Endo Steel",
+            "engine": "210 Light Force XL",
+            "armor": "Royal-7a Ferro-Fibrous",
+            "jumpjet": "Leaper Model, L5",
+            "communications": "K9 Communications System",
+            "targeting": "Hunter (3) Dedicated TTS"
+        }
+    }
+}

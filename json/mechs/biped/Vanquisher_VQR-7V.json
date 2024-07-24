@@ -1,0 +1,260 @@
+{
+    "chassis": "Vanquisher",
+    "model": "VQR-7V",
+    "mul_id": 5722,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3071,
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "stable",
+        "bad_rep_clan",
+        "bad_rep_is",
+        "no_arms"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "gyro": "Heavy Duty Gyro",
+    "cockpit": "Small Cockpit",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 45
+            },
+            "rear": {
+                "pips": 14
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISImprovedC3CPU": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISRotaryAC5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 100
+            }
+        },
+        "3": {
+            "ISRotaryAC5": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISHeavyPPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISLightPPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISLightPPC": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISRotaryAC5",
+            "4": "ISRotaryAC5",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "ISRotaryAC5",
+            "8": "ISRotaryAC5",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISRotaryAC5",
+            "4": "ISRotaryAC5",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "ISRotaryAC5",
+            "8": "ISRotaryAC5",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "left_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISLightPPC",
+            "5": "ISLightPPC",
+            "6": "IS Rotary AC/5 Ammo",
+            "7": "IS Rotary AC/5 Ammo",
+            "8": "IS Rotary AC/5 Ammo",
+            "9": "IS Rotary AC/5 Ammo",
+            "10": "IS Rotary AC/5 Ammo",
+            "11": "ISCASE",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "ISDouble Heat Sink",
+            "2": "ISDouble Heat Sink",
+            "3": "ISDouble Heat Sink",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISHeavyPPC",
+            "8": "ISHeavyPPC",
+            "9": "ISHeavyPPC",
+            "10": "ISHeavyPPC",
+            "11": "ISLightPPC",
+            "12": "ISLightPPC"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISImprovedC3CPU",
+            "12": "ISImprovedC3CPU"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "Endo-Steel",
+            "6": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree.",
+        "capabilities": "In order to allow it to carry as heavy a payload as possible without sacrificing durability, the 'Mech is built on a Hollis Alteration Mark VI Endo Steel that carries a Vlar 300 fusion engine, which propels the 'Mech to a top speed of 54 km/h. The Vanquisher is protected by nineteen and a half tons of armor with CASE in both side torsos to protect the 'Mech from going down in an ammunition explosion.",
+        "deployment": "This variant also uses a Small Cockpit. It also uses a Heavy Duty Gyro. The traditional Vanquisher weaponry has been replaced by a Rotary AC/5 in each arm, while the side torsos each carry a Light PPC. For a a heavy knockout punch, there is a Heavy PPC in the right torso.",
+        "history": "The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request.",
+        "manufacturer": [
+            "Skobel MechWorks"
+        ],
+        "primaryfactory": [
+            "Russia",
+            "Terra"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hollis Alteration Mark VI",
+            "engine": "Vlar 300",
+            "armor": "Aldis Plate with CASE",
+            "communications": "Skobel Wave VI Comm with C3i Computer",
+            "targeting": "Falcon 12b Watcher"
+        }
+    }
+}

@@ -1,0 +1,276 @@
+{
+    "chassis": "Archer",
+    "model": "ARC-7S",
+    "mul_id": 85,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "command_mech",
+        "stable",
+        "ubiquitous_is"
+    ],
+    "mass": 70,
+    "engine": "280 Light Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Heavy Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "Streak SRM 2": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Streak SRM 2": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 20": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "LRM 20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Medium Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Small Pulse Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISStreakSRM2",
+            "5": "Heavy Ferro-Fibrous",
+            "6": "Heavy Ferro-Fibrous",
+            "7": "Heavy Ferro-Fibrous",
+            "8": "Heavy Ferro-Fibrous",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISStreakSRM2",
+            "5": "Heavy Ferro-Fibrous",
+            "6": "Heavy Ferro-Fibrous",
+            "7": "Heavy Ferro-Fibrous",
+            "8": "Heavy Ferro-Fibrous",
+            "9": "Heavy Ferro-Fibrous",
+            "10": "Heavy Ferro-Fibrous",
+            "11": "Heavy Ferro-Fibrous",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "LRM 20",
+            "4": "LRM 20",
+            "5": "LRM 20",
+            "6": "LRM 20",
+            "7": "LRM 20",
+            "8": "ISArtemisIV",
+            "9": "IS Ammo LRM-20 Artemis-capable",
+            "10": "IS Ammo LRM-20 Artemis-capable",
+            "11": "IS Streak SRM 2 Ammo",
+            "12": "ISCASE"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "LRM 20",
+            "4": "LRM 20",
+            "5": "LRM 20",
+            "6": "LRM 20",
+            "7": "LRM 20",
+            "8": "ISArtemisIV",
+            "9": "IS Ammo LRM-20 Artemis-capable",
+            "10": "IS Ammo LRM-20 Artemis-capable",
+            "11": "IS Streak SRM 2 Ammo",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERMediumLaser",
+            "12": "Heavy Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISSmallPulseLaser (R)",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heavy Ferro-Fibrous",
+            "6": "Heavy Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heavy Ferro-Fibrous",
+            "6": "Heavy Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "One of the most iconic BattleMechs is the Archer, with its low-slung torso, enormous fists, and missile-bay covers. The Archer was first manufactured in 2474 for heavy-hitting, long-range brawling, and fire-support.",
+        "capabilities": "Two enormous missile launchers with tons of ammo power the Archer. The missiles were formidable, but their short-range inaccuracy required four medium lasers, two rear-facing and one in each arm. Enlarged hand actuators allow the design to undertake severe physical attacks and transport captured supplies during raids. The cockpit of the Archer is situated beneath the center midsection, giving the pilot a unique battlefield view. The torso armor belt above the cockpit protects the gyro and engine from the superior armor. Many pilots initially entered battle with their missile bays locked to hide the 'Mech's real capabilities, leading some to believe it was a close-combat design. As the Archer became famous, this pretext became meaningless. Archer pilots rarely learn new skills, but this hasn't tarnished the 'Mech's reputation.",
+        "deployment": "The Archer 7S was an upgrade of the 6S model, and was introduced in 3070. It used Durallex Guardian Heavy Ferro-Fibrous armor with CASE in place of the Endo Steel structure used on the 6S. The 7S had two LRM-20 launchers with Artemis IV for increased missile accuracy and, for close range defense, carried a Diverse Optics ER medium laser and a rear-facing Magna 200P small pulse laser, in addition to the pair of Hovertec Streak SRM-2 launchers.",
+        "history": "The design was constructed at the request of Terran Hegemony's HAF for a new \"heavy fire support BattleMech\" and took nearly nine years to complete. This was owing in part to the design team, which included former HAF MechWarriors, field technicians, and general officer advisors, and the company's engineer team, led by Supervising Engineer Linn Tommi, disputing over theoretical and practical concerns. The intricate engineering proposal presented to the HAF includes complicated, difficult-to-repair stabilizing technology and powerful, computer-slaved sensors designed to make the Archer the most accurate BattleMech in existence. However, the final prototype abandoned these criteria in favor of a sturdier, blockier, and more heavily armored frame that is still in use today. It was so effective that it remained the Hegemony standard for more than a decade and a half, until technological developments allowed Earthwerks to produce a more efficient variant. The Archer, which debuted in 2474, quickly became one of the most well-known and commonly deployed BattleMechs. The Archer was a contemporary of 'Mechs such as the Thunderbolt and the Banshee, and its primary job was fire support, though early in its combat career it was regarded an attack 'Mech capable of long-range brawling, and it was deployed in a variety of different duties. More than 100,000 Archers were built between its introduction and the outbreak of the First Succession War, with tens of thousands of variation types produced over the centuries. Though many were destroyed or deconstructed for spare components, they remained a common sight in the Great House troops, with six distinct manufacturers creating new Archers throughout the Succession Wars. The retrieval of the Helm Memory Core had a significant impact on the creation of the Archer. New variations were created that used rediscovered lostech, giving the venerable 'Mech a few new tricks to surprise its opponents. By the time of the Clan Invasion, most of the major manufacturers had switched over to building these new variants for the Free Worlds League, Federated Commonwealth, Free Rasalhague Republic, and Wolf's Dragoons; only Vandenberg Mechanized Industries continued to build original ARC-2R Archers for the Taurian Concordat. As technology advanced, newer, more advanced models of the Archer were produced.",
+        "manufacturer": [
+            "Bowie Industries"
+        ],
+        "primaryfactory": [
+            "Carlisle"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Earthwerks Archer II",
+            "engine": "VOX 280 Light",
+            "armor": "Durallex Guardian with CASE",
+            "communications": "Neil 9000",
+            "targeting": "RCA Instatrac Mark XII"
+        }
+    }
+}

@@ -1,0 +1,272 @@
+{
+    "chassis": "Atlas",
+    "model": "AS7-K4",
+    "mul_id": 6832,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3098,
+    "source": "Record Sheets: 3145 New Tech New Upgrades",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "command_mech",
+        "distracting",
+        "imp_com"
+    ],
+    "mass": 100,
+    "engine": "400 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 13,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 33
+        },
+        "right_arm": {
+            "pips": 33
+        },
+        "left_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 42
+            },
+            "rear": {
+                "pips": 14
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 41
+        },
+        "right_leg": {
+            "pips": 41
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Rotary AC/5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "SRM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERPPC",
+            "6": "ISERPPC",
+            "7": "ISERPPC",
+            "8": "IS Ferro-Fibrous",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERPPC",
+            "6": "ISERPPC",
+            "7": "ISERPPC",
+            "8": "IS Ferro-Fibrous",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISRotaryAC5",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "ISRotaryAC5",
+            "8": "ISRotaryAC5",
+            "9": "ISRotaryAC5",
+            "10": "SRM 6",
+            "11": "SRM 6",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "SRM 6",
+            "5": "SRM 6",
+            "6": "IS Ammo SRM-6",
+            "7": "IS Ammo SRM-6",
+            "8": "ISRotaryAC5 Ammo",
+            "9": "ISRotaryAC5 Ammo",
+            "10": "ISRotaryAC5 Ammo",
+            "11": "ISCASE",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISGuardianECMSuite",
+            "12": "ISGuardianECMSuite"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "\"A 'Mech as powerful as possible, as impenetrable as possible, and as ugly and foreboding as conceivable, so that fear itself will be our ally.\u201d-Aleksandr Kerensky",
+        "capabilities": "The Atlas is probably the best-known BattleMech to ever set foot on the modern battlefield. Designed with specifications from Aleksandr Kerensky himself in 2755 in the midst of the Cameron Edicts, the Atlas was originally intended to ensure SLDF superiority over the Star League member states. Carrying the largest LRM launcher, the largest autocannon, and the largest SRM launcher possible, the Atlas can deal frightening amounts of damage in short amounts of time. Often used as a command vehicle, the Atlas mounts an advanced antenna and communications array, allowing it to engage in surface-to-space communications in real time. The massive 19-ton hide of armor that protects the Atlas makes it a difficult foe to take down. Indeed, most MechWarriors choose to fall back rather than face one head-on, as its lumbering gait means it can rarely catch up to other 'Mechs that choose to flee it. A full year of development went into crafting the famous \"Death's Head\" of the 'Mech to achieve the perfect ratio of functionality and fear. The head is also quite roomy and allows a small satellite dish to be mounted for surface-to-space communications. During combat the pilot can easily fold up the dish and store it within a protective portion of the head.",
+        "deployment": "This Dark Age Atlas is equipped with an ER PPC in each arm, an SRM-6 in the side torsos, and a Rotary AC/5 in the left torso. A Guardian ECM Suite is carried in the center torso. The two tons of SRM ammunition and three tons of RAC/5 ammunition are carried in a CASE protected bay in the right torso. The Atlas K4 is equipped with an extralight engine to allow it to hit a top speed of 64km/h.",
+        "history": "Though the inexorable arming of the Great Houses continued, the Atlas proved itself to be everything General Kerensky requested. With the largest amount of armor of nearly any 'Mech, crippling firepower, and the foreboding skull-shaped \"Death's Head\" cockpit/head assembly, the Atlas lived up to its reputation. The mere sight of an Atlas had been known to make even a veteran MechWarrior break out in a cold sweat, and theoretically a single Atlas can take on and wipe out an entire battalion of Stingers in exchange for minor armor loss. The Atlas' first combat trials came during the Amaris Civil War, where it served an instrumental role as a powerful command vehicle. Though General Kerensky is well-known for being the one who kicked down the palace doors of the Usurper in his Orion, it was his close friend Aaron DeChavilier who, in his Atlas, weathered the storm of enemy fire and breached the protective wall surrounding the complex. After this conflict it was therefore with little surprise that the General wished for all of these 'Mechs to accompany him on Operation Exodus, but ironically of those MechWarriors who refused his summons fully two-thirds were Atlas pilots. These units were spread among the Successor States and Atlas factories on Al Na'ir, Hesperus II and Quentin would continue production of the 'Mech through the Succession Wars. Most commanders were loath to tamper too much with such a successful 'Mech, but the recovery of the Helm Memory Core resulted in a number of ancient designs being updated with lostech, and the Atlas was no exception. The new AS7-K model was released in 3049, just in time to fight off the Clan Invasion. The Federated Commonwealth also briefly began production of their own model, the AS7-S, although following the civil war that line was discontinued and further variants have been introduced by the Lyran Alliance and Draconis Combine. Despite its age, well into the end of the thirty-first century there were no plans to replace the Atlas, and even the most cutting-edge designs will stop and pause when faced with the prospect of an Atlas bearing down on them.",
+        "manufacturer": [
+            "Luthien Armor Works",
+            "Defiance Industries"
+        ],
+        "primaryfactory": [
+            "Kaznejoy",
+            "Hesperus II"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Foundation Type 10X",
+            "engine": "Vlar 400 XL",
+            "armor": "Durallex Special Heavy",
+            "communications": "Angst Discom",
+            "targeting": "Angst Accuracy"
+        }
+    }
+}

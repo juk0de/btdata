@@ -1,0 +1,280 @@
+{
+    "chassis": "Atlas II",
+    "model": "AS7-D-HT",
+    "mul_id": 7618,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2780,
+    "source": "Arano Restoration",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "command_mech",
+        "distracting",
+        "imp_com"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "IS Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 14
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 41
+        },
+        "right_leg": {
+            "pips": 41
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 20": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "AC/20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Medium Pulse Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERLargeLaser",
+            "6": "ISERLargeLaser",
+            "7": "IS Ferro-Fibrous",
+            "8": "IS Ferro-Fibrous",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERLargeLaser",
+            "6": "ISERLargeLaser",
+            "7": "IS Ferro-Fibrous",
+            "8": "IS Ferro-Fibrous",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "LRM 20",
+            "2": "LRM 20",
+            "3": "LRM 20",
+            "4": "LRM 20",
+            "5": "LRM 20",
+            "6": "SRM 6",
+            "7": "SRM 6",
+            "8": "IS Ammo AC/20",
+            "9": "IS Ammo LRM-20",
+            "10": "IS Ammo LRM-20",
+            "11": "IS Ammo SRM-6",
+            "12": "ISCASE"
+        },
+        "right_torso": {
+            "1": "Autocannon/20",
+            "2": "Autocannon/20",
+            "3": "Autocannon/20",
+            "4": "Autocannon/20",
+            "5": "Autocannon/20",
+            "6": "Autocannon/20",
+            "7": "Autocannon/20",
+            "8": "Autocannon/20",
+            "9": "Autocannon/20",
+            "10": "Autocannon/20",
+            "11": "IS Ammo AC/20",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISMediumPulseLaser",
+            "12": "ISMediumPulseLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The technologically-advanced Hegemony counterpart to the SLDF's regular army's AS7-D Atlas, the Atlas II was exclusively reserved for SLDF Royal Regiments.",
+        "capabilities": "The weapons payload gives the design more broad range attack ability versus the Atlas's brawling weaponry and its limited long range attack capacities.",
+        "deployment": "Its origins unknown, the only known example of the AS7-D-HT was found inside Castle Nautilus, an SLDF Outpost Fortress found in the world of Artru, in the Aurigan Reach and used by Kamea Arano during her final defeat of the Aurigan Directorate. This seemingly custom variant retains the bulk of the standard model's weapon loadout save swapping the LB-X-10 for a mammoth Autocannon/20 for enhanced short-range combat.",
+        "history": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. These 'Mechs are prized by the Clans when they were found. One such 'Mech was spotted in 3052 during the Battle of Tukayyid. In the early 3070s, the design was resurrected by the Word of Blake when they captured Hesperus II's factories. After the liberation of Defiance Industries, Devlin Stone's coalition forces kept the 'Mechs in production.",
+        "manufacturer": [
+            "Defiance Industries",
+            "Hegemony Research and Development Department",
+            "Weapons Division"
+        ],
+        "primaryfactory": [
+            "Hesperus II",
+            "New Earth"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Foundation Type 10X",
+            "engine": "Vlar 300",
+            "armor": "StarSlab/2 Ferro Fibrous with CASE",
+            "jumpjet": "Army Comm Class 5",
+            "communications": "Army Corporation Type 29K"
+        }
+    }
+}

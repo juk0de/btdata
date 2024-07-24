@@ -1,0 +1,270 @@
+{
+    "chassis": "Orion",
+    "model": "ON2-M",
+    "mul_id": 2338,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3063,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "anti_air",
+        "easy_maintain",
+        "rugged_1"
+    ],
+    "mass": 75,
+    "engine": "300 Fusion Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 23
+        },
+        "left_torso": {
+            "pips": 16
+        },
+        "right_torso": {
+            "pips": 16
+        },
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 21
+        },
+        "right_arm": {
+            "pips": 21
+        },
+        "left_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 22
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 35
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 32
+        },
+        "right_leg": {
+            "pips": 32
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISMediumPulseLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISMediumPulseLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISGaussRifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 16
+            }
+        },
+        "4": {
+            "ISMediumPulseLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISLRM15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 16
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMediumPulseLaser",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISMediumPulseLaser",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "ISMediumPulseLaser",
+            "2": "ISLRM15",
+            "3": "ISLRM15",
+            "4": "ISLRM15",
+            "5": "ISArtemisIV",
+            "6": "ISLRM15 Ammo Artemis-capable",
+            "7": "ISLRM15 Ammo Artemis-capable",
+            "8": "ISCASE",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "ISGaussRifle",
+            "2": "ISGaussRifle",
+            "3": "ISGaussRifle",
+            "4": "ISGaussRifle",
+            "5": "ISGaussRifle",
+            "6": "ISGaussRifle",
+            "7": "ISGaussRifle",
+            "8": "ISGauss Ammo",
+            "9": "ISGauss Ammo",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Ferro-Fibrous",
+            "12": "Ferro-Fibrous"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null,
+            "13": "history:After the K model was introduced in 2525 the 'Mech first saw combat during the Reunification War and continued to serve the Star League and its Member States for the next few centuries. Perhaps its most famous role was as the personal 'Mech of Aleksandr Kerensky during the Amaris Civil War, and it was while piloting his Orion that the general kicked down the palace doors to take the Usurper prisoner. The inspiration for the Orion's beginnings is said to be a direct result of Operation Prometheus when the Terran Hegemony realized they would no longer be the sole user of BattleMechs. Work began shortly after with the HAF requesting machines suited for various combat roles and the Hegemony's military leadership were soon accepting proposals for competing designs almost simultaneously. With other designs already underway, it would be General Mechanics winning a contract for a proposal that would ultimately become the Hegemony's premier heavy attack BattleMech: the Orion. Ironically, GM had actually unveiled a prototype as early as 2453, but the HAF, while interested at the time, were dismissive as it did not meet the High Command's requirements for speed and armor, and its armament was considered too lackluster for a front-line war machine. GM had returned to the drawing board in the following years, further refining their design by settling for a smaller, less powerful engine to free up weight for additional weaponry. It would not be until GM's third prototype - the ON1-H which mounted a newly developed class-10 heavy autocannon, that the HAF would finally approve the design one year following Operation Prometheus in 2456. Following the successful introduction of the prototype, the HAF immediately pushed General Mechanics to produce as many Orions as possible. The armed forces of the Hegemony quickly assigned them to BattleMech regiments in whole companies at a time, adding to their growing ranks of Mackies, Banshees, and later Archers and Griffins. After the fall of the Star League, Kali Yama Weapons Industries took over production of the Orion, building new models from their factories on Kalidasa. This left the Free Worlds League as the only producer of new Orions during the Succession Wars, although the other Successor States were capable of building spare parts to repair their 'Mechs, and meant the Free Worlds League Military was the largest Orion user. When Kali Yama merged to create the Kali Yama - Alphard Trading Corporation Orion production was started up on Kendall as well. The League's dominance in new Orions began to change during the Clan Invasion when the Successor States met on Outreach and agreed to work together to combat the Clans. Kali Yama/ATC was among those companies which agreed to sell war materiel, including the Orion, to the other States undergoing Clan attacks. In spite of the design's age it still finds itself utilized extensively on the modern battlefield and new variants continue to be produced"
+        }
+    },
+    "fluff": {
+        "overview": "The Orion was built in 2456 as the first true heavy BattleMech. Originally designed for the Terran Hegemony to maintain its dominance and built on Hesperus II.",
+        "capabilities": "The Orion is a dependable workhorse design that can handle almost any combat role, thanks to its mix of long and short-range weaponry and its respectable armoring.",
+        "deployment": "The 2M is another upgrade of the Orion using Star League technology. Built in 3063 the 'Mech uses an Endo Steel chassis and utilizes ten double-strength heat sinks to save weight and for their greater heat-dissipation ability. For long-range combat, the ON2-M is armed with a Gauss Rifle as well as an LRM-15 linked to an Artemis IV FCS for increased accuracy. For closer ranges, the 'Mech has three medium pulse lasers. The ON2-M is armored with twelve and a half tons of Ferro-Fibrous armor.",
+        "manufacturer": [
+            "KaliYama/Alphard Trading Corp.",
+            "KaliYama Weapons Industries"
+        ],
+        "primaryfactory": [
+            "Kendall",
+            "Kalidasa"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Kali Yama Endo Chassis",
+            "engine": "Vlar 300",
+            "armor": "Valiant Lamellor with CASE",
+            "communications": "Irian Orator-5K",
+            "targeting": "Wasat Aggressor Type 5"
+        }
+    }
+}

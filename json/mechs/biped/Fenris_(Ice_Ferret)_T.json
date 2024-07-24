@@ -1,0 +1,258 @@
+{
+    "chassis": "Fenris",
+    "clanname": "Ice Ferret",
+    "model": "T",
+    "mul_id": 7503,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3142,
+    "source": "Rec Guide:ilClan #4",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Scout",
+    "quirks": [
+        "imp_sensors"
+    ],
+    "mass": 45,
+    "engine": "360 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 14
+        },
+        "left_torso": {
+            "pips": 11
+        },
+        "right_torso": {
+            "pips": 11
+        },
+        "left_arm": {
+            "pips": 7
+        },
+        "right_arm": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 11
+        },
+        "right_leg": {
+            "pips": 11
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 19
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "weapons": {
+        "1": {
+            "Improved Heavy Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "SRM 2": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLImprovedHeavyLargeLaser (OMNIPOD)",
+            "5": "CLImprovedHeavyLargeLaser (OMNIPOD)",
+            "6": "CLImprovedHeavyLargeLaser (OMNIPOD)",
+            "7": "CLERMediumLaser (OMNIPOD)",
+            "8": "Clan Ferro-Fibrous",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLSRM2 (OMNIPOD)",
+            "6": "Clan Ammo SRM-2 (OMNIPOD)",
+            "7": "Clan Ferro-Fibrous",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Clan Endo Steel",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Clan Ferro-Fibrous",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Supercharger (Clan) (OMNIPOD)",
+            "4": "Clan Endo Steel",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLActiveProbe (OMNIPOD)",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "A powerful medium scout and recon 'Mech, the Ice Ferret was regarded as something of a foreign concept when it was first encountered by Inner Sphere forces. Referred to as the Fenris by Inner Sphere forces, the Ice Ferret is a very capable medium scout OmniMech, which is well armored and fast, and can be configured as a strike/headhunter or as a fire-support 'Mech.",
+        "capabilities": "An Improved Heavy Large Laser and ER Medium Laser are mounted in the left arm, while the right arm carries a single SRM 2 with a ton of ammunition. An Active Probe finds hidden threats while an engine Supercharger allows the Ice Ferret to sprint at speeds of 160km/h.",
+        "deployment": "The Ice Ferret is built on a lightweight Endo Steel chassis that saves weight and is powered by a massive 360 XL engine that gives the Ice Ferret a top speed of 129.6 km/h and also accounts for one third of the 'Mech's total weight. The Ice Ferret has twelve double heat sinks mounted on the chassis and is protected by seven and a half tons of Ferro-Fibrous armor, giving the 'Mech almost the maximum amount of armor protection for its weight.",
+        "history": "Deployed extensively by Clan Wolf, the Ice Ferret was actually designed to combat the pride of Clan Wolf, the Timber Wolf OmniMech. Originally named the Wolf Hunter, the Ice Ferret was first produced in the mid-2900s by Clan Ice Hellion, but performed poorly due to lack-luster weapon configurations. Annoyed by the constant Hellion harassment, but appreciating the potential of the new OmniMech, Clan Wolf warriors eventually began challenging for the OmniMech, and eventually won the production facility for the design. The Wolves renamed the design after the only natural predator of the Ice Hellion, the Ice Ferret, and altered the configurations to improve performance. The Ice Hellions would maintain a large number of the \"Wolf Hunters\" in their touman during their existence. However, in the early years of the Jihad era, the Ice Ferret's few production facilities would end up being destroyed during the chaotic fighting in Clan Homeworlds. The design would end up being phased out of use and replaced by the Viper.",
+        "manufacturer": [
+            "W-7 Facilities",
+            "Wolf Clan Site 3",
+            "Assault Tech Industries"
+        ],
+        "primaryfactory": [
+            "Tranquil",
+            "Arc-Royal",
+            "Donegal"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Hellion Medium Gamma ES",
+            "engine": "360 Type II XL",
+            "armor": "MAC Level 5 Ferro-Fibrous",
+            "communications": "Hellion Special 354B",
+            "targeting": "Wolf Hunter MK VII"
+        }
+    }
+}

@@ -1,0 +1,262 @@
+{
+    "chassis": "Naga II",
+    "model": "A",
+    "mul_id": 9323,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 2866,
+    "source": "Rec Guide:ilClan #26",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "ext_twist",
+        "bad_rep_clan"
+    ],
+    "weaponquirk": "stable_weapon:LA:2:CLLBXAC20",
+    "mass": 80,
+    "engine": "400 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Clan Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 17
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 16
+        },
+        "right_leg": {
+            "pips": 16
+        }
+    },
+    "weapons": {
+        "1": {
+            "LB 20-X AC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Streak SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLLBXAC20 (OMNIPOD)",
+            "4": "CLLBXAC20 (OMNIPOD)",
+            "5": "CLLBXAC20 (OMNIPOD)",
+            "6": "CLLBXAC20 (OMNIPOD)",
+            "7": "CLLBXAC20 (OMNIPOD)",
+            "8": "CLLBXAC20 (OMNIPOD)",
+            "9": "CLLBXAC20 (OMNIPOD)",
+            "10": "CLLBXAC20 (OMNIPOD)",
+            "11": "CLLBXAC20 (OMNIPOD)",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink (OMNIPOD)",
+            "6": "CLDoubleHeatSink (OMNIPOD)",
+            "7": "CLDoubleHeatSink (OMNIPOD)",
+            "8": "CLDoubleHeatSink (OMNIPOD)",
+            "9": "CLDoubleHeatSink (OMNIPOD)",
+            "10": "CLDoubleHeatSink (OMNIPOD)",
+            "11": "CLERLargeLaser (OMNIPOD)",
+            "12": "CLERLargeLaser (OMNIPOD)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLStreakSRM6 (OMNIPOD)",
+            "4": "CLStreakSRM6 (OMNIPOD)",
+            "5": "Clan Streak SRM 6 Ammo (OMNIPOD)",
+            "6": "Clan LB 20-X AC Ammo (OMNIPOD)",
+            "7": "Clan LB 20-X AC Ammo (OMNIPOD)",
+            "8": "Clan LB 20-X Cluster Ammo (OMNIPOD)",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (OMNIPOD)",
+            "4": "CLDoubleHeatSink (OMNIPOD)",
+            "5": "Clan Endo Steel",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLERSmallLaser (OMNIPOD)",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Naga II is a refashioned version of the early Clan Woodsman OmniMech, developed by Clan Wolf. This model diverged from the initial Woodsman design due to technical challenges with its XL engine and endo-steel structure, which led to the creation of the Naga and eventually the Naga II. The Naga II's existence is primarily attributed to necessity, utilized when more advanced OmniMechs are not available.",
+        "capabilities": "Engineered with a focus on heavy firepower, the Naga II serves as a formidable artillery platform. Its design allows for significant weapon customization due to its ample pod space. Despite its notable firepower, the Naga II is encumbered by lighter armor compared to contemporary OmniMechs. This makes it a suitable choice for specific combat roles, particularly in scenarios requiring heavy bombardment from a distance.",
+        "deployment": "The Naga II Model A, a brawler-focused Clan Omnimech, weighs 80 tons and showcases remarkable agility for its class. This model is powered by a robust 400 XL Clan Engine and constructed with Clan Endo Steel, balancing speed with durability. Its armament is carefully chosen to suit close-quarters combat, with a primary focus on delivering high-impact blows to its adversaries.For its main weaponry, the Naga II A boasts a LB 20-X AC in its left arm, ideal for ballistic engagements, complemented by two ER Large Lasers in its right arm for substantial energy firepower. A Streak SRM 6 in the left torso adds to its missile capabilities, and an ER Small Laser centrally mounted enhances its precision. Heat dissipation is efficiently managed with 16 Clan Double Heat Sinks, allowing for sustained fire in prolonged battles. While its standard armor provides adequate protection, it may fall short against the heaviest mechs. The model's lack of jump jets is offset by its capacity for extensive torso twisting, granting it increased maneuverability. Stable weapon mounts are a key feature, ensuring accuracy in the heat of battle. This combination of speed, firepower, and agility makes the Naga II Model A a formidable opponent in close-range encounters.",
+        "history": "The Naga II saw initial use within Clan Wolf\u2019s garrison clusters after Operation Revival. Its combat effectiveness, however, was questioned following a notable engagement in 3055, where its vulnerabilities were exposed during a raid on Icar. Despite this, conversions from Naga to Naga II continued as situational demands arose. The Exiled Wolves also utilized the Naga II, notably during conflicts like the fall of Arc-Royal, further indicating the continued, albeit limited, relevance of the Naga II in modern Clan warfare. Its deployment, while effective in certain contexts, often highlights the trade-off between its powerful offensive capabilities and its defensive shortcomings.",
+        "manufacturer": [
+            "Refit"
+        ],
+        "primaryfactory": [
+            "Various"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Type BMH-7 Endo Steel",
+            "engine": "Fusion 400 XL",
+            "armor": "Forged Type 34 Standard",
+            "communications": "Type G3, Mk. XII",
+            "targeting": "Version Kappa-III TTS"
+        }
+    }
+}

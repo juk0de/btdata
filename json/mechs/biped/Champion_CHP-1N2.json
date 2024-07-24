@@ -1,0 +1,259 @@
+{
+    "chassis": "Champion",
+    "model": "CHP-1N2",
+    "mul_id": 549,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2667,
+    "source": "TRO: 3039",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "no_arms"
+    ],
+    "mass": 60,
+    "engine": "300 Fusion Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 20
+        },
+        "left_torso": {
+            "pips": 14
+        },
+        "right_torso": {
+            "pips": 14
+        },
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 12
+        },
+        "right_arm": {
+            "pips": 12
+        },
+        "left_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "weapons": {
+        "1": {
+            "SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "LB 10-X AC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": null,
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "SRM 6",
+            "2": "SRM 6",
+            "3": "ISArtemisIV",
+            "4": "Medium Laser",
+            "5": "Medium Laser",
+            "6": "IS Ammo SRM-6 Artemis-capable",
+            "7": "IS Ferro-Fibrous",
+            "8": "IS Ferro-Fibrous",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "ISLBXAC10",
+            "2": "ISLBXAC10",
+            "3": "ISLBXAC10",
+            "4": "ISLBXAC10",
+            "5": "ISLBXAC10",
+            "6": "ISLBXAC10",
+            "7": "IS LB 10-X AC Ammo",
+            "8": "IS LB 10-X Cluster Ammo",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Small Laser",
+            "12": "Small Laser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Champion was, if anything, the product of an intense and effective lobbying campaign. Beating out Earthwerk's bid to modify their Griffin BattleMech to similar specifications, the Champion would come to serve as one of the most popular 'Mechs of its era within the SLDF. Even the Succession Wars and the successive decline in the Champion's capabilities would do little to reduce the 'Mech's reputation.",
+        "capabilities": "Serving as a multi-role generalist BattleMech, the Champion is able to accomplish a wide variety of tasks with its armament. Able to engage vehicles, fighters, or other 'Mechs in direct combat, MechWarriors enjoy the flexibility of the somewhat rare machine. If the 'Mech has a flaw, it's that Bergan Industries cut corners with the heat dissipation system. Low-efficiency heat sinks, installed to save on costs, result in a BattleMech that often overheats when its full weapons array is brought forth. The Champion also has armor coverage similar to lighter 'Mechs such as the Whitworth, forcing MechWarriors to remain light on their toes when piloting the Champion.",
+        "deployment": "Its fall from the peak of cutting edge technology saw the Terran Hegemony sell the Champion to every Great House. The Capellan Confederation fielded the highest concentration of the design during the Succession Wars, but the unveiling of the ComGuard and formation of the Word of Blake would reveal large numbers of Champions within their Armies. A time-intensive refit, the CHP-1N2 was never officially sanctioned by Bergan Industries. Replacing the ineffective single-strength heat sinks of the -1N with more effective double-strength models, this refit greatly increased the capabilities of the BattleMech. It should come as no surprise that all of the Successor States began to refit their Champions to these specifications once the technology for it was rediscovered, and it remains the most common variant of the Champion today.",
+        "systemmanufacturer": {
+            "chassis": "Bergan",
+            "engine": "Vlar",
+            "armor": "StarSlab",
+            "communications": "Garret",
+            "targeting": "Mercury"
+        },
+        "systemmode": {
+            "chassis": "XI",
+            "engine": "300",
+            "armor": "/2",
+            "communications": "T-11C",
+            "targeting": "IV"
+        }
+    }
+}

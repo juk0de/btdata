@@ -1,0 +1,273 @@
+{
+    "chassis": "Atlas II",
+    "model": "AS7-D-H (Kerensky)",
+    "mul_id": 7310,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 2833,
+    "source": "Operational Turning Points: Widowmaker",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "command_mech",
+        "distracting",
+        "imp_com"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion (Clan) Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 19,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "LB 10-X AC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "SRM 6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "4": {
+            "Medium Pulse Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "5": {
+            "LRM 20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": "CLDoubleHeatSink",
+            "8": "CLDoubleHeatSink",
+            "9": "CLERLargeLaser",
+            "10": "CLERLargeLaser",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLLBXAC10",
+            "6": "CLLBXAC10",
+            "7": "CLLBXAC10",
+            "8": "CLLBXAC10",
+            "9": "CLLBXAC10",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "CLDoubleHeatSink",
+            "2": "CLDoubleHeatSink",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLSRM6",
+            "6": "CLArtemisIV",
+            "7": "CLSRM6",
+            "8": "CLArtemisIV",
+            "9": "CLMediumPulseLaser",
+            "10": "CLMediumPulseLaser",
+            "11": "Clan Ammo SRM-6 (Clan) Artemis-capable",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "CLDoubleHeatSink",
+            "2": "CLDoubleHeatSink",
+            "3": "CLLRM20",
+            "4": "CLLRM20",
+            "5": "CLLRM20",
+            "6": "CLLRM20",
+            "7": "CLArtemisIV",
+            "8": "Clan Ammo LRM-20 (Clan) Artemis-capable",
+            "9": "Clan Ammo LRM-20 (Clan) Artemis-capable",
+            "10": "Clan LB 10-X AC Ammo",
+            "11": "Clan LB 10-X Cluster Ammo",
+            "12": "Clan Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLActiveProbe",
+            "12": "CLECMSuite"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The technologically-advanced Hegemony counterpart to the SLDF's regular army's AS7-D Atlas, the Atlas II was exclusively reserved for SLDF Royal Regiments.",
+        "capabilities": "The weapons payload gives the design more broad range attack ability versus the Atlas's brawling weaponry and its limited long range attack capacities.",
+        "deployment": "The custom version used by Nicholas Kerensky, this version of the Atlas II retains the weapon array of the original but swaps the Inner Sphere components for more advanced Clan equivalents. It also adds a second SRM launcher. All the missile systems are equipped with Artemis IV fire control systems. Double heat sinks were replaced with their less bulky Clan equivalents and increased to nineteen. The ferro-fibrous armor protection remains the same, but again was replaced by more compact Clan version. To handle electronic warfare duties, a small ECM Suite and Active Probe were added to the center torso. The CASE systems were integrated into the side torsos, as was common to all Clan designs.",
+        "history": "First fielded in 2765, the Atlas II was designed by the Hegemony Research and Development Department, Weapons Division of the original Star League to maintain the technological edge over the other Great Houses. It was exclusively for the SLDF's Royal Regiments. In 2785, when General Aleksandr Kerensky put out his call for loyal forces to join him in his Exodus, every Atlas II pilot responded and left with him. These 'Mechs are prized by the Clans when they were found. One such 'Mech was spotted in 3052 during the Battle of Tukayyid. In the early 3070s, the design was resurrected by the Word of Blake when they captured Hesperus II's factories. After the liberation of Defiance Industries, Devlin Stone's coalition forces kept the 'Mechs in production.",
+        "manufacturer": [
+            "Defiance Industries",
+            "Hegemony Research and Development Department",
+            "Weapons Division"
+        ],
+        "primaryfactory": [
+            "Hesperus II",
+            "New Earth"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Foundation Type 10X",
+            "engine": "Vlar 300",
+            "armor": "StarSlab/2 Ferro Fibrous with CASE",
+            "jumpjet": "Army Comm Class 5",
+            "communications": "Army Corporation Type 29K"
+        }
+    }
+}

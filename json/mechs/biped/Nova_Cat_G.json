@@ -1,0 +1,270 @@
+{
+    "chassis": "Nova Cat",
+    "model": "G",
+    "mul_id": 2305,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3072,
+    "source": "TRO: 3060",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "ext_twist",
+        "exp_actuator"
+    ],
+    "mass": 70,
+    "engine": "280 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 22
+        },
+        "left_torso": {
+            "pips": 15
+        },
+        "right_torso": {
+            "pips": 15
+        },
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_leg": {
+            "pips": 15
+        },
+        "right_leg": {
+            "pips": 15
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 11,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 22
+        },
+        "right_arm": {
+            "pips": 22
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 35
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 30
+        },
+        "right_leg": {
+            "pips": 30
+        }
+    },
+    "weapons": {
+        "1": {
+            "LRM 20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "LRM 20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ER Large Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "AP Gauss Rifle": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "5": {
+            "AP Gauss Rifle": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLLRM20 (omnipod)",
+            "6": "CLLRM20 (omnipod)",
+            "7": "CLLRM20 (omnipod)",
+            "8": "CLLRM20 (omnipod)",
+            "9": "CLArtemisIV (omnipod)",
+            "10": "Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)",
+            "11": "Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)",
+            "12": "Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLLRM20 (omnipod)",
+            "4": "CLLRM20 (omnipod)",
+            "5": "CLLRM20 (omnipod)",
+            "6": "CLLRM20 (omnipod)",
+            "7": "CLArtemisIV (omnipod)",
+            "8": "CLLRM20 (omnipod)",
+            "9": "CLLRM20 (omnipod)",
+            "10": "CLLRM20 (omnipod)",
+            "11": "CLLRM20 (omnipod)",
+            "12": "CLArtemisIV (omnipod)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLERLargeLaser (omnipod)",
+            "4": "CLAPGaussRifle (omnipod)",
+            "5": "CLAPGaussRifle (omnipod)",
+            "6": "CLAPGaussRifle (omnipod)",
+            "7": "CLAPGaussRifle (omnipod)",
+            "8": "CLAPGaussRifle Ammo (omnipod)",
+            "9": "CLTargeting Computer (omnipod)",
+            "10": "CLTargeting Computer (omnipod)",
+            "11": "CLECMSuite (omnipod)",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink (omnipod)",
+            "4": "CLDoubleHeatSink (omnipod)",
+            "5": "CLDoubleHeatSink (omnipod)",
+            "6": "CLDoubleHeatSink (omnipod)",
+            "7": "CLAPGaussRifle (omnipod)",
+            "8": "CLAPGaussRifle (omnipod)",
+            "9": "CLAPGaussRifle (omnipod)",
+            "10": "CLAPGaussRifle (omnipod)",
+            "11": "Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)",
+            "12": "Clan Ammo LRM-20 (Clan) Artemis-capable (omnipod)"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Clan Endo Steel",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "A Nova Cat heavy OmniMech built to protect the Nova Cats spiritually and militarily.",
+        "capabilities": "The basic components of this design, combined with its characteristics as an OmniMech, make it very simple to repair and leave room for the large amount of double heat sinks most variants carry. 13 \u00bd tons of standard armor make this 'Mech very difficult to kill.",
+        "deployment": "Another configuration developed during the Jihad, this configuration was developed for the fire support and anti-infantry role. The config, like the F, is given a Targeting Computer and ECM suite. For fire-support role, it has been given three Artemis IV guided LRM-20 launchers in the arms with five tons of ammunition. For its anti-infantry role, it has been given eight AP Gauss Rifles split between the two torsos. The guns shares a ton ammunition between them.",
+        "history": "After its defeat on Tukayyid, Khan Severen Leroux of Clan Nova Cat commissioned the Nova Cat OmniMech, meant to protect the Clan both militarily and spiritually. The 12 meter tall 'Mech is inspired by the Night Gyr created by Clan Jade Falcon.",
+        "manufacturer": [
+            "Barcella Alpha",
+            "Irece Alpha"
+        ],
+        "primaryfactory": [
+            "Barcella",
+            "Irece"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Mynx Type Heavy",
+            "engine": "Consolidated Fusion 280 Extralight",
+            "armor": "Alpha Compound Plate",
+            "communications": "JNE Integrated",
+            "targeting": "Build 2 CAT TTS"
+        }
+    }
+}

@@ -1,0 +1,265 @@
+{
+    "chassis": "Rampage",
+    "model": "RMP-2G",
+    "mul_id": 2635,
+    "source": "Jihad Conspiracies: Interstellar Players 2",
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2735,
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "vestigial_hands_ra",
+        "bad_rep_clan",
+        "bad_rep_is",
+        "obsolete"
+    ],
+    "mass": 85,
+    "engine": "255 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 23,
+        "type": "Single"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 23
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 31
+        },
+        "right_leg": {
+            "pips": 31
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISAC10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 20
+            }
+        },
+        "2": {
+            "ISLRM10": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "3": {
+            "ISMachine Gun": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 200
+            }
+        },
+        "4": {
+            "ISMediumLaser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISFlamer": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ISLargeLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISLRM10",
+            "5": "ISLRM10",
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISAC10",
+            "6": "ISAC10",
+            "7": "ISAC10",
+            "8": "ISAC10",
+            "9": "ISAC10",
+            "10": "ISAC10",
+            "11": "ISAC10",
+            "12": null
+        },
+        "left_torso": {
+            "1": "ISMediumLaser",
+            "2": "ISFlamer",
+            "3": "ISLRM10 Ammo",
+            "4": "ISLRM10 Ammo",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": "Heat Sink",
+            "8": "Heat Sink",
+            "9": "Heat Sink",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "ISMachine Gun",
+            "2": "ISMediumLaser",
+            "3": "ISAC10 Ammo",
+            "4": "ISAC10 Ammo",
+            "5": "ISMG Ammo (200)",
+            "6": "Heat Sink",
+            "7": "Heat Sink",
+            "8": "Heat Sink",
+            "9": "Heat Sink",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISLargeLaser",
+            "12": "ISLargeLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Heat Sink",
+            "6": "Heat Sink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

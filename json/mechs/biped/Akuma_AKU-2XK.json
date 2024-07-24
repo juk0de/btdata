@@ -1,0 +1,270 @@
+{
+    "chassis": "Akuma",
+    "model": "AKU-2XK",
+    "mul_id": 5714,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3083,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "easy_maintain"
+    ],
+    "mass": 90,
+    "engine": "270 Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "gyro": "Compact Gyro",
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 30
+        },
+        "right_arm": {
+            "pips": 30
+        },
+        "left_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 43
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 38
+        },
+        "right_leg": {
+            "pips": 38
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISC3SlaveUnit": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISGuardianECM": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISMediumPulseLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISMediumPulseLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISERMediumLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISHeavyPPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ISMML9": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 39
+            }
+        },
+        "8": {
+            "ISRotaryAC5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 40
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISHeavyPPC",
+            "5": "ISHeavyPPC",
+            "6": "ISHeavyPPC",
+            "7": "ISHeavyPPC",
+            "8": "ISMediumPulseLaser",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISERMediumLaser",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "ISMML9",
+            "2": "ISMML9",
+            "3": "ISMML9",
+            "4": "ISMML9",
+            "5": "ISMML9",
+            "6": "ISMML9",
+            "7": "ISMML9",
+            "8": "ISMML9",
+            "9": "ISMML9",
+            "10": "ISMML9",
+            "11": "ISGuardianECM",
+            "12": "ISGuardianECM"
+        },
+        "right_torso": {
+            "1": "ISRotaryAC5",
+            "2": "ISRotaryAC5",
+            "3": "ISRotaryAC5",
+            "4": "ISRotaryAC5",
+            "5": "ISRotaryAC5",
+            "6": "ISRotaryAC5",
+            "7": "IS Rotary AC/5 Ammo",
+            "8": "IS Rotary AC/5 Ammo",
+            "9": "ISMML9 LRM Ammo",
+            "10": "ISMML9 LRM Ammo",
+            "11": "ISMML9 SRM Ammo",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Engine",
+            "7": "Engine",
+            "8": "Engine",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "ISDouble Heat Sink",
+            "12": "ISMediumPulseLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISC3SlaveUnit",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        }
+    },
+    "fluff": {
+        "overview": "A low-cost alternative to the Atlas-K: the AKU-1X Akuma.",
+        "capabilities": "Akuma was smaller and lighter than an\u00a0Atlas to minimize costs. The lighter fusion engine saved money. Despite its tiny size, the Akuma has comparable armor protection and ground speed. The 'Mech's enormous mask makes it look like the monster it's named after. The Combine MechWarrior fires first after the Akuma scares the adversary.\u00a0Advanced weaponry function best at short and medium ranges on the 'Mech. The 'Mech's poor speed doesn't matter because it's designed for defense or slow advances against static or dug-in opponents.",
+        "deployment": "This variant, also introduced during the Jihad, replaces all the existing weaponry for a C3 slave, Heavy PPC, Rotary AC/5, two Medium Pulse Lasers, an ER medium laser, and a pair of MML-9 launchers. It also carries a Guardian ECM Suite to disrupt electronic warfare systems. Like the AKU-2XC, it uses a Compact Gyro. The protection is further enhanced through the use of CASE.",
+        "history": "During the Clan invasion, Theodore Kurita issued a broad plea to manufacturers to develop more cost-effective BattleMechs, both in terms of original investment and ongoing maintenance. Independence Weaponry, known for their heavy and assault 'Mechs, reacted with the AKU-1X Akuma, a low-cost counterpart to their own Atlas-K. The Akuma shares several components with the original Atlas-D and has a price tag comparable to it. Independence Weaponry decreased the overall cost of both units by increasing demand for the same set of parts. The Ryuken-go have always been the most vocal supporters of the Akuma, fielding it in a variety of attack lances. Other front-line units were slow to embrace the Akuma until it demonstrated its worth during the assault on Clan Smoke Jaguar, and demand has since outstripped supply. The Akuma 1XJ recently made its debut in the counterassaults that eventually took the Davion worlds of Breed and Kesai IV in Duke Robinson's ill-fated onslaught against the Combine.",
+        "manufacturer": [
+            "Independence Weaponry"
+        ],
+        "primaryfactory": [
+            "New Samarkand"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Foundation AKU Endo Steel",
+            "engine": "GM 270",
+            "armor": "Durallex Special Heavy with CASE",
+            "communications": "Sipher Security Plus ECM",
+            "targeting": "Matabushi Sentinel"
+        }
+    }
+}

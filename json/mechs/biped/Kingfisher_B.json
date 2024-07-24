@@ -1,0 +1,283 @@
+{
+    "chassis": "Kingfisher",
+    "model": "B",
+    "mul_id": 1780,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 2887,
+    "source": "TRO: 3058",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "quirks": [
+        "rugged_1"
+    ],
+    "mass": 90,
+    "engine": "360 Fusion (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 14,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 30
+        },
+        "right_arm": {
+            "pips": 30
+        },
+        "left_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 28
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 44
+            },
+            "rear": {
+                "pips": 13
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 38
+        },
+        "right_leg": {
+            "pips": 38
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Small Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Ultra AC/20": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "AMS": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERLargeLaser (omnipod)",
+            "5": "CLERMediumLaser (omnipod)",
+            "6": "CLERSmallLaser (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLUltraAC20 (omnipod)",
+            "4": "CLUltraAC20 (omnipod)",
+            "5": "CLUltraAC20 (omnipod)",
+            "6": "CLUltraAC20 (omnipod)",
+            "7": "CLUltraAC20 (omnipod)",
+            "8": "CLUltraAC20 (omnipod)",
+            "9": "CLUltraAC20 (omnipod)",
+            "10": "CLUltraAC20 (omnipod)",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "CLERMediumLaser (omnipod)",
+            "2": "CLERMediumLaser (omnipod)",
+            "3": "Clan Endo Steel",
+            "4": "Clan Endo Steel",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": "Clan Ferro-Fibrous",
+            "8": "Clan Ferro-Fibrous",
+            "9": "Clan Ferro-Fibrous",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "CLDoubleHeatSink",
+            "2": "CLDoubleHeatSink",
+            "3": "CLERMediumLaser (omnipod)",
+            "4": "Clan Ultra AC/20 Ammo (omnipod)",
+            "5": "Clan Ultra AC/20 Ammo (omnipod)",
+            "6": "Clan Endo Steel",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "CLAntiMissileSystem (omnipod)",
+            "12": "CLAMS Ammo (omnipod)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Clan Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDoubleHeatSink",
+            "6": "CLDoubleHeatSink",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "An early Clan assault OmniMech that may have influenced all subsequent assault OmniMech design, the Kingfisher is rugged and maneuverable. These traits make the Kingfisher an ideal choice for take and hold missions.",
+        "capabilities": "The tough Kingfisher mounts fourteen and a half tons of Ferro-Fibrous armor on an Endo Steel chassis, the most it can take. Unlike most modern front-line OmniMechs, the Kingfisher uses a standard engine. The 'Mech also has seventeen fixed double heat sinks, forcing three to be mounted outside of the engine.",
+        "deployment": "The Kingfisher B is built around an Ultra Autocannon/20 with a meager two tons of ammunition. A solitary ER Large Laser provides long-range firepower. Four ER Medium Lasers and the ubiquitous ER Small round out the offensive guns. An Anti-Missile System gives the design some protection against missiles.",
+        "history": "Based off the powerful but dezgra Pulverizer, Clan Snow Raven debuted the Kingfisher in 2887 as an early second-generation OmniMech, the Kingfisher's speed and relative invulnerability have kept it in heavy use even during the Clan Invasion era, especially by Clan Ghost Bear, alongside more recent assault OmniMechs like the Executioner.",
+        "manufacturer": [
+            "Snow Raven Industrial Complex Alpha",
+            "Strana Mechty \u2019Mech Production Facility Beta"
+        ],
+        "primaryfactory": [
+            "Dante",
+            "Strana Mechty"
+        ],
+        "systemmanufacturer": {
+            "chassis": "SL YT-A Endo",
+            "engine": "Star League Standard 360",
+            "armor": "Forging Z5 Ferro-Fibrous",
+            "communications": "Model 74/129.3 TCS",
+            "targeting": "S438 Mk. III Mod. 7 TTS"
+        }
+    }
+}

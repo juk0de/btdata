@@ -1,0 +1,251 @@
+{
+    "chassis": "Toro",
+    "model": "TR-A-6",
+    "mul_id": 3277,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 2548,
+    "source": "TRO: 3075",
+    "rules_level": 1,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "cramped_cockpit"
+    ],
+    "mass": 35,
+    "engine": "175 Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 11
+        },
+        "left_torso": {
+            "pips": 8
+        },
+        "right_torso": {
+            "pips": 8
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Single"
+    },
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 11
+            },
+            "rear": {
+                "pips": 3
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "Particle Cannon": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "LRM 5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "LRM 5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Heat Sink",
+            "5": "Particle Cannon",
+            "6": "Particle Cannon",
+            "7": "Particle Cannon",
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Heat Sink",
+            "2": "LRM 5",
+            "3": "IS Ammo LRM-5",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Heat Sink",
+            "2": "LRM 5",
+            "3": "IS Ammo LRM-5",
+            "4": null,
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Toro was the Taurian Concordat's first indigenous BattleMech. First produced in 2481, the design was based on captured Firebees and developed as a collaboration between the three best arms manufacturers in the Concordat.",
+        "capabilities": "The light 'Mech is slow by 31st century standards, but it was quite maneuverable for the Age of War. The design topped out at 86 km/h. It was protected by a respectable six and a half tons of armor. Its comparatively low cost allowed entire battalions to swiftly be equipped with BattleMechs",
+        "deployment": "The Toro was a long-range fighter. It was armed with a Taurus WarWorks PPC and two Delta Dart LRM-5 launchers. The standard allotment of heat sinks was sufficient as long as the MechWarrior managed his or her heat wisely. Two tons of ammunition kept the Toro in protracted engagements and allowed flexibility in ammo selection. Due to the lack of short-range backup, Toros were arrayed in staggered lines so as to allow them to support each other.",
+        "history": "The Toro took to the front lines against the Star League in the Reunification War, but was not enough to stop the combined might of the Inner Sphere. The League shut down and demolished all of the Toro factories by 2598 in the hope that it would crush Taurian nationalism, though there is no evidence it had the desired effect. Under the Star League aegis, the Taurian heavy industry produced League 'Mechs, a situation they pragmatically continued with following its fall. Thanks to the dissemination of the Hegemony Memory Core during the Jihad the Toro was finally revived by manufacturers in the Concordat, Calderon Protectorate, Magistracy of Canopus and ironically the Federated Suns.",
+        "manufacturer": [
+            "Taurus WarWorks"
+        ],
+        "primaryfactory": [
+            "Taurus (discontinued 2598)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Humanoid Mk. VI TR",
+            "engine": "Magna 175",
+            "armor": "Ecto-Mineral Armorplate 2",
+            "communications": "VeraTech MilCom Suite 3",
+            "targeting": "VeraTech MechTnT XVT20S"
+        }
+    }
+}

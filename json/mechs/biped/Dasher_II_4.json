@@ -1,0 +1,256 @@
+{
+    "chassis": "Dasher II",
+    "model": "4",
+    "mul_id": 6919,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3136,
+    "source": "Record Sheets: 3145 New Tech New Upgrades",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "poor_performance"
+    ],
+    "mass": 40,
+    "engine": "280 XXL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Triple-Strength",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 8,
+    "armor": {
+        "type": "Hardened",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 9
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "weapons": {
+        "1": {
+            "LRM 5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "LRM 5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Large Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Small Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Micro Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERSmallLaser",
+            "6": "CLMicroPulseLaser",
+            "7": "Chain Whip",
+            "8": "Chain Whip",
+            "9": "Clan Endo Steel",
+            "10": "Clan Endo Steel",
+            "11": "Clan Endo Steel",
+            "12": "TSM"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERLargeLaser",
+            "5": "CLERMediumLaser",
+            "6": "Clan Endo Steel",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": "TSM",
+            "10": "TSM",
+            "11": "TSM",
+            "12": "TSM"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "IS Improved Jump Jet",
+            "6": "IS Improved Jump Jet",
+            "7": "IS Improved Jump Jet",
+            "8": "IS Improved Jump Jet",
+            "9": "IS Improved Jump Jet",
+            "10": "IS Improved Jump Jet",
+            "11": "CLLRM5",
+            "12": "Clan Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Fusion Engine",
+            "5": "IS Improved Jump Jet",
+            "6": "IS Improved Jump Jet",
+            "7": "IS Improved Jump Jet",
+            "8": "IS Improved Jump Jet",
+            "9": "IS Improved Jump Jet",
+            "10": "IS Improved Jump Jet",
+            "11": "CLLRM5",
+            "12": "Clan Ammo LRM-5"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "TSM",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Improved Jump Jet",
+            "6": "IS Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Improved Jump Jet",
+            "6": "IS Improved Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    }
+}

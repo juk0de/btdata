@@ -1,0 +1,275 @@
+{
+    "chassis": "Nexus",
+    "model": "NXS1-C",
+    "mul_id": 8412,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3140,
+    "source": "Rec Guide:ilClan #23",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "bad_rep_is"
+    ],
+    "mass": 25,
+    "engine": "175 Light Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 8
+        },
+        "left_torso": {
+            "pips": 6
+        },
+        "right_torso": {
+            "pips": 6
+        },
+        "left_arm": {
+            "pips": 4
+        },
+        "right_arm": {
+            "pips": 4
+        },
+        "left_leg": {
+            "pips": 6
+        },
+        "right_leg": {
+            "pips": 6
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "IS Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 4,
+    "armor": {
+        "type": "Light Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 7
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 8
+            },
+            "rear": {
+                "pips": 2
+            }
+        },
+        "head": {
+            "pips": 7
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "weapons": {
+        "1": {
+            "Medium Re-engineered Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Small X-Pulse Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Small X-Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Anti-Missile System": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Medium Re-engineered Laser",
+            "5": "Medium Re-engineered Laser",
+            "6": "Medium Laser",
+            "7": "ISSmallXPulseLaser",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Medium Laser",
+            "5": "ISSmallXPulseLaser",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Light Ferro-Fibrous",
+            "11": "IS Light Ferro-Fibrous",
+            "12": "IS Light Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "Jump Jet",
+            "7": "Jump Jet",
+            "8": "ISAntiMissileSystem",
+            "9": "ISAMS Ammo",
+            "10": "ISCASE",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "Jump Jet",
+            "10": "Jump Jet",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Light Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The 'Mech known as the Nexus was originally called the Jackrabbit and was built for the Star League Defense Force by Skobel MechWorks.",
+        "capabilities": "The Nexus has a top speed of 119 km/h and is powered by a Nissan 175 fusion engine which is both light and rugged. To save weight without the vulnerability of an extralight engine, the Nexus is built on a Skobel 100-ROB Endo Steel chassis. For protection, the 'Mech carries a light two tons of Krupp 200 Ferro-Fibrous armor, relying on its speed and maneuverability, which is enhanced with a jumping capability of up to one hundred and twenty meters. Finally, to handle the heat from the arsenal of energy weapons, the Nexus carries ten double heat sinks.",
+        "deployment": "Unknown",
+        "history": "Ironically, the Jackrabbit ended testing two weeks before Stefan Amaris seized power on Terra and was primarily used by units loyal to Amaris against the SLDF in General Kerensky's drive to liberate the Terran Hegemony. The design was later reworked on orders from Precentor Martial Anastasius Focht and renamed the Nexus.",
+        "manufacturer": [
+            "Imperial BattleMechs"
+        ],
+        "primaryfactory": [
+            "Braunschweig"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Imperial 1a Endo",
+            "engine": "Antwerp 175",
+            "armor": "Compound Rho Special Reflective",
+            "communications": "CGS-Comm-1a",
+            "targeting": "CGS-TTS-VIIa"
+        }
+    }
+}

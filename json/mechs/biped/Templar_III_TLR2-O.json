@@ -1,0 +1,273 @@
+{
+    "chassis": "Templar III",
+    "model": "TLR2-O",
+    "mul_id": 6353,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3100,
+    "source": "TRO: 3145 Federated Suns",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "mass": 85,
+    "engine": "340 Light Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "Heavy Duty Gyro",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "IS Double"
+    },
+    "base_chassis_heat_sinks": 13,
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 28
+        },
+        "right_arm": {
+            "pips": 28
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 44
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 36
+        },
+        "right_leg": {
+            "pips": 36
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "SRM 4": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (OMNIPOD)",
+            "4": "ISDoubleHeatSink (OMNIPOD)",
+            "5": "ISDoubleHeatSink (OMNIPOD)",
+            "6": "ISERPPC (OMNIPOD)",
+            "7": "ISERPPC (OMNIPOD)",
+            "8": "ISERPPC (OMNIPOD)",
+            "9": "ISERMediumLaser (OMNIPOD)",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISDoubleHeatSink (OMNIPOD)",
+            "4": "ISDoubleHeatSink (OMNIPOD)",
+            "5": "ISDoubleHeatSink (OMNIPOD)",
+            "6": "ISDoubleHeatSink (OMNIPOD)",
+            "7": "ISDoubleHeatSink (OMNIPOD)",
+            "8": "ISDoubleHeatSink (OMNIPOD)",
+            "9": "ISERPPC (OMNIPOD)",
+            "10": "ISERPPC (OMNIPOD)",
+            "11": "ISERPPC (OMNIPOD)",
+            "12": "ISERMediumLaser (OMNIPOD)"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISTargeting Computer (OMNIPOD)",
+            "4": "ISTargeting Computer (OMNIPOD)",
+            "5": "ISTargeting Computer (OMNIPOD)",
+            "6": "ISTargeting Computer (OMNIPOD)",
+            "7": "ISTargeting Computer (OMNIPOD)",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink (OMNIPOD)",
+            "4": "ISDoubleHeatSink (OMNIPOD)",
+            "5": "ISDoubleHeatSink (OMNIPOD)",
+            "6": "SRM 4 (OMNIPOD)",
+            "7": "IS Ammo SRM-4 (OMNIPOD)",
+            "8": "ISCASE",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERSmallLaser (OMNIPOD)",
+            "12": "ISERSmallLaser (OMNIPOD)"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Templar III is a Dark Age era Assault Class OmniMech, first produced by General Motors for the Federated Suns. It was intended as a replacement for the original Templar, whose factory lines were destroyed during the Jihad. General Motors established a new production line on New Valencia for what was to become the next generation of the Templar with newer technologies.",
+        "capabilities": "Like its predecessor, the Templar III is typically utilized as a Command 'Mech by AFFS forces. With its alternate configurations the 'Mech is able to handle various combat situations thanks to access to Advanced equipment.",
+        "deployment": "The Prime Configuration of the Templar III is not unlike the older WHM-8D Warhammer's weapons load-out. The Configuration is armed with that older design's ER PPCs, Extended-Ranged Medium and Small Lasers, while having a single 4-Tubed Short-Range Missile Launcher instead of the 6-Tubed Launcher. All of its energy weapons are tied together with a Targeting Computer and cooled down by four additional Double Heat Sinks. The launcher ammunition is protected by the Templar III",
+        "history": "Among the most noticeable differences when comparing the original Templar to the Templar III is its smaller Pod Capacity. The new 'Mech has a 29 ton Pod capacity in comparison to the old Templar's 40 tons. However, the 'Mech's heavier Light Engine provides improved durability while retaining the original design's maximum speed and armor protection.",
+        "manufacturer": [
+            "General Motors"
+        ],
+        "primaryfactory": [
+            "New Valencia"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Kallon Type XX Endo Steel",
+            "engine": "GM 340 Light",
+            "armor": "StarGuard CIV",
+            "communications": "Newberg Telescan 17",
+            "targeting": "Spar 3C MegaTrak"
+        }
+    }
+}

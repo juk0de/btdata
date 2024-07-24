@@ -1,0 +1,222 @@
+{
+    "chassis": "Scylla",
+    "model": "3",
+    "mul_id": 5724,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3082,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Brawler",
+    "source": "Record Sheets: 3067 Unabridged",
+    "quirks": [
+        "oversized"
+    ],
+    "mass": 100,
+    "engine": "400 XL Fusion Engine",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 16,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "left_arm": {
+            "pips": 32
+        },
+        "right_arm": {
+            "pips": 32
+        },
+        "left_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 33
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 45
+            },
+            "rear": {
+                "pips": 11
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "CLERPPC": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "CLHeavyLargeLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "CLHAG30": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 12
+            }
+        },
+        "4": {
+            "CLLBXAC20": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 10
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLLBXAC20",
+            "5": "CLLBXAC20",
+            "6": "CLLBXAC20",
+            "7": "CLLBXAC20",
+            "8": "CLLBXAC20",
+            "9": "CLLBXAC20",
+            "10": "CLLBXAC20",
+            "11": "CLLBXAC20",
+            "12": "CLLBXAC20"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLHAG30",
+            "5": "CLHAG30",
+            "6": "CLHAG30",
+            "7": "CLHAG30",
+            "8": "CLHAG30",
+            "9": "CLHAG30",
+            "10": "CLHAG30",
+            "11": "CLHAG30",
+            "12": "CLHAG30 Ammo"
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "CLHeavyLargeLaser",
+            "4": "CLHeavyLargeLaser",
+            "5": "CLHeavyLargeLaser",
+            "6": "CLLBXAC20 Ammo",
+            "7": "CLLBXAC20 CL Ammo",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "CLERPPC",
+            "4": "CLERPPC",
+            "5": "CLHAG30 Ammo",
+            "6": "CLHAG30 Ammo",
+            "7": "Ferro-Fibrous",
+            "8": "Ferro-Fibrous",
+            "9": "Ferro-Fibrous",
+            "10": "Ferro-Fibrous",
+            "11": "Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": null,
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Endo-Steel",
+            "6": "Endo-Steel"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Ferro-Fibrous",
+            "6": "Ferro-Fibrous"
+        }
+    }
+}

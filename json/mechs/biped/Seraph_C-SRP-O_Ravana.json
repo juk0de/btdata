@@ -1,0 +1,260 @@
+{
+    "chassis": "Seraph",
+    "model": "C-SRP-OR (Ravana)",
+    "mul_id": 2875,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3074,
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "source": "Jihad Turning Points: Sian",
+    "quirks": [
+        "imp_com",
+        "imp_sensors",
+        "low_profile",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 85,
+    "engine": "255 Light Fusion Engine",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "cockpit": "Small Cockpit",
+    "myomer": "Triple Strength Myomer",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 27
+        },
+        "right_arm": {
+            "pips": 27
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 9
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 13
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 35
+        },
+        "right_leg": {
+            "pips": 35
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISSNPPC": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISLargeVSPLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISThunderbolt20": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 12
+            }
+        },
+        "4": {
+            "Retractable Blade": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISLaserAntiMissileSystem": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISImprovedC3CPU": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "ISDouble Heat Sink",
+            "11": "Triple Strength Myomer",
+            "12": "Triple Strength Myomer"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Retractable Blade",
+            "6": "Retractable Blade",
+            "7": "Retractable Blade",
+            "8": "Retractable Blade",
+            "9": "Retractable Blade",
+            "10": "Retractable Blade",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "ISLargeVSPLaser",
+            "4": "ISLargeVSPLaser",
+            "5": "ISLargeVSPLaser",
+            "6": "ISLargeVSPLaser",
+            "7": "ISImprovedC3CPU",
+            "8": "ISImprovedC3CPU",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "ISThunderbolt20",
+            "4": "ISThunderbolt20",
+            "5": "ISThunderbolt20",
+            "6": "ISThunderbolt20",
+            "7": "ISThunderbolt20",
+            "8": "ISThunderbolt20 Ammo",
+            "9": "ISThunderbolt20 Ammo",
+            "10": "ISThunderbolt20 Ammo",
+            "11": "ISThunderbolt20 Ammo",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "ISLaserAntiMissileSystem",
+            "12": "ISLaserAntiMissileSystem"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISSNPPC",
+            "6": "ISSNPPC"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Triple Strength Myomer",
+            "6": "Triple Strength Myomer"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Triple Strength Myomer",
+            "6": "Triple Strength Myomer"
+        }
+    },
+    "fluff": {
+        "overview": "The light assault 'Mech of the Celestial series of OmniMechs, the Seraph is somewhat slow for its weight, but it attempts to make up for that with the inclusion of Triple-Strength Myomer that enables the 'Mech to speed up to 64 kph when it runs hot.",
+        "capabilities": "Like the other Celestials, the Seraph makes use of a light fusion engine and a small cockpit, though other newer technologies are present only in its weaponry. As with the other Celestials, a C3i Computer is included. The main criticism of the Seraph Invictus is that it does not make very good use of its Triple-Strength Myomer. The design does not build enough heat to activate the musculature, a problem the Streak missile system only exacerbates.",
+        "deployment": "Customized configuration of the Manei Domini staffed Warrior House Rakshasa's house master, Precentor Ravana. This Seraph is configured with Advanced and Experimental Technology. The 'Mech is configured as intermediate fighter. It carries a SN-PPC, Thunderbolt 20 Missile Launcher and experimental Large Variable-Speed Laser for its primary armament. For defense it has an experimental Laser Anti-Missile System. It's also been given two additional Double-Heat Sinks to help handle the extra heat load.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs",
+            "Martinson Armaments"
+        ],
+        "primaryfactory": [
+            "Gibson (Gibson Federated)",
+            "Terra (Martinson)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Celestial Series SP1",
+            "engine": "GM 255 Light Fusion with Triple-Strength Myomer",
+            "armor": "Durallex Divine Guardian",
+            "communications": "Master\u2019s Voice Cel-Alpha",
+            "targeting": "Master\u2019s Sight 1-Omega"
+        }
+    }
+}

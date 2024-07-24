@@ -1,0 +1,269 @@
+{
+    "chassis": "Zeus",
+    "model": "ZEU-10WB",
+    "mul_id": 3639,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "barrel_fists_ra",
+        "easy_maintain"
+    ],
+    "mass": 80,
+    "engine": "320 Light Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 25
+        },
+        "left_torso": {
+            "pips": 17
+        },
+        "right_torso": {
+            "pips": 17
+        },
+        "left_arm": {
+            "pips": 13
+        },
+        "right_arm": {
+            "pips": 13
+        },
+        "left_leg": {
+            "pips": 17
+        },
+        "right_leg": {
+            "pips": 17
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Standard Cockpit",
+    "gyro": "XL Gyro",
+    "heat_sinks": {
+        "quantity": 17,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 26
+        },
+        "right_arm": {
+            "pips": 26
+        },
+        "left_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 26
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 38
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 34
+        },
+        "right_leg": {
+            "pips": 34
+        }
+    },
+    "weapons": {
+        "1": {
+            "Heavy PPC": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Heavy PPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Large Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Heavy PPC",
+            "8": "Heavy PPC",
+            "9": "Heavy PPC",
+            "10": "Heavy PPC",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "Heavy PPC",
+            "8": "Heavy PPC",
+            "9": "Heavy PPC",
+            "10": "Heavy PPC",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "ISERLargeLaser",
+            "10": "ISERLargeLaser",
+            "11": "ISERMediumLaser",
+            "12": "IS Ferro-Fibrous"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISERMediumLaser",
+            "7": "ISERMediumLaser",
+            "8": "ISERMediumLaser",
+            "9": "IS Ferro-Fibrous",
+            "10": "IS Ferro-Fibrous",
+            "11": "IS Ferro-Fibrous",
+            "12": "IS Ferro-Fibrous"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Gyro",
+            "9": "Gyro",
+            "10": "Fusion Engine",
+            "11": "Fusion Engine",
+            "12": "Fusion Engine"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Ferro-Fibrous",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Ferro-Fibrous",
+            "6": "IS Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Zeus was first built by the Lyran Commonwealth in 2787, just as the First Succession War began. Built at the request of Lyran Commonwealth Armed Forces commanders for a new light-assault 'Mech designed to engage the enemy at long range and perform hit-and-run attacks.",
+        "capabilities": "The Zeus is fast enough to keep up with most heavy 'Mechs, and with a sturdy frame, eleven and a half tons of standard armor and a versatile weapons array, is equally capable of defeating them. Its use of reliable, low-maintenance and easily modified systems at a time when most 'Mechs were built with cutting-edge technology also proved fortuitous, allowing the Zeus to be produced long after those advanced components had become Lostech.",
+        "deployment": "This variant was produced by the Word of Blake following their seizure of Hesperus II during the Jihad. Rolling off assembly lines six months after the planet's capture, it was armed with a pair of Heavy PPCs, supplemented by an ER large laser, four ER medium lasers and fourteen tons of ferro-fibrous armor. These new additions were made possible by the inclusion of an XL Gyro and Light Fusion Engine, while seventeen double heat sinks were included for heat management.",
+        "history": "Three years before its release, the first two prototypes of the Zeus would have their first \"test run\" when they were forced to repel an attack on the Hesperus II factory by the Draconis Combine Mustered Soldiery. As the enemy pushed through Lyran lines, the two 'Mechs were summoned to aid, and through sheer novelty and long-range firepower, the Kuritans were forced to pause. This enabled more reinforcements to push back DCMS forces. While these prototypes were effective in repelling the attack, they were considerably more advanced than the commercial model and armed with a PPC, which proved unpredictable and unreliable during the combat. Inadequate shielding caused wild magnetic interactions between the weapon and the Zeus' engine, which was later revealed to be the source of this behavior. To guarantee that the Zeus arrived at the front lines as soon as possible, the complex energy weapon was replaced with a basic autocannon. The 'Mech initially appeared in substantial numbers after the 15th Lyran Guards regained the planet Sakhalin, and the Zeus had a long and storied history within the Commonwealth during the Succession Wars, becoming a well-respected assault 'Mech. Engineers were able to put a PPC on the Zeus again after the end of the Third Succession War, with the resulting ZEU-6T variant being the standard during the Fourth Succession War and later the War of 3039. The design was also well received by mercenary units, particularly the Zeta Battalion of Wolf's Dragoons.",
+        "manufacturer": [
+            "Defiance Industries"
+        ],
+        "primaryfactory": [
+            "Hesperus II"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Chariot Type III",
+            "engine": "Pitban 320 Light",
+            "armor": "Glasgow Limited Primo Ferro-Fibrous with CASE",
+            "communications": "TharHes Calliope ZE-2",
+            "targeting": "TharHes Ares-7"
+        }
+    }
+}

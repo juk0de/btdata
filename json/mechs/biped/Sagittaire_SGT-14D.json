@@ -1,0 +1,278 @@
+{
+    "chassis": "Sagittaire",
+    "model": "SGT-14D",
+    "mul_id": 6835,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3134,
+    "source": "Record Sheets: 3145 New Tech New Upgrades",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "imp_target_short",
+        "difficult_maintain",
+        "weak_head_1"
+    ],
+    "mass": 95,
+    "engine": "285 Light Engine(IS)",
+    "structure": {
+        "type": "Endo-Composite",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 30
+        },
+        "left_torso": {
+            "pips": 20
+        },
+        "right_torso": {
+            "pips": 20
+        },
+        "left_arm": {
+            "pips": 16
+        },
+        "right_arm": {
+            "pips": 16
+        },
+        "left_leg": {
+            "pips": 20
+        },
+        "right_leg": {
+            "pips": 20
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 14,
+        "type": "Double"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 31
+        },
+        "right_arm": {
+            "pips": 31
+        },
+        "left_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 30
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 44
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 39
+        },
+        "right_leg": {
+            "pips": 39
+        }
+    },
+    "weapons": {
+        "1": {
+            "Large Re-engineered Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Medium VSP Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "Large Re-engineered Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Medium VSP Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "Medium X-Pulse Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ER Large Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Large Re-engineered Laser",
+            "4": "Large Re-engineered Laser",
+            "5": "Large Re-engineered Laser",
+            "6": "Large Re-engineered Laser",
+            "7": "Large Re-engineered Laser",
+            "8": "ISMediumVSPLaser",
+            "9": "ISMediumVSPLaser",
+            "10": "ISMediumVSPLaser",
+            "11": "ISMediumVSPLaser",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Large Re-engineered Laser",
+            "4": "Large Re-engineered Laser",
+            "5": "Large Re-engineered Laser",
+            "6": "Large Re-engineered Laser",
+            "7": "Large Re-engineered Laser",
+            "8": "ISMediumVSPLaser",
+            "9": "ISMediumVSPLaser",
+            "10": "ISMediumXPulseLaser",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISERLargeLaser",
+            "7": "ISERLargeLaser",
+            "8": "IS Endo-Composite",
+            "9": "IS Endo-Composite",
+            "10": "IS Endo-Composite",
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "ISDoubleHeatSink",
+            "4": "ISDoubleHeatSink",
+            "5": "ISDoubleHeatSink",
+            "6": "ISDoubleHeatSink",
+            "7": "ISDoubleHeatSink",
+            "8": "ISDoubleHeatSink",
+            "9": "Radical Heat Sink System",
+            "10": "Radical Heat Sink System",
+            "11": "Radical Heat Sink System",
+            "12": "IS Endo-Composite"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "IS Endo-Composite"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISC3BoostedSystemSlaveUnit",
+            "6": "ISC3BoostedSystemSlaveUnit",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "IS Endo-Composite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "IS Endo-Composite",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Sagittaire is built to fight in the confines of an urban battlefield.",
+        "capabilities": "The laser-heavy Sagittaire is powered by a Pitban extralight engine and has a top speed of 54 kph, which is comparable to 'Mechs of similar weight. The HildCo lifters fitted in the legs and midline, however, make the Sagittaire one of the few assault 'Mechs with jumping capacity, offering it a great deal of tactical versatility. That, of course, does not account for the psychological impact of witnessing a 95-ton BattleMech fly through the air on inexperienced troops. As if that weren't enough, the Sagittaire's pulse-technology lasers combined with the targeting computer enable a MechWarrior to retain a high rate of movement while still outperforming most other BattleMechs. With eighteen tons of armor, the need for such a strategy is questionable. The design is truly deadly when the Sagittaire's feet are firmly planted on the earth.",
+        "deployment": "This variant uses an Endo-Composite structure and Small Cockpit. This frees enough weight to replace the weapons with two Large Re-Engineered Lasers, an ER Large Laser, three Medium Variable Speed Pulse Lasers, and a Medium X-Pulse Laser. A C3 Boosted Slave is mounted in the head. Fourteen double heat sinks are boosted by a Radical Heat Sink System. This Sagittaire can also cover 90 meters in a single jump.",
+        "history": "When it was originally deployed from Robinson BattleWorks in 3063, the machine saw considerable battle against House Kurita as Duke James Sandoval dedicated heavy resources to taking and retaining a half-dozen Combine worlds. The Sagittaire was crucial in the attack on Proserpina, where one of these robots slaughtered a company of Ninth Benjamin Regulars samurai in a series of ill-fated one-on-one duels. Later, following House Kurita's successful counter-assault, the Dragon made a deliberate effort to acquire or salvage multiple Sagittaire-designed 'Mechs for its own usage. Duke Sandoval later permitted additional of these vehicles to be sold into her loyalist army as Katherine Steiner-Davion tightened her grip on the Draconis March. This was short-lived, since Tancred Sandoval removed his father as March Lord not long after. He then directed the entire Sagittaire line to reinforce his own soldiers as well as the regiments supporting Victor Steiner-Davion. As an illustration of the Sagittaire's broad appeal, an allied company and a loyalist company were stationed on New Avalon, each with a lance of Sagittaires. During the battle for the continental capital of Flensburg, only three allied robots escaped under their own power. They were all Sagittarius. They were responsible for eight \"kills\" out of twelve enemy 'Mechs.",
+        "manufacturer": [
+            "Robinson Standard BattleWorks"
+        ],
+        "primaryfactory": [
+            "Robinson"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Skuel Heavy TRQ EC",
+            "engine": "Pitban 285 Light",
+            "armor": "Starshield Special Heavy",
+            "jumpjet": "HildCo LFT 9-X",
+            "communications": "Sony MSF-31",
+            "targeting": "Federated Stalker with Targeting Module"
+        }
+    }
+}

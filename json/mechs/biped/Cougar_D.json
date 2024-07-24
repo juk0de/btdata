@@ -1,0 +1,260 @@
+{
+    "chassis": "Cougar",
+    "model": "D",
+    "mul_id": 707,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3058,
+    "source": "TRO: 3060",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Sniper",
+    "quirks": [
+        "ubiquitous_clan"
+    ],
+    "mass": 35,
+    "engine": "175 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 11
+        },
+        "left_torso": {
+            "pips": 8
+        },
+        "right_torso": {
+            "pips": 8
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 8
+        },
+        "right_leg": {
+            "pips": 8
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 7,
+    "walk_mp": 5,
+    "run_mp": 8,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Fibrous",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 12
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 12
+        },
+        "right_leg": {
+            "pips": 12
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Large Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Ultra AC/10": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "SRM 4": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "SRM 4": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLDoubleHeatSink",
+            "5": "CLDoubleHeatSink",
+            "6": "CLERLargeLaser (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLUltraAC10 (omnipod)",
+            "6": "CLUltraAC10 (omnipod)",
+            "7": "CLUltraAC10 (omnipod)",
+            "8": "CLUltraAC10 (omnipod)",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLSRM4 (omnipod)",
+            "4": "Clan Endo Steel",
+            "5": "Clan Endo Steel",
+            "6": "Clan Endo Steel",
+            "7": "Clan Endo Steel",
+            "8": "Clan Endo Steel",
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "CLDoubleHeatSink",
+            "4": "CLDoubleHeatSink",
+            "5": "CLSRM4 (omnipod)",
+            "6": "Clan Ammo SRM-4 (omnipod)",
+            "7": "Clan Ultra AC/10 Ammo (omnipod)",
+            "8": "Clan Ultra AC/10 Ammo (omnipod)",
+            "9": "Clan Ferro-Fibrous",
+            "10": "Clan Ferro-Fibrous",
+            "11": "Clan Ferro-Fibrous",
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Clan Endo Steel",
+            "12": "Clan Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": null,
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Fibrous",
+            "6": "Clan Ferro-Fibrous",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Based on the Adder, the Cougar is a powerful Clan Jade Falcon light OmniMech.",
+        "capabilities": "Though the two 'Mechs are visually similar and share the same weight, the Cougar is slower and better armed than the Adder, replacing its progenitor's 210 XL Engine with a lighter 175 XL model and mounting just five and a half tons of Ferro-Fibrous armor on an Endo Steel frame to boost the available pod-space to 19 tons. Though some Clan MechWarriors complained that the loss of speed was damning for a light 'Mech, the overall consensus was the increased firepower made up for this lack.",
+        "deployment": "The final original configuration which uses an ER Large Laser and an Ultra Autocannon/10 for sniping and a pair of SRM-4s to finish off its opponents at close range.",
+        "history": "After the Refusal War with Clan Wolf, the Falcon's newly-vested Khan Marthe Pryde strove to rebuild her shattered touman, reaping the benefits of efforts by her predecessor Elias Crichell to step up the pace of the Falcon breeding program and to bring new and deadly OmniMechs into service. With regards the latter, the successful introduction of the Fire Falcon, Black Lanner, Night Gyr and Turkina pleased her, but Pryde desired the symbolic goal of a complete Star of new 'Mechs. Recognizing that she'd stretched her Clan's scientists to the limit to produce those four designs already, Khan Pryde directed her scientists to modify an existing design into an even more deadly machine for the fifth member. The design selected was the Adder, and in using an existing design the Falcon scientists were able to field a virtually new 'Mech in roughly half the time normally required to construct and test a new OmniMech. First seeing service during the fighting on Coventry in 3058, the Cougar quickly spread to other Clans, most notably Clan Smoke Jaguar's defenders during Operation BULLDOG. The visual similarity to the Adder caught the Inner Sphere forces who faced it on Coventry and Port Arthur off-guard, incorrectly assuming it was the older design and being shocked by the greater firepower the Cougar was capable of unleashing. Remaining popular with the Falcons, the Ironhold facility that produced the Cougar was destroyed by Clan Steel Viper in 3071 during the Wars of Reaving.",
+        "manufacturer": [
+            "Ironhold Alpha Complex"
+        ],
+        "primaryfactory": [
+            "Ironhold"
+        ],
+        "systemmanufacturer": {
+            "chassis": "JF 3 Light Endo Steel",
+            "engine": "175 JF Extralight",
+            "armor": "Compound JF Ferro-Fibrous",
+            "communications": "JF Integrated",
+            "targeting": "Series JFVIII KITT"
+        }
+    }
+}

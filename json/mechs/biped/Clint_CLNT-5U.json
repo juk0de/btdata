@@ -1,0 +1,269 @@
+{
+    "chassis": "Clint",
+    "model": "CLNT-5U",
+    "mul_id": 650,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3062,
+    "source": "TRO: 3050",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Striker",
+    "quirks": [
+        "imp_target_long",
+        "imp_target_med",
+        "difficult_maintain",
+        "exp_actuator",
+        "non_standard"
+    ],
+    "mass": 40,
+    "engine": "240 Light Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 12
+        },
+        "left_torso": {
+            "pips": 10
+        },
+        "right_torso": {
+            "pips": 10
+        },
+        "left_arm": {
+            "pips": 6
+        },
+        "right_arm": {
+            "pips": 6
+        },
+        "left_leg": {
+            "pips": 10
+        },
+        "right_leg": {
+            "pips": 10
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 6,
+    "run_mp": 9,
+    "jump_mp": 6,
+    "armor": {
+        "type": "Standard",
+        "left_arm": {
+            "pips": 11
+        },
+        "right_arm": {
+            "pips": 11
+        },
+        "left_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 14
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 16
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERLargeLaser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISERMediumLaser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ISC3SlaveUnit": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ISERMediumLaser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISTAG": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISERLargeLaser",
+            "5": "ISERLargeLaser",
+            "6": "ISDouble Heat Sink",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "ISERMediumLaser",
+            "5": "ISERMediumLaser",
+            "6": "ISC3SlaveUnit",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "ISDouble Heat Sink",
+            "5": "ISDouble Heat Sink",
+            "6": "ISDouble Heat Sink",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERMediumLaser",
+            "12": "ISTAG"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Jump Jet",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Clint was primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it served well.",
+        "capabilities": "With a top speed of 97.2 km/h and a jumping capability of 180 meters, the Clint can easily keep up with other recon elements and maneuver through mountainous or urban terrain. Its Sloan 220 Lockover T&T system in particular shines, as it is simple to use and provides the pilot with excellent battlefield data. Although the 'Mech has limited ammunition reserves for its autocannon, the Sloane 220 ensures that whatever the Clint shoots at, it hits.",
+        "deployment": "The 5U Clint is a complete rework of the design, adopted by the Lyran Alliance Armed Forces on the eve of the FedCom Civil War. It is constructed using an endo steel chassis and is powered with a light fusion engine, freeing up weight for a Maxell ER large laser as its primary weapon, backed up by three ER medium lasers. The 5U also carries an advanced C3 slave unit and a TAG spotting laser to allow it to designate targets for friendly units.",
+        "history": "The Clint was built in 2607 as a direct result of the Star League Armaments Act, a law intended to provide frontier areas with cutting-edge warfare technology. However, Andoran Industries Ltd., a tiny BattleMech firm based on Bell, won the project by undercutting its competitors with cost-cutting design features. The Clint was not only made with substandard parts that rarely lasted a year, but it also employed very few standard components; modular pieces that could be easily transferred between many different 'Mechs could not be used in the Clint without extensive modification. The machine became a technician's nightmare, requiring more time to fix than comparable 'Mechs and allowing Andoran to recoup the Clint's low purchase price with a costly service contract. Before the Star League crumbled, over 300 Clints were created, and Andoran's factories were destroyed during conflict between the Federated Suns and the Capellan Confederation. House Davion and House Liao seized the majority of the remaining Clints and dispatched them to isolated regions inside their realms for defense purposes, however the Capellans retained several of the 'Mechs in front-line troops. Nonetheless, the explosion of the Bell facility destroyed not only the original Clint blueprints, effectively terminating new unit and spare part production, but also records of the exact number of Clints made and variants created. Clints could therefore be found across the Inner Sphere throughout the Succession Wars, proving rather popular in the Periphery, although the origins of many of these machines, and whether their different loadouts were official manufacture modifications or simple field-refits, remained unknown. Furthermore, the Clint's non-standard components quickly rose in price - the gyro, in instance, became worth its weight in gold - and many were simply stripped for parts to fix damaged machines. Despite the design's inherent maintenance challenges, an estimated 200 Clints remained in service until the Clan Invasion, largely in the hands of the Capellans or scattered throughout the Suns' border regions. The Confederation also created the 3U model, which the Federated Commonwealth swiftly adopted after the Bell Refit Yards were erected on the ruins of the original factory complex. The plans for the design finally made their way to Defiance Industries of Furillo, which began constructing new Clints for the first time in millennia in 3055.",
+        "manufacturer": [
+            "Defiance Industries"
+        ],
+        "primaryfactory": [
+            "Furillo"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Andoran Model ES-III",
+            "engine": "Pitban 240 Light",
+            "armor": "Durallex Medium",
+            "communications": "Raldon R1 with C3",
+            "targeting": "Sloane 220 Lockover System with TAG",
+            "jumpjet": "Andoran Model JJII"
+        }
+    }
+}

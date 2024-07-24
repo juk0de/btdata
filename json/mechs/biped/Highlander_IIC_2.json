@@ -1,0 +1,269 @@
+{
+    "chassis": "Highlander IIC",
+    "model": "2",
+    "mul_id": 1525,
+    "config": "Biped",
+    "techbase": "Clan",
+    "era": 3072,
+    "source": "TRO: 3060",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "command_mech",
+        "cowl",
+        "reinforced_legs",
+        "difficult_eject"
+    ],
+    "mass": 90,
+    "engine": "270 Fusion (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 29
+        },
+        "left_torso": {
+            "pips": 19
+        },
+        "right_torso": {
+            "pips": 19
+        },
+        "left_arm": {
+            "pips": 15
+        },
+        "right_arm": {
+            "pips": 15
+        },
+        "left_leg": {
+            "pips": 19
+        },
+        "right_leg": {
+            "pips": 19
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 11,
+        "type": "Laser"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 3,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 28
+        },
+        "right_arm": {
+            "pips": 28
+        },
+        "left_torso": {
+            "front": {
+                "pips": 29
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 29
+            },
+            "rear": {
+                "pips": 8
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 42
+            },
+            "rear": {
+                "pips": 13
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 35
+        },
+        "right_leg": {
+            "pips": 35
+        }
+    },
+    "weapons": {
+        "1": {
+            "Streak SRM 6": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "AP Gauss Rifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 6
+            }
+        },
+        "3": {
+            "Gauss Rifle": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "5": {
+            "ATM 6": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 3
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLStreakSRM6",
+            "6": "CLStreakSRM6",
+            "7": "CLAPGaussRifle",
+            "8": "CLAPGaussRifle",
+            "9": "CLAPGaussRifle",
+            "10": "CLAPGaussRifle",
+            "11": "CLAPGaussRifle",
+            "12": "CLAPGaussRifle"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLGaussRifle",
+            "5": "CLGaussRifle",
+            "6": "CLGaussRifle",
+            "7": "CLGaussRifle",
+            "8": "CLGaussRifle",
+            "9": "CLGaussRifle",
+            "10": "Clan Gauss Ammo",
+            "11": "Clan Gauss Ammo",
+            "12": "Clan Gauss Ammo"
+        },
+        "left_torso": {
+            "1": "Laser Heat Sink",
+            "2": "Laser Heat Sink",
+            "3": "CLERMediumLaser",
+            "4": "CLERMediumLaser",
+            "5": "CLERMediumLaser",
+            "6": "Clan Ammo ATM-6",
+            "7": "Clan Streak SRM 6 Ammo",
+            "8": "CLAPGaussRifle Ammo",
+            "9": "Endo Steel",
+            "10": "Endo Steel",
+            "11": "Endo Steel",
+            "12": "Endo Steel"
+        },
+        "right_torso": {
+            "1": "CLATM6",
+            "2": "CLATM6",
+            "3": "CLATM6",
+            "4": "CLATM6",
+            "5": "CLATM6",
+            "6": "CLATM6",
+            "7": "CLATM6",
+            "8": "CLATM6",
+            "9": "CLATM6",
+            "10": "Clan Ammo ATM-6",
+            "11": "Clan Ammo ATM-6 ER",
+            "12": "Clan Ammo ATM-6 HE"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "CLECMSuite",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Jump Jet",
+            "6": "Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans.",
+        "capabilities": "With the use of newer, lighter weapons, the damage potential of the Highlander has roughly doubled. The IIC also contains enough ammunition that it rarely needs to conserve any during Trials. Clan scientists were forced to rearrange the placement of some weapons within the 'Mech to allow it proper ammo feeds, but the design is largely unchanged. It carries the maximum amount of Ferro-Fibrous armor that can be crammed on the frame, fourteen and a half tons. As with the original, the IIC carries enough jump jets to move up to ninety meters at a time, allowing MechWarriors to execute the \"Highlander Burial\".",
+        "deployment": "This new variant was introduced during the onslaught of fighting of the Jihad in 3072. The variant is fitted out as an all-range combatant with enhanced anti-infantry fighting. It has retained its Gauss Rifle & Streak SRM 6, while designs exchanged the LRMs for three ATM 6 Launchers with four tons of ammunition. The Medium Pulse Lasers, have been exchanged for trio of ER Medium Lasers. For its anti-infantry role, it has six AP Gauss Rifles fitted into its left arm, with a ton of ammunition for them. Endo Steel has been added to the design, allowing for slight increase in its armor protection.",
+        "history": "As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. Though no new Highlanders have been produced in over a century, several hundred are still in scattered use throughout the touman of every Clan.",
+        "manufacturer": [
+            "W-7 Facilities (Refit)"
+        ],
+        "primaryfactory": [
+            "Weingarten"
+        ],
+        "systemmanufacturer": {
+            "chassis": "SL-XT Modified",
+            "engine": "Fusion 270 Standard",
+            "armor": "Arcadia Compound Delta VII Ferro-Fibrous",
+            "jumpjet": "Prentiss-IIIA",
+            "communications": "C-XII Series B4 GDS",
+            "targeting": "C-12 Mk. III with Artemis IV FCS"
+        }
+    }
+}

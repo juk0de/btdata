@@ -1,0 +1,280 @@
+{
+    "chassis": "Longbow",
+    "model": "LGB-13C",
+    "mul_id": 1933,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3070,
+    "source": "TRO: 3085",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "quirks": [
+        "anti_air",
+        "searchlight",
+        "ubiquitous_is",
+        "no_arms"
+    ],
+    "mass": 85,
+    "engine": "340 XL Engine(IS)",
+    "structure": {
+        "type": "Standard",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 12,
+        "type": "Double"
+    },
+    "walk_mp": 4,
+    "run_mp": 6,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 21
+        },
+        "right_arm": {
+            "pips": 21
+        },
+        "left_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 20
+            },
+            "rear": {
+                "pips": 7
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 31
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 27
+        },
+        "right_leg": {
+            "pips": 27
+        }
+    },
+    "weapons": {
+        "1": {
+            "MML 7": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "MML 7": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "MML 7": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "MML 7": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "6": {
+            "ER Small Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISMML7",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISArtemisIV",
+            "8": "ISMML7",
+            "9": "ISMML7",
+            "10": "ISMML7",
+            "11": "ISMML7",
+            "12": "ISArtemisIV"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "ISMML7",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISArtemisIV",
+            "8": "ISMML7",
+            "9": "ISMML7",
+            "10": "ISMML7",
+            "11": "ISMML7",
+            "12": "ISArtemisIV"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "ISArtemisIV",
+            "9": "IS Ammo MML-7 LRM Artemis-capable",
+            "10": "IS Ammo MML-7 LRM Artemis-capable",
+            "11": "IS Ammo MML-7 SRM Artemis-capable",
+            "12": "ISCASE"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISMML7",
+            "5": "ISMML7",
+            "6": "ISMML7",
+            "7": "ISMML7",
+            "8": "ISArtemisIV",
+            "9": "IS Ammo MML-7 LRM Artemis-capable",
+            "10": "IS Ammo MML-7 SRM Artemis-capable",
+            "11": "IS Ammo MML-7 SRM Artemis-capable",
+            "12": "ISCASE"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISERSmallLaser",
+            "12": "ISERSmallLaser"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISERSmallLaser",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": null,
+            "6": null,
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Longbow, introduced in 2480 as the LGB-0C Longbow, has seen service in the armies of the Inner Sphere since the days of the Star League and is one of the most well-known fire support 'Mechs in existence.",
+        "capabilities": "The Longbow is a massive BattleMech weighing in at 85 tons and is able to move at a top speed of 54.0 km/h, thanks to a Strand 255 fusion engine. The Longbow is protected by fourteen and a half tons of armor. Some have criticized the design for its lack of CASE - making an otherwise rugged 'Mech vulnerable to a loss by an ammunition explosion. As a fire-support 'Mech though, the Longbow is a trusted and reliable machine that can be counted on to carry out the mission it is designed for.",
+        "deployment": "This upgrade of the 12C mounts six Doombud MML 7s, each of which is tied to an Artemis IV FCS. Six tons of CASE-protected ammunition supply these launchers. Three Diverse Optics ER Small Lasers provide paltry backup, though massed short-range missiles coming from the Multi-Missile Launchers are sure to deter smaller 'Mechs. A larger engine brings the 13C to a speed that matches that of the OW.",
+        "manufacturer": [
+            "StarCorps Industries",
+            "StarCorps (FWL) Industries",
+            "StarCorps Industries",
+            "StarCorps Industries"
+        ],
+        "primaryfactory": [
+            "Crofton",
+            "Emris IV",
+            "Fletcher (TH)",
+            "Loburg"
+        ],
+        "systemmanufacturer": {
+            "chassis": "StarCorps 100 LGB",
+            "engine": "Strand 340 XL",
+            "armor": "StarSlab/9.5 Mk II",
+            "communications": "O/P 3000 COMSET",
+            "targeting": "Octagon Tartrac System C"
+        }
+    }
+}

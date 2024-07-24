@@ -1,0 +1,274 @@
+{
+    "chassis": "Archangel",
+    "model": "C-ANG-OC Comminus",
+    "mul_id": 68,
+    "config": "Biped Omnimech",
+    "techbase": "Inner Sphere",
+    "era": 3069,
+    "source": "TRO: 3075",
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "command_mech",
+        "imp_com",
+        "imp_sensors",
+        "bad_rep_clan",
+        "bad_rep_is"
+    ],
+    "mass": 100,
+    "engine": "300 Compact Engine(IS)",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Small Cockpit",
+    "gyro": "Compact Gyro",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 12,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Inner Sphere",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "MRM 40": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "MRM 40": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ER Medium Laser": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "ER Medium Laser": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ER Small Laser": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "MRM 40 (omnipod)",
+            "6": "MRM 40 (omnipod)",
+            "7": "MRM 40 (omnipod)",
+            "8": "MRM 40 (omnipod)",
+            "9": "MRM 40 (omnipod)",
+            "10": "MRM 40 (omnipod)",
+            "11": "MRM 40 (omnipod)",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "MRM 40 (omnipod)",
+            "6": "MRM 40 (omnipod)",
+            "7": "MRM 40 (omnipod)",
+            "8": "MRM 40 (omnipod)",
+            "9": "MRM 40 (omnipod)",
+            "10": "MRM 40 (omnipod)",
+            "11": "MRM 40 (omnipod)",
+            "12": null
+        },
+        "left_torso": {
+            "1": "ISDoubleHeatSink (omnipod)",
+            "2": "ISDoubleHeatSink (omnipod)",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISERMediumLaser (omnipod)",
+            "5": "IS MRM 40 Ammo (omnipod)",
+            "6": "IS MRM 40 Ammo (omnipod)",
+            "7": "ISCASE (omnipod)",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "right_torso": {
+            "1": "ISDoubleHeatSink (omnipod)",
+            "2": "ISDoubleHeatSink (omnipod)",
+            "3": "ISDoubleHeatSink (omnipod)",
+            "4": "ISERMediumLaser (omnipod)",
+            "5": "IS MRM 40 Ammo (omnipod)",
+            "6": "IS MRM 40 Ammo (omnipod)",
+            "7": "ISCASE (omnipod)",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "IS Endo Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "ISDoubleHeatSink (omnipod)",
+            "7": "ISDoubleHeatSink (omnipod)",
+            "8": "ISDoubleHeatSink (omnipod)",
+            "9": "ISERSmallLaser (R) (omnipod)",
+            "10": "ISC3iUnit",
+            "11": "ISC3iUnit",
+            "12": null
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Sensors",
+            "5": "ISGuardianECMSuite (omnipod)",
+            "6": "ISGuardianECMSuite (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "IS Endo Steel",
+            "6": "IS Endo Steel",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "Debuting in 3069, the Celestial series of OmniMechs are engineered to be used by the elite Word of Blake Manei Domini troops.",
+        "capabilities": "The Archangel is the largest of these. Designed to be an \"anchor\" for Word formations, the 'Mech is known as a \"zombie\" because of its ability to take extreme amounts of damage and continue operating. The Archangel features a compact fusion engine, compact gyro, a small cockpit, and nineteen and a half tons of standard armor, which frees up a large amount of internal space, while an Endo Steel frame opens up free tonnage, making heavier components possible. A C3i Computer helps direct and coordinate fire.",
+        "history": "The odd variant out, the Archangel C eschews PPCs in favor of two MRM 40s, each of which are fed by a two-ton, CASE-protected ammunition bin. They are supplemented by a pair of ER Medium Lasers and a rear-mounted ER Small Laser. A Guardian ECM Suite protects it from enemy electronics.",
+        "manufacturer": [
+            "Gibson Federated BattleMechs",
+            "Martinson Armaments"
+        ],
+        "primaryfactory": [
+            "Gibson (Gibson Federated)",
+            "Terra (Martinson)"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Celestial Series AA1E",
+            "engine": "Immortus 300 Compact Fusion",
+            "armor": "Durallex Heavy Gold",
+            "communications": "Master\u2019s Voice Cel-Alpha",
+            "targeting": "Master\u2019s Sight 1-Omega"
+        }
+    }
+}

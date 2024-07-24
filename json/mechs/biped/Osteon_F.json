@@ -1,0 +1,285 @@
+{
+    "chassis": "Osteon",
+    "model": "F",
+    "mul_id": 5827,
+    "config": "Biped Omnimech",
+    "techbase": "Clan",
+    "era": 3072,
+    "source": "Wars of Reaving",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "ext_twist",
+        "multi_trac",
+        "pro_actuator",
+        "bad_rep_clan"
+    ],
+    "mass": 85,
+    "engine": "255 XL (Clan) Engine(IS)",
+    "structure": {
+        "type": "Reinforced",
+        "tech_base": "Clan",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 27
+        },
+        "left_torso": {
+            "pips": 18
+        },
+        "right_torso": {
+            "pips": 18
+        },
+        "left_arm": {
+            "pips": 14
+        },
+        "right_arm": {
+            "pips": 14
+        },
+        "left_leg": {
+            "pips": 18
+        },
+        "right_leg": {
+            "pips": 18
+        }
+    },
+    "myomer": "Standard",
+    "cockpit": "Torso-Mounted Cockpit",
+    "gyro": "Standard Gyro",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "base_chassis_heat_sinks": 10,
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Ferro-Lamellor",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 24
+        },
+        "right_arm": {
+            "pips": 24
+        },
+        "left_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 24
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 40
+            },
+            "rear": {
+                "pips": 12
+            }
+        },
+        "head": {
+            "pips": 8
+        },
+        "left_leg": {
+            "pips": 36
+        },
+        "right_leg": {
+            "pips": 36
+        }
+    },
+    "weapons": {
+        "1": {
+            "Gauss Rifle": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "Rotary AC/5": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "Machine Gun Array": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "Machine Gun": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "5": {
+            "Machine Gun Array": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "Machine Gun": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 4
+            }
+        },
+        "7": {
+            "ER Large Laser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLGaussRifle (omnipod)",
+            "4": "CLGaussRifle (omnipod)",
+            "5": "CLGaussRifle (omnipod)",
+            "6": "CLGaussRifle (omnipod)",
+            "7": "CLGaussRifle (omnipod)",
+            "8": "CLGaussRifle (omnipod)",
+            "9": "Clan Gauss Ammo (omnipod)",
+            "10": "Clan Gauss Ammo (omnipod)",
+            "11": "Clan Ferro-Lamellor",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "CLRotaryAC5 (omnipod)",
+            "4": "CLRotaryAC5 (omnipod)",
+            "5": "CLRotaryAC5 (omnipod)",
+            "6": "CLRotaryAC5 (omnipod)",
+            "7": "CLRotaryAC5 (omnipod)",
+            "8": "CLRotaryAC5 (omnipod)",
+            "9": "CLRotaryAC5 (omnipod)",
+            "10": "CLRotaryAC5 (omnipod)",
+            "11": "Clan Ferro-Lamellor",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Life Support",
+            "4": "CLMGA (omnipod)",
+            "5": "CLMG (omnipod)",
+            "6": "CLMG (omnipod)",
+            "7": "CLMG (omnipod)",
+            "8": "CLMG (omnipod)",
+            "9": "Clan Machine Gun Ammo - Half (omnipod)",
+            "10": "Clan Ferro-Lamellor",
+            "11": "Clan Ferro-Lamellor",
+            "12": null
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Life Support",
+            "4": "CLMGA (omnipod)",
+            "5": "CLMG (omnipod)",
+            "6": "CLMG (omnipod)",
+            "7": "CLMG (omnipod)",
+            "8": "CLMG (omnipod)",
+            "9": "CLRotaryAC5 Ammo (omnipod)",
+            "10": "CLRotaryAC5 Ammo (omnipod)",
+            "11": "Clan Ferro-Lamellor",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Cockpit",
+            "12": "Sensors"
+        },
+        "head": {
+            "1": "Sensors",
+            "2": "Sensors",
+            "3": "NovaCEWS",
+            "4": "CLRotaryAC5 Ammo (omnipod)",
+            "5": "CLRotaryAC5 Ammo (omnipod)",
+            "6": "CLERLargeLaser (omnipod)",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": "Clan Ferro-Lamellor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": "Clan Ferro-Lamellor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Osteon was The Society's assault-class OmniMech. To maximize the 'Mech's battlefield longevity, the designers focused on survivability above other considerations. Eighteen tons of Ferro-Lamellor armor provide excellent protection against weapons fire, but in case the armor is breached the Reinforced Structure will resist most attacks. In addition, the Torso-Mounted Cockpit allows the Osteon's pilot to take advantage of the heavy center torso armor. To maximize the Osteon's damage potential, a Nova CEWS allows the unit to share targeting data with friendly units. This equipment is so valuable that it's permanently mounted in the 'Mech's head.",
+        "capabilities": "This configuration uses an ER Large Laser, Gauss Rifle, and Rotary AC/5 for its main weaponry. These are supplemented by eight Machine Guns split into two Machine Gun Arrays of four. Four tons of autocannon and two tons of Gauss Rifle ammo are carried.",
+        "deployment": "Due to the role this Omnimech played with The Society during the Wars of Reaving, the Osteon, as of 3090, was outlawed by the Home Clans, although it was undergoing study.",
+        "manufacturer": [
+            "Kerensky Memorial Manufacturing"
+        ],
+        "primaryfactory": [
+            "Strana Mechty"
+        ],
+        "systemmanufacturer": {
+            "chassis": "85-100T Support Reinforced Lambda Profile",
+            "engine": "Model-G 255 XL",
+            "armor": "Gravastar Ferro-Lamellor",
+            "communications": "Model 74/129.3 TCS",
+            "targeting": "S438 Mk. VI Mod. 2 TTS"
+        }
+    }
+}

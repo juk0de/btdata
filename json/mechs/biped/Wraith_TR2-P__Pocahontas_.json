@@ -1,0 +1,247 @@
+{
+    "chassis": "Wraith",
+    "model": "TR2-P 'Pocahontas'",
+    "mul_id": 8381,
+    "config": "Biped",
+    "techbase": "Mixed (IS Chassis)",
+    "era": 3130,
+    "source": "XTR: Royal Fantasy",
+    "rules_level": 3,
+    "rules_level_str": "Standard",
+    "role": "Skirmisher",
+    "quirks": [
+        "ubiquitous_is",
+        "difficult_maintain"
+    ],
+    "mass": 55,
+    "engine": "385 XL (Clan) Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "tech_base": "Inner Sphere",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 18
+        },
+        "left_torso": {
+            "pips": 13
+        },
+        "right_torso": {
+            "pips": 13
+        },
+        "left_arm": {
+            "pips": 9
+        },
+        "right_arm": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 7,
+    "run_mp": 11,
+    "jump_mp": 7,
+    "armor": {
+        "type": "Ferro-Lamellor",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 18
+            },
+            "rear": {
+                "pips": 6
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 13
+        },
+        "right_leg": {
+            "pips": 13
+        }
+    },
+    "weapons": {
+        "1": {
+            "ER Medium Laser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "2": {
+            "ER Medium Laser": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLERMediumLaser",
+            "5": "CLERMediumLaser",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "IS Endo Steel",
+            "11": "IS Endo Steel",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "Hatchet",
+            "6": "Hatchet",
+            "7": "Hatchet",
+            "8": "Hatchet",
+            "9": "CLERMediumLaser",
+            "10": "CLERMediumLaser",
+            "11": "IS Endo Steel",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "ISMASC",
+            "7": "ISMASC",
+            "8": "ISMASC",
+            "9": "IS Endo Steel",
+            "10": "Clan Ferro-Lamellor",
+            "11": "Clan Ferro-Lamellor",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Jump Jet",
+            "4": "Jump Jet",
+            "5": "Jump Jet",
+            "6": "IS Endo Steel",
+            "7": "IS Endo Steel",
+            "8": "IS Endo Steel",
+            "9": "IS Endo Steel",
+            "10": "Clan Ferro-Lamellor",
+            "11": "Clan Ferro-Lamellor",
+            "12": "Clan Ferro-Lamellor"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "Jump Jet",
+            "12": "IS Endo Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "IS Endo Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": "Clan Ferro-Lamellor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Clan Ferro-Lamellor",
+            "6": "Clan Ferro-Lamellor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Wraith is a 'Mech that, when properly employed, can wreak havoc on an enemy with its astounding speed and maneuverability.",
+        "capabilities": "It is built around a massive LTV 385 XL engine that allows it to reach speeds of just under 119 km/h. The 'Mech is also fitted with seven CurtissJet 55 jump jets which allow it to jump up to two hundred and ten meters, giving it the ability to outmaneuver most BattleMechs in existence, and also allowing the Wraith to quickly traverse any rough terrain. The 'Mech's speed, firepower, and decent armor make the Wraith a considerable threat to many 'Mechs \u2013 some being almost twice its weight.",
+        "deployment": "Debuted in 3141 on the Tennessee Valley Arena and piloted by Ira Kuhn-Bedard, the variant keeps the best features of this hundred-year-old machine and make it even better. Clan Ferro-Lamellor Armor improves its resistance to nearly all forms of damage and is combined with a Clan-spec XL engine model instead of the original Inner Sphere one to improve endurance, MASC to boost its land speed, and four Clan ER Medium Lasers that replace all of the original weaponry. A hatchet has been fitted to make it more appealing to the viewers of the Solaris Games.",
+        "history": "The Wraith marked Curtiss Militech's entry into BattleMech production. When the design was announced, many felt that the design would be little more than a walking water cooler. What the critics got was a shock. Following the destruction of its sole factory, Curtiss Hydroponics announced its withdrawal from the military market altogether and the sale of its Curtiss Militech assets. By 3085, Hellespont Industrials have expressed interest in the Wraith; and by 3145 Production had been ongoing at one of Hellespont Industrials locations in the Sian Commonality for Capellan use.",
+        "manufacturer": [
+            "Refit"
+        ],
+        "primaryfactory": [
+            "Refit"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Curtiss Wraith",
+            "engine": "385 JF Extralight with MASC",
+            "armor": "385 JF Extralight",
+            "jumpjet": "CurtissJet 55",
+            "communications": "CurtissComm Mk I",
+            "targeting": "Dynatec 2780"
+        }
+    }
+}

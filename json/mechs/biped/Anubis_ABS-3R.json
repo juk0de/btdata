@@ -1,0 +1,281 @@
+{
+    "chassis": "Anubis",
+    "model": "ABS-3R",
+    "mul_id": 3703,
+    "config": "Biped",
+    "techbase": "Inner Sphere",
+    "era": 3064,
+    "rules_level": 2,
+    "rules_level_str": "Standard",
+    "role": "Missile Boat",
+    "source": "TRO: 3067",
+    "quirks": [
+        "ext_twist",
+        "difficult_maintain",
+        "exp_actuator"
+    ],
+    "mass": 30,
+    "engine": "240 XL Engine",
+    "structure": {
+        "type": "Endo Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 10
+        },
+        "left_torso": {
+            "pips": 7
+        },
+        "right_torso": {
+            "pips": 7
+        },
+        "left_arm": {
+            "pips": 5
+        },
+        "right_arm": {
+            "pips": 5
+        },
+        "left_leg": {
+            "pips": 7
+        },
+        "right_leg": {
+            "pips": 7
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 10,
+        "type": "Double"
+    },
+    "walk_mp": 8,
+    "run_mp": 12,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Stealth",
+        "left_arm": {
+            "pips": 10
+        },
+        "right_arm": {
+            "pips": 10
+        },
+        "left_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 10
+            },
+            "rear": {
+                "pips": 4
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 15
+            },
+            "rear": {
+                "pips": 5
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 14
+        },
+        "right_leg": {
+            "pips": 14
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISERSmallLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISRocketLauncher10": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "3": {
+            "ISLRM5": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 24
+            }
+        },
+        "4": {
+            "ISRocketLauncher15": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "5": {
+            "ISLRM5": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "6": {
+            "ISRocketLauncher15": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ISGuardianECM": {
+                "location": "center_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "ISERSmallLaser",
+            "5": "ISRocketLauncher10",
+            "6": "Stealth Armor",
+            "7": "Stealth Armor",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Stealth Armor",
+            "5": "Stealth Armor",
+            "6": "Endo-Steel",
+            "7": "Endo-Steel",
+            "8": "Endo-Steel",
+            "9": "Endo-Steel",
+            "10": "Endo-Steel",
+            "11": null,
+            "12": null
+        },
+        "left_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISLRM5",
+            "5": "ISLRM5 Ammo",
+            "6": "ISRocketLauncher15",
+            "7": "ISRocketLauncher15",
+            "8": "Stealth Armor",
+            "9": "Stealth Armor",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "ISLRM5",
+            "5": "ISRocketLauncher15",
+            "6": "ISRocketLauncher15",
+            "7": "ISDouble Heat Sink",
+            "8": "ISDouble Heat Sink",
+            "9": "ISDouble Heat Sink",
+            "10": "Stealth Armor",
+            "11": "Stealth Armor",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Fusion Engine",
+            "2": "Fusion Engine",
+            "3": "Fusion Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Fusion Engine",
+            "9": "Fusion Engine",
+            "10": "Fusion Engine",
+            "11": "ISGuardianECM",
+            "12": "ISGuardianECM"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "Endo-Steel",
+            "5": "Sensors",
+            "6": "Life Support",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Stealth Armor",
+            "6": "Stealth Armor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "Stealth Armor",
+            "6": "Stealth Armor",
+            "7": null,
+            "8": null,
+            "9": null,
+            "10": null,
+            "11": null,
+            "12": null
+        }
+    },
+    "fluff": {
+        "overview": "The Anubis, designed by Gittleman and Abzug within the Fredonian Industrial Technologies consortium, was envisioned to complement the Osiris BattleMech. Despite initial rejections by manufacturers, the Anubis found a home with Detroit Consolidated MechWorks in the New Colony Region. This nimble Mech, named after the Egyptian god of the dead, showcases the Capellan Confederation's commitment to advanced technology through its incorporation of revolutionary stealth armor and specialized missile weaponry. Designed to operate in a supporting role, the Anubis signifies a blend of tactical innovation and technological advancement.",
+        "capabilities": "The Anubis is a testament to the Trinity Alliance's technological collaboration. Featuring the Confederation's stealth armor and designed for a support role, it excels in laying down suppressing fire with its array of long-range missile launchers. This strategy allows allied units to engage the enemy directly while the Anubis remains concealed. Though equipped with minimal armor protection, the incorporation of stealth armor provides a significant tactical advantage. The Anubis, however, does have a higher susceptibility to equipment malfunctions compared to other Mechs, a trade-off for its advanced capabilities. Its arsenal and design focus on maintaining distance from the enemy, leveraging its stealth and missile capabilities to control the battlefield.",
+        "deployment": "This variant focuses on short-range firepower, replacing two LRM-5s with a Rocket Launcher 10 and two Rocket Launcher 15s.",
+        "history": "The Anubis, emerging from the inventive minds of Gittleman and Abzug, journeyed from a challenging start to becoming a key asset in several military forces. Initially overlooked by Achernar BattleMechs and other manufacturers, its fortunes turned when the duo joined Detroit Consolidated MechWorks in the New Colony Region. This transition marked the beginning of the Anubis's significant role within the Magistracy of Canopus and the Taurian Concordat, symbolizing the technological strength and commitment of the Capellan Confederation to the Trinity Alliance.Deployed first in late 3063, the Anubis quickly integrated into various units across the Magistracy and the Concordat. The Colonial Marshals became its most prominent users, employing the Anubis in a variety of tactical scenarios. However, political changes in the Colony Region led to a halt in further shipments to the Colonial Marshals, reflecting the complex interplay of politics and military strategy in the region. The Magestrix's consideration towards recognizing the new government in the Colony Region, despite President Shraplen's reported displeasure, further indicates the nuanced role the Anubis plays in regional dynamics.The Anubis's history is also marked by its service as a fast scout, particularly favored for long-range search-and-destroy missions. Its stealth capabilities and sensor upgrades have made it a reliable choice for reconnaissance and support roles. Notably, during a reconnaissance mission on Ruschegg in 3145, Anubis units of the Fourth Andurien Cavalry played a pivotal role, demonstrating both the strengths and limitations of the Mech in complex combat scenarios.As a product of technological innovation and strategic necessity, the Anubis has seen several variants over the years, each addressing different tactical needs and technological advancements. These variants, from the ABS-3R to the ABS-5Z, illustrate the ongoing evolution of the Anubis, adapting to the ever-changing landscape of warfare in the Inner Sphere.",
+        "manufacturer": [
+            "Detroit Consolidated Mechworks"
+        ],
+        "primaryfactory": [
+            "Detroit"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Detroit Type III Endo",
+            "engine": "Ceres Motors 240 Extralight",
+            "armor": "Hellespont Lite Stealth",
+            "communications": "Ceres Metals Model 666 with Guardian ECM Suite",
+            "targeting": "Dynatec 990"
+        }
+    }
+}

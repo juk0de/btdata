@@ -1,0 +1,278 @@
+{
+    "chassis": "Kodiak",
+    "model": "(Cale)",
+    "mul_id": 1804,
+    "config": "Biped",
+    "techbase": "Mixed (Clan Chassis)",
+    "era": 3068,
+    "source": "Jihad Turning Points: Dieron",
+    "rules_level": 4,
+    "rules_level_str": "Standard",
+    "role": "Juggernaut",
+    "quirks": [
+        "battle_fists_la",
+        "battle_fists_ra",
+        "distracting"
+    ],
+    "mass": 100,
+    "engine": "300 Fusion Engine (Clan)",
+    "structure": {
+        "type": "Endo-Steel",
+        "head": {
+            "pips": 3
+        },
+        "center_torso": {
+            "pips": 31
+        },
+        "left_torso": {
+            "pips": 21
+        },
+        "right_torso": {
+            "pips": 21
+        },
+        "left_arm": {
+            "pips": 17
+        },
+        "right_arm": {
+            "pips": 17
+        },
+        "left_leg": {
+            "pips": 21
+        },
+        "right_leg": {
+            "pips": 21
+        }
+    },
+    "myomer": "Standard",
+    "heat_sinks": {
+        "quantity": 15,
+        "type": "Double (Clan)"
+    },
+    "walk_mp": 3,
+    "run_mp": 5,
+    "jump_mp": 0,
+    "armor": {
+        "type": "Standard",
+        "tech_base": "Clan",
+        "left_arm": {
+            "pips": 34
+        },
+        "right_arm": {
+            "pips": 34
+        },
+        "left_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "right_torso": {
+            "front": {
+                "pips": 32
+            },
+            "rear": {
+                "pips": 10
+            }
+        },
+        "center_torso": {
+            "front": {
+                "pips": 47
+            },
+            "rear": {
+                "pips": 15
+            }
+        },
+        "head": {
+            "pips": 9
+        },
+        "left_leg": {
+            "pips": 42
+        },
+        "right_leg": {
+            "pips": 42
+        }
+    },
+    "weapons": {
+        "1": {
+            "ISHeavyPPC": {
+                "location": "right_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "2": {
+            "ISERMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 2
+            }
+        },
+        "3": {
+            "ISMediumLaser": {
+                "location": "head",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "4": {
+            "CLERMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 3
+            }
+        },
+        "5": {
+            "ISAC10": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1,
+                "ammo": 20
+            }
+        },
+        "6": {
+            "ISBeagleActiveProbe": {
+                "location": "right_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "7": {
+            "ISC3MasterComputer": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 1
+            }
+        },
+        "8": {
+            "CLStreakSRM6": {
+                "location": "left_torso",
+                "facing": "front",
+                "quantity": 2,
+                "ammo": 30
+            }
+        },
+        "9": {
+            "ISMediumLaser": {
+                "location": "left_arm",
+                "facing": "front",
+                "quantity": 1
+            }
+        }
+    },
+    "critical_slots": {
+        "left_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "Hand Actuator",
+            "5": "CLERMediumLaser",
+            "6": "CLERMediumLaser",
+            "7": "CLERMediumLaser",
+            "8": "ISERMediumLaser",
+            "9": "ISERMediumLaser",
+            "10": "ISMediumLaser",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "right_arm": {
+            "1": "Shoulder",
+            "2": "Upper Arm Actuator",
+            "3": "Lower Arm Actuator",
+            "4": "CLDouble Heat Sink",
+            "5": "CLDouble Heat Sink",
+            "6": "ISHeavyPPC",
+            "7": "ISHeavyPPC",
+            "8": "ISHeavyPPC",
+            "9": "ISHeavyPPC",
+            "10": "Endo-Steel",
+            "11": "Endo-Steel",
+            "12": null
+        },
+        "left_torso": {
+            "1": "CLStreakSRM6",
+            "2": "CLStreakSRM6",
+            "3": "CLStreakSRM6",
+            "4": "CLStreakSRM6",
+            "5": "CLStreakSRM6 Ammo",
+            "6": "CLStreakSRM6 Ammo",
+            "7": "ISC3MasterComputer",
+            "8": "ISC3MasterComputer",
+            "9": "ISC3MasterComputer",
+            "10": "ISC3MasterComputer",
+            "11": "ISC3MasterComputer",
+            "12": "Endo-Steel"
+        },
+        "right_torso": {
+            "1": "ISAC10",
+            "2": "ISAC10",
+            "3": "ISAC10",
+            "4": "ISAC10",
+            "5": "ISAC10",
+            "6": "ISAC10",
+            "7": "ISAC10",
+            "8": "ISAC10 Ammo",
+            "9": "ISAC10 Ammo",
+            "10": "ISBeagleActiveProbe",
+            "11": "ISBeagleActiveProbe",
+            "12": "Endo-Steel"
+        },
+        "center_torso": {
+            "1": "Engine",
+            "2": "Engine",
+            "3": "Engine",
+            "4": "Gyro",
+            "5": "Gyro",
+            "6": "Gyro",
+            "7": "Gyro",
+            "8": "Engine",
+            "9": "Engine",
+            "10": "Engine",
+            "11": "Endo-Steel",
+            "12": "Endo-Steel"
+        },
+        "head": {
+            "1": "Life Support",
+            "2": "Sensors",
+            "3": "Cockpit",
+            "4": "ISMediumLaser",
+            "5": "Sensors",
+            "6": "Life Support"
+        },
+        "left_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink"
+        },
+        "right_leg": {
+            "1": "Hip",
+            "2": "Upper Leg Actuator",
+            "3": "Lower Leg Actuator",
+            "4": "Foot Actuator",
+            "5": "CLDouble Heat Sink",
+            "6": "CLDouble Heat Sink",
+            "7": "deployment:The Mech of the 2nd Dieron Regulars' commander, Tai-sa Cale Schultz-Tanaka, the Kodiak Cale was recovered from a battlefield on Dieron and re-equipped with Inner Sphere and Clan technologies. Keeping the standard Clan Endo-Steel chassis and double heat sinks, techs replaced the XL engine with a standard unit. This reduced the 'Mech's top speed to 54 km/h, but increased survivability. Most of the Clan weaponry was also removed: Only a trio of Clan ER Medium Lasers in the left arm and a pair of Streak SRM 6 launchers in the left torso remain. The Kodiak Cale uses an Autocannon/10 and Heavy PPC for its main hitting power. These are backed up by the Clan weapons and a pair of Inner Sphere ER Medium Lasers and a pair of Inner Sphere Medium Lasers. The most important addition to the Cale version is the electronics suite: A Beagle Active Probe in the right torso spots enemy forces, while a C3 Master computer in the left torso allows the Kodiak Cale to feed targeting data to supporting units."
+        }
+    },
+    "fluff": {
+        "capabilities": "Though not taken to the same extreme as other Clan Totem 'Mechs, the Kodiak does epitomize the Ghost Bears' method of warfare, combining an impressive defensive platform with surprising amounts of speed and firepower. Its massive 400-rated XL Engine propels the Kodiak to a maximum speed of 64.8 km/h, while seventeen and a half tons of Compound 12A2 gives it impressive armor protection. Though it mounts an incredible amount of firepower, even the use of twenty double heat sinks cannot prevent overheating problems when they are all fired simultaneously, though most MechWarriors learn to use their weapons sparingly and love the 'Mech's ability to deliver a massive knockout punch. The Kodiak incorporates the Garret L20 as its communications system, and uses the RCA Instatrack Mark IX for targeting, however the \"claws\" mounted on both of its arms are purely aesthetic.",
+        "history": "The vast majority of Kodiaks are used by the Ghost Bears, and indeed was exclusive to them in the first years since its introduction. Of those which are found in other toumans, Clan Snow Raven has the largest share, payment for their help in relocating to the Inner Sphere, followed by Clan Goliath Scorpion and Clan Cloud Cobra. Among the Crusader Clans though, only Clan Ice Hellion fields a handful of these 'Mechs. As a interesting note, and proof of the expansion of the Kodiak, at least two of these mechs were found in a Smoke Jaguar unit on planet Asgard, during Operation Bulldog.",
+        "manufacturer": [
+            "Field Refit"
+        ],
+        "primaryfactory": [
+            "Field Refit"
+        ],
+        "systemmanufacturer": {
+            "chassis": "Bergan Version 12.6 Endo Steel",
+            "engine": "400",
+            "armor": "Compound 12A2",
+            "communications": "Garret L20",
+            "targeting": "RCA Instatrac Mark IX"
+        }
+    }
+}
