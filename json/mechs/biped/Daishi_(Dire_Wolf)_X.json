@@ -49,7 +49,6 @@
         "quantity": 15,
         "type": "Clan Double"
     },
-    "base_chassis_heat_sinks": 12,
     "walk_mp": 3,
     "run_mp": 5,
     "jump_mp": 0,

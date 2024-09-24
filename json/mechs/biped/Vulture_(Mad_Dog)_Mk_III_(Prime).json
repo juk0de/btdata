@@ -49,7 +49,6 @@
         "quantity": 12,
         "type": "Double"
     },
-    "base_chassis_heat_sinks": 12,
     "walk_mp": 5,
     "run_mp": 8,
     "jump_mp": 0,
@@ -246,5 +245,13 @@
             "11": null,
             "12": null
         }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Alshain Weapons"
+        ],
+        "primaryfactory": [
+            "Alshain"
+        ]
     }
 }

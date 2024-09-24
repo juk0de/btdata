@@ -50,7 +50,6 @@
         "quantity": 11,
         "type": "Single"
     },
-    "nocrit": "IS Primitive:None",
     "walk_mp": 2,
     "run_mp": 3,
     "jump_mp": 0,

@@ -228,12 +228,7 @@
             "3": "Lower Leg Actuator",
             "4": "Foot Actuator",
             "5": "Ferro-Fibrous",
-            "6": "Ferro-Fibrous",
-            "7": "<p>Armament includes a pair of LB 10-X Autocannons in the arms, offering flexibility with different ammo types. Two LRM-15 launchers, one in each torso, extend its reach, allowing the Mauler to engage targets from a distance. Heat management is handled by 10 double heat sinks. For close encounters, it has a small laser in the head. The inclusion of a C3 Slave Unit enhances its role in coordinated strikes, enabling better targeting data sharing with allies. Protected by Ferro-Fibrous armor, the MAL-3R is well-armored for its class, though its focus on ranged combat leaves it less equipped for close-quarters engagements.</p>",
-            "8": "<p>Debuted in 3038, the Daboku quickly garnered criticism for its performance issues, notably a problematic ejection system triggered by specific torso damage. This led to its limited production run and eventual discontinuation. However, the Federated Commonwealth showed interest in the design, acquiring several units from battlefield salvage during the 3040s. These units were predominantly deployed in Lyran units along the Periphery border.</p>",
-            "9": "<p>In the late 3040s, LAW revisited the Daboku design, leading to the emergence of the Mauler. This updated version included enhanced range lasers, new heat sink technology, and a lighter engine. Despite initially inheriting the Daboku\u2019s safety flaw, the Mauler became a prominent feature in the DCMS arsenal, especially during the Clan Invasion, serving as a long-range support Mech.</p>",
-            "10": "<p>The Mauler's deployment varied significantly, with different configurations adapting to diverse combat roles and scenarios. These configurations ranged from sniper-focused setups to heavy assault modifications. The Mauler\u2019s widespread use extended beyond the Draconis Combine, with various forces within the Inner Sphere, including the AFFS and LAAF, utilizing it in numerous military engagements.</p>",
-            "11": "<p>Throughout its operational history, the Mauler has been integral to many military campaigns and conflicts. Its adaptability to changing battlefield conditions in the Inner Sphere has cemented its role as a versatile and formidable assault Mech.</p>"
+            "6": "Ferro-Fibrous"
         }
     },
     "fluff": {

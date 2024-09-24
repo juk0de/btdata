@@ -49,7 +49,6 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "Heavy Duty Gyro",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"
@@ -254,7 +253,7 @@
             "armor": "Starshield A Light Ferro-Fibrous armor with CASE",
             "jumpjet": "Chilton 950",
             "communications": "Neil 6000",
-            "targeting": "RCA Instatrack Mk X"
+            "targeting": "RCA Instatrac Mk X"
         }
     }
 }

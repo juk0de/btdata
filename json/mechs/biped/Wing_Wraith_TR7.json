@@ -180,14 +180,15 @@
             "1": "Life Support",
             "2": "Sensors",
             "3": "Cockpit",
-            "4": "Sensors",
-            "5": "Life Support",
-            "6": null,
+            "4": "Cargo",
+            "5": "Sensors",
+            "6": "Life Support",
             "7": null,
             "8": null,
             "9": null,
             "10": null,
-            "11": null
+            "11": null,
+            "12": null
         },
         "left_leg": {
             "1": "Hip",
@@ -215,23 +216,9 @@
             "9": null,
             "10": null,
             "11": null,
-            "12": null,
-            "13": null,
-            "14": null,
-            "15": null,
-            "16": null,
-            "17": null,
-            "18": null,
-            "19": null,
-            "20": null,
-            "21": null,
-            "22": null,
-            "23": null,
-            "24": null
+            "12": null
         }
     },
-    "cargo": "SIZE:0.5",
-    "center_leg": "",
     "fluff": {
         "overview": "The Wraith is a 'Mech that, when properly employed, can wreak havoc on an enemy with its astounding speed and maneuverability. Initially developed by Curtiss Militech, it later became a key asset for the Capellan Confederation following the company's financial distress post-Jihad. The Wraith's speed, firepower, and decent armor make it a considerable threat to many 'Mechs, some being almost twice its weight.",
         "capabilities": "The \u201cWing\u201d Wraith enhances the base design\u2019s accurate and ammunition-independent loadout with improved heat dissipation and jump range. Despite the advantages of the partial-wing technology, the TR6 suffers from slower ground speed and a demanding maintenance schedule, making it a less popular export than the more straightforward TR5. However, both variants share parts and construction processes, making continued production a low-cost endeavor.",

@@ -45,7 +45,6 @@
         }
     },
     "myomer": "Standard",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 17,
         "type": "Clan Double"

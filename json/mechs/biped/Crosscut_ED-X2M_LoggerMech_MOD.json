@@ -168,7 +168,9 @@
             "7": "Gyro",
             "8": "Fusion Engine",
             "9": "Fusion Engine",
-            "10": "Fusion Engine"
+            "10": "Fusion Engine",
+            "11": "Cargo",
+            "12": "Cargo"
         },
         "head": {
             "1": "Life Support",
@@ -212,7 +214,5 @@
             "11": null,
             "12": null
         }
-    },
-    "cargo": "SIZE:0.5",
-    "notes": "Crosscut ED-X2M LoggerMech MOD / ED-X2 (Flamer)-Variant has two different designations in two separate products (TR:VA and H:OK)"
+    }
 }

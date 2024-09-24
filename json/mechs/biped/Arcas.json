@@ -256,5 +256,13 @@
             "11": null,
             "12": null
         }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Bergan Industries"
+        ],
+        "primaryfactory": [
+            "Alshain"
+        ]
     }
 }

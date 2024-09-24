@@ -47,7 +47,6 @@
         }
     },
     "myomer": "Standard",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 12,
         "type": "Double"
@@ -261,7 +260,7 @@
             "armor": "Starshield A",
             "jumpjet": "Rawlings 55",
             "communications": "Neil 6000",
-            "targeting": "RCA Instatrack Mk X"
+            "targeting": "RCA Instatrac Mk X"
         }
     }
 }

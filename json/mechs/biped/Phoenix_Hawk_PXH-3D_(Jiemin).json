@@ -45,7 +45,6 @@
         }
     },
     "myomer": "Standard",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 13,
         "type": "Double"
@@ -225,6 +224,5 @@
             "11": null,
             "12": null
         }
-    },
-    "imagefile": ".\\data\\images\\fluff\\mech\\Phoenix Hawk Classic.jpg"
+    }
 }

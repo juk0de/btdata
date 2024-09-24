@@ -47,7 +47,6 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "XL Gyro",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Single"
@@ -237,7 +236,7 @@
             "engine": "Hermes 100 XL",
             "armor": "Durallex Light",
             "jumpjet": "Unknown",
-            "communications": "Duotech 65",
+            "communications": "Duoteck 65",
             "targeting": "RadCom TXX"
         }
     }

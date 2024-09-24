@@ -52,7 +52,6 @@
         "quantity": 16,
         "type": "Double"
     },
-    "base_chassis_heat_sinks": 11,
     "walk_mp": 4,
     "run_mp": 6,
     "jump_mp": 0,

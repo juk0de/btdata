@@ -48,7 +48,6 @@
         "quantity": 11,
         "type": "Clan Double"
     },
-    "base_chassis_heat_sinks": 8,
     "walk_mp": 6,
     "run_mp": 9,
     "jump_mp": 0,
@@ -262,6 +261,5 @@
             "communications": "945B",
             "targeting": "V8.6"
         }
-    },
-    "notes": "Codenamed Puma by Inner Sphere forces who first engaged it."
+    }
 }

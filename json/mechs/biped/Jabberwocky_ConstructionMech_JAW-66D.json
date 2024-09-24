@@ -142,13 +142,14 @@
             "2": "Jump Jet",
             "3": "Searchlight",
             "4": "IS Ammo Nail/Rivet - Full",
-            "5": "Environmental Sealing",
-            "6": "Industrial Triple Strength Myomer",
+            "5": "Cargo",
+            "6": "Environmental Sealing",
             "7": "Industrial Triple Strength Myomer",
             "8": "Industrial Triple Strength Myomer",
-            "9": null,
+            "9": "Industrial Triple Strength Myomer",
             "10": null,
-            "11": null
+            "11": null,
+            "12": null
         },
         "right_torso": {
             "1": "Heat Sink",
@@ -221,7 +222,6 @@
             "12": null
         }
     },
-    "cargo": "SIZE:1.0",
     "fluff": {
         "overview": "The JAW-66A Jabberwocky, originally developed in 2549 as a general military support unit, fell short of expectations and was relegated to less critical tasks. However, its fortunes changed dramatically by 3069 when the Federated Suns, amid widespread devastation, urgently mobilized every available armed machine for combat, including the Jabberwocky. In response to the dire need for fortified engineering units, Jalastar Aerospace took the initiative in 3070 to introduce a completely reworked Jabberwocky, transforming it into a versatile and efficient IndustrialMech.",
         "capabilities": "The JAW-66B Jabberwocky stands out for its simplicity in maintenance, thanks to its Panpour-produced components that are readily available. Unlike many IndustrialMechs, the Jabberwocky utilizes old neurohelmets, providing pilots with enhanced control over the 50-ton chassis. It is equipped with a salvage arm, spot welder, and a pair of Industrial-TSM powered lift hoists, allowing it to carry double its weight in salvage. The tracked propulsion system grants higher speed on paved surfaces, and its three jump jets add to its maneuverability in rough terrain. Additionally, its environmental sealing and searchlight make it suitable for operations in various hostile environments. The semi-modularity of the design, akin to the Mercury Mech rather than an OmniMech, allows for easy replacement of its rear torso or arms with different industrial equipment.",

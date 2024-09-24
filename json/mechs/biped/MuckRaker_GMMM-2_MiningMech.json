@@ -123,10 +123,32 @@
             "12": null
         },
         "left_torso": {
-            "1": "Dumper (Front)"
+            "1": "Cargo",
+            "2": "Cargo",
+            "3": "Cargo",
+            "4": "Cargo",
+            "5": "Cargo",
+            "6": "Cargo",
+            "7": "Cargo",
+            "8": "Cargo",
+            "9": "Cargo",
+            "10": "Cargo",
+            "11": "Cargo",
+            "12": "Dumper (Front)"
         },
         "right_torso": {
-            "1": "Dumper (Front)"
+            "1": "Cargo",
+            "2": "Cargo",
+            "3": "Cargo",
+            "4": "Cargo",
+            "5": "Cargo",
+            "6": "Cargo",
+            "7": "Cargo",
+            "8": "Cargo",
+            "9": "Cargo",
+            "10": "Cargo",
+            "11": "Cargo",
+            "12": "Dumper (Front)"
         },
         "center_torso": {
             "1": "Fusion Engine",
@@ -185,7 +207,6 @@
             "12": null
         }
     },
-    "cargo": "size:11.0",
     "fluff": {
         "overview": "The MuckRaker is the most prominent departure from the MiningMech pattern so heavily influenced by the Dig Lord. Introduced at the height of the Star League as a \u201cwalking dump-truck\u201d for deployment at inaccessible mining sites, its eminent usefulness and simple, yet sturdy construction ensured continuing usage even while many other IndustrialMech classes disappeared during the Succession Wars. More common now than ever before, it is not rare to see MuckRakers deployed as mobile weapons platforms. While GM may be just as complicit to on-site military modifications as other manufacturers, there is evidence that third parties are focusing particularly on the MuckRaker, most troubling of which is a surfaced copy of a Zhanzheng de guang Terrorist Handbook recommending this MiningMech above all other IndustrialMechs for ad-hoc weaponizing.",
         "capabilities": "The MuckRaker is bigger, slower, but extremely well-armored compared to its peers, and also features a sturdy gyro which makes the unit very stable. The terrorists\u2019 pamphlet particularly focuses on the large truck bed which \u201cpresents the finest platform of any IndustrialMech for weapon jury-rigging.\u201d In general, such modified MuckRakers are lumbering monstrosities with autocannons welded onto their backhoe arm and banks of missiles occupying the MiningMechs\u2019 cargo space. They will not catch any foe on the open battlefield, but are a veritable nightmare when encountered in confined spaces.",

@@ -125,26 +125,30 @@
         "left_torso": {
             "1": "MechSprayer",
             "2": "MechSprayer",
-            "3": null,
-            "4": null,
+            "3": "Liquid Storage",
+            "4": "Liquid Storage",
             "5": null,
             "6": null,
             "7": null,
             "8": null,
             "9": null,
-            "10": null
+            "10": null,
+            "11": null,
+            "12": null
         },
         "right_torso": {
             "1": "MechSprayer",
             "2": "MechSprayer",
-            "3": null,
-            "4": null,
+            "3": "Liquid Storage",
+            "4": "Liquid Storage",
             "5": null,
             "6": null,
             "7": null,
             "8": null,
             "9": null,
-            "10": null
+            "10": null,
+            "11": null,
+            "12": null
         },
         "center_torso": {
             "1": "Fusion Engine",
@@ -202,6 +206,5 @@
             "11": null,
             "12": null
         }
-    },
-    "liquid_storage": "size:2.0"
+    }
 }

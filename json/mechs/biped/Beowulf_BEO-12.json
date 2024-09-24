@@ -230,5 +230,13 @@
             "11": null,
             "12": null
         }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Odin Manufacturing"
+        ],
+        "primaryfactory": [
+            "Orestes"
+        ]
     }
 }

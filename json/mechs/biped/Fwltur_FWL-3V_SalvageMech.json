@@ -46,7 +46,6 @@
         "quantity": 10,
         "type": "Single"
     },
-    "nocrit": "Industrial:None",
     "walk_mp": 3,
     "run_mp": 5,
     "jump_mp": 2,
@@ -225,6 +224,5 @@
         "systemmode": {
             "engine": "Fusion 105"
         }
-    },
-    "imagefile": ".\\data\\images\\fluff\\Mech\\3085Fwltur.jpg"
+    }
 }

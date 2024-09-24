@@ -40,6 +40,10 @@
         }
     },
     "myomer": "Standard",
+    "quirks": [
+        "illegal_design",
+        "hard_pilot"
+    ],
     "heat_sinks": {
         "quantity": 11,
         "type": "Single"

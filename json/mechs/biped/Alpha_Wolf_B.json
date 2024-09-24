@@ -44,7 +44,6 @@
         "quantity": 16,
         "type": "Clan Double"
     },
-    "base_chassis_heat_sinks": 14,
     "walk_mp": 4,
     "run_mp": 6,
     "jump_mp": 0,
@@ -232,8 +231,7 @@
             "9": null,
             "10": null,
             "11": null,
-            "12": null,
-            "13": "<p>The pre-production Alpha Wolf units were swiftly dispatched among front-line Clusters for field testing, showcasing a bid for potential independence from auxiliary services. The recent battle for Skye served as its trial by fire, where two new prototypes in the A configuration demonstrated exceptional combat efficacy. Their stellar performance against the Turkina Keshik and the Falcons validated the stealth armor's operational advantage, further manifested in subsequent encounters with a Jade Phoenix and a Shrike. The Alpha Wolf's deployments in the Republic's counterattack into Wolf Empire space and the confrontation on Gacrux further underscored its combat potential, marking it as a valuable asset in Clan Wolf's arsenal.</p>"
+            "12": null
         }
     },
     "fluff": {

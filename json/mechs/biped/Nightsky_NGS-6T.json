@@ -40,7 +40,6 @@
         }
     },
     "myomer": "Triple-Strength",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 11,
         "type": "Double"

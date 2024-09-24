@@ -46,12 +46,10 @@
         }
     },
     "myomer": "Standard",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"
     },
-    "nocrit": "Standard:None",
     "walk_mp": 6,
     "run_mp": 9,
     "jump_mp": 6,
@@ -248,7 +246,7 @@
             "engine": "Hermes 120 Light",
             "armor": "Durallex Light",
             "jumpjet": "Rawlings 52",
-            "communications": "Duotech 65",
+            "communications": "Duoteck 65",
             "targeting": "RadCom TXX"
         }
     }

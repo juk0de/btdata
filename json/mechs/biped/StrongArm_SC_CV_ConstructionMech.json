@@ -161,7 +161,8 @@
             "8": "Fusion Engine",
             "9": "Fusion Engine",
             "10": "Fusion Engine",
-            "11": null
+            "11": "Cargo",
+            "12": null
         },
         "head": {
             "1": "Life Support",
@@ -206,7 +207,6 @@
             "12": null
         }
     },
-    "cargo": "size:0.5",
     "fluff": {
         "overview": "The StrongArm MOD should serve as a cautionary example of the worst possible modification one can perform on an IndustrialMech. All MODs tend to be shoddy, yet generally at least minimally combat-worthy, but the StrongArm MOD features no upgrade to its armor, lacks gunsights and a proper cooling system, and has a flamer that is as dangerous to itself as it is to the enemy. Even the user\u2019s manual\u2014aptly named Brainless Guide to Piloting\u00ae the StrongArm MOD\u2014yields no better guidance than to roughly point the weapon at the enemy and hope for the best.",
         "capabilities": "The original StrongArm ConstructionMech is a high-quality product of the Sitwell Corporation, heavily based on their established Powerman. The modification comes with all the drawbacks of similarly militarized IndustrialMechs, in that the right arm heavy flamer installation is open and improvised, but its workmanship is even poorer than on most other documented chassis. Its single retrofitted heat sink does not come close to dissipating the hellish temperature of the \u2019Mech-class weapon when fired, it lacks any targeting system, and the heavy armor is not upgraded, thereby limiting the pilot\u2019s protection in combat situations. Though it is purchased by everyone and their grandmother, the StrongArm MOD is a deluded man\u2019s ride and it speaks volumes that its producer would stay anonymous, selling refit kits via third parties.",

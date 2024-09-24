@@ -48,7 +48,6 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "Heavy Duty Gyro",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"
@@ -242,6 +241,5 @@
             "11": null,
             "12": null
         }
-    },
-    "imagefile": ".\\data\\images\\fluff\\Mech\\3085Phoenix Hawk .jpg"
+    }
 }

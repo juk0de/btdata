@@ -9,6 +9,13 @@
     "rules_level": 5,
     "rules_level_str": "Advanced",
     "role": "Ambusher",
+    "quirks": [
+        "illegal_design",
+        "gas_hog",
+        "stable",
+        "exp_actuator",
+        "no_twist"
+    ],
     "mass": 30,
     "engine": "90 ICE Engine(IS)",
     "structure": {

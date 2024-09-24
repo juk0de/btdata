@@ -49,7 +49,6 @@
         "quantity": 14,
         "type": "Double"
     },
-    "nocrit": "Standard:None",
     "walk_mp": 4,
     "run_mp": 6,
     "jump_mp": 6,

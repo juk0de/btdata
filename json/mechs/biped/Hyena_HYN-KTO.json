@@ -150,7 +150,15 @@
             "1": "Lift Hoist/Arresting Hoist (R)",
             "2": "Lift Hoist/Arresting Hoist (R)",
             "3": "Lift Hoist/Arresting Hoist (R)",
-            "4": "IS Ferro-Fibrous"
+            "4": "Cargo",
+            "5": "Cargo",
+            "6": "Cargo",
+            "7": "Cargo",
+            "8": "Cargo",
+            "9": "Cargo",
+            "10": "Cargo",
+            "11": "Cargo",
+            "12": "IS Ferro-Fibrous"
         },
         "center_torso": {
             "1": "Fusion Engine",
@@ -209,7 +217,6 @@
             "12": null
         }
     },
-    "cargo": "SIZE:8.0",
     "fluff": {
         "manufacturer": [
             "Field Refit"

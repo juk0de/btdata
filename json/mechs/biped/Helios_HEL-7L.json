@@ -1,4 +1,5 @@
 {
+    "generator": "MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-24",
     "chassis": "Helios",
     "model": "HEL-7L",
     "mul_id": 7989,
@@ -8,6 +9,7 @@
     "source": "Record Sheets: 3150",
     "rules_level": 3,
     "rules_level_str": "Standard",
+    "role": "Sniper",
     "quirks": [
         "easy_maintain"
     ],
@@ -174,8 +176,8 @@
             "4": "ISMML5",
             "5": "ISMML5",
             "6": "ISMML5",
-            "7": "IS Ammo MML-5 LRM",
-            "8": "IS Ammo MML-5 SRM",
+            "7": "IS Ammo MML-5 SRM",
+            "8": "IS Ammo MML-5 LRM",
             "9": "IS Gauss Ammo",
             "10": "IS Gauss Ammo",
             "11": "ISCASEII",

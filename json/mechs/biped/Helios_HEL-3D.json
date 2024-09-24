@@ -235,5 +235,13 @@
             "11": null,
             "12": null
         }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Ceres Metals Industries"
+        ],
+        "primaryfactory": [
+            "Warlock"
+        ]
     }
 }

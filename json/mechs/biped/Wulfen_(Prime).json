@@ -46,7 +46,6 @@
         "quantity": 10,
         "type": "Clan Double"
     },
-    "base_chassis_heat_sinks": 10,
     "walk_mp": 10,
     "run_mp": 15,
     "jump_mp": 0,
@@ -143,13 +142,14 @@
             "2": "Fusion Engine",
             "3": "Fusion Engine",
             "4": "Fusion Engine",
-            "5": "Clan Endo Steel",
-            "6": "IS Stealth",
+            "5": "Cargo (OMNIPOD)",
+            "6": "Clan Endo Steel",
             "7": "IS Stealth",
-            "8": null,
+            "8": "IS Stealth",
             "9": null,
             "10": null,
-            "11": null
+            "11": null,
+            "12": null
         },
         "right_torso": {
             "1": "Fusion Engine",
@@ -222,12 +222,11 @@
             "12": null
         }
     },
-    "cargo_(omnipod)": "SIZE:0.5",
     "fluff": {
-        "overview": "<P>The Wulfen, a light OmniMech from Clan Wolf, initially met with internal disapproval but soon gained admiration due to its sterling combat performances. Its prototypes showcased formidable capabilities during the invasions of the Republic, Free Worlds League, and Lyran Commonwealth, earning it a special place within Clan Wolf, especially among ristars (rising stars).</P>",
-        "capabilities": "<P>Boasting an amalgam of speed and stealth armor, the Wulfen excels in dictating engagement terms against heavier adversaries. Its versatility shines in long-range duels, disrupting supply chains, eliminating reconnaissance elements, and facilitating general advancements on the battlefield.</P><P>Leveraging a blend of Clan and Inner Sphere technologies, the Wulfen is equipped with a 300-rated Model 39b extra-light engine, Inner Sphere XL gyro, Process 12 endo steel chassis, and 10 tons of pod space. It also hosts an ECM suite, Full-Head Ejection System, and six and a half tons of Imstar V-Stealth stealth armor. This technological medley ensures the Wulfen remains a formidable contender on the battlefield.</P>",
-        "deployment": "<P>The Prime melds a UAC/2 and an ATM-3 system, supporting both long and short-range combats. A unique half-ton cargo pod is embedded in its left torso for additional utility.</P>",
-        "history": "<P>Initially designed in 3137 on Tamar, its production saw a hiatus during the Clan's repositioning to the Lyran Commonwealth border, resuming in 3142 initially on Weingarten and later on Thermopolis. Star Captain Paul's ascendancy from a humble sibko to a Nova leader in the Third Wolf Guard Battle Cluster epitomizes the Wulfen's allure among the Clan's ambitious warriors.</P><P>The Wulfen's journey from controversy to a revered combat unit encapsulates Clan Wolf's evolving combat doctrines. Initially denounced by Star Colonel Josiah Ward as a symbol of Spheroid dishonor, the Wulfen's reputation was salvaged by saKhan Garner Kerensky, who triumphed over Ward in a Trial of Grievance using a Wulfen prototype. This event birthed the B configuration, which became a staple in later combat scenarios. Its prototypes showcased formidable capabilities during the invasions of the Republic, Free Worlds League, and Lyran Commonwealth, earning it a special place within Clan Wolf, especially among ristars (rising stars).</P>",
+        "overview": "The Wulfen, a light OmniMech from Clan Wolf, initially met with internal disapproval but soon gained admiration due to its sterling combat performances. Its prototypes showcased formidable capabilities during the invasions of the Republic, Free Worlds League, and Lyran Commonwealth, earning it a special place within Clan Wolf, especially among ristars (rising stars).",
+        "capabilities": "Boasting an amalgam of speed and stealth armor, the Wulfen excels in dictating engagement terms against heavier adversaries. Its versatility shines in long-range duels, disrupting supply chains, eliminating reconnaissance elements, and facilitating general advancements on the battlefield.Leveraging a blend of Clan and Inner Sphere technologies, the Wulfen is equipped with a 300-rated Model 39b extra-light engine, Inner Sphere XL gyro, Process 12 endo steel chassis, and 10 tons of pod space. It also hosts an ECM suite, Full-Head Ejection System, and six and a half tons of Imstar V-Stealth stealth armor. This technological medley ensures the Wulfen remains a formidable contender on the battlefield.",
+        "deployment": "The Prime melds a UAC/2 and an ATM-3 system, supporting both long and short-range combats. A unique half-ton cargo pod is embedded in its left torso for additional utility.",
+        "history": "Initially designed in 3137 on Tamar, its production saw a hiatus during the Clan's repositioning to the Lyran Commonwealth border, resuming in 3142 initially on Weingarten and later on Thermopolis. Star Captain Paul's ascendancy from a humble sibko to a Nova leader in the Third Wolf Guard Battle Cluster epitomizes the Wulfen's allure among the Clan's ambitious warriors.The Wulfen's journey from controversy to a revered combat unit encapsulates Clan Wolf's evolving combat doctrines. Initially denounced by Star Colonel Josiah Ward as a symbol of Spheroid dishonor, the Wulfen's reputation was salvaged by saKhan Garner Kerensky, who triumphed over Ward in a Trial of Grievance using a Wulfen prototype. This event birthed the B configuration, which became a staple in later combat scenarios.",
         "manufacturer": [
             "Kallon Weapon Industries",
             "W-7 Facilities"

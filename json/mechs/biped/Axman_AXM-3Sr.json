@@ -43,12 +43,10 @@
         }
     },
     "myomer": "Standard",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 11,
         "type": "Double"
     },
-    "nocrit": "Standard:None",
     "walk_mp": 4,
     "run_mp": 6,
     "jump_mp": 4,

@@ -123,8 +123,8 @@
             "12": null
         },
         "left_torso": {
-            "1": null,
-            "2": null,
+            "1": "Cargo",
+            "2": "Cargo",
             "3": null,
             "4": null,
             "5": null,
@@ -132,11 +132,13 @@
             "7": null,
             "8": null,
             "9": null,
-            "10": null
+            "10": null,
+            "11": null,
+            "12": null
         },
         "right_torso": {
-            "1": null,
-            "2": null,
+            "1": "Cargo",
+            "2": "Cargo",
             "3": null,
             "4": null,
             "5": null,
@@ -144,7 +146,9 @@
             "7": null,
             "8": null,
             "9": null,
-            "10": null
+            "10": null,
+            "11": null,
+            "12": null
         },
         "center_torso": {
             "1": "Fusion Engine",
@@ -157,7 +161,8 @@
             "8": "Fusion Engine",
             "9": "Fusion Engine",
             "10": "Fusion Engine",
-            "11": null
+            "11": "Cargo",
+            "12": null
         },
         "head": {
             "1": "Life Support",
@@ -201,6 +206,5 @@
             "11": null,
             "12": null
         }
-    },
-    "cargo": "SIZE:0.5"
+    }
 }

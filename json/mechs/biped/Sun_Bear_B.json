@@ -49,7 +49,6 @@
         "quantity": 13,
         "type": "Clan Double"
     },
-    "base_chassis_heat_sinks": 11,
     "walk_mp": 5,
     "run_mp": 8,
     "jump_mp": 0,
@@ -256,6 +255,5 @@
     },
     "fluff": {
         "history": "Clan Ghost Bear / Clan Blood Spirit"
-    },
-    "notes": "2 tons over weight"
+    }
 }

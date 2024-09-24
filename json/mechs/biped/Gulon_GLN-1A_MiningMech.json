@@ -132,7 +132,7 @@
         },
         "left_torso": {
             "1": "MechSprayer",
-            "2": null,
+            "2": "Liquid Storage",
             "3": null,
             "4": null,
             "5": null,
@@ -141,7 +141,8 @@
             "8": null,
             "9": null,
             "10": null,
-            "11": null
+            "11": null,
+            "12": null
         },
         "right_torso": {
             "1": "Heat Sink",
@@ -213,6 +214,5 @@
             "11": null,
             "12": null
         }
-    },
-    "liquid_storage": "size:0.5"
+    }
 }

@@ -47,7 +47,6 @@
         }
     },
     "myomer": "Standard",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 12,
         "type": "Double"
@@ -234,6 +233,5 @@
             "11": null,
             "12": null
         }
-    },
-    "imagefile": ".\\data\\images\\fluff\\Mech\\3085 Shadowhawk .jpg"
+    }
 }

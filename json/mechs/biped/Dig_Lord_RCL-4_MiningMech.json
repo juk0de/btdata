@@ -46,7 +46,6 @@
         "quantity": 3,
         "type": "Single"
     },
-    "nocrit": "Industrial:None",
     "walk_mp": 3,
     "run_mp": 5,
     "jump_mp": 0,

@@ -144,15 +144,17 @@
         },
         "left_torso": {
             "1": "Heat Sink",
-            "2": null,
-            "3": null,
+            "2": "Communications Equipment",
+            "3": "Communications Equipment",
             "4": null,
             "5": null,
             "6": null,
             "7": null,
             "8": null,
             "9": null,
-            "10": null
+            "10": null,
+            "11": null,
+            "12": null
         },
         "right_torso": {
             "1": "Heat Sink",
@@ -224,6 +226,5 @@
             "11": null,
             "12": null
         }
-    },
-    "communications_equipment": "size:2.0"
+    }
 }

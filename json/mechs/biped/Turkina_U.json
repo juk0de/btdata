@@ -47,7 +47,6 @@
         "quantity": 15,
         "type": "Clan Double"
     },
-    "base_chassis_heat_sinks": 11,
     "walk_mp": 3,
     "run_mp": 5,
     "jump_mp": 3,
@@ -171,7 +170,8 @@
             "8": "CLLRM15 (OMNIPOD)",
             "9": "CLLRM15 (OMNIPOD)",
             "10": "Clan Ammo LRM-15 (OMNIPOD)",
-            "11": "IS HarJel (OMNIPOD) (ARMORED)"
+            "11": "Liquid Storage (OMNIPOD)",
+            "12": "IS HarJel (OMNIPOD) (ARMORED)"
         },
         "right_torso": {
             "1": "Fusion Engine",
@@ -184,7 +184,8 @@
             "8": "CLLRM15 (OMNIPOD)",
             "9": "CLLRM15 (OMNIPOD)",
             "10": "Clan Ammo LRM-15 (OMNIPOD)",
-            "11": "IS HarJel (OMNIPOD) (ARMORED)"
+            "11": "Liquid Storage (OMNIPOD)",
+            "12": "IS HarJel (OMNIPOD) (ARMORED)"
         },
         "center_torso": {
             "1": "Fusion Engine",
@@ -243,7 +244,6 @@
             "12": null
         }
     },
-    "liquid_storage_(omnipod)": "SIZE:1.0 (ARMORED)",
     "fluff": {
         "overview": "The Turkina is a powerful OmniMech that was first seen in the Turkina Keshik at the Battle of Tukayyid, and entered general service with Clan Jade Falcon following the end of the Refusal War. In a design oddity, the Turkina mounts enough jump jets to vault 90 meters hardwired onto the frame, rather than using them in modular pods. While this simplified repair, it also uses tonnage that could be devoted to other systems when a mission does not call for jumping. Designers also included fifteen double heat sinks, four more than could be fit into the engine, so they are fixed in the torso. The Turkina has 42 tons available for modular pods.",
         "capabilities": "Designed for space operations, this Turkina configuration mounts several experimental systems. A BattleMech HarJel System protects the torso against breaches, and two Liquid Storage tanks provide additional fuel for the jump jets. A Coolant Pod can quickly dissipate the heat built up by the ten ER Small Lasers, twin LRM-15s, and ATM-9. An Active Probe allows the Turkina U to find enemy forces, and the Talons mounted in each leg prevent the Turkina from floating away from the hull. To provide additional protection the Liquid Storage tanks, Harjel systems, and Coolant Pod have all been armored against enemy fire.",

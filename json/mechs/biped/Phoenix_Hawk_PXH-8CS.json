@@ -48,7 +48,6 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "XL Gyro",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 14,
         "type": "Double"
@@ -228,6 +227,5 @@
             "11": null,
             "12": null
         }
-    },
-    "imagefile": ".\\data\\images\\fluff\\Mech\\phoenix hawk PXH-7CS.jpg"
+    }
 }

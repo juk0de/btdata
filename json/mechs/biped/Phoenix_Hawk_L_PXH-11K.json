@@ -46,7 +46,6 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "XL Gyro",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"

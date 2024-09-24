@@ -42,7 +42,6 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "XL Gyro",
-    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"
@@ -222,5 +221,13 @@
             "11": null,
             "12": null
         }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Jalastar Aerospace"
+        ],
+        "primaryfactory": [
+            "Panpour"
+        ]
     }
 }

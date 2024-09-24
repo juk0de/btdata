@@ -210,14 +210,15 @@
             "1": "Life Support",
             "2": "Sensors",
             "3": "Cockpit",
-            "4": "Sensors",
-            "5": "Life Support",
-            "6": null,
+            "4": "Cargo",
+            "5": "Sensors",
+            "6": "Life Support",
             "7": null,
             "8": null,
             "9": null,
             "10": null,
-            "11": null
+            "11": null,
+            "12": null
         },
         "left_leg": {
             "1": "Hip",
@@ -247,6 +248,5 @@
             "11": null,
             "12": null
         }
-    },
-    "cargo": "size:0.5"
+    }
 }

@@ -258,5 +258,13 @@
             "11": null,
             "12": null
         }
+    },
+    "fluff": {
+        "manufacturer": [
+            "Red Devil Industries"
+        ],
+        "primaryfactory": [
+            "Pandora"
+        ]
     }
 }
