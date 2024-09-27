@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "BattleMaster",
     "model": "BLR-4S (Calvin)",
     "mul_id": 296,
@@ -92,59 +93,52 @@
             "pips": 33
         }
     },
-    "weapons": {
-        "1": {
-            "ISRotaryAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 40
-            }
+    "weapons": [
+        {
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 40
         },
-        "2": {
-            "ISLightPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISLightPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISERMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISERMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "6": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISStreakSRM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISStreakSRM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

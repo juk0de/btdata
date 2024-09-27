@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Drift Shag",
     "model": "",
     "mul_id": 7605,
@@ -94,29 +95,26 @@
             "pips": 12
         }
     },
-    "weapons": {
-        "1": {
-            "ER Small Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "ER Small Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "2": {
-            "ER Large Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Large Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Medium Pulse Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

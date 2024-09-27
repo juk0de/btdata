@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Marshal",
     "model": "MHL-3MC",
     "mul_id": 6895,
@@ -94,50 +95,44 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Flamer": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Flamer",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Pulse Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "MML 9": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MML 9",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Machine Gun": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "TSEMP Cannon": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "TSEMP Cannon",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

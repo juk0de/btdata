@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Kodiak",
     "model": "",
     "mul_id": 1805,
@@ -95,43 +96,38 @@
             "pips": 34
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "3": {
-            "Streak SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "Ultra AC/20": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Ultra AC/20",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ER Large Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Large Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

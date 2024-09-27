@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Cerberus",
     "model": "MR-V3",
     "mul_id": 529,
@@ -96,43 +97,38 @@
             "pips": 27
         }
     },
-    "weapons": {
-        "1": {
-            "Gauss Rifle": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Gauss Rifle",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Gauss Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Gauss Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Medium Pulse Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "Medium Pulse Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "AMS": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "AMS",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

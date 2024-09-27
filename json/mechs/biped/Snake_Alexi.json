@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Snake",
     "model": "SNK-1V (Alexi)",
     "mul_id": 2975,
@@ -92,23 +93,21 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "ISERLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ISStreakSRM2": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3,
-                "ammo": 50
-            }
+        {
+            "weapon": "ISStreakSRM2",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3,
+            "ammo": 50
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

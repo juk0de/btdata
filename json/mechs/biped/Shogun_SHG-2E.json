@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Shogun",
     "model": "SHG-2E",
     "mul_id": 2932,
@@ -94,45 +95,40 @@
             "pips": 36
         }
     },
-    "weapons": {
-        "1": {
-            "ISSRM6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 30
-            }
+    "weapons": [
+        {
+            "weapon": "ISSRM6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 30
         },
-        "2": {
-            "ISSRM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISLRM15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLRM15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISLRM15": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+        {
+            "weapon": "ISLRM15",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "5": {
-            "ISPPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISPPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

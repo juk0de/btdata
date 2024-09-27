@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Gulon SecurityMech",
     "model": "GLN-1B",
     "mul_id": 7845,
@@ -90,22 +91,20 @@
             "pips": 10
         }
     },
-    "weapons": {
-        "1": {
-            "Small Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "Small Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "Medium Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

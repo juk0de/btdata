@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hussar",
     "model": "HSR-200-D",
     "mul_id": 1585,
@@ -13,7 +14,14 @@
         "imp_com",
         "rugged_1"
     ],
-    "weaponquirk": "direct_torso_mount:CT:10:ISERLargeLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISERLargeLaser",
+            "location": "center_torso",
+            "slot": 10
+        }
+    ],
     "mass": 30,
     "engine": "270 Fusion Engine(IS)",
     "structure": {
@@ -95,15 +103,14 @@
             "pips": 2
         }
     },
-    "weapons": {
-        "1": {
-            "ER Large Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Large Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

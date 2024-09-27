@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Goshawk II",
     "model": "RISC",
     "mul_id": 7376,
@@ -97,29 +98,26 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "Streak LRM 10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Streak LRM 10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Improved Heavy Large Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Improved Heavy Large Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Plasma Cannon": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Plasma Cannon",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

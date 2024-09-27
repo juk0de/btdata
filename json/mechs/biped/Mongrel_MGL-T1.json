@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Mongrel",
     "model": "MGL-T1",
     "mul_id": 6618,
@@ -12,7 +13,14 @@
     "quirks": [
         "easy_pilot"
     ],
-    "weaponquirk": "no_cooling:LA:2:Autocannon/5",
+    "weapon_quirks": [
+        {
+            "quirk": "no_cooling",
+            "weapon": "Autocannon/5",
+            "location": "left_arm",
+            "slot": 2
+        }
+    ],
     "mass": 50,
     "engine": "350 XL (Clan) Engine",
     "structure": {
@@ -94,22 +102,20 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "AC/5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "AC/5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 3
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

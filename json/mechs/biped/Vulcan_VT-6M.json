@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Vulcan",
     "model": "VT-6M",
     "mul_id": 3465,
@@ -91,38 +92,34 @@
             "pips": 11
         }
     },
-    "weapons": {
-        "1": {
-            "ISFlamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISFlamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISMachine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 200
-            }
+        {
+            "weapon": "ISMachine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 200
         },
-        "3": {
-            "ISLightGaussRifle": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 32
-            }
+        {
+            "weapon": "ISLightGaussRifle",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 32
         },
-        "4": {
-            "ISERMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Daishi",
     "clanname": "Dire Wolf",
     "model": "C",
@@ -95,57 +96,50 @@
             "pips": 41
         }
     },
-    "weapons": {
-        "1": {
-            "ER PPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER PPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ATM 6": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ATM 6",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ER PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ATM 6": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ATM 6",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Medium Pulse Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "6": {
-            "Medium Pulse Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "Streak SRM 4 (OS)": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 4 (OS)",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

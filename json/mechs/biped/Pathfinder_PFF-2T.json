@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Pathfinder",
     "model": "PFF-2T",
     "mul_id": 4791,
@@ -94,15 +95,14 @@
             "pips": 8
         }
     },
-    "weapons": {
-        "1": {
-            "TAG": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "TAG",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

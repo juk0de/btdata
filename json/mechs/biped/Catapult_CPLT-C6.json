@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Catapult",
     "model": "CPLT-C6",
     "mul_id": 485,
@@ -92,23 +93,21 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "ISPlasmaRifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 60
-            }
+    "weapons": [
+        {
+            "weapon": "ISPlasmaRifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 60
         },
-        "2": {
-            "ISERMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

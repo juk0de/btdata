@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Spindrift Aquatic SecurityMech",
     "model": "SDT-1A",
     "mul_id": 5106,
@@ -93,23 +94,21 @@
             "pips": 10
         }
     },
-    "weapons": {
-        "1": {
-            "ISERSmallLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERSmallLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISSRT6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISSRT6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

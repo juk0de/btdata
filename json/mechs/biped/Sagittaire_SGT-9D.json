@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Sagittaire",
     "model": "SGT-9D",
     "mul_id": 5717,
@@ -93,79 +94,69 @@
             "pips": 39
         }
     },
-    "weapons": {
-        "1": {
-            "ISMediumLaser (R)": {
-                "location": "head",
-                "facing": "rear",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISMediumLaser (R)",
+            "location": "head",
+            "facing": "rear",
+            "quantity": 1
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISC3MasterComputer": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3MasterComputer",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumLaser (R)": {
-                "location": "center_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser (R)",
+            "location": "center_torso",
+            "facing": "rear",
+            "quantity": 1
         },
-        "5": {
-            "ISERPPC": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERPPC",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISLBXAC10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 40
-            }
+        {
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 40
         },
-        "7": {
-            "ISLBXAC10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLBXAC10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "9": {
-            "ISSmallPulseLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallPulseLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "10": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

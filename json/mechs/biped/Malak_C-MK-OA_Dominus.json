@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Malak",
     "model": "C-MK-OA Dominus",
     "mul_id": 1995,
@@ -97,71 +98,62 @@
             "pips": 13
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Light Machine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Light Machine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "Light Machine Gun Array": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun Array",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Light Machine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Light Machine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "5": {
-            "Light Machine Gun Array": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun Array",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Flamer": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Flamer",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ER Small Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "Flamer": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Flamer",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "9": {
-            "ER Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

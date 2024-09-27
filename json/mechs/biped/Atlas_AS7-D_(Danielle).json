@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Atlas",
     "model": "AS7-D (Danielle)",
     "mul_id": 141,
@@ -95,38 +96,34 @@
             "pips": 41
         }
     },
-    "weapons": {
-        "1": {
-            "ISAC20": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 10
-            }
+    "weapons": [
+        {
+            "weapon": "ISAC20",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 10
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "4": {
-            "ISLRM20": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISLRM20",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

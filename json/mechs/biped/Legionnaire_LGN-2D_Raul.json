@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Legionnaire",
     "model": "LGN-2D (Raul)",
     "mul_id": 8296,
@@ -13,7 +14,14 @@
         "easy_maintain",
         "imp_target_med"
     ],
-    "weaponquirk": "exposed_linkage:RA:5:ISRotaryAC5",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "slot": 5
+        }
+    ],
     "mass": 50,
     "engine": "350 XL Engine",
     "structure": {
@@ -93,30 +101,27 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "ISRotaryAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 60
-            }
+    "weapons": [
+        {
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 60
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Phoenix",
     "model": "PX-4R",
     "mul_id": 2490,
@@ -9,7 +10,14 @@
     "rules_level": 1,
     "rules_level_str": "Standard",
     "role": "Skirmisher",
-    "weaponquirk": "direct_torso_mount:LT:1:SRM 2",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "SRM 2",
+            "location": "left_torso",
+            "slot": 1
+        }
+    ],
     "mass": 50,
     "engine": "250 Fusion Engine",
     "structure": {
@@ -90,22 +98,20 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "Autocannon/10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Autocannon/10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "SRM 2": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 2",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

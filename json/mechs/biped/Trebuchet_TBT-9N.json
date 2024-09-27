@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Trebuchet",
     "model": "TBT-9N",
     "mul_id": 7500,
@@ -12,7 +13,14 @@
     "quirks": [
         "easy_maintain"
     ],
-    "weaponquirk": "fast_reload:RT:3:CLLRM15",
+    "weapon_quirks": [
+        {
+            "quirk": "fast_reload",
+            "weapon": "CLLRM15",
+            "location": "right_torso",
+            "slot": 3
+        }
+    ],
     "mass": 50,
     "engine": "300 XL Engine(IS)",
     "structure": {
@@ -96,36 +104,32 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "LRM 15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LRM 15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium VSP Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium VSP Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Medium VSP Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium VSP Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "LRM 15": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 15",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

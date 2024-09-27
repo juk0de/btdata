@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hoplite",
     "model": "HOP-4Bb",
     "mul_id": 1541,
@@ -91,37 +92,33 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "ISGuardianECM": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISGuardianECM",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISERPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISAntiMissileSystem": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISAntiMissileSystem",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISLRM15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+        {
+            "weapon": "ISLRM15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

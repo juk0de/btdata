@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Anvil",
     "model": "ANV-3R",
     "mul_id": 49,
@@ -93,36 +94,32 @@
             "pips": 28
         }
     },
-    "weapons": {
-        "1": {
-            "Large Pulse Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Large Pulse Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Large Pulse Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Large Pulse Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

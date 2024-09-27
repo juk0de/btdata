@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Grendel",
     "clanname": "Mongrel",
     "model": "I",
@@ -94,29 +95,26 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ProtoMech AC/4": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ProtoMech AC/4",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Plasma Rifle": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Plasma Rifle",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

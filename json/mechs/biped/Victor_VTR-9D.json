@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Victor",
     "model": "VTR-9D",
     "mul_id": 3410,
@@ -91,31 +92,28 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "ISGaussRifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+    "weapons": [
+        {
+            "weapon": "ISGaussRifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "2": {
-            "ISMediumPulseLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

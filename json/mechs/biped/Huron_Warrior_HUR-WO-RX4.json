@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Huron Warrior",
     "model": "HUR-WO-RX4",
     "mul_id": 5782,
@@ -13,7 +14,14 @@
         "command_mech",
         "hard_pilot"
     ],
-    "weaponquirk": "imp_cooling:LA:2:ISLargeXPulseLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "imp_cooling",
+            "weapon": "ISLargeXPulseLaser",
+            "location": "left_arm",
+            "slot": 2
+        }
+    ],
     "mass": 50,
     "engine": "250 XL Engine(IS)",
     "structure": {
@@ -95,22 +103,20 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "Large X-Pulse Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Large X-Pulse Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Silver Bullet Gauss Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Silver Bullet Gauss Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Cicada",
     "model": "CDA-3G",
     "mul_id": 595,
@@ -91,36 +92,32 @@
             "pips": 17
         }
     },
-    "weapons": {
-        "1": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISBeagleActiveProbe": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBeagleActiveProbe",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISERLargeLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

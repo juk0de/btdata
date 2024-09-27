@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Roughneck",
     "model": "RGH-BLT Bolt",
     "config": "Biped",
@@ -88,57 +89,50 @@
             "pips": 29
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Small Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Small Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Ultra AC/5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Ultra AC/5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Ultra AC/5": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Ultra AC/5",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "MRM 10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MRM 10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "MRM 10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MRM 10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

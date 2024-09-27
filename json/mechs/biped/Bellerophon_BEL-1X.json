@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Bellerophon",
     "model": "BEL-1X",
     "mul_id": 3817,
@@ -15,7 +16,20 @@
         "unbalanced",
         "obsolete"
     ],
-    "weaponquirk": "em_interference:RA:5:ISLargeLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "em_interference",
+            "weapon": "ISLargeLaser",
+            "location": "right_arm",
+            "slot": 3
+        },
+        {
+            "quirk": "em_interference",
+            "weapon": "ISLargeLaser",
+            "location": "right_arm",
+            "slot": 5
+        }
+    ],
     "mass": 60,
     "engine": "290 Fusion Engine(IS)",
     "structure": {
@@ -98,22 +112,20 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "Large Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "Large Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "SRM 4": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 4",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

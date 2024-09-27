@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wasp",
     "model": "WSP-3X",
     "mul_id": 8103,
@@ -98,22 +99,20 @@
             "pips": 4
         }
     },
-    "weapons": {
-        "1": {
-            "Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Thunderbolt 5": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Thunderbolt 5",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

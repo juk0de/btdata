@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Annihilator",
     "model": "ANH-2AX",
     "mul_id": 40,
@@ -92,23 +93,21 @@
             "pips": 42
         }
     },
-    "weapons": {
-        "1": {
-            "ISImprovedHeavyGaussRifle": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 32
-            }
+    "weapons": [
+        {
+            "weapon": "ISImprovedHeavyGaussRifle",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 32
         },
-        "2": {
-            "ISImprovedHeavyGaussRifle": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISImprovedHeavyGaussRifle",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

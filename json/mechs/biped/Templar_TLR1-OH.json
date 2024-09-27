@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Templar",
     "model": "TLR1-OH",
     "mul_id": 5711,
@@ -93,43 +94,38 @@
             "pips": 36
         }
     },
-    "weapons": {
-        "1": {
-            "MRM 30": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "MRM 30",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "MRM 30": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MRM 30",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ER Flamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Flamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Light PPC": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light PPC",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Light PPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light PPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.18-SNAPSHOT on 2024-01-06",
     "chassis": "Hatamoto-Godai",
     "model": "HTM-30Z",
@@ -97,43 +98,38 @@
             "pips": 25
         }
     },
-    "weapons": {
-        "1": {
-            "Extended LRM 15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Extended LRM 15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "C3 Boosted System (Master)": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "C3 Boosted System (Master)",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "C3 Boosted System (Master)": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "C3 Boosted System (Master)",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Laser AMS": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Laser AMS",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

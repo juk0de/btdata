@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Quickdraw",
     "model": "QKD-9G",
     "mul_id": 9320,
@@ -94,50 +95,44 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Streak SRM 4": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 4",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Streak SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "6": {
-            "Streak SRM 4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

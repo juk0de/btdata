@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Sunder",
     "model": "SD1-O (Samual)",
     "mul_id": 3124,
@@ -93,78 +94,68 @@
             "pips": 33
         }
     },
-    "weapons": {
-        "1": {
-            "SRM 4": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "SRM 4",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "Machine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "3": {
-            "ER PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Flamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "Flamer": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Flamer",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Machine Gun": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 4
         },
-        "7": {
-            "Flamer": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Flamer",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "Machine Gun": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 4
         },
-        "9": {
-            "SRM 4": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "SRM 4",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "10": {
-            "SRM 4": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 4",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

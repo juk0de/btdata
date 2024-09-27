@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Cronus",
     "model": "CNS-5M",
     "mul_id": 4021,
@@ -91,44 +92,39 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "ISERPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISERMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISERSmallLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERSmallLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISStreakSRM4": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         },
-        "5": {
-            "ISC3SlaveUnit": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

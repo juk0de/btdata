@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Jade Phoenix",
     "model": "E",
     "mul_id": 8403,
@@ -90,22 +91,20 @@
             "pips": 36
         }
     },
-    "weapons": {
-        "1": {
-            "Plasma Rifle": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "Plasma Rifle",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "LB 20-X AC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LB 20-X AC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

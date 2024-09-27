@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hierofalcon",
     "model": "A",
     "mul_id": 7485,
@@ -90,50 +91,44 @@
             "pips": 18
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "AP Gauss Rifle": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "AP Gauss Rifle",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Flamer": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Flamer",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Large Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Large Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "AP Gauss Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "AP Gauss Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Flamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

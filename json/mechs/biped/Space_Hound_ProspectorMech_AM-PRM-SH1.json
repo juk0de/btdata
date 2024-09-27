@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Space Hound ProspectorMech",
     "model": "AM-PRM-SH1",
     "mul_id": 5101,
@@ -90,15 +91,14 @@
             "pips": 13
         }
     },
-    "weapons": {
-        "1": {
-            "Small Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Small Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

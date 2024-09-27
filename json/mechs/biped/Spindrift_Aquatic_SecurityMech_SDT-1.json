@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Spindrift Aquatic SecurityMech",
     "model": "SDT-1",
     "mul_id": 3021,
@@ -97,22 +98,20 @@
             "type": "Heavy Industrial(Inner Sphere)"
         }
     },
-    "weapons": {
-        "1": {
-            "ER Small Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Small Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "SRT 6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRT 6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

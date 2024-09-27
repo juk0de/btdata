@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Victor",
     "model": "VTR-10D",
     "mul_id": 3404,
@@ -91,31 +92,28 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "ISERMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ISUltraAC20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 30
-            }
+        {
+            "weapon": "ISUltraAC20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 30
         },
-        "3": {
-            "ISStreakSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

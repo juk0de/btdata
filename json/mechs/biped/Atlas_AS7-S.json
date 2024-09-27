@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Atlas",
     "model": "AS7-S",
     "mul_id": 148,
@@ -95,61 +96,54 @@
             "pips": 41
         }
     },
-    "weapons": {
-        "1": {
-            "ISAC20": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+    "weapons": [
+        {
+            "weapon": "ISAC20",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         },
-        "2": {
-            "ISLRM20": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISLRM20",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "center_torso",
-                "facing": "rear",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "center_torso",
+            "facing": "rear",
+            "quantity": 2
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISSRM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         },
-        "7": {
-            "ISStreakSRM2": {
-                "location": "left_torso",
-                "facing": "rear",
-                "quantity": 2,
-                "ammo": 50
-            }
+        {
+            "weapon": "ISStreakSRM2",
+            "location": "left_torso",
+            "facing": "rear",
+            "quantity": 2,
+            "ammo": 50
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

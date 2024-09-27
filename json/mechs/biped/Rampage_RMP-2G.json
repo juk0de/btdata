@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Rampage",
     "model": "RMP-2G",
     "mul_id": 2635,
@@ -94,60 +95,53 @@
             "pips": 31
         }
     },
-    "weapons": {
-        "1": {
-            "ISAC10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISAC10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISLRM10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISLRM10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "3": {
-            "ISMachine Gun": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 200
-            }
+        {
+            "weapon": "ISMachine Gun",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 200
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISFlamer": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISLargeLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargeLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

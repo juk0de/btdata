@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Yu Huang",
     "model": "Y-H11G",
     "mul_id": 3625,
@@ -95,50 +96,44 @@
             "pips": 37
         }
     },
-    "weapons": {
-        "1": {
-            "Plasma Rifle": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Plasma Rifle",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Medium Pulse Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Plasma Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Plasma Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "MML 5": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MML 5",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "MML 5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MML 5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

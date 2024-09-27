@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Firestarter",
     "model": "FS9-M4",
     "mul_id": 6611,
@@ -13,7 +14,26 @@
         "ubiquitous_clan",
         "ubiquitous_is"
     ],
-    "weaponquirk": "exposed_linkage:RA:8:Flamer",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "slot": 6
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "slot": 7
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "slot": 8
+        }
+    ],
     "mass": 35,
     "engine": "210 XL Engine(IS)",
     "structure": {
@@ -95,22 +115,20 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "Rotary AC/2": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Rotary AC/2",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Flamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

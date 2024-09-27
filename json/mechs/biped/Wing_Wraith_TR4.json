@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "Mordel.Net Code Release 2.24.13 on 14-Jun-2024",
     "chassis": "'Wing' Wraith",
     "model": "TR4",
@@ -89,22 +90,20 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "Snub-Nose PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Snub-Nose PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium VSP Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium VSP Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

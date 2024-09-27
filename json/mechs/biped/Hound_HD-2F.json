@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hound",
     "model": "HD-2F",
     "mul_id": 6563,
@@ -9,7 +10,14 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Sniper",
-    "weaponquirk": "accurate:LT:0:ISLBXAC10",
+    "weapon_quirks": [
+        {
+            "quirk": "accurate",
+            "weapon": "ISLBXAC10",
+            "location": "left_torso",
+            "slot": 0
+        }
+    ],
     "mass": 70,
     "engine": "280 Fusion Engine(IS)",
     "structure": {
@@ -91,36 +99,32 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Light PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Light PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "LB 10-X AC": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LB 10-X AC",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "SRM 4": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 4",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

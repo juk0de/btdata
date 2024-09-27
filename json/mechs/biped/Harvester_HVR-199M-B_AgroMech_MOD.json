@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Harvester",
     "model": "HVR-199M-B AgroMech MOD",
     "mul_id": 7863,
@@ -90,15 +91,14 @@
             "pips": 9
         }
     },
-    "weapons": {
-        "1": {
-            "Rotary AC/2": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Rotary AC/2",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

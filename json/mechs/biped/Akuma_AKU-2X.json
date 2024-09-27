@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Akuma",
     "model": "AKU-2X",
     "mul_id": 5713,
@@ -92,45 +93,40 @@
             "pips": 38
         }
     },
-    "weapons": {
-        "1": {
-            "ISC3SlaveUnit": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISLBXAC10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+        {
+            "weapon": "ISLBXAC10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "3": {
-            "ISMRM40": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 18
-            }
+        {
+            "weapon": "ISMRM40",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 18
         },
-        "4": {
-            "ISHeavyPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISHeavyPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumPulseLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hollander III",
     "model": "BZK-D3",
     "mul_id": 6335,
@@ -92,29 +93,26 @@
             "pips": 12
         }
     },
-    "weapons": {
-        "1": {
-            "Medium Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "Medium Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ER PPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER PPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Small Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Small Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

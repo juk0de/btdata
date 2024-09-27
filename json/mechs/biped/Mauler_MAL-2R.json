@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Mauler",
     "model": "MAL-2R",
     "mul_id": 5460,
@@ -9,7 +10,32 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Juggernaut",
-    "weaponquirk": "stable_weapon:LT:5:ISUltraAC2",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISUltraAC2",
+            "location": "right_torso",
+            "slot": 2
+        },
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISUltraAC2",
+            "location": "right_torso",
+            "slot": 5
+        },
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISUltraAC2",
+            "location": "left_torso",
+            "slot": 2
+        },
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISUltraAC2",
+            "location": "left_torso",
+            "slot": 5
+        }
+    ],
     "mass": 90,
     "engine": "270 Fusion Engine(IS)",
     "structure": {
@@ -91,50 +117,44 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Ultra AC/2": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Ultra AC/2",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "Ultra AC/2": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Ultra AC/2",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "LRM 10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "LRM 10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

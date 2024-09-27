@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Ebony",
     "model": "MEB-11",
     "mul_id": 941,
@@ -94,15 +95,14 @@
             "pips": 9
         }
     },
-    "weapons": {
-        "1": {
-            "Plasma Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Plasma Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

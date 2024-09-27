@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Ninja-To",
     "model": "NJT-4",
     "mul_id": 5687,
@@ -91,36 +92,32 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISSNPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSNPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISSNPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSNPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISERMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Spider",
     "model": "SDR-7KC",
     "mul_id": 3013,
@@ -93,22 +94,20 @@
             "pips": 13
         }
     },
-    "weapons": {
-        "1": {
-            "ISLightPPC": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISLightPPC",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

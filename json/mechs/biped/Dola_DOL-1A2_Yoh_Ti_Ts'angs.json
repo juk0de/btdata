@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dola",
     "model": "DOL-1A2 'Yoh Ti Ts'angs'",
     "mul_id": 4087,
@@ -9,7 +10,14 @@
     "rules_level": 4,
     "rules_level_str": "Standard",
     "role": "Scout",
-    "weaponquirk": "jettison_capable:RA:4:Small Vibroblade",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Small Vibroblade",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 30,
     "engine": "240 XL Engine(IS)",
     "structure": {
@@ -90,22 +98,20 @@
             "pips": 9
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "TAG": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "TAG",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

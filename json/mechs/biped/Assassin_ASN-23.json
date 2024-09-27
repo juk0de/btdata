@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Assassin",
     "model": "ASN-23",
     "mul_id": 128,
@@ -94,23 +95,21 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "ISMediumPulseLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISLRM5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

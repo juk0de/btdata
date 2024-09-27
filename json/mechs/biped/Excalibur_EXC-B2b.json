@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Excalibur",
     "model": "EXC-B2b",
     "mul_id": 999,
@@ -93,29 +94,26 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Gauss Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Gauss Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "LRM 20": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 20",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "AMS": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "AMS",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

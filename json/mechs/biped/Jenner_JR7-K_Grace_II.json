@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Jenner",
     "model": "JR7-K (Grace II)",
     "mul_id": 1695,
@@ -91,30 +92,27 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "ISNarcBeacon": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 6
-            }
+    "weapons": [
+        {
+            "weapon": "ISNarcBeacon",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 6
         },
-        "2": {
-            "ISLPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISLPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

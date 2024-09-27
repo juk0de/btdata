@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Storm Raider",
     "model": "STM-R1",
     "mul_id": 6615,
@@ -9,7 +10,20 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Scout",
-    "weaponquirk": "jettison_capable:LA:4:Autocannon/10",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Mace",
+            "location": "right_arm",
+            "slot": 4
+        },
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Autocannon/10",
+            "location": "left_arm",
+            "slot": 4
+        }
+    ],
     "mass": 35,
     "engine": "210 XL Engine(IS)",
     "structure": {
@@ -91,15 +105,14 @@
             "pips": 10
         }
     },
-    "weapons": {
-        "1": {
-            "AC/10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "AC/10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

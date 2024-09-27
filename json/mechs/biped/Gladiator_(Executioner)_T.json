@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Gladiator",
     "clanname": "Executioner",
     "model": "T",
@@ -94,29 +95,26 @@
             "pips": 40
         }
     },
-    "weapons": {
-        "1": {
-            "LB 10-X AC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LB 10-X AC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Large Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Large Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Machine Gun": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

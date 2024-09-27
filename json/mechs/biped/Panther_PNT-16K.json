@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Panther",
     "model": "PNT-16K",
     "mul_id": 2423,
@@ -92,23 +93,21 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "ISERPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISStreakSRM4": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 25
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

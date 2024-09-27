@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wyvern IIC",
     "model": "2",
     "mul_id": 3602,
@@ -92,57 +93,50 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "Light Machine Gun": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "Light Machine Gun",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "Light Machine Gun Array": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun Array",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Heavy Large Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Large Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Heavy Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Heavy Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "Heavy Small Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Heavy Small Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "6": {
-            "ATM 9": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ATM 9",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ER Flamer": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Flamer",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

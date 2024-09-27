@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Jinggau",
     "model": "JN-G8BX (Rush)",
     "mul_id": 1709,
@@ -94,44 +95,39 @@
             "pips": 23
         }
     },
-    "weapons": {
-        "1": {
-            "ISSniperArtCannon": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISSniperArtCannon",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISMediumXPulseLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISMediumXPulseLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "ISMediumXPulseLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumXPulseLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISTAG": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISTAG",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISC3SlaveUnit": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

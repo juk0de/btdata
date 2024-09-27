@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Trebuchet",
     "model": "TBT-9K",
     "mul_id": 3302,
@@ -12,7 +13,14 @@
     "quirks": [
         "easy_maintain"
     ],
-    "weaponquirk": "fast_reload:RT:3:MRM 20",
+    "weapon_quirks": [
+        {
+            "quirk": "fast_reload",
+            "weapon": "MRM 20",
+            "location": "right_torso",
+            "slot": 3
+        }
+    ],
     "mass": 50,
     "engine": "250 XL Fusion Engine",
     "structure": {
@@ -92,44 +100,39 @@
             "pips": 17
         }
     },
-    "weapons": {
-        "1": {
-            "ISMediumPulseLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISMRM20": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 36
-            }
+        {
+            "weapon": "ISMRM20",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 36
         },
-        "4": {
-            "ISMRM20": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMRM20",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISC3SlaveUnit": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

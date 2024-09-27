@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Phantom",
     "model": "E",
     "mul_id": 2485,
@@ -93,29 +94,26 @@
             "pips": 13
         }
     },
-    "weapons": {
-        "1": {
-            "Micro Pulse Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "Micro Pulse Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "2": {
-            "Micro Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Micro Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "3": {
-            "ATM 3": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ATM 3",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

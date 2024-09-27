@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Black Knight",
     "model": "BL-X-KNT 'Red Reaper'",
     "mul_id": 5783,
@@ -94,22 +95,20 @@
             "pips": 27
         }
     },
-    "weapons": {
-        "1": {
-            "Medium X-Pulse Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 5
-            }
+    "weapons": [
+        {
+            "weapon": "Medium X-Pulse Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 5
         },
-        "2": {
-            "Heavy PPC": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy PPC",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

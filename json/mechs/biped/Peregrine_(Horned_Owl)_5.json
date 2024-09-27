@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
     "chassis": "Peregrine",
     "clanname": "Horned Owl",
@@ -11,7 +12,14 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Sniper",
-    "weaponquirk": "stable_weapon:CT:10:CLHeavyMediumLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "CLHeavyMediumLaser",
+            "location": "center_torso",
+            "slot": 10
+        }
+    ],
     "mass": 35,
     "engine": "210 Fusion (Clan) Engine(IS)",
     "structure": {
@@ -93,29 +101,26 @@
             "pips": 11
         }
     },
-    "weapons": {
-        "1": {
-            "ER Large Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Large Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Large Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Large Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Heavy Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

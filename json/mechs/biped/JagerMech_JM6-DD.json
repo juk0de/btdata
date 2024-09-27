@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "JagerMech",
     "model": "JM6-DD",
     "mul_id": 1666,
@@ -91,52 +92,46 @@
             "pips": 12
         }
     },
-    "weapons": {
-        "1": {
-            "ISUltraAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 40
-            }
+    "weapons": [
+        {
+            "weapon": "ISUltraAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 40
         },
-        "2": {
-            "ISAC2": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 90
-            }
+        {
+            "weapon": "ISAC2",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 90
         },
-        "3": {
-            "ISUltraAC5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISUltraAC5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISAC2": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISAC2",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumPulseLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISMediumPulseLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

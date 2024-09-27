@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Aquagladius",
     "model": "AQS-3",
     "mul_id": 58,
@@ -93,15 +94,14 @@
             "pips": 23
         }
     },
-    "weapons": {
-        "1": {
-            "Taser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Taser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

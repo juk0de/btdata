@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Champion",
     "model": "CHP-3N",
     "mul_id": 552,
@@ -91,52 +92,46 @@
             "pips": 15
         }
     },
-    "weapons": {
-        "1": {
-            "ISSRM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+    "weapons": [
+        {
+            "weapon": "ISSRM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISSmallLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISSmallLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "ISLBXAC10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+        {
+            "weapon": "ISLBXAC10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "5": {
-            "ISLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

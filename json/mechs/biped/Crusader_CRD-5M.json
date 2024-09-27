@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Crusader",
     "model": "CRD-5M",
     "mul_id": 759,
@@ -15,7 +16,20 @@
         "ubiquitous_clan",
         "ubiquitous_is"
     ],
-    "weaponquirk": "stable_weapon:LL:4:ISStreakSRM2",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISStreakSRM2",
+            "location": "right_leg",
+            "slot": 4
+        },
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISStreakSRM2",
+            "location": "left_leg",
+            "slot": 4
+        }
+    ],
     "mass": 65,
     "engine": "260 XL Engine(IS)",
     "structure": {
@@ -97,71 +111,62 @@
             "pips": 21
         }
     },
-    "weapons": {
-        "1": {
-            "Streak SRM 2": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Streak SRM 2",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Streak SRM 2": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 2",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "LRM 15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "LRM 15": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 15",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "Flamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "Machine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "9": {
-            "Anti-Missile System": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Anti-Missile System",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

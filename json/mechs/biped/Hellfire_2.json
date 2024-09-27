@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hellfire",
     "model": "2",
     "mul_id": 4301,
@@ -91,65 +92,57 @@
             "pips": 19
         }
     },
-    "weapons": {
-        "1": {
-            "CLHeavyMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "CLHeavyMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "CLERMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "CLHeavyMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLHeavyMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "CLERMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "CLERSmallLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERSmallLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "CLATM6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 40
-            }
+        {
+            "weapon": "CLATM6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 40
         },
-        "7": {
-            "CLHeavyLargeLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLHeavyLargeLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "CLATM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLATM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

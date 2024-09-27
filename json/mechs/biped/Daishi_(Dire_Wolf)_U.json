@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Daishi",
     "clanname": "Dire Wolf",
     "model": "U",
@@ -95,50 +96,44 @@
             "pips": 41
         }
     },
-    "weapons": {
-        "1": {
-            "ER PPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER PPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Pulse Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ER PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Medium Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "SRT 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "SRT 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "6": {
-            "SRT 6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "SRT 6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 3
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

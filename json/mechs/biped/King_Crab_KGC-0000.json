@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "King Crab",
     "model": "KGC-0000",
     "mul_id": 1771,
@@ -92,36 +93,32 @@
             "pips": 34
         }
     },
-    "weapons": {
-        "1": {
-            "Autocannon/20": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Autocannon/20",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Autocannon/20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Autocannon/20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Large Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Large Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "LRM 15": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 15",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Scylla",
     "model": "",
     "mul_id": 5000,
@@ -91,45 +92,40 @@
             "pips": 42
         }
     },
-    "weapons": {
-        "1": {
-            "CLLRM20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 18
-            }
+    "weapons": [
+        {
+            "weapon": "CLLRM20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 18
         },
-        "2": {
-            "CLLRM20": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLRM20",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "CLLBXAC10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+        {
+            "weapon": "CLLBXAC10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "4": {
-            "CLERMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "CLERMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "CLERLargeLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERLargeLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

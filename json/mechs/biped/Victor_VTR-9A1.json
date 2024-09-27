@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Victor",
     "model": "VTR-9A1",
     "mul_id": 3408,
@@ -92,43 +93,38 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "SRM 4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Autocannon/20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Autocannon/20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Machine Gun": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Machine Gun": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

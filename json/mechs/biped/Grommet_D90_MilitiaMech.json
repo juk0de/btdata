@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Grommet D90 MilitiaMech",
     "model": "",
     "mul_id": 7180,
@@ -90,29 +91,26 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "Large Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Large Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Vehicle Flamer": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Vehicle Flamer",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "AC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "AC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

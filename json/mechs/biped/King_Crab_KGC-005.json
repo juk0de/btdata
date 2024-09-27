@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "King Crab",
     "model": "KGC-005",
     "mul_id": 1774,
@@ -91,45 +92,40 @@
             "pips": 40
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 30
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 30
         },
-        "2": {
-            "ISLBXAC20": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLBXAC20",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISERLargeLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISStreakSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 25
         },
-        "5": {
-            "ISImprovedC3CPU": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISImprovedC3CPU",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Mad Cat Mk II",
     "model": "3",
     "mul_id": 5716,
@@ -91,59 +92,52 @@
             "pips": 38
         }
     },
-    "weapons": {
-        "1": {
-            "CLLightActiveProbe": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "CLLightActiveProbe",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "CLERMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "CLERMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "CLERMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "CLERMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "CLLRM10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "CLLRM10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "5": {
-            "CLLRM10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLRM10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "CLHAG30": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 32
-            }
+        {
+            "weapon": "CLHAG30",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 32
         },
-        "7": {
-            "CLHAG30": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLHAG30",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

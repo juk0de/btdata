@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Flashman",
     "model": "FLS-C",
     "mul_id": 1128,
@@ -91,79 +92,69 @@
             "pips": 27
         }
     },
-    "weapons": {
-        "1": {
-            "ISLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISAntiMissileSystem": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISAntiMissileSystem",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "7": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "rear",
+            "quantity": 1
         },
-        "9": {
-            "ISLargeLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargeLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "10": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

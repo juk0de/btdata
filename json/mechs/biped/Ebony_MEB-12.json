@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Ebony",
     "model": "MEB-12",
     "mul_id": 6942,
@@ -95,15 +96,14 @@
             "pips": 9
         }
     },
-    "weapons": {
-        "1": {
-            "TSEMP Cannon": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "TSEMP Cannon",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

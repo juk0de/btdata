@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Uziel",
     "model": "UZL-2S (Jacob II)",
     "mul_id": 3366,
@@ -94,45 +95,40 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "ISLAC5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 80
-            }
+    "weapons": [
+        {
+            "weapon": "ISLAC5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 80
         },
-        "2": {
-            "ISLAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISMediumPulseLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumPulseLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISStreakSRM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISStreakSRM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

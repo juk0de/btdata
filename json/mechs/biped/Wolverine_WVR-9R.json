@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wolverine",
     "model": "WVR-9R",
     "mul_id": 8254,
@@ -18,7 +19,14 @@
         "ubiquitous_is",
         "cramped_cockpit"
     ],
-    "weaponquirk": "jettison_capable:RA:4:ISUltraAC10",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "ISUltraAC10",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 55,
     "engine": "275 XL Engine(IS)",
     "structure": {
@@ -100,29 +108,26 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Ultra AC/10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Ultra AC/10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Streak SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ER Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

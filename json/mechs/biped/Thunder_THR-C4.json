@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Thunder",
     "model": "THR-C4",
     "mul_id": 5230,
@@ -94,30 +95,27 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "ISERMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "ISMediumXPulseLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumXPulseLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISThunderbolt20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISThunderbolt20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

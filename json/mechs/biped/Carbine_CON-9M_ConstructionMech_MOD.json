@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Carbine",
     "model": "CON-9M ConstructionMech MOD",
     "mul_id": 7164,
@@ -90,22 +91,20 @@
             "pips": 5
         }
     },
-    "weapons": {
-        "1": {
-            "LRM 10": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LRM 10",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Machine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Machine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

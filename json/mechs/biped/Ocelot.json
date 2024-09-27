@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Ocelot",
     "model": "",
     "mul_id": 2313,
@@ -9,7 +10,20 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Striker",
-    "weaponquirk": "jettison_capable:RA:5:CLERMediumLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "CLERMediumLaser",
+            "location": "right_arm",
+            "slot": 4
+        },
+        {
+            "quirk": "jettison_capable",
+            "weapon": "CLERMediumLaser",
+            "location": "right_arm",
+            "slot": 5
+        }
+    ],
     "mass": 35,
     "engine": "210 XL (Clan) Engine",
     "structure": {
@@ -89,22 +103,20 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "Heavy Large Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Large Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

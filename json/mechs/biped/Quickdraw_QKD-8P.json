@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Quickdraw",
     "model": "QKD-8P",
     "mul_id": 4887,
@@ -97,44 +98,39 @@
             "pips": 28
         }
     },
-    "weapons": {
-        "1": {
-            "ISGuardianECM": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISGuardianECM",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISPPC": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISPPC",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISTAG": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISTAG",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISStreakSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

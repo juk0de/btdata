@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Buccaneer",
     "model": "BCN-5W",
     "mul_id": 437,
@@ -93,29 +94,26 @@
             "pips": 23
         }
     },
-    "weapons": {
-        "1": {
-            "Plasma Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Plasma Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Heavy Machine Gun": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "Heavy Machine Gun Array": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Machine Gun Array",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

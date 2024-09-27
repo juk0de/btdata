@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Night Stalker",
     "model": "NSR-K7",
     "mul_id": 6720,
@@ -95,29 +96,26 @@
             "pips": 12
         }
     },
-    "weapons": {
-        "1": {
-            "Small Re-engineered Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Small Re-engineered Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Small Re-engineered Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Small Re-engineered Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ER Small Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Stalker",
     "model": "STK-5S",
     "mul_id": 3041,
@@ -93,74 +94,65 @@
             "pips": 25
         }
     },
-    "weapons": {
-        "1": {
-            "ISLRM10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISLRM10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISLRM10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISLRM10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "3": {
-            "ISLargePulseLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargePulseLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISLargePulseLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargePulseLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISSRM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISSRM6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 30
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 30
         },
-        "7": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "8": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "9": {
-            "ISAntiMissileSystem": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISAntiMissileSystem",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

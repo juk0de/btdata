@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dart",
     "model": "DRT-3S",
     "mul_id": 828,
@@ -92,22 +93,20 @@
             "pips": 5
         }
     },
-    "weapons": {
-        "1": {
-            "Small Pulse Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "Small Pulse Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "Small Pulse Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Small Pulse Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

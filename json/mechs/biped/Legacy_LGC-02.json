@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
     "chassis": "Legacy",
     "model": "LGC-02",
@@ -14,7 +15,38 @@
         "bad_rep_is",
         "directional_torso_mount"
     ],
-    "weaponquirk": "direct_torso_mount:RT:6:ISMediumPulseLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "LRM 20",
+            "location": "left_torso",
+            "slot": 0
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_torso",
+            "slot": 5
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "LRM 20",
+            "location": "right_torso",
+            "slot": 0
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISStreakSRM4",
+            "location": "right_torso",
+            "slot": 5
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_torso",
+            "slot": 6
+        }
+    ],
     "mass": 80,
     "engine": "240 Fusion Engine(IS)",
     "structure": {
@@ -96,57 +128,50 @@
             "pips": 34
         }
     },
-    "weapons": {
-        "1": {
-            "ER Small Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Small Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "LRM 20": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 20",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Medium Pulse Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "LRM 20": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 20",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Streak SRM 4": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 4",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "Medium Pulse Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

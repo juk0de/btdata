@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Powerman",
     "model": "SC XVI HaulerMech",
     "mul_id": 4853,
@@ -92,7 +93,7 @@
             "pips": 7
         }
     },
-    "weapons": {},
+    "weapons": [],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

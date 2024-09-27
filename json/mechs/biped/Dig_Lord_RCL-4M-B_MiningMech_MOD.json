@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dig Lord",
     "model": "RCL-4M-B MiningMech MOD",
     "mul_id": 7829,
@@ -90,36 +91,32 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "AC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "AC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Heavy Machine Gun": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "SRM 4": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "SRM 4",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "Heavy Machine Gun": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

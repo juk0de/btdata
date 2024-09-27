@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Koshi",
     "clanname": "Mist Lynx",
     "model": "G",
@@ -95,64 +96,56 @@
             "pips": 5
         }
     },
-    "weapons": {
-        "1": {
-            "ER Small Laser": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Small Laser",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Small Laser": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ER Small Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Heavy Machine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "5": {
-            "Heavy Machine Gun Array": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Machine Gun Array",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ER Small Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "Heavy Machine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "8": {
-            "Heavy Machine Gun Array": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Machine Gun Array",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

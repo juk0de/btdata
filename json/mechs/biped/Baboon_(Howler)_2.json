@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Baboon",
     "clanname": "Howler",
     "model": "2",
@@ -95,15 +96,14 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "ATM 3": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "ATM 3",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 4
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

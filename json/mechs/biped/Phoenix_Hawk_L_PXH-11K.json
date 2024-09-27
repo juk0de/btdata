@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Phoenix Hawk L",
     "model": "'Fenikkusu Taka' PXH-11K",
     "mul_id": 6390,
@@ -12,7 +13,14 @@
     "quirks": [
         "poor_sealing"
     ],
-    "weaponquirk": "accurate:RA:4:TSEMP Cannon",
+    "weapon_quirks": [
+        {
+            "quirk": "accurate",
+            "weapon": "TSEMP Cannon",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 35,
     "engine": "210 XL Engine(IS)",
     "structure": {
@@ -96,43 +104,38 @@
             "pips": 12
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Heavy Machine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Heavy Machine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "TSEMP Cannon": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "TSEMP Cannon",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "MML 3": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MML 3",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

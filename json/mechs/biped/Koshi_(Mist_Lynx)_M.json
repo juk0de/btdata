@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Koshi",
     "clanname": "Mist Lynx",
     "model": "M",
@@ -95,29 +96,26 @@
             "pips": 5
         }
     },
-    "weapons": {
-        "1": {
-            "ER Micro Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "ER Micro Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "2": {
-            "Plasma Cannon": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Plasma Cannon",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "SRM 2": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 2",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

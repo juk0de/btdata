@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Sling",
     "model": "SL-1G",
     "mul_id": 2967,
@@ -91,37 +92,33 @@
             "pips": 5
         }
     },
-    "weapons": {
-        "1": {
-            "ISLRM5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 48
-            }
+    "weapons": [
+        {
+            "weapon": "ISLRM5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 48
         },
-        "2": {
-            "ISLRM5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISLRM5": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISTAG": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISTAG",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

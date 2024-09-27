@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Crockett",
     "model": "CRK-5005-1",
     "mul_id": 729,
@@ -93,52 +94,46 @@
             "pips": 36
         }
     },
-    "weapons": {
-        "1": {
-            "ISERLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISERLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISMML3": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 73
-            }
+        {
+            "weapon": "ISMML3",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 73
         },
-        "4": {
-            "ISLBXAC10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+        {
+            "weapon": "ISLBXAC10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "5": {
-            "ISMML3": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMML3",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISImprovedC3CPU": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISImprovedC3CPU",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

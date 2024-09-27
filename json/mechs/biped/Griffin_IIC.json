@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Griffin IIC",
     "model": "",
     "mul_id": 1310,
@@ -94,36 +95,32 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "LRM 5": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "LRM 5",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "LRM 5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "LRM 5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ER Large Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Large Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ER Small Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Pack Hunter",
     "model": "4",
     "mul_id": 2395,
@@ -92,15 +93,14 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "ER Large Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Large Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

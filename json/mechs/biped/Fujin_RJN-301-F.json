@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Fujin",
     "model": "RJN-301-F",
     "mul_id": 8414,
@@ -13,7 +14,14 @@
         "ext_twist",
         "no_arms"
     ],
-    "weaponquirk": "direct_torso_mount:RT:3:ISERPPC",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISERPPC",
+            "location": "right_torso",
+            "slot": 3
+        }
+    ],
     "mass": 50,
     "engine": "300 XL Engine(IS)",
     "structure": {
@@ -95,36 +103,32 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "Streak SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "SRM 2 (I-OS)": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 2 (I-OS)",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ER PPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER PPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

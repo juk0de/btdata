@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Ryoken",
     "clanname": "Stormcrow",
     "model": "G",
@@ -94,22 +95,20 @@
             "pips": 25
         }
     },
-    "weapons": {
-        "1": {
-            "HAG/20": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "HAG/20",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 5
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 5
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Guillotine",
     "model": "GLT-6WB2",
     "mul_id": 1343,
@@ -92,52 +93,46 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "ISLightPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ISLightPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ISLightGaussRifle": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+        {
+            "weapon": "ISLightGaussRifle",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "3": {
-            "ISERMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISERMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISLRM5": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "6": {
-            "ISImprovedC3CPU": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISImprovedC3CPU",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

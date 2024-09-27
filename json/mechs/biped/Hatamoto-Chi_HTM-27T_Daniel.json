@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hatamoto-Chi",
     "model": "HTM-27T (Daniel)",
     "mul_id": 1400,
@@ -13,7 +14,20 @@
         "barrel_fists_la",
         "easy_maintain"
     ],
-    "weaponquirk": "mod_weapons:LT:0:SRM 4",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "SRM 4",
+            "location": "right_torso",
+            "slot": 0
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "SRM 4",
+            "location": "left_torso",
+            "slot": 0
+        }
+    ],
     "mass": 80,
     "engine": "320 Fusion Engine",
     "structure": {
@@ -93,38 +107,34 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC10Prototype": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC10Prototype",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISLBXAC10Prototype": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 40
-            }
+        {
+            "weapon": "ISLBXAC10Prototype",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 40
         },
-        "3": {
-            "ISSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISSRM4": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 50
-            }
+        {
+            "weapon": "ISSRM4",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 50
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

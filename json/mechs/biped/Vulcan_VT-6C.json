@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Vulcan",
     "model": "VT-6C",
     "mul_id": 3464,
@@ -91,51 +92,45 @@
             "pips": 10
         }
     },
-    "weapons": {
-        "1": {
-            "ISFlamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISFlamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISLightMG": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3,
-                "ammo": 200
-            }
+        {
+            "weapon": "ISLightMG",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3,
+            "ammo": 200
         },
-        "3": {
-            "ISLMGA": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLMGA",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISERLargeLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISImprovedC3CPU": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISImprovedC3CPU",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISERMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

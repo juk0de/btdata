@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Kintaro",
     "model": "KTO-19",
     "mul_id": 1791,
@@ -91,46 +92,41 @@
             "pips": 23
         }
     },
-    "weapons": {
-        "1": {
-            "ISLRM5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+    "weapons": [
+        {
+            "weapon": "ISLRM5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "2": {
-            "ISSRM6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISSRM6": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 30
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 30
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "ISNarcBeacon": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISNarcBeacon",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

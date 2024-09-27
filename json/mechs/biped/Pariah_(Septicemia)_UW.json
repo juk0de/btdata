@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Pariah (Septicemia)",
     "model": "UW",
     "mul_id": 5818,
@@ -95,36 +96,32 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "LRT 15": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LRT 15",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "SRT 4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "SRT 4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "LRT 15": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRT 15",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "SRT 4": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "SRT 4",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 3
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

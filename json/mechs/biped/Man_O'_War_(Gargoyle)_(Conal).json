@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Man O' War",
     "clanname": "Gargoyle",
     "model": "(Conal)",
@@ -10,7 +11,20 @@
     "rules_level_str": "Standard",
     "role": "Skirmisher",
     "source": "Operational Turning Points: Red Corsair",
-    "weaponquirk": "stable_weapon:RA:4:CLERPPC",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "CLERPPC",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "stable_weapon",
+            "weapon": "CLERPPC",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 80,
     "engine": "400 XL (Clan) Engine(IS)",
     "structure": {
@@ -92,29 +106,26 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "ER PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ER PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "Streak SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Light TAG": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light TAG",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

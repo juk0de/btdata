@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Centurion",
     "model": "CN9-D",
     "mul_id": 520,
@@ -92,38 +93,34 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISLRM10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISLRM10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "center_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "center_torso",
+            "facing": "rear",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

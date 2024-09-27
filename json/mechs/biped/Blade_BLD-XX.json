@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Blade",
     "model": "BLD-XX",
     "mul_id": 393,
@@ -12,7 +13,38 @@
     "quirks": [
         "easy_maintain"
     ],
-    "weaponquirk": "mod_weapons:RA:9:ISERMediumLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "static_feed",
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "slot": 8
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "slot": 9
+        }
+    ],
     "mass": 35,
     "engine": "245 XL Engine(IS)",
     "structure": {
@@ -95,22 +127,20 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "LB 10-X AC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LB 10-X AC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

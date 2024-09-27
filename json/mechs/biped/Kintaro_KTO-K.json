@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Kintaro",
     "model": "KTO-K",
     "mul_id": 1796,
@@ -91,37 +92,33 @@
             "pips": 23
         }
     },
-    "weapons": {
-        "1": {
-            "ISERMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "ISStreakSRM6": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 30
-            }
+        {
+            "weapon": "ISStreakSRM6",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 30
         },
-        "3": {
-            "ISStreakSRM6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISStreakSRM6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

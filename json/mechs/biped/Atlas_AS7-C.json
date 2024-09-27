@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Atlas",
     "model": "AS7-C",
     "mul_id": 138,
@@ -95,60 +96,53 @@
             "pips": 41
         }
     },
-    "weapons": {
-        "1": {
-            "ISGaussRifle": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+    "weapons": [
+        {
+            "weapon": "ISGaussRifle",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "2": {
-            "ISLRM20": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISLRM20",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "3": {
-            "ISERLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISERLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumPulseLaser": {
-                "location": "center_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "center_torso",
+            "facing": "rear",
+            "quantity": 1
         },
-        "6": {
-            "ISAntiMissileSystem": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISAntiMissileSystem",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "7": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

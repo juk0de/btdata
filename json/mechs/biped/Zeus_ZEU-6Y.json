@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Zeus",
     "model": "ZEU-6Y",
     "mul_id": 5772,
@@ -13,7 +14,14 @@
         "barrel_fists_ra",
         "easy_maintain"
     ],
-    "weaponquirk": "imp_cooling:RT:0:Blazer Cannon",
+    "weapon_quirks": [
+        {
+            "quirk": "imp_cooling",
+            "weapon": "Blazer Cannon",
+            "location": "right_torso",
+            "slot": 0
+        }
+    ],
     "mass": 80,
     "engine": "320 Fusion Engine(IS)",
     "structure": {
@@ -94,29 +102,26 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Blazer Cannon": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Blazer Cannon",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "LRM 10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "AC/5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "AC/5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

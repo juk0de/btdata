@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Bushwacker",
     "model": "BSW-L1",
     "mul_id": 447,
@@ -12,7 +13,14 @@
     "quirks": [
         "low_profile"
     ],
-    "weaponquirk": "stable_weapon:CT:10:ISERLargeLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISERLargeLaser",
+            "location": "center_torso",
+            "slot": 10
+        }
+    ],
     "mass": 55,
     "engine": "275 Light Engine",
     "structure": {
@@ -93,22 +101,20 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "LB 20-X AC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LB 20-X AC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Large Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Large Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

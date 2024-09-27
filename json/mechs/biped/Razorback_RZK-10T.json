@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Razorback",
     "model": "RZK-10T",
     "mul_id": 5662,
@@ -92,29 +93,26 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "ISERSmallLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ISERSmallLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ISERSmallLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERSmallLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISHeavyPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISHeavyPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

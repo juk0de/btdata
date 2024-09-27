@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hornet",
     "model": "HNT-171",
     "mul_id": 1548,
@@ -92,31 +93,28 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "ISLRM5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 48
-            }
+    "weapons": [
+        {
+            "weapon": "ISLRM5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 48
         },
-        "2": {
-            "ISAntiMissileSystem": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISAntiMissileSystem",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

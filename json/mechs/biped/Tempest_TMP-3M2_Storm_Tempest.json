@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Tempest",
     "model": "TMP-3M2 'Storm Tempest'",
     "mul_id": 3170,
@@ -9,7 +10,14 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Brawler",
-    "weaponquirk": "direct_torso_mount:HD:3:ISERMediumLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISERMediumLaser",
+            "location": "head",
+            "slot": 3
+        }
+    ],
     "mass": 65,
     "engine": "260 XL Engine(IS)",
     "structure": {
@@ -90,50 +98,44 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "Large Pulse Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Large Pulse Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Light Gauss Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Gauss Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ER Small Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Streak SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ER Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ER Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

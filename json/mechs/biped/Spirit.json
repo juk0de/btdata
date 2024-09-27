@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Spirit",
     "model": "",
     "mul_id": 5108,
@@ -9,7 +10,14 @@
     "rules_level_str": "Standard",
     "role": "Striker",
     "source": "TRO: 3067",
-    "weaponquirk": "jettison_capable:RA:4:CLStreakSRM4",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "CLStreakSRM4",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 35,
     "engine": "245 XL Engine",
     "structure": {
@@ -89,52 +97,46 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "CLStreakSRM4": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+    "weapons": [
+        {
+            "weapon": "CLStreakSRM4",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         },
-        "2": {
-            "CLERLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "CLLRM10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "CLLRM10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "4": {
-            "CLHeavyMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLHeavyMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "CLHeavySmallLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLHeavySmallLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "CLECMSuite": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLECMSuite",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

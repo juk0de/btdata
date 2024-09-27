@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Bowman",
     "model": "2",
     "mul_id": 3858,
@@ -93,58 +94,51 @@
             "pips": 28
         }
     },
-    "weapons": {
-        "1": {
-            "CLLRM20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+    "weapons": [
+        {
+            "weapon": "CLLRM20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "2": {
-            "CLERMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "CLERMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "CLERLargeLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERLargeLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "CLLRM20": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLRM20",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "CLECMSuite": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLECMSuite",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "CLAntiPersonnelPod": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "CLAntiPersonnelPod",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 2
         },
-        "7": {
-            "CLAntiPersonnelPod": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "CLAntiPersonnelPod",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

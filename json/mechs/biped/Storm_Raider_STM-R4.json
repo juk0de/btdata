@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Storm Raider",
     "model": "STM-R4",
     "mul_id": 6617,
@@ -9,7 +10,20 @@
     "rules_level": 3,
     "rules_level_str": "Standard",
     "role": "Scout",
-    "weaponquirk": "jettison_capable:LA:4:ISRotaryAC2",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Mace",
+            "location": "right_arm",
+            "slot": 4
+        },
+        {
+            "quirk": "jettison_capable",
+            "weapon": "ISRotaryAC2",
+            "location": "left_arm",
+            "slot": 4
+        }
+    ],
     "mass": 35,
     "engine": "210 XL Engine(IS)",
     "structure": {
@@ -91,15 +105,14 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "Rotary AC/2": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Rotary AC/2",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Banshee",
     "model": "BNC-1E",
     "mul_id": 3785,
@@ -98,36 +99,32 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "AC/5": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "AC/5",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Small Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Small Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Primitive Prototype PPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Primitive Prototype PPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

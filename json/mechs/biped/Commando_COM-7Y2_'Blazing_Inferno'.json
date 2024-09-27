@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.19-SNAPSHOT on 2024-03-09",
     "chassis": "Commando",
     "model": "COM-7Y2 'Blazing Inferno'",
@@ -95,57 +96,50 @@
             "pips": 11
         }
     },
-    "weapons": {
-        "1": {
-            "Small Laser": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "Small Laser",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "Small Laser": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Small Laser",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Small Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Small Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "7": {
-            "Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

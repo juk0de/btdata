@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wolverine",
     "model": "WVR-1R",
     "mul_id": 7406,
@@ -14,7 +15,14 @@
         "stable",
         "obsolete"
     ],
-    "weaponquirk": "jettison_capable:RA:3:Autocannon/5",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Autocannon/5",
+            "location": "right_arm",
+            "slot": 3
+        }
+    ],
     "mass": 55,
     "engine": "265 Fusion Engine(IS)",
     "structure": {
@@ -98,22 +106,20 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "AC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "AC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

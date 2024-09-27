@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Kraken",
     "clanname": "Bane",
     "model": "3",
@@ -95,29 +96,26 @@
             "pips": 42
         }
     },
-    "weapons": {
-        "1": {
-            "LRM 15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "LRM 15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "2": {
-            "LRM 15": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "LRM 15",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "3": {
-            "Streak SRM 4 (OS)": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 4 (OS)",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

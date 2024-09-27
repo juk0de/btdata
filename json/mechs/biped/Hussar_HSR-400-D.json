@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hussar",
     "model": "HSR-400-D",
     "mul_id": 1589,
@@ -13,7 +14,14 @@
         "imp_com",
         "rugged_1"
     ],
-    "weaponquirk": "direct_torso_mount:LT:3:ISLBXAC10",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISLBXAC10",
+            "location": "left_torso",
+            "slot": 3
+        }
+    ],
     "mass": 30,
     "engine": "240 XL Engine",
     "structure": {
@@ -93,16 +101,15 @@
             "pips": 5
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 10
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 10
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

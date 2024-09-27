@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Daimyo",
     "model": "DMO-1K2 (Al-Shahab)",
     "mul_id": 803,
@@ -93,22 +94,20 @@
             "pips": 19
         }
     },
-    "weapons": {
-        "1": {
-            "ISSmallXPulseLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ISSmallXPulseLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ISHeavyPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISHeavyPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

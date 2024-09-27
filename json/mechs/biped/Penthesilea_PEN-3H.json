@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Penthesilea",
     "model": "PEN-3H",
     "mul_id": 7347,
@@ -12,7 +13,14 @@
     "quirks": [
         "rugged_1"
     ],
-    "weaponquirk": "em_interference:RA:3:Bombast Laser",
+    "weapon_quirks": [
+        {
+            "quirk": "em_interference",
+            "weapon": "Bombast Laser",
+            "location": "right_arm",
+            "slot": 3
+        }
+    ],
     "mass": 75,
     "engine": "225 Compact Engine(IS)",
     "structure": {
@@ -96,64 +104,56 @@
             "pips": 32
         }
     },
-    "weapons": {
-        "1": {
-            "Bombast Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Bombast Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "Light Machine Gun": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Light Machine Gun": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Light Machine Gun",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "5": {
-            "Light Machine Gun": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Light Machine Gun Array": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun Array",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "LAC/5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LAC/5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "Medium VSP Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium VSP Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

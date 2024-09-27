@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Cataphract",
     "model": "CTF-3D",
     "mul_id": 469,
@@ -91,52 +92,46 @@
             "pips": 19
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISUltraAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+        {
+            "weapon": "ISUltraAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "rear",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "rear",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

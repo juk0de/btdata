@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Striker",
     "model": "STC-2S",
     "mul_id": 3096,
@@ -92,36 +93,32 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "Particle Cannon": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Particle Cannon",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Autocannon/10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Autocannon/10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Griffin",
     "model": "GRF-6S (Francine II)",
     "mul_id": 1308,
@@ -16,7 +17,14 @@
         "ubiquitous_clan",
         "ubiquitous_is"
     ],
-    "weaponquirk": "jettison_capable:RA:4:ISSNPPC",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "ISSNPPC",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 55,
     "engine": "275 Light Engine",
     "structure": {
@@ -96,37 +104,33 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "ISSNPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISSNPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISERMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISLRM15": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+        {
+            "weapon": "ISLRM15",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "4": {
-            "ISERMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

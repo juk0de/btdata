@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Black Lanner",
     "model": "F",
     "mul_id": 8185,
@@ -93,29 +94,26 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "Light Machine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 6
-            }
+    "weapons": [
+        {
+            "weapon": "Light Machine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 6
         },
-        "2": {
-            "Light Machine Gun Array": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Light Machine Gun Array",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "Medium Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 5
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 5
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

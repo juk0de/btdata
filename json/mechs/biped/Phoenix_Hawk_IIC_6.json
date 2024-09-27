@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
     "chassis": "Phoenix Hawk IIC",
     "model": "6",
@@ -94,36 +95,32 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "Plasma Cannon": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Plasma Cannon",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Plasma Cannon": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Plasma Cannon",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Heavy Medium Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Medium Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Heavy Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

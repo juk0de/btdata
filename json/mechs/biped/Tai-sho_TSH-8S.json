@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Tai-sho",
     "model": "TSH-8S",
     "mul_id": 3151,
@@ -12,7 +13,14 @@
     "quirks": [
         "imp_com"
     ],
-    "weaponquirk": "stable_weapon:RT:0:ISUltraAC10",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISUltraAC10",
+            "location": "right_torso",
+            "slot": 0
+        }
+    ],
     "mass": 85,
     "engine": "255 Fusion Engine",
     "structure": {
@@ -95,29 +103,26 @@
             "pips": 36
         }
     },
-    "weapons": {
-        "1": {
-            "Heavy PPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Heavy PPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Heavy PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Ultra AC/10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Ultra AC/10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

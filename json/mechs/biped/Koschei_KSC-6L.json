@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Koschei",
     "model": "KSC-6L",
     "mul_id": 6881,
@@ -94,22 +95,20 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Sniper Cannon": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Sniper Cannon",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 4
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

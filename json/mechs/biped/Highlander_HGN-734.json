@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Highlander",
     "model": "HGN-734",
     "mul_id": 1520,
@@ -94,45 +95,40 @@
             "pips": 38
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC20": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC20",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         },
-        "2": {
-            "ISERMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISERLargeLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISStreakSRM6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISStreakSRM6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 15
         },
-        "5": {
-            "ISMediumPulseLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

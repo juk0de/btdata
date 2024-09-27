@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Sunder",
     "model": "SD1-OX",
     "mul_id": 3131,
@@ -93,78 +94,68 @@
             "pips": 33
         }
     },
-    "weapons": {
-        "1": {
-            "B-Pod": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "B-Pod",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "B-Pod": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "B-Pod",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Enhanced LRM 5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Enhanced LRM 5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "4": {
-            "Enhanced LRM 5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Enhanced LRM 5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "5": {
-            "ER Medium Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Enhanced LRM 5": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Enhanced LRM 5",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ER Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "Enhanced LRM 5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Enhanced LRM 5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "9": {
-            "Medium Pulse Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "10": {
-            "ER Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

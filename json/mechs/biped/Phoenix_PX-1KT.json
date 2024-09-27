@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Phoenix",
     "model": "PX-1KT",
     "mul_id": 7470,
@@ -92,22 +93,20 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "SRM 2": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "SRM 2",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "Thunderbolt 10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Thunderbolt 10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

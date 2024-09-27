@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wolverine",
     "model": "WVR-11M",
     "mul_id": 8258,
@@ -17,7 +18,14 @@
         "ubiquitous_is",
         "cramped_cockpit"
     ],
-    "weaponquirk": "jettison_capable:RA:4:Heavy PPC",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Heavy PPC",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 55,
     "engine": "275 XL Engine(IS)",
     "structure": {
@@ -99,29 +107,26 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Heavy PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Heavy PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Medium X-Pulse Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium X-Pulse Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

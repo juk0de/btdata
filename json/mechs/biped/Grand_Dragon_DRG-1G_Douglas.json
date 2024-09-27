@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Grand Dragon",
     "model": "DRG-1G (Douglas)",
     "mul_id": 1257,
@@ -93,39 +94,35 @@
             "pips": 18
         }
     },
-    "weapons": {
-        "1": {
-            "ISAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISMediumLaser (R)": {
-                "location": "left_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser (R)",
+            "location": "left_torso",
+            "facing": "rear",
+            "quantity": 1
         },
-        "3": {
-            "ISSRM6": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         },
-        "4": {
-            "ISLRM5": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

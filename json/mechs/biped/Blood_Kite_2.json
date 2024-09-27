@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Blood Kite",
     "model": "2",
     "mul_id": 3837,
@@ -92,44 +93,39 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "CLLRM15": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 32
-            }
+    "weapons": [
+        {
+            "weapon": "CLLRM15",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 32
         },
-        "2": {
-            "CLERPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "CLLRM15": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLRM15",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "CLERPPC": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "CLERPPC",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "CLLightActiveProbe": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLightActiveProbe",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

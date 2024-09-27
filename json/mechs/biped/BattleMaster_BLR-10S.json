@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "BattleMaster",
     "model": "BLR-10S",
     "mul_id": 280,
@@ -93,65 +94,57 @@
             "pips": 36
         }
     },
-    "weapons": {
-        "1": {
-            "ISERPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISERMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "ISERMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "4": {
-            "ISStreakSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         },
-        "5": {
-            "ISERSmallLaser (R)": {
-                "location": "head",
-                "facing": "rear",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERSmallLaser (R)",
+            "location": "head",
+            "facing": "rear",
+            "quantity": 1
         },
-        "6": {
-            "ISGuardianECM": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISGuardianECM",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISBPod": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBPod",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "ISBPod": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBPod",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

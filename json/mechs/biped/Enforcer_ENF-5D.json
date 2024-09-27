@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Enforcer",
     "model": "ENF-5D",
     "mul_id": 978,
@@ -13,7 +14,26 @@
         "barrel_fists_la",
         "barrel_fists_ra"
     ],
-    "weaponquirk": "imp_cooling:RA:3:ISLBXAC10",
+    "weapon_quirks": [
+        {
+            "quirk": "ammo_feed_problems",
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "slot": 3
+        },
+        {
+            "quirk": "fast_reload",
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "slot": 3
+        },
+        {
+            "quirk": "imp_cooling",
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "slot": 3
+        }
+    ],
     "mass": 50,
     "engine": "250 XL Engine",
     "structure": {
@@ -93,30 +113,27 @@
             "pips": 21
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISERLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISSmallLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

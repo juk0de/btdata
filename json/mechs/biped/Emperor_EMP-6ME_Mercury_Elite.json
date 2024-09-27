@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Emperor",
     "model": "EMP-6ME 'Mercury Elite'",
     "mul_id": 969,
@@ -12,7 +13,20 @@
     "quirks": [
         "command_mech"
     ],
-    "weaponquirk": "imp_cooling:LA:10:ISSNPPC",
+    "weapon_quirks": [
+        {
+            "quirk": "imp_cooling",
+            "weapon": "ISSNPPC",
+            "location": "right_arm",
+            "slot": 10
+        },
+        {
+            "quirk": "imp_cooling",
+            "weapon": "ISSNPPC",
+            "location": "left_arm",
+            "slot": 10
+        }
+    ],
     "mass": 90,
     "engine": "270 Light Fusion Engine",
     "structure": {
@@ -92,58 +106,51 @@
             "pips": 35
         }
     },
-    "weapons": {
-        "1": {
-            "ISSBGR": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 32
-            }
+    "weapons": [
+        {
+            "weapon": "ISSBGR",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 32
         },
-        "2": {
-            "ISSBGR": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSBGR",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISSNPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSNPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISSNPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSNPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumPulseLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISMediumPulseLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

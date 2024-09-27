@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.19-SNAPSHOT on 2024-03-16",
     "chassis": "Hatchetman",
     "model": "HCT-6S",
@@ -13,7 +14,14 @@
     "quirks": [
         "anti_air"
     ],
-    "weaponquirk": "fast_reload:RT:2:ISLBXAC10",
+    "weapon_quirks": [
+        {
+            "quirk": "fast_reload",
+            "weapon": "ISLBXAC10",
+            "location": "right_torso",
+            "slot": 2
+        }
+    ],
     "mass": 45,
     "engine": "180 Light Engine(IS)",
     "structure": {
@@ -95,36 +103,32 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ER Medium Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "LB 10-X AC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LB 10-X AC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

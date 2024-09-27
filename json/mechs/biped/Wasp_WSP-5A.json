@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wasp",
     "model": "WSP-5A",
     "mul_id": 7495,
@@ -98,22 +99,20 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "Streak SRM 2": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Streak SRM 2",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

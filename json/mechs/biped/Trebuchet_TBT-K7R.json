@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Trebuchet",
     "model": "TBT-K7R",
     "mul_id": 5275,
@@ -15,7 +16,26 @@
         "bad_rep_is",
         "non_standard"
     ],
-    "weaponquirk": "exposed_linkage:LA:5:Mek Taser",
+    "weapon_quirks": [
+        {
+            "quirk": "fast_reload",
+            "weapon": "ISStreakSRM6",
+            "location": "right_torso",
+            "slot": 2
+        },
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Chain Whip",
+            "location": "right_arm",
+            "slot": 4
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Mek Taser",
+            "location": "left_arm",
+            "slot": 5
+        }
+    ],
     "mass": 50,
     "engine": "250 Light Engine(IS)",
     "structure": {
@@ -96,43 +116,38 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Mech Taser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Mech Taser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ER Flamer": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Flamer",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "Streak SRM 6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ER Medium Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

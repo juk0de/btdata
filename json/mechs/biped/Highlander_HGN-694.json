@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Highlander",
     "model": "HGN-694",
     "mul_id": 5493,
@@ -96,29 +97,26 @@
             "pips": 38
         }
     },
-    "weapons": {
-        "1": {
-            "Large Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "Large Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "Heavy Gauss Rifle": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Gauss Rifle",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Gauss Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Gauss Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

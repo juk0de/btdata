@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dragon",
     "model": "DRG-2Y (Yoriyoshi)",
     "mul_id": 910,
@@ -92,44 +93,39 @@
             "pips": 28
         }
     },
-    "weapons": {
-        "1": {
-            "ISLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISSmallLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISFlamer": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISSRM4": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISSRM4",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

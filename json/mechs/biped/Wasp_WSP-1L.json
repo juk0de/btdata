@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wasp",
     "model": "WSP-1L",
     "mul_id": 3523,
@@ -95,15 +96,14 @@
             "pips": 5
         }
     },
-    "weapons": {
-        "1": {
-            "SRM 4": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "SRM 4",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

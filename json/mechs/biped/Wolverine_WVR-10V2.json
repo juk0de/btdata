@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Wolverine",
     "model": "WVR-10V2",
     "mul_id": 8257,
@@ -18,7 +19,14 @@
         "ubiquitous_is",
         "cramped_cockpit"
     ],
-    "weaponquirk": "jettison_capable:RA:4:ISGaussRifle",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "ISGaussRifle",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 55,
     "engine": "330 XL Engine(IS)",
     "structure": {
@@ -100,22 +108,20 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Gauss Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Gauss Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

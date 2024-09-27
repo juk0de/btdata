@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Panther",
     "model": "PNT-12K",
     "mul_id": 2419,
@@ -92,23 +93,21 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "ISERPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISMRM10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISMRM10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

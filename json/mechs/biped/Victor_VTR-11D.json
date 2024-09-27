@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Victor",
     "model": "VTR-11D",
     "mul_id": 3406,
@@ -91,38 +92,34 @@
             "pips": 31
         }
     },
-    "weapons": {
-        "1": {
-            "ISRotaryAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 60
-            }
+    "weapons": [
+        {
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 60
         },
-        "2": {
-            "ISERLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISStreakSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         },
-        "4": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Raven",
     "model": "RVN-4L",
     "mul_id": 2666,
@@ -91,52 +92,46 @@
             "pips": 10
         }
     },
-    "weapons": {
-        "1": {
-            "ISERMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+    "weapons": [
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "2": {
-            "ISSRM6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         },
-        "3": {
-            "ISBeagleActiveProbe": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBeagleActiveProbe",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISTAG": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISTAG",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISGuardianECM": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISGuardianECM",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISNarcBeacon": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISNarcBeacon",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

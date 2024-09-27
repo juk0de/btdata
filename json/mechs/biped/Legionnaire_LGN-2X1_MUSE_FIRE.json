@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Legionnaire",
     "model": "LGN-2X1 MUSE FIRE",
     "mul_id": 1864,
@@ -13,7 +14,14 @@
         "easy_maintain",
         "imp_target_med"
     ],
-    "weaponquirk": "exposed_linkage:RT:4:CLRotaryAC5",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "CLRotaryAC5",
+            "location": "right_torso",
+            "slot": 4
+        }
+    ],
     "mass": 50,
     "engine": "350 XL Engine(IS)",
     "structure": {
@@ -96,29 +104,26 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Rotary AC/5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Rotary AC/5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

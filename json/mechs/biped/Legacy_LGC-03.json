@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Legacy",
     "model": "LGC-03",
     "mul_id": 4490,
@@ -13,7 +14,44 @@
         "directional_torso_mount",
         "bad_rep_is"
     ],
-    "weaponquirk": "direct_torso_mount:LA:4:ISERSmallLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "Heavy PPC",
+            "location": "right_torso",
+            "slot": 5
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISStreakSRM4",
+            "location": "right_torso",
+            "slot": 9
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "Heavy PPC",
+            "location": "left_torso",
+            "slot": 5
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "slot": 4
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "slot": 5
+        },
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "ISERSmallLaser",
+            "location": "left_arm",
+            "slot": 4
+        }
+    ],
     "mass": 80,
     "engine": "320 Light Engine(IS)",
     "structure": {
@@ -94,43 +132,38 @@
             "pips": 34
         }
     },
-    "weapons": {
-        "1": {
-            "Heavy PPC": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Heavy PPC",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ER Small Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Heavy PPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy PPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Streak SRM 4": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 4",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

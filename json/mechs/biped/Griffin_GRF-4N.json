@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Griffin",
     "model": "GRF-4N",
     "mul_id": 1301,
@@ -16,7 +17,14 @@
         "ubiquitous_clan",
         "ubiquitous_is"
     ],
-    "weaponquirk": "jettison_capable:RA:4:ISPlasmaRifle",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "ISPlasmaRifle",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 55,
     "engine": "330 Light Engine(IS)",
     "structure": {
@@ -99,22 +107,20 @@
             "pips": 18
         }
     },
-    "weapons": {
-        "1": {
-            "Plasma Rifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Plasma Rifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

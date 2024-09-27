@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Strider",
     "model": "SR1-OM",
     "mul_id": 6916,
@@ -93,22 +94,20 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "C3 Master Boosted with TAG": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "C3 Master Boosted with TAG",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "C3 Master Boosted with TAG": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "C3 Master Boosted with TAG",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

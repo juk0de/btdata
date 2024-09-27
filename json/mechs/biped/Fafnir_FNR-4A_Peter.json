@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Fafnir",
     "model": "FNR-4A (Peter)",
     "mul_id": 1020,
@@ -12,7 +13,14 @@
     "quirks": [
         "no_arms"
     ],
-    "weaponquirk": "stable_weapon:RT:1:ISHeavyGaussRifle",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISHeavyGaussRifle",
+            "location": "right_torso",
+            "slot": 1
+        }
+    ],
     "mass": 100,
     "engine": "300 Fusion Engine",
     "structure": {
@@ -93,86 +101,75 @@
             "pips": 42
         }
     },
-    "weapons": {
-        "1": {
-            "ISMediumPulseLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISRocketLauncher10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISRocketLauncher10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "ISMediumPulseLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISRocketLauncher10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISRocketLauncher10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "5": {
-            "ISHeavyGaussRifle": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+        {
+            "weapon": "ISHeavyGaussRifle",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "6": {
-            "ISERLargeLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "7": {
-            "ISRocketLauncher10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISRocketLauncher10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3
         },
-        "8": {
-            "ISGuardianECM": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISGuardianECM",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "9": {
-            "ISC3SlaveUnit": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "10": {
-            "ISRocketLauncher10": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISRocketLauncher10",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "11": {
-            "ISMediumPulseLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

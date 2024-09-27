@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Phoenix Hawk",
     "model": "PXH-8CS",
     "mul_id": 2510,
@@ -15,7 +16,14 @@
         "ubiquitous_clan",
         "ubiquitous_is"
     ],
-    "weaponquirk": "jettison_capable:RA:7:ISSNPPC",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "ISSNPPC",
+            "location": "right_arm",
+            "slot": 7
+        }
+    ],
     "mass": 45,
     "engine": "315 XXL Engine(IS)",
     "structure": {
@@ -98,22 +106,20 @@
             "pips": 19
         }
     },
-    "weapons": {
-        "1": {
-            "Snub-Nose PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Snub-Nose PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Snub-Nose PPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Snub-Nose PPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

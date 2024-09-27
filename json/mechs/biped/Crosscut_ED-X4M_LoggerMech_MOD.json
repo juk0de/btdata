@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Crosscut",
     "model": "ED-X4M LoggerMech MOD",
     "mul_id": 7169,
@@ -90,22 +91,20 @@
             "pips": 8
         }
     },
-    "weapons": {
-        "1": {
-            "Rocket Launcher 10": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "Rocket Launcher 10",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "2": {
-            "Rocket Launcher 10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+        {
+            "weapon": "Rocket Launcher 10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 4
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

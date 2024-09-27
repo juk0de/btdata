@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Nightstar",
     "model": "NSR-9J (Brubaker)",
     "mul_id": 4723,
@@ -95,51 +96,45 @@
             "pips": 40
         }
     },
-    "weapons": {
-        "1": {
-            "CLLargePulseLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "CLLargePulseLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "CLLargePulseLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLargePulseLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "CLLargePulseLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLargePulseLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "CLGaussRifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 48
-            }
+        {
+            "weapon": "CLGaussRifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 48
         },
-        "5": {
-            "CLGaussRifle": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLGaussRifle",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "CLERSmallLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLERSmallLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Highlander",
     "model": "HGN-736",
     "mul_id": 1521,
@@ -94,46 +95,41 @@
             "pips": 38
         }
     },
-    "weapons": {
-        "1": {
-            "ISGaussRifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+    "weapons": [
+        {
+            "weapon": "ISGaussRifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISStreakSRM4": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         },
-        "4": {
-            "ISLRM20": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISLRM20",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "5": {
-            "ISImprovedC3CPU": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISImprovedC3CPU",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

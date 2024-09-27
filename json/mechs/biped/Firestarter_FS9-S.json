@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Firestarter",
     "model": "FS9-S",
     "mul_id": 1112,
@@ -13,7 +14,20 @@
         "ubiquitous_clan",
         "ubiquitous_is"
     ],
-    "weaponquirk": "exposed_linkage:LA:3:Flamer",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "slot": 3
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "left_arm",
+            "slot": 3
+        }
+    ],
     "mass": 35,
     "engine": "210 Fusion Engine",
     "structure": {
@@ -93,72 +107,63 @@
             "pips": 7
         }
     },
-    "weapons": {
-        "1": {
-            "ISFlamer": {
-                "location": "center_torso",
-                "facing": "rear",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISFlamer",
+            "location": "center_torso",
+            "facing": "rear",
+            "quantity": 1
         },
-        "2": {
-            "ISFlamer": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISFlamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISFlamer": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISSmallLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "ISAntiMissileSystem": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISAntiMissileSystem",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "9": {
-            "ISBeagleActiveProbe": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBeagleActiveProbe",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

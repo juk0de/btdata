@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Vanquisher",
     "model": "VQR-7U",
     "mul_id": 5721,
@@ -96,80 +97,70 @@
             "pips": 42
         }
     },
-    "weapons": {
-        "1": {
-            "ISHeavyFlamer": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 10
-            }
+    "weapons": [
+        {
+            "weapon": "ISHeavyFlamer",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 10
         },
-        "2": {
-            "ISBeagleActiveProbe": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBeagleActiveProbe",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISRemoteSensorDispenser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISRemoteSensorDispenser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISImprovedC3CPU": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISImprovedC3CPU",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISERFlamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERFlamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISERFlamer": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERFlamer",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISPlasmaRifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 40
-            }
+        {
+            "weapon": "ISPlasmaRifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 40
         },
-        "8": {
-            "ISPlasmaRifle": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISPlasmaRifle",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "9": {
-            "ISSmallVSPLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISSmallVSPLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "10": {
-            "ISSNPPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSNPPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

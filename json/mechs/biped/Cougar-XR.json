@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Cougar",
     "model": "XR",
     "mul_id": 4013,
@@ -14,7 +15,26 @@
         "prototype",
         "unbalanced"
     ],
-    "weaponquirk": "mod_weapons:RA:5:CLERMediumPulseLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "CLLRM15",
+            "location": "right_torso",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "CLLRM15",
+            "location": "left_torso",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "CLERMediumPulseLaser",
+            "location": "right_arm",
+            "slot": 5
+        }
+    ],
     "mass": 35,
     "engine": "175 XL (Clan) Engine",
     "structure": {
@@ -98,29 +118,26 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "LRM 15": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 15",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "LRM 15": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 15",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

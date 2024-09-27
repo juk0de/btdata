@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Blade",
     "model": "BLD-7R",
     "mul_id": 6929,
@@ -12,7 +13,38 @@
     "quirks": [
         "easy_maintain"
     ],
-    "weaponquirk": "mod_weapons:RA:9:ISERSmallLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "static_feed",
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "slot": 8
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISERSmallLaser",
+            "location": "right_arm",
+            "slot": 9
+        }
+    ],
     "mass": 35,
     "engine": "245 XL Engine(IS)",
     "structure": {
@@ -94,29 +126,26 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Small Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Small Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Rotary AC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Rotary AC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

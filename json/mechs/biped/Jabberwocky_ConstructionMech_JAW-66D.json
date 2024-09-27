@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Jabberwocky",
     "model": "JAW-66D ConstructionMech",
     "mul_id": 1652,
@@ -92,22 +93,20 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "Nail/Rivet Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Nail/Rivet Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Nail/Rivet Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Nail/Rivet Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

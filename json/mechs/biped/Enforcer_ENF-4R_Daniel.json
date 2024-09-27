@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Enforcer",
     "model": "ENF-4R (Daniel)",
     "mul_id": 977,
@@ -13,7 +14,20 @@
         "barrel_fists_la",
         "barrel_fists_ra"
     ],
-    "weaponquirk": "fast_reload:RA:3:ISGaussRiflePrototype",
+    "weapon_quirks": [
+        {
+            "quirk": "ammo_feed_problems",
+            "weapon": "ISGaussRiflePrototype",
+            "location": "right_arm",
+            "slot": 3
+        },
+        {
+            "quirk": "fast_reload",
+            "weapon": "ISGaussRiflePrototype",
+            "location": "right_arm",
+            "slot": 3
+        }
+    ],
     "mass": 50,
     "engine": "200 Fusion Engine",
     "structure": {
@@ -93,30 +107,27 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "ISGaussRiflePrototype": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+    "weapons": [
+        {
+            "weapon": "ISGaussRiflePrototype",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "2": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISSmallLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

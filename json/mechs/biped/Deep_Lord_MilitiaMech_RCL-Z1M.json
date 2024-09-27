@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Deep Lord MilitiaMech",
     "model": "RCL-Z1M",
     "mul_id": 4057,
@@ -13,7 +14,14 @@
         "pro_actuator",
         "imp_life_support"
     ],
-    "weaponquirk": "jettison_capable:RA:5:Mace",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "Mace",
+            "location": "right_arm",
+            "slot": 5
+        }
+    ],
     "mass": 65,
     "engine": "195 Fuel Cell Engine(IS)",
     "structure": {
@@ -96,22 +104,20 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "Heavy Rifle": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Heavy Rifle",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "SRM 6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

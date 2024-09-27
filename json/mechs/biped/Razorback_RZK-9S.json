@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Razorback",
     "model": "RZK-9S",
     "mul_id": 4904,
@@ -92,38 +93,34 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "ISERLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISStreakSRM4": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISStreakSRM4",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         },
-        "3": {
-            "ISMachine Gun": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 100
-            }
+        {
+            "weapon": "ISMachine Gun",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 100
         },
-        "4": {
-            "ISMachine Gun": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMachine Gun",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

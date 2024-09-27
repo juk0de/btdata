@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Preta",
     "model": "C-PRT-O (Kendali)",
     "mul_id": 2572,
@@ -99,29 +100,26 @@
             "pips": 20
         }
     },
-    "weapons": {
-        "1": {
-            "Light PPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Light PPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Small VSP Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Small VSP Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "TAG": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "TAG",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

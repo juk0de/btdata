@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Bombardier",
     "model": "BMB-14K",
     "mul_id": 425,
@@ -91,45 +92,40 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "ISMachine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3,
-                "ammo": 100
-            }
+    "weapons": [
+        {
+            "weapon": "ISMachine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3,
+            "ammo": 100
         },
-        "2": {
-            "ISMGA": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMGA",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISMML7": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 85
-            }
+        {
+            "weapon": "ISMML7",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 85
         },
-        "4": {
-            "ISMML7": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMML7",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "ISC3SlaveUnit": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

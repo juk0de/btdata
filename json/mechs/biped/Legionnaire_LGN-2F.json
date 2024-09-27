@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Legionnaire",
     "model": "LGN-2F",
     "mul_id": 4491,
@@ -13,7 +14,14 @@
         "easy_maintain",
         "imp_target_med"
     ],
-    "weaponquirk": "exposed_linkage:RT:4:ISRotaryAC5",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "ISRotaryAC5",
+            "location": "right_torso",
+            "slot": 4
+        }
+    ],
     "mass": 50,
     "engine": "350 XL Fusion Engine",
     "structure": {
@@ -94,30 +102,27 @@
             "pips": 22
         }
     },
-    "weapons": {
-        "1": {
-            "ISERMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISRotaryAC5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 60
-            }
+        {
+            "weapon": "ISRotaryAC5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 60
         },
-        "3": {
-            "ISERMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

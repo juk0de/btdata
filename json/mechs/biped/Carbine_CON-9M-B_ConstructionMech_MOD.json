@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Carbine",
     "model": "CON-9M-B ConstructionMech MOD",
     "mul_id": 7165,
@@ -90,15 +91,14 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "LAC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LAC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

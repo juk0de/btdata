@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Banshee",
     "model": "BNC-6S",
     "mul_id": 248,
@@ -92,31 +93,28 @@
             "pips": 28
         }
     },
-    "weapons": {
-        "1": {
-            "ISLBXAC10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISLBXAC10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISHeavyGaussRifle": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+        {
+            "weapon": "ISHeavyGaussRifle",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "3": {
-            "ISSmallLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

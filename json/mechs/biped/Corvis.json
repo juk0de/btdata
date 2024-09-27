@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Corvis",
     "model": "",
     "mul_id": 700,
@@ -9,7 +10,26 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Brawler",
-    "weaponquirk": "mod_weapons:LA:5:CLMediumPulseLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "CLUltraAC10",
+            "location": "right_arm",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "CLMediumPulseLaser",
+            "location": "left_arm",
+            "slot": 4
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "CLMediumPulseLaser",
+            "location": "left_arm",
+            "slot": 5
+        }
+    ],
     "mass": 40,
     "engine": "160 Fusion (Clan) Engine",
     "structure": {
@@ -90,22 +110,20 @@
             "pips": 19
         }
     },
-    "weapons": {
-        "1": {
-            "Ultra AC/10": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Ultra AC/10",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Pulse Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "MuckRaker",
     "model": "GMMM-2M MiningMech MOD",
     "mul_id": 7827,
@@ -90,22 +91,20 @@
             "pips": 30
         }
     },
-    "weapons": {
-        "1": {
-            "Rotary AC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Rotary AC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "MRM 20": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MRM 20",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

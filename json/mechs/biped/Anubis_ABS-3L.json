@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Anubis",
     "model": "ABS-3L",
     "mul_id": 3702,
@@ -93,37 +94,33 @@
             "pips": 12
         }
     },
-    "weapons": {
-        "1": {
-            "ISERSmallLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERSmallLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISLRM5": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 24
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 24
         },
-        "3": {
-            "ISLRM5": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "ISGuardianECM": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISGuardianECM",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

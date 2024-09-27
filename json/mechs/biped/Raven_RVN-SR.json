@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Raven",
     "model": "RVN-SR 'Shattered Raven'",
     "mul_id": 2670,
@@ -91,53 +92,47 @@
             "pips": 8
         }
     },
-    "weapons": {
-        "1": {
-            "ISMachine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 4,
-                "ammo": 100
-            }
+    "weapons": [
+        {
+            "weapon": "ISMachine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 4,
+            "ammo": 100
         },
-        "2": {
-            "ISMGA": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMGA",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISNarcBeacon": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISNarcBeacon",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         },
-        "4": {
-            "ISSRM6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 15
-            }
+        {
+            "weapon": "ISSRM6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 15
         },
-        "5": {
-            "ISGuardianECM": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISGuardianECM",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISBeagleActiveProbe": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBeagleActiveProbe",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

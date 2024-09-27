@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Patron MilitiaMech",
     "model": "PTN-2",
     "mul_id": 4794,
@@ -89,37 +90,33 @@
             "pips": 2
         }
     },
-    "weapons": {
-        "1": {
-            "ISLightMG": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 200
-            }
+    "weapons": [
+        {
+            "weapon": "ISLightMG",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 200
         },
-        "2": {
-            "ISLightMG": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISLightMG",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "ISRocketLauncher10": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 5
-            }
+        {
+            "weapon": "ISRocketLauncher10",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 5
         },
-        "4": {
-            "Searchlight": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Searchlight",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

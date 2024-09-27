@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dragoon",
     "model": "AEM-03",
     "mul_id": 6782,
@@ -15,7 +16,56 @@
         "bad_rep_is",
         "obsolete"
     ],
-    "weaponquirk": "mod_weapons:LA:3:LRM 15",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISSmallPulseLaser",
+            "location": "head",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "slot": 10
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISSmallPulseLaser",
+            "location": "center_torso",
+            "slot": 11
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "LRM 15",
+            "location": "right_torso",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "LRM 15",
+            "location": "right_arm",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "LRM 15",
+            "location": "left_arm",
+            "slot": 3
+        }
+    ],
     "mass": 70,
     "engine": "280 XL Fusion Engine",
     "structure": {
@@ -95,65 +145,57 @@
             "pips": 27
         }
     },
-    "weapons": {
-        "1": {
-            "ISLRM15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 48
-            }
+    "weapons": [
+        {
+            "weapon": "ISLRM15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 48
         },
-        "2": {
-            "ISLRM15": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLRM15",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISLRM15": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLRM15",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumPulseLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISMediumPulseLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumPulseLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISSmallPulseLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallPulseLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISSmallPulseLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallPulseLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "8": {
-            "ISMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

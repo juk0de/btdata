@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Marauder",
     "model": "MAD-4X",
     "mul_id": 5768,
@@ -18,7 +19,32 @@
         "difficult_maintain",
         "no_eject"
     ],
-    "weaponquirk": "imp_cooling:LA:6:Binary Laser (Blazer) Cannon",
+    "weapon_quirks": [
+        {
+            "quirk": "direct_torso_mount",
+            "weapon": "SRM 6",
+            "location": "right_torso",
+            "slot": 6
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "SRM 6",
+            "location": "right_torso",
+            "slot": 6
+        },
+        {
+            "quirk": "imp_cooling",
+            "weapon": "Binary Laser (Blazer) Cannon",
+            "location": "right_arm",
+            "slot": 6
+        },
+        {
+            "quirk": "imp_cooling",
+            "weapon": "Binary Laser (Blazer) Cannon",
+            "location": "left_arm",
+            "slot": 6
+        }
+    ],
     "mass": 75,
     "engine": "300 Fusion Engine(IS)",
     "structure": {
@@ -99,36 +125,32 @@
             "pips": 19
         }
     },
-    "weapons": {
-        "1": {
-            "Blazer Cannon": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Blazer Cannon",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Blazer Cannon": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Blazer Cannon",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "SRM 6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "SRM 6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

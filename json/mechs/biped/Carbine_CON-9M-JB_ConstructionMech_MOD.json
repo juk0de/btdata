@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Carbine",
     "model": "CON-9M-JB ConstructionMech MOD",
     "mul_id": 7850,
@@ -90,22 +91,20 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "Heavy Machine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 4
-            }
+    "weapons": [
+        {
+            "weapon": "Heavy Machine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 4
         },
-        "2": {
-            "Heavy Machine Gun Array": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Machine Gun Array",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

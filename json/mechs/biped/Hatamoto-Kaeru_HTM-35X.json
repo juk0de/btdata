@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hatamoto-Kaeru",
     "model": "HTM-35X",
     "mul_id": 1406,
@@ -93,80 +94,70 @@
             "pips": 34
         }
     },
-    "weapons": {
-        "1": {
-            "ISSNPPC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISSNPPC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISSNPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSNPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "LRT 15": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+        {
+            "weapon": "LRT 15",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "4": {
-            "LRT 15": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRT 15",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISSRT4": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 25
-            }
+        {
+            "weapon": "ISSRT4",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 25
         },
-        "6": {
-            "ISSRT4": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSRT4",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "8": {
-            "ISMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "9": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "10": {
-            "ISMASS": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMASS",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Grim Reaper",
     "model": "GRM-R-PR62A",
     "mul_id": 1331,
@@ -93,38 +94,34 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "ISERMediumLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISMML9": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 26
-            }
+        {
+            "weapon": "ISMML9",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 26
         },
-        "3": {
-            "ISSNPPC": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSNPPC",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISAntiMissileSystem": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 12
-            }
+        {
+            "weapon": "ISAntiMissileSystem",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 12
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

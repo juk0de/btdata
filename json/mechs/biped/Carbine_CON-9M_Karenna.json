@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Carbine",
     "model": "CON-9M (Karenna)",
     "mul_id": 7851,
@@ -89,15 +90,14 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "Light AC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Light AC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

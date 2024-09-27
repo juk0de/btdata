@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dragon",
     "model": "DRG-5N",
     "mul_id": 911,
@@ -92,31 +93,28 @@
             "pips": 18
         }
     },
-    "weapons": {
-        "1": {
-            "ISLRM10": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 24
-            }
+    "weapons": [
+        {
+            "weapon": "ISLRM10",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 24
         },
-        "2": {
-            "ISUltraAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+        {
+            "weapon": "ISUltraAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

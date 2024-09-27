@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Javelin",
     "model": "JVN-11B",
     "mul_id": 1678,
@@ -91,37 +92,33 @@
             "pips": 12
         }
     },
-    "weapons": {
-        "1": {
-            "ISSRM4": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 50
-            }
+    "weapons": [
+        {
+            "weapon": "ISSRM4",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 50
         },
-        "2": {
-            "ISBeagleActiveProbe": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISBeagleActiveProbe",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISSRM4": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSRM4",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISGuardianECM": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISGuardianECM",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

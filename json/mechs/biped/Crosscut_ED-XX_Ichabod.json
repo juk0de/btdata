@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Crosscut",
     "model": "ED-XX 'Ichabod'",
     "mul_id": 744,
@@ -89,37 +90,33 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "ISERMediumLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERMediumLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISERSmallLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERSmallLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISMekTaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 5
-            }
+        {
+            "weapon": "ISMekTaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 5
         },
-        "4": {
-            "Chainsaw": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Chainsaw",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

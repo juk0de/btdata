@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Lancelot",
     "model": "LNC25-05",
     "mul_id": 1858,
@@ -93,44 +94,39 @@
             "pips": 14
         }
     },
-    "weapons": {
-        "1": {
-            "ISLargeLaser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISLargeLaser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISMachine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2,
-                "ammo": 200
-            }
+        {
+            "weapon": "ISMachine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2,
+            "ammo": 200
         },
-        "3": {
-            "ISLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMachine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMachine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "ISPPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISPPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

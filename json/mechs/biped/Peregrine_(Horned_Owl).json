@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Peregrine",
     "clanname": "Horned Owl",
     "model": "",
@@ -10,7 +11,14 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Striker",
-    "weaponquirk": "stable_weapon:CT:10:CLLargePulseLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "stable_weapon",
+            "weapon": "CLLargePulseLaser",
+            "location": "center_torso",
+            "slot": 10
+        }
+    ],
     "mass": 35,
     "engine": "210 Fusion (Clan) Engine(IS)",
     "structure": {
@@ -92,29 +100,26 @@
             "pips": 11
         }
     },
-    "weapons": {
-        "1": {
-            "Medium Pulse Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Large Pulse Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Large Pulse Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

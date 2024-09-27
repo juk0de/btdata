@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "O-Bakemono",
     "model": "OBK-M10",
     "mul_id": 2310,
@@ -12,7 +13,50 @@
     "quirks": [
         "no_arms"
     ],
-    "weaponquirk": "mod_weapons:LA:2:ISArrowIV",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Small Laser",
+            "location": "head",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "slot": 10
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "slot": 11
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISArrowIV",
+            "location": "right_torso",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISArrowIV",
+            "location": "left_torso",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISArrowIV",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISArrowIV",
+            "location": "left_arm",
+            "slot": 2
+        }
+    ],
     "mass": 80,
     "engine": "320 XL Engine",
     "structure": {
@@ -93,36 +137,32 @@
             "pips": 24
         }
     },
-    "weapons": {
-        "1": {
-            "Arrow IV": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Arrow IV",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Arrow IV": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Arrow IV",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "4": {
-            "Small Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Small Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

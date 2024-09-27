@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Firestarter",
     "model": "FS9-M2",
     "mul_id": 6609,
@@ -13,7 +14,44 @@
         "ubiquitous_clan",
         "ubiquitous_is"
     ],
-    "weaponquirk": "exposed_linkage:LA:8:Flamer",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "slot": 6
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "slot": 7
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "slot": 8
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "left_arm",
+            "slot": 6
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "left_arm",
+            "slot": 7
+        },
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "Flamer",
+            "location": "left_arm",
+            "slot": 8
+        }
+    ],
     "mass": 35,
     "engine": "210 Fusion Engine(IS)",
     "structure": {
@@ -95,29 +133,26 @@
             "pips": 15
         }
     },
-    "weapons": {
-        "1": {
-            "Flamer": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "Flamer",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "Flamer": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Flamer",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "ER Medium Laser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

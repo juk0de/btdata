@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Flea",
     "model": "'Fire Ant'",
     "mul_id": 1135,
@@ -93,44 +94,39 @@
             "pips": 4
         }
     },
-    "weapons": {
-        "1": {
-            "ISMachine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3,
-                "ammo": 100
-            }
+    "weapons": [
+        {
+            "weapon": "ISMachine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3,
+            "ammo": 100
         },
-        "2": {
-            "ISMachine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ISMachine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "3": {
-            "ISFlamer": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISFlamer": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "ISFlamer": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISFlamer",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

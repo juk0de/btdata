@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hatamoto-Chi",
     "model": "HTM-27T (Daniel II)",
     "mul_id": 1399,
@@ -13,7 +14,20 @@
         "barrel_fists_la",
         "easy_maintain"
     ],
-    "weaponquirk": "mod_weapons:LT:0:ISStreakSRM6",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISStreakSRM6",
+            "location": "right_torso",
+            "slot": 5
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISStreakSRM6",
+            "location": "left_torso",
+            "slot": 0
+        }
+    ],
     "mass": 80,
     "engine": "240 Fusion Engine",
     "structure": {
@@ -93,43 +107,38 @@
             "pips": 34
         }
     },
-    "weapons": {
-        "1": {
-            "LB 10-X AC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LB 10-X AC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "LB 10-X AC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LB 10-X AC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "C3 Master with TAG": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "C3 Master with TAG",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Streak SRM 6": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "5": {
-            "Streak SRM 6": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Streak SRM 6",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

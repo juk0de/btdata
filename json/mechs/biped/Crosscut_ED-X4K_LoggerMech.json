@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.19-SNAPSHOT on 2024-03-16",
     "chassis": "Crosscut",
     "model": "ED-X4K LoggerMech",
@@ -91,15 +92,14 @@
             "pips": 10
         }
     },
-    "weapons": {
-        "1": {
-            "SRM 4": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "SRM 4",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

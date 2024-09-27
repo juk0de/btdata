@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Centurion",
     "model": "CN9-H2H MilitiaMech",
     "mul_id": 7867,
@@ -90,29 +91,26 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "LB 10-X AC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LB 10-X AC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Rocket Launcher 10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 5
-            }
+        {
+            "weapon": "Rocket Launcher 10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 5
         },
-        "3": {
-            "Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

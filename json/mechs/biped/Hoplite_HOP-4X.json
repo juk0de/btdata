@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hoplite",
     "model": "HOP-4X",
     "mul_id": 1544,
@@ -92,31 +93,28 @@
             "pips": 26
         }
     },
-    "weapons": {
-        "1": {
-            "CLRotaryAC5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 60
-            }
+    "weapons": [
+        {
+            "weapon": "CLRotaryAC5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 60
         },
-        "2": {
-            "CLStreakLRM15": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+        {
+            "weapon": "CLStreakLRM15",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "3": {
-            "CLLightActiveProbe": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "CLLightActiveProbe",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

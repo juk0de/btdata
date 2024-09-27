@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Shugosha",
     "model": "LAW-QM1 Q-Mech",
     "mul_id": 7154,
@@ -92,15 +93,14 @@
             "pips": 4
         }
     },
-    "weapons": {
-        "1": {
-            "Large Laser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Large Laser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

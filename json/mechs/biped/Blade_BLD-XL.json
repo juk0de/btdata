@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Blade",
     "model": "BLD-XL",
     "mul_id": 391,
@@ -12,7 +13,26 @@
     "quirks": [
         "easy_maintain"
     ],
-    "weaponquirk": "static_feed:RA:2:ISRotaryAC5",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "static_feed",
+            "weapon": "ISRotaryAC5",
+            "location": "right_arm",
+            "slot": 2
+        }
+    ],
     "mass": 35,
     "engine": "245 XL Engine(IS)",
     "structure": {
@@ -95,22 +115,20 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "Rotary AC/5": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Rotary AC/5",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

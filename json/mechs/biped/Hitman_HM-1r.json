@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Hitman",
     "model": "HM-1r",
     "mul_id": 1534,
@@ -9,7 +10,20 @@
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Striker",
-    "weaponquirk": "stable_weapon:HD:3:ISTAG",
+    "weapon_quirks": [
+        {
+            "quirk": "accurate",
+            "weapon": "ISTAG",
+            "location": "head",
+            "slot": 3
+        },
+        {
+            "quirk": "stable_weapon",
+            "weapon": "ISTAG",
+            "location": "head",
+            "slot": 3
+        }
+    ],
     "mass": 30,
     "engine": "210 XL Engine",
     "structure": {
@@ -92,29 +106,26 @@
             "pips": 9
         }
     },
-    "weapons": {
-        "1": {
-            "TAG": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "TAG",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 2
         },
-        "3": {
-            "MML 7": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "MML 7",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

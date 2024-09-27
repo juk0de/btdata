@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Buster",
     "model": "BC XV-M-W HaulerMech MOD",
     "mul_id": 7179,
@@ -90,15 +91,14 @@
             "pips": 15
         }
     },
-    "weapons": {
-        "1": {
-            "LB 10-X AC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LB 10-X AC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

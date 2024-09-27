@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
     "chassis": "Pulverizer",
     "model": "PUL-3R",
@@ -15,7 +16,14 @@
         "bad_rep_clan",
         "pro_actuator"
     ],
-    "weaponquirk": "accurate:RT:3:CLWERPPC",
+    "weapon_quirks": [
+        {
+            "quirk": "accurate",
+            "weapon": "CLWERPPC",
+            "location": "right_torso",
+            "slot": 3
+        }
+    ],
     "mass": 90,
     "engine": "360 Fusion Engine(IS)",
     "structure": {
@@ -97,36 +105,32 @@
             "pips": 38
         }
     },
-    "weapons": {
-        "1": {
-            "Improved Large Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Improved Large Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Improved Large Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Improved Large Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "LRM 10": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "LRM 10",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Enhanced PPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Enhanced PPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

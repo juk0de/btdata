@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dragoon",
     "model": "AEM-02",
     "mul_id": 6781,
@@ -15,7 +16,62 @@
         "bad_rep_is",
         "obsolete"
     ],
-    "weaponquirk": "mod_weapons:LA:5:Medium Laser",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISSmallPulseLaser",
+            "location": "head",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "center_torso",
+            "slot": 10
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "right_torso",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "left_torso",
+            "slot": 3
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "left_torso",
+            "slot": 4
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Autocannon/20",
+            "location": "right_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Autocannon/20",
+            "location": "right_arm",
+            "slot": 8
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "ISERPPC",
+            "location": "left_arm",
+            "slot": 2
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "left_arm",
+            "slot": 5
+        }
+    ],
     "mass": 70,
     "engine": "350 XL Fusion Engine",
     "structure": {
@@ -95,58 +151,51 @@
             "pips": 27
         }
     },
-    "weapons": {
-        "1": {
-            "ISERPPC": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "ISERPPC",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ISAC20": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 10
-            }
+        {
+            "weapon": "ISAC20",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 10
         },
-        "3": {
-            "ISMediumLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "ISMediumLaser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 2
         },
-        "5": {
-            "ISMediumLaser": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "ISMediumLaser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISMediumLaser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "ISSmallPulseLaser": {
-                "location": "head",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISSmallPulseLaser",
+            "location": "head",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

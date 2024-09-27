@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Ebony",
     "model": "MEB-13",
     "mul_id": 6943,
@@ -95,15 +96,14 @@
             "pips": 7
         }
     },
-    "weapons": {
-        "1": {
-            "Large Re-engineered Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Large Re-engineered Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

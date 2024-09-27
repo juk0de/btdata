@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "G\u00f9n",
     "model": "GN-2OB",
     "mul_id": 6452,
@@ -95,22 +96,20 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "TAG": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "TAG",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Large Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ER Large Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

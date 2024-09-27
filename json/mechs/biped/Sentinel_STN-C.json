@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Sentinel",
     "model": "STN-C",
     "mul_id": 2865,
@@ -12,7 +13,14 @@
     "quirks": [
         "imp_com"
     ],
-    "weaponquirk": "ammo_feed_problems:RT:0:SRM 2",
+    "weapon_quirks": [
+        {
+            "quirk": "ammo_feed_problems",
+            "weapon": "SRM 2",
+            "location": "right_torso",
+            "slot": 0
+        }
+    ],
     "mass": 40,
     "engine": "240 Fusion Engine",
     "structure": {
@@ -92,31 +100,28 @@
             "pips": 10
         }
     },
-    "weapons": {
-        "1": {
-            "ISUltraAC5": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 20
-            }
+    "weapons": [
+        {
+            "weapon": "ISUltraAC5",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 20
         },
-        "2": {
-            "ISSRM2": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 50
-            }
+        {
+            "weapon": "ISSRM2",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 50
         },
-        "3": {
-            "ISC3SlaveUnit": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISC3SlaveUnit",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

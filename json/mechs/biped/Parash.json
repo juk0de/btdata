@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Parash",
     "model": "",
     "mul_id": 2428,
@@ -12,7 +13,14 @@
     "quirks": [
         "low_profile"
     ],
-    "weaponquirk": "jettison_capable:RA:4:CLLargePulseLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "jettison_capable",
+            "weapon": "CLLargePulseLaser",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 35,
     "engine": "245 XL (Clan) Engine",
     "structure": {
@@ -93,22 +101,20 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "Clan TAG": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Clan TAG",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Large Pulse Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Large Pulse Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

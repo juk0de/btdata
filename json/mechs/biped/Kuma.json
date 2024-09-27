@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Kuma",
     "model": "",
     "mul_id": 1849,
@@ -12,7 +13,14 @@
     "quirks": [
         "hard_pilot"
     ],
-    "weaponquirk": "accurate:LA:3:CLHeavyLargeLaser",
+    "weapon_quirks": [
+        {
+            "quirk": "accurate",
+            "weapon": "CLHeavyLargeLaser",
+            "location": "left_arm",
+            "slot": 3
+        }
+    ],
     "mass": 60,
     "engine": "360 XL (Clan) Engine",
     "structure": {
@@ -93,22 +101,20 @@
             "pips": 28
         }
     },
-    "weapons": {
-        "1": {
-            "Heavy Large Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Heavy Large Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

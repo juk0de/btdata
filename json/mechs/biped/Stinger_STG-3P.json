@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Stinger",
     "model": "STG-3P",
     "mul_id": 3060,
@@ -95,15 +96,14 @@
             "pips": 7
         }
     },
-    "weapons": {
-        "1": {
-            "Light PPC": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Light PPC",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

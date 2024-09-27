@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Clint",
     "model": "CLNT-3-4T",
     "mul_id": 9462,
@@ -97,29 +98,26 @@
             "pips": 16
         }
     },
-    "weapons": {
-        "1": {
-            "LB 5-X AC": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "LB 5-X AC",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Medium X-Pulse Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium X-Pulse Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Medium X-Pulse Laser": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Medium X-Pulse Laser",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

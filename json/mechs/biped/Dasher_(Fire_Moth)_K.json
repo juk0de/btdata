@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dasher",
     "clanname": "Fire Moth",
     "model": "K",
@@ -95,64 +96,56 @@
             "pips": 4
         }
     },
-    "weapons": {
-        "1": {
-            "B-Pod": {
-                "location": "left_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "B-Pod",
+            "location": "left_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "B-Pod": {
-                "location": "right_leg",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "B-Pod",
+            "location": "right_leg",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "Heavy Medium Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Medium Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "4": {
-            "Light Machine Gun": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Light Machine Gun",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "5": {
-            "Light Machine Gun Array": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun Array",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "6": {
-            "Heavy Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Heavy Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "7": {
-            "Light Machine Gun": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "Light Machine Gun",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "8": {
-            "Light Machine Gun Array": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Light Machine Gun Array",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

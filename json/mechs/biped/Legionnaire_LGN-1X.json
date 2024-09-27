@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Legionnaire",
     "model": "LGN-1X",
     "mul_id": 1862,
@@ -13,7 +14,14 @@
         "easy_maintain",
         "imp_target_med"
     ],
-    "weaponquirk": "exposed_linkage:RT:3:ISRotaryAC2",
+    "weapon_quirks": [
+        {
+            "quirk": "exposed_linkage",
+            "weapon": "ISRotaryAC2",
+            "location": "right_torso",
+            "slot": 3
+        }
+    ],
     "mass": 50,
     "engine": "350 XL Engine",
     "structure": {
@@ -93,22 +101,20 @@
             "pips": 23
         }
     },
-    "weapons": {
-        "1": {
-            "Rotary AC/2": {
-                "location": "right_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Rotary AC/2",
+            "location": "right_torso",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "ER Medium Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 2
-            }
+        {
+            "weapon": "ER Medium Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 2
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

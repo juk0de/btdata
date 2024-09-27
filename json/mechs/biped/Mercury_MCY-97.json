@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Mercury",
     "model": "MCY-97",
     "mul_id": 2171,
@@ -12,7 +13,20 @@
     "quirks": [
         "easy_maintain"
     ],
-    "weaponquirk": "mod_weapons:RA:4:Medium Laser",
+    "weapon_quirks": [
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Small Laser",
+            "location": "center_torso",
+            "slot": 10
+        },
+        {
+            "quirk": "mod_weapons",
+            "weapon": "Medium Laser",
+            "location": "right_arm",
+            "slot": 4
+        }
+    ],
     "mass": 20,
     "engine": "160 Fusion Engine(IS)",
     "structure": {
@@ -93,22 +107,20 @@
             "pips": 6
         }
     },
-    "weapons": {
-        "1": {
-            "Medium Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+    "weapons": [
+        {
+            "weapon": "Medium Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "2": {
-            "Small Laser": {
-                "location": "center_torso",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "Small Laser",
+            "location": "center_torso",
+            "facing": "front",
+            "quantity": 1
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

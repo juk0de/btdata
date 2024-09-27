@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Dasher II",
     "model": "",
     "mul_id": 848,
@@ -92,22 +93,20 @@
             "pips": 7
         }
     },
-    "weapons": {
-        "1": {
-            "ER Micro Laser": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+    "weapons": [
+        {
+            "weapon": "ER Micro Laser",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 3
         },
-        "2": {
-            "ER Micro Laser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 3
-            }
+        {
+            "weapon": "ER Micro Laser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 3
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",

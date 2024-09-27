@@ -1,4 +1,5 @@
 {
+    "mtf2json": "0.2.3",
     "chassis": "Lao Hu",
     "model": "LHU-3C",
     "mul_id": 4480,
@@ -91,31 +92,28 @@
             "pips": 28
         }
     },
-    "weapons": {
-        "1": {
-            "ISGaussRifle": {
-                "location": "right_arm",
-                "facing": "front",
-                "quantity": 1,
-                "ammo": 16
-            }
+    "weapons": [
+        {
+            "weapon": "ISGaussRifle",
+            "location": "right_arm",
+            "facing": "front",
+            "quantity": 1,
+            "ammo": 16
         },
-        "2": {
-            "ISERLargeLaser": {
-                "location": "left_arm",
-                "facing": "front",
-                "quantity": 1
-            }
+        {
+            "weapon": "ISERLargeLaser",
+            "location": "left_arm",
+            "facing": "front",
+            "quantity": 1
         },
-        "3": {
-            "ISLRM5": {
-                "location": "left_torso",
-                "facing": "front",
-                "quantity": 3,
-                "ammo": 72
-            }
+        {
+            "weapon": "ISLRM5",
+            "location": "left_torso",
+            "facing": "front",
+            "quantity": 3,
+            "ammo": 72
         }
-    },
+    ],
     "critical_slots": {
         "left_arm": {
             "1": "Shoulder",
