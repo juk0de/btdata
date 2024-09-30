@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Nightsky",
     "model": "NGS-6T",
     "mul_id": 2284,
@@ -48,6 +48,7 @@
         }
     },
     "myomer": "Triple-Strength",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 11,
         "type": "Double"

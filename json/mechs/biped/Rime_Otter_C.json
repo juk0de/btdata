@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Rime Otter",
     "model": "C",
     "mul_id": 8312,
@@ -48,7 +48,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 15,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 10
     },
     "walk_mp": 5,
     "run_mp": 8,

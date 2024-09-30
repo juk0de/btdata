@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Fire Falcon",
     "model": "L",
     "mul_id": 8182,
@@ -46,7 +46,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 10,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 8
     },
     "walk_mp": 8,
     "run_mp": 12,

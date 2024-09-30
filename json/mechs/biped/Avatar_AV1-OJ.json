@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Avatar",
     "model": "AV1-OJ",
     "mul_id": 6874,
@@ -57,7 +57,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 10,
-        "type": "IS Double"
+        "type": "IS Double",
+        "base_chassis_heat_sinks": 10
     },
     "walk_mp": 4,
     "run_mp": 6,

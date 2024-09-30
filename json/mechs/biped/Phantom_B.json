@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Phantom",
     "model": "B",
     "mul_id": 2482,
@@ -46,7 +46,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 12,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 12
     },
     "walk_mp": 9,
     "run_mp": 14,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Dragonfly",
     "clanname": "Viper",
     "model": "A",
@@ -48,7 +48,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 10,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 10
     },
     "walk_mp": 8,
     "run_mp": 12,

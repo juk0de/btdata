@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "War Crow",
     "model": "Prime",
     "mul_id": 7545,
@@ -47,7 +47,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 15,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 14
     },
     "walk_mp": 5,
     "run_mp": 8,

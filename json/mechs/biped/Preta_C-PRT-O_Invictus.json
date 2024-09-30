@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Preta",
     "model": "C-PRT-O Invictus",
     "mul_id": 2573,
@@ -52,7 +52,8 @@
     "gyro": "Standard Gyro",
     "heat_sinks": {
         "quantity": 11,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 10
     },
     "walk_mp": 6,
     "run_mp": 9,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Wolfhound",
     "model": "WLF-2X",
     "mul_id": 3564,
@@ -10,6 +10,7 @@
     "rules_level": 3,
     "rules_level_str": "Standard",
     "role": "Striker",
+    "ejection": "Full Head Ejection System",
     "quirks": [
         "easy_maintain",
         "good_rep_1"

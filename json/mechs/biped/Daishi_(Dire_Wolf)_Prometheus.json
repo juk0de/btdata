@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "generator": "MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-20",
     "chassis": "Daishi",
     "clanname": "Dire Wolf",
@@ -49,7 +49,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 23,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 12
     },
     "walk_mp": 3,
     "run_mp": 5,

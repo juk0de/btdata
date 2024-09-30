@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Masakari",
     "clanname": "Warhawk",
     "model": "B",
@@ -47,7 +47,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 20,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 13
     },
     "walk_mp": 4,
     "run_mp": 6,

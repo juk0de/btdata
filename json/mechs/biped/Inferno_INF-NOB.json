@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Inferno",
     "model": "INF-NOB",
     "mul_id": 7717,
@@ -58,7 +58,8 @@
     "gyro": "Compact Gyro",
     "heat_sinks": {
         "quantity": 13,
-        "type": "IS Double"
+        "type": "IS Double",
+        "base_chassis_heat_sinks": 12
     },
     "walk_mp": 4,
     "run_mp": 6,

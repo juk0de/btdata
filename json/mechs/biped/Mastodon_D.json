@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Mastodon",
     "model": "D",
     "mul_id": 8346,
@@ -48,7 +48,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 15,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 11
     },
     "walk_mp": 3,
     "run_mp": 5,
@@ -262,5 +263,6 @@
             "communications": "Garret T10B",
             "targeting": "GC Hodr System Type 2"
         }
-    }
+    },
+    "notes": "Then we will fight in the shade."
 }

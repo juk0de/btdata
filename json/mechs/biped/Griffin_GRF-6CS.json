@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Griffin",
     "model": "GRF-6CS",
     "mul_id": 1306,
@@ -55,6 +55,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 12,
         "type": "Double"

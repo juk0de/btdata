@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Bull Shark",
     "model": "BSK-MAZ",
     "config": "Biped",
@@ -269,5 +269,6 @@
         "systemmanufacturer": {
             "jumpjet": "N/A"
         }
-    }
+    },
+    "notes": "The following regards tabletop play: Thumper Cannon may be treated as preloaded with two shots, and only two shots. Optionally remove Thumper ammo bin and replace with LB 10-X ammo, otherwise add 4 points armour to each arm and leg. Thumper Cannon may use an updated damage profile of 15/5A if agreed upon. Suggest following the above note of preloaded ammo. The following regards derivation of loadout: Clan Wolverine was Annihilated in 2823. ER Med. Laser (C) available in 2824. UAC/5 (C) available in 2825. LB 10-X (C) available in 2828. UAC/5 (C) used because frankly the design mandates it. Assume it was somehow sourced by survivors. Since ER Med. Lasers were available the year before, assume they were sourced as well. [In tabletop] If you wish to use prototype ER lasers, the stats for those are identical to ER Med. (IS) but weighing 1.5 tons each. Remove the Thumper ammo bin and one ton of armour. LB 10-X (C) assumed to be too late to source, and relic LB 10-X (IS) are mounted instead; also to enforce the mixed tech nature of the 'mech and follow the weight layout."
 }

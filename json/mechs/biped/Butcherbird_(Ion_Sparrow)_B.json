@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Butcherbird",
     "clanname": "Ion Sparrow",
     "model": "B",
@@ -49,7 +49,8 @@
     "gyro": "Standard Gyro",
     "heat_sinks": {
         "quantity": 10,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 6
     },
     "walk_mp": 8,
     "run_mp": 12,

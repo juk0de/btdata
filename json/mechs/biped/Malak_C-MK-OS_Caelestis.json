@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Malak",
     "model": "C-MK-OS Caelestis",
     "mul_id": 2000,
@@ -50,7 +50,8 @@
     "gyro": "XL Gyro",
     "heat_sinks": {
         "quantity": 10,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 8
     },
     "walk_mp": 7,
     "run_mp": 11,

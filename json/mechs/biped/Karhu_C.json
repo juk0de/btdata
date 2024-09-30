@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Karhu",
     "model": "C",
     "mul_id": 1750,
@@ -46,7 +46,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 12,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 12
     },
     "walk_mp": 5,
     "run_mp": 8,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Ryoken III",
     "clanname": "Skinwalker",
     "model": "F",
@@ -46,7 +46,8 @@
     "gyro": "None",
     "heat_sinks": {
         "quantity": 12,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 10
     },
     "walk_mp": 6,
     "run_mp": 9,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Sun Bear",
     "model": "B",
     "mul_id": 7625,
@@ -48,7 +48,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 13,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 11
     },
     "walk_mp": 5,
     "run_mp": 8,
@@ -250,5 +251,6 @@
     },
     "fluff": {
         "history": "Clan Ghost Bear / Clan Blood Spirit"
-    }
+    },
+    "notes": "2 tons over weight"
 }

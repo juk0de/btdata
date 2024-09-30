@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Dominator",
     "model": "2",
     "mul_id": 7435,
@@ -59,6 +59,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 17,
         "type": "Clan Double"

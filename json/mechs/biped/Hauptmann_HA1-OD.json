@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Hauptmann",
     "model": "HA1-OD",
     "mul_id": 1424,
@@ -47,7 +47,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 12,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 11
     },
     "walk_mp": 3,
     "run_mp": 5,

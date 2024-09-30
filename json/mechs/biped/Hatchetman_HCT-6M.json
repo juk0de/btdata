@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Hatchetman",
     "model": "HCT-6M",
     "mul_id": 1416,
@@ -43,6 +43,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 11,
         "type": "Double"

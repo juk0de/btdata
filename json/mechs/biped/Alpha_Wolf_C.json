@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Alpha Wolf",
     "model": "C",
     "mul_id": 8443,
@@ -43,7 +43,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 21,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 14
     },
     "walk_mp": 4,
     "run_mp": 6,

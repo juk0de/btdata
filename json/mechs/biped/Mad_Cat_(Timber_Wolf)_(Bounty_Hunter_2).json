@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Mad Cat",
     "clanname": "Timber Wolf",
     "model": "(Bounty Hunter 2)",
@@ -48,7 +48,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 15,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 15
     },
     "walk_mp": 5,
     "run_mp": 8,

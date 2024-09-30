@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Linebacker",
     "model": "A",
     "mul_id": 1886,
@@ -46,7 +46,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 14,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 14
     },
     "walk_mp": 6,
     "run_mp": 9,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Pack Hunter II",
     "model": "",
     "mul_id": 2396,
@@ -49,6 +49,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Clan Double"

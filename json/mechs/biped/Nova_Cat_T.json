@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Nova Cat",
     "model": "T",
     "mul_id": 8421,
@@ -47,7 +47,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 18,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 11
     },
     "walk_mp": 4,
     "run_mp": 6,

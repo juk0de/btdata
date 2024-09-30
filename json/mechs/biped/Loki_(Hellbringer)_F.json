@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Loki",
     "clanname": "Hellbringer",
     "model": "F",
@@ -47,7 +47,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 13,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 13
     },
     "walk_mp": 5,
     "run_mp": 8,

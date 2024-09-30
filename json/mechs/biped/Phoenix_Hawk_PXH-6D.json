@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Phoenix Hawk",
     "model": "PXH-6D",
     "mul_id": 2506,
@@ -55,6 +55,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 12,
         "type": "Double"

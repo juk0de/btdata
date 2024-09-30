@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Shadow Hawk",
     "model": "SHD-11CS2",
     "mul_id": 5036,
@@ -49,6 +49,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "IS Double"

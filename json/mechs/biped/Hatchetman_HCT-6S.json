@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "generator": "MegaMek Suite 0.49.19-SNAPSHOT on 2024-03-16",
     "chassis": "Hatchetman",
     "model": "HCT-6S",
@@ -53,6 +53,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "IS Double"

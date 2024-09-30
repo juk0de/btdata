@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Tomahawk II",
     "model": "B",
     "mul_id": 6305,
@@ -46,7 +46,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 22,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 12
     },
     "walk_mp": 3,
     "run_mp": 5,

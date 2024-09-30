@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Gunsmith",
     "model": "CH11-NG",
     "mul_id": 6332,
@@ -43,6 +43,7 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "XL Gyro",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"

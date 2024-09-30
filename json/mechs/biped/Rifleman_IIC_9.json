@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Rifleman IIC",
     "model": "9",
     "mul_id": 8418,
@@ -242,5 +242,6 @@
             "communications": "Garret T11-A",
             "targeting": "GH D5j TTS with Active Probe"
         }
-    }
+    },
+    "notes": "Equipment for Standard not this variant"
 }

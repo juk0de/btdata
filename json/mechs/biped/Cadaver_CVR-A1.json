@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Cadaver",
     "model": "CVR-A1",
     "mul_id": 6550,
@@ -44,6 +44,7 @@
         }
     },
     "myomer": "Standard",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"

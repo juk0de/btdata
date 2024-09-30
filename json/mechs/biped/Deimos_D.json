@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Deimos",
     "model": "D",
     "mul_id": 6856,
@@ -46,7 +46,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 14,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 10
     },
     "walk_mp": 3,
     "run_mp": 5,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Deva",
     "model": "C-DVA-O Invictus",
     "mul_id": 885,
@@ -51,7 +51,8 @@
     "gyro": "Heavy Duty Gyro",
     "heat_sinks": {
         "quantity": 11,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 11
     },
     "walk_mp": 4,
     "run_mp": 6,

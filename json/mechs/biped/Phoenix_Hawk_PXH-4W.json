@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Phoenix Hawk",
     "model": "PXH-4W",
     "mul_id": 2504,
@@ -56,6 +56,7 @@
     "myomer": "Standard",
     "cockpit": "Standard Cockpit",
     "gyro": "Heavy Duty Gyro",
+    "ejection": "Full Head Ejection System",
     "heat_sinks": {
         "quantity": 10,
         "type": "Double"

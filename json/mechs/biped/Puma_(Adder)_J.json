@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Puma",
     "clanname": "Adder",
     "model": "J",
@@ -47,7 +47,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 10,
-        "type": "Double"
+        "type": "Double",
+        "base_chassis_heat_sinks": 8
     },
     "walk_mp": 6,
     "run_mp": 9,

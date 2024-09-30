@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.3",
+    "mtf2json": "0.2.4",
     "chassis": "Shadow Cat",
     "model": "T",
     "mul_id": 7708,
@@ -46,7 +46,8 @@
     "myomer": "Standard",
     "heat_sinks": {
         "quantity": 10,
-        "type": "Clan Double"
+        "type": "Clan Double",
+        "base_chassis_heat_sinks": 10
     },
     "walk_mp": 6,
     "run_mp": 9,
@@ -250,5 +251,6 @@
             "communications": "JNE Integrated",
             "targeting": "Build 2 CAT TTS"
         }
-    }
+    },
+    "notes": "The Shadow Cat was such a successful design that it has seen continued production by Clan Nova Cat well into the Dark Age period."
 }
