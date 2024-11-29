@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Solitaire",
     "model": "",
     "mul_id": 5097,
@@ -108,25 +108,25 @@
     },
     "weapons": [
         {
-            "weapon": "CLHeavyLargeLaser",
+            "name": "CLHeavyLargeLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLHeavyMediumLaser",
+            "name": "CLHeavyMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLHeavySmallLaser",
+            "name": "CLHeavySmallLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLHeavyMediumLaser",
+            "name": "CLHeavyMediumLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Grendel",
     "clanname": "Mongrel",
     "model": "J",
@@ -98,31 +98,31 @@
     },
     "weapons": [
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Pulse Laser",
+            "name": "ER Small Pulse Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Small Laser",
+            "name": "Improved Heavy Small Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2

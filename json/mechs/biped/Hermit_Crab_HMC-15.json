@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hermit Crab",
     "model": "HMC-15",
     "mul_id": 7723,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

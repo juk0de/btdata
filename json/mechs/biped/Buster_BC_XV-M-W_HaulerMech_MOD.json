@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Buster",
     "model": "BC XV-M-W HaulerMech MOD",
     "mul_id": 7179,
@@ -93,7 +93,7 @@
     },
     "weapons": [
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

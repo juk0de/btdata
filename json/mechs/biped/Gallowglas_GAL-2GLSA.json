@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Gallowglas",
     "model": "GAL-2GLSA",
     "mul_id": 1184,
@@ -95,25 +95,25 @@
     },
     "weapons": [
         {
-            "weapon": "Large Laser",
+            "name": "Large Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

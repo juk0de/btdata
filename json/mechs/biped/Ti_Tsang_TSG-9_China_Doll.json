@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ti Ts'ang",
     "model": "TSG-9 'China Doll'",
     "mul_id": 5241,
@@ -94,31 +94,31 @@
     },
     "weapons": [
         {
-            "weapon": "Hatchet",
+            "name": "Hatchet",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2

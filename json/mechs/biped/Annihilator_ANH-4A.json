@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Annihilator",
     "model": "ANH-4A",
     "mul_id": 42,
@@ -95,39 +95,39 @@
     },
     "weapons": [
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 40
         },
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLAC2",
+            "name": "ISLAC2",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 90
         },
         {
-            "weapon": "ISLAC2",
+            "name": "ISLAC2",
             "location": "head",
             "facing": "front",
             "quantity": 1

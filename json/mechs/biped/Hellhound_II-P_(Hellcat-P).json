@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hellhound II-P",
     "clanname": "Hellcat-P",
     "model": "",
@@ -98,25 +98,25 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

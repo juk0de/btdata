@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Reptar",
     "model": "EPT-C-1 MilitiaMech",
     "mul_id": 5797,
@@ -92,19 +92,19 @@
     },
     "weapons": [
         {
-            "weapon": "ProtoMech AC/8",
+            "name": "ProtoMech AC/8",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light Machine Gun",
+            "name": "Light Machine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light Machine Gun",
+            "name": "Light Machine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

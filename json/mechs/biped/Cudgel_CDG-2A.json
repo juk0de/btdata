@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cudgel",
     "model": "CDG-2A",
     "mul_id": 767,
@@ -97,37 +97,37 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Atlas III",
     "model": "AS7-D3",
     "mul_id": 6358,
@@ -106,31 +106,31 @@
     },
     "weapons": [
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Rotary AC/2",
+            "name": "Rotary AC/2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Streak LRM 20",
+            "name": "Streak LRM 20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

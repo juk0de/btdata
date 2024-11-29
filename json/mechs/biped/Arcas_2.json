@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Arcas",
     "model": "2",
     "mul_id": 3718,
@@ -94,25 +94,25 @@
     },
     "weapons": [
         {
-            "weapon": "CLERPPC",
+            "name": "CLERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERPPC",
+            "name": "CLERPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLMediumPulseLaser",
+            "name": "CLMediumPulseLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLMediumPulseLaser",
+            "name": "CLMediumPulseLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pompier",
     "model": "GM-4P PoliceMech",
     "mul_id": 7837,
@@ -92,19 +92,19 @@
     },
     "weapons": [
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Flamer (Vehicle)",
+            "name": "Flamer (Vehicle)",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

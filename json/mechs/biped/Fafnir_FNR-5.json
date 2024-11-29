@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Fafnir",
     "model": "FNR-5",
     "mul_id": 4152,
@@ -108,38 +108,38 @@
     },
     "weapons": [
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISHeavyGaussRifle",
+            "name": "ISHeavyGaussRifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 32
         },
         {
-            "weapon": "ISHeavyGaussRifle",
+            "name": "ISHeavyGaussRifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

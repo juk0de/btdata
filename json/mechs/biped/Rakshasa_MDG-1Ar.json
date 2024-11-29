@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rakshasa",
     "model": "MDG-1Ar",
     "mul_id": 2632,
@@ -96,37 +96,37 @@
     },
     "weapons": [
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 7",
+            "name": "MML 7",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 7",
+            "name": "MML 7",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

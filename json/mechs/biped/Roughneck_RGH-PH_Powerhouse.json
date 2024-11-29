@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Roughneck",
     "model": "RGH-PH Powerhouse",
     "config": "Biped",
@@ -91,31 +91,31 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "MRM 10",
+            "name": "MRM 10",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

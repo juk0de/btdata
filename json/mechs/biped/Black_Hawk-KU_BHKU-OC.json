@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Black Hawk-KU",
     "model": "BHKU-OC",
     "mul_id": 349,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

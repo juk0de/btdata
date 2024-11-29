@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hornet",
     "model": "HNT-171",
     "mul_id": 1548,
@@ -95,21 +95,21 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 48
         },
         {
-            "weapon": "ISAntiMissileSystem",
+            "name": "ISAntiMissileSystem",
             "location": "head",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

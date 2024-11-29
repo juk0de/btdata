@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Jenner",
     "model": "JR7-C3",
     "mul_id": 1690,
@@ -94,19 +94,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1

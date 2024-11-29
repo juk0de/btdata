@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pariah (Septicemia)",
     "model": "D-Z",
     "mul_id": 5815,
@@ -99,13 +99,13 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Ultra AC/20",
+            "name": "Ultra AC/20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Nyx",
     "model": "NX-90",
     "mul_id": 2309,
@@ -96,7 +96,7 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

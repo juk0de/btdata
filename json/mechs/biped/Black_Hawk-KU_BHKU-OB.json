@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Black Hawk-KU",
     "model": "BHKU-OB",
     "mul_id": 348,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "Large Pulse Laser",
+            "name": "Large Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Ultra AC/5",
+            "name": "Ultra AC/5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

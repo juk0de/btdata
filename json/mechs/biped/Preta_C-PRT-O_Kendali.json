@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Preta",
     "model": "C-PRT-O (Kendali)",
     "mul_id": 2572,
@@ -103,19 +103,19 @@
     },
     "weapons": [
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small VSP Laser",
+            "name": "Small VSP Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Centurion",
     "model": "CN10-W",
     "mul_id": 7695,
@@ -93,19 +93,19 @@
     },
     "weapons": [
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

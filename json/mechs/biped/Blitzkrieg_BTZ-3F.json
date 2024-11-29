@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Blitzkrieg",
     "model": "BTZ-3F",
     "mul_id": 394,
@@ -96,7 +96,7 @@
     },
     "weapons": [
         {
-            "weapon": "Ultra AC/20",
+            "name": "Ultra AC/20",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

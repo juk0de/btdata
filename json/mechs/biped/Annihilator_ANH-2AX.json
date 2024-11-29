@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Annihilator",
     "model": "ANH-2AX",
     "mul_id": 40,
@@ -95,14 +95,14 @@
     },
     "weapons": [
         {
-            "weapon": "ISImprovedHeavyGaussRifle",
+            "name": "ISImprovedHeavyGaussRifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 32
         },
         {
-            "weapon": "ISImprovedHeavyGaussRifle",
+            "name": "ISImprovedHeavyGaussRifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Battle Cobra",
     "model": "I",
     "mul_id": 8391,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pack Hunter II",
     "model": "",
     "mul_id": 2396,
@@ -102,31 +102,31 @@
     },
     "weapons": [
         {
-            "weapon": "Anti-BattleArmor Pods (B-Pods)",
+            "name": "Anti-BattleArmor Pods (B-Pods)",
             "location": "left_leg",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Anti-BattleArmor Pods (B-Pods)",
+            "name": "Anti-BattleArmor Pods (B-Pods)",
             "location": "right_leg",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

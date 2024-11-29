@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Jackal",
     "model": "JA-KL-1579",
     "mul_id": 1654,
@@ -102,19 +102,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISAngelECM",
+            "name": "ISAngelECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAntiMissileSystem",
+            "name": "ISAntiMissileSystem",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

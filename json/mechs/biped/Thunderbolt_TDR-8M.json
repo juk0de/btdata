@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Thunderbolt",
     "model": "TDR-8M",
     "mul_id": 8191,
@@ -98,19 +98,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

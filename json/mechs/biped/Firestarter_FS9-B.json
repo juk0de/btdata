@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Firestarter",
     "model": "FS9-B",
     "mul_id": 1094,
@@ -105,19 +105,19 @@
     },
     "weapons": [
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Tian-Zong",
     "model": "TNZ-N3 'Jasminda'",
     "mul_id": 7402,
@@ -98,25 +98,25 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Light Gauss Rifle",
+            "name": "Light Gauss Rifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light Gauss Rifle",
+            "name": "Light Gauss Rifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

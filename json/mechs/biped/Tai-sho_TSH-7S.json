@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Tai-sho",
     "model": "TSH-7S",
     "mul_id": 3150,
@@ -103,25 +103,25 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "C3 Master with TAG",
+            "name": "C3 Master with TAG",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

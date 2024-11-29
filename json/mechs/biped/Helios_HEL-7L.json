@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "generator": "MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-24",
     "chassis": "Helios",
     "model": "HEL-7L",
@@ -99,25 +99,25 @@
     },
     "weapons": [
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 5",
+            "name": "MML 5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 5",
+            "name": "MML 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

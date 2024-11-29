@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Anzu",
     "model": "ZU-J70",
     "mul_id": 6511,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 7",
+            "name": "MML 7",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Rotary AC/5",
+            "name": "Rotary AC/5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

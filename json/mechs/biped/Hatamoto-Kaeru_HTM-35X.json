@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hatamoto-Kaeru",
     "model": "HTM-35X",
     "mul_id": 1406,
@@ -96,63 +96,63 @@
     },
     "weapons": [
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRT 15",
+            "name": "LRT 15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "LRT 15",
+            "name": "LRT 15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRT4",
+            "name": "ISSRT4",
             "location": "right_leg",
             "facing": "front",
             "quantity": 1,
             "ammo": 25
         },
         {
-            "weapon": "ISSRT4",
+            "name": "ISSRT4",
             "location": "left_leg",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMASS",
+            "name": "ISMASS",
             "location": "head",
             "facing": "front",
             "quantity": 1

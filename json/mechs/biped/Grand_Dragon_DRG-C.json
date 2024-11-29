@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Grand Dragon",
     "model": "DRG-C",
     "mul_id": 1264,
@@ -96,32 +96,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "rear",
             "quantity": 1
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

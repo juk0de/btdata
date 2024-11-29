@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Highlander",
     "model": "HGN-641-X-2",
     "mul_id": 5552,
@@ -100,39 +100,39 @@
     },
     "weapons": [
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISAngelECM",
+            "name": "ISAngelECM",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMML7",
+            "name": "ISMML7",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 68
         },
         {
-            "weapon": "ISMML7",
+            "name": "ISMML7",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

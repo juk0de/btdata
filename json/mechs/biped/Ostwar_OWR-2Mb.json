@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ostwar",
     "model": "OWR-2Mb",
     "mul_id": 2382,
@@ -95,31 +95,31 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

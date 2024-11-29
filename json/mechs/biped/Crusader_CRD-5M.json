@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crusader",
     "model": "CRD-5M",
     "mul_id": 759,
@@ -113,55 +113,55 @@
     },
     "weapons": [
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "left_leg",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "right_leg",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Anti-Missile System",
+            "name": "Anti-Missile System",
             "location": "head",
             "facing": "front",
             "quantity": 1

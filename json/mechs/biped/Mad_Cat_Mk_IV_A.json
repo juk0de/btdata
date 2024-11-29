@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Mad Cat Mk IV",
     "clanname": "Savage Wolf",
     "model": "A",
@@ -100,43 +100,43 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 9",
+            "name": "ATM 9",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 9",
+            "name": "ATM 9",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

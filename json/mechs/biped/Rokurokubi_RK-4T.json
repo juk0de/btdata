@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rokurokubi",
     "model": "RK-4T",
     "mul_id": 6392,
@@ -99,7 +99,7 @@
     },
     "weapons": [
         {
-            "weapon": "LAC/5",
+            "name": "LAC/5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

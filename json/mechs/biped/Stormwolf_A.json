@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Stormwolf",
     "model": "A",
     "mul_id": 8205,
@@ -94,19 +94,19 @@
     },
     "weapons": [
         {
-            "weapon": "Large Pulse Laser",
+            "name": "Large Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "head",
             "facing": "front",
             "quantity": 1

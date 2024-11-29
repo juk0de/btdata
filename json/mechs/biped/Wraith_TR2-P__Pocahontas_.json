@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Wraith",
     "model": "TR2-P 'Pocahontas'",
     "mul_id": 8381,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

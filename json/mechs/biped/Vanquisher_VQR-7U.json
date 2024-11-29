@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Vanquisher",
     "model": "VQR-7U",
     "mul_id": 5721,
@@ -99,63 +99,63 @@
     },
     "weapons": [
         {
-            "weapon": "ISHeavyFlamer",
+            "name": "ISHeavyFlamer",
             "location": "head",
             "facing": "front",
             "quantity": 1,
             "ammo": 10
         },
         {
-            "weapon": "ISBeagleActiveProbe",
+            "name": "ISBeagleActiveProbe",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISRemoteSensorDispenser",
+            "name": "ISRemoteSensorDispenser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERFlamer",
+            "name": "ISERFlamer",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERFlamer",
+            "name": "ISERFlamer",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISPlasmaRifle",
+            "name": "ISPlasmaRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 40
         },
         {
-            "weapon": "ISPlasmaRifle",
+            "name": "ISPlasmaRifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSmallVSPLaser",
+            "name": "ISSmallVSPLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

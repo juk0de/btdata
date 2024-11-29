@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Charger",
     "model": "CGR-SA5",
     "mul_id": 569,
@@ -96,33 +96,33 @@
     },
     "weapons": [
         {
-            "weapon": "ISStreakSRM6",
+            "name": "ISStreakSRM6",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2,
             "ammo": 15
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC20",
+            "name": "ISLBXAC20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

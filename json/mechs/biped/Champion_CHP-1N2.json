@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Champion",
     "model": "CHP-1N2",
     "mul_id": 549,
@@ -96,25 +96,25 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crossbow",
     "model": "W",
     "mul_id": 8238,
@@ -94,31 +94,31 @@
     },
     "weapons": [
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

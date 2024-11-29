@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Blackjack",
     "model": "BJ-2",
     "mul_id": 377,
@@ -94,25 +94,25 @@
     },
     "weapons": [
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM2",
+            "name": "ISStreakSRM2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISStreakSRM2",
+            "name": "ISStreakSRM2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2,

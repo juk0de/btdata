@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "CattleMaster",
     "model": "CTL-3R 'Herder' IndustrialMech",
     "mul_id": 3905,
@@ -124,9 +124,9 @@
             "12": null
         },
         "left_torso": {
-            "1": "Cargo (3 tons)",
-            "2": "Cargo (3 tons)",
-            "3": "Cargo (3 tons)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
             "4": null,
             "5": null,
             "6": null,
@@ -207,5 +207,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "3t"
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Wolverine",
     "model": "WVR-10V2",
     "mul_id": 8257,
@@ -110,13 +110,13 @@
     },
     "weapons": [
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

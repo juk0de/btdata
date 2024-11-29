@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Wolfhound",
     "model": "WLF-4WA",
     "mul_id": 3568,
@@ -98,19 +98,19 @@
     },
     "weapons": [
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

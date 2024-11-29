@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Banshee",
     "model": "BNC-5S",
     "mul_id": 247,
@@ -95,51 +95,51 @@
     },
     "weapons": [
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 8
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "rear",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "rear",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISSmallLaser",
+            "name": "ISSmallLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSmallLaser",
+            "name": "ISSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rampage",
     "model": "RMP-4G (Benboudaoud)",
     "mul_id": 6974,
@@ -99,49 +99,49 @@
     },
     "weapons": [
         {
-            "weapon": "Large Pulse Laser",
+            "name": "Large Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 20",
+            "name": "LRM 20",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

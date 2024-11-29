@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Initiate",
     "model": "INI-02",
     "mul_id": 1620,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Anti-Missile System",
+            "name": "Anti-Missile System",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

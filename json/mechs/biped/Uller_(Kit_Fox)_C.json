@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Uller",
     "clanname": "Kit Fox",
     "model": "C",
@@ -98,31 +98,31 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Clan TAG",
+            "name": "Clan TAG",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

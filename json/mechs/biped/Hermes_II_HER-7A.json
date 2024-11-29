@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hermes II",
     "model": "HER-7A",
     "mul_id": 9314,
@@ -99,19 +99,19 @@
     },
     "weapons": [
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

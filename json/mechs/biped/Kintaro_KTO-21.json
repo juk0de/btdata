@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Kintaro",
     "model": "KTO-21",
     "mul_id": 1794,
@@ -94,33 +94,33 @@
     },
     "weapons": [
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISImprovedNarc",
+            "name": "ISImprovedNarc",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

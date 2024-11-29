@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Javelin",
     "model": "JVN-10P",
     "mul_id": 1676,
@@ -94,14 +94,14 @@
     },
     "weapons": [
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "ISStreakSRM2",
+            "name": "ISStreakSRM2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2,

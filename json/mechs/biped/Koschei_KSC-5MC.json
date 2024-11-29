@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Koschei",
     "model": "KSC-5MC",
     "mul_id": 1825,
@@ -98,25 +98,25 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 5
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Rotary AC/5",
+            "name": "Rotary AC/5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

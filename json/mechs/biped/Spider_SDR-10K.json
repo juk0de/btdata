@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Spider",
     "model": "SDR-10K",
     "mul_id": 6934,
@@ -98,7 +98,7 @@
     },
     "weapons": [
         {
-            "weapon": "Large Re-engineered Laser",
+            "name": "Large Re-engineered Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

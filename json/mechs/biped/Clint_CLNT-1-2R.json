@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Clint",
     "model": "CLNT-1-2R",
     "mul_id": 643,
@@ -100,13 +100,13 @@
     },
     "weapons": [
         {
-            "weapon": "AC/10",
+            "name": "AC/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

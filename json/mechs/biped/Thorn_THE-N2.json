@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Thorn",
     "model": "THE-N2",
     "mul_id": 3193,
@@ -94,14 +94,14 @@
     },
     "weapons": [
         {
-            "weapon": "ISMML7",
+            "name": "ISMML7",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 31
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Imp",
     "model": "IMP-1B",
     "mul_id": 1608,
@@ -95,56 +95,56 @@
     },
     "weapons": [
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM20",
+            "name": "ISLRM20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 18
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

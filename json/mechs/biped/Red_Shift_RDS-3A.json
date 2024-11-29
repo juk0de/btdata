@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Red Shift",
     "model": "RDS-3A",
     "mul_id": 5652,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Bombard",
     "model": "BMB-016",
     "mul_id": 7980,
@@ -96,25 +96,25 @@
     },
     "weapons": [
         {
-            "weapon": "Light Gauss Rifle",
+            "name": "Light Gauss Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light Gauss Rifle",
+            "name": "Light Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

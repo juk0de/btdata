@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Duan Gung",
     "model": "D9-G10",
     "mul_id": 934,
@@ -96,25 +96,25 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

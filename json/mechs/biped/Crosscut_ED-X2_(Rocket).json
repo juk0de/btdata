@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crosscut",
     "model": "ED-X2 LoggerMech (RL)",
     "mul_id": 6973,
@@ -92,13 +92,13 @@
     },
     "weapons": [
         {
-            "weapon": "Rocket Launcher 10 (PP)",
+            "name": "Rocket Launcher 10 (PP)",
             "location": "left_arm",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Rocket Launcher 10 (PP)",
+            "name": "Rocket Launcher 10 (PP)",
             "location": "right_arm",
             "facing": "front",
             "quantity": 4

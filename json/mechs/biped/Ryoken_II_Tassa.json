@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ryoken II",
     "model": "(Tassa)",
     "mul_id": 8219,
@@ -94,38 +94,38 @@
     },
     "weapons": [
         {
-            "weapon": "CLStreakSRM6",
+            "name": "CLStreakSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "CLERPPC",
+            "name": "CLERPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLStreakSRM6",
+            "name": "CLStreakSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERPPC",
+            "name": "CLERPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

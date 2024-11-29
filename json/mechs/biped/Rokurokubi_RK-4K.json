@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rokurokubi",
     "model": "RK-4K",
     "mul_id": 6393,
@@ -99,7 +99,7 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

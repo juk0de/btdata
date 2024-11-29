@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Warhammer",
     "model": "WHM-6K (Olesko)",
     "mul_id": 7798,
@@ -100,25 +100,25 @@
     },
     "weapons": [
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
@@ -169,10 +169,10 @@
         },
         "right_torso": {
             "1": "Medium Laser",
-            "2": "Communications Equipment (4 ton)",
-            "3": "Communications Equipment (4 ton)",
-            "4": "Communications Equipment (4 ton)",
-            "5": "Communications Equipment (4 ton)",
+            "2": "Communications Equipment",
+            "3": "Communications Equipment",
+            "4": "Communications Equipment",
+            "5": "Communications Equipment",
             "6": null,
             "7": null,
             "8": null,
@@ -256,5 +256,13 @@
             "communications": "O/P 3000 COMSET",
             "targeting": "O/P 1500 ARB"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Communications Equipment",
+            "location": "right_torso",
+            "type": "electronics",
+            "size": "4t"
+        }
+    ]
 }

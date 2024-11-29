@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crossbow",
     "model": "U",
     "mul_id": 740,
@@ -97,37 +97,37 @@
     },
     "weapons": [
         {
-            "weapon": "LRT 10",
+            "name": "LRT 10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRT 2",
+            "name": "SRT 2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRT 10",
+            "name": "LRT 10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRT 2",
+            "name": "SRT 2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

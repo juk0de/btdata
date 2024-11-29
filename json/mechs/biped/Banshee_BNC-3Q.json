@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Banshee",
     "model": "BNC-3Q",
     "mul_id": 244,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/20",
+            "name": "Autocannon/20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

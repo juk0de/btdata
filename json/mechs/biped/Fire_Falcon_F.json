@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Fire Falcon",
     "model": "F",
     "mul_id": 1068,
@@ -97,55 +97,55 @@
     },
     "weapons": [
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Machine Gun Array",
+            "name": "Machine Gun Array",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Machine Gun Array",
+            "name": "Machine Gun Array",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

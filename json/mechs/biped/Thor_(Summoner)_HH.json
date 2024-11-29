@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Thor",
     "clanname": "Summoner",
     "model": "HH",
@@ -99,37 +99,37 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AP Gauss Rifle",
+            "name": "AP Gauss Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "HAG/20",
+            "name": "HAG/20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Cannon",
+            "name": "Plasma Cannon",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

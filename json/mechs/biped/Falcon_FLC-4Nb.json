@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Falcon",
     "model": "FLC-4Nb",
     "mul_id": 1023,
@@ -94,19 +94,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

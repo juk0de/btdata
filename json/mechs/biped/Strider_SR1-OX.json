@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Strider",
     "model": "SR1-OX",
     "mul_id": 3093,
@@ -97,19 +97,19 @@
     },
     "weapons": [
         {
-            "weapon": "MML 3",
+            "name": "MML 3",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 3",
+            "name": "MML 3",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Bombast Laser",
+            "name": "Bombast Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

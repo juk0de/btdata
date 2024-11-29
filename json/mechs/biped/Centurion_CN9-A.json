@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Centurion",
     "model": "CN9-A",
     "mul_id": 516,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/10",
+            "name": "Autocannon/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

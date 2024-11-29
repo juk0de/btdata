@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Locust",
     "model": "LCT-5W",
     "mul_id": 1911,
@@ -99,19 +99,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

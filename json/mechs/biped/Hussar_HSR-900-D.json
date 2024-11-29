@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hussar",
     "model": "HSR-900-D",
     "mul_id": 1591,
@@ -103,7 +103,7 @@
     },
     "weapons": [
         {
-            "weapon": "ISLAC2",
+            "name": "ISLAC2",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,

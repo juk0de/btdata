@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Inferno",
     "model": "INF-NO",
     "mul_id": 7715,
@@ -109,31 +109,31 @@
     },
     "weapons": [
         {
-            "weapon": "MML 5",
+            "name": "MML 5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Re-engineered Laser",
+            "name": "Medium Re-engineered Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 5",
+            "name": "MML 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Re-engineered Laser",
+            "name": "Medium Re-engineered Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

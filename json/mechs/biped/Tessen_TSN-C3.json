@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Tessen",
     "model": "TSN-C3",
     "mul_id": 5209,
@@ -94,38 +94,38 @@
     },
     "weapons": [
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISImprovedNarc",
+            "name": "ISImprovedNarc",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISTAG",
+            "name": "ISTAG",
             "location": "head",
             "facing": "front",
             "quantity": 1

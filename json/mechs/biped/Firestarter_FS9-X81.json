@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Firestarter",
     "model": "FS9-X81",
     "mul_id": 1092,
@@ -91,37 +91,37 @@
     },
     "weapons": [
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer (R)",
+            "name": "ISFlamer (R)",
             "location": "center_torso",
             "facing": "rear",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumXPulseLaser",
+            "name": "ISMediumXPulseLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumXPulseLaser",
+            "name": "ISMediumXPulseLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISPlasmaRifle",
+            "name": "ISPlasmaRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,

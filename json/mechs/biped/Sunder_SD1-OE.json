@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Sunder",
     "model": "SD1-OE",
     "mul_id": 3129,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

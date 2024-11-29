@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Exterminator",
     "model": "EXT-7X",
     "mul_id": 8161,
@@ -96,31 +96,31 @@
     },
     "weapons": [
         {
-            "weapon": "Medium VSP Laser",
+            "name": "Medium VSP Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium VSP Laser",
+            "name": "Medium VSP Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "MRM 10",
+            "name": "MRM 10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

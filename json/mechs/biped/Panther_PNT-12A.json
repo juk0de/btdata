@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Panther",
     "model": "PNT-12A",
     "mul_id": 2418,
@@ -95,20 +95,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM4",
+            "name": "ISStreakSRM4",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 25
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

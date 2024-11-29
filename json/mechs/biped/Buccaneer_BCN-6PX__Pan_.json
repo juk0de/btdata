@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Buccaneer",
     "model": "BCN-6PX 'Pan'",
     "mul_id": 8379,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Re-engineered Laser",
+            "name": "Medium Re-engineered Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

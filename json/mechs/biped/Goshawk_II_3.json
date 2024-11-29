@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Goshawk II",
     "model": "3",
     "mul_id": 1248,
@@ -97,19 +97,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
@@ -184,7 +184,7 @@
             "9": "Fusion Engine",
             "10": "Fusion Engine",
             "11": "Jump Jet",
-            "12": "Liquid Storage"
+            "12": "Cargo (Liquid)"
         },
         "head": {
             "1": "Life Support",
@@ -228,5 +228,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

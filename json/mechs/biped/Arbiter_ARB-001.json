@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Arbiter",
     "model": "ARB-001 SecurityMech",
     "mul_id": 3714,
@@ -91,7 +91,7 @@
     },
     "weapons": [
         {
-            "weapon": "ISHeavyRifle",
+            "name": "ISHeavyRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Centurion",
     "model": "CN9-D4D",
     "mul_id": 5449,
@@ -95,20 +95,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISLightGaussRifle",
+            "name": "ISLightGaussRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,

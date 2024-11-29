@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cataphract",
     "model": "CTF-4X",
     "mul_id": 474,
@@ -94,26 +94,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISAC5",
+            "name": "ISAC5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 80
         },
         {
-            "weapon": "ISAC5",
+            "name": "ISAC5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "head",
             "facing": "front",
             "quantity": 1,

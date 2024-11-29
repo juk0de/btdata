@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Corvis",
     "model": "",
     "mul_id": 700,
@@ -112,13 +112,13 @@
     },
     "weapons": [
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2

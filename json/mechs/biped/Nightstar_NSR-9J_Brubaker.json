@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Nightstar",
     "model": "NSR-9J (Brubaker)",
     "mul_id": 4723,
@@ -98,38 +98,38 @@
     },
     "weapons": [
         {
-            "weapon": "CLLargePulseLaser",
+            "name": "CLLargePulseLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLLargePulseLaser",
+            "name": "CLLargePulseLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLLargePulseLaser",
+            "name": "CLLargePulseLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLGaussRifle",
+            "name": "CLGaussRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 48
         },
         {
-            "weapon": "CLGaussRifle",
+            "name": "CLGaussRifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERSmallLaser",
+            "name": "CLERSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

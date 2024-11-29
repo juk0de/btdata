@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Fireball",
     "model": "ALM-9D",
     "mul_id": 1077,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

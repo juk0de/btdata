@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Venom",
     "model": "SDR-9KE",
     "mul_id": 8007,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Flamer",
+            "name": "ER Flamer",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

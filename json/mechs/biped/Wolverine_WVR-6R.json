@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Wolverine",
     "model": "WVR-6R",
     "mul_id": 3573,
@@ -109,19 +109,19 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/5",
+            "name": "Autocannon/5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

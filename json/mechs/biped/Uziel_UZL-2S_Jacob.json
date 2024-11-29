@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Uziel",
     "model": "UZL-2S (Jacob)",
     "mul_id": 3367,
@@ -97,32 +97,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 60
         },
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,

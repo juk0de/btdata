@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Clint",
     "model": "CLNT-6S",
     "mul_id": 651,
@@ -99,19 +99,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

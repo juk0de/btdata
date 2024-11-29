@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Sunder",
     "model": "SD1-OD",
     "mul_id": 3128,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "LB 20-X AC",
+            "name": "LB 20-X AC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

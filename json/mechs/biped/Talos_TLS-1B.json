@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Talos",
     "model": "TLS-1B",
     "mul_id": 5175,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AC/10",
+            "name": "AC/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

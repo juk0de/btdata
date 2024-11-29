@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Nightstar",
     "model": "NSR-9J (Holt)",
     "mul_id": 7619,
@@ -99,31 +99,31 @@
     },
     "weapons": [
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Large Pulse Laser",
+            "name": "Large Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

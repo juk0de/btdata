@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crimson Langur",
     "model": "A",
     "mul_id": 4016,
@@ -99,13 +99,13 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

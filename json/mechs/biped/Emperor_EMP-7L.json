@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Emperor",
     "model": "EMP-7L",
     "mul_id": 971,
@@ -95,25 +95,25 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/10",
+            "name": "Autocannon/10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/10",
+            "name": "Autocannon/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

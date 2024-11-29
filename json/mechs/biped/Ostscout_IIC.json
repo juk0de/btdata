@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ostscout IIC",
     "model": "",
     "mul_id": 5844,
@@ -102,7 +102,7 @@
     },
     "weapons": [
         {
-            "weapon": "TAG (Clan)",
+            "name": "TAG (Clan)",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

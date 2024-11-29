@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ebony",
     "model": "MEB-13",
     "mul_id": 6943,
@@ -98,7 +98,7 @@
     },
     "weapons": [
         {
-            "weapon": "Large Re-engineered Laser",
+            "name": "Large Re-engineered Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

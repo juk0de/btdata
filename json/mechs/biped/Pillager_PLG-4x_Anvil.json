@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pillager",
     "model": "PLG-4X 'Anvil'",
     "mul_id": 2526,
@@ -99,19 +99,19 @@
     },
     "weapons": [
         {
-            "weapon": "Long Tom Cannon",
+            "name": "Long Tom Cannon",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Long Tom Cannon",
+            "name": "Long Tom Cannon",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "head",
             "facing": "front",
             "quantity": 1

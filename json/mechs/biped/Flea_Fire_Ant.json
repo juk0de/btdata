@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Flea",
     "model": "'Fire Ant'",
     "mul_id": 1135,
@@ -96,32 +96,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3,
             "ammo": 100
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "head",
             "facing": "front",
             "quantity": 1

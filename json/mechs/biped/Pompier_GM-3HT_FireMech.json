@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pompier",
     "model": "GM-3HT Firemech",
     "mul_id": 4844,
@@ -123,8 +123,8 @@
             "12": null
         },
         "left_torso": {
-            "1": "Liquid Storage (1 ton)",
-            "2": "Liquid Storage (1 ton)",
+            "1": "Cargo (Liquid)",
+            "2": "Cargo (Liquid)",
             "3": null,
             "4": null,
             "5": null,
@@ -137,7 +137,7 @@
             "12": null
         },
         "right_torso": {
-            "1": "Liquid Storage (1 ton)",
+            "1": "Cargo (Liquid)",
             "2": "Searchlight",
             "3": null,
             "4": null,
@@ -162,7 +162,7 @@
             "9": "Fusion Engine",
             "10": "Fusion Engine",
             "11": "MechSprayer",
-            "12": "Liquid Storage (1 ton)"
+            "12": "Cargo (Liquid)"
         },
         "head": {
             "1": "Life Support",
@@ -206,5 +206,25 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Liquid)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Liquid)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

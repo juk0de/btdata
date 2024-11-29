@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Merlin",
     "model": "C",
     "mul_id": 9319,
@@ -97,37 +97,37 @@
     },
     "weapons": [
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy Machine Gun",
+            "name": "Heavy Machine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak LRM 5",
+            "name": "Streak LRM 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

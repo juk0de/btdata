@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Atlas",
     "model": "AS7-WGS (Samsonov)",
     "mul_id": 150,
@@ -98,20 +98,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISAC20",
+            "name": "ISAC20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 10
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

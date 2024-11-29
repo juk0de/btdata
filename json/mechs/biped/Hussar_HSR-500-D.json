@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hussar",
     "model": "HSR-500-D",
     "mul_id": 1590,
@@ -103,13 +103,13 @@
     },
     "weapons": [
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

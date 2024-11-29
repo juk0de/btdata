@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Javelin",
     "model": "JVN-11F",
     "mul_id": 1680,
@@ -94,32 +94,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISMG",
+            "name": "ISMG",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3,
             "ammo": 200
         },
         {
-            "weapon": "ISMGA",
+            "name": "ISMGA",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMG",
+            "name": "ISMG",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "ISMGA",
+            "name": "ISMGA",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Quickdraw",
     "model": "QKD-8P",
     "mul_id": 4887,
@@ -100,31 +100,31 @@
     },
     "weapons": [
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISTAG",
+            "name": "ISTAG",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM4",
+            "name": "ISStreakSRM4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,

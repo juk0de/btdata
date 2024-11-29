@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Powerman",
     "model": "SC XI-M-B LoaderMech MOD",
     "mul_id": 2566,
@@ -93,13 +93,13 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
@@ -135,7 +135,7 @@
             "12": null
         },
         "left_torso": {
-            "1": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
             "2": null,
             "3": null,
             "4": null,
@@ -149,7 +149,7 @@
             "12": null
         },
         "right_torso": {
-            "1": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
             "2": null,
             "3": null,
             "4": null,
@@ -174,7 +174,7 @@
             "9": "Fusion Engine",
             "10": "Fusion Engine",
             "11": "IS Ammo SRM-4",
-            "12": "Cargo (0.5 tons)"
+            "12": "Cargo (Standard)"
         },
         "head": {
             "1": "Life Support",
@@ -218,5 +218,25 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "size": "0.5t"
+        }
+    ]
 }

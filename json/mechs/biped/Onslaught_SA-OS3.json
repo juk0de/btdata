@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Onslaught",
     "model": "SA-OS3",
     "mul_id": 2323,
@@ -96,37 +96,37 @@
     },
     "weapons": [
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 3

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pack Hunter",
     "model": "4",
     "mul_id": 2395,
@@ -95,7 +95,7 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

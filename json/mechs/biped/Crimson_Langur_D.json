@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crimson Langur",
     "model": "D",
     "mul_id": 5676,
@@ -99,43 +99,43 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Light TAG",
+            "name": "Light TAG",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Thunderbolt",
     "model": "TDR-7SE",
     "mul_id": 3245,
@@ -97,19 +97,19 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3

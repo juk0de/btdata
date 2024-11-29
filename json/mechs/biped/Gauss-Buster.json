@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Gauss-Buster MilitiaMech",
     "model": "",
     "mul_id": 8100,
@@ -98,7 +98,7 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy Gauss Rifle",
+            "name": "Heavy Gauss Rifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

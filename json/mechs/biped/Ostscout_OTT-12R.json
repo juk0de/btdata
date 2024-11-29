@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ostscout",
     "model": "OTT-12R",
     "mul_id": 7452,
@@ -99,7 +99,7 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

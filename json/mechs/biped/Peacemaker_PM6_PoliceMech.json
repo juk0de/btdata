@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Peacemaker PM-6 PoliceMech",
     "model": "",
     "mul_id": 7173,
@@ -93,19 +93,19 @@
     },
     "weapons": [
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "BattleMech Taser",
+            "name": "BattleMech Taser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 2",
+            "name": "SRM 2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

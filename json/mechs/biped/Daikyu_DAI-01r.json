@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Daikyu",
     "model": "DAI-01r",
     "mul_id": 799,
@@ -95,31 +95,31 @@
     },
     "weapons": [
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Catapult",
     "model": "CPLT-C3",
     "mul_id": 481,
@@ -95,26 +95,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISArrowIVSystem",
+            "name": "ISArrowIVSystem",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 5
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

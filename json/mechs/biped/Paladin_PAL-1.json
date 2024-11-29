@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Paladin",
     "model": "PAL-1",
     "mul_id": 2408,
@@ -96,25 +96,25 @@
     },
     "weapons": [
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 7
         },
         {
-            "weapon": "Large Pulse Laser",
+            "name": "Large Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2

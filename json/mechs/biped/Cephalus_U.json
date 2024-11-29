@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cephalus",
     "model": "U",
     "mul_id": 5642,
@@ -100,7 +100,7 @@
     },
     "weapons": [
         {
-            "weapon": "LRT 5",
+            "name": "LRT 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

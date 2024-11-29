@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hatamoto-Hi",
     "model": "HTM-C",
     "mul_id": 1404,
@@ -95,31 +95,31 @@
     },
     "weapons": [
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1

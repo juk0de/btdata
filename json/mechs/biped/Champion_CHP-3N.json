@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Champion",
     "model": "CHP-3N",
     "mul_id": 552,
@@ -94,39 +94,39 @@
     },
     "weapons": [
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISSmallLaser",
+            "name": "ISSmallLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

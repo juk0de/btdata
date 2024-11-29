@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Phantom",
     "model": "K",
     "mul_id": 9349,
@@ -97,7 +97,7 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

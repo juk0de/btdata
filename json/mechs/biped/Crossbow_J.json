@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crossbow",
     "model": "J",
     "mul_id": 8245,
@@ -94,13 +94,13 @@
     },
     "weapons": [
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 9
         },
         {
-            "weapon": "Improved Heavy Large Laser",
+            "name": "Improved Heavy Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

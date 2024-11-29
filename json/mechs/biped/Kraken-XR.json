@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Kraken-XR",
     "model": "",
     "mul_id": 4463,
@@ -98,33 +98,33 @@
     },
     "weapons": [
         {
-            "weapon": "CLRotaryAC2",
+            "name": "CLRotaryAC2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2,
             "ammo": 90
         },
         {
-            "weapon": "CLRotaryAC2",
+            "name": "CLRotaryAC2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "CLStreakLRM10",
+            "name": "CLStreakLRM10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "CLStreakLRM10",
+            "name": "CLStreakLRM10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERLargeLaser",
+            "name": "CLERLargeLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

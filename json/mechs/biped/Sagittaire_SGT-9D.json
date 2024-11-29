@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Sagittaire",
     "model": "SGT-9D",
     "mul_id": 5717,
@@ -96,62 +96,62 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumLaser (R)",
+            "name": "ISMediumLaser (R)",
             "location": "head",
             "facing": "rear",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISC3MasterComputer",
+            "name": "ISC3MasterComputer",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser (R)",
+            "name": "ISMediumLaser (R)",
             "location": "center_torso",
             "facing": "rear",
             "quantity": 1
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 40
         },
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSmallPulseLaser",
+            "name": "ISSmallPulseLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

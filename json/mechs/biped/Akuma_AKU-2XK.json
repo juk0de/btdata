@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Akuma",
     "model": "AKU-2XK",
     "mul_id": 5714,
@@ -95,50 +95,50 @@
     },
     "weapons": [
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMML9",
+            "name": "ISMML9",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2,
             "ammo": 39
         },
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

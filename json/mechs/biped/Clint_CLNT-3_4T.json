@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Clint",
     "model": "CLNT-3-4T",
     "mul_id": 9462,
@@ -100,19 +100,19 @@
     },
     "weapons": [
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

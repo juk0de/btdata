@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Zeus-X",
     "model": "ZEU-X2",
     "mul_id": 6632,
@@ -104,25 +104,25 @@
     },
     "weapons": [
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MRM 20",
+            "name": "MRM 20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

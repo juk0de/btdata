@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "O-Bakemono",
     "model": "OBK-M11",
     "mul_id": 2311,
@@ -127,25 +127,25 @@
     },
     "weapons": [
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "MRM 40",
+            "name": "MRM 40",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MRM 40",
+            "name": "MRM 40",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

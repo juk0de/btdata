@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cicada",
     "model": "CDA-3MA",
     "mul_id": 597,
@@ -94,25 +94,25 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSmallPulseLaser",
+            "name": "ISSmallPulseLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

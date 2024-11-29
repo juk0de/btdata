@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Assassin",
     "model": "ASN-23",
     "mul_id": 128,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

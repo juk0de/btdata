@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hunchback",
     "model": "HBK-6N",
     "mul_id": 4337,
@@ -95,26 +95,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISAC20",
+            "name": "ISAC20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSmallPulseLaser",
+            "name": "ISSmallPulseLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

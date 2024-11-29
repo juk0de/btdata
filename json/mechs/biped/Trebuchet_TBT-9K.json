@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Trebuchet",
     "model": "TBT-9K",
     "mul_id": 3302,
@@ -102,32 +102,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMRM20",
+            "name": "ISMRM20",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 36
         },
         {
-            "weapon": "ISMRM20",
+            "name": "ISMRM20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

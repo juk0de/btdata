@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Razorback",
     "model": "RZK-10S",
     "mul_id": 5661,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "ISBeagleActiveProbe",
+            "name": "ISBeagleActiveProbe",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMML5",
+            "name": "ISMML5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,

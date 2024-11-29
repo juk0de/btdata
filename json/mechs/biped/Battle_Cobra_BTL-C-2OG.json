@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Battle Cobra",
     "model": "BTL-C-2OG",
     "mul_id": 9492,
@@ -97,25 +97,25 @@
     },
     "weapons": [
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

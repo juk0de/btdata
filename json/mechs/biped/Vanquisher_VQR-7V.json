@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Vanquisher",
     "model": "VQR-7V",
     "mul_id": 5722,
@@ -99,38 +99,38 @@
     },
     "weapons": [
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 100
         },
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

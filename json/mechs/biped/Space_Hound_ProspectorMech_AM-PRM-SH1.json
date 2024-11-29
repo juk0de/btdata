@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Space Hound ProspectorMech",
     "model": "AM-PRM-SH1",
     "mul_id": 5101,
@@ -93,7 +93,7 @@
     },
     "weapons": [
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
@@ -129,7 +129,7 @@
             "12": null
         },
         "left_torso": {
-            "1": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
             "2": "Environmental Sealing",
             "3": null,
             "4": null,
@@ -143,8 +143,8 @@
             "12": null
         },
         "right_torso": {
-            "1": "Cargo (1 ton)",
-            "2": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
             "3": "Jump Jet",
             "4": "Heat Sink",
             "5": "Environmental Sealing",
@@ -212,5 +212,19 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

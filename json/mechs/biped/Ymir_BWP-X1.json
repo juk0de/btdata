@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ymir",
     "model": "BWP-X1 'Bipedal Weapons Platform'",
     "mul_id": 3623,
@@ -98,31 +98,31 @@
     },
     "weapons": [
         {
-            "weapon": "Large Laser",
+            "name": "Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Vehicle Flamer",
+            "name": "Vehicle Flamer",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "AC/5",
+            "name": "AC/5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "SRM 2",
+            "name": "SRM 2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 4

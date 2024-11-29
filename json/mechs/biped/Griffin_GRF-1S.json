@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Griffin",
     "model": "GRF-1S",
     "mul_id": 1298,
@@ -107,19 +107,19 @@
     },
     "weapons": [
         {
-            "weapon": "Large Laser",
+            "name": "Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

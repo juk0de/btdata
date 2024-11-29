@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Shogun",
     "model": "SHG-2E",
     "mul_id": 2932,
@@ -97,33 +97,33 @@
     },
     "weapons": [
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

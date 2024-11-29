@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Nobori-nin",
     "clanname": "Huntsman",
     "model": "N",
@@ -98,25 +98,25 @@
     },
     "weapons": [
         {
-            "weapon": "ATM 6",
+            "name": "ATM 6",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

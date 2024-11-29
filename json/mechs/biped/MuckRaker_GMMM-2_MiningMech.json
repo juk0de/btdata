@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "MuckRaker",
     "model": "GMMM-2 MiningMech",
     "mul_id": 4220,
@@ -124,31 +124,31 @@
             "12": null
         },
         "left_torso": {
-            "1": "Cargo",
-            "2": "Cargo",
-            "3": "Cargo",
-            "4": "Cargo",
-            "5": "Cargo",
-            "6": "Cargo",
-            "7": "Cargo",
-            "8": "Cargo",
-            "9": "Cargo",
-            "10": "Cargo",
-            "11": "Cargo",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
+            "6": "Cargo (Standard)",
+            "7": "Cargo (Standard)",
+            "8": "Cargo (Standard)",
+            "9": "Cargo (Standard)",
+            "10": "Cargo (Standard)",
+            "11": "Cargo (Standard)",
             "12": "Dumper (Front)"
         },
         "right_torso": {
-            "1": "Cargo",
-            "2": "Cargo",
-            "3": "Cargo",
-            "4": "Cargo",
-            "5": "Cargo",
-            "6": "Cargo",
-            "7": "Cargo",
-            "8": "Cargo",
-            "9": "Cargo",
-            "10": "Cargo",
-            "11": "Cargo",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
+            "6": "Cargo (Standard)",
+            "7": "Cargo (Standard)",
+            "8": "Cargo (Standard)",
+            "9": "Cargo (Standard)",
+            "10": "Cargo (Standard)",
+            "11": "Cargo (Standard)",
             "12": "Dumper (Front)"
         },
         "center_torso": {
@@ -230,5 +230,19 @@
         "systemmode": {
             "armor": "Heavy Industrial"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "11t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "11t"
+        }
+    ]
 }

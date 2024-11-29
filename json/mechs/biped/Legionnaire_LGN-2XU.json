@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Legionnaire",
     "model": "LGN-2XU",
     "mul_id": 1866,
@@ -104,7 +104,7 @@
     },
     "weapons": [
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

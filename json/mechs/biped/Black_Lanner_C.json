@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Black Lanner",
     "model": "C",
     "mul_id": 365,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 6
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

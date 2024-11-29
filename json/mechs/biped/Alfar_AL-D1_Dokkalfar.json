@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Alfar",
     "model": "AL-D1 'D\u00f6kk\u00e1lfar'",
     "mul_id": 3693,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

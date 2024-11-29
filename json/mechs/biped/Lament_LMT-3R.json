@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lament",
     "model": "LMT-3R",
     "mul_id": 6723,
@@ -101,31 +101,31 @@
     },
     "weapons": [
         {
-            "weapon": "Small X-Pulse Laser",
+            "name": "Small X-Pulse Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small X-Pulse Laser",
+            "name": "Small X-Pulse Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hussar",
     "model": "HSR-200-D",
     "mul_id": 1585,
@@ -105,7 +105,7 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

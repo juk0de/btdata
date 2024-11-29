@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Jenner",
     "model": "JR7-K (Grace II)",
     "mul_id": 1695,
@@ -94,20 +94,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISNarcBeacon",
+            "name": "ISNarcBeacon",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 6
         },
         {
-            "weapon": "ISLPPC",
+            "name": "ISLPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLPPC",
+            "name": "ISLPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Thunderbolt",
     "model": "TDR-5Sb",
     "mul_id": 3239,
@@ -96,33 +96,33 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM2",
+            "name": "ISStreakSRM2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 50
         },
         {
-            "weapon": "ISSmallPulseLaser",
+            "name": "ISSmallPulseLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2

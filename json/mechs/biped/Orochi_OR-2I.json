@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Orochi",
     "model": "OR-2I",
     "mul_id": 2343,
@@ -96,31 +96,31 @@
     },
     "weapons": [
         {
-            "weapon": "Thunderbolt 20",
+            "name": "Thunderbolt 20",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 4",
+            "name": "Streak SRM 4",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Thunderbolt 20",
+            "name": "Thunderbolt 20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 4",
+            "name": "Streak SRM 4",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

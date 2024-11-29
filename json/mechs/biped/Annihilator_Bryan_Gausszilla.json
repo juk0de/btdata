@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Annihilator",
     "model": "C 'Gausszilla'",
     "mul_id": 44,
@@ -94,26 +94,26 @@
     },
     "weapons": [
         {
-            "weapon": "CLGaussRifle",
+            "name": "CLGaussRifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2,
             "ammo": 64
         },
         {
-            "weapon": "CLGaussRifle",
+            "name": "CLGaussRifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLGaussRifle",
+            "name": "CLGaussRifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLGaussRifle",
+            "name": "CLGaussRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

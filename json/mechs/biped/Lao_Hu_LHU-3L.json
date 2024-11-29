@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lao Hu",
     "model": "LHU-3L",
     "mul_id": 5695,
@@ -94,21 +94,21 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 60
         },
         {
-            "weapon": "ISPlasmaRifle",
+            "name": "ISPlasmaRifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,

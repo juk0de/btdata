@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Juggernaut",
     "model": "JG-R9T2",
     "mul_id": 1714,
@@ -96,49 +96,49 @@
     },
     "weapons": [
         {
-            "weapon": "Large X-Pulse Laser",
+            "name": "Large X-Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Large X-Pulse Laser",
+            "name": "Large X-Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 6
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 6
         },
         {
-            "weapon": "Large X-Pulse Laser",
+            "name": "Large X-Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Patron MilitiaMech",
     "model": "PTN-2",
     "mul_id": 4794,
@@ -92,26 +92,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISLightMG",
+            "name": "ISLightMG",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2,
             "ammo": 200
         },
         {
-            "weapon": "ISLightMG",
+            "name": "ISLightMG",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISRocketLauncher10",
+            "name": "ISRocketLauncher10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 5
         },
         {
-            "weapon": "Searchlight",
+            "name": "Searchlight",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

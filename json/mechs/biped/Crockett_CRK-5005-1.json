@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crockett",
     "model": "CRK-5005-1",
     "mul_id": 729,
@@ -96,39 +96,39 @@
     },
     "weapons": [
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMML3",
+            "name": "ISMML3",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 73
         },
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISMML3",
+            "name": "ISMML3",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Battle Cobra",
     "model": "BTL-C-2OH",
     "mul_id": 9493,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Thunderbolt 15",
+            "name": "Thunderbolt 15",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

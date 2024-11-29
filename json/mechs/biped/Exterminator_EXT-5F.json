@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Exterminator",
     "model": "EXT-5F",
     "mul_id": 1007,
@@ -94,32 +94,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMML7",
+            "name": "ISMML7",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 31
         },
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

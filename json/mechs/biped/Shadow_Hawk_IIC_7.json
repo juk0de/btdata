@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Shadow Hawk IIC",
     "model": "7",
     "mul_id": 2917,
@@ -97,25 +97,25 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 6",
+            "name": "ATM 6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
@@ -162,7 +162,7 @@
             "9": "Clan Ammo ATM-6",
             "10": "Clan Ammo ATM-6 ER",
             "11": "Clan Ammo ATM-6 HE",
-            "12": "Liquid Storage (1 ton)"
+            "12": "Cargo (Liquid)"
         },
         "right_torso": {
             "1": "Fusion Engine",
@@ -175,7 +175,7 @@
             "8": "CLATM6",
             "9": "CLATM6",
             "10": "CLERLargeLaser",
-            "11": "Liquid Storage (1 ton)",
+            "11": "Cargo (Liquid)",
             "12": "Ferro-Fibrous"
         },
         "center_torso": {
@@ -255,5 +255,19 @@
             "communications": "JNE Integrated",
             "targeting": "TRTTS Mark II"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Liquid)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

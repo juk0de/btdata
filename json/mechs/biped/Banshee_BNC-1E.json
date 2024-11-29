@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Banshee",
     "model": "BNC-1E",
     "mul_id": 3785,
@@ -101,25 +101,25 @@
     },
     "weapons": [
         {
-            "weapon": "AC/5",
+            "name": "AC/5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Primitive Prototype PPC",
+            "name": "Primitive Prototype PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

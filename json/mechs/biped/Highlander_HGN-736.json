@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Highlander",
     "model": "HGN-736",
     "mul_id": 1521,
@@ -97,34 +97,34 @@
     },
     "weapons": [
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISStreakSRM4",
+            "name": "ISStreakSRM4",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 25
         },
         {
-            "weapon": "ISLRM20",
+            "name": "ISLRM20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

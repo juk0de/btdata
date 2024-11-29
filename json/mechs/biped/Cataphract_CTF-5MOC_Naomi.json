@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cataphract",
     "model": "CTF-5MOC (Naomi)",
     "mul_id": 476,
@@ -95,50 +95,50 @@
     },
     "weapons": [
         {
-            "weapon": "ISPlasmaRifle",
+            "name": "ISPlasmaRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISRocketLauncher10",
+            "name": "ISRocketLauncher10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISRocketLauncher10",
+            "name": "ISRocketLauncher10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

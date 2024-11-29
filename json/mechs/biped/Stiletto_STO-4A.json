@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Stiletto",
     "model": "STO-4A",
     "mul_id": 5131,
@@ -97,19 +97,19 @@
     },
     "weapons": [
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

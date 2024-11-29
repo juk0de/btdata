@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Bushwacker",
     "model": "BSW-L1",
     "mul_id": 447,
@@ -103,13 +103,13 @@
     },
     "weapons": [
         {
-            "weapon": "LB 20-X AC",
+            "name": "LB 20-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

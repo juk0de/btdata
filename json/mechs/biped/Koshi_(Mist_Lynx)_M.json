@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Koshi",
     "clanname": "Mist Lynx",
     "model": "M",
@@ -99,19 +99,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Plasma Cannon",
+            "name": "Plasma Cannon",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 2",
+            "name": "SRM 2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

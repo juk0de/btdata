@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dervish",
     "model": "DV-8D2 'Lightbringer'",
     "mul_id": 882,
@@ -95,43 +95,43 @@
     },
     "weapons": [
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Spikes",
+            "name": "Spikes",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "IS Coolant Pod",
+            "name": "IS Coolant Pod",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "IS Coolant Pod",
+            "name": "IS Coolant Pod",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

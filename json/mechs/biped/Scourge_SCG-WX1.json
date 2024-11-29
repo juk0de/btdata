@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Scourge",
     "model": "SCG-WX1",
     "mul_id": 8109,
@@ -100,19 +100,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Large Laser",
+            "name": "Improved Heavy Large Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

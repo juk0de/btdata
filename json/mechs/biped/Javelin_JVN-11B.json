@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Javelin",
     "model": "JVN-11B",
     "mul_id": 1678,
@@ -94,26 +94,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 50
         },
         {
-            "weapon": "ISBeagleActiveProbe",
+            "name": "ISBeagleActiveProbe",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

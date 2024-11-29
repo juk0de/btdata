@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dart",
     "model": "DRT-3S",
     "mul_id": 828,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

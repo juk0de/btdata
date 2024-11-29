@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Sentinel",
     "model": "STN-4D",
     "mul_id": 2863,
@@ -94,14 +94,14 @@
     },
     "weapons": [
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 40
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

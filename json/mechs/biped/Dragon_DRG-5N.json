@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dragon",
     "model": "DRG-5N",
     "mul_id": 911,
@@ -95,21 +95,21 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISUltraAC5",
+            "name": "ISUltraAC5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

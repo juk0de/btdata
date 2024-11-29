@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Stalker",
     "model": "STK-5M",
     "mul_id": 3040,
@@ -96,52 +96,52 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 48
         },
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "ISNarcBeacon",
+            "name": "ISNarcBeacon",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

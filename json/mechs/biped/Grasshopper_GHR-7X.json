@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Grasshopper",
     "model": "GHR-7X",
     "mul_id": 1271,
@@ -95,25 +95,25 @@
     },
     "weapons": [
         {
-            "weapon": "ISBombastLaser",
+            "name": "ISBombastLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISBombastLaser",
+            "name": "ISBombastLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISBloodhoundActiveProbe",
+            "name": "ISBloodhoundActiveProbe",
             "location": "head",
             "facing": "front",
             "quantity": 1

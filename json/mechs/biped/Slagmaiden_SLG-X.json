@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Slagmaiden",
     "model": "SLG-X",
     "mul_id": 5078,
@@ -112,25 +112,25 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy Large Laser",
+            "name": "Heavy Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Flamer",
+            "name": "ER Flamer",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

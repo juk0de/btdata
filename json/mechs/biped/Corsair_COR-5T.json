@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Corsair",
     "model": "COR-5T",
     "config": "Biped",
@@ -91,31 +91,31 @@
     },
     "weapons": [
         {
-            "weapon": "AC/2",
+            "name": "AC/2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "AC/2",
+            "name": "AC/2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

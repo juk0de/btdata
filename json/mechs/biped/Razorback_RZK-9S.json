@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Razorback",
     "model": "RZK-9S",
     "mul_id": 4904,
@@ -95,27 +95,27 @@
     },
     "weapons": [
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM4",
+            "name": "ISStreakSRM4",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 25
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2,
             "ammo": 100
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "DemolitionMech",
     "model": "WI-DM",
     "mul_id": 868,
@@ -95,7 +95,7 @@
     },
     "weapons": [
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
@@ -170,7 +170,7 @@
             "9": "Fusion Engine",
             "10": "Fusion Engine",
             "11": "Small Laser",
-            "12": "Cargo (0.5 tons)"
+            "12": "Cargo (Standard)"
         },
         "head": {
             "1": "Life Support",
@@ -214,5 +214,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "size": "0.5t"
+        }
+    ]
 }

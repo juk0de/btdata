@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Vulture",
     "clanname": "Mad Dog",
     "model": "C",
@@ -98,13 +98,13 @@
     },
     "weapons": [
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

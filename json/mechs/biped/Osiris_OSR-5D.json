@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Osiris",
     "model": "OSR-5D",
     "mul_id": 5660,
@@ -95,7 +95,7 @@
     },
     "weapons": [
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

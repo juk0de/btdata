@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Charger",
     "model": "CGR-1X1",
     "mul_id": 563,
@@ -96,55 +96,55 @@
     },
     "weapons": [
         {
-            "weapon": "ISTAG",
+            "name": "ISTAG",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumXPulseLaser",
+            "name": "ISMediumXPulseLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISC3BoostedSystemSlaveUnit",
+            "name": "ISC3BoostedSystemSlaveUnit",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLaserAntiMissileSystem",
+            "name": "ISLaserAntiMissileSystem",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAngelECM",
+            "name": "ISAngelECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISBloodhoundActiveProbe",
+            "name": "ISBloodhoundActiveProbe",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISChaffPod",
+            "name": "ISChaffPod",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLaserAntiMissileSystem",
+            "name": "ISLaserAntiMissileSystem",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cephalus",
     "model": "Prime",
     "mul_id": 3930,
@@ -100,19 +100,19 @@
     },
     "weapons": [
         {
-            "weapon": "Light TAG",
+            "name": "Light TAG",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

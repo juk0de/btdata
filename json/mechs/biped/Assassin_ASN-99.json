@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Assassin",
     "model": "ASN-99",
     "mul_id": 130,
@@ -97,38 +97,38 @@
     },
     "weapons": [
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM2",
+            "name": "ISSRM2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 50
         },
         {
-            "weapon": "ISSRM2",
+            "name": "ISSRM2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISTAG",
+            "name": "ISTAG",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Sword",
+            "name": "Sword",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

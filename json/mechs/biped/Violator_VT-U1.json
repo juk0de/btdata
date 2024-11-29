@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Violator",
     "model": "VT-U1",
     "mul_id": 6503,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "MRM 10",
+            "name": "MRM 10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MRM 10",
+            "name": "MRM 10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

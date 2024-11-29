@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Koshi",
     "clanname": "Mist Lynx",
     "model": "N",
@@ -99,31 +99,31 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Heavy Small Laser",
+            "name": "Heavy Small Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "TAG (Clan)",
+            "name": "TAG (Clan)",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

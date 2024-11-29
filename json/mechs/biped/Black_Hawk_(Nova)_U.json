@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Black Hawk",
     "clanname": "Nova",
     "model": "U",
@@ -99,25 +99,25 @@
     },
     "weapons": [
         {
-            "weapon": "Micro Pulse Laser",
+            "name": "Micro Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 4
@@ -164,7 +164,7 @@
             "9": "CLMG (OMNIPOD)",
             "10": "CLMG (OMNIPOD)",
             "11": "CLLightActiveProbe (OMNIPOD)",
-            "12": "Liquid Storage (OMNIPOD)"
+            "12": "Cargo (Liquid) [omnipod]"
         },
         "right_torso": {
             "1": "Fusion Engine",
@@ -178,7 +178,7 @@
             "9": "CLMG (OMNIPOD)",
             "10": "CLMG (OMNIPOD)",
             "11": "Clan Machine Gun Ammo - Half (OMNIPOD)",
-            "12": "Liquid Storage (OMNIPOD)"
+            "12": "Cargo (Liquid) [omnipod]"
         },
         "center_torso": {
             "1": "Fusion Engine",
@@ -258,5 +258,25 @@
             "communications": "CH3B",
             "targeting": "Version Omega-V TTS"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "tags": [
+                "omnipod"
+            ],
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Liquid)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "tags": [
+                "omnipod"
+            ],
+            "size": "1t"
+        }
+    ]
 }

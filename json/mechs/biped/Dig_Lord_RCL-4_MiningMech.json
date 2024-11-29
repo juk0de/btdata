@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dig Lord",
     "model": "RCL-4 MiningMech",
     "mul_id": 4079,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "Fluid Gun",
+            "name": "Fluid Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Fluid Gun",
+            "name": "Fluid Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2

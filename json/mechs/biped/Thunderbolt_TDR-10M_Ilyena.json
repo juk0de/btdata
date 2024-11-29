@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Thunderbolt",
     "model": "TDR-10M (Ilyena)",
     "mul_id": 3233,
@@ -96,32 +96,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISC3MasterComputer",
+            "name": "ISC3MasterComputer",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMML5",
+            "name": "ISMML5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 48
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

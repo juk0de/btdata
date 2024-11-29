@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Banshee",
     "model": "BNC-6S",
     "mul_id": 248,
@@ -95,21 +95,21 @@
     },
     "weapons": [
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISHeavyGaussRifle",
+            "name": "ISHeavyGaussRifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISSmallLaser",
+            "name": "ISSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

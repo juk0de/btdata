@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hoplite",
     "model": "HOP-4Bb",
     "mul_id": 1541,
@@ -94,25 +94,25 @@
     },
     "weapons": [
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAntiMissileSystem",
+            "name": "ISAntiMissileSystem",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,

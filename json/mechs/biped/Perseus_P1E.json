@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Perseus",
     "model": "P1E",
     "mul_id": 5697,
@@ -98,37 +98,37 @@
     },
     "weapons": [
         {
-            "weapon": "Large VSP Laser",
+            "name": "Large VSP Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium VSP Laser",
+            "name": "Medium VSP Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6 (I-OS)",
+            "name": "SRM 6 (I-OS)",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
@@ -183,9 +183,9 @@
             "3": "Fusion Engine",
             "4": "IS Gauss Ammo (omnipod)",
             "5": "IS Gauss Ammo (omnipod)",
-            "6": "Communications Equipment (1 ton) (omnipod)",
-            "7": "Communications Equipment (1 ton) (omnipod)",
-            "8": "Communications Equipment (1 ton) (omnipod)",
+            "6": "Communications Equipment [omnipod]",
+            "7": "Communications Equipment [omnipod]",
+            "8": "Communications Equipment [omnipod]",
             "9": "IS Endo Steel",
             "10": "IS Endo Steel",
             "11": "IS Endo Steel",
@@ -266,5 +266,16 @@
             "communications": "Irian Orator-5K",
             "targeting": "Wasat Aggressor Type 5 with OmniLink"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Communications Equipment",
+            "location": "right_torso",
+            "type": "electronics",
+            "tags": [
+                "omnipod"
+            ],
+            "size": "1t"
+        }
+    ]
 }

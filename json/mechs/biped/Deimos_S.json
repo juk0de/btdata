@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Deimos",
     "model": "S",
     "mul_id": 857,
@@ -97,55 +97,55 @@
     },
     "weapons": [
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Pulse Laser",
+            "name": "Small Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "head",
             "facing": "front",
             "quantity": 1
@@ -220,7 +220,7 @@
             "9": "Fusion Engine",
             "10": "Fusion Engine",
             "11": "CLAMS Ammo",
-            "12": "Liquid Storage (1 ton) (omnipod)"
+            "12": "Cargo (Liquid) [omnipod]"
         },
         "head": {
             "1": "Life Support",
@@ -283,5 +283,16 @@
             "communications": "TDWS-37 Mk. 2.2",
             "targeting": "Hermes CT-44"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "tags": [
+                "omnipod"
+            ],
+            "size": "1t"
+        }
+    ]
 }

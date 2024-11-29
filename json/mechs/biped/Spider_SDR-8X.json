@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Spider",
     "model": "SDR-8X",
     "mul_id": 3019,
@@ -97,7 +97,7 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Catapult",
     "model": "CPLT-C2",
     "mul_id": 5452,
@@ -95,27 +95,27 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 32
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC2",
+            "name": "ISLBXAC2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 45
         },
         {
-            "weapon": "ISLBXAC2",
+            "name": "ISLBXAC2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

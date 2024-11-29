@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Panther",
     "model": "PNT-10K",
     "mul_id": 2416,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,

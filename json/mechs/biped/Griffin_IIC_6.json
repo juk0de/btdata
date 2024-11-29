@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Griffin IIC",
     "model": "6",
     "mul_id": 1315,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy Large Laser",
+            "name": "Heavy Large Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 3",
+            "name": "ATM 3",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 3",
+            "name": "ATM 3",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Katana (Crockett)",
     "model": "CRK-5003-CJ",
     "mul_id": 1762,
@@ -95,51 +95,51 @@
     },
     "weapons": [
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1

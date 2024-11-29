@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Shockwave",
     "model": "SKW-8X",
     "mul_id": 6902,
@@ -100,13 +100,13 @@
     },
     "weapons": [
         {
-            "weapon": "Ultra AC/10",
+            "name": "Ultra AC/10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Thumper Cannon",
+            "name": "Thumper Cannon",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

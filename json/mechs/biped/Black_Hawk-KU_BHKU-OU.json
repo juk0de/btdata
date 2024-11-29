@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Black Hawk-KU",
     "model": "BHKU-OU",
     "mul_id": 353,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 6
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
@@ -178,7 +178,7 @@
             "9": "Fusion Engine",
             "10": "Fusion Engine",
             "11": "Jump Jet",
-            "12": "Liquid Storage (1 ton) (omnipod)"
+            "12": "Cargo (Liquid) [omnipod]"
         },
         "head": {
             "1": "Life Support",
@@ -253,5 +253,16 @@
             "communications": "Sipher CommSys 4b",
             "targeting": "Matabushi Sentinel Plus"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "tags": [
+                "omnipod"
+            ],
+            "size": "1t"
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Piranha",
     "model": "2",
     "mul_id": 2536,
@@ -95,31 +95,31 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 6
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 6
         },
         {
-            "weapon": "Heavy Small Laser",
+            "name": "Heavy Small Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

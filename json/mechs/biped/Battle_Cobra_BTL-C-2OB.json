@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Battle Cobra",
     "model": "BTL-C-2OB",
     "mul_id": 265,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "MRM 10",
+            "name": "MRM 10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "MRM 10",
+            "name": "MRM 10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

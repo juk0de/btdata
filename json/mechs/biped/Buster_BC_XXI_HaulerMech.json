@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Buster",
     "model": "BC XXI HaulerMech",
     "mul_id": 7220,
@@ -124,11 +124,11 @@
             "12": null
         },
         "left_torso": {
-            "1": "Cargo (5 tons)",
-            "2": "Cargo (5 tons)",
-            "3": "Cargo (5 tons)",
-            "4": "Cargo (5 tons)",
-            "5": "Cargo (5 tons)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
             "6": "Industrial TSM",
             "7": "Industrial TSM",
             "8": "Industrial TSM",
@@ -138,11 +138,11 @@
             "12": null
         },
         "right_torso": {
-            "1": "Cargo (5 tons)",
-            "2": "Cargo (5 tons)",
-            "3": "Cargo (5 tons)",
-            "4": "Cargo (5 tons)",
-            "5": "Cargo (5 tons)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
             "6": "Industrial TSM",
             "7": "Industrial TSM",
             "8": "Industrial TSM",
@@ -162,7 +162,7 @@
             "8": "Fusion Engine",
             "9": "Fusion Engine",
             "10": "Fusion Engine",
-            "11": "Cargo (1 ton)",
+            "11": "Cargo (Standard)",
             "12": null
         },
         "head": {
@@ -207,5 +207,25 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "5t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "5t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

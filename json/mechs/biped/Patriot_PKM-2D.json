@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Patriot",
     "model": "PKM-2D",
     "mul_id": 2448,
@@ -99,31 +99,31 @@
     },
     "weapons": [
         {
-            "weapon": "LB 20-X AC",
+            "name": "LB 20-X AC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "head",
             "facing": "front",
             "quantity": 1

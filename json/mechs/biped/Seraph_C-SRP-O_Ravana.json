@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Seraph",
     "model": "C-SRP-OR (Ravana)",
     "mul_id": 2875,
@@ -99,38 +99,38 @@
     },
     "weapons": [
         {
-            "weapon": "ISSNPPC",
+            "name": "ISSNPPC",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargeVSPLaser",
+            "name": "ISLargeVSPLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISThunderbolt20",
+            "name": "ISThunderbolt20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "Retractable Blade",
+            "name": "Retractable Blade",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLaserAntiMissileSystem",
+            "name": "ISLaserAntiMissileSystem",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

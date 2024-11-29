@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dart",
     "model": "DRT-6T",
     "mul_id": 831,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

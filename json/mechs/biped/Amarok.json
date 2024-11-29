@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Amarok",
     "model": "",
     "mul_id": 8239,
@@ -98,25 +98,25 @@
     },
     "weapons": [
         {
-            "weapon": "Rotary AC/5",
+            "name": "Rotary AC/5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Large Pulse Laser",
+            "name": "Large Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

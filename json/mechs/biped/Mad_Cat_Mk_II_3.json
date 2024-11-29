@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Mad Cat Mk II",
     "model": "3",
     "mul_id": 5716,
@@ -94,45 +94,45 @@
     },
     "weapons": [
         {
-            "weapon": "CLLightActiveProbe",
+            "name": "CLLightActiveProbe",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "CLLRM10",
+            "name": "CLLRM10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "CLLRM10",
+            "name": "CLLRM10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLHAG30",
+            "name": "CLHAG30",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 32
         },
         {
-            "weapon": "CLHAG30",
+            "name": "CLHAG30",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

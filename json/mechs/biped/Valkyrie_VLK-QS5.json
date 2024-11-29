@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Valkyrie",
     "model": "VLK-QS5",
     "mul_id": 3379,
@@ -99,13 +99,13 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 9",
+            "name": "MML 9",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

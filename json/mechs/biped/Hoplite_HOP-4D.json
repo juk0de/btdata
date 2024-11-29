@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hoplite",
     "model": "HOP-4D",
     "mul_id": 1543,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

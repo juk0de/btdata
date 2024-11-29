@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Storm Giant",
     "model": "",
     "mul_id": 7649,
@@ -97,25 +97,25 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 20",
+            "name": "LRM 20",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 20",
+            "name": "LRM 20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Ultra AC/20",
+            "name": "Ultra AC/20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

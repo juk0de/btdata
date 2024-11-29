@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Whitworth",
     "model": "WTH-3",
     "mul_id": 3543,
@@ -95,20 +95,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2,
             "ammo": 96
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1

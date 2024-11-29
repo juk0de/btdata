@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Vindicator",
     "model": "VND-4L",
     "mul_id": 3429,
@@ -95,32 +95,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

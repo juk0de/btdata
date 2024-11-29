@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Burrower",
     "model": "DTM-1M MiningMech MOD",
     "mul_id": 7875,
@@ -93,13 +93,13 @@
     },
     "weapons": [
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "MML 9",
+            "name": "MML 9",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

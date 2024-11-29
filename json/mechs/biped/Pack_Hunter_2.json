@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pack Hunter",
     "model": "2",
     "mul_id": 2393,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 4

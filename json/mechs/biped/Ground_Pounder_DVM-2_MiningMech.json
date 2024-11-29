@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ground Pounder",
     "model": "DVM-2 MiningMech",
     "mul_id": 7872,
@@ -126,8 +126,8 @@
         "left_torso": {
             "1": "MechSprayer",
             "2": "MechSprayer",
-            "3": "Liquid Storage",
-            "4": "Liquid Storage",
+            "3": "Cargo (Liquid)",
+            "4": "Cargo (Liquid)",
             "5": null,
             "6": null,
             "7": null,
@@ -140,8 +140,8 @@
         "right_torso": {
             "1": "MechSprayer",
             "2": "MechSprayer",
-            "3": "Liquid Storage",
-            "4": "Liquid Storage",
+            "3": "Cargo (Liquid)",
+            "4": "Cargo (Liquid)",
             "5": null,
             "6": null,
             "7": null,
@@ -207,5 +207,19 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "2t"
+        },
+        {
+            "name": "Cargo (Liquid)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "2t"
+        }
+    ]
 }

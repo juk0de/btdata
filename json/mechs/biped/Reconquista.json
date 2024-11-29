@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Reconquista",
     "model": "",
     "mul_id": 7472,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AC/10",
+            "name": "AC/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

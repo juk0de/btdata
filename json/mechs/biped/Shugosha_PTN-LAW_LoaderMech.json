@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Shugosha",
     "model": "PTN-LAW LoaderMech",
     "mul_id": 7157,
@@ -129,8 +129,8 @@
             "3": "Lift Hoist",
             "4": "Lift Hoist",
             "5": "Lift Hoist",
-            "6": "Cargo (1.5 tons)",
-            "7": "Cargo (1.5 tons)",
+            "6": "Cargo (Standard)",
+            "7": "Cargo (Standard)",
             "8": null,
             "9": null,
             "10": null,
@@ -143,8 +143,8 @@
             "3": "Lift Hoist",
             "4": "Lift Hoist",
             "5": "Lift Hoist",
-            "6": "Cargo (1.5 tons)",
-            "7": "Cargo (1.5 tons)",
+            "6": "Cargo (Standard)",
+            "7": "Cargo (Standard)",
             "8": null,
             "9": null,
             "10": null,
@@ -207,5 +207,19 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1.5t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1.5t"
+        }
+    ]
 }

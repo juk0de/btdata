@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "BattleMaster",
     "model": "BLR-4S (Calvin)",
     "mul_id": 296,
@@ -95,44 +95,44 @@
     },
     "weapons": [
         {
-            "weapon": "ISRotaryAC5",
+            "name": "ISRotaryAC5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 40
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM6",
+            "name": "ISStreakSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,

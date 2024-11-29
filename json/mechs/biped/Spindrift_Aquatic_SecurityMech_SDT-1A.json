@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Spindrift Aquatic SecurityMech",
     "model": "SDT-1A",
     "mul_id": 5106,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRT6",
+            "name": "ISSRT6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

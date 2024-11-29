@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ryoken III",
     "clanname": "Skinwalker",
     "model": "F",
@@ -97,19 +97,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Rotary AC/5",
+            "name": "Rotary AC/5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

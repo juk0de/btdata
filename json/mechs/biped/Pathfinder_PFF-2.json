@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pathfinder",
     "model": "PFF-2",
     "mul_id": 4790,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISBeagleActiveProbe",
+            "name": "ISBeagleActiveProbe",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

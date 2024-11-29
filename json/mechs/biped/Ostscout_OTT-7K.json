@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ostscout",
     "model": "OTT-7K",
     "mul_id": 2368,
@@ -98,7 +98,7 @@
     },
     "weapons": [
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

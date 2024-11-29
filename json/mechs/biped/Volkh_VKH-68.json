@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Volkh",
     "model": "VKH-68",
     "mul_id": 8107,
@@ -99,7 +99,7 @@
     },
     "weapons": [
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "head",
             "facing": "front",
             "quantity": 4

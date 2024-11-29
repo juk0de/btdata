@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Naga",
     "model": "D",
     "mul_id": 2250,
@@ -99,31 +99,31 @@
     },
     "weapons": [
         {
-            "weapon": "Arrow IV",
+            "name": "Arrow IV",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Arrow IV",
+            "name": "Arrow IV",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

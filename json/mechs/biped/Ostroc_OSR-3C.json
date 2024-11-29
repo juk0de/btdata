@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Ostroc",
     "model": "OSR-3C",
     "mul_id": 2354,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "Large Laser",
+            "name": "Large Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Large Laser",
+            "name": "Large Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2

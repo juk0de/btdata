@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Inquisitor II",
     "model": "ITW-200",
     "mul_id": 7332,
@@ -93,19 +93,19 @@
     },
     "weapons": [
         {
-            "weapon": "TSEMP Cannon",
+            "name": "TSEMP Cannon",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LAC/5",
+            "name": "LAC/5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

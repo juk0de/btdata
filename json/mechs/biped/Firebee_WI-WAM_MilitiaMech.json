@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Firebee",
     "model": "WI-WAM MilitiaMech",
     "mul_id": 7838,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "Rocket Launcher 10",
+            "name": "Rocket Launcher 10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Thunderbolt 10",
+            "name": "Thunderbolt 10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

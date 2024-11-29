@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "generator": "MegaMek Suite 0.49.19-SNAPSHOT on 2024-03-09",
     "chassis": "Commando",
     "model": "COM-7Y2 'Blazing Inferno'",
@@ -98,43 +98,43 @@
     },
     "weapons": [
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "left_leg",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "right_leg",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

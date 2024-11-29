@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Vulcan",
     "model": "VT-5M",
     "mul_id": 3461,
@@ -94,25 +94,25 @@
     },
     "weapons": [
         {
-            "weapon": "ISLargePulseLaser",
+            "name": "ISLargePulseLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Marauder",
     "model": "MAD-6L",
     "mul_id": 2045,
@@ -97,19 +97,19 @@
     },
     "weapons": [
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

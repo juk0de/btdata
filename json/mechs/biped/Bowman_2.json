@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Bowman",
     "model": "2",
     "mul_id": 3858,
@@ -96,44 +96,44 @@
     },
     "weapons": [
         {
-            "weapon": "CLLRM20",
+            "name": "CLLRM20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "CLERLargeLaser",
+            "name": "CLERLargeLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLLRM20",
+            "name": "CLLRM20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLECMSuite",
+            "name": "CLECMSuite",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLAntiPersonnelPod",
+            "name": "CLAntiPersonnelPod",
             "location": "left_leg",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "CLAntiPersonnelPod",
+            "name": "CLAntiPersonnelPod",
             "location": "right_leg",
             "facing": "front",
             "quantity": 2

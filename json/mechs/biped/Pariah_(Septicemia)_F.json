@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pariah (Septicemia)",
     "model": "F",
     "mul_id": 5816,
@@ -99,13 +99,13 @@
     },
     "weapons": [
         {
-            "weapon": "Arrow IV",
+            "name": "Arrow IV",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Arrow IV",
+            "name": "Arrow IV",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

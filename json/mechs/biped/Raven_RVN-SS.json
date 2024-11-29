@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Raven",
     "model": "RVN-SS 'Shattered Raven'",
     "mul_id": 2671,
@@ -94,44 +94,44 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISSmallLaser",
+            "name": "ISSmallLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM6",
+            "name": "ISStreakSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "ISTAG",
+            "name": "ISTAG",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISBeagleActiveProbe",
+            "name": "ISBeagleActiveProbe",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

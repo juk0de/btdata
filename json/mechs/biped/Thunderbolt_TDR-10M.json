@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Thunderbolt",
     "model": "TDR-10M",
     "mul_id": 3232,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light PPC",
+            "name": "Light PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 5",
+            "name": "MML 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

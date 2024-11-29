@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Puma",
     "clanname": "Adder",
     "model": "E",
@@ -98,31 +98,31 @@
     },
     "weapons": [
         {
-            "weapon": "ATM 9",
+            "name": "ATM 9",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 9",
+            "name": "ATM 9",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Micro Pulse Laser",
+            "name": "Micro Pulse Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Micro Pulse Laser",
+            "name": "Micro Pulse Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Eisenfaust",
     "model": "EFT-8X",
     "mul_id": 946,
@@ -98,25 +98,25 @@
     },
     "weapons": [
         {
-            "weapon": "Blazer Cannon",
+            "name": "Blazer Cannon",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium VSP Laser",
+            "name": "Medium VSP Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

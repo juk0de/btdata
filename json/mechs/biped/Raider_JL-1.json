@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Raider",
     "model": "JL-1",
     "mul_id": 6955,
@@ -93,7 +93,7 @@
     },
     "weapons": [
         {
-            "weapon": "MRM 10",
+            "name": "MRM 10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2

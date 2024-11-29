@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Gravedigger",
     "model": "GDR-1D",
     "mul_id": 6264,
@@ -104,19 +104,19 @@
     },
     "weapons": [
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak LRM 15",
+            "name": "Streak LRM 15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

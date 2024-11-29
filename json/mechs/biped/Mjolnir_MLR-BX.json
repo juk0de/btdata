@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Mjolnir",
     "model": "MLR-BX",
     "mul_id": 2195,
@@ -105,7 +105,7 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

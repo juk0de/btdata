@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "BattleAxe",
     "model": "BKX-1X",
     "mul_id": 5584,
@@ -97,46 +97,46 @@
     },
     "weapons": [
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 200
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

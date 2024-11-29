@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Victor",
     "model": "VTR-9S",
     "mul_id": 3414,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/20",
+            "name": "Autocannon/20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

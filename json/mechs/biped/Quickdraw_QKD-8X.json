@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Quickdraw",
     "model": "QKD-8X",
     "mul_id": 2617,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISTAG",
+            "name": "ISTAG",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser (R)",
+            "name": "ISMediumLaser (R)",
             "location": "right_torso",
             "facing": "rear",
             "quantity": 2
         },
         {
-            "weapon": "ISLiftHoist (R)",
+            "name": "ISLiftHoist (R)",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

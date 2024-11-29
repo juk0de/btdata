@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hunchback IIC",
     "model": "4",
     "mul_id": 1571,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "Rotary AC/5",
+            "name": "Rotary AC/5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Rotary AC/5",
+            "name": "Rotary AC/5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

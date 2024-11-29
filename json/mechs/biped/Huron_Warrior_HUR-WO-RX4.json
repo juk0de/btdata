@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Huron Warrior",
     "model": "HUR-WO-RX4",
     "mul_id": 5782,
@@ -105,13 +105,13 @@
     },
     "weapons": [
         {
-            "weapon": "Large X-Pulse Laser",
+            "name": "Large X-Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Silver Bullet Gauss Rifle",
+            "name": "Silver Bullet Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

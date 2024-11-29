@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "G\u00f6tterd\u00e4mmerung",
     "model": "GTD-20S",
     "mul_id": 6629,
@@ -98,19 +98,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 5
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "head",
             "facing": "front",
             "quantity": 1

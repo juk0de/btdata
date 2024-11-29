@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Javelin",
     "model": "JVN-11P",
     "mul_id": 6938,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2

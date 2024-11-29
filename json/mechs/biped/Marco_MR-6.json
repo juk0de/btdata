@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Marco",
     "model": "MR-6 ExplorerMech",
     "mul_id": 4594,
@@ -95,7 +95,7 @@
     },
     "weapons": [
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
@@ -147,10 +147,10 @@
         "right_torso": {
             "1": "Heat Sink",
             "2": "Heat Sink",
-            "3": "Communications Equipment (4 ton)",
-            "4": "Communications Equipment (4 ton)",
-            "5": "Communications Equipment (4 ton)",
-            "6": "Communications Equipment (4 ton)",
+            "3": "Communications Equipment",
+            "4": "Communications Equipment",
+            "5": "Communications Equipment",
+            "6": "Communications Equipment",
             "7": "Environmental Sealing",
             "8": null,
             "9": null,
@@ -214,5 +214,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Communications Equipment",
+            "location": "right_torso",
+            "type": "electronics",
+            "size": "4t"
+        }
+    ]
 }

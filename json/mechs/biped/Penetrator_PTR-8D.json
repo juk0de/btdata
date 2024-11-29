@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Penetrator",
     "model": "PTR-8D",
     "mul_id": 9353,
@@ -99,31 +99,31 @@
     },
     "weapons": [
         {
-            "weapon": "Large Re-engineered Laser",
+            "name": "Large Re-engineered Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Large Re-engineered Laser",
+            "name": "Large Re-engineered Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

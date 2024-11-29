@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Banshee",
     "model": "BNC-11X",
     "mul_id": 3784,
@@ -97,19 +97,19 @@
     },
     "weapons": [
         {
-            "weapon": "Silver Bullet Gauss Rifle",
+            "name": "Silver Bullet Gauss Rifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Bombast Laser",
+            "name": "Bombast Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1

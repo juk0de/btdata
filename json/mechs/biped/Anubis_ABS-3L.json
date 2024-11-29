@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Anubis",
     "model": "ABS-3L",
     "mul_id": 3702,
@@ -96,26 +96,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2,
             "ammo": 24
         },
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

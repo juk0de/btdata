@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Phoenix",
     "model": "PX-3R",
     "mul_id": 2489,
@@ -106,13 +106,13 @@
     },
     "weapons": [
         {
-            "weapon": "Particle Cannon",
+            "name": "Particle Cannon",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 2",
+            "name": "SRM 2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2

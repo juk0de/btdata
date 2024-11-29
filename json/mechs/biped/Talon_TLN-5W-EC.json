@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Talon",
     "model": "TLN-5W-EC",
     "mul_id": 7677,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Enhanced PPC",
+            "name": "Enhanced PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

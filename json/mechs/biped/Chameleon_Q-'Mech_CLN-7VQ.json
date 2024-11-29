@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Chameleon",
     "model": "CLN-7VQ 'Q-'Mech'",
     "mul_id": 5601,
@@ -96,25 +96,25 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Shadow Hawk",
     "model": "SHD-1R",
     "mul_id": 2898,
@@ -101,14 +101,14 @@
     },
     "weapons": [
         {
-            "weapon": "ISAC5",
+            "name": "ISAC5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

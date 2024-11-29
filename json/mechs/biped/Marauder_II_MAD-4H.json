@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Marauder II",
     "model": "MAD-4H",
     "mul_id": 2056,
@@ -97,55 +97,55 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Rocket Launcher 20",
+            "name": "Rocket Launcher 20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Rocket Launcher 15",
+            "name": "Rocket Launcher 15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Rocket Launcher 20",
+            "name": "Rocket Launcher 20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Rocket Launcher 15",
+            "name": "Rocket Launcher 15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Rocket Launcher 10",
+            "name": "Rocket Launcher 10",
             "location": "head",
             "facing": "front",
             "quantity": 1

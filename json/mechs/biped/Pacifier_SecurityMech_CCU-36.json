@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pacifier SecurityMech",
     "model": "CCU-36",
     "mul_id": 4780,
@@ -93,25 +93,25 @@
     },
     "weapons": [
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 5",
+            "name": "LRM 5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 2",
+            "name": "SRM 2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
@@ -125,7 +125,7 @@
             "4": "Hand Actuator",
             "5": "Machine Gun",
             "6": "MechSprayer",
-            "7": "Liquid Storage",
+            "7": "Cargo (Liquid)",
             "8": null,
             "9": null,
             "10": null,
@@ -139,7 +139,7 @@
             "4": "Hand Actuator",
             "5": "Machine Gun",
             "6": "MechSprayer",
-            "7": "Liquid Storage",
+            "7": "Cargo (Liquid)",
             "8": null,
             "9": null,
             "10": null,
@@ -248,5 +248,19 @@
             "communications": "Sipher CommCon CSU-4",
             "targeting": "Cat\u2019s Eyes 5"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "left_arm",
+            "type": "transport bay",
+            "size": "0.5t"
+        },
+        {
+            "name": "Cargo (Liquid)",
+            "location": "right_arm",
+            "type": "transport bay",
+            "size": "0.5t"
+        }
+    ]
 }

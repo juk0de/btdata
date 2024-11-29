@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Phoenix Hawk",
     "model": "PXH-8CS",
     "mul_id": 2510,
@@ -109,13 +109,13 @@
     },
     "weapons": [
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

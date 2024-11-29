@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Scarecrow",
     "model": "UCU-F4",
     "mul_id": 6336,
@@ -100,79 +100,79 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Flamer",
+            "name": "ER Flamer",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Flamer",
+            "name": "ER Flamer",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light Machine Gun",
+            "name": "Light Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Light Machine Gun",
+            "name": "Light Machine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Light Machine Gun Array",
+            "name": "Light Machine Gun Array",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light Machine Gun Array",
+            "name": "Light Machine Gun Array",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "B-Pod",
+            "name": "B-Pod",
             "location": "left_leg",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "B-Pod",
+            "name": "B-Pod",
             "location": "right_leg",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lao Hu",
     "model": "LHU-2B",
     "mul_id": 4478,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 20-X AC",
+            "name": "LB 20-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

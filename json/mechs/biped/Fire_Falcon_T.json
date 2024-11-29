@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Fire Falcon",
     "model": "T",
     "mul_id": 8179,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Improved Heavy Small Laser",
+            "name": "Improved Heavy Small Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "SRM 4 (I-OS)",
+            "name": "SRM 4 (I-OS)",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 4",
+            "name": "Streak SRM 4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

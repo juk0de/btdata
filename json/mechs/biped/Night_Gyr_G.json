@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Night Gyr",
     "model": "G",
     "mul_id": 8399,
@@ -97,43 +97,43 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Flamer",
+            "name": "ER Flamer",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Flamer",
+            "name": "ER Flamer",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Flamer",
+            "name": "ER Flamer",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

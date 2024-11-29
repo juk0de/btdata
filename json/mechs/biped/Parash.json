@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Parash",
     "model": "",
     "mul_id": 2428,
@@ -103,13 +103,13 @@
     },
     "weapons": [
         {
-            "weapon": "Clan TAG",
+            "name": "Clan TAG",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Large Pulse Laser",
+            "name": "Large Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

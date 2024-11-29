@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Shockwave",
     "model": "SKW-2F",
     "mul_id": 2929,
@@ -105,19 +105,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Large Laser",
+            "name": "ER Large Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Rotary AC/5",
+            "name": "Rotary AC/5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

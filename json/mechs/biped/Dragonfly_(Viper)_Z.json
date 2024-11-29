@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dragonfly",
     "clanname": "Viper",
     "model": "Z",
@@ -99,31 +99,31 @@
     },
     "weapons": [
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "iATM 3",
+            "name": "iATM 3",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Heavy Medium Laser",
+            "name": "Improved Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light TAG",
+            "name": "Light TAG",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

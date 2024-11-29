@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Grigori",
     "model": "C-GRG-OS Caelestis",
     "mul_id": 1326,
@@ -102,19 +102,19 @@
     },
     "weapons": [
         {
-            "weapon": "Silver Bullet Gauss Rifle",
+            "name": "Silver Bullet Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak LRM 10",
+            "name": "Streak LRM 10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "head",
             "facing": "front",
             "quantity": 2

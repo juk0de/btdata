@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Annihilator",
     "model": "ANH-1G",
     "mul_id": 37,
@@ -94,26 +94,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 48
         },
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Buster",
     "model": "BC XV-M-B HaulerMech MOD",
     "mul_id": 454,
@@ -93,7 +93,7 @@
     },
     "weapons": [
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
@@ -130,8 +130,8 @@
         },
         "left_torso": {
             "1": "Heat Sink",
-            "2": "Cargo (2 tons)",
-            "3": "Cargo (2 tons)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
             "4": null,
             "5": null,
             "6": null,
@@ -212,5 +212,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "2t"
+        }
+    ]
 }

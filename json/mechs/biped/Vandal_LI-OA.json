@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Vandal",
     "model": "LI-OA",
     "mul_id": 6462,
@@ -99,25 +99,25 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "C3 Master Boosted with TAG",
+            "name": "C3 Master Boosted with TAG",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

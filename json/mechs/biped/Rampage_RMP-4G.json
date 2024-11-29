@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rampage",
     "model": "RMP-4G",
     "mul_id": 2636,
@@ -97,40 +97,40 @@
     },
     "weapons": [
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAntiMissileSystem",
+            "name": "ISAntiMissileSystem",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargePulseLaser",
+            "name": "ISLargePulseLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

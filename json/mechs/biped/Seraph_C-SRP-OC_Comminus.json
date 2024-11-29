@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Seraph",
     "model": "C-SRP-OC Comminus",
     "mul_id": 2872,
@@ -103,31 +103,31 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "MRM 40",
+            "name": "MRM 40",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Flamer",
+            "name": "Flamer",
             "location": "head",
             "facing": "front",
             "quantity": 2

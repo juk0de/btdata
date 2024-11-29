@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Black Knight",
     "model": "BL-X-KNT 'Red Reaper'",
     "mul_id": 5783,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "Medium X-Pulse Laser",
+            "name": "Medium X-Pulse Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 5
         },
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

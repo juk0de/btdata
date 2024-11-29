@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hitman",
     "model": "HM-1r",
     "mul_id": 1534,
@@ -108,19 +108,19 @@
     },
     "weapons": [
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "MML 7",
+            "name": "MML 7",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

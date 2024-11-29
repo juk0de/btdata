@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Shadow Hawk",
     "model": "SHD-12C",
     "mul_id": 2897,
@@ -101,19 +101,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 7",
+            "name": "MML 7",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

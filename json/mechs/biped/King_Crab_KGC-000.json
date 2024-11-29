@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "King Crab",
     "model": "KGC-000",
     "mul_id": 1770,
@@ -96,25 +96,25 @@
     },
     "weapons": [
         {
-            "weapon": "AC/20",
+            "name": "AC/20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AC/20",
+            "name": "AC/20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 15",
+            "name": "LRM 15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Large Laser",
+            "name": "Large Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Merlin",
     "model": "MLN-1B (Porter)",
     "mul_id": 2179,
@@ -95,25 +95,25 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,

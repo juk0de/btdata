@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dervish",
     "model": "DV-8D",
     "mul_id": 881,
@@ -95,26 +95,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 32
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

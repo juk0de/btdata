@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dasher",
     "clanname": "Fire Moth",
     "model": "A",
@@ -99,19 +99,19 @@
     },
     "weapons": [
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Clan TAG",
+            "name": "Clan TAG",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 4",
+            "name": "Streak SRM 4",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

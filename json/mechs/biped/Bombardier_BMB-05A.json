@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Bombardier",
     "model": "BMB-05A",
     "mul_id": 421,
@@ -94,26 +94,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISRocketLauncher20",
+            "name": "ISRocketLauncher20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "ISArrowIVSystem",
+            "name": "ISArrowIVSystem",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISSmallLaser",
+            "name": "ISSmallLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAntiMissileSystem",
+            "name": "ISAntiMissileSystem",
             "location": "head",
             "facing": "front",
             "quantity": 1,

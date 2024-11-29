@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "No-Dachi",
     "model": "NDA-1K",
     "mul_id": 4730,
@@ -94,46 +94,46 @@
     },
     "weapons": [
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM2",
+            "name": "ISSRM2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 50
         },
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 25
         },
         {
-            "weapon": "ISMRM20",
+            "name": "ISMRM20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISMRM20",
+            "name": "ISMRM20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Sword",
+            "name": "Sword",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

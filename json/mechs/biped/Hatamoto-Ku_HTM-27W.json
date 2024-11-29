@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hatamoto-Ku",
     "model": "HTM-27W",
     "mul_id": 1408,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAC5",
+            "name": "ISAC5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

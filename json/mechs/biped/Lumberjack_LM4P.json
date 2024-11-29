@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lumberjack",
     "model": "LM4/P",
     "mul_id": 1961,
@@ -92,7 +92,7 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
@@ -143,11 +143,11 @@
         },
         "right_torso": {
             "1": "Dumper (Rear)",
-            "2": "Cargo (1 ton)",
-            "3": "Cargo (1 ton)",
-            "4": "Cargo (1 ton)",
-            "5": "Cargo (1 ton)",
-            "6": "Cargo (1 ton)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
+            "6": "Cargo (Standard)",
             "7": null,
             "8": null,
             "9": null,
@@ -211,5 +211,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

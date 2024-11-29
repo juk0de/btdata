@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Arctic Fox",
     "model": "AF1D",
     "mul_id": 95,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LRM 10",
+            "name": "LRM 10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

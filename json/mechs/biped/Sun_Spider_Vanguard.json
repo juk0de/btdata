@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Sun Spider",
     "model": "Vanguard",
     "config": "Biped Omnimech",
@@ -92,31 +92,31 @@
     },
     "weapons": [
         {
-            "weapon": "Streak SRM 4",
+            "name": "Streak SRM 4",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 5-X AC",
+            "name": "LB 5-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 2",
+            "name": "Streak SRM 2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

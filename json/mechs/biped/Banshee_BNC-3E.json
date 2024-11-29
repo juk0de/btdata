@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Banshee",
     "model": "BNC-3E",
     "mul_id": 240,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/5",
+            "name": "Autocannon/5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

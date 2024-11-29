@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Seraph",
     "model": "C-SRP-OE Eminus",
     "mul_id": 2874,
@@ -103,19 +103,19 @@
     },
     "weapons": [
         {
-            "weapon": "Thunderbolt 20",
+            "name": "Thunderbolt 20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Thunderbolt 20",
+            "name": "Thunderbolt 20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "head",
             "facing": "front",
             "quantity": 1

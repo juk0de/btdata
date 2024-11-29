@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lumberjack",
     "model": "LM4/C",
     "mul_id": 1960,
@@ -124,30 +124,30 @@
         },
         "left_torso": {
             "1": "Dumper (Rear)",
-            "2": "Cargo (1 ton)",
-            "3": "Cargo (1 ton)",
-            "4": "Cargo (1 ton)",
-            "5": "Cargo (1 ton)",
-            "6": "Cargo (1 ton)",
-            "7": "Cargo (1 ton)",
-            "8": "Cargo (1 ton)",
-            "9": "Cargo (1 ton)",
-            "10": "Cargo (1 ton)",
-            "11": "Cargo (1 ton)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
+            "6": "Cargo (Standard)",
+            "7": "Cargo (Standard)",
+            "8": "Cargo (Standard)",
+            "9": "Cargo (Standard)",
+            "10": "Cargo (Standard)",
+            "11": "Cargo (Standard)",
             "12": null
         },
         "right_torso": {
             "1": "Dumper (Rear)",
-            "2": "Cargo (1 ton)",
-            "3": "Cargo (1 ton)",
-            "4": "Cargo (1 ton)",
-            "5": "Cargo (1 ton)",
-            "6": "Cargo (1 ton)",
-            "7": "Cargo (1 ton)",
-            "8": "Cargo (1 ton)",
-            "9": "Cargo (1 ton)",
-            "10": "Cargo (1 ton)",
-            "11": "Cargo (1 ton)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
+            "6": "Cargo (Standard)",
+            "7": "Cargo (Standard)",
+            "8": "Cargo (Standard)",
+            "9": "Cargo (Standard)",
+            "10": "Cargo (Standard)",
+            "11": "Cargo (Standard)",
             "12": null
         },
         "center_torso": {
@@ -206,5 +206,19 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

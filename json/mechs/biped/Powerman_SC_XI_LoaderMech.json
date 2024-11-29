@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Powerman",
     "model": "SC XI LoaderMech",
     "config": "Biped",
@@ -92,31 +92,31 @@
     },
     "weapons": [
         {
-            "weapon": "Lift Hoist",
+            "name": "Lift Hoist",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Lift Hoist",
+            "name": "Lift Hoist",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Cargo (0.5 tons)",
+            "name": "Cargo (0.5 tons)",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Cargo (1 ton)",
+            "name": "Cargo (1 ton)",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Cargo (1 ton)",
+            "name": "Cargo (1 ton)",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
@@ -152,8 +152,8 @@
             "12": null
         },
         "left_torso": {
-            "1": "Cargo (1 ton)",
-            "2": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
             "3": null,
             "4": null,
             "5": null,
@@ -166,8 +166,8 @@
             "12": null
         },
         "right_torso": {
-            "1": "Cargo (1 ton)",
-            "2": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
             "3": null,
             "4": null,
             "5": null,
@@ -190,7 +190,7 @@
             "8": "Engine",
             "9": "Engine",
             "10": "Engine",
-            "11": "Cargo (0.5 tons)",
+            "11": "Cargo (Standard)",
             "12": null
         },
         "head": {
@@ -217,5 +217,25 @@
             "5": null,
             "6": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "center_torso",
+            "type": "transport bay",
+            "size": "0.5t"
+        }
+    ]
 }

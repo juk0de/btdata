@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Bushwacker",
     "model": "BSW-S2r",
     "mul_id": 449,
@@ -95,25 +95,25 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Centurion",
     "model": "CN9-D9",
     "mul_id": 523,
@@ -96,21 +96,21 @@
     },
     "weapons": [
         {
-            "weapon": "ISPlasmaRifle",
+            "name": "ISPlasmaRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

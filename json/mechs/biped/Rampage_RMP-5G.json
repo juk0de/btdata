@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rampage",
     "model": "RMP-5G",
     "mul_id": 2637,
@@ -97,53 +97,53 @@
     },
     "weapons": [
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAntiMissileSystem",
+            "name": "ISAntiMissileSystem",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM2",
+            "name": "ISStreakSRM2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3,
             "ammo": 50
         },
         {
-            "weapon": "ISLargePulseLaser",
+            "name": "ISLargePulseLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

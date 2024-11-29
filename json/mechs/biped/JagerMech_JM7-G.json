@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "JagerMech",
     "model": "JM7-G",
     "mul_id": 4392,
@@ -94,39 +94,39 @@
     },
     "weapons": [
         {
-            "weapon": "ISRotaryAC2",
+            "name": "ISRotaryAC2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 90
         },
         {
-            "weapon": "ISRotaryAC2",
+            "name": "ISRotaryAC2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC2",
+            "name": "ISLBXAC2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 90
         },
         {
-            "weapon": "ISLBXAC2",
+            "name": "ISLBXAC2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

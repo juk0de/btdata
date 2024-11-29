@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Carbine",
     "model": "CON-7M ConstructionMech MOD",
     "mul_id": 7161,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "Rocket Launcher 15",
+            "name": "Rocket Launcher 15",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Rocket Launcher 15",
+            "name": "Rocket Launcher 15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Rocket Launcher 15",
+            "name": "Rocket Launcher 15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2

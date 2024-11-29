@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hoplite",
     "model": "HOP-4A",
     "mul_id": 4329,
@@ -94,14 +94,14 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISAC10",
+            "name": "ISAC10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

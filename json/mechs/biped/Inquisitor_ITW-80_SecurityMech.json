@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Inquisitor",
     "model": "ITW-80 SecurityMech",
     "mul_id": 4364,
@@ -93,19 +93,19 @@
     },
     "weapons": [
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
@@ -224,5 +224,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Communications Equipment",
+            "location": "left_torso",
+            "type": "electronics",
+            "size": "2t"
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pariah (Septicemia)",
     "model": "C",
     "mul_id": 5021,
@@ -99,67 +99,67 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Plasma Cannon",
+            "name": "Plasma Cannon",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Plasma Cannon",
+            "name": "Plasma Cannon",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AP Gauss Rifle",
+            "name": "AP Gauss Rifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "left_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Machine Gun Array",
+            "name": "Machine Gun Array",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AP Gauss Rifle",
+            "name": "AP Gauss Rifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Machine Gun Array",
+            "name": "Machine Gun Array",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Cannon",
+            "name": "Plasma Cannon",
             "location": "head",
             "facing": "front",
             "quantity": 1

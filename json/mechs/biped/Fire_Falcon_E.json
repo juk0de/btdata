@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Fire Falcon",
     "model": "E",
     "mul_id": 1067,
@@ -97,7 +97,7 @@
     },
     "weapons": [
         {
-            "weapon": "ATM 12",
+            "name": "ATM 12",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

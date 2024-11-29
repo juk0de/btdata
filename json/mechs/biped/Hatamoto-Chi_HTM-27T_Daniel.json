@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hatamoto-Chi",
     "model": "HTM-27T (Daniel)",
     "mul_id": 1400,
@@ -109,26 +109,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISLBXAC10Prototype",
+            "name": "ISLBXAC10Prototype",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC10Prototype",
+            "name": "ISLBXAC10Prototype",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 40
         },
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Panther",
     "model": "PNT-C",
     "mul_id": 2426,
@@ -95,20 +95,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISSRM4",
+            "name": "ISSRM4",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 25
         },
         {
-            "weapon": "ISERPPC",
+            "name": "ISERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

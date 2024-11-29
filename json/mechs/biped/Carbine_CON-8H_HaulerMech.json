@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Carbine",
     "model": "CON-8H HaulerMech",
     "mul_id": 7162,
@@ -124,7 +124,7 @@
             "12": null
         },
         "left_torso": {
-            "1": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
             "2": "Industrial TSM",
             "3": "Industrial TSM",
             "4": "Industrial TSM",
@@ -138,7 +138,7 @@
             "12": null
         },
         "right_torso": {
-            "1": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
             "2": "Industrial TSM",
             "3": "Industrial TSM",
             "4": "Industrial TSM",
@@ -207,5 +207,19 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "size": "1t"
+        },
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

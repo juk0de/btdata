@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lobo",
     "model": "",
     "mul_id": 4528,
@@ -103,44 +103,44 @@
     },
     "weapons": [
         {
-            "weapon": "CLHeavyMediumLaser",
+            "name": "CLHeavyMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLHeavyMediumLaser",
+            "name": "CLHeavyMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLATM6",
+            "name": "CLATM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 40
         },
         {
-            "weapon": "CLERLargeLaser",
+            "name": "CLERLargeLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLATM6",
+            "name": "CLATM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLHeavySmallLaser",
+            "name": "CLHeavySmallLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLAntiMissileSystem",
+            "name": "CLAntiMissileSystem",
             "location": "head",
             "facing": "front",
             "quantity": 1,

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Wolverine",
     "model": "WVR-9D",
     "mul_id": 3580,
@@ -109,25 +109,25 @@
     },
     "weapons": [
         {
-            "weapon": "Rotary AC/2",
+            "name": "Rotary AC/2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 6",
+            "name": "Streak SRM 6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Pulse Laser",
+            "name": "Medium Pulse Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "head",
             "facing": "front",
             "quantity": 1

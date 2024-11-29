@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Mauler",
     "model": "MAL-C",
     "mul_id": 2103,
@@ -117,45 +117,45 @@
     },
     "weapons": [
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLRM15",
+            "name": "ISLRM15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 32
         },
         {
-            "weapon": "ISAC2",
+            "name": "ISAC2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISAC2",
+            "name": "ISAC2",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2,
             "ammo": 45
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Scylla",
     "model": "",
     "mul_id": 5000,
@@ -94,33 +94,33 @@
     },
     "weapons": [
         {
-            "weapon": "CLLRM20",
+            "name": "CLLRM20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 18
         },
         {
-            "weapon": "CLLRM20",
+            "name": "CLLRM20",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLLBXAC10",
+            "name": "CLLBXAC10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "CLERLargeLaser",
+            "name": "CLERLargeLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hollander",
     "model": "BZK-F3",
     "mul_id": 1536,
@@ -104,7 +104,7 @@
     },
     "weapons": [
         {
-            "weapon": "Gauss Rifle",
+            "name": "Gauss Rifle",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

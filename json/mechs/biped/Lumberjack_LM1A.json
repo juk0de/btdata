@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lumberjack",
     "model": "LM1/A",
     "mul_id": 4545,
@@ -138,14 +138,14 @@
             "12": null
         },
         "right_torso": {
-            "1": "Cargo (1 ton)",
-            "2": "Cargo (1 ton)",
-            "3": "Cargo (1 ton)",
-            "4": "Cargo (1 ton)",
-            "5": "Cargo (1 ton)",
-            "6": "Cargo (1 ton)",
-            "7": "Cargo (1 ton)",
-            "8": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
+            "6": "Cargo (Standard)",
+            "7": "Cargo (Standard)",
+            "8": "Cargo (Standard)",
             "9": "Dumper (Rear)",
             "10": null,
             "11": null,
@@ -207,5 +207,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

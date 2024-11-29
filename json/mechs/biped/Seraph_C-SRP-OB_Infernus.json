@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Seraph",
     "model": "C-SRP-OB Infernus",
     "mul_id": 2871,
@@ -103,25 +103,25 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LB 20-X AC",
+            "name": "LB 20-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "head",
             "facing": "front",
             "quantity": 1

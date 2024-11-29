@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Raven",
     "model": "RVN-SR 'Shattered Raven'",
     "mul_id": 2670,
@@ -94,40 +94,40 @@
     },
     "weapons": [
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 4,
             "ammo": 100
         },
         {
-            "weapon": "ISMGA",
+            "name": "ISMGA",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISNarcBeacon",
+            "name": "ISNarcBeacon",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 12
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISBeagleActiveProbe",
+            "name": "ISBeagleActiveProbe",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

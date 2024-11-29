@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lancelot",
     "model": "LNC25-05",
     "mul_id": 1858,
@@ -96,32 +96,32 @@
     },
     "weapons": [
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2,
             "ammo": 200
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISPPC",
+            "name": "ISPPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rampage",
     "model": "RMP-2G",
     "mul_id": 2635,
@@ -97,46 +97,46 @@
     },
     "weapons": [
         {
-            "weapon": "ISAC10",
+            "name": "ISAC10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 20
         },
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISMachine Gun",
+            "name": "ISMachine Gun",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 200
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

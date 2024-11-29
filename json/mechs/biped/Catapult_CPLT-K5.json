@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Catapult",
     "model": "CPLT-K5",
     "mul_id": 489,
@@ -95,26 +95,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumPulseLaser",
+            "name": "ISMediumPulseLaser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMRM30",
+            "name": "ISMRM30",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 32
         },
         {
-            "weapon": "ISMRM30",
+            "name": "ISMRM30",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Catapult",
     "model": "CPLT-K6",
     "mul_id": 7509,
@@ -97,25 +97,25 @@
     },
     "weapons": [
         {
-            "weapon": "Extended LRM 15",
+            "name": "Extended LRM 15",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Extended LRM 15",
+            "name": "Extended LRM 15",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2

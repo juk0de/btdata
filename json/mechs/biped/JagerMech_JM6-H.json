@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "JagerMech",
     "model": "JM6-H",
     "mul_id": 1669,
@@ -94,38 +94,38 @@
     },
     "weapons": [
         {
-            "weapon": "ISLBXAC2",
+            "name": "ISLBXAC2",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 45
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLBXAC2",
+            "name": "ISLBXAC2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLargeLaser",
+            "name": "ISLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISRocketLauncher15",
+            "name": "ISRocketLauncher15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "ISRocketLauncher15",
+            "name": "ISRocketLauncher15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3

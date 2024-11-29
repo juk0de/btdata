@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Charger",
     "model": "CGR-KMZ",
     "mul_id": 568,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMML9",
+            "name": "ISMML9",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

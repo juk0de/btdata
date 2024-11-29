@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Victor",
     "model": "VTR-10D",
     "mul_id": 3404,
@@ -94,20 +94,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISUltraAC20",
+            "name": "ISUltraAC20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "ISStreakSRM4",
+            "name": "ISStreakSRM4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,

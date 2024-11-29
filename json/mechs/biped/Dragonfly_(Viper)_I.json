@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dragonfly",
     "clanname": "Viper",
     "model": "I",
@@ -99,31 +99,31 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 3",
+            "name": "ATM 3",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "AMS",
+            "name": "AMS",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy Medium Laser",
+            "name": "Heavy Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

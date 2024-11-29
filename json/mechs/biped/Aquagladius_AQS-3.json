@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Aquagladius",
     "model": "AQS-3",
     "mul_id": 58,
@@ -96,7 +96,7 @@
     },
     "weapons": [
         {
-            "weapon": "Taser",
+            "name": "Taser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

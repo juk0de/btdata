@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rock Hound ProspectorMech",
     "model": "AM-PRM-RH7A 'Rock Otter'",
     "mul_id": 4927,
@@ -93,7 +93,7 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

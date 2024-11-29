@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Night Stalker",
     "model": "NSR-K7",
     "mul_id": 6720,
@@ -98,19 +98,19 @@
     },
     "weapons": [
         {
-            "weapon": "Small Re-engineered Laser",
+            "name": "Small Re-engineered Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Small Re-engineered Laser",
+            "name": "Small Re-engineered Laser",
             "location": "head",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "King Crab",
     "model": "KGC-005",
     "mul_id": 1774,
@@ -94,33 +94,33 @@
     },
     "weapons": [
         {
-            "weapon": "ISLBXAC20",
+            "name": "ISLBXAC20",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "ISLBXAC20",
+            "name": "ISLBXAC20",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISStreakSRM4",
+            "name": "ISStreakSRM4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2,
             "ammo": 25
         },
         {
-            "weapon": "ISImprovedC3CPU",
+            "name": "ISImprovedC3CPU",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

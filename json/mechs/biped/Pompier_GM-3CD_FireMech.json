@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Pompier",
     "model": "GM-3CD Firemech",
     "mul_id": 4843,
@@ -135,7 +135,7 @@
             "12": null
         },
         "right_torso": {
-            "1": "Liquid Storage (1 ton)",
+            "1": "Cargo (Liquid)",
             "2": "Searchlight",
             "3": "Environmental Sealing",
             "4": null,
@@ -204,5 +204,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Liquid)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "King Crab",
     "model": "KGC-009",
     "mul_id": 6635,
@@ -99,49 +99,49 @@
     },
     "weapons": [
         {
-            "weapon": "LAC/5",
+            "name": "LAC/5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "LAC/5",
+            "name": "LAC/5",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Plasma Rifle",
+            "name": "Plasma Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 7",
+            "name": "MML 7",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "MML 7",
+            "name": "MML 7",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

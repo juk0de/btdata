@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Excalibur",
     "model": "EXC-B2b-EC",
     "mul_id": 7683,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "Prototype ER Medium Laser",
+            "name": "Prototype ER Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved Gauss Rifle",
+            "name": "Improved Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Improved LRM 20",
+            "name": "Improved LRM 20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Anti-Missile System",
+            "name": "Anti-Missile System",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Prototype ER Small Laser",
+            "name": "Prototype ER Small Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

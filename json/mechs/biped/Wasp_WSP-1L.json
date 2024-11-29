@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Wasp",
     "model": "WSP-1L",
     "mul_id": 3523,
@@ -98,7 +98,7 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

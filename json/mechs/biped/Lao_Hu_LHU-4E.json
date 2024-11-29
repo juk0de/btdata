@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Lao Hu",
     "model": "LHU-4E",
     "mul_id": 5696,
@@ -96,26 +96,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISGuardianECM",
+            "name": "ISGuardianECM",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISGaussRifle",
+            "name": "ISGaussRifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "ISHeavyPPC",
+            "name": "ISHeavyPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISRocketLauncher10",
+            "name": "ISRocketLauncher10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3

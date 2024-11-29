@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Sagittaire",
     "model": "SGT-10X",
     "mul_id": 5718,
@@ -97,31 +97,31 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumVSPLaser",
+            "name": "ISMediumVSPLaser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumVSPLaser",
+            "name": "ISMediumVSPLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumVSPLaser",
+            "name": "ISMediumVSPLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1

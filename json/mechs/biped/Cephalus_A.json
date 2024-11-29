@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cephalus",
     "model": "A",
     "mul_id": 3929,
@@ -100,13 +100,13 @@
     },
     "weapons": [
         {
-            "weapon": "Clan TAG",
+            "name": "Clan TAG",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Laser AMS",
+            "name": "Laser AMS",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

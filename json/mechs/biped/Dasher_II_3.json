@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dasher II",
     "model": "3",
     "mul_id": 6920,
@@ -96,7 +96,7 @@
     },
     "weapons": [
         {
-            "weapon": "ER PPC",
+            "name": "ER PPC",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

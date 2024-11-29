@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Strider",
     "model": "SR1-OM",
     "mul_id": 6916,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "C3 Master Boosted with TAG",
+            "name": "C3 Master Boosted with TAG",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "C3 Master Boosted with TAG",
+            "name": "C3 Master Boosted with TAG",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

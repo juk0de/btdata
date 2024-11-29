@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rock Hound ProspectorMech",
     "model": "AM-PRM-RH7 'Rock Possum'",
     "mul_id": 4928,
@@ -93,7 +93,7 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 4",
+            "name": "SRM 4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
@@ -143,9 +143,9 @@
             "12": null
         },
         "right_torso": {
-            "1": "Cargo (1 ton)",
-            "2": "Cargo (1 ton)",
-            "3": "Cargo (1 ton)",
+            "1": "Cargo (Standard)",
+            "2": "Cargo (Standard)",
+            "3": "Cargo (Standard)",
             "4": null,
             "5": null,
             "6": null,
@@ -212,5 +212,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "1t"
+        }
+    ]
 }

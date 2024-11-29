@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Rabid Coyote",
     "model": "2",
     "mul_id": 5682,
@@ -95,38 +95,38 @@
     },
     "weapons": [
         {
-            "weapon": "CLECMSuite",
+            "name": "CLECMSuite",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLActiveProbe",
+            "name": "CLActiveProbe",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLATM3",
+            "name": "CLATM3",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3,
             "ammo": 120
         },
         {
-            "weapon": "CLATM3",
+            "name": "CLATM3",
             "location": "right_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "CLERMediumLaser",
+            "name": "CLERMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2

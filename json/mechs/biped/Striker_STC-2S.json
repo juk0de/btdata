@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Striker",
     "model": "STC-2S",
     "mul_id": 3096,
@@ -95,25 +95,25 @@
     },
     "weapons": [
         {
-            "weapon": "Particle Cannon",
+            "name": "Particle Cannon",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Autocannon/10",
+            "name": "Autocannon/10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

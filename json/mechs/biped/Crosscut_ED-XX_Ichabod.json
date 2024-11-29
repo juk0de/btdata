@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Crosscut",
     "model": "ED-XX 'Ichabod'",
     "mul_id": 744,
@@ -92,26 +92,26 @@
     },
     "weapons": [
         {
-            "weapon": "ISERMediumLaser",
+            "name": "ISERMediumLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERSmallLaser",
+            "name": "ISERSmallLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMekTaser",
+            "name": "ISMekTaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 5
         },
         {
-            "weapon": "Chainsaw",
+            "name": "Chainsaw",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

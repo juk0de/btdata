@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
     "chassis": "Phoenix Hawk IIC",
     "model": "5",
@@ -111,25 +111,25 @@
     },
     "weapons": [
         {
-            "weapon": "AP Gauss Rifle",
+            "name": "AP Gauss Rifle",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "AP Gauss Rifle",
+            "name": "AP Gauss Rifle",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "HAG/20",
+            "name": "HAG/20",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "HAG/20",
+            "name": "HAG/20",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

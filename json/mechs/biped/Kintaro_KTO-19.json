@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Kintaro",
     "model": "KTO-19",
     "mul_id": 1791,
@@ -94,33 +94,33 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM5",
+            "name": "ISLRM5",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISSRM6",
+            "name": "ISSRM6",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1,
             "ammo": 30
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISNarcBeacon",
+            "name": "ISNarcBeacon",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1,

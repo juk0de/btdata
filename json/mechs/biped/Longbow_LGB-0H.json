@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Longbow",
     "model": "LGB-0H",
     "mul_id": 8330,
@@ -93,37 +93,37 @@
     },
     "weapons": [
         {
-            "weapon": "Rocket Launcher 10",
+            "name": "Rocket Launcher 10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 10
         },
         {
-            "weapon": "Rocket Launcher 10",
+            "name": "Rocket Launcher 10",
             "location": "left_arm",
             "facing": "front",
             "quantity": 10
         },
         {
-            "weapon": "Rocket Launcher 10",
+            "name": "Rocket Launcher 10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "Rocket Launcher 10",
+            "name": "Rocket Launcher 10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "PPC",
+            "name": "PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Neanderthal",
     "model": "NTL-AG",
     "mul_id": 6513,
@@ -98,31 +98,31 @@
     },
     "weapons": [
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Snub-Nose PPC",
+            "name": "Snub-Nose PPC",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "M-Pod",
+            "name": "M-Pod",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "M-Pod",
+            "name": "M-Pod",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "M-Pod",
+            "name": "M-Pod",
             "location": "head",
             "facing": "front",
             "quantity": 1

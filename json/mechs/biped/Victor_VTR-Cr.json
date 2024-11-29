@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Victor",
     "model": "VTR-Cr",
     "mul_id": 3416,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Hyper Velocity Auto Cannon/10",
+            "name": "Hyper Velocity Auto Cannon/10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Streak SRM 4",
+            "name": "Streak SRM 4",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "DemolitionMech",
     "model": "WI-DMM MOD",
     "mul_id": 7839,
@@ -93,13 +93,13 @@
     },
     "weapons": [
         {
-            "weapon": "MagShot",
+            "name": "MagShot",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

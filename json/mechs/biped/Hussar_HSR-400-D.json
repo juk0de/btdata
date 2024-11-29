@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hussar",
     "model": "HSR-400-D",
     "mul_id": 1589,
@@ -103,7 +103,7 @@
     },
     "weapons": [
         {
-            "weapon": "ISLBXAC10",
+            "name": "ISLBXAC10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1,

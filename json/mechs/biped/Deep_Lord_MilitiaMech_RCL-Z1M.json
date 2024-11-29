@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Deep Lord MilitiaMech",
     "model": "RCL-Z1M",
     "mul_id": 4057,
@@ -106,13 +106,13 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy Rifle",
+            "name": "Heavy Rifle",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

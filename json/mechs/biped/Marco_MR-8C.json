@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Marco",
     "model": "MR-8C ExplorerMech",
     "mul_id": 4596,
@@ -95,7 +95,7 @@
     },
     "weapons": [
         {
-            "weapon": "Small Laser",
+            "name": "Small Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
@@ -147,9 +147,9 @@
         "right_torso": {
             "1": "Heat Sink",
             "2": "Heat Sink",
-            "3": "Cargo (2.5 tons)",
-            "4": "Cargo (2.5 tons)",
-            "5": "Cargo (2.5 tons)",
+            "3": "Cargo (Standard)",
+            "4": "Cargo (Standard)",
+            "5": "Cargo (Standard)",
             "6": "Environmental Sealing",
             "7": null,
             "8": null,
@@ -214,5 +214,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "right_torso",
+            "type": "transport bay",
+            "size": "2.5t"
+        }
+    ]
 }

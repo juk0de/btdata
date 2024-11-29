@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Phoenix",
     "model": "PX-1KT",
     "mul_id": 7470,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "SRM 2",
+            "name": "SRM 2",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "Thunderbolt 10",
+            "name": "Thunderbolt 10",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

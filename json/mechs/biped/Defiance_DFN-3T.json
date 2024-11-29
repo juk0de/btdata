@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Defiance",
     "model": "DFN-3T",
     "mul_id": 851,
@@ -99,43 +99,43 @@
     },
     "weapons": [
         {
-            "weapon": "LB 10-X AC",
+            "name": "LB 10-X AC",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ER Small Laser",
+            "name": "ER Small Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "SRM 6",
+            "name": "SRM 6",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Machine Gun",
+            "name": "Machine Gun",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Particle Cannon",
+            "name": "Particle Cannon",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Particle Cannon",
+            "name": "Particle Cannon",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dragonfly",
     "clanname": "Viper",
     "model": "F",
@@ -99,43 +99,43 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy Machine Gun",
+            "name": "Heavy Machine Gun",
             "location": "left_arm",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Heavy Machine Gun Array",
+            "name": "Heavy Machine Gun Array",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy Machine Gun",
+            "name": "Heavy Machine Gun",
             "location": "right_arm",
             "facing": "front",
             "quantity": 4
         },
         {
-            "weapon": "Heavy Machine Gun Array",
+            "name": "Heavy Machine Gun Array",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ER Medium Laser",
+            "name": "ER Medium Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Vulcan",
     "model": "VT-5ML 'Aladdin'",
     "mul_id": 8370,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "Thunderbolt 5",
+            "name": "Thunderbolt 5",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Thunderbolt 5",
+            "name": "Thunderbolt 5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

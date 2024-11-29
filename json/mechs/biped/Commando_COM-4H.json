@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Commando",
     "model": "COM-4H",
     "mul_id": 673,
@@ -95,25 +95,25 @@
     },
     "weapons": [
         {
-            "weapon": "ISRocketLauncher15",
+            "name": "ISRocketLauncher15",
             "location": "right_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISRocketLauncher15",
+            "name": "ISRocketLauncher15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 2
         },
         {
-            "weapon": "ISRocketLauncher15",
+            "name": "ISRocketLauncher15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 2

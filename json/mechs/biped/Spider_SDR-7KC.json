@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Spider",
     "model": "SDR-7KC",
     "mul_id": 3013,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "ISLightPPC",
+            "name": "ISLightPPC",
             "location": "center_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISC3SlaveUnit",
+            "name": "ISC3SlaveUnit",
             "location": "head",
             "facing": "front",
             "quantity": 1

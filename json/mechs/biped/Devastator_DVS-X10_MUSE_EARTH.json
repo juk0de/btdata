@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Devastator",
     "model": "DVS-X10 MUSE EARTH",
     "mul_id": 896,
@@ -98,19 +98,19 @@
     },
     "weapons": [
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Heavy PPC",
+            "name": "Heavy PPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium VSP Laser",
+            "name": "Medium VSP Laser",
             "location": "center_torso",
             "facing": "front",
             "quantity": 2

@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Hermes II",
     "model": "HER-5SA",
     "mul_id": 1502,
@@ -95,19 +95,19 @@
     },
     "weapons": [
         {
-            "weapon": "ISLargePulseLaser",
+            "name": "ISLargePulseLaser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISFlamer",
+            "name": "ISFlamer",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISUltraAC5",
+            "name": "ISUltraAC5",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,

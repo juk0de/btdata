@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Whitworth",
     "model": "WTH-2",
     "mul_id": 3541,
@@ -95,20 +95,20 @@
     },
     "weapons": [
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 24
         },
         {
-            "weapon": "ISLRM10",
+            "name": "ISLRM10",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumLaser",
+            "name": "ISMediumLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1

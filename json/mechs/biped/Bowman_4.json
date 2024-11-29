@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Bowman",
     "model": "4",
     "mul_id": 5691,
@@ -97,13 +97,13 @@
     },
     "weapons": [
         {
-            "weapon": "Arrow IV",
+            "name": "Arrow IV",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Arrow IV",
+            "name": "Arrow IV",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1

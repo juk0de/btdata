@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Cephalus",
     "model": "B",
     "mul_id": 5638,
@@ -100,13 +100,13 @@
     },
     "weapons": [
         {
-            "weapon": "Mech Taser",
+            "name": "Mech Taser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Light TAG",
+            "name": "Light TAG",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1

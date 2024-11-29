@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Spatha",
     "model": "SP2-X 'Warlord'",
     "mul_id": 2999,
@@ -96,37 +96,37 @@
     },
     "weapons": [
         {
-            "weapon": "ISMediumVSPLaser",
+            "name": "ISMediumVSPLaser",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISMediumVSPLaser",
+            "name": "ISMediumVSPLaser",
             "location": "head",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISERLargeLaser",
+            "name": "ISERLargeLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Sword",
+            "name": "Sword",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISLaserAntiMissileSystem",
+            "name": "ISLaserAntiMissileSystem",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ISAngelECM",
+            "name": "ISAngelECM",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

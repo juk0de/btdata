@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Blackjack",
     "model": "BJ-2r",
     "mul_id": 6914,
@@ -96,19 +96,19 @@
     },
     "weapons": [
         {
-            "weapon": "Large Re-engineered Laser",
+            "name": "Large Re-engineered Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Large Re-engineered Laser",
+            "name": "Large Re-engineered Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "Medium Laser",
+            "name": "Medium Laser",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

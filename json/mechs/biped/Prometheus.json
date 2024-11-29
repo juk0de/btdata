@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Prometheus",
     "model": "",
     "mul_id": 4871,
@@ -98,58 +98,58 @@
     },
     "weapons": [
         {
-            "weapon": "CLMG",
+            "name": "CLMG",
             "location": "left_torso",
             "facing": "front",
             "quantity": 3,
             "ammo": 200
         },
         {
-            "weapon": "CLMG",
+            "name": "CLMG",
             "location": "right_torso",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "CLLargePulseLaser",
+            "name": "CLLargePulseLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLMediumPulseLaser",
+            "name": "CLMediumPulseLaser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLERPPC",
+            "name": "CLERPPC",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLLRM15",
+            "name": "CLLRM15",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 16
         },
         {
-            "weapon": "CLLRM15",
+            "name": "CLLRM15",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "CLSRM6",
+            "name": "CLSRM6",
             "location": "right_torso",
             "facing": "front",
             "quantity": 1,
             "ammo": 15
         },
         {
-            "weapon": "CLSRM6",
+            "name": "CLSRM6",
             "location": "left_torso",
             "facing": "front",
             "quantity": 1

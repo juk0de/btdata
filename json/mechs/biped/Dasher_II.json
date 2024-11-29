@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Dasher II",
     "model": "",
     "mul_id": 848,
@@ -95,13 +95,13 @@
     },
     "weapons": [
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "right_arm",
             "facing": "front",
             "quantity": 3
         },
         {
-            "weapon": "ER Micro Laser",
+            "name": "ER Micro Laser",
             "location": "left_arm",
             "facing": "front",
             "quantity": 3

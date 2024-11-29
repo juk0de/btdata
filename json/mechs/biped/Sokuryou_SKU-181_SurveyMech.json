@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Sokuryou",
     "model": "SKU-181 SurveyMech",
     "mul_id": 2982,
@@ -92,7 +92,7 @@
     },
     "weapons": [
         {
-            "weapon": "TAG",
+            "name": "TAG",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
@@ -142,8 +142,8 @@
             "12": null
         },
         "right_torso": {
-            "1": "Communications Equipment (2 ton)",
-            "2": "Communications Equipment (2 ton)",
+            "1": "Communications Equipment",
+            "2": "Communications Equipment",
             "3": null,
             "4": null,
             "5": null,
@@ -211,5 +211,13 @@
             "11": null,
             "12": null
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Communications Equipment",
+            "location": "right_torso",
+            "type": "electronics",
+            "size": "2t"
+        }
+    ]
 }

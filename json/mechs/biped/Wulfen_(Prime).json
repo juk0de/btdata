@@ -1,5 +1,5 @@
 {
-    "mtf2json": "0.2.4",
+    "mtf2json": "0.2.6",
     "chassis": "Wulfen",
     "model": "(Prime)",
     "mul_id": 6256,
@@ -96,13 +96,13 @@
     },
     "weapons": [
         {
-            "weapon": "Ultra AC/2",
+            "name": "Ultra AC/2",
             "location": "left_arm",
             "facing": "front",
             "quantity": 1
         },
         {
-            "weapon": "ATM 3",
+            "name": "ATM 3",
             "location": "right_arm",
             "facing": "front",
             "quantity": 1
@@ -142,7 +142,7 @@
             "2": "Fusion Engine",
             "3": "Fusion Engine",
             "4": "Fusion Engine",
-            "5": "Cargo (OMNIPOD)",
+            "5": "Cargo (Standard) [omnipod]",
             "6": "Clan Endo Steel",
             "7": "IS Stealth",
             "8": "IS Stealth",
@@ -242,5 +242,16 @@
             "communications": "Garret T11-b with ECM Suite",
             "targeting": "ync Tracker (39-42071)"
         }
-    }
+    },
+    "equipment": [
+        {
+            "name": "Cargo (Standard)",
+            "location": "left_torso",
+            "type": "transport bay",
+            "tags": [
+                "omnipod"
+            ],
+            "size": "0.5t"
+        }
+    ]
 }
