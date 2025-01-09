@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hellhound",
     "clanname": "Conjurer",
     "model": "4",
     "mul_id": 1476,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3065,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "ext_twist"
     ],
     "mass": 50,
-    "engine": "300 XL (Clan) Engine",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Albatross",
     "model": "ALB-3Ur",
     "mul_id": 28,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3076,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "imp_target_long"
     ],
     "mass": 95,
-    "engine": "380 XL Engine",
+    "engine": {
+        "name": "380 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +58,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 21
         },

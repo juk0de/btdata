@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Stiletto",
     "model": "STO-4C",
     "mul_id": 5666,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3076,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -15,9 +15,14 @@
         "difficult_eject"
     ],
     "mass": 35,
-    "engine": "280 Light Fusion Engine",
+    "engine": {
+        "name": "280 Light Fusion Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo-Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,6 +58,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Ferro-Fibrous",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 11
         },

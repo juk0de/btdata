@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Canis",
     "model": "",
     "mul_id": 459,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3058,
     "source": "TRO: 3060",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "fast_reload"
     ],
     "mass": 80,
-    "engine": "240 XL (Clan) Engine",
+    "engine": {
+        "name": "240 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

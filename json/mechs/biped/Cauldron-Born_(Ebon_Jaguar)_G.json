@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Cauldron-Born",
     "clanname": "Ebon Jaguar",
     "model": "G",
     "mul_id": 8211,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3125,
     "source": "Rec Guide:ilClan #16",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "low_profile"
     ],
     "mass": 65,
-    "engine": "325 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "325 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

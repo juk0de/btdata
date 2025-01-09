@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Phantom",
     "model": "T",
     "mul_id": 9345,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3142,
     "source": "Rec Guide:ilClan #27",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "imp_sensors"
     ],
     "mass": 40,
-    "engine": "360 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "360 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Jade Hawk",
     "model": "JHK-03",
     "mul_id": 6564,
     "config": "Biped",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3135,
     "source": "TRO: 3145 Mercenaries",
     "rules_level": 3,
@@ -16,7 +16,11 @@
         "non_standard"
     ],
     "mass": 75,
-    "engine": "375 XL (Clan) Engine",
+    "engine": {
+        "name": "375 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

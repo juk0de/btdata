@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Highlander",
     "model": "HGN-641-X-2",
     "mul_id": 5552,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3070,
     "source": "XTR: ComStar",
     "rules_level": 4,
@@ -18,10 +18,14 @@
         "prototype"
     ],
     "mass": 90,
-    "engine": "270 XL Fusion Engine",
+    "engine": {
+        "name": "270 XL Fusion Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Reinforced",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -58,6 +62,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Light Ferro-Fibrous",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 25
         },

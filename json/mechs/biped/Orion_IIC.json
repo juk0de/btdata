@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Orion IIC",
     "model": "",
     "mul_id": 2340,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2841,
     "source": "TRO: 3060",
     "rules_level": 2,
@@ -16,9 +16,14 @@
         "rugged_1"
     ],
     "mass": 75,
-    "engine": "300 Fusion (Clan) Engine",
+    "engine": {
+        "name": "300 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

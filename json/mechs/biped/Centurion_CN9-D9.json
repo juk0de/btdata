@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Centurion",
     "model": "CN9-D9",
     "mul_id": 523,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3071,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "non_standard"
     ],
     "mass": 50,
-    "engine": "300 XL Engine",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,6 +59,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Light Ferro-Fibrous",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 16
         },

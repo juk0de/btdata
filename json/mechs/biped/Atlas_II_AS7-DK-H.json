@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Atlas II",
     "model": "AS7-DK-H",
     "mul_id": 8459,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3139,
     "source": "Rec Guide:ilClan #24",
     "rules_level": 2,
@@ -18,10 +18,14 @@
         "imp_com"
     ],
     "mass": 100,
-    "engine": "400 XL Engine(IS)",
+    "engine": {
+        "name": "400 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -57,7 +61,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 33
         },

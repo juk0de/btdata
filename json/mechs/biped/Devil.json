@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Devil",
     "model": "",
     "mul_id": 7571,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2911,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -15,7 +15,11 @@
         "low_profile"
     ],
     "mass": 30,
-    "engine": "300 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

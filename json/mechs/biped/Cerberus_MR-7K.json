@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Cerberus",
     "model": "MR-7K",
     "mul_id": 7983,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3121,
     "source": "Record Sheets: 3150",
     "rules_level": 3,
@@ -17,10 +17,14 @@
         "vestigial_hands_ra"
     ],
     "mass": 95,
-    "engine": "380 XL Engine(IS)",
+    "engine": {
+        "name": "380 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -56,7 +60,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Anti-Penetrative Ablation",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 19
         },

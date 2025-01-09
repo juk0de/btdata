@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "UrbanMech IIC",
     "model": "",
     "mul_id": 3361,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2849,
     "source": "TRO: 3060",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "no_arms"
     ],
     "mass": 30,
-    "engine": "90 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "90 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

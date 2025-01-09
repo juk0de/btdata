@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Ostscout IIC",
     "model": "",
     "mul_id": 5844,
     "config": "Biped",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3067,
     "source": "XTR: Boondoggles",
     "rules_level": 4,
@@ -18,7 +18,11 @@
         "unbalanced"
     ],
     "mass": 35,
-    "engine": "385 XXL (Clan) Engine",
+    "engine": {
+        "name": "385 XXL Engine",
+        "type": "XXL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hermit Crab",
     "model": "HMC-13",
     "mul_id": 7721,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3104,
     "source": "Rec Guide:ilClan #10",
     "rules_level": 2,
@@ -14,10 +14,14 @@
         "easy_maintain"
     ],
     "mass": 25,
-    "engine": "175 Fusion Engine(IS)",
+    "engine": {
+        "name": "175 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +57,7 @@
     "jump_mp": 7,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 5
         },

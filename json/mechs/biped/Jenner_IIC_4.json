@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Jenner IIC",
     "model": "4",
     "mul_id": 1701,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3061,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "no_arms"
     ],
     "mass": 35,
-    "engine": "315 XL (Clan) Engine",
+    "engine": {
+        "name": "315 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

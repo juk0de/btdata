@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Highlander IIC",
     "model": "3",
     "mul_id": 1523,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3077,
     "source": "Record Sheets: 3085 Unabridged - Old is the New New",
     "rules_level": 2,
@@ -17,9 +17,14 @@
         "difficult_eject"
     ],
     "mass": 90,
-    "engine": "270 Fusion (Clan) Engine",
+    "engine": {
+        "name": "270 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

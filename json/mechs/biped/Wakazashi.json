@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Wakazashi",
     "model": "",
     "mul_id": 3475,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2830,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -14,9 +14,14 @@
         "difficult_maintain"
     ],
     "mass": 85,
-    "engine": "255 Fusion Engine",
+    "engine": {
+        "name": "255 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo-Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },
@@ -52,6 +57,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Standard",
+        "tech_base": "Clan",
         "left_arm": {
             "pips": 28
         },

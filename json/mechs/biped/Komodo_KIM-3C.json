@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Komodo",
     "model": "KIM-3C",
     "mul_id": 1813,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3064,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -17,9 +17,14 @@
         "weak_head_2"
     ],
     "mass": 45,
-    "engine": "225 XL Engine",
+    "engine": {
+        "name": "225 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +60,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 14
         },

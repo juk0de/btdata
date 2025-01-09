@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Warhammer IIC",
     "model": "3",
     "mul_id": 3502,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3060,
     "source": "TRO: Clan Invasion",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "stable"
     ],
     "mass": 80,
-    "engine": "320 Fusion (Clan) Engine",
+    "engine": {
+        "name": "320 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

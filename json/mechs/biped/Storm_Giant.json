@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Storm Giant",
     "model": "",
     "mul_id": 7649,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2862,
     "source": "TRO: Golden Century",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "oversized"
     ],
     "mass": 100,
-    "engine": "400 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "400 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

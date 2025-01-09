@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Gallowglas",
     "model": "WD",
     "mul_id": 1188,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3055,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "good_rep_1"
     ],
     "mass": 70,
-    "engine": "350 Fusion (Clan) Engine",
+    "engine": {
+        "name": "350 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

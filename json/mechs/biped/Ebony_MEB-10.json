@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Ebony",
     "model": "MEB-10",
     "mul_id": 940,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3081,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "imp_target_med"
     ],
     "mass": 25,
-    "engine": "250 XL Engine",
+    "engine": {
+        "name": "250 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,7 +59,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Stealth",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 8
         },

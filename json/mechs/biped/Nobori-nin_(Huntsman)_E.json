@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Nobori-nin",
     "clanname": "Huntsman",
     "model": "E",
     "mul_id": 7782,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3070,
     "source": "Rec Guide:ilClan #12",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "stable"
     ],
     "mass": 50,
-    "engine": "250 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "250 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

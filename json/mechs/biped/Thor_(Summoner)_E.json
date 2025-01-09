@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Thor",
     "clanname": "Summoner",
     "model": "E",
     "mul_id": 3178,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3054,
     "source": "TRO: Clan Invasion",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "ubiquitous_clan"
     ],
     "mass": 70,
-    "engine": "350 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "350 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

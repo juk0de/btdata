@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Tundra Wolf",
     "model": "5",
     "mul_id": 6862,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3086,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "weak_head_1"
     ],
     "mass": 75,
-    "engine": "225 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "225 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

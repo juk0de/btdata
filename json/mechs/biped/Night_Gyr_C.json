@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Night Gyr",
     "model": "C",
     "mul_id": 2265,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3052,
     "source": "TRO: 3058",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "difficult_maintain"
     ],
     "mass": 75,
-    "engine": "300 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

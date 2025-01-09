@@ -1,18 +1,22 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Ryoken III",
     "clanname": "Skinwalker",
     "model": "D",
     "mul_id": 8452,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3147,
     "source": "Rec Guide:ilClan #24",
     "rules_level": 4,
     "rules_level_str": "Standard",
     "role": "Scout",
     "mass": 55,
-    "engine": "330 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "330 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

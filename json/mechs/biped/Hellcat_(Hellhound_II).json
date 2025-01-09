@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hellcat",
     "clanname": "Hellhound II",
     "model": "",
     "mul_id": 9409,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3133,
     "source": "Rec Guide:ilClan #30",
     "rules_level": 3,
@@ -16,7 +16,11 @@
         "difficult_maintain"
     ],
     "mass": 50,
-    "engine": "300 XXL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XXL Engine",
+        "type": "XXL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

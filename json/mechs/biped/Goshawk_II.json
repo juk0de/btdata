@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Goshawk II",
     "model": "",
     "mul_id": 1249,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3086,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "nimble_jumper"
     ],
     "mass": 45,
-    "engine": "315 XL (Clan) Engine",
+    "engine": {
+        "name": "315 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

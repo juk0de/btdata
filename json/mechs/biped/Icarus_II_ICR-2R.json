@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Icarus II",
     "model": "ICR-2R",
     "mul_id": 7995,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3124,
     "source": "Record Sheets: 3150",
     "rules_level": 3,
@@ -13,10 +13,14 @@
         "imp_target_short"
     ],
     "mass": 40,
-    "engine": "200 XL Engine(IS)",
+    "engine": {
+        "name": "200 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -52,7 +56,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 12
         },

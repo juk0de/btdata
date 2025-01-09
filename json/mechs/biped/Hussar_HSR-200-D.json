@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hussar",
     "model": "HSR-200-D",
     "mul_id": 1585,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2620,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -23,10 +23,14 @@
         }
     ],
     "mass": 30,
-    "engine": "270 Fusion Engine(IS)",
+    "engine": {
+        "name": "270 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -62,7 +66,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 2
         },

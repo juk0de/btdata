@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Masakari",
     "clanname": "Warhawk",
     "model": "B",
     "mul_id": 2092,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2999,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -15,10 +15,14 @@
         "imp_target_long"
     ],
     "mass": 85,
-    "engine": "340 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "340 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

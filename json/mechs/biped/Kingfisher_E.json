@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Kingfisher",
     "model": "E",
     "mul_id": 1783,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3063,
     "source": "TRO: 3058",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "rugged_1"
     ],
     "mass": 90,
-    "engine": "360 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "360 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

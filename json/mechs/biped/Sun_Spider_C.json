@@ -1,15 +1,19 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sun Spider",
     "model": "C",
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2865,
     "rules_level": 2,
     "rules_level_str": "Standard",
     "source": "Videogame (Apocryphal)",
     "mass": 70,
-    "engine": "350 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "350 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

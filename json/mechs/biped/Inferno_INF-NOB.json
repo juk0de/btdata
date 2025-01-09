@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Inferno",
     "model": "INF-NOB",
     "mul_id": 7717,
     "config": "Biped Omnimech",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3146,
     "source": "Rec Guide:ilClan #9",
     "rules_level": 2,
@@ -24,10 +24,14 @@
         }
     ],
     "mass": 75,
-    "engine": "300 Fusion Engine(IS)",
+    "engine": {
+        "name": "300 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -66,7 +70,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 22
         },

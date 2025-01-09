@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Firefly",
     "model": "C",
     "mul_id": 1082,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2839,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "no_arms"
     ],
     "mass": 30,
-    "engine": "150 Fusion Engine",
+    "engine": {
+        "name": "150 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },
@@ -52,6 +57,7 @@
     "jump_mp": 4,
     "armor": {
         "type": "Standard",
+        "tech_base": "Clan",
         "left_arm": {
             "pips": 10
         },

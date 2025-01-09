@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Vindicator",
     "model": "VND-4L",
     "mul_id": 3429,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3063,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "difficult_eject"
     ],
     "mass": 45,
-    "engine": "225 XL Engine",
+    "engine": {
+        "name": "225 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,6 +58,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Stealth",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 14
         },

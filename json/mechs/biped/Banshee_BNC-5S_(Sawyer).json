@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Banshee",
     "model": "BNC-5S (Sawyer)",
     "mul_id": 3786,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3057,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -15,10 +15,14 @@
         "bad_rep_is"
     ],
     "mass": 95,
-    "engine": "380 XL Engine(IS)",
+    "engine": {
+        "name": "380 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,7 +58,7 @@
     "jump_mp": 4,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 21
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Firestarter",
     "model": "FS9-M 'Mirage II'",
     "mul_id": 9374,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3143,
     "source": "Rec Guide:ilClan #28",
     "rules_level": 3,
@@ -29,10 +29,14 @@
         }
     ],
     "mass": 35,
-    "engine": "210 XL (Clan) Engine",
+    "engine": {
+        "name": "210 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo-Composite",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -68,7 +72,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Reflective",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 12
         },

@@ -1,9 +1,9 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Rattlesnake",
     "model": "JR7-31P",
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3043,
     "source": "Shrapnel #9",
     "rules_level": 2,
@@ -11,10 +11,14 @@
     "role": "Striker",
     "mul_id": 9239,
     "mass": 35,
-    "engine": "245 XL Engine(IS)",
+    "engine": {
+        "name": "245 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -50,7 +54,7 @@
     "jump_mp": 7,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 11
         },

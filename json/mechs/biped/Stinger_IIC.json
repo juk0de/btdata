@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Stinger IIC",
     "model": "",
     "mul_id": 5135,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3085,
     "rules_level": 4,
     "rules_level_str": "Standard",
@@ -16,9 +16,14 @@
         "combat_computer"
     ],
     "mass": 20,
-    "engine": "120 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "120 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

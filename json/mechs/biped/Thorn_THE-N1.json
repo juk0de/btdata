@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Thorn",
     "model": "THE-N1",
     "mul_id": 3192,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3051,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "easy_maintain"
     ],
     "mass": 20,
-    "engine": "120 XL Engine",
+    "engine": {
+        "name": "120 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -52,6 +57,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 6
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Supernova",
     "model": "5",
     "mul_id": 8132,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3144,
     "source": "Rec Guide:ilClan #13",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "imp_target_long"
     ],
     "mass": 90,
-    "engine": "270 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "270 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

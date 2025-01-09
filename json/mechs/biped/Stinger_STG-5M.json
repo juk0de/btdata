@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Stinger",
     "model": "STG-5M",
     "mul_id": 3063,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3050,
     "source": "Rec Guide:ilClan #13",
     "rules_level": 2,
@@ -17,10 +17,14 @@
         "cramped_cockpit"
     ],
     "mass": 20,
-    "engine": "120 Fusion Engine(IS)",
+    "engine": {
+        "name": "120 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -56,7 +60,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 4
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Grand Titan",
     "model": "T-IT-N14R 'Vengeance'",
     "mul_id": 5604,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3075,
     "source": "XTR: Phantoms",
     "rules_level": 4,
@@ -17,10 +17,14 @@
         "imp_life_support"
     ],
     "mass": 100,
-    "engine": "300 Fusion Engine(IS)",
+    "engine": {
+        "name": "300 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -58,7 +62,7 @@
     "jump_mp": 2,
     "armor": {
         "type": "Hardened",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 32
         },

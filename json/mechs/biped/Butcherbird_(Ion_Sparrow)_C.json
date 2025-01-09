@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Butcherbird",
     "clanname": "Ion Sparrow",
     "model": "C",
     "mul_id": 7741,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3147,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -15,7 +15,11 @@
         "easy_pilot"
     ],
     "mass": 20,
-    "engine": "160 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "160 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

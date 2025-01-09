@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hellion",
     "model": "G",
     "mul_id": 6939,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3119,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 3,
@@ -14,7 +14,11 @@
         "weak_head_1"
     ],
     "mass": 30,
-    "engine": "210 XL (Clan) Engine",
+    "engine": {
+        "name": "210 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

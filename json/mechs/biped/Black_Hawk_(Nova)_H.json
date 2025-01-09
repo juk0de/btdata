@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Black Hawk",
     "clanname": "Nova",
     "model": "H",
     "mul_id": 341,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3059,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "low_profile"
     ],
     "mass": 50,
-    "engine": "250 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "250 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

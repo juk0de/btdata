@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Shadow Cat II",
     "model": "",
     "mul_id": 2894,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3076,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "low_profile"
     ],
     "mass": 60,
-    "engine": "360 XL (Clan) Engine",
+    "engine": {
+        "name": "360 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

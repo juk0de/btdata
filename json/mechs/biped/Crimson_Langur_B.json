@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Crimson Langur",
     "model": "B",
     "mul_id": 4017,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3065,
     "source": "TRO: 3067",
     "rules_level": 2,
@@ -16,7 +16,11 @@
         "pro_actuator"
     ],
     "mass": 50,
-    "engine": "350 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "350 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

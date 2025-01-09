@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Marauder",
     "model": "MAD-7D (Von Staskov)",
     "mul_id": 7697,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3070,
     "source": "Operational Turning Points: Fronc Reaches",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "low_profile"
     ],
     "mass": 75,
-    "engine": "300 Light Engine(IS)",
+    "engine": {
+        "name": "300 Light Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +59,7 @@
     "jump_mp": 4,
     "armor": {
         "type": "Light Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 24
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Firestarter",
     "model": "FS9-OR",
     "mul_id": 1108,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3059,
     "source": "TRO: 3058",
     "rules_level": 4,
@@ -15,10 +15,14 @@
         "difficult_maintain"
     ],
     "mass": 45,
-    "engine": "270 XL Engine(IS)",
+    "engine": {
+        "name": "270 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +59,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 12
         },

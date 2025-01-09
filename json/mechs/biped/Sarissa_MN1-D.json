@@ -1,19 +1,24 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sarissa",
     "model": "MN1-D",
     "mul_id": 2797,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3080,
     "source": "XTR: Marik",
     "rules_level": 4,
     "rules_level_str": "Standard",
     "role": "Brawler",
     "mass": 50,
-    "engine": "240 Primitive Fusion Engine",
+    "engine": {
+        "name": "240 Primitive Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -50,7 +55,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Primitive",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

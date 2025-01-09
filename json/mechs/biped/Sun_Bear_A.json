@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sun Bear",
     "model": "A",
     "mul_id": 7624,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2966,
     "source": "TRO: Golden Century",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "difficult_eject"
     ],
     "mass": 55,
-    "engine": "275 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "275 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -56,7 +60,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 17
         },

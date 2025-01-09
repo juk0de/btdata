@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Wight",
     "model": "WGT-4NC 'Dezgra'",
     "mul_id": 5600,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3074,
     "source": "XTR: Phantoms",
     "rules_level": 4,
@@ -19,10 +19,14 @@
         "difficult_maintain"
     ],
     "mass": 35,
-    "engine": "280 XL Engine(IS)",
+    "engine": {
+        "name": "280 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Composite",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Rime Otter",
     "model": "A",
     "mul_id": 8310,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3146,
     "source": "Rec Guide:ilClan #19",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "difficult_maintain"
     ],
     "mass": 55,
-    "engine": "275 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "275 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Reinforced",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

@@ -1,19 +1,24 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Quasit MilitiaMech",
     "model": "QUA-51M",
     "mul_id": 2607,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3073,
     "source": "TRO: 3075",
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Brawler",
     "mass": 45,
-    "engine": "225 Fusion Engine",
+    "engine": {
+        "name": "225 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Industrial",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -50,6 +55,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Heavy Industrial",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

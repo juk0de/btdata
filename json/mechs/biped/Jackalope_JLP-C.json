@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Jackalope",
     "model": "JLP-C",
     "mul_id": 6711,
     "config": "Biped",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3135,
     "source": "TRO: 3145 Republic of the Sphere",
     "rules_level": 3,
@@ -15,7 +15,11 @@
         "low_profile"
     ],
     "mass": 30,
-    "engine": "240 XL (Clan) Engine",
+    "engine": {
+        "name": "240 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

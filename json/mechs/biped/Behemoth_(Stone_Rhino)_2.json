@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Behemoth",
     "clanname": "Stone Rhino",
     "model": "2",
     "mul_id": 319,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3061,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -20,9 +20,14 @@
         "weak_head_1"
     ],
     "mass": 100,
-    "engine": "300 XL (Clan) Engine",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

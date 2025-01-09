@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Wolverine",
     "model": "WVR-7D",
     "mul_id": 3574,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3050,
     "source": "Rec Guide:ilClan #18",
     "rules_level": 2,
@@ -28,10 +28,14 @@
         }
     ],
     "mass": 55,
-    "engine": "275 XL Engine(IS)",
+    "engine": {
+        "name": "275 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -67,7 +71,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 18
         },

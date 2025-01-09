@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Warhammer IIC",
     "model": "9",
     "mul_id": 3508,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3086,
     "source": "Record Sheets: 3085 Unabridged - Project Phoenix",
     "rules_level": 4,
@@ -15,9 +15,14 @@
         "stable"
     ],
     "mass": 80,
-    "engine": "400 XXL (Clan) Engine(IS)",
+    "engine": {
+        "name": "400 XXL Engine",
+        "type": "XXL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

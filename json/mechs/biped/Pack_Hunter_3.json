@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Pack Hunter",
     "model": "3",
     "mul_id": 2394,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3068,
     "source": "TRO: 3060",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "reinforced_legs"
     ],
     "mass": 30,
-    "engine": "210 XL (Clan) Engine",
+    "engine": {
+        "name": "210 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

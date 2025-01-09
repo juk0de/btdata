@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Katana (Crockett)",
     "model": "CRK-5003-2",
     "mul_id": 1760,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3035,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -15,10 +15,14 @@
         "poor_life_support"
     ],
     "mass": 85,
-    "engine": "255 Fusion Engine(IS)",
+    "engine": {
+        "name": "255 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,7 +58,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 19
         },

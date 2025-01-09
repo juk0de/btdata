@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hunchback",
     "model": "HBK-LGN-Pin 'Anastasia'",
     "mul_id": 8374,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3100,
     "source": "XTR: Royal Fantasy",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "battle_fists_ra"
     ],
     "mass": 50,
-    "engine": "200 Fusion Engine(IS)",
+    "engine": {
+        "name": "200 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",
@@ -54,7 +58,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 14
         },

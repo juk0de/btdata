@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Koshi",
     "clanname": "Mist Lynx",
     "model": "Z",
     "mul_id": 5643,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3072,
     "source": "Wars of Reaving",
     "rules_level": 4,
@@ -16,7 +16,11 @@
         "low_profile"
     ],
     "mass": 25,
-    "engine": "175 XL (Clan) Engine",
+    "engine": {
+        "name": "175 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

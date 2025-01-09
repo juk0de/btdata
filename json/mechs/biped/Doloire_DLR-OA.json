@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Doloire",
     "model": "DLR-OA",
     "mul_id": 6679,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3121,
     "source": "TRO: 3145 Republic of the Sphere",
     "rules_level": 3,
@@ -15,10 +15,14 @@
         "command_mech"
     ],
     "mass": 80,
-    "engine": "320 XL (Clan) Engine",
+    "engine": {
+        "name": "320 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo-Composite",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

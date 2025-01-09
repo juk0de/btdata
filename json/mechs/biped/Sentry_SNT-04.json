@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sentry",
     "model": "SNT-04",
     "mul_id": 2866,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3056,
     "source": "TRO: 3060",
     "rules_level": 2,
@@ -17,9 +17,14 @@
         "ubiquitous_is"
     ],
     "mass": 40,
-    "engine": "200 Fusion Engine",
+    "engine": {
+        "name": "200 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +60,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 12
         },

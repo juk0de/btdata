@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Uller",
     "clanname": "Kit Fox",
     "model": "A",
     "mul_id": 3340,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2890,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "low_profile"
     ],
     "mass": 30,
-    "engine": "180 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "180 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

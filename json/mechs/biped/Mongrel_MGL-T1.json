@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Mongrel",
     "model": "MGL-T1",
     "mul_id": 6618,
     "config": "Biped",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3092,
     "source": "TRO: 3145 Lyran Commonwealth",
     "rules_level": 4,
@@ -22,7 +22,11 @@
         }
     ],
     "mass": 50,
-    "engine": "350 XL (Clan) Engine",
+    "engine": {
+        "name": "350 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

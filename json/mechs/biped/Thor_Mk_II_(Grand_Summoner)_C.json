@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Thor II",
     "clanname": "Grand Summoner",
     "model": "C",
     "mul_id": 6284,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3093,
     "source": "TRO: 3145 The Clans",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "imp_com"
     ],
     "mass": 70,
-    "engine": "350 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "350 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

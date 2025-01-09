@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Epimetheus",
     "model": "Prime",
     "mul_id": 4129,
     "config": "Biped",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3053,
     "source": "Unbound",
     "rules_level": 4,
@@ -14,7 +14,11 @@
         "non_standard"
     ],
     "mass": 80,
-    "engine": "400 XL (Clan) Engine",
+    "engine": {
+        "name": "400 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

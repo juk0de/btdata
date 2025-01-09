@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Wraith",
     "model": "TR2-P 'Pocahontas'",
     "mul_id": 8381,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3130,
     "source": "XTR: Royal Fantasy",
     "rules_level": 3,
@@ -15,10 +15,14 @@
         "difficult_maintain"
     ],
     "mass": 55,
-    "engine": "385 XL (Clan) Engine",
+    "engine": {
+        "name": "385 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

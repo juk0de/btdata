@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Marauder IIC",
     "model": "7",
     "mul_id": 2071,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3081,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -16,9 +16,14 @@
         "exp_actuator"
     ],
     "mass": 85,
-    "engine": "255 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "255 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

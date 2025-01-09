@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Dasher II",
     "model": "2",
     "mul_id": 847,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3084,
     "source": "TRO: 3085",
     "rules_level": 4,
@@ -14,9 +14,14 @@
         "poor_performance"
     ],
     "mass": 40,
-    "engine": "400 XXL (Clan) Engine",
+    "engine": {
+        "name": "400 XXL Engine",
+        "type": "XXL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Ha Otoko-HR",
     "model": "",
     "mul_id": 4258,
     "config": "Biped",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3077,
     "source": "XTR: Clans",
     "rules_level": 4,
@@ -17,10 +17,14 @@
         "prototype"
     ],
     "mass": 65,
-    "engine": "260 Light Engine(IS)",
+    "engine": {
+        "name": "260 Light Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

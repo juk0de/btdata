@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Lynx",
     "model": "LNX-8Q",
     "mul_id": 1966,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2853,
     "source": "TRO: 3058",
     "rules_level": 1,
@@ -14,9 +14,14 @@
         "multi_trac"
     ],
     "mass": 55,
-    "engine": "275 Fusion Engine",
+    "engine": {
+        "name": "275 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -52,7 +57,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "(Unknown Technology Base",
+        "tech_base": "Unknown",
         "left_arm": {
             "pips": 17
         },

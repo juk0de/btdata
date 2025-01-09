@@ -1,16 +1,20 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Reptar",
     "model": "EPT-C-1 MilitiaMech",
     "mul_id": 5797,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3086,
     "source": "Interstellar Players 3",
     "rules_level": 3,
     "rules_level_str": "Standard",
     "mass": 35,
-    "engine": "175 Fuel Cell (Clan) Engine(IS)",
+    "engine": {
+        "name": "175 Fuel Cell Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Industrial",
         "tech_base": "Clan",

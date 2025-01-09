@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Thresher Mk II",
     "model": "",
     "mul_id": 7502,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3149,
     "rules_level": 4,
     "rules_level_str": "Standard",
@@ -15,7 +15,11 @@
         "ramshackle"
     ],
     "mass": 60,
-    "engine": "300 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

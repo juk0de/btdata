@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Axman",
     "model": "AXM-3Sr",
     "mul_id": 187,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3069,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -14,10 +14,14 @@
         "pro_actuator"
     ],
     "mass": 65,
-    "engine": "260 Light Engine(IS)",
+    "engine": {
+        "name": "260 Light Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,7 +58,7 @@
     "jump_mp": 4,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 17
         },

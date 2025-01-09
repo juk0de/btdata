@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Rampage",
     "model": "RMP-5G",
     "mul_id": 2637,
     "source": "Jihad Conspiracies: Interstellar Players 2",
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2767,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -17,9 +17,14 @@
         "obsolete"
     ],
     "mass": 85,
-    "engine": "340 XL Engine",
+    "engine": {
+        "name": "340 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,6 +60,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 27
         },

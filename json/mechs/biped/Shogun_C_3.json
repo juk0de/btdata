@@ -1,9 +1,9 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Shogun",
     "model": "C 3",
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3139,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -17,10 +17,14 @@
         "non_standard"
     ],
     "mass": 85,
-    "engine": "340 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "340 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

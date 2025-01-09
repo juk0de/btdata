@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Amarok",
     "model": "",
     "mul_id": 8239,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3149,
     "source": "Rec Guide:ilClan #17",
     "rules_level": 3,
@@ -16,7 +16,11 @@
         "stable"
     ],
     "mass": 100,
-    "engine": "400 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "400 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

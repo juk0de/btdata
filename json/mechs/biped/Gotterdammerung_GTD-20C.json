@@ -1,19 +1,23 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "G\u00f6tterd\u00e4mmerung",
     "model": "GTD-20C",
     "mul_id": 8061,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3138,
     "source": "TRO: 3145 Lyran Commonwealth",
     "rules_level": 3,
     "rules_level_str": "Standard",
     "mass": 75,
-    "engine": "300 Compact Engine(IS)",
+    "engine": {
+        "name": "300 Compact Engine",
+        "type": "Compact",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

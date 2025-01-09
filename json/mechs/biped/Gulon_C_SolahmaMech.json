@@ -1,20 +1,24 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Gulon SolahmaMech",
     "model": "C",
     "mul_id": 7846,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3145,
     "source": "TRO: Irregulars",
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Ambusher",
     "mass": 25,
-    "engine": "100 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "100 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Industrial",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "G\u00f9n",
     "model": "GN-2O",
     "mul_id": 6450,
     "config": "Biped Omnimech",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3134,
     "source": "TRO: 3145 Capellan Confederation",
     "rules_level": 2,
@@ -14,10 +14,14 @@
         "imp_target_short"
     ],
     "mass": 20,
-    "engine": "100 Fusion Engine(IS)",
+    "engine": {
+        "name": "100 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -56,7 +60,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 6
         },

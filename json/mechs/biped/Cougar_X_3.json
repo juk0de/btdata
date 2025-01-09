@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Cougar",
     "model": "X 3",
     "mul_id": 6953,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3093,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 3,
@@ -14,10 +14,14 @@
         "ubiquitous_clan"
     ],
     "mass": 35,
-    "engine": "175 XL (Clan) Engine",
+    "engine": {
+        "name": "175 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Composite",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

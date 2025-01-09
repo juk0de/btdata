@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Marauder II",
     "model": "MAD-5A",
     "mul_id": 2059,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3049,
     "source": "Rec Guide:ilClan #5",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "low_profile"
     ],
     "mass": 100,
-    "engine": "300 XL Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +59,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 34
         },

@@ -1,20 +1,24 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "ForestryMech",
     "model": "ED-X3",
     "mul_id": 7160,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2865,
     "source": "Record Sheets: Vehicle Annex - IndustrialMechs & Exoskeletons",
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Ambusher",
     "mass": 25,
-    "engine": "125 ICE Engine(IS)",
+    "engine": {
+        "name": "125 ICE Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Industrial",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -52,7 +56,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "IS/Clan",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 3
         },

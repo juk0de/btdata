@@ -1,19 +1,23 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Pompier",
     "model": "GM-3A Firemech",
     "mul_id": 4842,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3044,
     "source": "TRO: Vehicle Annex (Revised)",
     "rules_level": 3,
     "rules_level_str": "Standard",
     "mass": 15,
-    "engine": "30 Fuel Cell Engine(IS)",
+    "engine": {
+        "name": "30 Fuel Cell Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Industrial",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -51,7 +55,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Heavy Industrial",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 2
         },
@@ -211,7 +215,7 @@
         {
             "name": "Cargo (Liquid)",
             "location": "center_torso",
-            "type": "transport bay",
+            "category": "transport",
             "size": "1t"
         }
     ]

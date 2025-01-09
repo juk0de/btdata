@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Rifleman IIC",
     "model": "2",
     "mul_id": 2711,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2997,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "imp_com"
     ],
     "mass": 65,
-    "engine": "260 Fusion (Clan) Engine",
+    "engine": {
+        "name": "260 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

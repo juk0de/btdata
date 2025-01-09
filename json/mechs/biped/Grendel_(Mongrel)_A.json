@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Grendel",
     "clanname": "Mongrel",
     "model": "A",
     "mul_id": 1286,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3053,
     "source": "TRO: Clan Invasion",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "rugged_1"
     ],
     "mass": 45,
-    "engine": "315 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "315 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

@@ -1,21 +1,25 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "generator": "MegaMek Suite 0.49.18-SNAPSHOT on 2024-01-13",
     "chassis": "Inquisitor II",
     "model": "ITW-205",
     "mul_id": 8063,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3122,
     "source": "RS 3150",
     "rules_level": 3,
     "rules_level_str": "Standard",
     "role": "Brawler",
     "mass": 50,
-    "engine": "200 Fusion Engine(IS)",
+    "engine": {
+        "name": "200 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Industrial",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -51,7 +55,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

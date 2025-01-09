@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Pouncer",
     "model": "H",
     "mul_id": 2562,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3062,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "weak_head_2"
     ],
     "mass": 40,
-    "engine": "240 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "240 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

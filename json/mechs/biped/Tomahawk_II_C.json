@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Tomahawk II",
     "model": "C",
     "mul_id": 6306,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3088,
     "source": "TRO: 3145 The Clans",
     "rules_level": 4,
@@ -14,7 +14,11 @@
         "difficult_eject"
     ],
     "mass": 100,
-    "engine": "300 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo-Composite",
         "tech_base": "Clan",

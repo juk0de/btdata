@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Fenris",
     "clanname": "Ice Ferret",
     "model": "G",
     "mul_id": 7507,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3088,
     "rules_level": 4,
     "rules_level_str": "Standard",
@@ -15,7 +15,11 @@
         "imp_sensors"
     ],
     "mass": 45,
-    "engine": "360 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "360 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

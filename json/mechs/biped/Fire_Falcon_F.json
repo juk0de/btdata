@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Fire Falcon",
     "model": "F",
     "mul_id": 1068,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3072,
     "source": "Rec Guide:ilClan #15",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "imp_sensors"
     ],
     "mass": 25,
-    "engine": "200 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "200 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

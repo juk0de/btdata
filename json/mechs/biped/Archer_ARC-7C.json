@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Archer",
     "model": "ARC-7C",
     "mul_id": 7731,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3119,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -18,10 +18,14 @@
         "ubiquitous_is"
     ],
     "mass": 70,
-    "engine": "350 XL Engine(IS)",
+    "engine": {
+        "name": "350 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -57,7 +61,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 22
         },

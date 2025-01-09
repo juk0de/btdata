@@ -1,17 +1,21 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Wendigo-VP",
     "model": "A",
     "mul_id": 6409,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3150,
     "source": "TRO: 3145 Draconis Combine",
     "rules_level": 4,
     "rules_level_str": "Standard",
     "role": "Skirmisher",
     "mass": 50,
-    "engine": "250 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "250 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

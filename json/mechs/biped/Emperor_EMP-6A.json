@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Emperor",
     "model": "EMP-6A",
     "mul_id": 964,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2612,
     "source": "TRO: 3058",
     "rules_level": 2,
@@ -28,9 +28,14 @@
         }
     ],
     "mass": 90,
-    "engine": "270 XL Engine",
+    "engine": {
+        "name": "270 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -66,7 +71,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 30
         },

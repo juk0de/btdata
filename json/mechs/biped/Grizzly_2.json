@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Grizzly",
     "model": "2",
     "mul_id": 1333,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3063,
     "source": "TRO: 3058",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "exp_actuator"
     ],
     "mass": 70,
-    "engine": "280 Fusion (Clan) Engine",
+    "engine": {
+        "name": "280 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

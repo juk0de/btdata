@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Baboon",
     "clanname": "Howler",
     "model": "",
     "mul_id": 189,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2871,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -17,7 +17,11 @@
         "searchlight"
     ],
     "mass": 20,
-    "engine": "140 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "140 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

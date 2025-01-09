@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Dark Crow",
     "model": "",
     "mul_id": 827,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3084,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "low_arms"
     ],
     "mass": 55,
-    "engine": "330 XL (Clan) Engine",
+    "engine": {
+        "name": "330 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

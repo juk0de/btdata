@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Porcupine",
     "model": "PRC-3N",
     "mul_id": 8102,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3132,
     "source": "XTR: Caveat Emptor",
     "rules_level": 4,
@@ -14,10 +14,14 @@
         "distracting"
     ],
     "mass": 20,
-    "engine": "180 XXL Engine(IS)",
+    "engine": {
+        "name": "180 XXL Engine",
+        "type": "XXL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +57,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Impact-Resistant",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 6
         },

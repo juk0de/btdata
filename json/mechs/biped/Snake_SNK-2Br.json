@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Snake",
     "model": "SNK-2Br",
     "mul_id": 2977,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3070,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "pro_actuator"
     ],
     "mass": 45,
-    "engine": "225 XL Engine",
+    "engine": {
+        "name": "225 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +58,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Stealth",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

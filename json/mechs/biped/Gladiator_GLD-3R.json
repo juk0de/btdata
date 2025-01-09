@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Gladiator",
     "model": "GLD-3R",
     "mul_id": 1200,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2490,
     "source": "TRO: 3075",
     "rules_level": 1,
@@ -15,9 +15,14 @@
         "bad_rep_is"
     ],
     "mass": 55,
-    "engine": "275 Fusion Engine",
+    "engine": {
+        "name": "275 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +58,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 15
         },

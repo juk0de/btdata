@@ -1,20 +1,24 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Tomahawk",
     "model": "C",
     "mul_id": 6301,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3063,
     "source": "TRO: 3145 The Clans",
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Juggernaut",
     "mass": 100,
-    "engine": "300 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sagittaire",
     "model": "SGT-10X",
     "mul_id": 5718,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3084,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -16,9 +16,14 @@
         "weak_head_1"
     ],
     "mass": 95,
-    "engine": "285 Light Fusion Engine",
+    "engine": {
+        "name": "285 Light Fusion Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,6 +60,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Standard",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 31
         },

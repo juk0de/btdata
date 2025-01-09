@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Ebony",
     "model": "MEB-13",
     "mul_id": 6943,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3137,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 3,
@@ -14,10 +14,14 @@
         "imp_target_med"
     ],
     "mass": 25,
-    "engine": "225 XL Engine(IS)",
+    "engine": {
+        "name": "225 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +59,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Heat-Dissipating",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 5
         },

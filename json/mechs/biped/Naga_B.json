@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Naga",
     "model": "B",
     "mul_id": 2248,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2869,
     "source": "TRO: 3055",
     "rules_level": 3,
@@ -16,7 +16,11 @@
         "no_arms"
     ],
     "mass": 80,
-    "engine": "400 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "400 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

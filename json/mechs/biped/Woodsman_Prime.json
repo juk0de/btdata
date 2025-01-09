@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Woodsman",
     "model": "Prime",
     "mul_id": 3587,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2866,
     "source": "TRO: Golden Century",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "easy_maintain"
     ],
     "mass": 75,
-    "engine": "300 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

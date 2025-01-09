@@ -1,9 +1,9 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Night Chanter",
     "model": "A",
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2865,
     "source": "Turning Points: Foster",
     "rules_level": 3,
@@ -11,10 +11,14 @@
     "role": "Sniper",
     "mul_id": 9233,
     "mass": 45,
-    "engine": "225 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "225 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

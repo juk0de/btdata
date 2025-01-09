@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Preta",
     "model": "C-PRT-OS Caelestis",
     "mul_id": 2579,
     "source": "Jihad Secrets: The Blake Documents",
     "config": "Biped Omnimech",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3075,
     "rules_level": 4,
     "rules_level_str": "Standard",
@@ -18,10 +18,14 @@
         "exp_actuator"
     ],
     "mass": 45,
-    "engine": "270 Light Engine(IS)",
+    "engine": {
+        "name": "270 Light Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -60,7 +64,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 13
         },

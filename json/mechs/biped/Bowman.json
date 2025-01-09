@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Bowman",
     "model": "",
     "mul_id": 3857,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2973,
     "source": "Record Sheets: Record Sheets: 3067 Unabridged",
     "rules_level": 3,
@@ -16,7 +16,11 @@
         "bad_rep_clan"
     ],
     "mass": 70,
-    "engine": "350 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "350 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

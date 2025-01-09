@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Shadow Hawk",
     "model": "SHD-1R",
     "mul_id": 2898,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2467,
     "source": "XTR: Primitives I",
     "rules_level": 4,
@@ -19,9 +19,14 @@
         "rugged_1"
     ],
     "mass": 50,
-    "engine": "240 Primitive Fusion Engine",
+    "engine": {
+        "name": "240 Primitive Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -58,7 +63,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Primitive",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 16
         },

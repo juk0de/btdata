@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Corvis",
     "model": "",
     "mul_id": 700,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2845,
     "source": "TRO: 3060",
     "rules_level": 2,
@@ -31,9 +31,14 @@
         }
     ],
     "mass": 40,
-    "engine": "160 Fusion (Clan) Engine",
+    "engine": {
+        "name": "160 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

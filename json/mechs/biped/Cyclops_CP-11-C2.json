@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Cyclops",
     "model": "CP-11-C2",
     "mul_id": 776,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3073,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -17,9 +17,14 @@
         "weak_head_2"
     ],
     "mass": 90,
-    "engine": "360 Fusion Engine(IS)",
+    "engine": {
+        "name": "360 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +60,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 15
         },

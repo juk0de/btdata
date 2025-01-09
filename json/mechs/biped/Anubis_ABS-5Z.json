@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Anubis",
     "model": "ABS-5Z",
     "mul_id": 6454,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3124,
     "source": "TRO: 3145 Capellan Confederation",
     "rules_level": 2,
@@ -16,10 +16,14 @@
         "exp_actuator"
     ],
     "mass": 30,
-    "engine": "210 XL Engine(IS)",
+    "engine": {
+        "name": "210 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo-Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -55,7 +59,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Stealth",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

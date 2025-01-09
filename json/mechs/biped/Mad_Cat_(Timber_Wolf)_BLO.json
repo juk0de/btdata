@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Mad Cat",
     "clanname": "Timber Wolf",
     "model": "BLO",
     "mul_id": 7635,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3129,
     "source": "Spotlight On: Unending Faith",
     "rules_level": 3,
@@ -16,7 +16,11 @@
         "weak_head_1"
     ],
     "mass": 75,
-    "engine": "375 XL (Clan) Engine",
+    "engine": {
+        "name": "375 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

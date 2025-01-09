@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "generator": "MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-11",
     "chassis": "Phoenix Hawk",
     "model": "PXH-1b 'Special'",
     "mul_id": 2492,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2760,
     "source": "TRO: 3075",
     "rules_level": 2,
@@ -26,10 +26,14 @@
         }
     ],
     "mass": 45,
-    "engine": "270 XL Engine(IS)",
+    "engine": {
+        "name": "270 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -65,7 +69,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

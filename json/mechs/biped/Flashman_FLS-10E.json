@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Flashman",
     "model": "FLS-10E",
     "mul_id": 8445,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3144,
     "source": "Rec Guide:ilClan #24",
     "rules_level": 3,
@@ -14,10 +14,14 @@
         "rugged_1"
     ],
     "mass": 75,
-    "engine": "375 XL (Clan) Engine",
+    "engine": {
+        "name": "375 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +57,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Reflective",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 24
         },

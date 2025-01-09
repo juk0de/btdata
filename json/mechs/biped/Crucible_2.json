@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Crucible",
     "model": "2",
     "mul_id": 7735,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3149,
     "source": "Rec Guide:ilClan #10",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "oversized"
     ],
     "mass": 100,
-    "engine": "300 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",
@@ -54,7 +58,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 21
         },

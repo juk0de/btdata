@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Bear Cub",
     "model": "3",
     "mul_id": 316,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3071,
     "source": "TRO: 3075",
     "rules_level": 2,
@@ -16,9 +16,14 @@
         "cramped_cockpit"
     ],
     "mass": 25,
-    "engine": "200 XL (Clan) Engine",
+    "engine": {
+        "name": "200 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

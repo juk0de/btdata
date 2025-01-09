@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Orca",
     "model": "OC-1X",
     "mul_id": 7356,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3103,
     "source": "XTR: Republic II",
     "rules_level": 4,
@@ -18,10 +18,14 @@
         "prototype"
     ],
     "mass": 200,
-    "engine": "400 XL Engine(IS)",
+    "engine": {
+        "name": "400 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 4
         },
@@ -59,7 +63,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 61
         },

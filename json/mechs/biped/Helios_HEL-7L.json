@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "generator": "MegaMek Suite 0.50.0-SNAPSHOT on 2024-07-24",
     "chassis": "Helios",
     "model": "HEL-7L",
     "mul_id": 7989,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3144,
     "source": "Record Sheets: 3150",
     "rules_level": 3,
@@ -15,10 +15,14 @@
         "easy_maintain"
     ],
     "mass": 60,
-    "engine": "240 XL Engine(IS)",
+    "engine": {
+        "name": "240 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo-Composite",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -56,7 +60,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Light Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 19
         },

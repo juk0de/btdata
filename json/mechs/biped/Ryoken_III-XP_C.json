@@ -1,18 +1,22 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Ryoken III-XP",
     "clanname": "Skinwalker",
     "model": "C",
     "mul_id": 7381,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3143,
     "rules_level": 4,
     "rules_level_str": "Standard",
     "role": "Striker",
     "source": "XTR: Republic III",
     "mass": 55,
-    "engine": "330 XL (Clan) Engine",
+    "engine": {
+        "name": "330 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

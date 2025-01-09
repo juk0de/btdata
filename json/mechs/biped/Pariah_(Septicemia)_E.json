@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Pariah (Septicemia)",
     "model": "E",
     "mul_id": 5023,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3072,
     "source": "Wars of Reaving",
     "rules_level": 4,
@@ -16,7 +16,11 @@
         "bad_rep_clan"
     ],
     "mass": 55,
-    "engine": "275 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "275 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

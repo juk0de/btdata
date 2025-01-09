@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Wyvern IIC",
     "model": "",
     "mul_id": 3601,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2843,
     "source": "TRO: 3060",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "pro_actuator"
     ],
     "mass": 45,
-    "engine": "180 Fusion (Clan) Engine",
+    "engine": {
+        "name": "180 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

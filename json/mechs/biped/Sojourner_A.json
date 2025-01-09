@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sojourner",
     "model": "A",
     "mul_id": 7444,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3147,
     "source": "Rec Guide:ilClan #2",
     "rules_level": 3,
@@ -16,7 +16,11 @@
         "rugged_1"
     ],
     "mass": 60,
-    "engine": "240 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "240 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

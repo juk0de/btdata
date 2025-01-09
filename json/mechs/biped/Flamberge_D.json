@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Flamberge",
     "model": "D",
     "mul_id": 6873,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3115,
     "source": "TRO: 3145",
     "rules_level": 4,
@@ -14,7 +14,11 @@
         "imp_target_med"
     ],
     "mass": 70,
-    "engine": "280 XL (Clan) Engine",
+    "engine": {
+        "name": "280 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

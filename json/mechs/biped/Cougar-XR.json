@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Cougar",
     "model": "XR",
     "mul_id": 4013,
     "config": "Biped",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3071,
     "source": "XTR: Clans",
     "rules_level": 4,
@@ -36,7 +36,11 @@
         }
     ],
     "mass": 35,
-    "engine": "175 XL (Clan) Engine",
+    "engine": {
+        "name": "175 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo-Steel",
         "tech_base": "Clan",

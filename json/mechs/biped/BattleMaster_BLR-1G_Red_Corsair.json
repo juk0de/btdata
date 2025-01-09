@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "BattleMaster",
     "model": "BLR-1G (Red Corsair)",
     "mul_id": 284,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3055,
     "source": "TRO: Clan Invasion",
     "rules_level": 3,
@@ -15,9 +15,14 @@
         "weak_head_1"
     ],
     "mass": 85,
-    "engine": "340 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "340 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },

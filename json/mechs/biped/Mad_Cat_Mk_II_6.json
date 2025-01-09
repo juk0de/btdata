@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Mad Cat Mk II",
     "model": "6",
     "mul_id": 6848,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3139,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 3,
@@ -14,7 +14,11 @@
         "imp_target_med"
     ],
     "mass": 90,
-    "engine": "360 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "360 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

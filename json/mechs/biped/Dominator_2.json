@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Dominator",
     "model": "2",
     "mul_id": 7435,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3149,
     "source": "Rec Guide:ilClan #1",
     "rules_level": 2,
@@ -29,7 +29,11 @@
         }
     ],
     "mass": 65,
-    "engine": "325 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "325 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

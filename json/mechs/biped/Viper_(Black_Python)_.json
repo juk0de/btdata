@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Viper",
     "clanname": "Black Python",
     "model": "",
     "mul_id": 3432,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3051,
     "source": "Rec Guide:ilClan #12",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "imp_target_short"
     ],
     "mass": 75,
-    "engine": "375 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "375 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

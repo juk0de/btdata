@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Peregrine",
     "clanname": "Horned Owl",
     "model": "",
     "mul_id": 2472,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2835,
     "source": "Rec Guide:ilClan #11",
     "rules_level": 2,
@@ -20,7 +20,11 @@
         }
     ],
     "mass": 35,
-    "engine": "210 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "210 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

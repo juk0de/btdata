@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Warhammer IIC",
     "model": "12",
     "mul_id": 6857,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3130,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 4,
@@ -15,7 +15,11 @@
         "stable"
     ],
     "mass": 80,
-    "engine": "400 XXL (Clan) Engine(IS)",
+    "engine": {
+        "name": "400 XXL Engine",
+        "type": "XXL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

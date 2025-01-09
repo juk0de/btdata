@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Pinion",
     "model": "",
     "mul_id": 4829,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3065,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -14,9 +14,14 @@
         "bad_rep_clan"
     ],
     "mass": 45,
-    "engine": "225 Fusion Engine",
+    "engine": {
+        "name": "225 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },
@@ -52,6 +57,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Standard",
+        "tech_base": "Clan",
         "left_arm": {
             "pips": 14
         },

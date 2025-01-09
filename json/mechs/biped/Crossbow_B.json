@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Crossbow",
     "model": "B",
     "mul_id": 731,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2870,
     "source": "TRO: 3058",
     "rules_level": 2,
@@ -14,10 +14,14 @@
         "imp_target_short"
     ],
     "mass": 65,
-    "engine": "325 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "325 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

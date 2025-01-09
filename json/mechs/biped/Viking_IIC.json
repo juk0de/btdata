@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Viking IIC",
     "model": "",
     "mul_id": 6634,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3095,
     "source": "TRO: 3145 Lyran Commonwealth",
     "rules_level": 3,
@@ -17,7 +17,11 @@
         "poor_target_short"
     ],
     "mass": 90,
-    "engine": "270 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "270 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

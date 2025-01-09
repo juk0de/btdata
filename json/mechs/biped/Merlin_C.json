@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Merlin",
     "model": "C",
     "mul_id": 9319,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3093,
     "source": "Rec Guide:ilClan #26",
     "rules_level": 3,
@@ -15,10 +15,14 @@
         "rugged_1"
     ],
     "mass": 60,
-    "engine": "240 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "240 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

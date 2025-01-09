@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Uller",
     "clanname": "Kit Fox",
     "model": "BLO",
     "mul_id": 7632,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3138,
     "source": "Spotlight On: Unending Faith",
     "rules_level": 4,
@@ -15,7 +15,11 @@
         "low_profile"
     ],
     "mass": 30,
-    "engine": "180 XL (Clan) Engine",
+    "engine": {
+        "name": "180 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

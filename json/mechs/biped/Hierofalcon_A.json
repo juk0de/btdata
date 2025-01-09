@@ -1,17 +1,21 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hierofalcon",
     "model": "A",
     "mul_id": 7485,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3148,
     "source": "Rec Guide:ilClan #3",
     "rules_level": 3,
     "rules_level_str": "Standard",
     "role": "Striker",
     "mass": 45,
-    "engine": "270 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "270 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

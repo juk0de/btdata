@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Shrike",
     "model": "",
     "mul_id": 6292,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3113,
     "source": "TRO: 3145 The Clans",
     "rules_level": 3,
@@ -30,7 +30,11 @@
         }
     ],
     "mass": 95,
-    "engine": "380 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "380 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

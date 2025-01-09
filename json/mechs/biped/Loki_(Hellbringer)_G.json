@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Loki",
     "clanname": "Hellbringer",
     "model": "G",
     "mul_id": 6879,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3112,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 3,
@@ -15,10 +15,14 @@
         "searchlight"
     ],
     "mass": 65,
-    "engine": "325 XL (Clan) Engine",
+    "engine": {
+        "name": "325 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

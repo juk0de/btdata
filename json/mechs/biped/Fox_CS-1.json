@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Fox",
     "model": "CS-1",
     "mul_id": 4182,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 2824,
     "source": "TRO: Golden Century",
     "rules_level": 4,
@@ -14,7 +14,11 @@
         "variable_range_long"
     ],
     "mass": 50,
-    "engine": "300 XL (Clan) Engine",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",
@@ -53,7 +57,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 15
         },

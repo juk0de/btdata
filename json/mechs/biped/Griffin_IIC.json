@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Griffin IIC",
     "model": "",
     "mul_id": 1310,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 2852,
     "source": "Rec Guide:ilClan #14",
     "rules_level": 2,
@@ -15,7 +15,11 @@
         "battle_fists_ra"
     ],
     "mass": 40,
-    "engine": "240 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "240 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

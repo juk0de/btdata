@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sha Yu",
     "model": "SYU-4B",
     "mul_id": 5027,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3065,
     "source": "TRO: 3067",
     "rules_level": 2,
@@ -14,10 +14,14 @@
         "imp_com"
     ],
     "mass": 40,
-    "engine": "280 XL Engine(IS)",
+    "engine": {
+        "name": "280 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +57,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Stealth",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 12
         },

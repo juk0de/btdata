@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Awesome",
     "model": "AWS-11M",
     "mul_id": 173,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3079,
     "source": "XTR: Marik",
     "rules_level": 3,
@@ -14,9 +14,14 @@
         "battle_fists_la"
     ],
     "mass": 80,
-    "engine": "240 Fusion Engine (Clan)",
+    "engine": {
+        "name": "240 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "Mixed",
         "head": {
             "pips": 3
         },

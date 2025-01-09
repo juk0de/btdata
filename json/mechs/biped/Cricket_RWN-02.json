@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Cricket",
     "model": "RWN-02",
     "mul_id": 9406,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3142,
     "source": "Rec Guide:ilClan #6",
     "rules_level": 3,
@@ -16,10 +16,14 @@
         "weak_legs"
     ],
     "mass": 30,
-    "engine": "270 XXL Engine(IS)",
+    "engine": {
+        "name": "270 XXL Engine",
+        "type": "XXL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Composite",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -57,7 +61,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Ballistic-Reinforced",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

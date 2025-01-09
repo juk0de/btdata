@@ -1,20 +1,24 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Quasimodo",
     "model": "QSM-3D",
     "mul_id": 6509,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3140,
     "source": "TRO: 3145 Free Worlds League",
     "rules_level": 4,
     "rules_level_str": "Standard",
     "role": "Skirmisher",
     "mass": 55,
-    "engine": "275 XL Engine(IS)",
+    "engine": {
+        "name": "275 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -50,7 +54,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 18
         },

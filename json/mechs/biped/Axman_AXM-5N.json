@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Axman",
     "model": "AXM-5N",
     "mul_id": 7790,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3148,
     "source": "Rec Guide:ilClan #12",
     "rules_level": 2,
@@ -14,10 +14,14 @@
         "pro_actuator"
     ],
     "mass": 65,
-    "engine": "260 XL Engine(IS)",
+    "engine": {
+        "name": "260 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,7 +58,7 @@
     "jump_mp": 4,
     "armor": {
         "type": "Light Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 20
         },

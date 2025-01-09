@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Firestarter",
     "model": "FS9-M 'Mirage'",
     "mul_id": 1098,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2893,
     "source": "TRO: 3039",
     "rules_level": 1,
@@ -15,9 +15,14 @@
         "ubiquitous_is"
     ],
     "mass": 35,
-    "engine": "210 Fusion Engine",
+    "engine": {
+        "name": "210 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +58,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 12
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Linebacker",
     "model": "C",
     "mul_id": 1888,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3052,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "stable"
     ],
     "mass": 65,
-    "engine": "390 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "390 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

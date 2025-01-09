@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Shadow Hawk",
     "model": "SHD-3K",
     "mul_id": 2904,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3075,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -19,9 +19,14 @@
         "rugged_1"
     ],
     "mass": 55,
-    "engine": "275 Fusion Engine(IS)",
+    "engine": {
+        "name": "275 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -57,7 +62,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Heavy Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 16
         },

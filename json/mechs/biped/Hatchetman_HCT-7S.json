@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Hatchetman",
     "model": "HCT-7S",
     "mul_id": 1418,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3084,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "anti_air"
     ],
     "mass": 45,
-    "engine": "225 Light Engine",
+    "engine": {
+        "name": "225 Light Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +58,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 14
         },

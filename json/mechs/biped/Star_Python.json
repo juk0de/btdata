@@ -1,17 +1,21 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Star Python",
     "model": "",
     "mul_id": 8413,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3150,
     "source": "Rec Guide:ilClan #23",
     "rules_level": 3,
     "rules_level_str": "Standard",
     "role": "Scout",
     "mass": 25,
-    "engine": "175 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "175 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

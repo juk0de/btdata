@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "generator": "MegaMek Suite 0.49.16-SNAPSHOT on 2023-12-29",
     "chassis": "Thunderbolt IIC",
     "model": "2",
     "mul_id": 5240,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3088,
     "source": "Iron Wind Metals",
     "rules_level": 2,
@@ -54,10 +54,14 @@
         }
     ],
     "mass": 70,
-    "engine": "280 Fusion Engine(IS)",
+    "engine": {
+        "name": "280 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

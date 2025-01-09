@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Raijin",
     "model": "RJN-101-C",
     "mul_id": 2627,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3062,
     "source": "Rec Guide:ilClan #23",
     "rules_level": 2,
@@ -47,10 +47,14 @@
         }
     ],
     "mass": 50,
-    "engine": "300 XL Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -86,7 +90,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 14
         },

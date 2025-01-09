@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Longbow",
     "model": "LGB-0C",
     "mul_id": 5619,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2480,
     "source": "XTR: Primitives III",
     "rules_level": 4,
@@ -21,9 +21,14 @@
         "weak_legs"
     ],
     "mass": 85,
-    "engine": "310 Fusion Engine(IS)",
+    "engine": {
+        "name": "310 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -61,7 +66,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Primitive",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 9
         },

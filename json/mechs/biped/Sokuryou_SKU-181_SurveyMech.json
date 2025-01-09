@@ -1,19 +1,24 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Sokuryou",
     "model": "SKU-181 SurveyMech",
     "mul_id": 2982,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3084,
     "source": "TRO: 3085",
     "rules_level": 2,
     "rules_level_str": "Standard",
     "role": "Scout",
     "mass": 25,
-    "engine": "100 ICE Engine(IS)",
+    "engine": {
+        "name": "100 ICE Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Industrial",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -49,7 +54,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Heavy Industrial",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 8
         },
@@ -142,8 +147,8 @@
             "12": null
         },
         "right_torso": {
-            "1": "Communications Equipment",
-            "2": "Communications Equipment",
+            "1": "Communications Equipment (2 ton)",
+            "2": "Communications Equipment (2 ton)",
             "3": null,
             "4": null,
             "5": null,
@@ -211,13 +216,5 @@
             "11": null,
             "12": null
         }
-    },
-    "equipment": [
-        {
-            "name": "Communications Equipment",
-            "location": "right_torso",
-            "type": "electronics",
-            "size": "2t"
-        }
-    ]
+    }
 }

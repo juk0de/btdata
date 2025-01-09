@@ -1,19 +1,23 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Tempest",
     "model": "TMP-4M",
     "mul_id": 8006,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3134,
     "source": "Record Sheets: 3150",
     "rules_level": 2,
     "rules_level_str": "Standard",
     "mass": 65,
-    "engine": "260 XL Engine(IS)",
+    "engine": {
+        "name": "260 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -49,7 +53,7 @@
     "jump_mp": 5,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 18
         },

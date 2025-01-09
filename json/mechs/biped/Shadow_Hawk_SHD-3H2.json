@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "generator": "MegaMek Suite 0.49.20-SNAPSHOT on 2024-04-21",
     "chassis": "Shadow Hawk",
     "model": "SHD-3H2",
     "mul_id": 9538,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 2775,
     "source": "Shrapnel #14",
     "rules_level": 3,
@@ -20,10 +20,14 @@
         "ubiquitous_is"
     ],
     "mass": 55,
-    "engine": "220 Fusion Engine(IS)",
+    "engine": {
+        "name": "220 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -59,7 +63,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 16
         },

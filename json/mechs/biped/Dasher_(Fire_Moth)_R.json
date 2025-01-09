@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Dasher",
     "clanname": "Fire Moth",
     "model": "R",
     "mul_id": 7582,
     "config": "Biped Omnimech",
-    "techbase": "Mixed (Clan Chassis)",
+    "tech_base": "Mixed",
     "era": 3110,
     "source": "Rec Guide:ilClan #8",
     "rules_level": 2,
@@ -16,7 +16,11 @@
         "overhead_arms"
     ],
     "mass": 20,
-    "engine": "200 XL (Clan) Engine",
+    "engine": {
+        "name": "200 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

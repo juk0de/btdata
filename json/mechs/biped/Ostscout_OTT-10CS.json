@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Ostscout",
     "model": "OTT-10CS",
     "mul_id": 2364,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3071,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -17,9 +17,14 @@
         "rugged_1"
     ],
     "mass": 35,
-    "engine": "280 XL Engine",
+    "engine": {
+        "name": "280 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -57,7 +62,7 @@
     "jump_mp": 10,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 9
         },

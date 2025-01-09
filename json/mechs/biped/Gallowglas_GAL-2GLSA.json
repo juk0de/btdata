@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Gallowglas",
     "model": "GAL-2GLSA",
     "mul_id": 1184,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3069,
     "source": "TRO: 3085",
     "rules_level": 2,
@@ -14,9 +14,14 @@
         "good_rep_1"
     ],
     "mass": 70,
-    "engine": "280 Fusion Engine",
+    "engine": {
+        "name": "280 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -52,7 +57,7 @@
     "jump_mp": 3,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 20
         },

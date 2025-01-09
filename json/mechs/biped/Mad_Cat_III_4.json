@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Mad Cat III",
     "model": "4",
     "mul_id": 6897,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3095,
     "source": "Record Sheets: 3145 New Tech New Upgrades",
     "rules_level": 2,
@@ -16,7 +16,11 @@
         "imp_com"
     ],
     "mass": 55,
-    "engine": "330 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "330 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

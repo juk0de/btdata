@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Black Lanner",
     "model": "A",
     "mul_id": 363,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3052,
     "source": "TRO: 3058",
     "rules_level": 2,
@@ -14,7 +14,11 @@
         "stable"
     ],
     "mass": 55,
-    "engine": "385 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "385 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

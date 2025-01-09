@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Kodiak",
     "model": "",
     "mul_id": 1805,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3001,
     "source": "TRO: 3058",
     "rules_level": 2,
@@ -16,7 +16,11 @@
         "distracting"
     ],
     "mass": 100,
-    "engine": "400 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "400 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

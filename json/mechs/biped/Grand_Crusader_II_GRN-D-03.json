@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Grand Crusader II",
     "model": "GRN-D-03",
     "mul_id": 1254,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3066,
     "source": "TRO: 3055",
     "rules_level": 2,
@@ -16,9 +16,14 @@
         "bad_rep_is"
     ],
     "mass": 80,
-    "engine": "320 Light Engine",
+    "engine": {
+        "name": "320 Light Engine",
+        "type": "Light",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,7 +59,7 @@
     "jump_mp": 4,
     "armor": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 26
         },

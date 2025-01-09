@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Locust IIC",
     "model": "10",
     "mul_id": 8203,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3148,
     "source": "Rec Guide:ilClan #16",
     "rules_level": 3,
@@ -17,7 +17,11 @@
         "weak_legs"
     ],
     "mass": 25,
-    "engine": "200 Fusion (Clan) Engine(IS)",
+    "engine": {
+        "name": "200 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

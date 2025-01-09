@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Uziel",
     "model": "UZL-8S",
     "mul_id": 5679,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3075,
     "rules_level": 2,
     "rules_level_str": "Standard",
@@ -16,9 +16,14 @@
         "exp_actuator"
     ],
     "mass": 50,
-    "engine": "250 XL Fusion Engine",
+    "engine": {
+        "name": "250 XL Fusion Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo-Steel",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -54,6 +59,7 @@
     "jump_mp": 8,
     "armor": {
         "type": "Standard",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 16
         },

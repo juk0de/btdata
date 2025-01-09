@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Loki",
     "clanname": "Hellbringer",
     "model": "C",
     "mul_id": 1925,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3054,
     "source": "TRO: Clan Invasion",
     "rules_level": 2,
@@ -15,10 +15,14 @@
         "searchlight"
     ],
     "mass": 65,
-    "engine": "325 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "325 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },

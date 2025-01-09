@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Caesar",
     "model": "CES-4R",
     "mul_id": 457,
     "config": "Biped",
-    "techbase": "Inner Sphere",
+    "tech_base": "IS",
     "era": 3067,
     "source": "TRO: 3050",
     "rules_level": 2,
@@ -14,10 +14,14 @@
         "hyper_actuator"
     ],
     "mass": 70,
-    "engine": "280 XL Engine(IS)",
+    "engine": {
+        "name": "280 XL Engine",
+        "type": "XL",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Standard",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "head": {
             "pips": 3
         },
@@ -53,7 +57,7 @@
     "jump_mp": 0,
     "armor": {
         "type": "Ferro-Fibrous",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 22
         },

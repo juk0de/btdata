@@ -1,11 +1,11 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Vulture Mk IV",
     "clanname": "Mad Dog Mk IV",
     "model": "D",
     "mul_id": 6562,
     "config": "Biped Omnimech",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3137,
     "source": "TRO: 3145 Mercenaries",
     "rules_level": 3,
@@ -17,7 +17,11 @@
         "non_standard"
     ],
     "mass": 60,
-    "engine": "300 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "300 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
         "tech_base": "Clan",

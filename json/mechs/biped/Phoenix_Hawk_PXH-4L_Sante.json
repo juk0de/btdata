@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Phoenix Hawk",
     "model": "PXH-4L (Sante)",
     "mul_id": 5807,
     "config": "Biped",
-    "techbase": "Mixed (IS Chassis)",
+    "tech_base": "Mixed",
     "era": 3068,
     "source": "BattleTech Dossiers: The Bounty Hunter",
     "rules_level": 4,
@@ -25,9 +25,14 @@
         }
     ],
     "mass": 45,
-    "engine": "270 Fusion Engine(IS)",
+    "engine": {
+        "name": "270 Fusion Engine",
+        "type": "Standard",
+        "tech_base": "IS"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Mixed",
         "head": {
             "pips": 3
         },
@@ -64,7 +69,7 @@
     "jump_mp": 6,
     "armor": {
         "type": "Stealth",
-        "tech_base": "Inner Sphere",
+        "tech_base": "IS",
         "left_arm": {
             "pips": 10
         },

@@ -1,10 +1,10 @@
 {
-    "mtf2json": "0.2.6",
+    "mtf2json": "0.2.7",
     "chassis": "Warhammer IIC",
     "model": "7",
     "mul_id": 3506,
     "config": "Biped",
-    "techbase": "Clan",
+    "tech_base": "Clan",
     "era": 3079,
     "source": "Record Sheets: 3085 Unabridged - Project Phoenix",
     "rules_level": 2,
@@ -15,9 +15,14 @@
         "stable"
     ],
     "mass": 80,
-    "engine": "320 XL (Clan) Engine(IS)",
+    "engine": {
+        "name": "320 XL Engine",
+        "type": "XL",
+        "tech_base": "Clan"
+    },
     "structure": {
         "type": "Endo Steel",
+        "tech_base": "Clan",
         "head": {
             "pips": 3
         },
@@ -287,7 +292,7 @@
         {
             "name": "Cargo (Standard)",
             "location": "center_torso",
-            "type": "transport bay",
+            "category": "transport",
             "size": "1t"
         }
     ]
